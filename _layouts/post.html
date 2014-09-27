@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ page.header-img }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				{{ content }}
+
+                <hr>
+
+                <ul class="pager">
+                    {% if page.next.url %}
+                    <li class="previous">
+                        <a href="{{page.next.url}}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&larr; Next Post</a> 
+                    </li>
+                    {% endif %} 
+                    {% if page.previous.url %}
+                    <li class="next">
+                        <a href="{{page.previous.url}}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">Previous Post &rarr;</a>
+                    </li>
+                    {% endif %} 
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
