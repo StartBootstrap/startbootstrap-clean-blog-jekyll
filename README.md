@@ -3,7 +3,7 @@ Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by Start Bootstrap.
 
-##[View Live Demo](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
+###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
 ## Before You Begin
 
