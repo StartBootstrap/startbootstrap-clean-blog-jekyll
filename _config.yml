@@ -1,9 +1,9 @@
 # Site settings
 title: Clean Blog
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: your-email@yourdomain.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://startbootstrap.com"
+url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
@@ -12,3 +12,4 @@ facebook_username:  IronSummitMedia
 markdown: kramdown
 permalink: pretty
 paginate: 5
+exclude: ["node_modules"]
