@@ -1000,9 +1000,6 @@ $('#name').focus(function() {
 //make all images responsive
 $("img").addClass("img-responsive")
 
-//make all iframes responsive
-$("iframe").wrap('<div class="embed-responsive embed-responsive-4by3"></div>')
-
 // Floating label headings for the contact form
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
