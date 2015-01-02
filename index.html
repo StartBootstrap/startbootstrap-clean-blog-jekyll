@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: "belying the infinite monkey theorem since 1987"
 header-img: "img/home-bg.jpg"
 ---
 
@@ -16,6 +16,8 @@ header-img: "img/home-bg.jpg"
         </h3>
         {% endif %}
     </a>
+    <p class="todo_preview">{{ post.content | strip_html | truncatewords:75}} </p>
+    <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
