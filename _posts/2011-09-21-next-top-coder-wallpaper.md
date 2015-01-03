@@ -1,6 +1,7 @@
 ---
 layout:     post
-title:      "Next Top Coder - wapllpaper"
+title:      "Next Top Coder"
+subtitle:   "pop-geek culture wallpapers"
 date:       2011-09-21 23:24:00
 author:     "nietaki"
 header-img: "img/headers/topcodr.png"
