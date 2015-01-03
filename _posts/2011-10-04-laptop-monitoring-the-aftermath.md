@@ -1,7 +1,7 @@
 ---
 title:      "laptop monitoring"
 subtitle:   "the aftermath"
-date:       2012-10-19 12:00:00
+date:       2011-10-04 12:00:00
 photos:
   - ss2011_04_14-10_13_37.jpg
   - ss2011_04_14-12_38_21.jpg

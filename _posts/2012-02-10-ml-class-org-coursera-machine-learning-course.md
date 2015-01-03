@@ -1,7 +1,7 @@
 ---
 title:      "ML-class.org"
 subtitle:   "online machine learning course"
-date:       2012-10-19 12:00:00
+date:       2012-02-10 12:00:00
 ---
 
 In the last three months of the last year I had the pleasure of taking part in an online machine learning course, taught by prof. Andrew Ng of the Stanford University. The course is already over, so it might seem old news, but next edition should start any time now. If the topic of machine learning seems interesting to you in any way I can really recommend it.
