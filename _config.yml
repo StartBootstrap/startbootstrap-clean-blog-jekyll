@@ -6,7 +6,9 @@ baseurl: ""
 url: "http://nietaki.github.io"
 twitter_username: nietaki 
 github_username: nietaki 
-facebook_username: nietaki 
+#facebook_username: nietaki
+linkedin_id: jacekkrolikowski
+instagram_username: nietaki
 
 # Build settings
 markdown: kramdown
