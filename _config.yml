@@ -1,7 +1,7 @@
 # Site settings
 title: almost done 
-email: nietaki@gmail.com
-description: "The (mostly) programming-themed blog of nietaki."
+email: jacek.krolikowski@almost-done.net 
+description: "Almost Done - the (mostly) programming-themed blog of nietaki."
 baseurl: ""
 url: "http://nietaki.github.io"
 twitter_username: nietaki 
@@ -15,6 +15,7 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+# Defaults for posts
 defaults:
   -
     scope: 
@@ -23,4 +24,4 @@ defaults:
     values:
       layout: "post"
       author: "nietaki"
-      header-img: "img/headers/typeheads.jpg"
+      header-img: "img/headers/typeheads.jpg" # We don't want posts without a header image, that whould mean white on white
