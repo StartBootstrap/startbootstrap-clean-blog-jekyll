@@ -31,7 +31,8 @@ Here are the conclusions of the lecture
 
 Maybe I should add, that the 4th item on the list wasn’t mentioned in the lecture but seems like a logical conclusion to me ;)
 
-The next lecturer was Walfredo Cirne, who touched the surface of good practices in the design and usage of “cloud” type systems, and said a surprising amount about [Agile](http://en.wikipedia.org/wiki/Agile_software_development) software development methodologies e.g. – code review, pair programming, and TDD. Pretty interesting, especially the parts the readers could relate to.
+The next lecturer was Walfredo Cirne, who touched the surface of good practices in the design and usage of “cloud” type systems, and said a surprising amount about [Agile](http://en.wikipedia.org/wiki/Agile_software_development) software development methodologies
+ e.g. – code review, pair programming, and TDD. Pretty interesting, especially the parts the readers could relate to.
 
 The lecture ended with Onufry Wojtaszczyk telling us about what he does as a Google engineer and he made it perfectly clear how much he loves it.
 
