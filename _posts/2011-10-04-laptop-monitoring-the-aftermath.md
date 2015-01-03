@@ -14,6 +14,9 @@ photos:
   - ss2011_08_04-21_29_49.jpg
   - ss2011_08_11-10_16_46.jpg
   - ss2011_08_11-10_55_37.jpg
+redirect_from:
+  - /2011/10/monitoring-laptopa-po-pol-roku/
+  - /en/2011/10/monitoring-laptopa-po-pol-roku/
 ---
 
 Some time ago [I described](/2011/04/24/defensive-photobooth/) a script you could use to see who’s using your laptop when you’re not around. I sadly (?) didn’t catch any robbers using it, but the whole setup already took nearly 4000 photos, some of which might be a little interesting:

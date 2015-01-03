@@ -1,6 +1,9 @@
 ---
 title:      "Intern's guide to Dublin"
 date:       2012-10-19 12:00:00
+redirect_from:
+  - /2012/10/interns-guide-to-dublin/
+  - /en/2012/10/interns-guide-to-dublin/
 ---
 
 I spent the last three months in Dublin, on an internship with Microsoft. The experience was great and I could recommend it to anybody, but that’s not what I wanted to talk about this time. Whenever you move from one place to another there’s a certain amount of know-how that makes your new life easier/better/more predictable and that knowledge usually comes with time. By the end of my internship I felt at home in Dublin and now I’d like to share some tips with you.

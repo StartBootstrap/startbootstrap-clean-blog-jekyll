@@ -10,6 +10,9 @@ github_username: nietaki
 linkedin_id: jacekkrolikowski
 instagram_username: nietaki
 
+gems:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 highlighter: pygments

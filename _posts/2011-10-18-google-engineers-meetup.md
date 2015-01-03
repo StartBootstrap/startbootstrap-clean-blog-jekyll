@@ -2,6 +2,9 @@
 title:      "Google engineers meetup"
 subtitle:   "and good advice from Joshua Bloch"
 date:       2011-10-18 12:00:00
+redirect_from:
+  - /en/2011/10/google-engineers-metup/
+  - /2011/10/google-engineers-metup/
 ---
 
 This thursday, in the lecture hall of the Biology Departament of University of Warsaw, Google organized a meetup with their engineers, celebrating the official launch of their new office in Warsaw. The event started with [Joshua Bloch](http://pl.wikipedia.org/wiki/Joshua_Bloch)’s, lecture, which was a treat for the attendees, most of whom were [MIM UW](http://www.mimuw.edu.pl/) students, almost filling the room.

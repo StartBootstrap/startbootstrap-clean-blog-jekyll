@@ -3,6 +3,9 @@ layout: page
 title: "About"
 description: "This is what I do."
 header-img: img/headers/samples/contact-bg.jpg
+redirect_from:
+ - /foo/
+ - /en/about/
 ---
 
 My name is Jacek Królikowski and I'm a programmer from Warsaw, Poland. I have recently graduated from the University

@@ -2,6 +2,9 @@
 title:      "defensive photobooth"
 subtitle:   "a.k.a Do Not Fuck With a Hacker's Machine"
 date:       2011-04-24 12:00:00
+redirect_from:
+  - /2011/04/laptop-podgladajacy-zlodziei/
+  - /en/2011/04/laptop-podgladajacy-zlodziei/
 ---
 
 Some time ago, inspired by…

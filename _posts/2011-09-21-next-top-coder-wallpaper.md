@@ -5,6 +5,9 @@ subtitle:   "pop-geek culture wallpapers"
 date:       2011-09-21 23:24:00
 author:     "nietaki"
 header-img: "img/headers/topcodr.png"
+redirect_from:
+  - /2011/09/next-top-coder-wallpaper/
+  - /en/2011/09/next-top-coder-wallpaper/
 ---
 
 I was talking to a friend of mine and we came up with the idea of  “America’s next top model” and Top Coder crossover. The “top model” shows are slowly losing their popularity, but our idea is still scary on the wallpaper of my desktop, motivating me to hard work:
