@@ -4,3 +4,4 @@ node_modules
 *.bak
 .idea
 util/
+*picasa.ini
