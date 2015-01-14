@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find . -name \*.jpg -exec convert {} -resize 25% thumb/{} \;
+find . -maxdepth 1 -name \*.jpg -exec convert {} -resize 900x900 thumb/{} \;
