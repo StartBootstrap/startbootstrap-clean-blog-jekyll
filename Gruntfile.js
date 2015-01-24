@@ -21,7 +21,9 @@ module.exports = function(grunt) {
             minified: {
                 options: {
                     paths: ["css"],
-                    cleancss: true
+                    plugins: [
+                        new (require('less-plugin-clean-css'))()
+                    ]
                 },
                 files: {
                     "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
