@@ -7,6 +7,13 @@ body {
 	.serif;
 	font-size: 20px;
 	color: @gray-dark;
+
+	/* CSS hacks to make font lighter */
+	/* http://www.kevinsweet.com/best-free-serif-font-on-google-fonts/ */
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: .01em;
 }
 
 // -- Typography
@@ -26,7 +33,7 @@ h4,
 h5,
 h6 {
 	.sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 a {
