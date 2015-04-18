@@ -1,13 +1,12 @@
 # Site settings
-title: Clean Blog
+title: Agent of Entropy
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: decal@uw.edu
+description: "Richard Decal's personal website."
 baseurl: "/startbootstrap-clean-blog-jekyll"
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+github_username:  isomerase
+
 
 # Build settings
 markdown: kramdown

@@ -1,59 +1,52 @@
 <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
-            </div>
-        </div>
-    </div>
+<footer class="text-center" id="contact">
+	<div class="footer-above">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col col-md-4">
+					<h3>Location</h3>
+					<p><i class="fa fa-university"></i>University of Washington<br>Department of Physiology and Biophysics<br>Seattle, WA</p>
+				</div>
+				<div class="footer-col col-md-4">
+					<h3>Around the Web</h3>
+					<ul class="list-inline">
+						<li>
+							<a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="btn-social btn-outline"><i class="fa fa-fw fa-rss"></i></a>
+						</li>
+						<li>
+							<a href="https://github.com/isomerase/" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+						</li>
+						<li>
+							<a href="http://www.flickr.com/photos/richarddecal/" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
+						</li>
+						<li>
+							<a href="http://www.richarddecal.com" class="btn-social btn-outline"><i class="fa fa-fw fa-home"></i></a>
+						</li>
+						<li>
+							<a href="http://www.repositoryofknowledge.info" class="btn-social btn-outline"><i class="fa fa-fw fa-book"></i></a>
+						</li>
+						<li>
+							<a href="mailto:decal@uw.edu" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
+						</li>
+						<li>
+							<a href="https://keybase.io/richarddecal" class="btn-social btn-outline"><i class="fa fa-fw fa-key"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-col col-md-4">
+					<h3>Third Corner</h3>
+					<p>I'll think of something to put here.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-below">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					Copyright &copy; under an Apache 2.0 License, Richard Decal 2014
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
-
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
