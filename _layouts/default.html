@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 {% include head.html %}
 
-<body>
+</head>
 
+<body class="home">
+	{% include _browser-upgrade.html %}
+	
     {% include nav.html %}
 
     {{ content }}
 
+<footer>
     {% include footer.html %}
+</footer>
 
 </body>
 
