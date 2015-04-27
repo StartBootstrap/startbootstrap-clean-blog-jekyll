@@ -9,6 +9,10 @@ twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 
+# Nav icon settings
+logoicon: [ true, "fa fa-rocket" ] # Logo icon of the navbar
+homeicon: [ true, "fa fa-home" ]   # Home icon of the navbar
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
