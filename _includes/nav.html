@@ -9,18 +9,24 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+		{% if site.logoicon[0] %}
+		<i class="{{ site.logoicon[1] }}"></i>
+		{% else %}
+		{{ site.title }}
+		{% endif %}
+	    </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+				<a href="{{ site.baseurl }}/">{% if site.homeicon[0] %}<i class="{{ site.homeicon[1] }}"></i>&nbsp; {% endif %}Home</a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				<a href="{{ page.url | prepend: site.baseurl }}">{% if page.icon %}<i class="{{ page.icon }}"></i>&nbsp; {% endif %}{{ page.title }}</a>
                 </li>
                 {% endif %}{% endfor %}
             </ul>
