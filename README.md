@@ -19,6 +19,18 @@ A Grunt environment is also included. There are a number of tasks it performs li
 
 You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
+## Show nav icon
+You can use icon on navbar.  
+If `logoicon` is true, it shows icon instead of title text.  
+If you don't want to use page icon, remove `icon: ""` from each page.  
+Go to [Font-Awesome](http://fortawesome.github.io/Font-Awesome/icons/) for using icon.
+
+in *_config.yml*  
+`logoicon: [ true, "fa fa-rocket" ]`, using `fa fa-user` icon.  
+`homeicon: [ true, "fa fa-home" ]`, using `fa fa-home` icon. 
+
+
+
 ## Support
 
 Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
