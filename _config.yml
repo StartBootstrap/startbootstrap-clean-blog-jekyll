@@ -3,9 +3,9 @@ title: Clean Blog
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
+baseurl: ""
+url: "http://360thrill.com"
+twitter_username: 360thrill
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 
