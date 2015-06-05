@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Will Green
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: will@willgreen.net
+description: "Pirate, Philosopher, Storyteller"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "https://WILLGREEN.net"
+twitter_username: williamgreen
+github_username:  aesopist
+facebook_username:  #
 
 # Build settings
 markdown: kramdown
