@@ -8,6 +8,7 @@ url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
+linkedin_username:
 
 # Build settings
 markdown: kramdown
