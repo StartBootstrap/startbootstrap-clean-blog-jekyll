@@ -33,25 +33,25 @@ header-img: "img/post-bg-04.jpg"
 <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
 
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-screw-pieces.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screw-pieces.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-shell.jpg" alt="the Freedom360 without any gopros. Naked shell" title="Freedom360 naked shell. No gopros">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-shell.jpg" alt="the Freedom360 without any gopros. Naked shell" title="Freedom360 naked shell. No gopros">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-attaching-gopro-2.jpg" alt="attaching a gopro to the Freedom360" title="Attaching a gopro to the Freedom360">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-attaching-gopro-2.jpg" alt="attaching a gopro to the Freedom360" title="Attaching a gopro to the Freedom360">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-attaching-gopro.jpg" alt="connecting a gopro to the Freedom360" title="connecting a gopro to the Freedom360">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-attaching-gopro.jpg" alt="connecting a gopro to the Freedom360" title="connecting a gopro to the Freedom360">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-screwing-4.jpg" alt="screwing the gopro to the Freedom360 mount using a screwdriver" title="screwing a gopro to the Freedom360 mount using a screwdriver">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screwing-4.jpg" alt="screwing the gopro to the Freedom360 mount using a screwdriver" title="screwing a gopro to the Freedom360 mount using a screwdriver">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-screwing-3.jpg" alt="screwing more screws to the gopro to the Freedom360 mount using a screwdriver" title="screwing more screws to a gopro to the Freedom360 mount using a screwdriver">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screwing-3.jpg" alt="screwing more screws to the gopro to the Freedom360 mount using a screwdriver" title="screwing more screws to a gopro to the Freedom360 mount using a screwdriver">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-screwing-2.jpg" alt="continue screwing all six gopros to the Freedom360 mount using a screwdriver" title="continue screwing the rest of the gopros to the Freedom360 mount using a screwdriver">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screwing-2.jpg" alt="continue screwing all six gopros to the Freedom360 mount using a screwdriver" title="continue screwing the rest of the gopros to the Freedom360 mount using a screwdriver">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-gopros-assembly.jpg" alt="holding up a Freedom360 missing one gopro" title="Holding a uncomplete Freedom360 mount. One gopro to be attached">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-gopros-assembly.jpg" alt="holding up a Freedom360 missing one gopro" title="Holding a uncomplete Freedom360 mount. One gopro to be attached">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-screwing-1.jpg" alt="final gopro being screwed to a Freedom360 mount to complete assembly" title="Screwing final gopro to the Freedom360 mount">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screwing-1.jpg" alt="final gopro being screwed to a Freedom360 mount to complete assembly" title="Screwing final gopro to the Freedom360 mount">
 
-<img src="http://images.360thrill.com/gallery3/var/resizes/360-camera-setting-up-freedom360-complete.jpg" alt="completed assembly of a Freedom360 mount with six gopros" title="Completed assembly of a Freedom360 mount, all the gopros attached and connected">
+<img src="http://images.360thrill.com/gallery3/var/resizes/360-degree-gopro-assembly/360-camera-setting-up-freedom360-complete.jpg" alt="completed assembly of a Freedom360 mount with six gopros" title="Completed assembly of a Freedom360 mount, all the gopros attached and connected">
 
 
 
