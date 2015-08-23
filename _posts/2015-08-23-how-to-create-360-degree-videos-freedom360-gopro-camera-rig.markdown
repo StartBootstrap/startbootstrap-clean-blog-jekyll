@@ -7,6 +7,7 @@ date:       2015-08-23 12:00:00
 author:     "Allan Dixon"
 category:   "blog"
 header-img: "http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-3.jpg"
+comments: True
 ---
 
 <p>So you want to know how to create 360 degree videos? Let us help you with that. We're writing up a series of articles about setting up a 360 camera rig, filming, editing, publishing and distribution.</p>
@@ -116,10 +117,18 @@ header-img: "http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-ca
 <hr>
 
 <h2>It Needs Protection</h2>
-<p>No matter how careful you say you are something will inevitably go wrong. When you're on the move put the 360 camera rig in the ThinkTank protective carry case. This comes with the Freedom360 mount. It will stop lens abrasion, fend off dirt, dust and adds a cushion around the rig.</p>
+<p>No matter how careful you are something will inevitably go wrong. When you're on the move place the 360 camera rig in the ThinkTank protective carry case. This is included with the Freedom360 mount. It will stop lens abrasion, fend off dirt, dust and adds a cushion around the rig.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case.jpg" alt="Carrying the 360 camera setup should always be put in its Protective pouch that comes with the Freedom360. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig">
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case-3.jpg" alt="Close the carrying case for the 360 camera setup so that its protected from scratching, dirt, dust and dropping. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig against dropping and dirt">
-
 <p>Now you're ready to take on the world.</p>
+
+<p>That's are setup. More posts about video settings, filming, editing and much more to come.</p>
+
+<h3>If you found value in this article and know someone who would be interested in it. Share it with them.</h3>
+
+<p>Need some advice or more tips?</p>
+<p>We would love to help, <a href="http://www.twitter.com/360thrill"  target="_blank">hit us up on Twitter @360thrill.</a></p>
+
+<em>Post by <a href="http://www.twitter.com/daxon" target="_blank">Allan Dixon.</a></em>
