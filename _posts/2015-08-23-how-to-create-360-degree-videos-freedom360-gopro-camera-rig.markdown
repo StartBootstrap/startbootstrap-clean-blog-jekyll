@@ -58,54 +58,68 @@ header-img: "http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-ca
 <h2 class="section-heading">Starting 360º Videos with Freedom360 and GoPro</h2>
 <p>With all that equipment you can begin filming 360 degree videos. To start, you need to setup all the GoPros in the Freedom360 mount.</p>
 
-<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screw-pieces.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screws.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
 
+<hr>
+
+<p>This is what the Freedom360 mount looks like without GoPros attached.</p>
+
+<p>Before we bought the mount we couldn't find any photos of it without GoPros. Freedom360's marketing team probably didn't think people would pay a lot for a blank shell. Showing pictures of your mount being used with GoPros makes it all more desirable.</p>
 
 
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-shell.jpg" alt="the Freedom360 without any gopros. Naked shell" title="Freedom360 naked shell. No gopros">
 
-<p>This is what the Freedom360 mount looks like without GoPros attached.</p>
 
-<p>Before we bought the mount we couldn't find any photos of it without GoPros. Freedom360's marketing team probably didn't think people would pay a lot for a blank shell. Showing pictures of your mount being used with GoPros makes it all more desirable.</p>
-<hr>
+<p>Start by attaching the clip end of the GoPro to a slot in the Freedom360.</p>
+
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-attaching-gopro-2.jpg" alt="attaching a gopro to the Freedom360" title="Attaching a gopro to the Freedom360">
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-attaching-gopro.jpg" alt="connecting a gopro to the Freedom360" title="connecting a gopro to the Freedom360">
 
-<p>Start by attaching the clip end of the GoPro to a slot in the Freedom360.</p>
-<hr>
+<p>Screw all the braces to the Freedom360 to secure the GoPros in place.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-4.jpg" alt="screwing the gopro to the Freedom360 mount using a screwdriver" title="screwing a gopro to the Freedom360 mount using a screwdriver">
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-3.jpg" alt="screwing more screws to the gopro to the Freedom360 mount using a screwdriver" title="screwing more screws to a gopro to the Freedom360 mount using a screwdriver">
 
-<p>Screw all the braces to the Freedom360 to secure the GoPros in place.</p>
+<p>Keep going. Screw all six GoPros.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-2.jpg" alt="continue screwing all six gopros to the Freedom360 mount using a screwdriver" title="continue screwing the rest of the gopros to the Freedom360 mount using a screwdriver">
 
-<p>Keep going. Screw all six GoPros.</p>
+
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-gopros-assembly.jpg" alt="holding up a Freedom360 missing one gopro" title="Holding a uncomplete Freedom360 mount. One gopro to be attached">
 
+<p>Last one</p>
+
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-1.jpg" alt="final gopro being screwed to a Freedom360 mount to complete assembly" title="Screwing final gopro to the Freedom360 mount">
 
-<p>Last one</p>
+<p>Finished. Wasn't that simple?</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-complete.jpg" alt="completed assembly of a Freedom360 mount with six gopros" title="Completed assembly of a Freedom360 mount, all the gopros attached and connected">
 
-<b>Finished. Wasn't that simple?</b>
+<hr>
 
 
 <h2>Attaching to Monopods, Tripods, and more</h2>
+
+<p>The package comes with a spanner and a 3/8 male connector. The Freedom360 mount has a female connector on it. I think you know where this is going.</p>
+
+<p>To connect the camera rig to monopods and tripods you need that little connecter screw attached between the two. Twist the 3/8 screw halfway into the Freedom360 mount. The other end screws into whatever attachment you need to hold the camera rig.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-bolt-nut.jpg" alt="the spanner and nut bolt included with the Freedom360 mount" title="the spanner and nut bolt to be attached to the 360 camera">
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-bolt.jpg" alt="screw the nut bolt into the Freedom360 mount so that it can be attached to Monopods and Tripods" title="the nut that holds the 360 camera to monopods and Tripods">
 
-<h2>It Needs Protection. Trust Me</h2>
+<hr>
+
+<h2>It Needs Protection</h2>
+<p>No matter how careful you say you are something will inevitably go wrong. When you're on the move put the 360 camera rig in the ThinkTank protective carry case. This comes with the Freedom360 mount. It will stop lens abrasion, fend off dirt, dust and adds a cushion around the rig.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case.jpg" alt="Carrying the 360 camera setup should always be put in its Protective pouch that comes with the Freedom360. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig">
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case-3.jpg" alt="Close the carrying case for the 360 camera setup so that its protected from scratching, dirt, dust and dropping. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig against dropping and dirt">
+
+<p>Now you're ready to take on the world.</p>
