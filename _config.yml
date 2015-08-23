@@ -6,8 +6,8 @@ description: "Write your site description here. It will be used as your sites me
 baseurl: ""
 url: "http://360thrill.com"
 twitter_username: 360thrill
-github_username:
-facebook_username:  360thrill
+youtube_username: 360thrill
+facebook_username: 360thrill
 
 # Build settings
 markdown: kramdown
