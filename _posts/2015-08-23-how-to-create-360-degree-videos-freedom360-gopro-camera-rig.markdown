@@ -2,7 +2,7 @@
 layout:     post
 title:      "How to Create 360 Degree Videos with Freedom360 and GoPro"
 subtitle:   "Assembling a 360 Video Camera Rig"
-description: "Here is what you need to get started filming 360 degree videos. The equipment that's included and how to setup the 360 camera" 
+description: "Here is what you need to get started filming 360 degree videos. The equipment that's included and how to setup the 360 camera"
 date:       2015-08-23 12:00:00
 author:     "Allan Dixon"
 category:   "blog"
@@ -95,4 +95,17 @@ header-img: "http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-ca
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-complete.jpg" alt="completed assembly of a Freedom360 mount with six gopros" title="Completed assembly of a Freedom360 mount, all the gopros attached and connected">
 
-<h3>Complete</h3>
+<b>Finished. Wasn't that simple?</b>
+
+
+<h2>Attaching to Monopods, Tripods, and more</h2>
+
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-bolt-nut.jpg" alt="the spanner and nut bolt included with the Freedom360 mount" title="the spanner and nut bolt to be attached to the 360 camera">
+
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screwing-bolt.jpg" alt="screw the nut bolt into the Freedom360 mount so that it can be attached to Monopods and Tripods" title="the nut that holds the 360 camera to monopods and Tripods">
+
+<h2>It Needs Protection. Trust Me</h2>
+
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case.jpg" alt="Carrying the 360 camera setup should always be put in its Protective pouch that comes with the Freedom360. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig">
+
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-carry-case-3.jpg" alt="Close the carrying case for the 360 camera setup so that its protected from scratching, dirt, dust and dropping. Made by ThinkTank" title="Protective carry case that comes with the Freedom360 mount. Use it to secure and protect your 360 camera rig against dropping and dirt">
