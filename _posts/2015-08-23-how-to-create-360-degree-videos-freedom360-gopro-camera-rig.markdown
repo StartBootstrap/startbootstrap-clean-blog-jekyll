@@ -19,7 +19,7 @@ comments: True
 
 <h2 class="section-heading">What We Use to Create 360 Videos</h2>
 
-<p>We bought our Freedom360 mounts, six GoPro HERO 4's and stitching software through the <a href="http://store.kolor.com/?___store=eng&___from_store=default"  target="_blank" >Kolor Store</a> which only took a speedy four days for the payment to clear to deliver to us. Highly recommended company.</p>
+<p>We bought our Freedom360 mounts, six GoPro HERO 4's and stitching software through the <a href="http://store.kolor.com/?___store=eng&___from_store=default"  target="_blank" >Kolor Store</a> which only took a speedy four days for the payment to clear along with delivery to our door. Highly recommended company.</p>
 
 <p>On the software end we'd definitely say to get both Autopano Video Pro and Autopano Giga as you'll use them together in post production. Get Autopano Giga for the masking tool feature as you'll need it to fine tune and correct your videos. (We didn't really understand the differences between Autopano Giga and Autopano Pro at the start. Get Giga or you'll be sorry)</p>
 
