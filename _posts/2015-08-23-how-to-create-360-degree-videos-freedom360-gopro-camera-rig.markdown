@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "How to Create 360 Degree Videos with Freedom360 and Gopro - 360º Video Camera Rig"
-subtitle:   "Assembling a 360 Camera Rig"
+title:      "How to Create 360 Degree Videos with Freedom360 and GoPro"
+subtitle:   "Assembling a 360 Video Camera Rig"
 date:       2015-08-23 12:00:00
 author:     "Allan Dixon"
 category:   "blog"
