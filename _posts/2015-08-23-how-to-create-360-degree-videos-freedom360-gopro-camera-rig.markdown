@@ -58,7 +58,7 @@ header-img: "http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-ca
 <h2 class="section-heading">Starting 360º Videos with Freedom360 and GoPro</h2>
 <p>With all that equipment you can begin filming 360 degree videos. To start, you need to setup all the GoPros in the Freedom360 mount.</p>
 
-<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-assembly/360-camera-setting-up-freedom360-screw-pieces.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
+<img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-screw-pieces.jpg" alt="the screw pieces that come with the Freedom360" title="Freedom360 screw pieces">
 
 
 
