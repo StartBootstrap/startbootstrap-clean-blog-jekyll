@@ -110,7 +110,7 @@ comments: True
 
 <p>To connect the camera rig to monopods and tripods you need that little connecter screw attached between the two. Twist the 3/8 screw halfway into the Freedom360 mount. The other end screws into whatever attachment you need to hold the camera rig.</p>
 
-<p>Note: The Freedom360 Explorer mount comes with the 4mm Allen hex pictured below.</p>
+<p>Note: The Freedom360 Explorer mount comes with the 4mm Allen hex wrench pictured below.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-bolt-nut.jpg" alt="the spanner and nut bolt included with the Freedom360 mount" title="the spanner and nut bolt to be attached to the 360 camera">
 
