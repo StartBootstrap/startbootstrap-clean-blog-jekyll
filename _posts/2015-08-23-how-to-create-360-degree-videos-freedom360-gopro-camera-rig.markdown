@@ -23,7 +23,7 @@ comments: True
 
 <p>On the software end we'd definitely say to get both Autopano Video Pro and Autopano Giga as you'll use them together in post production. Get Autopano Giga for the masking tool feature as you'll need it to fine tune and correct your videos. (We didn't really understand the differences between Autopano Giga and Autopano Pro at the start. Get Giga or you'll be sorry)</p>
 
-<p>We sourced <a href="http://www.kingston.com/en/flash/microsd_cards#sdca3"  target="_blank">Kingston 64GB memory microSDHC/SDXC UHS-I U3 90R/80W</a> cards from a UK website. For us the 90mb/s write speed ensured that we'll have the capabilities to record higher data rates as new frame rates and resolutions come available.</p>
+<p>We sourced <a href="http://www.kingston.com/en/flash/microsd_cards#sdca3"  target="_blank">Kingston 64GB memory microSDHC/SDXC UHS-I U3 90R/80W</a> cards from a UK website. For us the 80mb/s write speed ensured that we'll have the capabilities to record higher data rates as new frame rates and resolutions come available.</p>
 
 <p>Get a GoPro Remote so you can turn on and start filming with multiple GoPros at once. GoPro used to include the Wifi Remote in HERO 3/3+ packages so maybe you already have one or a friend has one lying around their house. Otherwise get the new version 'GoPro Smart Remote'</p>
 
@@ -106,9 +106,11 @@ comments: True
 
 <h2>Attaching to Monopods, Tripods, and more</h2>
 
-<p>The package comes with a spanner and a 3/8 male connector. The Freedom360 mount has a female connector on it. I think you know where this is going.</p>
+<p>The package comes with a 3/8 male connector. The Freedom360 mount has a female connector on it. I think you know where this is going.</p>
 
 <p>To connect the camera rig to monopods and tripods you need that little connecter screw attached between the two. Twist the 3/8 screw halfway into the Freedom360 mount. The other end screws into whatever attachment you need to hold the camera rig.</p>
+
+<p>Note: The Freedom360 Explorer mount comes with the 4mm Allen hex pictured below.</p>
 
 <img src="http://images.360thrill.com/gallery3/var/albums/360-degree-gopro-camera/360-camera-setting-up-freedom360-bolt-nut.jpg" alt="the spanner and nut bolt included with the Freedom360 mount" title="the spanner and nut bolt to be attached to the 360 camera">
 
