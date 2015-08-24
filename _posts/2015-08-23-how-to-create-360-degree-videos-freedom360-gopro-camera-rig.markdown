@@ -129,6 +129,6 @@ comments: True
 <h3>If you found value in this article and know someone who would be interested in it. Share it with them.</h3>
 
 <p>Need some advice or more tips?</p>
-<p>We would love to help, <a href="http://www.twitter.com/360thrill"  target="_blank">hit us up on Twitter @360thrill.</a></p>
+<p>Follw us for a lot more great articles <a href="http://www.twitter.com/360thrill"  target="_blank">on Twitter @360thrill.</a></p>
 
 <em>Post by <a href="http://www.twitter.com/daxon" target="_blank">Allan Dixon.</a></em>
