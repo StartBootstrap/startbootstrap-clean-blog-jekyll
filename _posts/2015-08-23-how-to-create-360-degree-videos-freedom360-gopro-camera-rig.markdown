@@ -127,8 +127,8 @@ comments: True
 <p>That's are setup. More posts about video settings, filming, editing and much more to come.</p>
 
 <h3>If you found value in this article and know someone who would be interested in it. Share it with them.</h3>
+<hr>
 
-
-<h4>Follow us for a lot more great articles <a href="http://www.twitter.com/360thrill"  target="_blank">on Twitter @360thrill.</a></h4>
+<p>Follow us for a lot more great articles <a href="http://www.twitter.com/360thrill"  target="_blank"><strong>on Twitter @360thrill.</strong></a></hp>
 
 <em>Post by <a href="http://www.twitter.com/daxon" target="_blank">Allan Dixon.</a></em>
