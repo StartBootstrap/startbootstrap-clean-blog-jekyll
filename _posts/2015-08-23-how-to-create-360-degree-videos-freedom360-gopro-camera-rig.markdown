@@ -133,4 +133,6 @@ comments: True
 
 <p>Follow us for more great articles <a href="http://www.twitter.com/360thrill"  target="_blank"><strong>on Twitter @360thrill.</strong></a></p>
 
+<p>Our actual videos are <a href="http://www.twitter.com/360thrill"  target="_blank"><strong>right here on Youtube</strong></a></p>
+
 <em>Post by <a href="http://www.twitter.com/daxon" target="_blank">Allan Dixon.</a></em>
