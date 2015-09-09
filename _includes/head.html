@@ -1,9 +1,10 @@
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword"  content="huxpro, @huxpro, Hux, 黄玄, Hux黄玄, 鬼栈, Hux Blog, Github, 博客, 互联网, 前端, 设计, 产品, Hux 的个人网站, 黄玄的个人网站, 肖玉, Lynn, 肖玉的男朋友, Lynn Boyfriend ">
     <meta name="description" content="{{ site.description }}">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -13,15 +14,23 @@
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/hux-blog.css" | prepend: site.baseurl }}">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China 
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,4 +39,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <!-- Hux add tongji.baidu -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?4cc1f2d8f3067386cc5cdb626a202900";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 </head>
