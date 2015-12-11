@@ -5,3 +5,12 @@ For now there are no comments, no fancy galleries, categories and tags, just a s
 
 ## Theme
 The theme is very slightly modified official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/). It's incredibly simple, clean and nice to work with. Hats off!
+
+## How to run (in case I forget)
+1. Install node (from its website)
+1. `brew install ruby`
+1. `sudo gem install jekyll jekyll-redirect-from jekyll-gist jekyll-sitemap jekyll-paginate`
+1. `jekyll serve --watch`
+
+
+

@@ -13,6 +13,8 @@ instagram_username: nietaki
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
 
 # Build settings
 markdown: kramdown
