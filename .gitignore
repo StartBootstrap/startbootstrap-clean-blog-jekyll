@@ -5,3 +5,4 @@ node_modules
 .idea
 util/
 *picasa.ini
+.DS_Store

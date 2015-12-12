@@ -46,7 +46,7 @@ layout: default
         </div>
     </div>
 </article>
-{% if page.disqus_identifier %}
+{% if page.disqus_identifier and jekyll.environment == "production" %}
 <div class="container">
     <hr />
     <div class="row">
