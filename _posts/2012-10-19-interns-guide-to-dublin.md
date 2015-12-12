@@ -1,6 +1,7 @@
 ---
 title:      "Intern's guide to Dublin"
 date:       2012-10-19 12:00:00
+disqus_identifier: "Intern's guide to Dublin"
 redirect_from:
   - /2012/10/interns-guide-to-dublin/
   - /en/2012/10/interns-guide-to-dublin/

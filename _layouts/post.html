@@ -27,7 +27,7 @@ layout: default
 
 				{{ content }}
 
-                <hr>
+                <hr />
 
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -46,5 +46,13 @@ layout: default
         </div>
     </div>
 </article>
-
-<hr>
+{% if page.disqus_identifier %}
+<div class="container">
+    <hr />
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {% include disqus.html %}
+        </div>
+    </div>
+</div>
+{% endif %}

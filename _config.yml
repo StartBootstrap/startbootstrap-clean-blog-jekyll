@@ -33,3 +33,4 @@ defaults:
       layout: "post"
       author: "nietaki"
       header-img: "img/headers/typeheads.jpg" # We don't want posts without a header image, that whould mean white on white
+      comments_enabled: false
