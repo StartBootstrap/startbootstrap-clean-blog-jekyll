@@ -1,7 +1,7 @@
 # the Almost Done blog Jekyll migration
 I decided to move my blog from the age-old, insecure, complicated and ugly wordpress install to something simple and easy to work with so that I could focus on the contents more. 
 
-For now there are no comments, no fancy galleries, categories and tags, just a series of posts. In an unlikely event of anybody wanting to actually comment on any of the blog posts, I'll look into adding [Disqus](https://disqus.com/) comments. Plus I think it's only fair that the blog is itself, almost done. 
+For now there are no comments, no fancy galleries, categories and tags, just a series of posts.
 
 ## Theme
 The theme is very slightly modified official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/). It's incredibly simple, clean and nice to work with. Hats off!
