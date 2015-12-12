@@ -43,7 +43,7 @@ There's 5 of us playing, all of us have 5 dice and the bids went as follows:
 - **E**: "five sixes"
 - **A**: "you're a liar!"
 
-So what happened here: **A** saw he hadn't any sixes in his dice and  thought amongst all 25 dice of all the players there weren't five or more sixes. All players reveal their dice and lift as many fingers as many sixes they had, to help the counting. Turns out **B** had two sixes and **E** had two more, but none of the other players had any - there's only 4 in total. **E**'s bid was too high and they lose the round and one of their dice.
+So what happened here: **A** saw he didn't have any sixes in his dice and thought amongst all 25 dice of all the players there weren't five or more sixes. All players reveal their dice and lift as many fingers as many sixes they had, to help the counting. Turns out **B** had two sixes and **E** had two more, but none of the other players had any - there's only 4 in total. **E**'s bid was too high and they lose the round and one of their dice.
  
 If there actually were five sixes on the table, **A** would have lost the round instead and they would have lost one of their dice.
 
