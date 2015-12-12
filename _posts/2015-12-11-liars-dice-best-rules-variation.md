@@ -3,6 +3,7 @@ title:      "Liar's dice (common hand)"
 subtitle:   "best rules variation"
 date:       2015-12-11 14:00:00
 published:  false
+disqus_identifier: "liar's dice'"
 ---
 
 I've been a semi-active board game nerd for quite a while now and I play wide variety of games, ranging from [jungle speed](https://boardgamegeek.com/boardgame/8098/jungle-speed) to [Battlestar Galactica](https://boardgamegeek.com/boardgame/37111/battlestar-galactica) and [go](https://en.wikipedia.org/wiki/Go_%28game%29). It's a huge universe to explore, but there's been one game that me and my friends have been playing for years now and it's still a crowd favourite. It can accommodate virtually any number of players, it's cheap (all you need is some dice), simple to explain, and - last but not least, drunk-people-friendly. If you can still count, you can still play and even if the table is all covered in beer, the dice couldn't care less.
