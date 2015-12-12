@@ -7,10 +7,6 @@ date:       2015-12-12 22:00:00
 published:  true
 ---
 
-{{ jekyll.environment }}
-{{ site.serving }}
-
-
 I've been a semi-active board game nerd for quite a while now and I find myself playing a wide variety of games, ranging from [Jungle Speed](https://boardgamegeek.com/boardgame/8098/jungle-speed) to [Battlestar Galactica](https://boardgamegeek.com/boardgame/37111/battlestar-galactica) and [go](https://en.wikipedia.org/wiki/Go_%28game%29). Board games are a huge universe to explore, but there's been one game that me and my friends have been playing for years now and it's still a crowd favourite. It can accommodate virtually any number of players, it's cheap (all you need is some dice), simple to explain, and - last but not least, drunk-people-friendly. If you can still count, you can still play and even if the table is all covered in beer, the dice couldn't care less.
 
 But as with most things, the devil's in the details. Most people know a version of the game, but there is one particular one that is both fun and perfectly fair - there's a winning move in every situation. I've recently been asked to write it up and share, soo...
