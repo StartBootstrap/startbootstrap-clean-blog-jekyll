@@ -17,7 +17,7 @@ header-img: "img/contact-bg.jpg"
         {% endif %}
             <a href="{{ post.url | prepend: site.baseurl }}">    
                 <h3 class="post-subtitle">           
-                    <i>{{ post.date | date: '%B %d' }}</i>  -  {{ post.title }}
+                    {{ post.date | date: '%B %d' }} -  {{ post.title }}
                 </h3>
             </a>
     {% endfor %}
