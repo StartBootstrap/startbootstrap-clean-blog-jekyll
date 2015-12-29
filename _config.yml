@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Betty Fabre
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: fabre.betty@gmail.com
+description: "Computer Science Student"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: FabreBetty
+github_username:  BetFab
+facebook_username:  
 
 # Build settings
 markdown: kramdown
