@@ -17,11 +17,11 @@ header-img: "img/contact-bg.jpg"
     {{ post.date | date: "%Y" }}
     {% endcapture %}
     
-    {% if annee == 2015 %}
+    {% if annee == 2014 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
-                {{ post.date | date: '%B %d' }} {{ post.title }}
+                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
             </h2>
         </a>
         
@@ -37,11 +37,11 @@ header-img: "img/contact-bg.jpg"
     {{ post.date | date: "%Y" }}
     {% endcapture %}
     
-    {% if annee == 2016 %}
+    {% if annee == 2015 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
-                {{ post.title }}
+                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
             </h2>
         </a>
         Posted on {{ post.date | date: '%B %d, %Y' }}
