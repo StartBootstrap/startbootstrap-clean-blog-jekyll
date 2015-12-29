@@ -33,11 +33,9 @@ header-img: "img/contact-bg.jpg"
     </h2>
     {% for post in site.posts %}
     
-    {% capture annee %}
-    {{ post.date | date: "%Y" }}
-    {% endcapture %}
     
-    {% if annee == 2015 %}
+    
+    {% if {{ post.date | date: "%Y" }} == 2015 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
