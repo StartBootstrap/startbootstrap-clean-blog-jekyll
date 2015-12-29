@@ -1,36 +1,74 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description:" Computer Science Student at ISIMA "
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+	<div class="row">
+		<div class="col-xs-12 col-sm-offset-6 col-md-offset-4 col-md-8 col-sm-6 col-lg-8 col-lg-offset-4">
+				
+		  <h2>Hello.</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6  col-md-4 ">
+			<img class=" img-circle2" src="img/square2.jpg">
+		  
+		</div>
+	
+	
+		<div class="col-xs-12 col-md-8 col-sm-6 col-lg-8">
+				
+		  
+          		<p class="text-muted">I'm an actual student in an Engeneering School specialized in Computer Science in France. I like  a lot of things, I write mostly for me but I have decided to </p>
+        		  
+			
+        	</div>  
+		
+	
+	</div>
+	
+	<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+	
+	
+	
+	
+	
+	<div class="row">
+		<div class="col-md-4 col-sm-12 col-xs-12 text-center">
+			 
+			<p><a class="btn btn-default" href="about.html" role="button">About Me</a></p>
+		</div>
+		<div class="col-md-4 col-sm-12 col-xs-12 text-center">
+			 
+ 			<p><a class="btn btn-default" href="blog.html" role="button">Blog</a></p>
+		</div>
+		<div class="col-md-4 col-sm-12 col-xs-12 text-center">
+			 
+ 			<p><a class="btn btn-default" href="contact.html" role="button">Contact Me</a></p>
+		</div>
+	</div>
+
+
+            

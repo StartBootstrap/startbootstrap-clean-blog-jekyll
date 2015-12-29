@@ -395,3 +395,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+img.img-circle2{
+  display: block; 
+  margin:0 auto;
+  border-radius: 150px
+  
+}
