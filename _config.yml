@@ -3,7 +3,7 @@ title: Clean Blog
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Jorge Torres"
-baseurl: ""
+baseurl: "/index.html"
 url: "http://torrmal.github.io"
 twitter_username: thejorgetorres
 github_username:  torrmal
