@@ -5,15 +5,39 @@ description: "Have questions? I have answers (maybe)."
 header-img: "img/contact-bg.jpg"
 ---
 
-{% for post in site.posts %}
+
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-    </a>
-    Posted on {{ post.date | date: '%B %d, %Y' }}
+    
+    <h2 class="post-title">
+        2015
+    </h2>
+    {% for post in site.posts %}
+    {% if post.date | date: "%Y" == 2015 %}
+        
+        <a href="{{ post.url | prepend: site.baseurl }}">    
+            <h2 class="post-subtitle">           
+                {{ post.title }}
+            </h2>
+        </a>
+        Posted on {{ post.date | date: '%B %d, %Y' }}
+    {% endif %}
+    {% endfor %}
+    
+    <h2 class="post-title">
+        2016
+    </h2>
+    {% for post in site.posts %}
+    {% if post.date | date: "%Y" == 2016 %}
+        
+        <a href="{{ post.url | prepend: site.baseurl }}">    
+            <h2 class="post-subtitle">           
+                {{ post.title }}
+            </h2>
+        </a>
+        Posted on {{ post.date | date: '%B %d, %Y' }}
+    {% endif %}
+    {% endfor %}
+    
+    
 </div>    
 
-
-
-{% endfor %}
