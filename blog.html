@@ -8,9 +8,6 @@ header-img: "img/contact-bg.jpg"
 
 <div class="post-preview">
     
-    <h2 class="post-title">
-        2015
-    </h2>
     
     {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
@@ -20,7 +17,7 @@ header-img: "img/contact-bg.jpg"
         {% endif %}
             <a href="{{ post.url | prepend: site.baseurl }}">    
                 <h2 class="post-subtitle">           
-                    {{ post.date | date: '%B %d' }}  -  {{ post.title }}
+                    <b>{{ post.date | date: '%B %d' }}</b>  -  {{ post.title }}
                 </h2>
             </a>
     {% endfor %}
