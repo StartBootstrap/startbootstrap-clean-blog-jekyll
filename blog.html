@@ -11,43 +11,6 @@ header-img: "img/contact-bg.jpg"
     <h2 class="post-title">
         2015
     </h2>
-    {% for post in site.posts %}
-    
-    {% capture annee %}
-    {{ post.date | date: "%Y" }}
-    {% endcapture %}
-    {% assign annee = annee | plus: 0 %}
-    
-    
-    {% if annee == "2014" %}
-        
-        <a href="{{ post.url | prepend: site.baseurl }}">    
-            <h2 class="post-subtitle">           
-                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
-            </h2>
-        </a>
-        
-    {% endif %}
-    {% endfor %}
-    
-    <h2 class="post-title">
-        2016
-    </h2>
-    {% for post in site.posts %}
-    
-    {% assign annee = post.date | date: "%Y" %}
-    
-    {% if annee == 2014 %}
-        
-        <a href="{{ post.url | prepend: site.baseurl }}">    
-            <h2 class="post-subtitle">           
-                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
-            </h2>
-        </a>
-        
-    {% endif %}
-    {% endfor %}
-    
     
     {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
@@ -58,6 +21,10 @@ header-img: "img/contact-bg.jpg"
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     
-    
+    <a href="{{ post.url | prepend: site.baseurl }}">    
+            <h2 class="post-subtitle">           
+                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
+            </h2>
+        </a>
 </div>    
 
