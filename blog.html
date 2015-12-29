@@ -5,7 +5,7 @@ description: "Have questions? I have answers (maybe)."
 header-img: "img/contact-bg.jpg"
 ---
 
-{% for post in posts %}
+{% for post in _posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
