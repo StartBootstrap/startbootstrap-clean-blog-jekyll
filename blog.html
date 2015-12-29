@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Blog"
+description: "Have questions? I have answers (maybe)."
+header-img: "img/contact-bg.jpg"
+---
+
+
+<div class="post-preview">
+    
+    
+    {% for post in site.posts %}
+        {% assign currentdate = post.date | date: "%Y" %}
+        {% if currentdate != date %}
+            <h2 class="post-title">{{ currentdate }}</h2>
+                {% assign date = currentdate %} 
+        {% endif %}
+            <a href="{{ post.url | prepend: site.baseurl }}">    
+                <h3 class="post-subtitle">           
+                    {{ post.date | date: '%B %d' }} -  {{ post.title }}
+                </h3>
+            </a>
+    {% endfor %}
+</div>    
+
