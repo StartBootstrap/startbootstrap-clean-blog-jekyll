@@ -35,9 +35,9 @@ header-img: "img/contact-bg.jpg"
     </h2>
     {% for post in site.posts %}
     
+     {% assign annee = post.date | date: "%Y" %}
     
-    
-    {% if {{ post.date | date: "%Y" }} == 2015 %}
+    {% if annee == 2014 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
