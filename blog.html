@@ -12,7 +12,7 @@ header-img: "img/contact-bg.jpg"
         2015
     </h2>
     {% for post in site.posts %}
-    {% if post.date | date: "%Y" == 2015 %}
+    {% if post.date | date: "%Y" = 2015 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
@@ -27,7 +27,7 @@ header-img: "img/contact-bg.jpg"
         2016
     </h2>
     {% for post in site.posts %}
-    {% if post.date | date: "%Y" == 2016 %}
+    {% if post.date | date: "%Y" = 2016 %}
         
         <a href="{{ post.url | prepend: site.baseurl }}">    
             <h2 class="post-subtitle">           
