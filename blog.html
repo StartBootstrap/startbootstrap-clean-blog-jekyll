@@ -10,12 +10,11 @@ header-img: "img/contact-bg.jpg"
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
         </h2>
-        
     </a>
-    
-    <p>
+</div>    
+<p>
             Posted on {{ post.date | date: '%B %d, %Y' }}
         </p>
-</div>
+
 
 {% endfor %}
