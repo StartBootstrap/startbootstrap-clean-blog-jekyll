@@ -15,16 +15,14 @@ header-img: "img/contact-bg.jpg"
     {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
         {% if currentdate != date %}
-            <li id="y{{currentdate}}">{{ currentdate }}</li>
+            <h2 class="post-title">{{ currentdate }}</h2>
                 {% assign date = currentdate %} 
         {% endif %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            <a href="{{ post.url | prepend: site.baseurl }}">    
+                <h2 class="post-subtitle">           
+                    {{ post.date | date: '%B %d' }}  -  {{ post.title }}
+                </h2>
+            </a>
     {% endfor %}
-    
-    <a href="{{ post.url | prepend: site.baseurl }}">    
-            <h2 class="post-subtitle">           
-                {{ post.date | date: '%B %d' }}  -  {{ post.title }}
-            </h2>
-        </a>
 </div>    
 
