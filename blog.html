@@ -11,10 +11,9 @@ header-img: "img/contact-bg.jpg"
         <h2 class="post-title">            {{ post.title }}
         </h2>
     </a>
+    Posted on {{ post.date | date: '%B %d, %Y' }}
 </div>    
-<p>
-            Posted on {{ post.date | date: '%B %d, %Y' }}
-        </p>
+
 
 
 {% endfor %}
