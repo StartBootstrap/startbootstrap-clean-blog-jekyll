@@ -16,6 +16,8 @@ header-img: "img/contact-bg.jpg"
     {% capture annee %}
     {{ post.date | date: "%Y" }}
     {% endcapture %}
+    {% assign annee = annee | plus: 0 %}
+    
     
     {% if annee == "2014" %}
         
