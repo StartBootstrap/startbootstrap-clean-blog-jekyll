@@ -35,7 +35,7 @@ header-img: "img/contact-bg.jpg"
     </h2>
     {% for post in site.posts %}
     
-     {% assign annee = post.date | date: "%Y" %}
+    {% assign annee = post.date | date: "%Y" %}
     
     {% if annee == 2014 %}
         
@@ -44,7 +44,7 @@ header-img: "img/contact-bg.jpg"
                 {{ post.date | date: '%B %d' }}  -  {{ post.title }}
             </h2>
         </a>
-        Posted on {{ post.date | date: '%B %d, %Y' }}
+        
     {% endif %}
     {% endfor %}
     
