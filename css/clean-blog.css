@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Crimson Text", Times, serif;
   font-size: 20px;
   color: #404040;
 }
@@ -70,7 +70,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: green;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -78,12 +78,12 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #4f4f4f;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #919191;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -135,7 +135,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: white;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -400,4 +400,15 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.navbar-nav {
+  border-bottom: 1px solid #939393;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.navbar-nav span {
+  margin-top: 20px;
+}
+section.content {
+  margin-top: 150px;
 }
