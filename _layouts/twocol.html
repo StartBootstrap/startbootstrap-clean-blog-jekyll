@@ -1,0 +1,21 @@
+---
+layout: default
+title: Two column
+---
+
+<div class="container">
+    <div class="col-md-4">
+        <h3>{{ page.menu_title }}</h3>
+        <ul>
+            {% for menu in page.menu %}
+            <li><a href="{{ menu.url }}">{{ menu.title }}</a></li> 
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-4">
+        {{ content }}
+    </div>
+    <div class="col-md-4">
+        {{ page.sidebar }}
+    </div>
+</div>
