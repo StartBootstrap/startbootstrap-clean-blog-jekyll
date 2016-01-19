@@ -273,6 +273,12 @@ th {
     src: url("../fonts/CrimsonText-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Bebas Neue";
+
+    src: url("../fonts/BebasNeue-Regular.otf");
+}
+
 .glyphicon {
   position: relative;
   top: 1px;

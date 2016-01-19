@@ -19,6 +19,7 @@ p {
 	}
 }
 
+
 h1,
 h2,
 h3,
@@ -61,8 +62,8 @@ hr.small {
 .navbar-custom {
 	background: white;
 	position: absolute;
-	top: 0;
-	left: 0;
+	padding-top: 20px;
+	padding-right: 30px;
 	width: 100%;
 	z-index: 3;
 	.sans-serif;
@@ -72,9 +73,10 @@ hr.small {
 	.nav {
 		li {
 			a {
-				text-transform: uppercase;
-				font-size: 12px;
-				font-weight: 800;
+				font-family: "Bebas Neue", sans-serif;;
+				font-size: 18px;
+				font-weight:600;
+				color: "#595959";
 				letter-spacing: 1px;
 			}
 		}
@@ -83,8 +85,9 @@ hr.small {
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: green;
-			padding: 20px;
+			color: @gray-dark;
+			padding-left: 20px;
+			padding-top: 0;
 			&:hover,
 			&:focus {
 				color: @white-faded;
@@ -93,7 +96,7 @@ hr.small {
 		.nav {
 			li {
 				a {
-					color: #4f4f4f;
+					color: #595959;
 					padding: 20px;
 					&:hover,
 					&:focus {
@@ -465,7 +468,6 @@ body {
 .navbar-nav {
     border-bottom: 1px solid #939393;
     margin-top: 20px;
-    margin-right: 60px;
 
     span {
         margin-top: 20px;
@@ -474,4 +476,28 @@ body {
 
 section.content {
     margin-top: 150px;
+}
+
+h2.about {
+	color: #969595;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 26pt;
+	border-bottom: 1.5px solid #939393;
+	padding-bottom: 3px;
+}
+li.about_nav{
+	font-family: 'Bebas Neue', sans-serif;
+	margin-left: -40px;
+	font-size: 16pt;
+	color: #969595;
+	letter-spacing:0.5px;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+#p1 {
+	font-family: "Crimson Text", serif;
+	font-size: 18px;
+	padding-top: 25px;
 }

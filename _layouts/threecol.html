@@ -3,13 +3,13 @@ layout: default
 ---
 
 <section class="content">
-<div class="container">
-    <div class="row">
+<div class="container-fluid">
+    <div class="row-fluid">
         <div class="col-md-4">
             <h3>{{ page.menu_title }}</h3>
             <ul>
             {% for menu in page.menu %}
-            <li><a href="{{ menu.url }}">{{ menu.title }}</a></li> 
+            <li><a href="{{ menu.url }}">{{ menu.title }}</a></li>
             {% endfor %}
             </ul>
         </div>
