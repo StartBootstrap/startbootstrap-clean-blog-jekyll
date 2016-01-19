@@ -1,8 +1,13 @@
 <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="container-fluid"
+    {border-style: solid;
+    border-top: 1px "#939393";}>
+        <div class="row-fluid">
+          <div class="col-md-4">
+            {{Content}}
+          </div>
+            <div class="col-md-4">
                 <ul class="list-inline text-center">
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -44,6 +49,9 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+            </div>
+            <div class="col-md-4">
+              {{Content}}
             </div>
         </div>
     </div>

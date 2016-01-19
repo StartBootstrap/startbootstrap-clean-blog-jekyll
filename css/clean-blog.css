@@ -49,8 +49,7 @@ hr.small {
 .navbar-custom {
   background: white;
   position: absolute;
-  padding-top: 20px;
-  padding-right: 30px;
+  padding-top: 0px;
   width: 100%;
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -58,12 +57,19 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
+.navbar-custom .nav li {
+  padding-right: 10px;
+}
 .navbar-custom .nav li a {
   font-family: "Bebas Neue", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: "#595959";
   letter-spacing: 1px;
+}
+.navbar-custom .navbar-collapse {
+  border-bottom: 1px solid #939393;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -73,7 +79,7 @@ hr.small {
   .navbar-custom .navbar-brand {
     color: #404040;
     padding-left: 20px;
-    padding-top: 0;
+    padding-top: 10px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -267,7 +273,16 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
-  padding: 50px 0 65px;
+  padding: 50px 0px 65px;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: #939393;
 }
 footer .list-inline {
   margin: 0;
@@ -404,7 +419,6 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 .navbar-nav {
-  border-bottom: 1px solid #939393;
   margin-top: 20px;
 }
 .navbar-nav span {

@@ -58,12 +58,13 @@ hr.small {
 }
 
 // Navigation
+// This is a comment.
 
 .navbar-custom {
 	background: white;
 	position: absolute;
-	padding-top: 20px;
-	padding-right: 30px;
+	padding-top: 0px;
+	//padding-right: 30px;
 	width: 100%;
 	z-index: 3;
 	.sans-serif;
@@ -72,8 +73,9 @@ hr.small {
 	}
 	.nav {
 		li {
+			padding-right: 10px;
 			a {
-				font-family: "Bebas Neue", sans-serif;;
+				font-family: "Bebas Neue", sans-serif;
 				font-size: 18px;
 				font-weight:600;
 				color: "#595959";
@@ -81,13 +83,17 @@ hr.small {
 			}
 		}
 	}
+	.navbar-collapse{
+		border-bottom: 1px solid #939393;
+    margin-top: 20px;
+	}
 	@media only screen and (min-width: 768px) {
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
 			color: @gray-dark;
 			padding-left: 20px;
-			padding-top: 0;
+			padding-top: 10px;
 			&:hover,
 			&:focus {
 				color: @white-faded;
@@ -296,7 +302,16 @@ hr.small {
 }
 
 footer {
-	padding: 50px 0 65px;
+	padding: 50px 0px 65px;
+	margin-top: 60px;
+	margin-left:30px;
+	margin-right: 30px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #939393;
 	.list-inline {
 		margin: 0;
 		padding: 0;
@@ -466,7 +481,7 @@ body {
 }
 
 .navbar-nav {
-    border-bottom: 1px solid #939393;
+    //border-bottom: 1px solid #939393;
     margin-top: 20px;
 
     span {
