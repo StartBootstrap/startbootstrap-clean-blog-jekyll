@@ -5,9 +5,9 @@ email: info@fieldsofview.in
 description: "Fields of View - Games, Simulations"
 baseurl: ""
 url: "http://fieldsofview.github.io"
-twitter_username: fieldsofview
+twitter_username: fovlabs
 github_username:  fieldsofview
-facebook_username:  fieldsofview
+facebook_username:  fovbangalore
 
 # Build settings
 markdown: kramdown
