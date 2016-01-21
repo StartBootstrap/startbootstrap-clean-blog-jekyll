@@ -61,10 +61,20 @@ layout: default
             </ul>
         </div>
         <div class="col-md-4">
-          {{Content}}
+          <span class="topspace"></span>
+          <p class="project-intro" style="padding-top:25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. </p>
+          <ul class="our-work-list">
+            {%for projects in page.publications%}
+            <li id="{{publications.ide}}"><img src="{{publications.img}}" style="width:100%"/></li>
+            {%endfor %}
+        </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" style:"padding-top:24px">
+          <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
 
+          <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+          <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac.</p>
         </div>
         <div class="col-md-1">
             {{Column 4}}
