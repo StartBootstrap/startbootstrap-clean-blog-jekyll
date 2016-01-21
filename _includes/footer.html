@@ -1,23 +1,25 @@
 <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="container-fluid"
+>
+        <div class="row-fluid">
+          <div class="col-md-4">
+            {{Content}}
+          </div>
+            <div class="col-md-4">
                 <ul class="list-inline text-center">
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            <span class="fa-stack fa">
+                                <i class="fa fa-rss"></i>
                             </span>
                         </a>
                     </li>
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            <span class="fa-stack fa">
+                                <i class="fa fa-twitter"></i>
                             </span>
                         </a>
                     </li>
@@ -25,9 +27,8 @@
                     {% if site.facebook_username %}
                     <li>
                         <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            <span class="fa-stack fa">
+                                <i class="fa fa-facebook"></i>
                             </span>
                         </a>
                     </li>
@@ -35,15 +36,17 @@
                     {% if site.github_username %}
                     <li>
                         <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            <span class="fa-stack fa">
+                                <i class="fa fa-linkedin"></i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+                <p class="copyright text-muted">{{ site.title }} {{ site.time | date: '%Y' }}<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-left:auto; margin-right:auto" src="https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></p>
+            </div>
+            <div class="col-md-4">
+              {{Content}}
             </div>
         </div>
     </div>

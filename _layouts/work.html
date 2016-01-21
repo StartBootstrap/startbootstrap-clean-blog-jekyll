@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about">All Projects</h2>
+            <ul>
+                <li class="about_nav">Games</li>
+                <li class="about_nav">Simulation</li>
+                <li class="about_nav">Urban Systems</li>
+                <li class="about_nav">Policy</li>
+                <li class="about_nav">Technology</li>
+                <li class="about_nav">Gender</li>
+                <li class="about_nav">Publications</li>
+            </ul>
+        </div>
+        <div class="col-md-4" >
+          <span class="topspace"></span>
+          <p class="project-intro" style="padding-top:25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. </p>
+          <ul class="our-work-list">
+            {%for projects in page.projects%}
+            <li id="{{projects.ide}}"><img src="{{projects.img}}" style="width:100%"/></li>
+            {%endfor %}
+        </ul>
+        </div>
+      <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
+          <div class="col-md-3" style="padding-top:24px">
+            <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac.</p>
+
+            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. </p>
+         {%for projects in page.projects%}
+            <div style="display:none" id="{{projects.ide}}-content" class="project-descriptions">
+            <h2>{{projects.title}}</h2>
+            <p class="simple-content">
+              {{projects.description}}
+            </p>
+          </div>
+            {%endfor %}
+
+        </div>
+        <div class="col-md-1">
+            Column 4
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about_publications">Publications</h2>
+            <ul>
+                <li class="about_nav">Peer-reviewed publications</li>
+                <li class="about_nav">Working papers</li>
+                <li class="about_nav">Visualizations</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+          <span class="topspace"></span>
+          <p class="project-intro" style="padding-top:25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. </p>
+          <ul class="our-work-list">
+            {%for projects in page.publications%}
+            <li id="{{publications.ide}}"><img src="{{publications.img}}" style="width:100%"/></li>
+            {%endfor %}
+        </ul>
+        </div>
+        <div class="col-md-3" style:"padding-top:24px">
+          <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+          <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+
+          <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac.</p>
+        </div>
+        <div class="col-md-1">
+            {{Column 4}}
+        </div>
+    </div>
+</div>
+</section>
+
+<script>
+  $(document).ready(function(){
+    {%for projects in page.projects%}
+    $("#{{projects.ide}}").hover(function(){
+      $(".project-descriptions").css("display","none");
+      $("#{{projects.ide}}-content").toggle();
+    });
+    {%endfor %}
+  });
+</script>
