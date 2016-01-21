@@ -470,3 +470,20 @@ p.simple-content {
 span.topspace {
   height: 25px;
 }
+.our-work-list {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.our-work-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 48%;
+  padding: 0 10px 35px 0;
+  margin: 0 0 0 0;
+}
+.our-work-list li:nth-child(odd) {
+  float: left;
+}
+.our-work-list li:nth-child(even) {
+  float: right;
+}
