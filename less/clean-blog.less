@@ -76,7 +76,7 @@ hr.small {
 			padding-right: 10px;
 			a {
 				font-family: "Bebas Neue", sans-serif;
-				font-size: 20px;
+				font-size: 16pt;
 				font-weight:600;
 				color: "#595959";
 				letter-spacing: 1px;
@@ -317,7 +317,8 @@ footer {
 		padding: 0;
 	}
 	.copyright {
-		font-size: 14px;
+		font-family: "Crimson Text", serif;
+		font-size: 10pt;
 		text-align: center;
 		margin-bottom: 0;
 		margin-left: auto;
@@ -503,6 +504,16 @@ h2.about {
 	border-bottom: 1.5px solid #939393;
 	padding-bottom: 3px;
 }
+
+h3.event-heading {
+	color: #939393;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 li.about_nav{
 	font-family: 'Bebas Neue', sans-serif;
 	margin-left: -40px;
@@ -516,7 +527,7 @@ li.about_nav{
 
 blockquote {
 	font-family: "Crimson Text", serif;
-	font-size: 24px;
+	font-size: 20pt;
 	font-style: italic;
 	font-weight: 500;
 	color: #939393;
@@ -524,7 +535,7 @@ blockquote {
 
 p.project-intro {
 	font-family: "Crimson Text", serif;
-	font-size: 20px;
+	font-size: 18pt;
 	font-style: italic;
 	font-weight: 500;
 	color: #939393;
@@ -532,7 +543,8 @@ p.project-intro {
 
 p.simple-content{
 	font-family: "Crimson Text", serif;
-	font-size: 18px;
+	font-size: 13.5pt;
+	color: #424242;
 }
 
 .fa {
@@ -558,4 +570,60 @@ span.topspace{
 	}
 	padding:0 0 0 0;
 	margin: 0 0 0 0;
+}
+
+.new-events-list {
+	li{
+		list-style-type: none;
+		display: block;
+	  padding-top: 11%;
+	}
+	li:nth-child(n+2){
+		display: none;
+	}
+}
+
+.new-events-list2 {
+	li{
+		list-style-type: none;
+		display: list-item;
+	  padding-top: 0;
+	}
+	li:nth-child(n+2){
+		display: none;
+	}
+}
+
+.old-events-list{
+	padding-top:62px;
+	li{
+		list-style-type:none;
+		display:inline-block;
+		width:50%;
+		padding-bottom: 20px;
+		margin: 0 0 0 0;
+	}
+	li:nth-child(odd){
+		float:left;
+		padding-right:10px;
+	}
+	li:nth-child(even){
+		float: right;
+		padding-left:10px;
+	}
+
+}
+
+a.italic{
+	font-style:italic;
+	text-decoration: none;
+	font-weight: bold;
+	color: #424242;
+}
+
+a.italic2{
+	font-style:italic;
+	text-decoration: none;
+	font-weight: bold;
+	color: #939393;
 }

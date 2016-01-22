@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+          <h2 class="about" id="current_about">Upcoming Events</h2>
+          <ul>
+              <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
+              <li class="about_nav">Game Sessions</li>
+              <li class="about_nav">Publications</li>
+            </ul>
+        </div>
+
+        <div class="col-md-4" >
+          <ul class="old-events-list">
+          {%for events in page.events%}
+          <li id="{{events.ide}}"><img src="{{events.img}}" style="width:100%"/></li>
+          {%endfor %}
+        </ul>
+        </div>
+
+          <div class="col-md-3">
+                <p style="simple-content">{{}}</p>
+          </div>
+
+          <div class="col-md-1">
+              {{Column 4}}
+          </div>
+      </div>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function(){
+    {%for events in page.events%}
+    $("#{{events.ide}}").hover(function(){
+      $(".event-descriptions").css("display","none");
+      $("#{{events.ide}}-content").toggle();
+    });
+    {%endfor %}
+  });
+</script>

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+          <h2 class="about" id="current_about">Upcoming Events</h2>
+          <ul>
+              <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
+              <li class="about_nav">Game Sessions</li>
+              <li class="about_nav">Publications</li>
+            </ul>
+        </div>
+
+        <div class="col-md-4" style:"padding-top:25px" >
+          <ul class="new-events-list">
+          {%for posters in page.posters%}
+          <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%"/></li>
+          {%endfor %}
+        </ul>
+        </div>
+
+          <div class="col-md-3" style="padding-top:24px">
+          <ul class="new-events-list2">
+            {% for posters in page.posters %}
+              <li>
+                <p style="simple-content">{{ posters.description }}</p>
+              </li>
+            {% endfor %}
+          </ul>
+          </ul>
+          </div>
+
+          <div class="col-md-1">
+              {{Column 4}}
+          </div>
+      </div>
+  </div>
+</section>
