@@ -543,3 +543,33 @@ a.italic2 {
   font-weight: bold;
   color: #939393;
 }
+li.project-specifics {
+  list-style-type: none;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #606060;
+  margin-left: -40px;
+  font-size: 14pt;
+  margin-right: 15px;
+}
+h4.specifics {
+  list-style-type: none;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #606060;
+  font-weight: bold;
+  font-size: 13pt;
+}
+p.project-specifics {
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  text-decoration: none;
+  color: #606060;
+  font-size: 13pt;
+}
+.people-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 30%;
+  margin-left: -40px;
+}
