@@ -454,6 +454,7 @@ li.about_nav {
   letter-spacing: 0.5px;
   list-style-type: none;
   margin-top: 10px;
+  cursor: pointer;
 }
 blockquote {
   font-family: "Crimson Text", serif;
