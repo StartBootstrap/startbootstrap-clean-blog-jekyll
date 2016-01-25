@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about">Team</h2>
+            <ul>
+                <li class="about_nav">About Us</li>
+                <li class="about_nav">Alumni</li>
+                <li class="about_nav">Collaborations</li>
+                <li class="about_nav">Newsletter</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6" >
+          <ul class="people-list">
+            {%for people in page.people%}
+            <li id="{{people.ide}}"><img src="{{people.img}}" style="width:100%"/></li>
+            <li id="{{people.ide}}-content" class="project-descriptions"/></li>
+            {%endfor %}
+        </ul>
+        </ul>
+        </div>
+
+          <div class="col-md-2">
+            {{content}}
+        </div>
+
+    </div>
+</div>
+</section>
