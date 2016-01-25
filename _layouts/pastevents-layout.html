@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-layout
 ---
 <section class="content">
 <div class="container-fluid clearfix">
@@ -22,7 +22,11 @@ layout: default
         </div>
 
           <div class="col-md-3">
-                <p style="simple-content">{{}}</p>
+                {%for events in page.events%}
+                  <div id="{{events.ide}}-content" class=".event-descriptions" style="display:none">
+                      {{events.description}}
+                  </div>
+                {%endfor%}
           </div>
 
           <div class="col-md-1">

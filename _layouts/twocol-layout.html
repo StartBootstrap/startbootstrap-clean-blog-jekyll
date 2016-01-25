@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-layout
 title: Two column
 ---
 
@@ -8,7 +8,7 @@ title: Two column
         <h3>{{ page.menu_title }}</h3>
         <ul>
             {% for menu in page.menu %}
-            <li><a href="{{ menu.url }}">{{ menu.title }}</a></li> 
+            <li><a href="{{ menu.url }}">{{ menu.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
