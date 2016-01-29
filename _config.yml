@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: 360 Thrill
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: allandx@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+baseurl: ""
+url: "http://360thrill.com"
+twitter_username: 360thrill
+youtube_username: 360thrill
+facebook_username: 360thrill
 
 # Build settings
 markdown: kramdown

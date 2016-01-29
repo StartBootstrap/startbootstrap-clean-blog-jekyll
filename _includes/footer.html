@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -14,7 +14,7 @@
                     </li>
                     {% if site.twitter_username %}
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -24,7 +24,7 @@
                     {% endif %}
                     {% if site.facebook_username %}
                     <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -32,12 +32,12 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.github_username %}
+                    {% if site.youtube_username %}
                     <li>
-                        <a href="https://github.com/{{ site.github_username }}">
+                        <a href="https://youtube.com/{{ site.youtube_username }}" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
@@ -48,6 +48,49 @@
         </div>
     </div>
 </footer>
+
+<script>
+  /*!
+  Modified for brevity from https://github.com/filamentgroup/loadCSS
+  loadCSS: load a CSS file asynchronously.
+  [c]2014 @scottjehl, Filament Group, Inc.
+  Licensed MIT
+  */
+  function loadCSS(href){
+    var ss = window.document.createElement('link'),
+        ref = window.document.getElementsByTagName('head')[0];
+
+    ss.rel = 'stylesheet';
+    ss.href = href;
+
+    // temporarily, set media to something non-matching to ensure it'll
+    // fetch without blocking render
+    ss.media = 'only x';
+
+    ref.parentNode.insertBefore(ss, ref);
+
+    setTimeout( function(){
+      // set media back to `all` so that the stylesheet applies once it loads
+      ss.media = 'all';
+    },0);
+  }
+  loadCSS('/css/all.min.css');
+</script>
+ <noscript>
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="{{ "/css/all.min.css" | prepend: site.baseurl }}">
+</noscript>
+<!-- Custom CSS
+<link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
+
+Pygments Github CSS
+<link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+-->
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
