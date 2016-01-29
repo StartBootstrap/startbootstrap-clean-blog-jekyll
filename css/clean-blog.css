@@ -26,11 +26,11 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #939393;
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #c4c4c4;
 }
 a img:hover,
 a img:focus {
@@ -123,14 +123,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085A1;
+    color: #c4c4c4;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085A1;
+    color: #c4c4c4;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -225,7 +225,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085A1;
+  color: #c4c4c4;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -249,7 +249,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085A1;
+  color: #c4c4c4;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -297,11 +297,13 @@ footer .copyright {
   margin-right: auto;
 }
 .floating-label-form-group {
-  font-size: 14px;
+  font-size: 9pt;
+  font-family: "Crimson Text", serif;
+  font-style: normal;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ededed;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -334,24 +336,19 @@ footer .copyright {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eee;
-}
-.floating-label-form-group-with-value label {
-  top: 0;
-  opacity: 1;
-}
-.floating-label-form-group-with-focus label {
-  color: #0085A1;
+  border-left: 1px solid #ededed;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ededed;
 }
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13pt;
   font-weight: 800;
-  letter-spacing: 1px;
+  color: #939393;
+  letter-spacing: 1.5px;
   border-radius: 0;
   padding: 15px 25px;
 }
@@ -361,8 +358,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
   color: white;
 }
 .pager {
@@ -389,8 +386,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -403,12 +400,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #c4c4c4;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #c4c4c4;
 }
 img::selection {
   color: white;
@@ -419,7 +416,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085A1;
+  webkit-tap-highlight-color: #c4c4c4;
 }
 .navbar-nav {
   margin-top: 20px;
@@ -431,7 +428,7 @@ section.content {
   margin-top: 150px;
 }
 h2.about {
-  color: #969595;
+  color: #757575;
   font-family: 'Bebas Neue';
   font-weight: bold;
   font-size: 26pt;
@@ -443,6 +440,14 @@ h3.event-heading {
   font-family: 'Bebas Neue';
   font-weight: bold;
   font-size: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3.team-name {
+  color: #939393;
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-size: 18pt;
   margin-left: auto;
   margin-right: auto;
 }
@@ -532,17 +537,42 @@ span.topspace {
   float: right;
   padding-left: 10px;
 }
-a.italic {
+span.italic {
   font-style: italic;
   text-decoration: none;
   font-weight: bold;
   color: #424242;
 }
-a.italic2 {
+span.italic2 {
   font-style: italic;
   text-decoration: none;
   font-weight: bold;
   color: #939393;
+}
+span.italicregular {
+  font-style: italic;
+  text-decoration: none;
+  color: #939393;
+}
+span.designation {
+  font-style: italic;
+  text-decoration: none;
+  color: #939393;
+  font-size: 14pt;
+  padding-top: -30px;
+}
+a.mailid {
+  font-style: italic;
+  text-decoration: none;
+  color: #939393;
+  font-size: 14pt;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-bottom-color: #939393;
+  padding-top: -5px;
 }
 li.project-specifics {
   list-style-type: none;
@@ -568,9 +598,41 @@ p.project-specifics {
   color: #606060;
   font-size: 13pt;
 }
+.people-list {
+  margin-left: -40px;
+  margin-top: 62px;
+}
 .people-list li {
   list-style-type: none;
   display: inline-block;
-  width: 30%;
+  width: 33%;
+  padding: 0px 15px 40px 15px;
+  float: left;
+}
+.alumni-list {
   margin-left: -40px;
+  margin-top: 62px;
+}
+.alumni-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 33%;
+  padding: 0px 15px 40px 15px;
+}
+.newsletter-list {
+  margin-left: -40px;
+  margin-top: 12px;
+}
+.newsletter-list li {
+  list-style-type: none;
+  display: inline-block;
+  padding: -2px 0px 10px 0px;
+}
+.presentations-list {
+  margin-left: -20px;
+  margin-top: 12px;
+}
+.presentations-list li {
+  list-style-type: disc;
+  color: #939393;
 }

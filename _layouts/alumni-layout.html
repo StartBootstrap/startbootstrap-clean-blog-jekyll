@@ -6,24 +6,26 @@ layout: default-layout
     <div class="row-fluid">
 
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about">Team</h2>
+            <h2 class="about" id="current_about">Alumni</h2>
             <ul>
-                <li class="about_nav"><a href="{{ site.baseurl }}/alumni/">Alumni</a></li>
                 <li class="about_nav"><a href="{{ site.baseurl }}/collaborations/">Collaborations</a></li>
                 <li class="about_nav"><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
                 <li class="about_nav"><a href="{{ site.baseurl }}/about/">About Us</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/team/"></a>Team</li>
             </ul>
         </div>
 
         <div class="col-md-6">
-            {%for people in page.people%}
-            <div id="{{people.ide}}" class="col-md-2"><img src="{{people.img}}"/>
-            <h3 class="team-name">{{ people.title}}</h3>
-              <span class="designation">{{ people.designation }}</span>
-              <a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>
-              <p class="simple-content" style:"margin-top:10px">{{ people.description }}</p>
-            </div>
+          <ul class="alumni-list">
+            {%for alumni in page.alumni%}
+            <li id="{{alumni.ide}}"><img src="{{alumni.img}}"/>
+            <h3 class="team-name">{{ alumni.title}}</h3>
+              <span class="designation">{{ alumni.designation }}</span>
+              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>
+            </li>
             {%endfor %}
+        </ul>
+        </ul>
         </div>
 
           <div class="col-md-2">

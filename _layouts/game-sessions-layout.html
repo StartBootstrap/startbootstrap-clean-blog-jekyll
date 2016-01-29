@@ -5,11 +5,11 @@ layout: default-layout
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about">Upcoming Events</h2>
+          <h2 class="about" id="current_about">Game Sessions</h2>
           <ul>
-              <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/game-sessions/">Game Sessions</a></li>
               <li class="about_nav"><a href="{{ site.baseurl }}/presentations/">Presentations</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Upcoming Events</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
             </ul>
         </div>
 
@@ -21,12 +21,10 @@ layout: default-layout
         </ul>
         </div>
 
-          <div class="col-md-3" style="padding-top:38px">
+          <div class="col-md-3" style="padding-top:24px">
           <ul class="new-events-list2">
             {% for posters in page.posters %}
               <li>
-                <h3 class="event-heading">{{posters.heading}}</h3>
-                <span class="italic2">{{posters.when}}</span>
                 <p style="simple-content">{{ posters.description }}</p>
               </li>
             {% endfor %}

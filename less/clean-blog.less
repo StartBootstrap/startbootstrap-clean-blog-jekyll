@@ -31,7 +31,7 @@ h6 {
 }
 
 a {
-	color: @gray-dark;
+	color: #939393;
 	&:hover,
 	&:focus {
 		color: @brand-primary;
@@ -329,11 +329,13 @@ footer {
 // Contact Form Styles
 
 .floating-label-form-group {
-	font-size: 14px;
+	font-size: 9pt;
+	font-family: "Crimson Text", serif;
+	font-style: normal;
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 0.5em;
-	border-bottom: 1px solid @gray-light;
+	border-bottom: 1px solid #ededed;
 	input,
 	textarea {
 		z-index: 1;
@@ -365,35 +367,39 @@ footer {
 	}
 	&::not(:first-child) {
 		padding-left: 14px;
-		border-left: 1px solid @gray-light;
+		border-left: 1px solid #ededed;
 	}
 }
 
 .floating-label-form-group-with-value {
 	label {
-		top: 0;
-		opacity: 1;
+//		top: 0;
+//		opacity: 1;
 	}
 }
 
 .floating-label-form-group-with-focus {
 	label {
-		color: @brand-primary;
+//		color: #b2b2b2;
+//		font-family: "Crimson Text", serif;
+//		font-size: 7pt;
 	}
 }
 
 form .row:first-child .floating-label-form-group {
-	border-top: 1px solid @gray-light;
+	border-top: 1px solid #ededed;
 }
 
 // Button Styles
 
 .btn {
 	.sans-serif;
+	font-family: "Bebas Neue", sans-serif;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13pt;
 	font-weight: 800;
-	letter-spacing: 1px;
+	color: #939393;
+	letter-spacing: 1.5px;
 	border-radius: 0;
 	padding: 15px 25px;
 }
@@ -497,7 +503,7 @@ section.content {
 }
 
 h2.about {
-	color: #969595;
+	color: #757575;
 	font-family: 'Bebas Neue';
 	font-weight: bold;
 	font-size: 26pt;
@@ -510,6 +516,15 @@ h3.event-heading {
 	font-family: 'Bebas Neue';
 	font-weight: bold;
 	font-size: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3.team-name {
+	color: #939393;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 18pt;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -615,18 +630,46 @@ span.topspace{
 
 }
 
-a.italic{
+span.italic{
 	font-style:italic;
 	text-decoration: none;
 	font-weight: bold;
 	color: #424242;
 }
 
-a.italic2{
+span.italic2{
 	font-style:italic;
 	text-decoration: none;
 	font-weight: bold;
 	color: #939393;
+}
+
+span.italicregular{
+	font-style:italic;
+	text-decoration: none;
+	color: #939393;
+}
+
+span.designation{
+	font-style:italic;
+	text-decoration: none;
+	color: #939393;
+	font-size: 14pt;
+	padding-top: -30px;
+}
+
+a.mailid{
+	font-style:italic;
+	text-decoration: none;
+	color: #939393;
+	font-size: 14pt;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-bottom-color: #939393;
+	padding-top: -5px
 }
 
 li.project-specifics,{
@@ -657,10 +700,43 @@ p.project-specifics{
 	}
 
 	.people-list{
+		margin-left:-40px;
+		margin-top: 62px;
 		li{
 			list-style-type:none;
 			display:inline-block;
-			width: 30%;
-			margin-left:-40px
+			width: 33%;
+			padding: 0px 15px 40px 15px;
+			float: left;
+		}
+	}
+
+	.alumni-list{
+		margin-left:-40px;
+		margin-top: 62px;
+		li{
+			list-style-type:none;
+			display:inline-block;
+			width: 33%;
+			padding: 0px 15px 40px 15px;
+		}
+	}
+
+	.newsletter-list{
+		margin-left:-40px;
+		margin-top: 12px;
+		li{
+			list-style-type: none;
+			display:inline-block;
+			padding: -2px 0px 10px 0px;
+		}
+	}
+
+	.presentations-list{
+		margin-left: -20px;
+		margin-top: 12px;
+		li{
+			list-style-type: disc;
+			color: #939393;
 		}
 	}

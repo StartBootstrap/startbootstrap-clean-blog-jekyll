@@ -1,0 +1,35 @@
+---
+layout: default-layout
+---
+
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about">Newsletter</h2>
+            <ul>
+              <li class="about_nav"><a href="{{ site.baseurl }}/about/">About Us</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/team/">Team</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/alumni/">Alumni</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/collaborations/">Collaborations</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+          <h3 class="team-name" style="padding-top:38px">2014</h3>
+            <ul class="newsletter-list">
+            {%for year2014 in page.year2014%}
+            <li id="{{year2014.ide}}"><a href="{{year2014.description}}" class="mailid">{{ year2014.title }}</a></li><br/>
+            {%endfor %}
+          </ul>
+        </div>
+
+          <div class="col-md-3">
+            Column 3
+          </div>
+          <div class="col-md-1">
+              Column 4
+          </div>
+        </div>
+
+    </div>
+</section>

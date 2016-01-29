@@ -1,0 +1,34 @@
+---
+layout: default-layout
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+          <h2 class="about" id="current_about">Presentations</h2>
+          <ul>
+              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Upcoming Events</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/game-sessions/">Game Sessions</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h3 class="team-name" style="padding-top:38px;">2014</h3>
+            <ul class="presentations-list">
+            {%for year2014 in page.year2014%}
+            <li id="{{year2014.ide}}"><span class="italic2">{{ year2014.title }}</span>
+              <span class="italicregular">{{ year2014.description }}</span>
+            <a href="{{presentations.link}}">[Link]</a>
+           </li><br/>
+            {%endfor %}
+          </ul>
+        </div>
+
+          <div class="col-md-2">
+            Column 3
+          </div>
+        </div>
+
+    </div>
+</section>

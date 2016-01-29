@@ -1,0 +1,36 @@
+---
+layout: default-layout
+---
+<section class="content">
+<div class="container-fluid">
+    <div class="row-fluid">
+
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about">Collaborations</h2>
+            <ul>
+                <li class="about_nav"><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/about/">About Us</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/team/">Team</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/alumni/">Alumni</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+          <ul class="alumni-list">
+            {%for collaborations in page.collaborations%}
+            <li id="{{collaborations.ide}}"><img src="{{collaborations.img}}"/>
+            <h3 class="team-name">{{ collaborations.title}}</h3>
+              <span class="designation">{{ collaborations.designation }}</span>
+              <a href="mailto:{{ collaborations.email }}" class="mailid">{{ collaborations.email }}</a>
+            </li>
+            {%endfor %}
+        </ul>
+        </div>
+
+          <div class="col-md-2">
+            {{content}}
+        </div>
+
+    </div>
+</div>
+</section>

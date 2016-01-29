@@ -7,23 +7,27 @@ layout: default-layout
         <div class="col-md-offset-2 col-md-2">
           <h2 class="about" id="current_about">Past Events</h2>
           <ul>
-              <li class="about_nav">Research in Play</li>
-              <li class="about_nav">Game Sessions</li>
-              <li class="about_nav">Other Events</li>
+            {%for category in page.categories%}
+              <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+            {%endfor%}
+            <li class="about_nav" id="all" style="display: none">Past Events</li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back to Events</a></li>
             </ul>
         </div>
 
         <div class="col-md-4" >
           <ul class="old-events-list">
           {%for events in page.events%}
-          <li id="{{events.ide}}"><img src="{{events.img}}" style="width:100%"/></li>
+          <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="width:100%"/></li>
           {%endfor %}
         </ul>
         </div>
 
           <div class="col-md-3">
                 {%for events in page.events%}
-                  <div id="{{events.ide}}-content" class=".event-descriptions" style="display:none">
+                  <div id="{{events.ide}}-content" class=".event-descriptions" style="display:none; padding-top:38px;">
+                      <h3 class="event-heading">{{events.heading}}</h3>
+                      <span class="italic2">{{events.when}}</span>
                       {{events.description}}
                   </div>
                 {%endfor%}
@@ -44,5 +48,24 @@ layout: default-layout
       $("#{{events.ide}}-content").toggle();
     });
     {%endfor %}
+
+    {%for category in page.categories%}
+      $("#{{category.ide}}").click(function(){
+        $("li.event").css("display","none");
+        $("li.{{category.ide}}").css("display","block");
+
+        $(".about_nav").show("slow");
+        $("#current_about").html("{{category.title}}");
+        $("#all").show("slow");
+        $("#{{category.ide}}").hide("slow");
+      });
+    {%endfor%}
+      $("#all").click(function(){
+        $("li.event").css("display","block");
+
+        $(".about_nav").show("slow");
+        $("#current_about").html("Past Events");
+        $("#all").hide("slow");
+      });
   });
 </script>
