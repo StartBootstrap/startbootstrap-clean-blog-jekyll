@@ -15,9 +15,9 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6" style="padding-top:62px">
             {%for people in page.people%}
-            <div id="{{people.ide}}" class="col-md-2"><img src="{{people.img}}"/>
+            <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{people.img}}"/>
             <h3 class="team-name">{{ people.title}}</h3>
               <span class="designation">{{ people.designation }}</span>
               <a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>
@@ -26,8 +26,9 @@ layout: default-layout
             {%endfor %}
         </div>
 
-          <div class="col-md-2">
-            {{content}}
+
+        <div class="col-md-2">
+            Share - social media buttons
         </div>
 
     </div>
