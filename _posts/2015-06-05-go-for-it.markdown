@@ -1,0 +1,5 @@
+---
+published: true
+title: Smart post
+layout: post
+---
