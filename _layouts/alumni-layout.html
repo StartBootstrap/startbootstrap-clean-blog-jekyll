@@ -15,17 +15,14 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-6">
-          <ul class="alumni-list">
+        <div class="col-md-6" style="padding-top:62px">
             {%for alumni in page.alumni%}
-            <li id="{{alumni.ide}}"><img src="{{alumni.img}}"/>
+            <div id="{{alumni.ide}}" class="col-md-4" style="padding-bottom:50px"><img src="{{alumni.img}}"/>
             <h3 class="team-name">{{ alumni.title}}</h3>
               <span class="designation">{{ alumni.designation }}</span>
               <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>
-            </li>
+            </div>
             {%endfor %}
-        </ul>
-        </ul>
         </div>
 
           <div class="col-md-2">

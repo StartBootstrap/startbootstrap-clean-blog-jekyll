@@ -447,6 +447,7 @@ h3.team-name {
   color: #939393;
   font-family: 'Bebas Neue';
   font-weight: bold;
+  letter-spacing: 1.2px;
   font-size: 18pt;
   margin-left: auto;
   margin-right: auto;
@@ -637,7 +638,7 @@ p.project-specifics {
   color: #939393;
 }
 .overlay {
-  background: url(img/CarouselDivider.png) top left no-repeat;
+  background: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -648,19 +649,66 @@ p.project-specifics {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   .overlay {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {
   .overlay {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 480px) {
   .overlay {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
+  }
+}
+.carousel-indicators {
+  text-align: left;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: -40%;
+}
+.carousel-caption {
+  display: none;
+}
+.carousel-control.left {
+  background-image: display;
+  height: 95%;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-control.left {
+    height: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-control.left {
+    height: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-control.left {
+    height: 85%;
+  }
+}
+.carousel-control.right {
+  background-image: display;
+  height: 94%;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-control.right {
+    height: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-control.right {
+    height: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-control.right {
+    height: 85%;
   }
 }

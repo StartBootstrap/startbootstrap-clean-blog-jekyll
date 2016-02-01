@@ -16,14 +16,29 @@ layout: default-layout
         </div>
 
         <div class="col-md-6" style="padding-top:62px">
+          <div class="row-fluid">
             {%for people in page.people%}
             <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{people.img}}"/>
-            <h3 class="team-name">{{ people.title}}</h3>
-              <span class="designation">{{ people.designation }}</span>
+            <h3 class="team-name">{{ people.title }}</h3>
+              <span class="designation">{{ people.designation }}</span> <br/>
               <a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>
-              <p class="simple-content" style:"margin-top:10px">{{ people.description }}</p>
+              <p class="simple-content">{{ people.description }}</p>
             </div>
             {%endfor %}
+          </div>
+
+            <div class="clearfix"></div>
+          <div class="row-fluid">
+            <h2 class="about" style="padding-top:30px; padding-left:15px"> Advisors</h2> <br/>
+            {%for advisors in page.advisors%}
+            <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;"><img src="{{advisors.img}}"/>
+            <h3 class="team-name">{{ advisors.title }}</h3>
+              <span class="designation">{{ advisors.designation }}</span> <br/>
+              <a href="mailto:{{ advisors.email }}" class="mailid">{{ advisors.email }}</a>
+              <p class="simple-content" style:"margin-top:5px">{{ advisors.description }}</p>
+            </div>
+            {%endfor %}
+          </div>
         </div>
 
 

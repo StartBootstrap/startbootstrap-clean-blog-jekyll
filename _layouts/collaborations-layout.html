@@ -15,16 +15,14 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-6">
-          <ul class="alumni-list">
+        <div class="col-md-6" style="padding-top:62px">
             {%for collaborations in page.collaborations%}
-            <li id="{{collaborations.ide}}"><img src="{{collaborations.img}}"/>
+            <div id="{{collaborations.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{collaborations.img}}"/>
             <h3 class="team-name">{{ collaborations.title}}</h3>
               <span class="designation">{{ collaborations.designation }}</span>
               <a href="mailto:{{ collaborations.email }}" class="mailid">{{ collaborations.email }}</a>
-            </li>
+            </div>
             {%endfor %}
-        </ul>
         </div>
 
           <div class="col-md-2">
