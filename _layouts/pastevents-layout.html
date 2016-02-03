@@ -25,15 +25,14 @@ layout: default-layout
 
           <div class="col-md-3">
                 {%for events in page.events%}
-                  <div id="{{events.ide}}-content" class=".event-descriptions" style="display:none; padding-top:38px;">
+                  <div id="{{events.ide}}-content" class="event-descriptions" style="display:none; padding-top:38px;">
                       <h3 class="event-heading">{{events.heading}}</h3>
                       <p class="simple-content">{{events.description}}</p>
                   </div>
                 {%endfor%}
           </div>
 
-          <div class="col-md-1">
-              {{Column 4}}
+          <div class="col-md-1" style="border-top:1.5px solid #939393; margin-top:61px">
           </div>
       </div>
   </div>
@@ -42,7 +41,7 @@ layout: default-layout
 <script>
   $(document).ready(function(){
     {%for events in page.events%}
-    $("#{{events.ide}}").hover(function(){
+    $("#{{events.ide}}").click(function(){
       $(".event-descriptions").css("display","none");
       $("#{{events.ide}}-content").toggle();
     });
