@@ -712,7 +712,7 @@ p.project-specifics {
   }
 }
 .blog-update {
-  background-color: #f4f4f4;
+  background-color: #f6f6f6;
   padding: 10px 35px 10px 35px;
 }
 h3#blog-title,
@@ -730,7 +730,4 @@ p#podcast-audio {
 }
 .tweet-update {
   padding-top: 30px;
-}
-a.twitter-timeline {
-  height: 200px;
 }
