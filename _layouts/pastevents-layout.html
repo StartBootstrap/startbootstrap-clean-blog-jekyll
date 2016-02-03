@@ -27,8 +27,7 @@ layout: default-layout
                 {%for events in page.events%}
                   <div id="{{events.ide}}-content" class=".event-descriptions" style="display:none; padding-top:38px;">
                       <h3 class="event-heading">{{events.heading}}</h3>
-                      <span class="italic2">{{events.when}}</span>
-                      {{events.description}}
+                      <p class="simple-content">{{events.description}}</p>
                   </div>
                 {%endfor%}
           </div>
