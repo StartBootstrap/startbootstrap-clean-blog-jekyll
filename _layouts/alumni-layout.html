@@ -17,9 +17,10 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
             {%for alumni in page.alumni%}
-            <div id="{{alumni.ide}}" class="col-md-4" style="padding-bottom:50px"><img src="{{alumni.img}}"/>
-            <h3 class="team-name">{{ alumni.title}}</h3>
-              <span class="designation">{{ alumni.designation }}</span>
+            <div id="{{alumni.ide}}" class="col-md-4" style="padding-bottom:50px">
+              <img src="{{alumni.img}}"/>
+              <h3 class="team-name">{{ alumni.title}}</h3>
+              <span class="designation">{{ alumni.designation }}</span><br/>
               <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>
             </div>
             {%endfor %}

@@ -12,22 +12,24 @@ layout: default-layout
                 <li class="about_nav">Podcasts</li>
             </ul>
         </div>
-        <div class="col-md-4" >
-          <h2>Latest Blog Post</h2>
+        <div class="col-md-4" style="padding-top:62px">
+          <div class="blog-update">
           <h3 id="blog-title"></h3>
           <p id="blog-snippet"></p>
-        </ul>
+        </div>
+        <div class="blog-update" style="margin-top:40px">
+        <h3 id="podcast-title"></h3>
+        <p id="podcast-audio"></p>
+        </div>
         </div>
 
-          <div class="col-md-3">
-            <h2>Latest Podacst</h2>
-            <h3 id="podcast-title"></h3>
-            <p id="podcast-snippet"></p>
-            <p id="podcast-audio"></p>
-            <a class="twitter-timeline"  href="https://twitter.com/fovlabs" data-widget-id="694797707907506176">Tweets by @fovlabs</a>
+          <div class="col-md-3" style="padding-top:32px">
+            <div class="tweet-update">
+            <a class="twitter-timeline"  href="https://twitter.com/fovlabs" data-widget-id="694797707907506176" height="550px" width="100%">Tweets by @fovlabs</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+            </div>
           </div>
+
           <div class="col-md-1">
               Column 4
           </div>
@@ -71,7 +73,7 @@ $(document).ready(function(){
         audio = xml.query.results.rss.channel.item.enclosure.url;
         $("#podcast-title").html(title);
         $("#podcast-snippet").html(snippet);
-        $("#podcast-audio").html("<br/>You can listen to the podcast here. <br/><audio controls><source src='"+audio+"' ></audio>");
+        $("#podcast-audio").html("<audio controls><source src='"+audio+"' ></audio><br/>You can also listen to the podcast here.");
     }
   });
 });

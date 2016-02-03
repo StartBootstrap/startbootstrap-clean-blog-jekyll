@@ -533,17 +533,9 @@ span.topspace {
 .old-events-list li {
   list-style-type: none;
   display: inline-block;
-  width: 50%;
-  padding-bottom: 20px;
+  width: 48%;
+  padding: 0px 20px 20px 20px;
   margin: 0 0 0 0;
-}
-.old-events-list li:nth-child(odd) {
-  float: left;
-  padding-right: 10px;
-}
-.old-events-list li:nth-child(even) {
-  float: right;
-  padding-left: 10px;
 }
 span.italic {
   font-style: italic;
@@ -718,4 +710,27 @@ p.project-specifics {
   .carousel-control.right {
     height: 85%;
   }
+}
+.blog-update {
+  background-color: #f4f4f4;
+  padding: 10px 35px 10px 35px;
+}
+h3#blog-title,
+h3#podcast-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18pt;
+  letter-spacing: 1px;
+  color: #939393;
+}
+p#blog-snippet,
+p#podcast-audio {
+  font-family: "Crimson Text", serif;
+  font-size: 14pt;
+  color: #939393;
+}
+.tweet-update {
+  padding-top: 30px;
+}
+a.twitter-timeline {
+  height: 200px;
 }
