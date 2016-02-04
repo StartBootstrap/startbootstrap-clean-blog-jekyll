@@ -2,7 +2,7 @@
 layout: default-layout
 ---
 <section class="content">
-<div class="container-fluid clearfix">
+<div class="container-fluid clearfix" id="bgprojects">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
             <h2 class="about" id="current_about">All Projects</h2>
@@ -18,7 +18,7 @@ layout: default-layout
           <p class="project-intro" style="padding-top:25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. </p>
           <ul class="our-work-list">
             {%for projects in page.projects%}
-            <li id="{{projects.ide}}" class="project {{projects.categories}}"><a href=''><img src="{{projects.img}}" style="width:100%"/></a></li>
+            <li id="{{projects.ide}}" class="project {{projects.categories}}"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%"/></a></li>
             {%endfor %}
         </ul>
         </div>

@@ -7,9 +7,11 @@ layout: default-layout
         <div class="col-md-offset-2 col-md-2">
             <h2 class="about" id="current_about" style="margin-right: 15px;">City Game</h2>
             <ul>
-                <li class="project-specifics"><p><h4 class="specifics">Intended Audience</h4>Slum residents, activists and civil society, policy makers, and academia</p></li>
-                <li class="project-specifics"><p><h4 class="specifics">Keywords </h4>Urban poverty, slums, livelihoods, mobility, shelter, social mobility, living wages</p></li>
-                <li class="project-specifics"><p><h4 class="specifics">Keywords </h4>Urban poverty, slums, livelihoods, mobility, shelter, social mobility, living wages</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Intended Audience</h4>General Public, Urban Planners, Architects, Real estate developers</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Keywords</h4>Urban systems, Games, Visualisation, Self-Organisation</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Type</h4>table-tops</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Duration</h4>45 minutes - 1.5 hours</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Number of Players</h4>10 - 30 players</p></li>
             </ul>
         </div>
 
@@ -23,14 +25,14 @@ layout: default-layout
       <div class="row">
           <div class="col-md-6" style="padding:0 0 0 0">
             <br />
-            <p class="project-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum.</p>
-            <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.<p/>
-            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.<p/>
-            <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac.</p>
+            <p class="project-intro">The City Game is designed to explore urban form and elicit a group/individual's preferences about their city. </p>
+            <p class="simple-content">Participants play in turns and react to each others' actions, and in doing so create a dynamic that is absent in traditional participation/feedback processes. The game allows for experiments with various design alternatives. Players can experiment with different policies and rules, observe various patterns that emerge and contrast different emerging scenarios. <p/>
+            <p class="simple-content">In the game, participants take turns to build their city and witness the evolution of the city visually in real-time. We have multiple variants of the City Game. In one of the variants, the participants are given one simple rule: they have to inform the rest of the group, what they are building.<p/>
+            <p class="simple-content">Learn more about the city game here.</p>
 
             <ul>
-            <li class="project-specifics"><p><h4 class="specifics">Collaborations</h4>Slum residents, activists and civil society, policy makers, and academia</p>
-            <li class="project-specifics"><p><h4 class="specifics">Acknowledgements</h4>Urban poverty, slums, livelihoods.</p>
+            <!--<li class="project-specifics"><p><h4 class="specifics">Collaborations</h4>Slum residents, activists and civil society, policy makers, and academia</p>-->
+            <li class="project-specifics"><p><h4 class="specifics">Acknowledgements</h4>City Game was conceptualised and designed by Dr. Juval Portugali, Tel Aviv University. We wish to acknowledge that a portion of this work was carried out by members of the Next Generation Infrastructures Laboratory at the Center for Study of Science, Technology and Policy. This work was funded by Jamsetji Tata Trust and the Next Generation Infrastructure Foundation.</p>
             <br/>
             <a href="{{ site.baseurl }}/game-sessions/" class="italic2" style="font-size:20pt">Play the  City  Game now!</a>
           </div>
@@ -39,9 +41,38 @@ layout: default-layout
               <img src="/img/square-project-mock.jpg" style="padding-bottom:40px; float:right; height:100%; width:100%;">
           </div>
     </div>
-
+  </div>
           <div class="col-md-2" style="padding-top:24px">
-            {{Content}}
+            <ul class="list-inline-side">
+                {% if site.twitter_username %}
+                <li>
+                    <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <span class="fa-stack fa" style="font-size:16px">
+                            <i class="fa fa-twitter"></i>
+                        </span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.facebook_username %}
+                <li>
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                        <span class="fa-stack fa" style="font-size:16px">
+                            <i class="fa fa-facebook"></i>
+                        </span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li>
+                    <a href="https://linkedin.com/company/{{ site.linkedin_username }}">
+                        <span class="fa-stack fa" style="font-size:16px">
+                            <i class="fa fa-linkedin"></i>
+                        </span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+            <span class="italicregular" style="font-size:11pt; padding-left:10px;">Share this page!</span>
           </div>
 
         </div>
