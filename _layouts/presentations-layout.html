@@ -22,6 +22,24 @@ layout: default-layout
             <a href="{{presentations.link}}">[Link]</a>
            </li><br/>
             {%endfor %}
+            </ul>
+            <h3 class="team-name" style="padding-top:38px;">2013</h3>
+            <ul class="presentations-list">
+            {%for year2013 in page.year2013%}
+            <li id="{{year2013.ide}}"><span class="italic2">{{ year2013.title }}</span>
+              <span class="italicregular">{{ year2013.description }}</span>
+            <a href="{{presentations.link}}">[Link]</a>
+           </li><br/>
+            {%endfor %}
+          </ul>
+          <h3 class="team-name" style="padding-top:38px;">2014</h3>
+            <ul class="presentations-list">
+            {%for year2012 in page.year2012%}
+            <li id="{{year2012.ide}}"><span class="italic2">{{ year2012.title }}</span>
+              <span class="italicregular">{{ year2012.description }}</span>
+            <a href="{{presentations.link}}">[Link]</a>
+           </li><br/>
+            {%endfor %}
           </ul>
         </div>
 
