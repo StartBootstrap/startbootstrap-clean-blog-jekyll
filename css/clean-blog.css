@@ -637,12 +637,12 @@ p.project-specifics {
   padding: -2px 0px 10px 0px;
 }
 .publications-list {
-  margin-top: 12px;
+  margin-top: 20px;
 }
 .publications-list li {
   list-style-type: disc;
-  display: inline-block;
-  padding: -2px 0px 30px 0px;
+  color: #939393;
+  padding: -2px 0px 40px 0px;
   margin-bottom: 20px;
 }
 .presentations-list {

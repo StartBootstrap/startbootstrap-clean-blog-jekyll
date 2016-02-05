@@ -2,7 +2,7 @@
 layout: default-layout
 ---
 <section class="content">
-<div class="container-fluid clearfix" id="bgpub">
+<div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
             <h2 class="about" id="current_about_publications">Publications</h2>
@@ -14,7 +14,7 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-5" style="padding-top:28px">
+        <div class="col-md-5" style="padding-top:35px">
           <ul class="publications-list">
             {%for publications in page.publications%}
             <li id="{{publications.ide}}">

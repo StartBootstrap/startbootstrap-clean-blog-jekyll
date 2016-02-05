@@ -19,8 +19,6 @@ layout: default-layout
             {%for collaborations in page.collaborations%}
             <div id="{{collaborations.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{collaborations.img}}"/>
             <h3 class="team-name">{{ collaborations.title}}</h3>
-              <span class="designation">{{ collaborations.designation }}</span>
-              <a href="mailto:{{ collaborations.email }}" class="mailid">{{ collaborations.email }}</a>
             </div>
             {%endfor %}
         </div>
