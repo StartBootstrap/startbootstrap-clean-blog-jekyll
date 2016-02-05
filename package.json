@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+  },
+  "dependencies": {
+    "simple-jekyll-search": "^1.1.1"
   }
 }

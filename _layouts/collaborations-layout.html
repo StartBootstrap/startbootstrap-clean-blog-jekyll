@@ -17,8 +17,8 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
             {%for collaborations in page.collaborations%}
-            <div id="{{collaborations.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{collaborations.img}}"/>
-            <h3 class="team-name">{{ collaborations.title}}</h3>
+            <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left"><img src="{{collaborations.img}}"/>
+            <span class="italicregular">{{ collaborations.title}}</span>
             </div>
             {%endfor %}
         </div>

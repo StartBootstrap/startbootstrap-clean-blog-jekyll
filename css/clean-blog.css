@@ -57,9 +57,6 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
-.navbar-custom .nav li {
-  padding-right: 10px;
-}
 .navbar-custom .nav li a {
   font-family: "Bebas Neue", sans-serif;
   font-size: 16pt;
@@ -752,6 +749,7 @@ p#podcast-audio {
   list-style-type: none;
   display: inline-block;
   margin-left: -6px;
+  padding-left: 20px;
 }
 #bgprojects {
   background: url('/img/background1.png') no-repeat left top;
@@ -768,4 +766,16 @@ p#podcast-audio {
 #bgteam {
   background: url('/img/background1.png') no-repeat left top;
   height: 100%;
+}
+.search-box {
+  position: fixed;
+  top: 10%;
+  right: 0%;
+  display: none;
+}
+#results-container {
+  position: fixed;
+  top: 20%;
+  right: 0%;
+  display: none;
 }
