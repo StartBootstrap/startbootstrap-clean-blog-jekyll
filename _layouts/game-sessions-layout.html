@@ -14,26 +14,15 @@ layout: default-layout
         </div>
 
         <div class="col-md-4" style:"padding-top:25px" >
-          <ul class="new-events-list">
-          {%for posters in page.posters%}
-          <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%"/></li>
-          {%endfor %}
-        </ul>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
 
           <div class="col-md-3" style="padding-top:24px">
-          <ul class="new-events-list2">
-            {% for posters in page.posters %}
-              <li>
-                <p style="simple-content">{{ posters.description }}</p>
-              </li>
-            {% endfor %}
-          </ul>
-          </ul>
+
           </div>
 
           <div class="col-md-1">
-              {{Column 4}}
+
           </div>
       </div>
   </div>
