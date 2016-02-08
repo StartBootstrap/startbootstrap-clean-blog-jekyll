@@ -5,12 +5,11 @@ layout: default-layout
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about">All Projects</h2>
+            <h2 class="about" id="all">All Projects</h2>
             <ul>
               {%for category in page.categories%}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
               {%endfor%}
-                <li class="about_nav" id="all" style="display: none">All Projects</li>
             </ul>
         </div>
         <div class="col-md-4" >
@@ -93,18 +92,14 @@ layout: default-layout
         $("li.project").css("display","none");
         $("li.{{category.ide}}").css("display","block");
 
-        $(".about_nav").show("slow");
-        $("#current_about").html("{{category.title}}");
-        $("#all").show("slow");
-        $("#{{category.ide}}").hide("slow");
+        $(".about_nav").css("font-weight","normal");
+        $("#{{category.ide}}").css("font-weight","bold");
       });
     {%endfor%}
       $("#all").click(function(){
         $("li.project").css("display","block");
-
-        $(".about_nav").show("slow");
-        $("#current_about").html("All Projects");
-        $("#all").hide("slow");
+        $(".about_nav").css("font-weight","normal");
+        
       });
   });
 </script>

@@ -17,7 +17,7 @@ layout: default-layout
         <div class="col-md-5" style="padding-top:35px">
           <ul class="publications-list">
             {%for publications in page.publications%}
-            <li id="{{publications.ide}}">
+            <li id="{{publications.ide}}" class="{{publications.categories}} publications">
               <h3 class="pub-name">{{publications.name}}</h3>
               <span class="italicregular">{{publications.pub}}</span>
             </li>
@@ -61,3 +61,17 @@ layout: default-layout
     </div>
 </div>
 </section>
+
+<script>
+$(document).ready(function(){
+  {%for category in page.categories%}
+    $("#{{category.ide}}").click(function(){
+      $(".publications").hide();
+      $(".{{category.ide}}").show();
+    });
+  {%endfor%}
+  $("#current_about_publications").click(function(){
+    $(".publications").show();
+  });
+});
+</script>
