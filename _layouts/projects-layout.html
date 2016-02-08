@@ -17,7 +17,7 @@ layout: default-layout
           <p class="project-intro" style="padding-top:25px">At Fields of View, we work on games and simulations to help understand cities better. Change this?</p>
           <ul class="our-work-list">
             {%for projects in page.projects%}
-            <li id="{{projects.ide}}" class="project {{projects.categories}}"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%"/></a></li>
+            <li id="{{projects.ide}}" class="project {{projects.categories}}"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer"/></a></li>
             {%endfor %}
         </ul>
         </div>
@@ -99,7 +99,7 @@ layout: default-layout
       $("#all").click(function(){
         $("li.project").css("display","block");
         $(".about_nav").css("font-weight","normal");
-        
+
       });
   });
 </script>
