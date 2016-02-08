@@ -17,13 +17,22 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
           <div class="row-fluid">
+            {% assign counter = 0 %}
             {%for people in page.people%}
+              {% if counter >= 3 %}
+                {% assign counter = 0 %}
+                  <div class="clearfix"></div>
+              {% endif %}
+
+              {% assign counter = counter | plus: 1  %}
+
             <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{people.img}}"/>
             <h3 class="team-name">{{ people.title }}</h3>
               <span class="designation">{{ people.designation }}</span> <br/>
               <a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>
               <p class="simple-content">{{ people.description }}</p>
             </div>
+
             {%endfor %}
           </div>
 
@@ -43,6 +52,7 @@ layout: default-layout
 
 
         <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px">
+
         </div>
 
     </div>
