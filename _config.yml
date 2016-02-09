@@ -13,7 +13,7 @@ email_username:  your-email@yourdomain.com
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
