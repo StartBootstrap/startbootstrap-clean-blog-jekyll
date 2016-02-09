@@ -17,11 +17,11 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
             {%for alumni in page.alumni%}
-            <div id="{{alumni.ide}}" class="col-md-4" style="padding-bottom:50px">
+            <div id="{{alumni.ide}}" class="col-md-2" style="padding-bottom:50px">
               <img src="{{alumni.img}}"/>
-              <h3 class="team-name">{{ alumni.title}}</h3>
-              <span class="designation">{{ alumni.designation }}</span><br/>
-              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>
+              <span class="team-name" style="font-family: Bebas Neue; font-size: 15px">{{ alumni.title}}</span>
+              <!--<span class="designation">{{ alumni.designation }}</span><br/>
+              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>-->
             </div>
             {%endfor %}
         </div>

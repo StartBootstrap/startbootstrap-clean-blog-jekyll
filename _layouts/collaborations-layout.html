@@ -16,7 +16,14 @@ layout: default-layout
         </div>
 
         <div class="col-md-6" style="padding-top:62px">
+            {% assign counter = 0 %}
             {%for collaborations in page.collaborations%}
+            {% if counter >= 4 %}
+              {% assign counter = 0 %}
+                <div class="clearfix"></div>
+            {% endif %}
+
+            {% assign counter = counter | plus: 1  %}
             <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left"><img src="{{collaborations.img}}"/>
             <span class="italicregular">{{ collaborations.title}}</span>
             </div>

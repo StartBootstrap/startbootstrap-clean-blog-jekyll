@@ -23,22 +23,30 @@ layout: default-layout
         </div>
       <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
           <div class="col-md-3" style="padding-top:24px">
-            <p class="simple-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+            <div id="our-work-description">
+              <h2 class="about">Our work</h2>
+              <p class="simple-content">
+                Our goal is to design spaces where different disciplines can come together and have a meaningful dialogue to understand cities better, and we create these spaces through games and simulations. Our work lies at the intersection of technology, social sciences, and art. And we work with the Government, Academia, Industry, and Civil Society.
+                <br/>
+                Some of our current projects include: Building a game for the UN for students of economics and sustainability studies to understand the Inclusive Wealth Indicator (IWI), an indicator proposed as a complement to the GDP and HDI; Rubbish! a game on waste management in Bangalore; SimCity - building simulations to understand and plan for cities in the Indian context; and building a game for the Institute of Plasma Research, a Government of India undertaking.
+              </p>
+            </div>
 
-            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
+            {% for category in page.categories%}
+            <div class="category-desc" id="{{category.ide}}-content" style="display: none">
+              <h2 class="about">{{category.title}}</h2>
+              <p class="simple-content">{{category.description}}</p>
 
-            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac.</p>
+            </div>
+            {% endfor %}
 
-            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. Ut dictum purus eu elit dignissim rutrum. Fusce ut odio dapibus, tristique libero ac, consectetur velit.</p>
-
-            <p class="simple-content">Sed blandit urna in ullamcorper mogestie. Aliquam vehicula nunc nisl, et citpurus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo purus nibh, non imperdiet dolor auctor ac. </p>
-         {%for projects in page.projects%}
-            <div style="display:none" id="{{projects.ide}}-content" class="project-descriptions">
-            <h2>{{projects.title}}</h2>
-            <p class="simple-content">
-              {{projects.description}}
-            </p>
-          </div>
+            {%for projects in page.projects%}
+              <div style="display:none" id="{{projects.ide}}-content" class="project-descriptions">
+                <h2>{{projects.title}}</h2>
+                <p class="simple-content">
+                  {{projects.description}}
+                </p>
+              </div>
             {%endfor %}
 
         </div>
@@ -51,12 +59,6 @@ layout: default-layout
 
 <script>
   $(document).ready(function(){
-    {%for projects in page.projects%}
-      $("#{{projects.ide}}").hover(function(){
-        $(".project-descriptions").css("display","none");
-        $("#{{projects.ide}}-content").toggle();
-      });
-    {%endfor %}
 
     {%for category in page.categories%}
       $("#{{category.ide}}").click(function(){
@@ -65,12 +67,16 @@ layout: default-layout
 
         $(".about_nav").css("font-weight","normal");
         $("#{{category.ide}}").css("font-weight","bold");
+
+        $(".category-desc").hide();
+        $("#{{category.ide}}-content").show();
+        $("#our-work-description").hide();
       });
     {%endfor%}
       $("#all").click(function(){
         $("li.project").css("display","block");
         $(".about_nav").css("font-weight","normal");
-
+        $("#our-work-description").show();
       });
   });
 </script>
