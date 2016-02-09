@@ -37,38 +37,9 @@ layout: default-layout
           </div>
     </div>
   </div>
-          <div class="col-md-2" style="padding-top:24px">
-            <ul class="list-inline-side">
-                {% if site.twitter_username %}
-                <li>
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-twitter"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.facebook_username %}
-                <li>
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-facebook"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.github_username %}
-                <li>
-                    <a href="https://linkedin.com/company/{{ site.linkedin_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-linkedin"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
-            <span class="italicregular" style="font-size:11pt; padding-left:10px;">Share this page!</span>
-          </div>
+  <div class="col-md-2" style="padding-top:24px; border-bottom: 1.5px solid #939393">
+    {% include share.html%}
+  </div>
 
         </div>
     </div>
