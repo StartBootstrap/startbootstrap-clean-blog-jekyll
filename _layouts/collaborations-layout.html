@@ -24,7 +24,8 @@ layout: default-layout
             {% endif %}
 
             {% assign counter = counter | plus: 1  %}
-            <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left"><img src="{{collaborations.img}}"/>
+            <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left">
+            <a href="{{collaborations.url}}" target="_blank"><img src="{{collaborations.img}}" style="cursor:pointer"/></a>
             <span class="italicregular">{{ collaborations.title}}</span>
             </div>
             {%endfor %}
