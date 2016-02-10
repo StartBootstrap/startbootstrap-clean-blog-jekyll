@@ -376,6 +376,7 @@ h3.event-heading {
   font-size: 20pt;
   margin-left: auto;
   margin-right: auto;
+  letter-spacing: 1px;
 }
 h3.team-name {
   color: #939393;
