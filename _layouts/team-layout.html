@@ -2,11 +2,11 @@
 layout: default-layout
 ---
 <section class="content">
-<div class="container-fluid" id="bgteam">
+<div class="container-fluid">
     <div class="row-fluid">
 
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about">About Us</h2>
+            <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
             <ul>
                 <li class="about_nav"><a href="{{ site.baseurl }}/team/" style="font-weight: bold">Team</a></li>
                 <li class="about_nav"><a href="{{ site.baseurl }}/alumni/">Alumni</a></li>
@@ -17,13 +17,23 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
           <div class="row-fluid">
+            {% assign counter = 0 %}
             {%for people in page.people%}
-            <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px"><img src="{{people.img}}"/>
-            <h3 class="team-name">{{ people.title }}</h3>
+              {% if counter >= 3 %}
+                {% assign counter = 0 %}
+                  <div class="clearfix"></div>
+              {% endif %}
+
+              {% assign counter = counter | plus: 1  %}
+
+            <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px">
+              <a href="/team/{{people.ide}}.html"><img src="{{people.img}}"/>
+            <h3 class="team-name">{{ people.title }}</h3></a>
               <span class="designation">{{ people.designation }}</span> <br/>
-              <a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>
-              <p class="simple-content">{{ people.description }}</p>
+              <!--<a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>-->
+              <!--<p class="simple-content">{{ people.description }}</p>-->
             </div>
+
             {%endfor %}
           </div>
 
@@ -35,7 +45,7 @@ layout: default-layout
             <h3 class="team-name">{{ advisors.title }}</h3>
               <span class="designation">{{ advisors.designation }}</span> <br/>
               <a href="mailto:{{ advisors.email }}" class="mailid">{{ advisors.email }}</a>
-              <p class="simple-content" style:"margin-top:5px">{{ advisors.description }}</p>
+              <!--<p class="simple-content" style:"margin-top:5px">{{ advisors.description }}</p>-->
             </div>
             {%endfor %}
           </div>
@@ -43,6 +53,7 @@ layout: default-layout
 
 
         <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px">
+
         </div>
 
     </div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 title: Search this
 category: search
 tags: game,education

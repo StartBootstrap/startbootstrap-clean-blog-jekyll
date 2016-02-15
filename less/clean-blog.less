@@ -59,6 +59,17 @@ hr.small {
 
 // Navigation
 // This is a comment.
+.navbar-fov .nav{
+	li {
+		a {
+			font-family: "Bebas Neue", sans-serif;
+			font-size: 16pt;
+			font-weight:600;
+			color: "#595959";
+			letter-spacing: 1px;
+		}
+	}
+}
 
 .navbar-custom {
 	background: white;
@@ -86,80 +97,80 @@ hr.small {
 		border-bottom: 1px solid #a8a8a8;
     margin-top: 20px;
 	}
-	@media only screen and (min-width: 768px) {
-		background: transparent;
-		border-bottom: 1px solid transparent;
-		.navbar-brand {
-			color: @gray-dark;
-			padding-left: 20px;
-			padding-top: 10px;
-			&:hover,
-			&:focus {
-				color: @white-faded;
-			}
-		}
-		.nav {
-			li {
-				a {
-					color: #595959;
-					padding: 20px;
-					&:hover,
-					&:focus {
-						color: #919191;
-					}
-				}
-			}
-		}
-	}
-	@media only screen and (min-width: 1170px) {
-		-webkit-transition: background-color 0.3s;
-		-moz-transition: background-color 0.3s;
-		transition: background-color 0.3s;
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translate3d(0, 0, 0);
-		-moz-transform: translate3d(0, 0, 0);
-		-ms-transform: translate3d(0, 0, 0);
-		-o-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-		&.is-fixed {
-			/* when the user scrolls down, we hide the header right above the viewport */
-			position: fixed;
-			top: -61px;
-			background-color: fade(white, 90%);
-			border-bottom: 1px solid darken(white, 5%);
-			-webkit-transition: -webkit-transform 0.3s;
-			-moz-transition: -moz-transform 0.3s;
-			transition: transform 0.3s;
-			.navbar-brand {
-				color: @gray-dark;
-				&:hover,
-				&:focus {
-					color: @brand-primary;
-				}
-			}
-			.nav {
-				li {
-					a {
-						color: @gray-dark;
-						&:hover,
-						&:focus {
-							color: @brand-primary;
-						}
-					}
-				}
-			}
-		}
-		&.is-visible {
-			/* if the user changes the scrolling direction, we show the header */
-			-webkit-transform: translate3d(0, 100%, 0);
-			-moz-transform: translate3d(0, 100%, 0);
-			-ms-transform: translate3d(0, 100%, 0);
-			-o-transform: translate3d(0, 100%, 0);
-			transform: translate3d(0, 100%, 0);
-		}
-	}
+	// @media only screen and (min-width: 768px) {
+	// 	background: transparent;
+	// 	border-bottom: 1px solid transparent;
+	// 	.navbar-brand {
+	// 		color: @gray-dark;
+	// 		padding-left: 20px;
+	// 		padding-top: 10px;
+	// 		&:hover,
+	// 		&:focus {
+	// 			color: @white-faded;
+	// 		}
+	// 	}
+	// 	.nav {
+	// 		li {
+	// 			a {
+	// 				color: #595959;
+	// 				padding: 20px;
+	// 				&:hover,
+	// 				&:focus {
+	// 					color: #919191;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// @media only screen and (min-width: 1170px) {
+	// 	-webkit-transition: background-color 0.3s;
+	// 	-moz-transition: background-color 0.3s;
+	// 	transition: background-color 0.3s;
+	// 	/* Force Hardware Acceleration in WebKit */
+	// 	-webkit-transform: translate3d(0, 0, 0);
+	// 	-moz-transform: translate3d(0, 0, 0);
+	// 	-ms-transform: translate3d(0, 0, 0);
+	// 	-o-transform: translate3d(0, 0, 0);
+	// 	transform: translate3d(0, 0, 0);
+	// 	-webkit-backface-visibility: hidden;
+	// 	backface-visibility: hidden;
+	// 	&.is-fixed {
+	// 		/* when the user scrolls down, we hide the header right above the viewport */
+	// 		position: fixed;
+	// 		top: -61px;
+	// 		background-color: fade(white, 90%);
+	// 		border-bottom: 1px solid darken(white, 5%);
+	// 		-webkit-transition: -webkit-transform 0.3s;
+	// 		-moz-transition: -moz-transform 0.3s;
+	// 		transition: transform 0.3s;
+	// 		.navbar-brand {
+	// 			color: @gray-dark;
+	// 			&:hover,
+	// 			&:focus {
+	// 				color: @brand-primary;
+	// 			}
+	// 		}
+	// 		.nav {
+	// 			li {
+	// 				a {
+	// 					color: @gray-dark;
+	// 					&:hover,
+	// 					&:focus {
+	// 						color: @brand-primary;
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// 	&.is-visible {
+	// 		/* if the user changes the scrolling direction, we show the header */
+	// 		-webkit-transform: translate3d(0, 100%, 0);
+	// 		-moz-transform: translate3d(0, 100%, 0);
+	// 		-ms-transform: translate3d(0, 100%, 0);
+	// 		-o-transform: translate3d(0, 100%, 0);
+	// 		transform: translate3d(0, 100%, 0);
+	// 	}
+	// }
 }
 
 // Header
@@ -517,6 +528,7 @@ h3.event-heading {
 	font-size: 20pt;
 	margin-left: auto;
 	margin-right: auto;
+	letter-spacing: 1px;
 }
 
 h3.team-name {
@@ -566,9 +578,17 @@ p.project-intro {
 	color: #939393;
 }
 
+p.index-intro{
+	font-family: "Crimson Text", serif;
+	font-size: 30pt;
+	font-style: italic;
+	font-weight: 600;
+	color: #c4c4c4;
+}
+
 p.simple-content{
 	font-family: "Crimson Text", serif;
-	font-size: 13.5pt;
+	font-size: 12pt;
 	color: #424242;
 }
 
@@ -593,14 +613,9 @@ span.topspace{
 		list-style-type:none;
 		display:inline-block;
 		width: 48%;
-		padding:0 10px 35px 0;
+		padding:0 20px 20px 0;
 		margin:0 0 0 0;
-	}
-	li:nth-child(odd){
 		float: left;
-	}
-	li:nth-child(even){
-		float: right;
 	}
 	padding:0 0 0 0;
 	margin: 0 0 0 0;
@@ -742,11 +757,11 @@ p.project-specifics{
 	}
 
 	.publications-list{
-		margin-top: 12px;
+		margin-top: 20px;
 		li{
 			list-style-type: disc;
-			display:inline-block;
-			padding: -2px 0px 30px 0px;
+			color: #939393;
+			padding: -2px 0px 40px 0px;
 			margin-bottom: 20px;
 		}
 	}
@@ -821,7 +836,7 @@ p.project-specifics{
 
 .carousel-control.right{
 	background-image: display;
-	height: 94%;
+	height: 95%;
 	@media (min-width: 768px) and (max-width: 979px) {
 				height:90%;
 	}
@@ -862,6 +877,7 @@ padding-top:30px;
 	list-style-type: none;
 	display: inline-block;
 	margin-left: -6px;
+	padding-left: 20px;
 }
 }
 
@@ -904,4 +920,18 @@ padding-top:30px;
     top: 20%;
     right: 0%;
     display: none;
+}
+
+h2#all, h2#current_about_publications{
+	cursor: pointer;
+}
+
+#nav-fov{
+	border-bottom: none;
+}
+
+p.icon-attribution{
+	font-family: "Crimson Text", serif;
+	font-size: 8pt;
+	font-style: italic;
 }

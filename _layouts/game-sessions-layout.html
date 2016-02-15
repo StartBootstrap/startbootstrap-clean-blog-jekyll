@@ -5,35 +5,25 @@ layout: default-layout
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about">Game Sessions</h2>
+          <h2 class="about" id="current_about"><a href="/events/">Events</a></h2>
           <ul>
-              <li class="about_nav"><a href="{{ site.baseurl }}/presentations/">Presentations</a></li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Upcoming Events</a></li>
               <li class="about_nav"><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
+              <li class="about_nav" style="font-weight: bold"><a href="{{ site.baseurl }}/game-sessions/">Game Sessions</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/presentations/">Presentations</a></li>
             </ul>
         </div>
 
-        <div class="col-md-4" style:"padding-top:25px" >
-          <ul class="new-events-list">
-          {%for posters in page.posters%}
-          <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%"/></li>
-          {%endfor %}
-        </ul>
+        <div class="col-md-4" style="padding-top:60px" >
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          <a href="mailto:info@fieldsofview.in?subject=Requesting Game Session&body=Hi, I'd like to request a game session for...."><p class="project-intro">Request a game session!</p></a>
         </div>
 
           <div class="col-md-3" style="padding-top:24px">
-          <ul class="new-events-list2">
-            {% for posters in page.posters %}
-              <li>
-                <p style="simple-content">{{ posters.description }}</p>
-              </li>
-            {% endfor %}
-          </ul>
-          </ul>
+
           </div>
 
           <div class="col-md-1">
-              {{Column 4}}
+
           </div>
       </div>
   </div>

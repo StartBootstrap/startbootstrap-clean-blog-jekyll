@@ -6,7 +6,7 @@ layout: default-layout
     <div class="row-fluid">
 
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about">About Us</h2>
+            <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
             <ul>
                 <li class="about_nav"><a href="{{ site.baseurl }}/team/">Team</a></li>
                 <li class="about_nav"><a href="{{ site.baseurl }}/alumni/" style="font-weight: bold">Alumni</a></li>
@@ -17,11 +17,11 @@ layout: default-layout
 
         <div class="col-md-6" style="padding-top:62px">
             {%for alumni in page.alumni%}
-            <div id="{{alumni.ide}}" class="col-md-4" style="padding-bottom:50px">
+            <div id="{{alumni.ide}}" class="col-md-3" style="padding-bottom:50px">
               <img src="{{alumni.img}}"/>
-              <h3 class="team-name">{{ alumni.title}}</h3>
-              <span class="designation">{{ alumni.designation }}</span><br/>
-              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>
+              <span class="team-name" style="font-family: Bebas Neue; font-size: 16pt; color:#939393">{{ alumni.title}}</span>
+              <!--<span class="designation">{{ alumni.designation }}</span><br/>
+              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>-->
             </div>
             {%endfor %}
         </div>

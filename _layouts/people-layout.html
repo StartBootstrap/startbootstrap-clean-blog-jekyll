@@ -1,0 +1,28 @@
+---
+layout: default-layout
+bg-url: /img/background5.png
+---
+
+<section class="content">
+<div class="container-fluid clearfix" style="min-height:600px">
+    <div class="row-fluid">
+        <div class="col-md-2 col-md-offset-2">
+            <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
+            <ul>
+                <li class="about_nav"><a href="{{ site.baseurl }}/team/">Team</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/alumni/">Alumni</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/collaborations/">Collaborations</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="event-heading">{{page.title}}</h3>
+          <img src="{{page.img}}" />
+        </div>
+        <div class="col-md-5" style="padding-top:40px">
+            {{page.description}}
+            <br/><br/><a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
+        </div>
+    </div>
+</div>
+</section>

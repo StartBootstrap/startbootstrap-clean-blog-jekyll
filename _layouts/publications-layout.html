@@ -1,8 +1,8 @@
 ---
 layout: default-layout
 ---
-<section class="content">
-<div class="container-fluid clearfix" id="bgpub">
+<section class="content" style="min-height:600px">
+<div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
             <h2 class="about" id="current_about_publications">Publications</h2>
@@ -14,10 +14,10 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-5" style="padding-top:28px">
+        <div class="col-md-5" style="padding-top:35px">
           <ul class="publications-list">
             {%for publications in page.publications%}
-            <li id="{{publications.ide}}">
+            <li id="{{publications.ide}}" class="{{publications.categories}} publications">
               <h3 class="pub-name">{{publications.name}}</h3>
               <span class="italicregular">{{publications.pub}}</span>
             </li>
@@ -26,38 +26,23 @@ layout: default-layout
         </div>
 
 
-        <div class="col-md-3">
-          <ul class="list-inline-side">
-              {% if site.twitter_username %}
-              <li>
-                  <a href="https://twitter.com/{{ site.twitter_username }}">
-                      <span class="fa-stack fa" style="font-size:16px">
-                          <i class="fa fa-twitter"></i>
-                      </span>
-                  </a>
-              </li>
-              {% endif %}
-              {% if site.facebook_username %}
-              <li>
-                  <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                      <span class="fa-stack fa" style="font-size:16px">
-                          <i class="fa fa-facebook"></i>
-                      </span>
-                  </a>
-              </li>
-              {% endif %}
-              {% if site.github_username %}
-              <li>
-                  <a href="https://linkedin.com/company/{{ site.linkedin_username }}">
-                      <span class="fa-stack fa" style="font-size:16px">
-                          <i class="fa fa-linkedin"></i>
-                      </span>
-                  </a>
-              </li>
-              {% endif %}
-          </ul>
-          <span class="italicregular" style="font-size:11pt; padding-left:10px;">Share this page!</span>
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; padding-top:5px;">
+          {% include share.html%}
         </div>
     </div>
 </div>
 </section>
+
+<script>
+$(document).ready(function(){
+  {%for category in page.categories%}
+    $("#{{category.ide}}").click(function(){
+      $(".publications").hide();
+      $(".{{category.ide}}").show();
+    });
+  {%endfor%}
+  $("#current_about_publications").click(function(){
+    $(".publications").show();
+  });
+});
+</script>

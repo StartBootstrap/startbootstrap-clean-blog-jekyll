@@ -1,26 +1,27 @@
 ---
 layout: default-layout
+bg-url: /img/background-project4.png
 ---
 <section class="content">
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about" style="margin-right: 15px;">Rubbish!</h2>
+            <h2 class="about" id="current_about" style="margin-right: 15px;">₹ubbish</h2>
             <ul>
                 <li class="project-specifics"><p><h4 class="specifics">Intended Audience</h4>Residential Welfare Associations, Bulk generators of waste, Policymakers, Students.</p></li>
                 <li class="project-specifics"><p><h4 class="specifics">Keywords</h4>Solid Waste Management</p></li>
                 <li class="project-specifics"><p><h4 class="specifics">Type</h4>Bi-lingual board game</p></li>
-                <li class="project-specifics"><p><h4 class="specifics">Duration</h4>1.5-2 hours</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Duration</h4>1.5 - 2 hours</p></li>
                 <li class="project-specifics"><p><h4 class="specifics">Number of Players</h4>4 - 6 players</p></li>
             </ul>
         </div>
 
    <div class="col-md-6">
       <div class="row">
-            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:62px;">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:62px; padding-right:15px">
                 <iframe allowfullscreen="" src="http://player.vimeo.com/video/117558184" frameborder="0" width="100%" height="auto"></iframe>
               </div>
-              <a class="italic" style="font-weight:100; font-size:13pt">Some description of video.</a>
+              <a class="italic" style="font-weight:100; font-size:13pt">A short video about ₹ubbish!</a>
         </div>
       <div class="row">
           <div class="col-md-6" style="padding:0 0 0 0">
@@ -34,45 +35,16 @@ layout: default-layout
             <li class="project-specifics"><p><h4 class="specifics">Collaborations</h4>The project was a collaboration between mediaLAB Amsterdam, IIIT-B, and Fields of View.</p>
             <li class="project-specifics"><p><h4 class="specifics">Acknowledgements</h4>Nalini Shekar and the team at Hasirudala</p>
             <br/>
-            <a href="{{ site.baseurl }}/game-sessions/" class="italic2" style="font-size:20pt">Play the  City  Game now!</a>
+            <a href="{{ site.baseurl }}/game-sessions/" class="italic2" style="font-size:20pt">Play Rubbish!</a>
           </div>
           <div class="col-md-6" style="padding-top:65px">
-              <img src="/img/square-project-mock.jpg" style="padding-bottom:40px; float:right; height:100%; width:100%;">
-              <img src="/img/square-project-mock.jpg" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              <img src="/img/rubbish-img-2.jpg" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              <img src="/img/rubbish-img-1.jpg" style="padding-bottom:40px; float:right; height:100%; width:100%;">
           </div>
     </div>
   </div>
-          <div class="col-md-2" style="padding-top:24px">
-            <ul class="list-inline-side">
-                {% if site.twitter_username %}
-                <li>
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-twitter"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.facebook_username %}
-                <li>
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-facebook"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.github_username %}
-                <li>
-                    <a href="https://linkedin.com/company/{{ site.linkedin_username }}">
-                        <span class="fa-stack fa" style="font-size:16px">
-                            <i class="fa fa-linkedin"></i>
-                        </span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
-            <span class="italicregular" style="font-size:11pt; padding-left:10px;">Share this page!</span>
+          <div class="col-md-2" style="padding-top:4px; border-bottom: 1.5px solid #939393">
+            {% include share.html%}
           </div>
 
         </div>
