@@ -732,3 +732,23 @@ p.icon-attribution {
   font-size: 8pt;
   font-style: italic;
 }
+@media only screen and (min-width: 768px) {
+  [class*="collab"] {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 480px) {
+  [class*="collab"] {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  [class*="collab"] {
+    width: 33.33%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  [class*="collab"] {
+    width: 25%;
+  }
+}
