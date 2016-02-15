@@ -18,7 +18,7 @@ layout: default-layout
         <div class="col-md-4" >
           <ul class="old-events-list">
           {%for events in page.events%}
-          <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="width:100%"/></li>
+          <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="cursor: pointer; width:100%"/></li>
           {%endfor %}
         </ul>
         </div>

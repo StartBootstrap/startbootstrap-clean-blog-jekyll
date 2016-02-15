@@ -15,13 +15,15 @@ bg-url: /img/background5.png
                 <li class="about_nav"><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
             </ul>
         </div>
-        <div class="col-md-3">
-          <h3 class="event-heading">{{page.title}}</h3>
+        <div class="col-md-3" style="padding-top:55px">
           <img src="{{page.img}}" />
         </div>
-        <div class="col-md-5" style="padding-top:40px">
-            {{page.description}}
-            <br/><br/><a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
+        <div class="col-md-3" style="padding-top:30px">
+          <h3 class="event-heading">{{page.title}}</h3>
+          <p class="simple-content">{{page.description}}</p>
+          <a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
+        </div>
+        <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:54px">
         </div>
     </div>
 </div>

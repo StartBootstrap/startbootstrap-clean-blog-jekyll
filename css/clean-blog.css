@@ -752,3 +752,6 @@ p.icon-attribution {
     width: 25%;
   }
 }
+iframe.st-bg {
+  background: #000000;
+}
