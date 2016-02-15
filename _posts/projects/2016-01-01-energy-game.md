@@ -1,17 +1,17 @@
 ---
 layout: project-layout
-bg-url: /img/background-project4.png
-permalink: /projects/rubbish
-title: ₹ubbish!
-intended: Residential Welfare Associations, Bulk generators of waste, Policymakers, Students.
-keywords: Solid Waste Management
-type: Bi-lingual board game
-duration: 1.5 - 2 hours
-players: 4 - 6 players
-video: http://player.vimeo.com/video/117558184
-intro: Recently Bangalore adapted a decentralized approach to address its waste crisis with Dry Waste Collection Centers (DWCCs) being setup in every ward. How can we address some of the challenges faced by DWCCs and help strengthen the infrastructure for waste management in the city? It is this question we explored in ₹ubbish!, a cross-cultural design collaboration between Bangalore and Amsterdam.
-description: <p class="simple-content">Some of the challenges faced by the DWCCs include apathy of citizens toward dealing with waste and a lack of knowledge about the new decentralized system for waste management. Our objective was to address knowledge gaps and behaviour to promote understanding of the waste management system at both the micro and macro levels.</p><p class="simple-content">A combination of the methodology followed at Fields of View and mediaLab Amsterdam, involving framing the problem in consultation with stakeholders, field visits, discussions and interviews with experts, game design, and user tests.<p/>
-collaborations: The project was a collaboration between mediaLAB Amsterdam, IIIT-B, and Fields of View with Nalini Shekar and the team at Hasirudala.
-img1: /img/rubbish-img-2.jpg
-img2: /img/rubbish-img-1.jpg
+bg-url: /img/background-project5.png
+permalink: /projects/energy-game
+title: Energy Game
+intended: General Public, Energy Policy Planners.
+keywords: Multi-party negotiation, Conflict resolution, Energy Policy, Planning.
+type: Paper-based / table-top
+duration: 1 - 1.5 hours
+players: 6 - 12 players
+video: http://player.vimeo.com/video/148531288
+intro: India needs an energy policy that addresses environmental issues, decreasing coal reserves, increasing demand and technological challenges. Comprehending problems that arise in such complex socio-technical systems is not a trivial task. The Indian Energy Game has been designed with the primary objectives being to understand<br/>1. The challenges faced by different agencies in meeting targets.<br/>2.The decision making process and negotiations between the agencies.
+description: <p class="simple-content">The participants assume roles of different ministries of the Indian Government that build energy capacity in the country. These Ministries are responsible for controlling the fuel sources that different generation techniques use. The game is played in two rounds; in the first round the participants need to design an energy mixture for the 12th Five-Year plan and in the second round they design an energy mixture for the 13th Five Year Plan of India. The various constraints that arise when planning for energy, such as social costs, environmental costs, fuel shortages and technology barriers to name a few, play a role in shaping the decisions of the players.<p/><p class="simple-content">The problem we are addressing in the game is not just one of optimisation. Players become sensitive to these challenges when posed with these various constraints. As with the different Ministries in real life, throughout the game, each player holds different pieces of information. This information asymmetry makes it difficult for the players to meet their goals. Experiencing these constraints first-hand helps players understand the importance of cooperation and the dynamics of negotiation. To give an example, we have observed in multiple sessions of the game that the participants seem to understand that large hydroelectric projects, although inexpensive, displace a lot of people and have severe environmental costs.<p/>
+img1: /img/energy-game-img-1.jpg
+img2: /img/energy-game-img-2.jpg
+img3: /img/energy-game-img-3.jpg
 ---

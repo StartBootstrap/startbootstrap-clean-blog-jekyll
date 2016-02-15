@@ -1,5 +1,6 @@
 ---
 layout: default-layout
+bg-url: {{page.bg-url}}
 ---
 <section class="content">
 <div class="container-fluid clearfix">
@@ -32,14 +33,19 @@ layout: default-layout
             <p class="simple-content">Learn more about {{page.title}} here.</p>
 
               {%if page.collaborations != null%}
-            <h4 class="specifics" style="margin-bottom:-5px">Collaborations and Funders</h4><p class="project-specifics">{{page.collaborations}}</p>
+            <h4 class="specifics">Collaborations and Funders</h4><p class="project-specifics" style="margin-left:0px">{{page.collaborations}}</p>
               {%endif%}
             <br/>
+            {%if page.icons != null%
+            <p class="icon-attribution">{{page.icons}}</p>
+            {%endif%}
             <a href="{{ site.baseurl }}/game-sessions/" class="italic2" style="font-size:20pt">Play {{page.title}}</a>
           </div>
           <div class="col-md-6" style="padding-top:65px">
               <img src="{{page.img1}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              {%if page.img2 != null%}
               <img src="{{page.img2}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              {%endif%}
               {%if page.img3 != null%}
               <img src="{{page.img3}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
               {%endif%}
