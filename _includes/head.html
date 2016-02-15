@@ -36,6 +36,18 @@
     $(document).ready(function(){
       var pathname = window.location.pathname.replace(/\//gi,"");
       $("#"+pathname).css("color","#afafaf");
+
+      $("#search-button").css("cursor","pointer");
+      $("#search-button").click(function(){
+        $(".overlay-full").toggle();
+      });
+
+      $("#cancel-search").css("cursor","pointer");
+      $("#cancel-search").click(function(){
+        $(".overlay-full").toggle();
+        $("#search-container").toggle();
+        $("#results-container").toggle();
+      });
     });
     </script>
 </head>
