@@ -13,7 +13,7 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-4" style:"padding-top:25px" >
+        <div class="col-md-4" style:"padding-top:12px" >
           <ul class="new-events-list">
           {%for posters in page.posters%}
           <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%"/></li>
@@ -21,7 +21,7 @@ layout: default-layout
         </ul>
         </div>
 
-          <div class="col-md-3" style="padding-top:38px">
+          <div class="col-md-3" style="padding-top:32px">
           <ul class="new-events-list2">
             {% for posters in page.posters %}
               <li>
@@ -34,7 +34,7 @@ layout: default-layout
           </ul>
           </div>
 
-          <div class="col-md-1" style="padding-top:5px; border-bottom: 1.5px solid #939393">
+          <div class="col-md-1" style="margin-top:-3px; border-bottom: 1.5px solid #939393">
             {% include share.html%}
           </div>
       </div>

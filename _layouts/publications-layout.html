@@ -5,7 +5,7 @@ layout: default-layout
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about_publications">Publications</h2>
+            <h2 class="about" id="current_about_publications">All Publications</h2>
             <ul>
               {%for category in page.categories%}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
@@ -14,7 +14,7 @@ layout: default-layout
             </ul>
         </div>
 
-        <div class="col-md-5" style="padding-top:35px">
+        <div class="col-md-5" style="padding-top:30px">
           <ul class="publications-list">
             {%for publications in page.publications%}
             <li id="{{publications.ide}}" class="{{publications.categories}} publications">
@@ -26,7 +26,7 @@ layout: default-layout
         </div>
 
 
-        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; padding-top:5px;">
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
         </div>
     </div>
