@@ -1,0 +1,55 @@
+---
+layout: default-layout
+---
+<section class="content">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about" style="margin-right: 15px;">{{page.title}}</h2>
+            <ul>
+                <li class="project-specifics"><p><h4 class="specifics">Intended Audience</h4>{{page.intended}}</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Keywords</h4>{{page.keywords}}</p></li>
+                {% if page.type != null%}
+                <li class="project-specifics"><p><h4 class="specifics">Type</h4>{{page.type}}</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Duration</h4>{{page.duration}}</p></li>
+                <li class="project-specifics"><p><h4 class="specifics">Number of Players</h4>{{page.players}}</p></li>
+                {%endif%}
+            </ul>
+        </div>
+
+   <div class="col-md-6">
+      <div class="row">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
+                <iframe allowfullscreen="" src="{{page.video}}" frameborder="0" width="100%" height="auto"></iframe>
+              </div>
+              <a class="italic" style="font-weight:100; font-size:13pt">{{page.vidcaption}}</a>
+        </div>
+      <div class="row">
+          <div class="col-md-6" style="padding:0 0 0 0">
+            <br />
+            <p class="simple-content" style="font-weight: 500; color: #939393; font-style: italic; font-size: 16pt">{{page.intro}}</p>
+            <p>{{page.description}}</p>
+            <p class="simple-content">Learn more about {{page.title}} here.</p>
+
+              {%if page.collaborations != null%}
+            <h4 class="specifics" style="margin-bottom:-5px">Collaborations and Funders</h4><p class="project-specifics">{{page.collaborations}}</p>
+              {%endif%}
+            <br/>
+            <a href="{{ site.baseurl }}/game-sessions/" class="italic2" style="font-size:20pt">Play {{page.title}}</a>
+          </div>
+          <div class="col-md-6" style="padding-top:65px">
+              <img src="{{page.img1}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              <img src="{{page.img2}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              {%if page.img3 != null%}
+              <img src="{{page.img3}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              {%endif%}
+          </div>
+    </div>
+  </div>
+          <div class="col-md-2" style="margin-top:-3px; border-bottom: 1.5px solid #939393">
+            {% include share.html%}
+          </div>
+
+        </div>
+    </div>
+</section>

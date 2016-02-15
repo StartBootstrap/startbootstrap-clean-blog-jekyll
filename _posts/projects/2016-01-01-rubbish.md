@@ -1,0 +1,17 @@
+---
+layout: project-layout
+bg-url: /img/background-project4.png
+permalink: /projects/rubbish
+title: ₹ubbish!
+intended: Residential Welfare Associations, Bulk generators of waste, Policymakers, Students.
+keywords: Solid Waste Management
+type: Bi-lingual board game
+duration: 1.5 - 2 hours
+players: 4 - 6 players
+video: http://player.vimeo.com/video/117558184
+intro: Recently Bangalore adapted a decentralized approach to address its waste crisis with Dry Waste Collection Centers (DWCCs) being setup in every ward. How can we address some of the challenges faced by DWCCs and help strengthen the infrastructure for waste management in the city? It is this question we explored in ₹ubbish!, a cross-cultural design collaboration between Bangalore and Amsterdam.
+description: <p class="simple-content">Some of the challenges faced by the DWCCs include apathy of citizens toward dealing with waste and a lack of knowledge about the new decentralized system for waste management. Our objective was to address knowledge gaps and behaviour to promote understanding of the waste management system at both the micro and macro levels.</p><p class="simple-content">A combination of the methodology followed at Fields of View and mediaLab Amsterdam, involving framing the problem in consultation with stakeholders, field visits, discussions and interviews with experts, game design, and user tests.<p/>
+collaborations: The project was a collaboration between mediaLAB Amsterdam, IIIT-B, and Fields of View with Nalini Shekar and the team at Hasirudala.
+img1: /img/rubbish-img-2.jpg
+img2: /img/rubbish-img-1.jpg
+---

@@ -14,15 +14,9 @@ layout: default-layout
         </div>
         <div class="col-md-4" style="padding-top:55px">
           <span class="topspace"></span>
-<<<<<<< HEAD
         <!--  <p class="project-intro" style="padding-top:20px">At Fields of View, we work on games and simulations to help understand cities better.</p>-->
-          <ul class="our-work-list">
-=======
-          <p class="project-intro" style="padding-top:20px">At Fields of View, we work on games and simulations to help understand cities better.</p>
-
->>>>>>> 86c1c555ee5c8563c85fb379da187b9dcfbe489d
             {%for projects in page.projects%}
-            <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer"/></a></div>
+            <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
             {%endfor %}
 
         </div>

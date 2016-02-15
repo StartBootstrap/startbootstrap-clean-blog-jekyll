@@ -90,6 +90,10 @@ hr.small {
 				font-weight:600;
 				color: "#595959";
 				letter-spacing: 1px;
+				@media only screen and ( max-width: 1024px){
+					font-size: 13pt;
+					margin-left: -10px;
+				}
 			}
 		}
 	}
@@ -97,6 +101,7 @@ hr.small {
 		border-bottom: 1px solid #a8a8a8;
     margin-top: 20px;
 	}
+
 	// @media only screen and (min-width: 768px) {
 	// 	background: transparent;
 	// 	border-bottom: 1px solid transparent;
@@ -577,6 +582,13 @@ p.project-intro {
 	font-style: italic;
 	font-weight: 500;
 	color: #939393;
+	margin: 0 0 0 0;
+}
+p.project-introduction {
+	font-size: 16pt;
+	font-style: italic;
+	font-weight: 500;
+	color: #939393;
 }
 
 p.index-intro{
@@ -697,7 +709,7 @@ a.mailid{
 	padding-top: -5px
 }
 
-li.project-specifics,{
+p.project-specifics,{
 		list-style-type: none;
 		font-family: "Crimson Text", serif;
 		font-style: italic;
@@ -937,15 +949,24 @@ p.icon-attribution{
 	font-style: italic;
 }
 
+//Collaboration page responsive
+@media only screen and (min-width: 480px){
+	[class*="collab"]{
+		width: 50%;
+	}
+	[class*="project"]{
+		width:50%;
+		margin: 0 0 0 0;
+	}
+
+}
+
 @media only screen and (min-width: 768px){
 	[class*="collab"]{
 		width: 50%;
 	}
-}
-
-@media only screen and (min-width: 480px){
-	[class*="collab"]{
-		width: 50%;
+	[class*="project"]{
+		width:75%;
 	}
 }
 
@@ -953,10 +974,54 @@ p.icon-attribution{
 	[class*="collab"]{
 		width: 33.33%;
 	}
+	[class*="project"]{
+		width:50%;
+		margin: 0 0 0 0;
+	}
 }
 
 @media only screen and (min-width: 1200px){
 	[class*="collab"]{
 		width: 25%;
+	}
+	[class*="project"]{
+		width:50%;
+	}
+}
+
+//Input box
+input#search-input{
+	font-family: "Crimson Text" , serif;
+	font-size: 12pt;
+	border: none;
+	background-color: #eaeaea;
+	margin-right: 30px;
+}
+
+ul#results-container{
+	background-color: #f4f4f4;
+	z-index: 15;
+	margin-right:30px;
+	list-style-type: none;
+	font-family: "Crimson Text", serif;
+	font-size: 12pt;
+	font-style: italic;
+	padding: 15px 15px 15px 15px;
+	li{
+	padding-bottom: 5px;
+	}
+}
+
+div#share_buttons a span.fa{
+	@media only screen and (max-width: 480px){
+			display: none;
+	}
+	@media only screen and (max-width: 1024px){
+			font-size: 13px;
+			padding-right: 4px;
+	}
+	@media only screen and (min-width: 1200px){
+			font-size: 16px;
+			padding-right: 7px;
 	}
 }

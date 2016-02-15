@@ -71,6 +71,12 @@ hr.small {
   color: "#595959";
   letter-spacing: 1px;
 }
+@media only screen and (max-width: 1024px) {
+  .navbar-custom .nav li a {
+    font-size: 13pt;
+    margin-left: -10px;
+  }
+}
 .navbar-custom .navbar-collapse {
   border-bottom: 1px solid #a8a8a8;
   margin-top: 20px;
@@ -419,6 +425,13 @@ p.project-intro {
   font-style: italic;
   font-weight: 500;
   color: #939393;
+  margin: 0 0 0 0;
+}
+p.project-introduction {
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: 500;
+  color: #939393;
 }
 p.index-intro {
   font-family: "Crimson Text", serif;
@@ -520,7 +533,7 @@ a.mailid {
   border-bottom-color: #939393;
   padding-top: -5px;
 }
-li.project-specifics {
+p.project-specifics {
   list-style-type: none;
   font-family: "Crimson Text", serif;
   font-style: italic;
@@ -732,33 +745,74 @@ p.icon-attribution {
   font-size: 8pt;
   font-style: italic;
 }
+@media only screen and (min-width: 480px) {
+  [class*="collab"] {
+    width: 50%;
+  }
+  [class*="project"] {
+    width: 50%;
+    margin: 0 0 0 0;
+  }
+}
 @media only screen and (min-width: 768px) {
   [class*="collab"] {
     width: 50%;
   }
-}
-@media only screen and (min-width: 480px) {
-  [class*="collab"] {
-    width: 50%;
+  [class*="project"] {
+    width: 75%;
   }
 }
 @media only screen and (min-width: 992px) {
   [class*="collab"] {
     width: 33.33%;
   }
+  [class*="project"] {
+    width: 50%;
+    margin: 0 0 0 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
   [class*="collab"] {
     width: 25%;
   }
-}
-<<<<<<< HEAD
-iframe.st-bg {
-  background: #000000;
-=======
-@media only sceen and (min-width: 992px) {
-  [class*="share-buttons"] {
-    width: 100%;
+  [class*="project"] {
+    width: 50%;
   }
->>>>>>> 86c1c555ee5c8563c85fb379da187b9dcfbe489d
+}
+input#search-input {
+  font-family: "Crimson Text", serif;
+  font-size: 12pt;
+  border: none;
+  background-color: #eaeaea;
+  margin-right: 30px;
+}
+ul#results-container {
+  background-color: #f4f4f4;
+  z-index: 15;
+  margin-right: 30px;
+  list-style-type: none;
+  font-family: "Crimson Text", serif;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 15px 15px 15px 15px;
+}
+ul#results-container li {
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 480px) {
+  div#share_buttons a span.fa {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  div#share_buttons a span.fa {
+    font-size: 13px;
+    padding-right: 4px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  div#share_buttons a span.fa {
+    font-size: 16px;
+    padding-right: 7px;
+  }
 }
