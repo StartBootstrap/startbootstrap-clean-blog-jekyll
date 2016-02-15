@@ -365,9 +365,10 @@ h2.about {
   color: #757575;
   font-family: 'Bebas Neue';
   font-weight: bold;
-  font-size: 26pt;
+  font-size: 22pt;
   border-bottom: 1.5px solid #939393;
   padding-bottom: 3px;
+  letter-spacing: 1px;
 }
 h3.event-heading {
   color: #939393;
