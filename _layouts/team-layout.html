@@ -27,11 +27,8 @@ layout: default-layout
               {% assign counter = counter | plus: 1  %}
 
             <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px">
-              <a href="/team/{{people.ide}}.html"><img src="{{people.img}}"/>
+              <a href="/team/{{people.ide}}.html"><img src="{{people.img}}" style="cursor: pointer"/>
             <h3 class="team-name">{{ people.title }}</h3></a>
-              <span class="designation">{{ people.designation }}</span> <br/>
-              <!--<a href="mailto:{{ people.email }}" class="mailid">{{ people.email }}</a>-->
-              <!--<p class="simple-content">{{ people.description }}</p>-->
             </div>
 
             {%endfor %}
@@ -43,9 +40,7 @@ layout: default-layout
             {%for advisors in page.advisors%}
             <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;"><img src="{{advisors.img}}"/>
             <h3 class="team-name">{{ advisors.title }}</h3>
-              <span class="designation">{{ advisors.designation }}</span> <br/>
-              <a href="mailto:{{ advisors.email }}" class="mailid">{{ advisors.email }}</a>
-              <!--<p class="simple-content" style:"margin-top:5px">{{ advisors.description }}</p>-->
+              
             </div>
             {%endfor %}
           </div>
