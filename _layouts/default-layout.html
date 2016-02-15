@@ -4,10 +4,16 @@
 {% include head.html %}
 
 <body>
-
+    <div class="overlay-full">
+      <div id="search-container" class="search-box" style="z-index: 103">
+        <input type="text" id="search-input" size="25" autofocus>
+        <span id="cancel-search">X</span>
+        <ul id="results-container"></ul>
+      </div>
+    </div>
     {% include nav.html %}
     <div style="background-image:url({{page.bg-url}}); height:100%">
-    <ul id="results-container"></ul>
+
     {{ content }}
         <a class="scrollup" style="float:right; padding-right:30px; color:#f4f4f4"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
     {% include footer.html %}

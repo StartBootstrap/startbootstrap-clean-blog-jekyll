@@ -926,6 +926,7 @@ padding-top:30px;
     top: 10%;
     right: 0%;
     display: none;
+		z-index: 101;
 }
 
 #results-container {
@@ -933,6 +934,7 @@ padding-top:30px;
     top: 20%;
     right: 0%;
     display: none;
+		z-index: 101;
 }
 
 h2#all, h2#current_about_publications{
@@ -1024,4 +1026,16 @@ div#share_buttons a span.fa{
 			font-size: 16px;
 			padding-right: 7px;
 	}
+}
+
+//Overlay
+.overlay-full{
+    background-color:rgba(255,255,255,0.6);
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+		display: none;
 }
