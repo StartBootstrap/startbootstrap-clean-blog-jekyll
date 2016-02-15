@@ -11,4 +11,7 @@ description: <p class="simple-content">While newspapers debate over women's safe
 collaborations: The project was a collaboration between mediaLAB Amsterdam, IIIT-B, and Fields of View
 img1: /img/converstation-img-1.jpg
 img2: /img/converstation-img-2.jpg
+ide: converstation
+categories: project
+tag: product 
 ---

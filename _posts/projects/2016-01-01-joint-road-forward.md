@@ -10,4 +10,7 @@ description: <p class="simple-content">The Joint Road Forward is a multi-year pr
 collaborations: IIIT-B, TU Delft, KTH Royal Institute of Technology
 img1: /img/jrf-img-1.jpg
 img2: /img/jrf-img-2.jpg
+ide: joint-road-forward
+categories: project
+tag: game simulation
 ---

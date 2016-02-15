@@ -15,9 +15,13 @@ layout: default-layout
         <div class="col-md-4" style="padding-top:55px">
           <span class="topspace"></span>
         <!--  <p class="project-intro" style="padding-top:20px">At Fields of View, we work on games and simulations to help understand cities better.</p>-->
-            {%for projects in page.projects%}
+            <!-- {%for projects in page.projects%}
             <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
-            {%endfor %}
+            {%endfor %} -->
+
+            {% for post in site.categories['project'] %}
+            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6"><a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer"><img src="/img/{{post.ide}}-thumb.jpg" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
+            {%endfor%}
 
         </div>
       <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
@@ -37,15 +41,6 @@ layout: default-layout
             </div>
             {% endfor %}
 
-            {%for projects in page.projects%}
-              <div style="display:none" id="{{projects.ide}}-content" class="project-descriptions">
-                <h2>{{projects.title}}</h2>
-                <p class="simple-content">
-                  {{projects.description}}
-                </p>
-              </div>
-            {%endfor %}
-
         </div>
         <div class="col-md-1" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
@@ -59,8 +54,8 @@ layout: default-layout
 
     {%for category in page.categories%}
       $("#{{category.ide}}").click(function(){
-        $("li.project").css("display","none");
-        $("li.{{category.ide}}").css("display","block");
+        $(".project").css("display","none");
+        $(".{{category.ide}}").css("display","block");
 
         $(".about_nav").css("font-weight","normal");
         $("#{{category.ide}}").css("font-weight","bold");

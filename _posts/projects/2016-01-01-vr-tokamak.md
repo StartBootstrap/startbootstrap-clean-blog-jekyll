@@ -1,8 +1,8 @@
 ---
 layout: project-layout
 bg-url: /img/background-project14.png
-permalink: /projects/vr-tokamak
-title: Gaming Simulation Based Training for SST -1
+permalink: /projects/vr-simulation
+title: Training game for SST-1
 intended: Operators of the tokamaks.
 keywords: SST, training
 type: Virtual Game
@@ -14,4 +14,7 @@ collaborations: Institute for Plasma Research.
 img1: /img/ipr-img-1.jpg
 img2: /img/ipr-img-2.jpg
 img3: /img/ipr-img-3.jpg
+ide: vr-simulation
+categories: project
+tag: game
 ---

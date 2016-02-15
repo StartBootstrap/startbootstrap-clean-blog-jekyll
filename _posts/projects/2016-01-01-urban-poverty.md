@@ -11,4 +11,7 @@ description: <p class="simple-content">The purpose of the study is to understand
 collaborations: The project was a collaboration between mediaLAB Amsterdam, IIIT-B, and Fields of View with Nalini Shekar and the team at Hasirudala.
 img1: /img/urban-poverty-img-1.jpg
 img2: /img/urban-poverty-img-2.jpg
+ide: urban-poverty
+categories: project
+tag: simulation 
 ---

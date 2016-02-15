@@ -14,4 +14,8 @@ description: <p class="simple-content">The participants assume roles of differen
 img1: /img/energy-game-img-1.jpg
 img2: /img/energy-game-img-2.jpg
 img3: /img/energy-game-img-3.jpg
+play: Play the Energy Game!
+ide: energy-game
+categories: project
+tag: game
 ---
