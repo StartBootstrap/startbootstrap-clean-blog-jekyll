@@ -752,3 +752,8 @@ p.icon-attribution {
     width: 25%;
   }
 }
+@media only sceen and (min-width: 992px) {
+  [class*="share-buttons"] {
+    width: 100%;
+  }
+}
