@@ -752,6 +752,13 @@ p.icon-attribution {
     width: 25%;
   }
 }
+<<<<<<< HEAD
 iframe.st-bg {
   background: #000000;
+=======
+@media only sceen and (min-width: 992px) {
+  [class*="share-buttons"] {
+    width: 100%;
+  }
+>>>>>>> 86c1c555ee5c8563c85fb379da187b9dcfbe489d
 }
