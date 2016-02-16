@@ -11,7 +11,7 @@ layout: default-layout
               <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
             {%endfor%}
             <li class="about_nav" id="all" style="display: none">Past Events</li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back to Events</a></li>
+              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back</a></li>
             </ul>
         </div>
 
@@ -52,18 +52,9 @@ layout: default-layout
         $("li.event").css("display","none");
         $("li.{{category.ide}}").css("display","block");
 
-        $(".about_nav").show("slow");
-        $("#current_about").html("{{category.title}}");
-        $("#all").show("slow");
-        $("#{{category.ide}}").hide("slow");
+        $("li.about_nav").css("font-weight","normal");
+        $("#{{category.ide}}").css("font-weight","bold");
       });
     {%endfor%}
-      $("#all").click(function(){
-        $("li.event").css("display","block");
-
-        $(".about_nav").show("slow");
-        $("#current_about").html("Past Events");
-        $("#all").hide("slow");
-      });
   });
 </script>
