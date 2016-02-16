@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project6.png
-permalink: /projects/interoperability
+permalink: /projects/interoperability/
 title: Multiagent simulations for Interoperability during disaster management
 intended: Policy Makers
 keywords: SOP, policy, PIEMAC, shared vocabulary

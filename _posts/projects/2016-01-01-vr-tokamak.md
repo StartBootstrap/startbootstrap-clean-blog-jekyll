@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project14.png
-permalink: /projects/vr-simulation
+permalink: /projects/vr-simulation/
 title: Training game for SST-1
 intended: Operators of tokamaks.
 keywords: SST, training

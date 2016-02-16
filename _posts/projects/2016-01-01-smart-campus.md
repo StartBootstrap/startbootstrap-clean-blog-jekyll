@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project11.png
-permalink: /projects/smart-campus
+permalink: /projects/smart-campus/
 title: Smart Campus
 intended: Campus administration, Energy researchers, Architects
 keywords: Energy-consumption, Adaptive, agent-based simulations, Socio-technical system, Sensor Deployment

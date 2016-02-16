@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project9.png
-permalink: /projects/map-my-city
+permalink: /projects/map-my-city/
 title: Map my City
 intended: Civil engineers, Urban practitioners who work with utilities infrastructure such as water supply distribution, sanitation, and solid waste management.
 keywords: Extreme climate event, resilience, civic infrastructure, basic utilities, cities, municipalities.

@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project5.png
-permalink: /projects/energy-game
+permalink: /projects/energy-game/
 title: Energy Game
 intended: General Public, Energy Policy Planners.
 keywords: Multi-party negotiation, Conflict resolution, Energy Policy, Planning.

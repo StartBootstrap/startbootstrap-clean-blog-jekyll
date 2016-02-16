@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project13.png
-permalink: /projects/urban-poverty
+permalink: /projects/urban-poverty/
 title: Urban Poverty
 intended: Slum residents, activists and civil society, policy makers, and academia
 keywords: Urban poverty, slums, livelihoods, mobility, shelter, social mobility, living wages
@@ -13,5 +13,5 @@ img1: /img/urban-poverty-img-1.jpg
 img2: /img/urban-poverty-img-2.jpg
 ide: urban-poverty
 categories: project
-tag: simulation 
+tag: simulation
 ---

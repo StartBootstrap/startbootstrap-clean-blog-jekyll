@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project12.png
-permalink: /projects/unpack-play
+permalink: /projects/unpack-play/
 title: Unpack Play
 notitle: Game Design Course
 intro: Human beings love play. Be it board games, card games, computer games, or sports, we play different kinds of games. Games are about fun and entertainment. But can games be used as tools? Tools that help us tackle wicked problems?

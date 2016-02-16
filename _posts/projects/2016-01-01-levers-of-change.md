@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project8.png
-permalink: /projects/levers-of-change
+permalink: /projects/levers-of-change/
 title: Levers of Change
 intended: Students, educators, economists.
 keywords: Inclusive wealth, computer supported game, GDP, HDI, learning, economics
