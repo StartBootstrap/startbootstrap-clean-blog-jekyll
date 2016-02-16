@@ -1,0 +1,15 @@
+<h2 class="about" id="current_about"><a href="/events/">Events</a></h2>
+<ul>
+    <li class="about_nav" id="past-events"><a href="{{ site.baseurl }}/events/past-events/">Past Events</a></li>
+    <li class="about_nav" id="game-sessions"><a href="{{ site.baseurl }}/events/game-sessions/">Game Sessions</a></li>
+    <li class="about_nav" id="presentations"><a href="{{ site.baseurl }}/events/presentations/">Presentations</a></li>
+    <li class="about_nav" id="workshops"><a href="{{ site.baseurl }}/events/workshops/">Workshops</a></li>
+</ul>
+
+<script>
+var loc = window.location.href.split("/events/");
+if(loc[1]!=""){
+  var page=loc[1].replace(/\//gi,"");
+  $("#"+page).css("font-weight","bold");
+}
+</script>

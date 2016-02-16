@@ -38,8 +38,9 @@ layout: default-layout
           <div class="row-fluid">
             <h2 class="about" style="padding-top:30px; padding-left:15px">Advisors</h2> <br/>
             {%for advisors in page.advisors%}
-            <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;"><img src="{{advisors.img}}"/>
-            <h3 class="team-name">{{ advisors.title }}</h3>
+            <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;">
+              <a href="/advisors/{{advisors.ide}}.html"><img src="{{advisors.img}}" style="cursor: pointer"/>
+            <h3 class="team-name">{{ advisors.title }}</h3></a>
 
             </div>
             {%endfor %}

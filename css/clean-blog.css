@@ -443,6 +443,16 @@ p.index-intro {
   font-weight: 600;
   color: #c4c4c4;
 }
+@media only screen and (min-width: 992px) {
+  p.index-intro {
+    padding-top: 32%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  p.index-intro {
+    padding-top: 0%;
+  }
+}
 p.simple-content {
   font-family: "Crimson Text", serif;
   font-size: 12pt;

@@ -5,12 +5,7 @@ layout: default-layout
 <div class="container-fluid clearfix" style="min-height:600px">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about"><a href="/events/">Events</a></h2>
-          <ul>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/past-events/">Past Events</a></li>
-              <li class="about_nav" style="font-weight: bold"><a href="{{ site.baseurl }}/events/game-sessions/">Game Sessions</a></li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/presentations/">Presentations</a></li>
-            </ul>
+          {% include events-nav.html %}
         </div>
 
         <div class="col-md-4" style="padding-top:47px" >

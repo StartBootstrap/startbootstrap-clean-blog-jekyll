@@ -5,16 +5,19 @@ layout: default-layout
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about"><a href="/events/">Events</a></h2>
-          <ul>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/past-events/">Past Events</a></li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/game-sessions/">Game Sessions</a></li>
-              <li class="about_nav" style="font-weight: bold"><a href="{{ site.baseurl }}/events/presentations/">Presentations</a></li>
-            </ul>
+          {% include events-nav.html %}
         </div>
 
         <div class="col-md-6">
-          <h3 class="team-name" style="padding-top:38px;">2014</h3>
+          <h3 class="team-name" style="padding-top:38px;">2015</h3>
+          <ul class="presentations-list">
+          {%for year2015 in page.year2015%}
+          <li id="{{year2015.ide}}"><span class="italic2">{{ year2015.title }}</span>
+            <span class="italicregular">{{ year2015.description }}</span>
+          <a href="{{presentations.link}}">[Link]</a>
+         </li><br/>
+          {%endfor %}
+          </ul>
             <ul class="presentations-list">
             {%for year2014 in page.year2014%}
             <li id="{{year2014.ide}}"><span class="italic2">{{ year2014.title }}</span>
@@ -32,7 +35,7 @@ layout: default-layout
            </li><br/>
             {%endfor %}
           </ul>
-          <h3 class="team-name" style="padding-top:38px;">2014</h3>
+          <h3 class="team-name" style="padding-top:38px;">2012</h3>
             <ul class="presentations-list">
             {%for year2012 in page.year2012%}
             <li id="{{year2012.ide}}"><span class="italic2">{{ year2012.title }}</span>
