@@ -20,13 +20,13 @@ layout: default-layout
             {%for collaborations in page.collaborations%}
             {% if counter >= 4 %}
               {% assign counter = 0 %}
-                
+
             {% endif %}
 
             {% assign counter = counter | plus: 1  %}
-            <div id="{{collaborations.ide}}" class="collab" style="padding-bottom:50px; float:left">
-            <a href="{{collaborations.url}}" target="_blank"><img src="{{collaborations.img}}" style="cursor:pointer"/></a>
-            <span class="italicregular">{{ collaborations.title}}</span>
+            <div id="{{collaborations.ide}}" class="collab" style="padding-bottom:50px; float:left;">
+            <a href="{{collaborations.url}}" target="_blank"><img src="{{collaborations.img}}" style="cursor:pointer;"/></a>
+            <span class="italicregular" style="font-size:12pt">{{collaborations.title}}</span>
             </div>
             {%endfor %}
         </div>

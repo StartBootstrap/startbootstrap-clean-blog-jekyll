@@ -2,7 +2,7 @@
 layout: project-layout
 bg-url: /img/background-project8.png
 permalink: /projects/levers-of-change
-title: /img/background-project8.png
+title: Levers of Change
 intended: Students, educators, economists.
 keywords: Inclusive wealth, computer supported game, GDP, HDI, learning, economics
 type: Computer Supported Game
@@ -15,5 +15,5 @@ img1: /img/levers-of-change-img-1.png
 img2: /img/levers-of-change-img-2.jpg
 ide: levers-of-change
 categories: project
-tag: game 
+tag: game
 ---

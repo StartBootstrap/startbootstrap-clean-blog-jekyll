@@ -371,10 +371,13 @@ h2.about {
   color: #757575;
   font-family: 'Bebas Neue';
   font-weight: bold;
-  font-size: 22pt;
+  font-size: 20pt;
   border-bottom: 1.5px solid #939393;
   padding-bottom: 3px;
   letter-spacing: 1px;
+}
+h2#current_about.about {
+  color: #757575;
 }
 h3.event-heading {
   color: #939393;
@@ -390,7 +393,7 @@ h3.team-name {
   font-family: 'Bebas Neue';
   font-weight: bold;
   letter-spacing: 1.2px;
-  font-size: 18pt;
+  font-size: 15pt;
   margin-left: auto;
   margin-right: auto;
 }
@@ -473,7 +476,7 @@ span.topspace {
 .new-events-list li {
   list-style-type: none;
   display: block;
-  padding-top: 11%;
+  padding-top: 52px;
 }
 .new-events-list li:nth-child(n+2) {
   display: none;
@@ -487,7 +490,7 @@ span.topspace {
   display: none;
 }
 .old-events-list {
-  padding-top: 62px;
+  padding-top: 52px;
 }
 .old-events-list li {
   list-style-type: none;
@@ -543,6 +546,13 @@ p.project-specifics {
 }
 li.project-specifics {
   list-style-type: none;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #606060;
+  margin-left: -40px;
+  font-size: 14pt;
+}
+span.project-specifics {
   font-family: "Crimson Text", serif;
   font-style: italic;
   color: #606060;
@@ -757,6 +767,8 @@ p.icon-attribution {
 @media only screen and (min-width: 480px) {
   [class*="collab"] {
     width: 50%;
+    padding: 0px 15px 0px 15px;
+    min-height: 440px;
   }
   [class*="project"] {
     width: 50%;
@@ -766,6 +778,8 @@ p.icon-attribution {
 @media only screen and (min-width: 768px) {
   [class*="collab"] {
     width: 50%;
+    padding: 0px 15px 0px 15px;
+    min-height: 430px;
   }
   [class*="project"] {
     width: 75%;
@@ -774,6 +788,8 @@ p.icon-attribution {
 @media only screen and (min-width: 992px) {
   [class*="collab"] {
     width: 33.33%;
+    padding: 0px 13px 0px 13px;
+    min-height: 370px;
   }
   [class*="project"] {
     width: 50%;
@@ -783,6 +799,8 @@ p.icon-attribution {
 @media only screen and (min-width: 1200px) {
   [class*="collab"] {
     width: 25%;
+    padding: 0px 10px 0px 10px;
+    min-height: 300px;
   }
   [class*="project"] {
     width: 50%;
@@ -808,12 +826,18 @@ ul#results-container {
 ul#results-container li {
   padding-bottom: 5px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 991px) {
   div#share_buttons a span.fa {
     display: none;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 992px) {
+  div#share_buttons a span.fa {
+    font-size: 13px;
+    padding-right: 4px;
+  }
+}
+@media only screen and (min-width: 1024px) {
   div#share_buttons a span.fa {
     font-size: 13px;
     padding-right: 4px;

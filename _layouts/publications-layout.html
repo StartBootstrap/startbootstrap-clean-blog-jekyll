@@ -17,14 +17,13 @@ layout: default-layout
         <div class="col-md-5" style="padding-top:30px">
           <ul class="publications-list">
             {%for publications in page.publications%}
-            <li id="{{publications.ide}}" class="{{publications.categories}} publications">
+            <li id="{{publications.ide}}" class="{{publications.categories}} publications" style="padding-bottom:10px">
               <h3 class="pub-name">{{publications.name}}</h3>
               <span class="italicregular">{{publications.pub}}</span>
             </li>
             {%endfor %}
           </ul>
         </div>
-
 
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
