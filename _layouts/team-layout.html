@@ -18,7 +18,9 @@ layout: default-layout
         <div class="col-md-6" style="padding-top:62px">
           <div class="row-fluid">
             {% assign counter = 0 %}
-            {%for people in page.people%}
+            {% assign sortedpeople = (site.categories['team'] | sort:'title') %}
+
+            {%for people in sortedpeople %}
               {% if counter >= 3 %}
                 {% assign counter = 0 %}
                   <div class="clearfix"></div>
@@ -35,9 +37,11 @@ layout: default-layout
           </div>
 
             <div class="clearfix"></div>
-          <div class="row-fluid">
+            <div class="row-fluid">
             <h2 class="about" style="padding-top:30px; padding-left:15px">Advisors</h2> <br/>
-            {%for advisors in page.advisors%}
+            {% assign sortedadvisors  = (site.categories['advisors'] | sort:'title') %}
+
+            {%for advisors in sortedadvisors %}
             <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;">
               <a href="/advisors/{{advisors.ide}}.html"><img src="/img/team/advisors/{{advisors.img}}" style="cursor: pointer"/>
             <h3 class="team-name">{{ advisors.title }}</h3></a>

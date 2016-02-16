@@ -16,7 +16,14 @@ bg-url: /img/background5.png
             </ul>
         </div>
         <div class="col-md-3" style="padding-top:55px">
-          <img src="{{page.img}}" />
+          {% if page.category == "team" %}
+            {% assign imgurl = "" %}
+          {%endif%}
+          {% if page.category == "advisors" %}
+            {% assign imgurl = "advisors" %}
+          {%endif%}
+
+          <img src="/img/team/{{imgurl}}/{{page.img}}" />
         </div>
         <div class="col-md-3" style="padding-top:30px">
           <h3 class="team-name" style="font-size:16pt; margin-bottom:-15px">{{page.title}}</h3>
