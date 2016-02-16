@@ -10,66 +10,21 @@ layout: default-layout
 
         <div class="col-md-6">
 
-          <h3 class="team-name" style="padding-top:38px;">2016</h3>
-          <ul class="presentations-list">
-          {%for year2016 in page.year2016 %}
-            <li id="{{year2016.ide}}">
-              <span class="italic2">{{ year2016.title }}</span>
-              <span class="italicregular">{{ year2016.description }}</span>
-              {%if year2016.link != null %}
-                <a href="{{presentations.link}}">[Link]</a>
-              {%endif%}
-            </li><br/>
-          {%endfor %}
-          </ul>
-
-          <h3 class="team-name" style="padding-top:38px;">2015</h3>
-          <ul class="presentations-list">
-          {%for year2015 in page.year2015%}
-          <li id="{{year2015.ide}}"><span class="italic2">{{ year2015.title }}</span>
-            <span class="italicregular">{{ year2015.description }}</span>
-            {%if year2015.link !=null%}
-          <a href="{{presentations.link}}">[Link]</a>
-          {%endif%}
-         </li><br/>
-          {%endfor %}
-          </ul>
-
-          <h3 class="team-name" style="padding-top:38px;">2014</h3>
+          {% for year in page.presentations %}
+            <h3 class="team-name" style="padding-top:38px;">{{year.year}}</h3>
             <ul class="presentations-list">
-            {%for year2014 in page.year2014%}
-            <li id="{{year2014.ide}}"><span class="italic2">{{ year2014.title }}</span>
-              <span class="italicregular">{{ year2014.description }}</span>
-              {%if year2014.link !=null%}
-            <a href="{{presentations.link}}">[Link]</a>
-            {%endif%}
-           </li><br/>
-            {%endfor %}
+            {% for item in year.items %}
+              <li>
+                <span class="italic2">{{ item.title }}</span>
+                <span class="italicregular">{{ item.description }}</span>
+                {%if item.link != null %}
+                  <a href="{{item.link}}">[Link]</a>
+                {%endif%}
+              </li>
+            {% endfor %}
             </ul>
+          {% endfor %}
 
-            <h3 class="team-name" style="padding-top:38px;">2013</h3>
-            <ul class="presentations-list">
-            {%for year2013 in page.year2013%}
-            <li id="{{year2013.ide}}"><span class="italic2">{{ year2013.title }}</span>
-              <span class="italicregular">{{ year2013.description }}</span>
-              {%if year2013.link !=null%}
-            <a href="{{presentations.link}}">[Link]</a>
-            {%endif%}
-           </li><br/>
-            {%endfor %}
-          </ul>
-
-          <h3 class="team-name" style="padding-top:38px;">2012</h3>
-            <ul class="presentations-list">
-            {%for year2012 in page.year2012%}
-            <li id="{{year2012.ide}}"><span class="italic2">{{ year2012.title }}</span>
-              <span class="italicregular">{{ year2012.description }}</span>
-            {%if year2012.link !=null%}
-            <a href="{{presentations.link}}">[Link]</a>
-            {%endif%}
-           </li><br/>
-            {%endfor %}
-          </ul>
         </div>
 
         <div class="col-md-2" style="padding-top:24px; border-bottom: 1.5px solid #939393">
