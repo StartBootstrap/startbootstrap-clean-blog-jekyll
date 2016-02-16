@@ -1,0 +1,212 @@
+{"publications":
+	[
+	{"key":"krishnan2014nextwave", "bib":"@Misc{krishnan2014nextwave,
+	  OPTauthor = 	 {Krishnan, Sruthi and Memelink, Marissa and Bekkar, Bauke},
+	  OPTtitle = 	 {Converstation},
+	  organization = {Fields of View},
+	  OPTmonth = 	 {January},
+	  OPTyear = 	 {2014}
+	}"},
+	{"key":"krishna2014smartcampus", "bib":"@Misc{krishna2014smartcampus,
+	  OPTauthor = 	 {Krishna, Harsha and Hoysala, Onkar and Krishna, Murali},
+	  OPTtitle = 	 {Developing a simulation tool to model electricity consumption at IIIT-B to determine strategies for decentralised approach for operation and control},
+	  organization = {Fields of View},
+	  OPTmonth = 	 {April},
+	  OPTyear = 	 {2014}
+	}"},
+	{"key":"palavalli2013livingwages", "bib":"@Misc{palavalli2013livingwages,
+	  OPTauthor = 	 {Palavalli, Bharath.M and Krishna, Harsha},
+	  OPTtitle = 	 {Living wages},
+	  organization = {Fields of View},
+	  OPTmonth = 	 {July},
+	  OPTyear = 	 {2013}
+	}"},
+	{"key":"ramdas2013fov", "bib":"@techreport{ramdas2013fov,
+	 author= {Ramads, Girish Krishnan and Hoysala, Onkar}
+	 title={Bicycle Friendly Streets in Jayanagar: Results from the on-site observations and an online survey}
+	 year= {2013}
+	 organization = {Fields of View}
+	}"},
+	{"key":"palavalli12isaga", "bib":"@InProceedings{palavalli12isaga,
+	  author = 	 {Palavalli, Bharath M. and Krishna, Harsha and Hoysala, Onkar and Subrahmanian, Eswaran},
+	  title = 	 {Discovering communication protocols for inter-agency collaboration for emergency response. },
+	  year = 	 {2012},
+	  booktitle = {Bonds & Bridges. Facing the Challenges of the Globalizing World with the Use of Simulation and Gaming},
+	  organization = {International Simulation And Gaming Association}
+	}"},
+	{"key":"hoysala13isaga", "bib":"@InProceedings{hoysala13isaga,
+	  author = 	 {Hoysala, Onkar and Murthy, Aditi and Palavalli, Bharath M. and Subrahmanian, Eswaran and Meijer, Sebastiaan},
+	  title = 	 {Designing Energy Policy through the Indian Energy Game},
+	  year = 	 {2013}
+	  organization = {International Simulation And Gaming Association}
+	}"},
+
+	{"key":"hoysala13nsdi", "bib":"@InProceedings{hoysala13nsdi,
+          author =       {Hoysala, Onkar and Krishna, Harsha and Palavalli, Bharath M.},
+          title =        {A Multi-Agent Approach to Assess Geospatial Interoperability for Disaster Management in India},
+          year =         {2013}
+          organization = {NSDI}
+        }"},
+
+	{"key":"hoysala12iitg", "bib":"@InProceedings{hoysala12iitg,
+	  author = 	 {Hoysala, Onkar and Palavalli, Bharath M. and Krishna, Harsha and Subrahmanian, Eswaran},
+	  title = 	 {Training Through Games for Checklist Based Procedures in Emergency and Disaster Management},
+	  year = 	 {2012},
+	  month = 	 {October},
+	  organization = {IIT Gandhinagar},
+	}"},
+
+	{"key":"krishna12iisc", "bib":"@Misc{krishna12iisc,
+	  OPTauthor = 	 {Krishna, Harsha and Palavalli, Bharath M. and Murthy, Aditi and Hoysala, Onkar},
+	  OPTtitle = 	 {Simulations, Modelling and Games},
+	  organization = {Game Theory Laboratory, Computer Science and Automation, Indian Institute of Science},
+	  OPTmonth = 	 {February},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12iitb", "bib":"@Misc{palavalli12iitb,
+	  OPTauthor = 	 {Palavalli, Bharath M.},
+	  OPTtitle = 	 {Challenges in data interoperability to measure quality and effectiveness of public utilities and services in the urban context},
+	  organization = {Brainstorming session, India Conference on Geospatial Technologies and Applications, IIT Bombay},
+	  OPTmonth = 	 {April},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12nus", "bib":"@Misc{palavalli12nus,
+	  OPTauthor = 	 {Palavalli, Bharath M. and Subrahmanian, Eswaran},
+	  OPTtitle = 	 {Urban Evolution: Case of Bangalore},
+	  organization = {School of Design and Environment, NUS organised by Ecological Sequestration Trust, NUS Singapore},
+	  OPTmonth = 	 {May},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"murthy12fifthel", "bib":"@Misc{murthy12fifthel,
+	  OPTauthor = 	 {Murthy, Aditi and Hoysala, Onkar},
+	  OPTtitle = 	 {Structuring data from Surveys: A case study from a slum survey conducted in 2010},
+	  OPThowpublished = {Presentation at The Fifth Elephant 2012},
+	  OPTmonth = 	 {July},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12boeing", "bib":"@Misc{palavalli12boeing,
+	  OPTauthor = 	 {Palavalli, Bharath M. and Krishna, Harsha and Hoysala, Onkar},
+	  OPTtitle = 	 {An approach to decision-making: Case Study of Emergency Response and Disaster Management in India},
+	  organization = {Boeing International, Bangalore},
+	  OPTmonth = 	 {August},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12ipr", "bib":"@Misc{palavalli12ipr,
+	  OPTauthor = 	 {Palavalli, Bharath M.},
+	  OPTtitle = 	 {VR training system for operation and maintenance of an in-vessel robotic arm},
+	  organization = {Board of Research in Fusion Science and Technology},
+	  OPTmonth = 	 {August},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli13goa", "bib":"@Misc{palavalli13goa,
+	  OPTauthor = 	 {Palavalli, Bharath M. and Krishna, Harsha and Hoysala, Onkar and Varma, Vardhan},
+	  OPTtitle = 	 {Using Games and Simulations for Public Safety & Security},
+	  organization = {Bengaluru International Airport Ltd.},
+	  OPTmonth = 	 {February},
+	  OPTyear = 	 {2013}
+	}"},
+
+	{"key":"krishna13iiitb", "bib":"@Misc{krishna13iiitb,
+	  OPTauthor = 	 {Krishna, Harsha and Hoysala, Onkar},
+	  OPTtitle = 	 {Smart Campus},
+	  organization = {IIITB and Grenoble University},
+	  OPTmonth = 	 {February},
+	  OPTyear = 	 {2013}
+	}"},
+
+	{"key":"palavalli13bial", "bib":"@Misc{palavalli13bial,
+	  OPTauthor = 	 {Palavalli, Bharath M. and Krishnan, Sruthi},
+	  OPTtitle = 	 {The Jigsaw Puzzle Nemesis},
+	  organization = {The Goa Project},
+	  OPTmonth = 	 {March},
+	  OPTyear = 	 {2013}
+	}"},
+
+	{"key":"krishna12osl", "bib":"@Misc{krishna12osl,
+	  OPTauthor = 	 {Krishna, Harsha and Krishna, Murali},
+	  OPTtitle = 	 {Phoenix: An Agent-Based Simulation Platform},
+	  organization = {Open Systems Laboratory, International Institute of Technology Bangalore},
+	  OPTmonth = 	 {August},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"hoysala12iitgconf", "bib":"@Misc{hoysala12iitgconf,
+	  OPTauthor = 	 {Hoysala, Onkar},
+	  OPTtitle = 	 {Training using checklist based games},
+	  organization = {International Conference on Safety, IIT Gandhinagar},
+	  OPTmonth = 	 {October},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12dst", "bib":"@Misc{palavalli12dst,
+	  OPTauthor = 	 {Palavalli, Bharath M.},
+	  OPTtitle = 	 {Geospatial Interoperability for Disaster Management using a multi-agent simulation},
+	  organization = {NRDMS, Department of Science and Technology, New Delhi},
+	  OPTmonth = 	 {November},
+	  OPTyear = 	 {2012}
+	}"},
+
+	{"key":"palavalli12fovvr", "bib":"@Unpublished{palavalli12fovvr,
+	  author = 	 {Palavalli, Bharath M. and Krishna, Harsha},
+	  title = 	 {Virtual Reality based Simulations for Training},
+	  note = 	 {Working Paper FoV-WP-2012-GEN03},
+	  organization = {Fields of View},
+	  OPTyear = 	 {2012},
+	}"},
+
+	{"key":"palavalli12fovgames", "bib":"@Unpublished{palavalli12fovgames,
+	  author = 	 {Palavalli, Bharath M. and Hoysala, Onkar and Murthy, Aditi},
+	  title = 	 {Games for Safety FoV-WP-2012-GEN04},
+	  note = 	 {Working Paper},
+	  organization = {Fields of View},
+	  OPTyear = 	 {2012},
+	}"},
+
+	{"key":"hoysala12fovgames", "bib":"@Unpublished{hoysala12fovgames,
+	  author = 	 {Hoysala, Onkar},
+	  title = 	 {Games for Participatory Planning},
+	  note = 	 {Working Paper FoV-WP-2012-GEN05},
+	  organization = {Fields of View},
+	  OPTyear = 	 {2012},
+	}"},
+
+	{"key":"krishna12fovsimulations", "bib":"@Unpublished{krishna12fovsimulations,
+	  author = 	 {Krishna, Harsha and Palavalli, Bharath M. and Hoysala, Onkar},
+	  title = 	 {A Multi Agent Approach to model and simulate energy efficient built environments},
+	  note = 	 {Annotated Bibliography FoV-BIB-2012-GEN01},
+	  organization = {Fields of View},
+	  OPTyear = 	 {2012},
+	}"},
+
+	{"key":"krishna12fovicpb", "bib":"@TechReport{krishna12fovicpb,
+	  author = 	 {Krishna, Murali and Murthy, Aditi},
+	  title = 	 {Requirement Analysis for MICPB - Urban freight transport management},
+	  institution =  {Fields of View},
+	  year = 	 {2012},
+	  month = 	 {June}
+	}"},
+
+	{"key":"murthy12fovurban", "bib":"@Unpublished{murthy12fovurban,
+	  author = 	 {Murthy, Aditi and Hoysala, Onkar},
+	  title = 	 {What we mean by Urban Systems},
+	  note = 	 {Working Paper FoV-WP-2012-GEN01},
+	  organization = {Fields of View},
+	  year = 	 {2012},
+	  month =        {October}
+	}"},
+	{"key":"murthy12fovmalnut", "bib":"@Unpublished{murthy12fovmalnut,
+	  author = 	 {Murthy, Aditi and Menon, Niveditha},
+	  title = 	 {Malnutrition project- Examing the interface between the community and the state},
+	  note = 	 {Working Paper FoV-WP-2012-GEN02},
+	  organization = {Fields of View},
+	  year = 	 {2012},
+	  month =        {October}
+	}"}
+]
+}
