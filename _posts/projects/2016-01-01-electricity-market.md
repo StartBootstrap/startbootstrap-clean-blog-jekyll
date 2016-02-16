@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project3.png
-permalink: /projects/electricity-market
+permalink: /projects/electricity-market/
 title: Electricity Market
 intended: Students, Market Analysts, Policy makers, Researchers and Companies in the Power Sector
 keywords: Complexity, Bidding

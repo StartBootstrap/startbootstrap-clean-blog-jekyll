@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project7.png
-permalink: /projects/joint-road-forward
+permalink: /projects/joint-road-forward/
 title: Joint Road Forward
 intended: Policy makers, Transportation Industry, Academia
 keywords: Mobility, infrastructure, policy.

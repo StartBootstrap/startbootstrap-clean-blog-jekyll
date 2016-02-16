@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 bg-url: /img/background-project2.png
-permalink: /projects/converstation
+permalink: /projects/converstation/
 title: Convers[t]ation
 intended: Women’s rights organisations, public service providers, and the public at large
 keywords: Women’s safety, design
@@ -13,5 +13,5 @@ img1: /img/converstation-img-1.jpg
 img2: /img/converstation-img-2.jpg
 ide: converstation
 categories: project
-tag: product 
+tag: product
 ---
