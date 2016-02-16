@@ -465,6 +465,7 @@ address.fov-donate {
   font-weight: 600;
   font-size: 13.5pt;
   color: #424242;
+  letter-spacing: 0.5px;
 }
 .fa {
   color: #a8a8a8;
@@ -515,17 +516,20 @@ span.italic {
   text-decoration: none;
   font-weight: bold;
   color: #424242;
+  letter-spacing: 0.5px;
 }
 span.italic2 {
   font-style: italic;
   text-decoration: none;
   font-weight: bold;
   color: #939393;
+  letter-spacing: 0.5px;
 }
 span.italicregular {
   font-style: italic;
   text-decoration: none;
   color: #939393;
+  letter-spacing: 0.5px;
 }
 span.designation {
   font-style: italic;
@@ -539,6 +543,7 @@ a.mailid {
   text-decoration: none;
   color: #939393;
   font-size: 14pt;
+  letter-spacing: 0.5px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -774,6 +779,7 @@ p.icon-attribution {
   font-family: "Crimson Text", serif;
   font-size: 8pt;
   font-style: italic;
+  letter-spacing: 0.5px;
 }
 @media only screen and (min-width: 480px) {
   [class*="collab"] {
@@ -832,6 +838,7 @@ ul#results-container {
   font-family: "Crimson Text", serif;
   font-size: 12pt;
   font-style: italic;
+  letter-spacing: 0.5px;
   padding: 15px 15px 15px 15px;
 }
 ul#results-container li {
