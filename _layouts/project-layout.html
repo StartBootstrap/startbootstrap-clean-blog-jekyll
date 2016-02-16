@@ -23,6 +23,9 @@ bg-url: {{page.bg-url}}
                 {% if page.players != null%}
                 <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Number of Players</h4>{{page.players}}</p></li>
                 {%endif%}
+                {% if page.notitle != null%}
+                <li class="project-specifics" style="width:100%"><p>{{page.notitle}}</p></li>
+                {%endif%}
             </ul>
         </div>
 
