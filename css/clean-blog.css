@@ -447,6 +447,7 @@ p.simple-content {
   font-family: "Crimson Text", serif;
   font-size: 12pt;
   color: #424242;
+  font-kerning: normal;
 }
 address.fov-donate {
   font-family: "Crimson Text", serif;
@@ -800,7 +801,7 @@ p.icon-attribution {
   [class*="collab"] {
     width: 25%;
     padding: 0px 10px 0px 10px;
-    min-height: 300px;
+    min-height: 320px;
   }
   [class*="project"] {
     width: 50%;
