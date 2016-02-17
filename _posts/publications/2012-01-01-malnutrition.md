@@ -7,4 +7,5 @@ link: http://docs.fieldsofview.in/public/malnutrition_fov.pdf
 categories: visual
 ide: mal
 tag: publications
+permalink: /publications/visuals/malnutrition/
 ---

@@ -37,14 +37,21 @@ layout: default-layout
             {% endif %}
           </div>
 
-          <div class="col-md-6" style="padding-left: 0px">
-            {% if page.bibtex != null%}
+          {% if page.bibtex != null%}
+          <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px">
               <h3 class="team-name">BibTex</h3>
               <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
-            {% endif %}
           </div>
-
           <div class="clear"></div>
+          {% endif %}
+
+          {% if page.link != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <h3 class="team-name">Link</h3>
+            <a style="font-size: 14pt" href="{{page.link}}">{{page.link}}</a>
+          </div>
+          {% endif %}
+
           <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
             <h3 class="team-name">Related links</h3>
             <ul>

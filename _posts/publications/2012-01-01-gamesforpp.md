@@ -8,4 +8,5 @@ categories: working
 ide: planning
 authorid: onkar
 tag: publications
+permalink: /publications/working/gamesforparticipatoryplanning/
 ---

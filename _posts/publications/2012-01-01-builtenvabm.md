@@ -8,4 +8,5 @@ categories: working
 ide: builten
 authorid: bharath,harsha,onkar
 tag: publications
+permalink: /publications/working/annotatedbib-smartcampus/
 ---
