@@ -19,8 +19,8 @@ layout: default-layout
             {% assign sortedpub = site.tags['publications']| sort: 'year' %}
             {% for pub in sortedpub reversed%}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name">{{pub.authors}} ({{pub.year}})</h3>
-                <a href="{{pub.url}}"><span class="italicregular">{{pub.title}}</span></a>
+                <h3 class="pub-name"><a href="{{pub.url}}">{{pub.authors}} ({{pub.year}}).</a></h3>
+                <a href="{{pub.url}}" style="font-size:13.5pt;">{{pub.title}}</a>
               </li>
             {% endfor %}
           </ul>

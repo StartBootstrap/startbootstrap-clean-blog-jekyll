@@ -29,15 +29,17 @@ layout: default-layout
           <p class="simple-content" style="margin-bottom:5px">{{page.description}}</p>
           <a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
 
-          <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
+          <h4 class="specifics" id="pub-specifics" style="display: none; margin-top:40px">Publications</h4>
+          <ul>
           {%for pub in site.categories['publication'] | sort: 'year'%}
             {% if pub.authorid contains page.ide%}
-              <p class="simple-content"> {{pub.title}} </p>
+              <li class="peoplepub" style="margin-left:-40px"> <a href="{{pub.url}}">{{pub.title}}. {{pub.year}}</a></li>
               <script>$(document).ready(function(){
                 $("#pub-specifics").show();
               })</script>
             {% endif %}
           {% endfor %}
+        </ul>
         </div>
         <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:54px">
         </div>

@@ -529,7 +529,7 @@ span.italicregular {
   font-style: italic;
   text-decoration: none;
   color: #939393;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25px;
 }
 span.designation {
   font-style: italic;
@@ -893,4 +893,11 @@ p.simple-content-bibtex {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+}
+li.peoplepub {
+  font-style: italic;
+  font-size: 13pt;
+  color: #939393;
+  list-style-type: none;
+  margin-top: 10px;
 }
