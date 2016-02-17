@@ -877,3 +877,20 @@ ul#results-container li {
   z-index: 100;
   display: none;
 }
+footer.copyright,
+p.simple-content-bibtex {
+  font-family: "Crimson Text", serif;
+  font-size: 10pt;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.simple-content-bibtex {
+  font-family: "Crimson Text", serif;
+  font-size: 10pt;
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

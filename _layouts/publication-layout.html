@@ -9,44 +9,63 @@ layout: default-layout
 
         </div>
 
-        <div class="col-md-5" style="padding-top:40px">
-          <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
-          <p class="simple-content">
-          {{page.title}}
-          <br/>
-          {{page.book}}
-          <br/>
-          {{page.place}}
-          </p>
+        <div class="col-md-5" style="padding-top:30px">
 
-        {% if page.abstract != null%}
-          <h3 class="team-name">Abstract</h3>
-          <p class="simple-content bibtex">{{page.abstract}}</p>
-        {% endif %}
+          <div class="col-md-12" style="padding-left: 0px">
+            <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
+            <p class="simple-content" style="margin-top:0px">
+            <span style="font-weight:bold">{{page.title}}</span>
+            <br/><span style="font-style:italic">
+            {% if page.book != null %}
+            {{page.book}}
+            {% endif %}
+            {% if page.journal != null %}
+            {{page.journal}}
+            {% endif %}
+            {% if page.conference != null %}
+            {{page.conference}}
+            {% endif %}</span>
+            <br/>
+            {{page.place}}
+            </p>
+          </div>
 
-        {% if page.bibtex != null%}
-          <h3 class="team-name">BibTex</h3>
-          <p class="simple-content bibtex">{{page.bibtex}}</p>
-        {% endif %}
+          <div class="col-md-12" style="padding-left: 0px">
+            {% if page.abstract != null%}
+              <h3 class="team-name">Abstract</h3>
+              <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
+            {% endif %}
+          </div>
 
-        <h3 class="team-name">Related links</h3>
-        <ul>
-          {% for person in site.categories['team']%}
-            {% if page.authorid contains person.ide %}
-              <li>
-                <a href="{{person.url}}">{{person.title}}</a>
-              </li>
-            {%endif%}
-          {% endfor %}
-          {% for project in site.categories['project']%}
-            {% if page.projectid contains project.ide %}
-              <li>
-                <a href="{{project.url}}">{{project.title}}</a>
-              </li>
-            {%endif%}
-          {% endfor %}
+          <div class="col-md-6" style="padding-left: 0px">
+            {% if page.bibtex != null%}
+              <h3 class="team-name">BibTex</h3>
+              <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
+            {% endif %}
+          </div>
 
-        </ul>
+          <div class="clear"></div>
+          <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
+            <h3 class="team-name">Related links</h3>
+            <ul>
+              {% for person in site.categories['team']%}
+                {% if page.authorid contains person.ide %}
+                  <li class="project-specifics">
+                    <a href="{{person.url}}">{{person.title}}</a>
+                  </li>
+                {%endif%}
+              {% endfor %}
+              {% for project in site.categories['project']%}
+                {% if page.projectid contains project.ide %}
+                  <li class="project-specifics">
+                    <a href="{{project.url}}">{{project.title}}</a>
+                  </li>
+                {%endif%}
+              {% endfor %}
+            </ul>
+          </div>
+
+
         </div>
 
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
