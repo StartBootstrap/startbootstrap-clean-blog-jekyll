@@ -16,12 +16,31 @@ layout: default-layout
 
         <div class="col-md-5" style="padding-top:30px">
           <ul class="publications-list">
-            {%for publications in page.publications%}
+            {% for pub in site.categories['publication']| sort: 'year'%}
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+                <h3 class="pub-name">{{pub.authors}}</h3>
+                <span class="italicregular">{{pub.title}}</span>
+              </li>
+            {% endfor %}
+            {% for pub in site.categories['working']| sort: 'year'%}
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+                <h3 class="pub-name">{{pub.authors}}</h3>
+                <span class="italicregular">{{pub.title}}</span>
+              </li>
+            {% endfor %}
+            {% for pub in site.categories['visual']| sort: 'year'%}
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+                <h3 class="pub-name">{{pub.authors}}</h3>
+                <span class="italicregular">{{pub.title}}</span>
+              </li>
+            {% endfor %}
+
+            <!-- {%for publications in page.publications%}
             <li id="{{publications.ide}}" class="{{publications.categories}} publications" style="padding-bottom:10px">
               <h3 class="pub-name">{{publications.name}}</h3>
               <span class="italicregular">{{publications.pub}}</span>
             </li>
-            {%endfor %}
+            {%endfor %} -->
           </ul>
         </div>
 

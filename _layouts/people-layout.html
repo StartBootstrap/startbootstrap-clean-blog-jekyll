@@ -28,6 +28,16 @@ layout: default-layout
           <h3 class="team-name" style="font-size:16pt; margin-bottom:-15px">{{page.title}}</h3>
           <p class="simple-content" style="margin-bottom:5px">{{page.description}}</p>
           <a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
+
+          <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
+          {%for pub in site.categories['publication'] | sort: 'year'%}
+            {% if pub.authorid contains page.ide%}
+              <p class="simple-content"> {{pub.title}} </p>
+              <script>$(document).ready(function(){
+                $("#pub-specifics").show();
+              })</script>
+            {% endif %}
+          {% endfor %}
         </div>
         <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:54px">
         </div>

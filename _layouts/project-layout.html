@@ -57,6 +57,17 @@ bg-url: {{page.bg-url}}
             <span class="italic"><a href="{{ site.baseurl }}/game-sessions/" style="font-size:14pt">{{page.play}}</a></span>
             {%endif%}
             <br/>
+
+            <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
+            {%for pub in site.categories['publication']%}
+              {% if pub.projectid contains page.ide%}
+                <p class="simple-content"> {{pub.title}} </p>
+                <script>$(document).ready(function(){
+                  $("#pub-specifics").show();
+                })</script>
+              {% endif %}
+            {% endfor %}
+
             <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV on {{page.title}}" style="font-size:14pt">Collaborate with us.</a></span><br/>
             <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV" style="font-size:14pt">Fund this project.</a></span>
           </div>
