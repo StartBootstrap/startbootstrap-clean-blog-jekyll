@@ -9,23 +9,27 @@ layout: default-layout
 
         </div>
 
-        <div class="col-md-5" style="padding-top:30px">
-          <h4>{{page.authors}}</h4>
+        <div class="col-md-5" style="padding-top:40px">
+          <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
           <p class="simple-content">
           {{page.title}}
-        </p>
+          <br/>
+          {{page.book}}
+          <br/>
+          {{page.place}}
+          </p>
 
         {% if page.abstract != null%}
-          <h4>Abstract</h4>
+          <h3 class="team-name">Abstract</h3>
           <p class="simple-content bibtex">{{page.abstract}}</p>
         {% endif %}
 
         {% if page.bibtex != null%}
-          <h4>BibTex</h4>
+          <h3 class="team-name">BibTex</h3>
           <p class="simple-content bibtex">{{page.bibtex}}</p>
         {% endif %}
 
-        <h4>Related links</h4>
+        <h3 class="team-name">Related links</h3>
         <ul>
           {% for person in site.categories['team']%}
             {% if page.authorid contains person.ide %}
@@ -45,7 +49,7 @@ layout: default-layout
         </ul>
         </div>
 
-        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
           {% include share.html%}
         </div>
     </div>
