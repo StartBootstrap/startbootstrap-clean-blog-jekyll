@@ -2,7 +2,9 @@
 layout: publication-layout
 year: 2014
 authors: Bharath M. Palavalli, Harsha Krishna, Dinesh Jayagopi.
-title: Analyzing gaming-simulations using video based techniques. Technique, Education, Agriculture, and Management 2014, ACM. (2014<span style="margin-left:0.5px;">)</span> Spain.
+title: Analyzing gaming-simulations using video based techniques.
+book: Proceedings of the Technique, Education, Agriculture, and Management Conference 2014, ACM.  
+place: Spain.
 link:
 categories: publication
 ide: video
