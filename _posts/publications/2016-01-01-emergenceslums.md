@@ -8,5 +8,5 @@ categories: publication
 ide: emergenceslums
 authorid: bharath
 projectid: urban-poverty
-tag: peerp
+tag: publications
 ---

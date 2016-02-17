@@ -29,7 +29,7 @@ layout: default-layout
               {% assign counter = counter | plus: 1  %}
 
             <div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px">
-              <a href="/team/{{people.ide}}.html"><img src="/img/team/{{people.img}}" style="cursor: pointer"/>
+              <a href="/team/{{people.ide}}/"><img src="/img/team/{{people.img}}" style="cursor: pointer"/>
             <h3 class="team-name">{{ people.title }}</h3></a>
             </div>
 
@@ -43,7 +43,7 @@ layout: default-layout
 
             {%for advisors in sortedadvisors %}
             <div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;">
-              <a href="/advisors/{{advisors.ide}}.html"><img src="/img/team/advisors/{{advisors.img}}" style="cursor: pointer"/>
+              <a href="/advisors/{{advisors.ide}}/"><img src="/img/team/advisors/{{advisors.img}}" style="cursor: pointer"/>
             <h3 class="team-name">{{ advisors.title }}</h3></a>
 
             </div>

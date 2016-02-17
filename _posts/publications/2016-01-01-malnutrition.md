@@ -6,5 +6,5 @@ title: Malnutrition - Guide to a healthy child.
 link: http://docs.fieldsofview.in/public/malnutrition_fov.pdf
 categories: visual
 ide: mal
-tag: visual
+tag: publications
 ---

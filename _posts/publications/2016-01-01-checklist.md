@@ -6,5 +6,5 @@ title:  Training Through Games for Checklist Based Procedures in Emergency and D
 categories: publication
 ide: checklist
 authorid: bharath,harsha,onkar
-tag: peerp
+tag: publications
 ---

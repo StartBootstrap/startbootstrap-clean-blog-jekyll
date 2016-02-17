@@ -1,2 +1,53 @@
+---
+layout: default-layout
+---
+<section class="content" style="min-height:600px">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <a href="/publications/"><h2 class="about" id="current_about_publications">Back</h2></a>
 
-{{page.title}}
+        </div>
+
+        <div class="col-md-5" style="padding-top:30px">
+          <h4>{{page.authors}}</h4>
+          <p class="simple-content">
+          {{page.title}}
+        </p>
+
+        {% if page.abstract != null%}
+          <h4>Abstract</h4>
+          <p class="simple-content bibtex">{{page.abstract}}</p>
+        {% endif %}
+
+        {% if page.bibtex != null%}
+          <h4>BibTex</h4>
+          <p class="simple-content bibtex">{{page.bibtex}}</p>
+        {% endif %}
+
+        <h4>Related links</h4>
+        <ul>
+          {% for person in site.categories['team']%}
+            {% if page.authorid contains person.ide %}
+              <li>
+                <a href="{{person.url}}">{{person.title}}</a>
+              </li>
+            {%endif%}
+          {% endfor %}
+          {% for project in site.categories['project']%}
+            {% if page.projectid contains project.ide %}
+              <li>
+                <a href="{{project.url}}">{{project.title}}</a>
+              </li>
+            {%endif%}
+          {% endfor %}
+
+        </ul>
+        </div>
+
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
+          {% include share.html%}
+        </div>
+    </div>
+</div>
+</section>

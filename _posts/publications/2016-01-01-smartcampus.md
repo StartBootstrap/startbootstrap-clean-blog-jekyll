@@ -8,5 +8,5 @@ categories: publication
 ide: consumption
 authorid: harsha,bharath,onkar,sub
 projectid: smart-campus
-tag: peerp
+tag: publications
 ---
