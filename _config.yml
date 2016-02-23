@@ -11,6 +11,10 @@ github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 email_username:  your-email@yourdomain.com
 
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
