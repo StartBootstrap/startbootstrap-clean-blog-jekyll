@@ -11,6 +11,9 @@ github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 email_username:  your-email@yourdomain.com
 
+# Uncomment below line and add your disqus shortname for enabling disqus comments on every post
+# disqus_shortname: 
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
