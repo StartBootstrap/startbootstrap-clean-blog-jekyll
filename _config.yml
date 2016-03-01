@@ -11,6 +11,11 @@ github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 email_username:  your-email@yourdomain.com
 
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+# To enable populate shortname and unhash the line below.
+#disqus: shortname
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
