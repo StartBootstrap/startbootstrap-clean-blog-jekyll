@@ -1,0 +1,33 @@
+---
+layout: default-layout
+description: Work With Us
+title: Work With Us
+bg-url: /img/background-donate.png
+permalink: /projects/work-with-us/
+---
+
+<section class="content">
+<div class="container-fluid clearfix" style="min-height:600px">
+    <div class="row-fluid">
+        <div class="col-md-2 col-md-offset-2">
+            <h2 class="about" id="current_about">Work with us</h2>
+        </div>
+        <div class="col-md-4" style="padding-top:30px">
+            <span class="topspace"></span>
+            <ul class="jd-list" style="width:100%">
+              {% for post in site.categories['jd'] %}
+                <li id="{{post.ide}}" class="{{post.categories}} positions" style="padding-bottom:10px" style="padding-left:0px">
+                  <h3 class="event-heading">{{post.title}}</h3>
+                  <p class=simple-content><span class="italic2" style="font-size:14pt">Description</span><br/>{{post.description}}</p>
+                  <p class=simple-content><span class="italic2" style="font-size:14pt">Skills</span><br/>{{post.skills}}</p>
+                </li>
+              {% endfor %}
+            </ul>
+            <a href="mailto:work@fieldsofview.in?subject=Application for the position of..." class="mailid">Mail us to apply!</a>
+        </div>
+          <div class="col-md-3 col-md-offset-1" style="margin-top:25px; border-bottom: 1.5px solid #939393;">
+            {% include share.html%}
+        </div>
+    </div>
+</div>
+</section>
