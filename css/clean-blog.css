@@ -531,6 +531,13 @@ span.italicregular {
   color: #939393;
   letter-spacing: 0.25px;
 }
+span.italicjd {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5e5e5e;
+  letter-spacing: 0.25px;
+}
 span.designation {
   font-style: italic;
   text-decoration: none;
@@ -636,6 +643,16 @@ p.project-specifics {
 .presentations-list li {
   list-style-type: disc;
   color: #939393;
+}
+.jd-list {
+  margin-top: 20px;
+}
+.jd-list li {
+  list-style-type: none;
+  color: #939393;
+  padding: -2px 0px 0px 0px;
+  margin-bottom: 20px;
+  margin-left: -40px;
 }
 .overlay {
   background: no-repeat;

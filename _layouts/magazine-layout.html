@@ -1,0 +1,67 @@
+---
+layout: default-layout
+bg-url: {{page.bg-url}}
+---
+
+<section class="content">
+<div class="container-fluid clearfix" style="height:600px">
+    <div class="row-fluid">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
+            <ul>
+                <li class="about_nav"><a href="{{ site.baseurl }}/about/team/">Team</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/">Alumni</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
+                <li class="about_nav"><a href="{{ site.baseurl }}/about/magazine/" style="font-weight: bold">Magazine</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+
+          <div class="row-fluid" style="padding-bottom:80px">
+            <h3 class="event-heading" style="padding-top:30px">Collective Verb - The FoV Magazine</h3>
+            <ul class="newsletter-list">
+              {%for magazine in page.magazine%}
+              <li id="{{magazine.ide}}"><a href="{{magazine.description}}" class="mailid">{{ magazine.title }}</a></li>
+              {%endfor %}
+            </ul>
+          </div>
+
+
+          <div class="row-fluid" style="margin-bottom:-40px">
+            <span class="italic2" style="font-size:15pt">Previous Newsletters</span>
+          </div>
+          <div class="row-fluid" style="margin-left:-15px">
+          <div class="col-md-4">
+          <h3 class="team-name" style="padding-top:38px">2014</h3>
+          <ul class="newsletter-list">
+            {%for nl2014 in page.nl2014%}
+            <li id="{{nl2014.ide}}"><a href="{{nl2014.description}}" class="mailid">{{ nl2014.title }}</a></li><br/>
+            {%endfor %}
+          </ul> <br/>
+        </div>
+          <div class="col-md-4">
+          <h3 class="team-name" style="padding-top:38px">2013</h3>
+          <ul class="newsletter-list">
+            {%for nl2013 in page.nl2013%}
+            <li id="{{nl2013.ide}}"><a href="{{nl2013.description}}" class="mailid">{{ nl2013.title }}</a></li><br/>
+            {%endfor %}
+          </ul><br/>
+        </div>
+          <div class="col-md-4">
+          <h3 class="team-name" style="padding-top:38px">2012</h3>
+          <ul class="newsletter-list">
+            {%for nl2012 in page.nl2012%}
+            <li id="{{nl2012.ide}}"><a href="{{nl2012.description}}" class="mailid">{{ nl2012.title }}</a></li><br/>
+            {%endfor %}
+          </ul>
+        </div>
+      </div>
+        </div>
+        </div>
+
+          <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px">
+          </div>
+
+        </div>
+    </div>
+</section>

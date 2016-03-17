@@ -10,7 +10,7 @@ layout: default-layout
               {%for category in page.categories%}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
               {%endfor%}
-                <li class="about_nav" id="all" style="display: none">All Publications</li>
+                <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li>
             </ul>
         </div>
 
@@ -21,6 +21,13 @@ layout: default-layout
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
                 <h3 class="pub-name"><a href="{{pub.url}}">{{pub.authors}} ({{pub.year}}).</a></h3>
                 <a href="{{pub.url}}" style="font-size:13.5pt;">{{pub.title}}</a>
+              </li>
+            {% endfor %}
+
+            {% for pub in site.tags['brochures'] %}
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+                <h3 class="pub-name"><a href="{{pub.docurl}}">{{pub.title}}.</a></h3>
+                <a href="{{pub.docurl}}" style="font-size:13.5pt;">Brochure for the project {{pub.title}}</a>
               </li>
             {% endfor %}
           </ul>
