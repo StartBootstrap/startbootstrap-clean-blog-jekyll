@@ -14,10 +14,11 @@ permalink: /projects/work-with-us/
         </div>
         <div class="col-md-4" style="padding-top:30px">
             <span class="topspace"></span>
+            <h3 class="event-heading" style="padding-bottom:10px">Positions Available :</h3>
             <ul class="jd-list" style="width:100%">
               {% for post in site.categories['jd'] %}
-                <li id="{{post.ide}}" class="{{post.categories}} positions" style="padding-bottom:10px" style="padding-left:0px">
-                  <h3 class="event-heading"><a href="{{post.url}}">{{post.title}}</a></h3>
+                <li id="{{post.ide}}" class="{{post.categories}} positions" style="padding-bottom:0px" style="padding-left:0px">
+                  <span class="italic2"><a href="{{post.url}}">{{post.title}}</a></span>
                 </li>
               {% endfor %}
             </ul>
