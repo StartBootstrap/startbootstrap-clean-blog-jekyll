@@ -1,15 +1,15 @@
 # Site settings
-title: Clean Blog
+title: Never Bored
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: nick.vogt94@gmail.com
 copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Nicholas Vogt's Personal Blog"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
-email_username:  your-email@yourdomain.com
+url: "http://nicholas-vogt.github.io"
+twitter_username: nick_vogt94
+github_username:  nicholas-vogt
+facebook_username:  _
+email_username:  nick.vogt94@gmail.com
 
 # Build settings
 markdown: kramdown
