@@ -80,6 +80,7 @@ hr.small {
 .navbar-custom .navbar-collapse {
   border-bottom: 1px solid #a8a8a8;
   margin-top: 20px;
+  background-color: #FFFFFF;
 }
 .intro-header {
   background: no-repeat center center;
