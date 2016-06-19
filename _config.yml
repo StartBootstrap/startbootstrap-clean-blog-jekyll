@@ -11,6 +11,9 @@ github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 email_username:  your-email@yourdomain.com
 
+# Disqus shortname (not username!), You can make one from: https://disqus.com/admin/create/
+disqus: 
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
