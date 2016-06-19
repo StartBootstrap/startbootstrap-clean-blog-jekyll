@@ -4,10 +4,7 @@
     "version": "1.0.0",
     "homepage": "http://startbootstrap.com",
     "author": "Start Bootstrap",
-    "license": {
-        "type": "Apache 2.0",
-        "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
-    },
+    "license": "MIT",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
