@@ -8,12 +8,14 @@ header-img: "img/post-bg-01.jpg"
 ---
 
 # This is a Level 1 Heading
+
 > Any intelligent fool can make things bigger, more complex, and more violent.
 > It takes a touch of genius -- and a lot of courage -- to move in the
 > opposite direction.
 > – Albert Einstein
 
 ## This is a Level 2 Heading
+
 + Apple
 + Banana
     + Cherry
