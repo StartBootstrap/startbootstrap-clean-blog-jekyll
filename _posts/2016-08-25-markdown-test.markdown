@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Markdown test"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
+subtitle:   "Markdown is a text-to-HTML conversion tool for web writers."
 date:       2016-08-25 12:00:00
-author:     "Start Bootstrap"
+author:     "alphasquared4"
 header-img: "img/post-bg-01.jpg"
 ---
 
