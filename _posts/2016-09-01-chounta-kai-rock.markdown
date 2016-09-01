@@ -21,9 +21,9 @@ header-img: "img/post-bg-08.jpg"
 
 Ο *Μαστοράκης* ο οποίος (χωρίς να είναι χουντικός, απλά αριβίστας) έλυνε και έδενε επί χούντας (και γι’ αυτό αναγκάστηκε να φύγει με την μεταπολίτευση), έχει από ότι φαίνεται ένα αξιόλογο αρχείο με τηλεοπτικές εκπομπές της εποχής, το οποίο και ανεβάζει σιγά-σιγά στο διαδίκτυο. Πάρτε λοιπόν ένα μικρό δείγμα του πόσο «υπέφερε» το ελληνικό rock κατά την επταετία:
 
-[https://youtu.be/Czn3rk9GylI?t=412](https://youtu.be/Czn3rk9GylI?t=412) 
-[https://youtu.be/lRBOgGSDuHg?t=72](https://youtu.be/lRBOgGSDuHg?t=72) 
-[https://youtu.be/QBzSQaMx4js?t=193](https://youtu.be/QBzSQaMx4js?t=193) 
-[https://youtu.be/5LxwV7hE844?t=310](https://youtu.be/5LxwV7hE844?t=310) 
-[https://youtu.be/5LxwV7hE844?t=498](https://youtu.be/5LxwV7hE844?t=498) 
-[https://youtu.be/viQD_SFdYjc](https://youtu.be/viQD_SFdYjc) 
+[https://youtu.be/Czn3rk9GylI?t=412](https://youtu.be/Czn3rk9GylI?t=412)  
+[https://youtu.be/lRBOgGSDuHg?t=72](https://youtu.be/lRBOgGSDuHg?t=72)  
+[https://youtu.be/QBzSQaMx4js?t=193](https://youtu.be/QBzSQaMx4js?t=193)  
+[https://youtu.be/5LxwV7hE844?t=310](https://youtu.be/5LxwV7hE844?t=310)  
+[https://youtu.be/5LxwV7hE844?t=498](https://youtu.be/5LxwV7hE844?t=498)  
+[https://youtu.be/viQD_SFdYjc](https://youtu.be/viQD_SFdYjc)  
