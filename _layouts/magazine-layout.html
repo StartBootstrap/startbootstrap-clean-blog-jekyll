@@ -21,7 +21,7 @@ bg-url: {{page.bg-url}}
             <h3 class="event-heading" style="padding-top:30px">Collective Verb - The FoV Magazine</h3>
             <ul class="newsletter-list">
               {%for magazine in page.magazine%}
-              <li id="{{magazine.ide}}"><a href="{{magazine.description}}" class="mailid">{{ magazine.title }}</a></li>
+              <li id="{{magazine.ide}}"><a href="{{magazine.description}}" class="mailid">{{ magazine.title }}</a></li><br/>
               {%endfor %}
             </ul>
           </div>
