@@ -12,8 +12,8 @@ development in [elixir](http://elixir-lang.org/) before and I wanted to become
 productive with it ASAP. When it comes to elixir there were
 [some](http://amzn.to/2fr9dRw)
 [good](http://amzn.to/2fr6lUq)
-[books](http://amzn.to/2fr9ML1) to help me understand it better, I also needed an
-editor or and IDE that would give me the tools I need without getting in my way.
+[books](http://amzn.to/2fr9ML1) to help me understand it better, but I also needed an
+editor or and IDE that would give me the necessary tools without getting in my way.
 
 Here's a list of criteria I had for my editor:
 
