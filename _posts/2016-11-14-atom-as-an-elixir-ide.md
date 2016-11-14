@@ -16,6 +16,7 @@ productive with it ASAP. When it comes to elixir there were
 editor or and IDE that would give me the tools I need without getting in my way.
 
 Here's a list of criteria I had for my editor:
+
 - Erlang and Elixir syntax highlighting (duh)
 - good in-project search
 - vi(m) keybindings
