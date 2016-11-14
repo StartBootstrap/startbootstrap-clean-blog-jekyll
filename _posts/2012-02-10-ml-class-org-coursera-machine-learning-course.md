@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 In the last three months of the last year I had the pleasure of taking part in an online machine learning course, taught by prof. Andrew Ng of the Stanford University. The course is already over, so it might seem old news, but next edition should start any time now. If the topic of machine learning seems interesting to you in any way I can really recommend it.
+<!--more-->
 
 ![overfitting the data](/img/ml-class/overfitting.png "overfitting the data")
 
@@ -39,4 +40,3 @@ All in all – I really recommend the course: a nice peace of interesting and pr
 I guess the only disadvantage of the course is that the mailing system and the certificate system don’t handle the polish characters very well:
 
 ![Jacek Who](/img/ml-class/82208.pdf.png)
-

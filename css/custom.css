@@ -1,0 +1,13 @@
+th {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.inner_preview {
+  text-align: justify;
+}

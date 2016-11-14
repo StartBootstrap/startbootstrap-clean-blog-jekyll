@@ -8,6 +8,7 @@ published:  true
 ---
 
 I've been a semi-active board game nerd for quite a while now and I find myself playing a wide variety of games, ranging from [Jungle Speed](https://boardgamegeek.com/boardgame/8098/jungle-speed) to [Battlestar Galactica](https://boardgamegeek.com/boardgame/37111/battlestar-galactica) and [go](https://en.wikipedia.org/wiki/Go_%28game%29). Board games are a huge universe to explore, but there's been one game that me and my friends have been playing for years now and it's still a crowd favourite. It can accommodate virtually any number of players, it's cheap (all you need is some dice), simple to explain, and - last but not least, drunk-people-friendly. If you can still count, you can still play and even if the table is all covered in beer, the dice couldn't care less.
+<!--more-->
 
 But as with most things, the devil's in the details. Most people know a version of the game, but there is one particular one that is both fun and perfectly fair - there's a winning move in every situation. I've recently been asked to write it up and share, soo...
 
@@ -44,7 +45,7 @@ There's 5 of us playing, all of us have 5 dice and the bids went as follows:
 - **A**: "you're a liar!"
 
 So what happened here: **A** saw he didn't have any sixes in his dice and thought amongst all 25 dice of all the players there weren't five or more sixes. All players reveal their dice and lift as many fingers as many sixes they had, to help the counting. Turns out **B** had two sixes and **E** had two more, but none of the other players had any - there's only 4 in total. **E**'s bid was too high and they lose the round and one of their dice.
- 
+
 If there actually were five sixes on the table, **A** would have lost the round instead and they would have lost one of their dice.
 
 After a call the next round starts and the first bid is made by the person who lost the last round. If the person who lost the last round got knocked out, the player who knocked them out has the first bid instead.
@@ -52,7 +53,7 @@ After a call the next round starts and the first bid is made by the person who l
 ## "Spot-on"
 As you might have noticed, with just the above rules, there are situations where a player doesn't have a good move. Let's say there's just two people playing and their dice rolls are as follows: **A**: {1, 3, 6, 6}, **B**: {2, 4, 6}. The last bid was **A** saying "three sixes" - and it's a very good bid indeed. But it seems like **B** is out of luck: if they call they will lose the round and there is no "higher" bid that will be successful if A calls - and they probably will. What now?
 
-That's why the "spot-on" was introduced. If you think that the last person's bid is accurate, but there is no higher bid that would work, instead of calling or bidding, you call "spot-on". That means you assert the last person's bid was exactly accurate. In the example above, when **B** says "spot-on", they assert that there are **exactly** three sixes on the table - no more, no less. 
+That's why the "spot-on" was introduced. If you think that the last person's bid is accurate, but there is no higher bid that would work, instead of calling or bidding, you call "spot-on". That means you assert the last person's bid was exactly accurate. In the example above, when **B** says "spot-on", they assert that there are **exactly** three sixes on the table - no more, no less.
 
 If the person saying "spot-on" is right, they win the round and they regain one more die if they have fewer than five dice. Nothing happens to the last person bidding - their bid was correct. If the person saying "spot on" was wrong, they lose a die instead.
 
@@ -64,8 +65,6 @@ This way the worse you're doing, the more information you have about the "global
 
 ---
 
-That's about it! Give the game a try and see how you like it. Let me know if any part of the explanation is unclear - the game is much simpler to demonstrate than it is to put on paper... 
+That's about it! Give the game a try and see how you like it. Let me know if any part of the explanation is unclear - the game is much simpler to demonstrate than it is to put on paper...
 
 And remember: "three sixes" is always a good starting bid and "six sixes" is a good bid regardless of how many dice there are on the table ;)
-
-

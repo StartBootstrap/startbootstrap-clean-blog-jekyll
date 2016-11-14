@@ -11,7 +11,7 @@ Some time ago, inspired by…
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/U4oB28ksiIo" frameborder="0" allowfullscreen> </iframe>
 
-…also known as the “Do not fuck with a hacker’s machine” clip, and the fact I started using Debian exclusively on my netbook, I decided to make preparations in advance for a dire situation in which my laptop is stolen/captured by insurgents, and retrieve it easier or even play a prank on them. These were my postulates:
+…also known as the “Do not fuck with a hacker’s machine” clip, and the fact I started using Debian exclusively on my netbook, I decided to make preparations<!--more--> in advance for a dire situation in which my laptop is stolen/captured by insurgents, and retrieve it easier or even play a prank on them. These were my postulates:
 
 * I should always know the IP of my netbook, assuming it’s connected to the internet
 * If someone other than me is using my computer, he should be well (and discretely) photographed.
@@ -81,10 +81,3 @@ One thing i feel is missing from the whole setup is being able to ssh to the lap
 PS. I know macs have a program that does all that and much more, but the more interesting (and cheaper) thing is to write it yourself.
 
 PS2. If you are going to be viewing the pictures more frequently you might want to modify the script so that the pictures get a new directory every now and then – any graphical interface will be loading their previews much faster this way. But I’ll leave it as an exercise to the reader (as many of my university’s textbooks say) and leave the script in an “almost done” state ;)
-
-
-
-
-
-
-

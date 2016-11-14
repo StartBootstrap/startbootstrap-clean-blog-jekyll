@@ -1,14 +1,17 @@
 # Site settings
-title: almost done 
-email: jacek.krolikowski@almost-done.net 
-description: "Almost Done - the (mostly) programming-themed blog of nietaki."
+title: almost done
+email: nietaki@gmail.com
+description: "Almost Done - the (mostly) programming-themed blog."
 baseurl: ""
 url: "https://nietaki.github.io"
-twitter_username: nietaki 
-github_username: nietaki 
+twitter_username: nietaki
+github_username: nietaki
 #facebook_username: nietaki
 linkedin_id: jacekkrolikowski
 instagram_username: nietaki
+future: true
+
+excerpt_separator: "<!--more-->"
 
 gems:
   - jekyll-redirect-from
@@ -26,11 +29,10 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       author: "nietaki"
       header-img: "img/headers/typeheads.jpg" # We don't want posts without a header image, that whould mean white on white
-      comments_enabled: false

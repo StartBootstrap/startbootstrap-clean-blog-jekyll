@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #404040;
 }
 p {
@@ -10,6 +10,15 @@ p {
 p a {
   text-decoration: underline;
 }
+
+div a {
+  text-decoration: underline;
+}
+
+.noul {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,

@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 This thursday, in the lecture hall of the Biology Departament of University of Warsaw, Google organized a meetup with their engineers, celebrating the official launch of their new office in Warsaw. The event started with [Joshua Bloch](http://pl.wikipedia.org/wiki/Joshua_Bloch)’s, lecture, which was a treat for the attendees, most of whom were [MIM UW](http://www.mimuw.edu.pl/) students, almost filling the room.
+<!--more-->
 
 Joshua presented code snippets that don’t do what you might expect them to, by invoking constructs that may lead to unforseen behavior. Majority of those constructs weren’t Java-exclusive and could have been presented in C++ or even python.  The well known issues were covered, e.g. String comparison, operator precedence, working with floating-point variables, implicit conversion. But there also were topics I haven’t ever thought about, like regular expressions that match same patterns but differ hugely in their efficiency.
 

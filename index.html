@@ -6,7 +6,7 @@ header-img: "img/headers/typeheads.jpg"
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="noul">
         <h2 class="post-title">
             {{ post.title }}
         </h2>
@@ -16,7 +16,9 @@ header-img: "img/headers/typeheads.jpg"
         </h3>
         {% endif %}
     </a>
-    <p class="todo_preview">{{ post.content | strip_html | truncatewords:75}} </p>
+    <div class="inner_preview">
+      {{ post.excerpt }}
+    </div>
     <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
@@ -28,12 +30,12 @@ header-img: "img/headers/typeheads.jpg"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a class="noul" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a class="noul" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     </li>
     {% endif %}
 </ul>

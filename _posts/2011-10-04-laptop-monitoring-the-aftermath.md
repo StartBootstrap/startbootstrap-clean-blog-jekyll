@@ -20,6 +20,7 @@ redirect_from:
 ---
 
 Some time ago [I described](/2011/04/24/defensive-photobooth/) a script you could use to see who’s using your laptop when you’re not around. I sadly (?) didn’t catch any robbers using it, but the whole setup already took nearly 4000 photos, some of which might be a little interesting:
+<!--more-->
 
 {% for img in page.photos %}
   ![](/img/photobooth/photos/{{ img }})

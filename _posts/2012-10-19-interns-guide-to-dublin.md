@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 I spent the last three months in Dublin, on an internship with Microsoft. The experience was great and I could recommend it to anybody, but that’s not what I wanted to talk about this time. Whenever you move from one place to another there’s a certain amount of know-how that makes your new life easier/better/more predictable and that knowledge usually comes with time. By the end of my internship I felt at home in Dublin and now I’d like to share some tips with you.
+<!--more-->
 
 ![Guiness](/img/dublin/guinness.jpg)
 

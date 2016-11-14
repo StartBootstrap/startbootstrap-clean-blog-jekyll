@@ -14,6 +14,7 @@ I was talking to a friend of mine and we came up with the idea of  “America’
 
 
 ![Sample post image]({{ site.baseurl }}/img/wallpapers/topcodr1440.jpg)
+<!--more-->
 
 Half of the idea and the whole design is courtesy of [Jakub Rostkowski](http://behance.net/rostek), and the wallpaper comes in three different sizes:
 [1440×900]({{ site.baseurl }}/img/wallpapers/topcodr1440.jpg),
