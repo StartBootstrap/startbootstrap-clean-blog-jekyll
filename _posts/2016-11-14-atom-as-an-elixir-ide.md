@@ -45,6 +45,7 @@ repository and can be easily installed and purged from within Atom interface, wi
 messing with any config files or cryptic commands.
 
 Some of them are no brainers:
+
 - [language-elixir](https://atom.io/packages/language-elixir) - elixir syntax support
 - [language-erlang](https://atom.io/packages/language-erlang) - Erlang syntax support
 - [atom-elixir](https://atom.io/packages/atom-elixir) - elixir autocomplete, go to definition, documentation, ...
