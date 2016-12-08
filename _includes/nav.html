@@ -18,9 +18,16 @@
                 <li>
                     <a class="noul" href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}{% if page.title != "404" %}
+                {% assign sorted_pages = site.pages | sort:"order" %}
+                {% for page in sorted_pages %}{% if page.title %}{% if page.title != "404" %}
                 <li>
-                    <a class="noul" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a class="noul" href="{{ page.url | prepend: site.baseurl }}">
+                      {% if page.link_title %}
+                        {{ page.link_title }}
+                      {% else %}
+                        {{ page.title }}
+                      {% endif %}
+                    </a>
                 </li>
                 {% endif %}{% endif %}{% endfor %}
             </ul>

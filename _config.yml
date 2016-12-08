@@ -7,7 +7,7 @@ url: "https://nietaki.github.io"
 twitter_username: nietaki
 github_username: nietaki
 #facebook_username: nietaki
-linkedin_id: jacekkrolikowski
+linkedin_id: nietaki
 instagram_username: nietaki
 future: true
 
@@ -21,7 +21,7 @@ gems:
 
 # Build settings
 markdown: kramdown
-highlighter: rouge 
+highlighter: rouge
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -36,3 +36,11 @@ defaults:
       layout: "post"
       author: "nietaki"
       header-img: "img/headers/typeheads.jpg" # We don't want posts without a header image, that whould mean white on white
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      header-img: "img/headers/typeheads.jpg"
+      order: 10

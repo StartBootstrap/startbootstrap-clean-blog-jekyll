@@ -6,6 +6,7 @@ header-img: img/headers/samples/contact-bg.jpg
 redirect_from:
  - /foo/
  - /en/about/
+order: 100
 ---
 
 My name is Jacek Królikowski, I'm a programmer from Warsaw, Poland. In 2014 I have graduated from the University
