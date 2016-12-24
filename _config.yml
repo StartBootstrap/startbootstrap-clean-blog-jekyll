@@ -15,6 +15,10 @@ email_username:  your-email@yourdomain.com
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
 
+# Nav icon settings
+logoicon: [ true, "fa fa-rocket" ] # Logo icon of the navbar
+homeicon: [ true, "fa fa-home" ]   # Home icon of the navbar
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
