@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
