@@ -19,15 +19,15 @@ layout: default-layout
             {% assign sortedpub = site.tags['publications']| sort: 'year' %}
             {% for pub in sortedpub reversed%}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><a href="{{pub.url}}">{{pub.authors}} ({{pub.year}}).</a></h3>
-                <a href="{{pub.url}}" style="font-size:13.5pt;">{{pub.title}}</a>
+                <h3 class="pub-name"><a href="{{pub.url}}" class="dark">{{pub.authors}} ({{pub.year}}).</a></h3>
+                <a href="{{pub.url}}" style="font-size:13.5pt;" class="dark">{{pub.title}}</a>
               </li>
             {% endfor %}
 
             {% for pub in site.tags['brochures'] %}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><a href="{{pub.docurl}}">{{pub.title}}.</a></h3>
-                <a href="{{pub.docurl}}" style="font-size:13.5pt;">Brochure for the project {{pub.title}}</a>
+                <h3 class="pub-name"><a href="{{pub.docurl}}" class="dark">{{pub.title}}.</a></h3>
+                <a href="{{pub.docurl}}" style="font-size:13.5pt;" class="dark">Brochure for the project {{pub.title}}</a>
               </li>
             {% endfor %}
           </ul>
