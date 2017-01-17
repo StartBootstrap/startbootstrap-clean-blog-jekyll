@@ -5,5 +5,5 @@ title: Indian Energy Game
 ide: Energy_Game
 tag: brochures
 categories: brochures
-docurl: http://docs.fieldsofview.in/public/brochures/Energy%20Game.pdf
+docurl: /brochures/Energy%20Game.pdf
 ---

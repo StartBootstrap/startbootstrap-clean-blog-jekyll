@@ -5,6 +5,6 @@ title: Converstation
 ide: Converstation
 tag: brochures
 categories: brochures
-docurl: http://docs.fieldsofview.in/public/brochures/Converstation.pdf
+docurl: /brochures/Converstation.pdf
 ---
     

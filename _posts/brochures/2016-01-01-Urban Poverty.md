@@ -5,6 +5,6 @@ title: Urban Poverty
 ide: Urban_Poverty
 tag: brochures
 categories: brochures
-docurl: http://docs.fieldsofview.in/public/brochures/Urban%20Poverty.pdf
+docurl: /brochures/Urban%20Poverty.pdf
 ---
     

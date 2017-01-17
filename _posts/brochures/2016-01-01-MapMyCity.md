@@ -5,5 +5,5 @@ title: Map My City
 ide: MapMyCity
 tag: brochures
 categories: brochures
-docurl: http://docs.fieldsofview.in/public/brochures/MapMyCity.pdf
+docurl: /brochures/MapMyCity.pdf
 ---
