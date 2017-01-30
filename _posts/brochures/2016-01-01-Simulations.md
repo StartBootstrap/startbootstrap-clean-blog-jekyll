@@ -5,5 +5,5 @@ title: Simulations at Fields of View
 ide: Simulations
 tag: brochures
 categories: brochures
-docurl: http://docs.fieldsofview.in/public/brochures/Simulations.pdf
+docurl: /brochures/Simulations.pdf
 ---
