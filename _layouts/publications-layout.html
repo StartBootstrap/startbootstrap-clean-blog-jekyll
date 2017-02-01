@@ -10,7 +10,7 @@ layout: default-layout
               {%for category in page.categories%}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
               {%endfor%}
-                <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li>
+                <!-- <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li> -->
             </ul>
         </div>
 
@@ -31,7 +31,23 @@ layout: default-layout
               </li>
             {% endfor %}
           </ul>
+          <h3 class="event-heading" style="padding-top:30px">Collective Verb - The FoV Magazine</h3>
+            <ul class="newsletter-list">
+              {%for magazine in page.magazine%}
+              <li id="{{magazine.ide}}"><a href="{{magazine.description}}" class="mailid">{{ magazine.title }}</a></li><br/>
+              {%endfor %}
+            </ul>
         </div>
+
+
+      <!--   <div class="row-fluid" style="padding-bottom:80px">
+            <h3 class="event-heading" style="padding-top:30px">Collective Verb - The FoV Magazine</h3>
+            <ul class="newsletter-list">
+              {%for magazine in page.magazine%}
+              <li id="{{magazine.ide}}"><a href="{{magazine.description}}" class="mailid">{{ magazine.title }}</a></li><br/>
+              {%endfor %}
+            </ul>
+          </div> -->
 
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
