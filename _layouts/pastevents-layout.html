@@ -11,14 +11,14 @@ layout: default-layout
               <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
             {%endfor%}
             <li class="about_nav" id="all" style="display: none">Past Events</li>
-              <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back</a></li>
+            <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back</a></li>
             </ul>
         </div>
 
         <div class="col-md-4" >
           <ul class="old-events-list">
           {%for events in page.events%}
-          <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="cursor: pointer; width:100%"/></li>
+            <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="cursor: pointer; width:100%"/></li>
           {%endfor %}
         </ul>
         </div>
