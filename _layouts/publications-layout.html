@@ -10,7 +10,7 @@ layout: default-layout
               {%for category in page.categories%}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
               {%endfor%}
-                <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li>
+                <!-- <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li> -->
             </ul>
         </div>
 
@@ -32,7 +32,6 @@ layout: default-layout
             {% endfor %}
           </ul>
         </div>
-
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
         </div>

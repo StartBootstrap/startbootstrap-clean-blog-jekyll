@@ -461,6 +461,9 @@ p.simple-content {
   color: #424242;
   font-kerning: auto;
 }
+ul{
+  font-size: 12pt;
+}
 address.fov-donate {
   font-family: "Crimson Text", serif;
   font-style: italic;
