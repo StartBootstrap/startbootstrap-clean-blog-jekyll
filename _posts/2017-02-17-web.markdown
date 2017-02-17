@@ -1,13 +1,26 @@
 ---
 layout: post
-title:  "你好世界!"
-date:   2017-02-17 20:01:31 +0800
+title:  "CSS之不断踩坑"
+date:   2017-02-17 21:17:00 +0800
 categories: jekyll update
 ---
-估计很多人心里都有一颗web全栈的心，但是我建议，最好还是把基础打牢了，再去想其他的事情。我不认为web全栈是一个不切实际的想法。
+## 第一个坑：设置input输入框背景色
+>可以改变任何情况下的背景色设定
+```css
+box-shadow:         0 0 0px 1000px rgb(255, 255, 255) inset;
+-o-box-shadow:      0 0 0px 1000px rgb(255, 255, 255) inset;
+-moz-box-shadow:    0 0 0px 1000px rgb(255, 255, 255) inset;
+-webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
+```
 
-```js
-function(){
-    console.log('hello world!');
-}
+## 第二个坑：buttom边框虚线
+> outline（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。
+```css
+utline: 0;
+```
+
+## 第三个坑：文本不换行
+> 规定段落中的文本不进行换行：
+```css
+white-space: nowrap
 ```
