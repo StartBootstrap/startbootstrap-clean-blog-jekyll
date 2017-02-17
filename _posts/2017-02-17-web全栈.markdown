@@ -3,7 +3,6 @@ layout:     post
 title:      "web全栈"
 subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
 date:       2017-02-17 12:49:00
-author:     "Start Bootstrap"
 header-img: "img/post-bg-01.jpg"
 ---
 估计很多人心里都有一颗web全栈的心，但是我建议，最好还是把基础打牢了，再去想其他的事情。我不认为web全栈是一个不切实际的想法。
