@@ -3,6 +3,7 @@ layout: post
 title:  "CSS之不断踩坑"
 date:   2017-02-17 21:17:00 +0800
 categories: jekyll update
+header-img: "http://www.lexus.com.cn/sites/all/themes/lexus/images/index-kv-youting-2880x1480.jpg"
 ---
 ## 第一个坑：设置input输入框背景色
 >可以改变任何情况下的背景色设定
