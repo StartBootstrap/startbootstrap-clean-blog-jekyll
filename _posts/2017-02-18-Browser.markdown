@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "浏览器市场份额决定开发人员的工作方向"
-date:   2017-02-16 20:17:31 +0800
+date:   2017-02-18 20:17:31 +0800
 categories: jekyll update
+header-img: "http://oigzh9iic.bkt.clouddn.com/about-bg.jpg"
 ---
 > 这里引用一篇来自网站上的文章，作为本文的论点<br/>
 http://www.chinacloud.cn/show.aspx?id=24735&cid=11

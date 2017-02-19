@@ -3,7 +3,7 @@ layout: post
 title:  "我的第一篇文章!"
 date:   2017-02-16 20:17:31 +0800
 categories: jekyll update
-header-img: "http://www.lexus.com.cn/sites/all/themes/lexus/images/index-kv-youting-2880x1480.jpg"
+header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
 ---
 ## 目的：
 在制作个人网站的时候，我需要在header里面加入各大社交网站的直链，可以让更多人，找到我，提供他们的想法。并且去实现那个想法。
