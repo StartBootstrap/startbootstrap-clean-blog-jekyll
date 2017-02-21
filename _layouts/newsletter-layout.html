@@ -23,12 +23,13 @@ bg-url: {{page.bg-url}}
           <span class="italic2" style="font-size:15pt">Previous Newsletters</span>
         </div>
         
-    <!--     <div class="row-fluid" style="margin-left:-15px">
+        <div class="row-fluid" style="margin-left:-15px">
           {% for nl in page.newsletters %}
             <div class="col-md-4">
-              <h3 class="team-name" style="padding-top:38px">2014</h3>
+            {% for n in nl %}
+              <h3 class="team-name" style="padding-top:38px">{{n[1][0]['categories']}}</h3>
+            {%endfor%}
               <ul class="newsletter-list">
-          
               {% for n in nl %}
                 {% for news in n[1] %}
                   <li id="{{news['ide']}}"><a href="{{news['description']}}" class="mailid">{{ news['title'] }}</a></li><br/>
@@ -37,7 +38,7 @@ bg-url: {{page.bg-url}}
               </ul> <br/>
             </div> 
           {%endfor%}
-        </div> -->
+        </div>
       </div>
     </div>
 
