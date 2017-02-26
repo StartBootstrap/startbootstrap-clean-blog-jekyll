@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "nginx快捷键"
+date:   2017-02-26 17:15:00 +0800
+categories: jekyll update
+header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
+---
+# 查看nginx进程：nginx的进程由主进程和工作进程组成
+```js
+ps -ef|grep nginx
+```
+# 启动nginx
+```js
+service nginx start
+```
+# 平滑启动nginx
+```js
+kill -HUP `cat /var/run/nginx.pid`
+或者 nginx -s reload
+```
+# 完美停止nginx
+```js
+kill -TERM `cat /var/run/nginx.pid`
+或者
+kill -INT `cat /var/run/nginx.pid`
+```
+# 完美停止工作进程
+```js
+kill -WINCH `cat /var/run/nginx.pid`
+或者
+kill -INT `cat /var/run/nginx.pid`
+```
+# 强制停止nginx
+```js
+pkill -9 nginx
+```
+# 检查对nginx.conf文件的修改是否正确
+```js
+nginx -t -c /etc/nginx/nginx.conf
+或者
+nginx -t
+```
+# 停止nginx的命令
+```js
+nginx -s stop
+```
+# 查看nginx的版本信息
+```js
+nginx -v
+```
