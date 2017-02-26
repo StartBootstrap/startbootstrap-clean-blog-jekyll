@@ -7,6 +7,8 @@ header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
 ---
 
 # 示例
+> 这里先展示实际使用方式，原理什么的以后再说了。
+
 ```js
 document.getElementById("save").onclick = function() {
   var request = new XMLHttpRequest();
@@ -19,12 +21,12 @@ document.getElementById("save").onclick = function() {
   request.send(data);
   request.onreadystatechange = function() {
     if (request.readyState===4) {
-        if (request.status===200) {
-            document.getElementById("createResult").innerHTML = request.responseText;
+            if (request.status===200) {
+                document.getElementById("createResult").innerHTML = request.responseText;
             } else {
                 alert("发生错误：" + request.status);
             }
+        }
     }
-  }
 }
 ```
