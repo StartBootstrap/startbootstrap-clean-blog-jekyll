@@ -9,22 +9,22 @@ header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
 # 示例
 ```js
 document.getElementById("save").onclick = function() {
-	var request = new XMLHttpRequest();
-	request.open("POST", "server.php");
-	var data = "name=" + document.getElementById("staffName").value
-	                  + "&number=" + document.getElementById("staffNumber").value
-	                  + "&sex=" + document.getElementById("staffSex").value
-	                  + "&job=" + document.getElementById("staffJob").value;
-	request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-	request.send(data);
-	request.onreadystatechange = function() {
-		if (request.readyState===4) {
-			if (request.status===200) {
-				document.getElementById("createResult").innerHTML = request.responseText;
-			} else {
-				alert("发生错误：" + request.status);
-			}
-		}
-	}
+  var request = new XMLHttpRequest();
+  request.open("POST", "server.php");
+  var data = "name=" + document.getElementById("staffName").value
+                      + "&number=" + document.getElementById("staffNumber").value
+                      + "&sex=" + document.getElementById("staffSex").value
+                      + "&job=" + document.getElementById("staffJob").value;
+  request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+  request.send(data);
+  request.onreadystatechange = function() {
+    if (request.readyState===4) {
+        if (request.status===200) {
+            document.getElementById("createResult").innerHTML = request.responseText;
+            } else {
+                alert("发生错误：" + request.status);
+            }
+    }
+  }
 }
 ```
