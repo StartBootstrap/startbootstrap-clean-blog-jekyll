@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "写给傻瓜的JavaScript闭包(译)"
+title:  "写给初级JS程序员的JavaScript闭包(译)"
 date:   2017-03-01 16:06:00 +0800
 categories: jekyll update
 header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
