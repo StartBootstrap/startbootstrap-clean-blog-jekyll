@@ -5,6 +5,15 @@ date:   2017-03-01 14:28:00 +0800
 categories: jekyll update
 header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
 ---
+>1.匿名函数
+2.闭包
+主讲教师：李炎恢
+合作网站：http://www.ibeifeng.com
+    讲师博客：http://hi.baidu.com/李炎恢
+    匿名函数就是没有名字的函数，闭包是可访问一个函数作用域里变量的函数。声明：本
+节内容需要有面向对象和少量设计模式基础，否则无法听懂.(所需基础15 章的时候已经声
+明过了)。
+
 # 1.匿名函数
 >### 普通函数
 ```js
