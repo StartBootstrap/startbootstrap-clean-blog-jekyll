@@ -6,6 +6,8 @@ categories: jekyll update
 header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
 ---
 #### 在计算机科学中，闭包是函数的非局部变量（自由变量）的引用环境。
+> 以下内容为学习笔记，来自李炎恢老师的课堂纪要。
+
 # 1.匿名函数
 >### 普通函数
 ```js
