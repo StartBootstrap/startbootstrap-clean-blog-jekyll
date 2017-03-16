@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "浏览器市场份额决定开发人员的工作方向"
+date:   2017-02-18 20:17:31 +0800
+categories: jekyll update
+header-img: "http://oigzh9iic.bkt.clouddn.com/about-bg.jpg"
+---
+
+>表格
+dog | bird | cat
+----|------|----
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
+
+>圖片
+<img src="http://images.cnblogs.com/cnblogs_com/blackwood/416364/o_eventpic.jpg"/>
