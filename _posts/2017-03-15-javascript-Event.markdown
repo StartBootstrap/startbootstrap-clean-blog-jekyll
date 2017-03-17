@@ -143,7 +143,8 @@ btn.detachEvent("onclick",handler);
 >这2个方法属于一个名叫EventUtil的对象<br/>
 参数：要操作的元素 | 事件名称 | 事件处理接受程序
 ```js
-// 解析：首先判断是否存在DOM2级方法，如果存在==>传入事件类型，事件处理程序函数，和第三个参数方法false（表示冒泡阶段），如果存在的是IE的方法，就采用第二种方法，为了兼容IE8及跟早的版本，此时的时间类型必须加上"on"前缀。最后一种是DOm0级方法，现代的浏览器，一般
+// 解析：首先判断是否存在DOM2级方法，如果存在==>传入事件类型，事件处理程序函数，和第三个参数方法false（表示冒泡阶段），如果存在的是IE的方法，就采用第二种方法，为了兼容IE8及跟早的版本，此时的时间类型必须加上"on"前缀。最后一种是DOm0级方法(现代浏览器，一般不会执行这里的代码)，使用方括号语法将属性名指定为事件处理程序或者将属性设置为null；
+
 var EventUtil={
   addHandler:function(element,type,handler){
     if(element.addEventListener){
@@ -164,4 +165,13 @@ var EventUtil={
     }
   }
 }
+// 实例：使用EventUtil对象==>绑定click事件并删除click事件
+// 分析：由于addHandler和removeHandler没有考虑到所有浏览器的问题，例如IE浏览器中的作用域的问题，所以我们往往只用作添加处理程序或者移除处理程序。
+//提示：只DoM0级的浏览器已经不多了，所以需要注意的问题不是很多
+var btn = document.getElementById("myBtn");
+var handler = function (){
+  alert("你好！");
+}
+EventUtil.addHandler(btn,"click",handler);
+EventUtil.removeHandler(btn,"click",handler);
 ```
