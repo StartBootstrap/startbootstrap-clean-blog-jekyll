@@ -17,24 +17,28 @@ layout: default-layout
         </div>
 
         <div class="col-md-6" style="padding-top:62px">
-            {% assign counter = 0 %}
-            {%for collaborations in page.collaborations%}
-            {% if counter >= 4 %}
-              {% assign counter = 0 %}
+            <div class="row-fluid">
+                {% assign counter = 0 %}
+                {% for collaborations in page.collaborations %}
+                    {% if counter >= 4 %}
+                        {% assign counter = 0 %}
+                        <div class="clearfix"></div>
+                    {% endif %}
+                    {% assign counter = counter | plus: 1  %}
 
-            {% endif %}
-
-            {% assign counter = counter | plus: 1  %}
-            <div id="{{collaborations.ide}}" class="collab" style="padding-bottom:50px; float:left;">
-            <a href="{{collaborations.url}}" target="_blank"><img src="{{collaborations.img}}" style="cursor:pointer;"/></a>
-            <span class="italicregular" style="font-size:12pt">{{collaborations.title}}</span>
+                    <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left;">
+                    <div style="height: 400; width: 400;"> 
+                        <a href="{{collaborations.url}}" target="_blank">
+                            <img class="img-responsive" src="{{collaborations.img}}" height="400" width="400" style="cursor:pointer;"/>
+                        </a>
+                    </div>
+                    <span class="italicregular" style="font-size:12pt">{{collaborations.title}}</span>
+                    </div>
+                {%endfor %}
             </div>
-            {%endfor %}
         </div>
 
-          <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px">
-        </div>
-
+        <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px"></div>
     </div>
 </div>
 </section>
