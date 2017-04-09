@@ -11,6 +11,9 @@ github_username:  davidtmiller
 facebook_username:  StartBootstrap
 email_username:  your-email@yourdomain.com
 
+# To add linked in icon, uncomment below and fill in you linkedin username
+# linkedin_username:
+
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
