@@ -5,7 +5,6 @@ authors: Harsha Krishna, Onkar Hoysala, Murali Krishna G., Bharath M. Palavalli 
 title: Modelling technology, policy and behaviour to manage electricity consumption.
 conference: IEEE Region 10 Humanitarian Technology Conference.
 place: Chennai
-link:
 categories: publication
 ide: consumption
 authorid: harsha,bharath,onkar,sub

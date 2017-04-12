@@ -5,7 +5,6 @@ authors: Yashvanth M. Kondi, Daksh V., Sruthi K., Madhav R.
 title: An Interdisciplinary, Dialogic Approach to Develop an Electronic Device to Enhance Freedom and Mobility of Women in Public Spaces in the Indian Context - Illustrated by the Case of Convers[t]ation.
 conference: IEEE GHTC-SAS
 place: Trivandrum, Kerala.
-link:
 categories: publication
 ide: converstation
 authorid: sruthi
