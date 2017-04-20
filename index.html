@@ -1,36 +1,409 @@
----
-layout: page
-description: "В этом блоге, Вы узнаете много нового и интересного."
----
+<!DOCTYPE html>
+<html lang="ru">
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">{{ post.date | date: "%m/%d/%Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Вперёд</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Назад &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+	<title>Павлов Максим | Портфолио</title>
+
+	<!-- CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="css/animate.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="css/style.css" rel="stylesheet" media="screen">
+
+	<script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+
+	<section id="home" class="pfblock-image screen-height">
+		<div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Привет, меня зовут Максим, я</div>
+			<h1>WEB Разработчик</h1>
+			<div class="start">создаю красивые и адаптивные сайты</div>
+		</div>
+
+		<a href="#services">
+			<div class="scroll-down">
+				<span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+			</div>
+		</a>
+
+	</section>
+
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Максим Павлов</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Главная</a></li>
+						<li><a href="#services">Услуги</a></li>
+						<li><a href="#portfolio">Работы</a></li>
+						<li><a href="#skills">Навыки</a></li>
+						<li><a href="#testimonials">Отзывы</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</nav>
+
+	</header>
+
+
+	<section id="services" class="pfblock pfblock-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">Это то что я делаю</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							Мои основные навыки и способности.
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-magic-wand"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web дизайн</h3>
+							<div class="iconbox-desc">
+								Современный, простой, адаптивный дизайн для Вас.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-puzzle"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web разработка</h3>
+							<div class="iconbox-desc">
+								Превращаю картинку в быстрый и красивый сайт.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInRight">
+						<div class="iconbox-icon">
+							<span class="icon-question"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Консулютация</h3>
+							<div class="iconbox-desc">
+								Если у Вас возникли вопросы я попробую ответить на них.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">Мои работы</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							Мои последнии работы.
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="row">
+
+
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba" style="background: #000;">
+							<img src="portfolio/magazin.png" alt="img01" />
+							<figcaption>
+								<h2 style="font-size: 1.5rem;">Королевство <span>Сыра</span></h2>
+								<p>Магазин на php</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+	</section>
+
+	<section class="pfblock pfblock-gray" id="skills">
+
+		<div class="container">
+
+			<div class="row skills">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+						<div class="pfblock-header wow fadeInUp">
+							<h2 class="pfblock-title">Навыки</h2>
+							<div class="pfblock-line"></div>
+						</div>
+
+					</div>
+
+				</div>
+				<!-- .row -->
+
+				<div class="col-sm-6 col-md-4 text-center">
+					<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">80</span>
+					</span>
+					<h3 class="text-center">WEB разработка</h3>
+				</div>
+
+				<div class="col-sm-6 col-md-4 text-center">
+					<span data-percent="70" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">70</span>
+					</span>
+					<h3 class="text-center">Дизайн</h3>
+				</div>
+
+				<div class="col-sm-6 col-md-4 text-center">
+					<span data-percent="78" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">82</span>
+					</span>
+					<h3 class="text-center">SEO</h3>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section class="calltoaction">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight" data-wow-delay=".1s">ХОТИТЕ НАЧАТЬ?</h2>
+					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+						Я всегда готов к заказам.
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a href="#contact" class="btn btn-lg">Закажите сайт</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="testimonials" class="pfblock pfblock-gray">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">Отзывы клиентов</h2>
+						<div class="pfblock-line"></div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- .row -->
+
+			<div class="row">
+
+				<div id="cbp-qtrotator" class="cbp-qtrotator">
+					<div class="cbp-qtcontent">
+						<img src="images/client-1.jpg" alt="client-1" />
+						<blockquote>
+							<p>Заказала сайт визитку, работа была выполнена быстро и качественно.</p>
+							<footer>Наталья Минеева</footer>
+						</blockquote>
+					</div>
+
+					<div class="cbp-qtcontent">
+						<img src="images/client-2.jpg" alt="client-2" />
+						<blockquote>
+							<p>Спасибо Максиму за лендинг. Заказы пошли в гору!</p>
+							<footer>Москаленко Павел</footer>
+						</blockquote>
+					</div>
+
+					<div class="cbp-qtcontent">
+						<img src="images/client-3.jpg" alt="client-3" />
+						<blockquote>
+							<p>Попросил подправить шапку сайта, Максим всё сделал.</p>
+							<footer>Кирил Шмелёв</footer>
+						</blockquote>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<section id="contact" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header">
+						<h2 class="pfblock-title">Свяжитесь со мной</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row">
+
+				<div class="col-sm-4 col-md-4 text-center">
+					<a href="https://vk.com/maksim_pav">
+						<span style="width: 140px; height: 140px; line-height: 140px;"><img src="icons/vk.svg" style="height: 100px; width: 100px;" alt="Портфолио веб разработчика"></span>
+						<h3 class="text-center">ВКонтакте</h3>
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-md-4 text-center">
+					<a href="http://t.me/@umirode">
+						<span style="width: 140px; height: 140px; line-height: 140px;"><img src="icons/telegram.svg" style="height: 100px; width: 100px;" alt="Портфолио веб разработчика"></span>
+						<h3 class="text-center">Telegram</h3>
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-md-4 text-center">
+					<a href="mailto:mr.droiderm@gmail.com">
+						<span style="width: 140px; height: 140px; line-height: 140px;"><img src="icons/email.svg" style="height: 100px; width: 100px;" alt="Портфолио веб разработчика"></span>
+						<h3 class="text-center">EMail</h3>
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<p class="copyright">
+						© 2017 Максим Павлов
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.easypiechart.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.cbpQTRotator.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+
+</html>
