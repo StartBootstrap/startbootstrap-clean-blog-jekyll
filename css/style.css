@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic);
 @import url(https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic);
-
 body {
   font: 300 14px/1.8 'Roboto', sans-serif;
   color: #666;
@@ -13,7 +12,7 @@ img {
 }
 
 a {
-  color: #E7746F;
+  color: rgb(111, 255, 160);
 }
 
 a:hover {
@@ -225,7 +224,7 @@ textarea.form-control {
 }
 
 .pfblock-line {
-  background: rgba(135, 135, 135, 0.5);
+  background: rgb(111, 255, 160);
   width: 100px;
   height: 1px;
   margin: 30px auto;
@@ -240,7 +239,7 @@ textarea.form-control {
 }
 
 .calltoaction {
-  background: url(../images/item-3.jpg);
+  background: url(../images/cover-3.jpg);
   background-color: #222;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -285,7 +284,7 @@ textarea.form-control {
 }
 
 #home {
-  background: url(../images/cover.jpg);
+  background: url(../images/cover-6.jpg);
   background-color: #222;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -405,7 +404,7 @@ textarea.form-control {
 #footer span {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  color: #ff5252;
+  color: rgb(111, 255, 160);
 }
 
 .social-links {
@@ -467,7 +466,7 @@ textarea.form-control {
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav>li.active a {
   background: none;
   outline: 0;
-  color: #E7746F;
+  color: rgb(111, 255, 160);
 }
 
 .navbar-custom .navbar-brand {
@@ -478,7 +477,7 @@ textarea.form-control {
 
 .navbar-custom .dropdown-menu {
   border: 0;
-  border-top: 2px solid #E7746F;
+  border-top: 2px solid rgb(111, 255, 160);
   border-radius: 0;
 }
 
@@ -515,7 +514,7 @@ textarea.form-control {
 
 .scroll-up a:hover, .scroll-up a:active {
   background-color: rgba(235, 235, 235, .8);
-  color: #e7746f;
+  color: rgb(111, 255, 160);
 }
 
 .scroll-down {
@@ -701,10 +700,6 @@ textarea.form-control {
   font-size: 68.5%;
 }
 
-figure.effect-bubba {
-  background: #9e5406;
-}
-
 figure.effect-bubba img {
   opacity: 0.7;
   -webkit-transition: opacity 0.35s;
@@ -812,7 +807,7 @@ figure.effect-bubba:hover h2, figure.effect-bubba:hover p {
 
 .cbp-qtprogress {
   position: absolute;
-  background: #FF5252;
+  background: rgb(111, 255, 160);
   height: 1px;
   width: 0%;
   top: 0;
