@@ -1,0 +1,1 @@
+@import url("font.min.css");body{font-family:'PT Mono', monospace}a{text-decoration:none;color:rgba(255,255,255,0.8)}.menu-item{position:fixed;font-size:30px;line-height:1.17;letter-spacing:15px;color:rgba(255,255,255,0.8);transition:1s}.menu-item:hover{letter-spacing:18px}.menu-item:focus{letter-spacing:18px}

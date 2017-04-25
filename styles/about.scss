@@ -1,0 +1,67 @@
+$black-80: rgba(56, 56, 56, 0.8);
+$white-60: rgba(255, 255, 255, 0.6);
+$black-light: rgba(0, 0, 0, 0.8);
+$white: rgba(255, 255, 255, 0.8);
+$light-greenish-blue: #67f3b3;
+$black: #000000;
+$black-30: rgba(0, 0, 0, 0.3);
+
+body {
+  background: url("../img/cover-2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+nav {
+  .about-active {
+    left: -90px !important;
+  }
+
+  .about {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 50%;
+    left: -200px;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .contacts-active {
+    top: 10px !important;
+  }
+
+  .contacts {
+    top: -200px;
+    left: 50%;
+    z-index: 99;
+    cursor: pointer;
+
+    .text {
+      right: 50%;
+      position: relative;
+    }
+  }
+
+  .projects-active {
+    right: -90px !important;
+  }
+
+  .projects {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 50%;
+    right: -200px;
+    z-index: 99;
+    cursor: pointer;
+  }
+}
+
+main {
+  padding: 30px;
+  text-align: left;
+  color: $light-greenish-blue !important;
+  word-break: break-word;
+  font-size: 45px;
+  overflow: scroll;
+  max-height: 100vh;
+}

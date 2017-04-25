@@ -1,0 +1,34 @@
+@import url( 'font.min.css');
+$black-80: rgba(56, 56, 56, 0.8);
+$white-60: rgba(255, 255, 255, 0.6);
+$black-light: rgba(0, 0, 0, 0.8);
+$white: rgba(255, 255, 255, 0.8);
+$light-greenish-blue: #67f3b3;
+$black: #000000;
+$black-30: rgba(0, 0, 0, 0.3);
+
+body {
+  font-family: 'PT Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+.menu-item {
+  position: fixed;
+  font-size: 30px;
+  line-height: 1.17;
+  letter-spacing: 15px;
+  color: $white;
+  transition: 1s;
+}
+
+.menu-item:hover {
+  letter-spacing: 18px;
+}
+
+.menu-item:focus {
+  letter-spacing: 18px;
+}

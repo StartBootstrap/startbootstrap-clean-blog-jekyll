@@ -1,0 +1,134 @@
+$black-80: rgba(56, 56, 56, 0.8);
+$white-60: rgba(255, 255, 255, 0.6);
+$black-light: rgba(0, 0, 0, 0.8);
+$white: rgba(255, 255, 255, 0.8);
+$light-greenish-blue: #67f3b3;
+$black: #000000;
+$black-30: rgba(0, 0, 0, 0.3);
+
+body {
+  background-color: #fff;
+  text-align: center;
+}
+
+a {
+  color: $black-light !important;
+}
+
+nav {
+  .menu-item {
+    color: $black-light !important;
+  }
+
+  .about-active {
+    left: -90px !important;
+  }
+
+  .about {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 50%;
+    left: -200px;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .contacts-active {
+    top: 10px !important;
+  }
+
+  .contacts {
+    top: -200px;
+    left: 50%;
+    z-index: 99;
+    cursor: pointer;
+
+    .text {
+      right: 50%;
+      position: relative;
+    }
+  }
+
+  .projects-active {
+    right: -90px !important;
+  }
+
+  .projects {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 50%;
+    right: -200px;
+    z-index: 99;
+    cursor: pointer;
+  }
+}
+
+main {
+  .intro {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    letter-spacing: 3px;
+
+    .email,
+    .telegram,
+    .vkontakte {
+      right: 50%;
+      position: relative;
+      font-size: 48px;
+      letter-spacing: 24px;
+      font-weight: normal;
+    }
+
+    a:hover {
+      text-decoration: underline !important;
+    }
+
+    .telegram {
+      margin: 100px 0;
+    }
+  }
+}
+@media only screen and (max-width: 570px) {
+  .email,
+  .telegram,
+  .vkontakte {
+    transform: rotate(45deg);
+    font-size: 35px !important;
+  }
+}
+
+
+@media only screen and (max-height: 500px) {
+  .intro {
+    top: 20% !important;
+  }
+
+  .email,
+  .telegram,
+  .vkontakte {
+    transform: rotate(0deg) !important;
+    font-size: 35px !important;
+  }
+
+  .telegram {
+    margin: 50px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .intro {
+    top: 35% !important;
+  }
+
+  .email,
+  .telegram,
+  .vkontakte {
+    transform: rotate(45deg) !important;
+    font-size: 30px !important;
+  }
+
+  .telegram {
+    margin: 50px 0 !important;
+  }
+}
