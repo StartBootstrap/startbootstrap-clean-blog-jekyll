@@ -1,12 +1,48 @@
----
-layout: page
-title: "About"
-description: "This is what I do."
-header-img: "img/about-bg.jpg"
----
+<!DOCTYPE html>
+<html lang="ru">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Портфолио</title>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/about.min.css">
+  <script>
+    document.addEventListener("touchstart", function() {}, true);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
+<body>
+  <nav>
+    <div class="about menu-item">
+      <div class="text"><a href="index.html">Главная</a></div>
+    </div>
+    <div class="contacts menu-item">
+      <div class="text"><a href="contacts.html">Контакты</a></div>
+    </div>
+    <div class="projects menu-item">
+      <a href="">Проекты</a>
+    </div>
+  </nav>
+
+
+  <main>
+    <p class="block1">Привет! <br>Меня зовут Максим, я web разрабочик.</p>
+    <p class="block2">Занимаюсь разработкой быстрых,красивых,функциональных сайтов и web приложений.</p>
+    <p class="block3">Постоянно изучаю что-то новое и совершенствую старое. На данный момент использую в работе HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, MeteorJS, PHP… </p>
+  </main>
+
+  <script>
+    setTimeout(function() {
+      $('.about').addClass('about-active');
+      $('.contacts').addClass('contacts-active');
+      $('.projects').addClass('projects-active');
+      $('.intro').addClass('intro-active');
+    }, 500);
+  </script>
+</body>
+
+</html>

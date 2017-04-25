@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Портфолио</title>
+
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/contacts.min.css">
+  <script>
+    document.addEventListener("touchstart", function() {}, true);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="about menu-item">
+      <a href="about.html">Обо мне</a>
+    </div>
+    <div class="contacts menu-item">
+      <div class="text"><a href="index.html">Главная</a></div>
+    </div>
+    <div class="projects menu-item">
+      <a href="">Проекты</a>
+    </div>
+  </nav>
+
+
+  <main>
+    <div class="intro">
+      <div class="vkontakte">
+        <a href="">VKONTAKTE</a>
+      </div>
+      <div class="telegram">
+        <a href="">TELEGRAM</a>
+      </div>
+      <div class="email">
+        <a href="">EMAIL</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    setTimeout(function() {
+      $('.about').addClass('about-active');
+      $('.contacts').addClass('contacts-active');
+      $('.projects').addClass('projects-active');
+      $('.intro').addClass('intro-active');
+    }, 500);
+  </script>
+</body>
+
+</html>

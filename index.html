@@ -1,36 +1,60 @@
----
-layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
----
+<!DOCTYPE html>
+<html lang="ru">
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Портфолио</title>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/index.min.css">
+  <script>
+    document.addEventListener("touchstart", function() {}, true);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="about menu-item">
+      <a href="about.html">Обо мне</a>
+    </div>
+    <div class="contacts menu-item">
+      <div class="text"><a href="contacts.html">Контакты</a></div>
+    </div>
+    <div class="projects menu-item">
+      <a href="">Проекты</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="intro">
+      <div class="title-fist">Максим Павлов</div>
+      <div class="title-second">WEB разработчик</div>
+    </div>
+  </main>
+
+  <div class="start-button">
+    <img src="img/start.svg" alt="">
+    <div class="start-text menu-item">
+      Нажмите сюда
+    </div>
+  </div>
+
+  <script>
+    $('.start-button').click(function() {
+      $('.about').addClass('about-active');
+      $('.contacts').addClass('contacts-active');
+      $('.projects').addClass('projects-active');
+      $('.intro').addClass('intro-active');
+
+      $('.start-button').addClass('start-button-close');
+      setTimeout(function() {
+        $('.start-button').css('display', 'none');
+      }, 500);
+    });
+  </script>
+</body>
+
+</html>
