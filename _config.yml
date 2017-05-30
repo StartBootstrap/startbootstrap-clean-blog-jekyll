@@ -1,10 +1,10 @@
 # Site settings
 title: Clean Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "hk0916.gitbub.io"
+email: hkchoi0916@gmail.com
+copyright_name: eric/optolane
+description:"BAMBAMCHOI BLOG"
+baseurl: 
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
