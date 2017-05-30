@@ -1,11 +1,11 @@
 # Site settings
 title: Clean Blog
 header-img: img/home-bg.jpg
-email: hkchoi0916@gmail.com
-copyright_name: eric/optolane
+email: 
+copyright_name: 
 description:"BAMBAMCHOI BLOG"
 baseurl: 
-url: "http://yourdomain.com"
+url: "hk0916.github.io"
 twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  StartBootstrap
