@@ -6,10 +6,10 @@ copyright_name:
 description:"BAMBAMCHOI BLOG"
 baseurl: 
 url: "hk0916.github.io"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+twitter_username: 
+github_username:  hk0916
+facebook_username:  eric0916
+email_username:  
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
