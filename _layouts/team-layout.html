@@ -17,10 +17,10 @@ layout: default-layout
         </div>
 
         <div class="col-md-6" style="padding-top:62px">
+          
           <div class="row-fluid">
             {% assign counter = 0 %}
             {% assign sortedpeople = (site.categories['team'] | sort:'title') %}
-
             {%for people in sortedpeople %}
               {% if counter >= 3 %}
                 {% assign counter = 0 %}
@@ -37,8 +37,8 @@ layout: default-layout
             {%endfor %}
           </div>
 
-            <div class="clearfix"></div>
-            <div class="row-fluid">
+          <div class="clearfix"></div>
+          <div class="row-fluid">
             <h2 class="about" style="padding-top:30px; padding-left:15px">Advisors</h2> <br/>
             {% assign sortedadvisors  = (site.categories['advisors'] | sort:'title') %}
 

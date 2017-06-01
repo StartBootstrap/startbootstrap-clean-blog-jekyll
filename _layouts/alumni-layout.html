@@ -17,12 +17,21 @@ layout: default-layout
         </div>
 
         <div class="col-md-6" style="padding-top:62px">
-            {%for alumni in page.alumni%}
+            {% assign counter = 0 %}
+            {% assign sortedalumni = (page.alumni | sort:'title') %}
+            {%for alumni in sortedalumni%}
+            {% if counter >= 4 %}
+                {% assign counter = 0 %}
+                  <div class="clearfix"></div>
+            {% endif %}
+            {% assign counter = counter | plus: 1  %}
+
             <div id="{{alumni.ide}}" class="col-md-3" style="padding-bottom:50px">
               <img src="/img/team/alumni/{{alumni.img}}"/>
               <span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span>
-              <!--<span class="designation">{{ alumni.designation }}</span><br/>
-              <a href="mailto:{{ alumni.email }}" class="mailid">{{ alumni.email }}</a>-->
+              <!-- <a href="mailto:{{ alumni.email }}" class="mailid"><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span></a>
+              <span class="designation">{{ alumni.designation }}</span><br/> -->
+              
             </div>
             {%endfor %}
         </div>
