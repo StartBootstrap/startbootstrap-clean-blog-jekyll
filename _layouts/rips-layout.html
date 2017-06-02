@@ -1,0 +1,80 @@
+---
+layout: default-layout
+---
+<section class="content" style="min-height:600px">
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2">
+            <h2 class="about" id="all">All Projects</h2>
+            <ul style="    margin-left: 1100px;">
+              {%for category in page.categories%}
+                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+              {%endfor%}
+              <!--<li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>-->
+            </ul>
+        </div>
+        <div class="col-md-4" style="padding-top:53px">
+          <span class="topspace"></span>
+        <!--  <p class="project-intro" style="padding-top:20px">At Fields of View, we work on games and simulations to help understand cities better.</p>-->
+            <!--{%for projects in page.projects%}
+            <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
+            {%endfor %} -->
+
+            {% for post in site.categories['project'] %}
+            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
+            	<a href="{{site.baseurl}}/research/{{post.ide}}/" style="cursor:pointer">
+            		<img src="/img/{{post.ide}}-thumb.png" style="width:100%; cursor: pointer; padding-bottom:35px"/>
+            	</a>
+            </div>
+            {%endfor%}
+
+        </div>
+      <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
+          <div class="col-md-3" style="padding-top:18px">
+            <div id="our-work-description">
+              <!--<p class="simple-content">
+                Our goal is to design spaces where different disciplines can come together and have a meaningful dialogue to understand cities better, and we create these spaces through games and simulations. Our work lies at the intersection of technology, social sciences, and art. And we work with the Government, Academia, Industry, and Civil Society.</p>
+                <p class="simple-content">
+                Some of our current projects include: Building a game for the UN for students of economics and sustainability studies to understand the Inclusive Wealth Indicator (IWI), an indicator proposed as a complement to the GDP and HDI; ₹ubbish! a game on waste management in Bangalore; SimCity - building simulations to understand and plan for cities in the Indian context; and building a game for the Institute of Plasma Research, a Government of India undertaking.
+              </p>-->
+            </div>
+
+            {% for category in page.categories%}
+            <div class="category-desc" id="{{category.ide}}-content" style="display: none">
+              <p class="simple-content">{{category.description}}</p>
+
+            </div>
+            {% endfor %}
+            <!--<span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV" style="font-size:14pt">Work with us.</a></span><br/>
+            <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV" style="font-size:14pt">Fund a project.</a></span>-->
+        </div>
+        <div class="col-md-1" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
+          {% include share.html%}
+        </div>
+    </div>
+</div>
+</section>
+
+<script>
+  $(document).ready(function(){
+
+    {%for category in page.categories%}
+      $("#{{category.ide}}").click(function(){
+        $(".project").css("display","none");
+        $(".{{category.ide}}").css("display","block");
+
+        $(".about_nav").css("font-weight","normal");
+        $("#{{category.ide}}").css("font-weight","bold");
+
+        $(".category-desc").hide();
+        $("#{{category.ide}}-content").show();
+        $("#our-work-description").hide();
+      });
+    {%endfor%}
+      $("#all").click(function(){
+        $("li.project").css("display","block");
+        $(".about_nav").css("font-weight","normal");
+        $("#our-work-description").show();
+      });
+  });
+</script>
