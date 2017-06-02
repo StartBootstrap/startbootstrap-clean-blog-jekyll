@@ -20,10 +20,10 @@ layout: default-layout
             <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
             {%endfor %} -->
 
-            {% for post in site.categories['project'] %}
-            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
+            {% for post in site.categories['rip'] %}
+            <div id="{{post.ide}}" class="rip {{post.tag}} col-md-6">
             	<a href="{{site.baseurl}}/research/{{post.ide}}/" style="cursor:pointer">
-            		<img src="/img/{{post.ide}}-thumb.png" style="width:100%; cursor: pointer; padding-bottom:35px"/>
+            		<img src="{{post.img1}}" style="width:100%; cursor: pointer; padding-bottom:35px"/>
             	</a>
             </div>
             {%endfor%}
