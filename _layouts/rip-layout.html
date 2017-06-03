@@ -2,80 +2,88 @@
 layout: default-layout
 bg-url: {{page.bg-url}}
 ---
-<section class="content">
+<section class="content" style="min-height:600px">
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about" style="margin-right: 15px;">{{page.title}}</h2>
-            <ul>
-                {% if page.intended != null%}
-                <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Intended Audience</h4>{{page.intended}}</p></li>
-                {%endif%}
-                {% if page.keywords != null%}
-                <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Keywords</h4>{{page.keywords}}</p></li>
-                {%endif%}
-                {% if page.type != null%}
-                <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Type</h4>{{page.type}}</p></li>
-                {%endif%}
-                {% if page.duration != null%}
-                <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Duration</h4>{{page.duration}}</p></li>
-                {%endif%}
-                {% if page.players != null%}
-                <li class="project-specifics" style="width:100%"><p><h4 class="specifics">Number of Players</h4>{{page.players}}</p></li>
-                {%endif%}
-                {% if page.notitle != null%}
-                <li class="project-specifics" style="width:100%"><p>{{page.notitle}}</p></li>
-                {%endif%}
-            </ul>
+            <a href="/publications/"><h2 class="about" id="current_about_publications">Back</h2></a>
+
         </div>
 
-   <div class="col-md-6">
-      <div class="row">
-        {%if page.video != null%}
-            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
-                <iframe allowfullscreen="" src="{{page.video}}" frameborder="0" width="100%" height="auto"></iframe>
-              </div>
-              <a class="italic" style="font-weight:100; font-size:13pt">{{page.vidcaption}}</a>
-              {%endif%}
-        </div>
-      <div class="row">
-          <div class="col-md-6" style="padding:0 0 0 0; margin-top:-10px">
-            <br />
-            <p class="simple-content" style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}</p>
-            <p>{{page.description}}</p>
-            <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know more.</a>
-              <br/><br/>
-              {%if page.collaborations != null%}
-            <h4 class="specifics">Collaborations and Funders</h4>
-            <p class="project-specifics" style="margin-left:0px; width:100%">{{page.collaborations}}</p>
-              {%endif%}
-            <br/>
-            {%if page.icons != null%}
-            <p class="icon-attribution">{{page.icons}}</p>
-            {%endif%}
-            {%if page.play != null%}
-            <span class="italic"><a href="{{ site.baseurl }}/events/game-sessions/" style="font-size:14pt">{{page.play}}</a></span>
-            {%endif%} <br/>
-            {%if page.donate != null%}
-            <span class="italic"><a href="{{ site.baseurl }}/donate/rubbish" style="font-size:14pt">{{page.donate}}</a></span>
-            {%endif%}
-            <br/>
+        <div class="col-md-5" style="padding-top:30px">
 
-            <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
-            {%for pub in site.categories['publication']%}
-              {% if pub.projectid contains page.ide%}
-                <p class="simple-content"> {{pub.title}} </p>
-                <script>$(document).ready(function(){
-                  $("#pub-specifics").show();
-                })</script>
-              {% endif %}
-            {% endfor %}
-
-            <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV on {{page.title}}" style="font-size:14pt">Collaborate with us.</a></span><br/>
-            <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV" style="font-size:14pt">Fund this project.</a></span>
+          <div class="col-md-12" style="padding-left: 0px">
+            <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
+            <p class="simple-content" style="margin-top:0px">
+            <span style="font-weight:bold">{{page.title}}</span>
+            <br/><span style="font-style:italic">
+            {% if page.book != null %}
+            {{page.book}}
+            {% endif %}
+            {% if page.journal != null %}
+            {{page.journal}}
+            {% endif %}
+            {% if page.conference != null %}
+            {{page.conference}}
+            {% endif %}</span>
+            <br/>
+            {{page.place}}
+            </p>
           </div>
+
+          <div class="col-md-12" style="padding-left: 0px">
+            {% if page.abstract != null%}
+              <h3 class="team-name">Abstract</h3>
+              <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
+            {% endif %}
+          </div>
+
+          {% if page.bibtex != null%}
+          <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px">
+              <h3 class="team-name">BibTex</h3>
+              <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
+          </div>
+          <div class="clear"></div>
+          {% endif %}
+
+          {% if page.link != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <h3 class="team-name">Link</h3>
+            <a style="font-size: 14pt" href="{{page.link}}">{{page.link}}</a>
+          </div>
+          {% endif %}
+
+          <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
+            <h3 class="team-name">Related links</h3>
+            <ul>
+              {% for person in site.categories['team']%}
+                {% if page.authorid contains person.ide %}
+                  <li class="project-specifics">
+                    <a href="{{person.url}}">{{person.title}}</a>
+                  </li>
+                {%endif%}
+              {% endfor %}
+              {% for project in site.categories['project']%}
+                {% if page.projectid contains project.ide %}
+                  <li class="project-specifics">
+                    <a href="{{project.url}}">{{project.title}}</a>
+                  </li>
+                {%endif%}
+              {% endfor %}
+            </ul>
+          </div>
+
+
+        </div>
           <div class="col-md-6" style="padding-top:55px;margin-left: -795px;margin-top: 20%;">
-              <img src="{{page.img1}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
+              <img src="{{page.img1}}" style="    padding-bottom: 34px;
+    float: right;
+    height: 90%;
+    width: 32%;
+    /* margin-left: -35px; */
+    padding-left: 21px;
+    margin-right: 662px;
+    margin-top: -39%;">
               {%if page.img2 != null%}
               <img src="{{page.img2}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
               {%endif%}
@@ -83,14 +91,11 @@ bg-url: {{page.bg-url}}
               <img src="{{page.img3}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
               {%endif%}
           </div>
-    </div>
-  </div>
-          <div class="col-md-2" style="margin-top:25px; border-bottom: 1.5px solid #939393;">
-            {% include share.html%}
-            </div>
-            <!--<div class="row-fluid clearfix">
-            <a href="mailto:info@fieldsofview.in?Subject=Hello"><span class="project-specifics">Tell us what you think.</span><i class="fa fa-comment"></i></a>
-          </div>-->
-          </div>
+
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
+          {% include share.html%}
         </div>
+    </div>
+</div>
 </section>
+
