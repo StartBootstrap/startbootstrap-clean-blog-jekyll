@@ -32,13 +32,15 @@ layout: default-layout
             {% endfor %}
             {% for post in site.tags['research'] %}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-              <div><a href="/publications/research"><h2 class="about" id="current_about_publications">RESEARCH IN PLAY</h2></a></div>
+              <div><a href="/publications/research"><h2 class="about" id="current_about_publications">RESEARCH IN PLAY</a></div>
                 <!--<img src="/img/{{post.ide}}.png" style="width:100%; cursor: pointer; padding-bottom:35px"/>-->
               </a>
               </li>
             {%endfor%}
 
           </ul>
+                        <div><a href="/publications/research"><h2 class="about" id="current_about_publications">RESEARCH IN PLAY</a></div>
+
         </div>
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;">
           {% include share.html%}
