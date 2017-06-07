@@ -6,8 +6,15 @@ bg-url: {{page.bg-url}}
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <a href="/publications/"><h2 class="about" id="current_about_publications">Back</h2></a>
-
+            <a href="/publications/research"><h2 class="about" id="current_about_publications">Back</h2></a>
+            <ul style="      margin-top: -165%;
+    margin-left: 914px;
+    width: 181px;">
+              {%for category in page.categories%}
+                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+              {%endfor%}
+              <!--<li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>-->
+            </ul>
         </div>
 
         <div class="col-md-5" style="padding-top:30px">
@@ -131,7 +138,14 @@ bg-url: {{page.bg-url}}
               {%endif%}
 
           </div>
-
+            <ul style="      margin-top: -165%;
+    margin-left: 914px;
+    width: 181px;">
+              {%for category in page.categories%}
+                <li class="about_nav" id="game">{{category.title}}</li>
+              {%endfor%}
+              <!--<li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>-->
+            </ul>
         <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
           {% include share.html%}
         </div>
