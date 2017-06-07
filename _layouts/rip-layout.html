@@ -38,12 +38,62 @@ bg-url: {{page.bg-url}}
             </p>
           </div>
 
-          <div class="col-md-12" style="padding-left: 0px; overflow-y: scroll;">
+          <div class="col-md-12" style="padding-left: 0px;     width: 600px;
+    height: 1000px;
+    overflow: scroll;">
+
             {% if page.abstract != null%}
               <h3 class="team-name">Abstract</h3>
               <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
             {% endif %}
-          </div>
+            <div class="col-md-6" style="padding-top:55px;margin-left: -795px;margin-top: 20%;">
+                {%if page.img2 != null%}
+              <img src="{{page.img2}}" style="    padding-bottom: 40px;
+    float: none;
+    height: 12%;
+    width: 53%;
+    margin-left: 222px;
+    margin-top: 63%;
+    padding-left: 11px;">
+              {%endif%}
+              {%if page.img3 != null%}
+              <img src="{{page.img3}}" style="    padding-bottom: 40px;
+    float: none;
+    height: 12%;
+    width: 53%;
+    margin-left: 222px;
+    margin-top: 81%;
+    padding-left: 11px;">
+              {%endif%}
+              {%if page.img3 != null%}
+              <img src="{{page.img4}}" style="    padding-bottom: 40px;
+    float: none;
+    height: 12%;
+    width: 53%;
+    margin-left: 222px;
+    margin-top: 97%;
+    padding-left: 11px;">
+              {%endif%}
+              {%if page.img3 != null%}
+              <img src="{{page.img5}}" style="    padding-bottom: 40px;
+    float: none;
+    height: 12%;
+    width: 53%;
+    margin-left: 222px;
+    margin-top: 102%;
+    padding-left: 11px;">
+              {%endif%}
+              {%if page.img3 != null%}
+              <img src="{{page.img6}}" style="        padding-bottom: 40px;
+    float: none;
+    height: 12%;
+    width: 53%;
+    margin-left: 222px;
+    margin-top: 62%;
+    padding-left: 11px;">
+              {%endif%}
+              </div>
+
 
           {% if page.bibtex != null%}
           <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px;  width: 642px; margin-top: -9%;">
@@ -52,6 +102,7 @@ bg-url: {{page.bg-url}}
           </div>
           <div class="clear"></div>
           {% endif %}
+          </div>
 
           <!--{% if page.link != null%}
           <div class="col-md-12" style="padding-left: 0px;">
@@ -61,7 +112,7 @@ bg-url: {{page.bg-url}}
           {% endif %}-->
 
           <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
-            <h3 class="team-name">Related links</h3>
+            <h3 class="team-name"></h3>
             <ul>
               {% for person in site.categories['team']%}
                 {% if page.authorid contains person.ide %}
