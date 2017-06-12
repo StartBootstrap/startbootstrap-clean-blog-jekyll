@@ -19,11 +19,13 @@ layout: default-layout
             <!-- {%for projects in page.projects%}
             <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
             {%endfor %} -->
-
             {% for post in site.categories['project'] %}
-            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6"><a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer"><img src="/img/{{post.ide}}-thumb.jpg" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
+            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
+              <a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer">
+                <img src="/img/{{post.ide}}-thumb.jpg" style="width:100%; cursor: pointer; padding-bottom:35px"/>
+              </a>
+            </div>
             {%endfor%}
-
         </div>
       <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
           <div class="col-md-3" style="padding-top:18px">
@@ -38,7 +40,6 @@ layout: default-layout
             {% for category in page.categories%}
             <div class="category-desc" id="{{category.ide}}-content" style="display: none">
               <p class="simple-content">{{category.description}}</p>
-
             </div>
             {% endfor %}
             <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV" style="font-size:14pt">Work with us.</a></span><br/>
