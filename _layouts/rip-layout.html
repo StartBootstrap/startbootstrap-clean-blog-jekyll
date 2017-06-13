@@ -6,15 +6,7 @@ bg-url: {{page.bg-url}}
 <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <a href="/publications/research"><h2 class="about" id="current_about_publications">Back</h2></a>
-            <ul style="      margin-top: -165%;
-    margin-left: 914px;
-    width: 181px;">
-              {%for category in page.categories%}
-                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
-              {%endfor%}
-              <!--<li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>-->
-            </ul>
+          <a href="/publications/research"><h2 class="about" id="current_about_publications">Back</h2></a>
         </div>
 
         <div class="col-md-5" style="padding-top:30px">
@@ -23,24 +15,33 @@ bg-url: {{page.bg-url}}
             <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
             <p class="simple-content" style="margin-top:0px">
             <span style="font-weight:bold">{{page.title}}</span>
-            <br/><span style="font-style:italic">
-            {% if page.book != null %}
-            {{page.book}}
-            {% endif %}
-            {% if page.journal != null %}
-            {{page.journal}}
-            {% endif %}
-            {% if page.conference != null %}
-            {{page.conference}}
-            {% endif %}</span>
-            <br/>
-            {{page.place}}
             </p>
           </div>
 
-          <div class="col-md-12" style="padding-left: 0px;     width: 600px;
-    height: 1000px;
-    overflow: scroll;">
+          <div class="col-md-12" style="padding-left: 0px">
+            {% if page.abstract != null%}
+              <h3 class="team-name">Abstract</h3>
+              <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
+            {% endif %}
+          </div>
+
+          {% if page.link != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <h3 class="team-name">Link</h3>
+            <a style="font-size: 14pt" href="{{page.link}}">{{page.link}}</a>
+          </div>
+          {% endif %}
+
+        </div>
+
+        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
+          {% include share.html%}
+        </div>
+    </div>
+</div>
+</section>
+
+<!--           <div class="col-md-12" style="padding-left: 0px;width: 600px;height: 1000px;overflow: scroll;">
 
             {% if page.abstract != null%}
               <h3 class="team-name"></h3>
@@ -48,14 +49,8 @@ bg-url: {{page.bg-url}}
             {% endif %}
             <div class="col-md-6" style="padding-top:55px;margin-left: -795px;margin-top: 20%;">
                 {%if page.img2 != null%}
-              <img src="{{page.img2}}" style="    padding-bottom: 40px;
-    float: none;
-    height: 12%;
-    width: 53%;
-    margin-left: 222px;
-    margin-top: 63%;
-    padding-left: 11px;">
-              {%endif%}
+                  <img src="{{page.img2}}" style="padding-bottom: 40px;float: none;height: 12%;width: 53%;margin-left: 222px;margin-top: 63%;padding-left: 11px;">
+                {%endif%}
               {%if page.img3 != null%}
               <img src="{{page.img3}}" style="    padding-bottom: 40px;
     float: none;
@@ -92,17 +87,16 @@ bg-url: {{page.bg-url}}
     margin-top: 62%;
     padding-left: 11px;">
               {%endif%}
-              </div>
+              </div> -->
 
 
-          {% if page.bibtex != null%}
+          <!-- {% if page.bibtex != null%}
           <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px;  width: 642px; margin-top: -9%;">
-              <!--<h3 class="team-name"></h3>-->
               <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
           </div>
           <div class="clear"></div>
           {% endif %}
-          </div>
+          </div> -->
 
           <!--{% if page.link != null%}
           <div class="col-md-12" style="padding-left: 0px;">
@@ -111,7 +105,7 @@ bg-url: {{page.bg-url}}
           </div>
           {% endif %}-->
 
-          <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
+          <!-- <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
             <h3 class="team-name"></h3>
             <ul>
               {% for person in site.categories['team']%}
@@ -143,12 +137,10 @@ bg-url: {{page.bg-url}}
               {%for category in page.categories%}
                 <li class="about_nav" id="game">{{category.title}}</li>
               {%endfor%}
-              <!--<li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>-->
-            </ul>
-        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;">
-          {% include share.html%}
-        </div>
+             </ul>
+      
     </div>
 </div>
 </section>
 
+ -->

@@ -20,8 +20,9 @@ layout: default-layout
             {% for post in site.categories['rip'] %}
             <div style="width: 30%;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
             	<a href="{{site.baseurl}}/research/{{post.ide}}" style="cursor:pointer">
-            		<img src="/img/{{post.ide}}.png" style="width: 100%;cursor: pointer;padding-bottom: 35px;"/>
-          		</a>
+            		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 35px;"/>
+                <span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ post.authors}}</span>
+              </a>
             </div>
             {%endfor%}
 
