@@ -15,10 +15,6 @@ layout: default-layout
         </div>
         <div class="col-md-4" style="padding-top:53px">
           <span class="topspace"></span>
-        <!--  <p class="project-intro" style="padding-top:20px">At Fields of View, we work on games and simulations to help understand cities better.</p>-->
-            <!-- {%for projects in page.projects%}
-            <div id="{{projects.ide}}" class="project {{projects.categories}} col-md-6"><a href="{{ site.baseurl }}/{{projects.ide}}/" style="cursor:pointer"><img src="{{projects.img}}" style="width:100%; cursor: pointer; padding-bottom:35px"/></a></div>
-            {%endfor %} -->
             {% for post in site.categories['project'] %}
             <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
               <a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer">
