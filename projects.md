@@ -5,14 +5,16 @@ _description: "projects"
 order: 2
 ---
 
-<!-- # In Progress -->
-
 # Done
+
+## [Crawlie the crawler](https://github.com/nietaki/crawlie)
+A simple Elixir library for creating decently-performing crawlers with minimum effort.
+Written mainly to understand GenStage, Flow, and the process of publishing a package on [hex.pm](https://hex.pm/).
 
 ## [Boggle Cracker](https://github.com/nietaki/BoggleCracker)
 A C# CLI tool to crack a game of [Boggle](https://en.wikipedia.org/wiki/Boggle).
-Given a word dictionary and a "board" state, under half a second lists all possible
-to find words, sorted from most to least valuable. Written as part of coding interviews
+Given a word dictionary and a "board" state, under half a second lists all words that are possible
+to find, sorted from most to least valuable. Written as part of coding interviews
 preparations :)
 
 ## [my reddit saved items](http://myredditsaveditems.herokuapp.com/)
