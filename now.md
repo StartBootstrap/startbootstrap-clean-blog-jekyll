@@ -8,12 +8,9 @@ order: 3
 
 *([here](http://nownownow.com/about)'s a description what a "now page" is for)*
 
-I'm in London, working towards releasing the a big update to the [Mainframe app](https://mainframe.com/),
-still very much in love with [Elixir](http://elixir-lang.org/).
+I'm in London, working on [Mainframe](https://mainframe.com/)'s new features. 
+Starting to investigate the caveats of creating distributed apps in [Elixir](http://elixir-lang.org/).
 
-Learning to play [go](https://en.wikipedia.org/wiki/Go_(game)) from
-[Nick Sibicky's youtube channel](https://www.youtube.com/user/nicksibicky) and some brilliant books, trying to overcome
-[ladder anxiety](http://www.urbandictionary.com/define.php?term=ladder+anxiety&defid=7429733)
-when playing on [OGS](https://online-go.com/) ;)
+While waiting for an unlucky wrist injury to get better so I can go back to climbing regularly I'm giving in to my first gaming addiction since Counter Strike 1.6 and Team Fortress 2: [PlayerUnknown's Battlegrounds](http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/) - playing duo with a friend is just too much fun :D
 
-Last update was December 8th 2016
+Last update was July 5th 2017
