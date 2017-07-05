@@ -7,6 +7,14 @@ date:       2016-11-14 20:58:00
 published:  true
 ---
 
+##### July 2017 update:
+
+I have since moved to [Spacemacs](https://github.com/syl20bnr/spacemacs) for all my Linux/OSX work. 
+Soon I will probably write an entry about [customizing it](https://github.com/nietaki/dotty-dotfiles/blob/master/files/.spacemacs)
+to be a mostly amazing experience.
+
+<hr />
+
 Earlier this year I joined [Mainframe](https://mainframe.com/) as a backend engineer. I didn't do any real
 development in [elixir](http://elixir-lang.org/) before and I wanted to become
 productive with it ASAP. When it comes to elixir there were
@@ -93,7 +101,7 @@ The shortcuts can be viewed and edited in Settings -> Keybindings.
 
 Here's a list of shortcuts I find myself using the most:
 
-|-------------------+-----------------+-------------|
+|-------------------|-----------------|-------------|
 | Original shortcut | Custom shortcut | Description |
 |-------------------|-----------------|-------------|
 | `shift-cmd-p`| `cmd-l` | [Command Palette](https://github.com/atom/command-palette) - a all in one search field for all Atom commands - built-in and custom likewise.    |
@@ -103,7 +111,7 @@ Here's a list of shortcuts I find myself using the most:
 | `cmd-r` |  | Symbols View - a fuzzy search accross all functions and macros in the current file |
 | `cmd-k cmd-n` | `cmd-k` | Focus next pane. Useful for going mouseless most of the time. |
 | `cmd-/` |  | (un)comment out current line, regardless of the language |
-|-----------------+-----------------+----------------|
+|-----------------|-----------------|----------------|
 
 There's some commands that I still use all of the time but I didn't feel like creating and learning
 shortcuts for them was worth it. All those can easily be reached by using Command Palette - I just hit `cmd-l` and
