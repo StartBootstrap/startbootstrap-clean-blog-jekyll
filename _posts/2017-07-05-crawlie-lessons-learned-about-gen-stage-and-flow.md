@@ -14,14 +14,13 @@ and why they were neat - and I decided to play around with them.
 
 When I came back to London I started working on a small project that would make use of GenStage and Flow - [Crawlie the crawler](https://github.com/nietaki/crawlie). Since then the project took shape and allowed me to learn a bit about concurrent event processing pipelines in Elixir. As I'll probably be ramping down the work around Crawlie now and focus on other things (I have my eye on Riak Core and architecting distributed apps in Elixir in general) I thought it might be a good idea to share what I have learned with others who want to try GenStage and Flow.
 
-The result is the presentation I gave on the June London Elixir Meetup:
 
-#TODO embed
-[available on the meetup's SkillsMatter site](https://skillsmatter.com/skillscasts/10497-crawlie-lessons-learned-about-genstage-and-flow). 
+
+[![talk thumbnail](/img/crawlie/talk-thumb.png)](https://skillsmatter.com/skillscasts/10497-crawlie-lessons-learned-about-genstage-and-flow)
 
 Here are [the slides](http://slides.com/nietaki/crawlie) if you want to click along or copy the code:
 
-TODO embed as well
+<iframe src="//slides.com/nietaki/crawlie/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <!--more-->
 
