@@ -12,6 +12,8 @@ layout: default-layout
           {% if page.posters == null%}
             <p class="project-intro" style="padding-top:45px">Sorry, there are no upcoming events at the moment. Check this space for updates!</p>
           {% endif %}
+          <p> Request a game session. Write to us at <a href="mailto:info@fieldsofview.in" class="mailid">info@fieldsofview.in</a></p>
+
           <ul class="new-events-list">
           {%for posters in page.posters%}
           <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%; padding-left:0px"/></li>
@@ -28,7 +30,6 @@ layout: default-layout
                 <p class="simple-content">{{ posters.description }}</p>
               </li>
             {% endfor %}
-          </ul>
           </ul>
           </div>
 
