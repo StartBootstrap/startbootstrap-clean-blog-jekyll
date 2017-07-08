@@ -1,0 +1,18 @@
+---
+layout: project-layout
+bg-url: /img/background-project9.png
+permalink: /projects/stake/
+title: Stake
+intended: General public.
+keywords: Sustainability, pastoralism, commons
+type: Exhibition game with life-size assets
+players: 6 players
+intro: A exhibition game on pastoralists in India.
+description: <p class="simple-content">Given that India has 34 million pastoralists managing a livestock of more than 50 million, it is imperative to understand and respond to the needs and aspirations of pastoralists both through informed policy-making and involvement of different stakeholders. The game ‘Stake’ is designed with the objective of learning the relationship pastoralists share with the commons in the context of sustainability.<p/><p class="simple-content">Stake was developed as part of a curated traveling exhibition of the life and livelihood of pastoralists in India titled ‘Living Lightly: Journeys with Pastoralists’ organised by Sahjeevan and Foundation for Ecological Security (FES) at Indira Gandhi National Centre for the Arts (IGNCA), New Delhi from 2nd to 18th December 2016.</p><p class="simple-content">In Stake, players play the role of either pastoralists, industrialists, or farmers and chart their course on a common landmass called ‘Mitti’. Pastoralists need land for their livestock, farmers need land for agriculture, and industrialists need land for their plants. Their actions involve trade-offs between how they use parcels of land, how much resources they consume, and how sustainable is their consumption. The players need to ensure that their consumption does not tip over the sustainability scale.</p>
+collaborations: This research is funded and being carried out in collaboration with UNESCO MGIEP.
+img1: /img/stake-img-1.png
+img2: /img/stake-img-2.png
+ide: stake
+categories: project
+tag: game
+---

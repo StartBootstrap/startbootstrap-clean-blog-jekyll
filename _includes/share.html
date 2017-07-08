@@ -1,0 +1,19 @@
+
+<!--<span class='st_twitter'></span>
+<span class='st_facebook'></span>
+<span class='st_linkedin'></span> <br/>-->
+<div id="share_buttons" class="share_buttons">
+  <a id="share-twitter" target="_blank"><span class='fa fa-twitter'  ></span></a>
+  <a id="share-facebook" target="_blank"><span class='fa fa-facebook' ></span></a>
+  <a id="share-linkedin" target="_blank"><span class='fa fa-linkedin' ></span></a> <br/>
+</div>
+<script>
+$(document).ready(function(){
+  var title = document.title;
+  var url = document.location.href;
+  var message = title + "," + url;
+  $("#share-twitter").attr("href","http://twitter.com/home?status="+message);
+  $("#share-facebook").attr("href","http://facebook.com/share.php?u="+url+"&title="+title);
+  $("#share-linkedin").attr("href","http://linkedin.com/shareArticle?mini=true&url="+url+"&title="+title);
+});
+</script>
