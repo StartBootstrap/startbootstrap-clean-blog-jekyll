@@ -27,9 +27,9 @@ layout: default-layout
                     {% assign counter = counter | plus: 1  %}
 
                     <div id="{{collaborations.ide}}" class="col-md-3" style="padding-bottom:50px; float:left;">
-                    <div style="height: 400; width: 400;"> 
+                    <div style="width: 200px;height: 150px;"> 
                         <a href="{{collaborations.url}}" target="_blank">
-                            <img class="img-responsive" src="{{collaborations.img}}" height="400" width="400" style="cursor:pointer;"/>
+                            <img class="img-responsive" src="{{collaborations.img}}" style="cursor:pointer;max-width: 100%;max-height: 100%;"/>
                         </a>
                     </div>
                     <span class="italicregular" style="font-size:12pt">{{collaborations.title}}</span>
