@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 copyright_name: yunki
 description: "파이썬/장고를 공부합니다"
-baseurl: 
+baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
