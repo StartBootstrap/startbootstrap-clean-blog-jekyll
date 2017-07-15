@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
+title:      "Github 페이지로 블로그 만들기"
 date:       2014-07-01 12:00:00
-author:     "Start Bootstrap"
+author:     "신윤기"
 header-img: "img/post-bg-02.jpg"
 ---
 
