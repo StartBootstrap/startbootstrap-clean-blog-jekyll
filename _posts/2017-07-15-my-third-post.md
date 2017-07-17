@@ -53,7 +53,8 @@ urlpatterns = [
 ]
 ```
 
-##blog 밑에 template/blog 만들고 template 파일 만들기
+## blog 밑에 template/blog 만들고 template 파일 만들기
+
 ```html
 #blog/templates/blog/post_list.html
 <h1>Askdjango</h1>
