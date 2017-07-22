@@ -41,7 +41,6 @@ def post_list(request):
 #blog/urls.py
 from django.conf.urls 에서 import url
 from . import views import
-
 ```
 
 ## urls를 연결시키기
@@ -54,14 +53,14 @@ urlpatterns = [
 ```
 
 ## blog 밑에 template/blog 만들고 template 파일 만들기
-
-```html
-#blog/templates/blog/post_list.html
+```python
+#blog/templates/blog/post_list.html`
 <h1>Askdjango</h1>
 <p>안녕하세요. 여러분의 파이썬/장고 페이스메이커가 되겠습니다</p>
 <li><a href="http://localhost:8000/blog/"></a>주소로 접속해보세요</li>
 <li>템플릿 경로를 다음과 같이 설정하는 이유는 후에 설명합니다.</li>
 ```
+
 *Tip: templates이 반영 안 되면 서버 다시 띄우기*
 
 ### 본 포스트는 nomade.kr의 강의를 정리한 내용입니다
