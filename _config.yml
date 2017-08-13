@@ -1,15 +1,16 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+title: KingTigerH
+header-img: 'http://oigzh9iic.bkt.clouddn.com/home-bg.jpg'
+email: 1310512423@qq.com
+copyright_name: 'https://github.com/KingTigerH'
+description: "我希望可以把我在生活学习中，遇到的有意思的信息分享给大家!"
+baseurl: ""
+# baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "http://honghaitao.net"
+twitter_username: honghaitzz
+github_username:  KingTigerH
+facebook_username:  honghaitzz
+email_username:  honghaitzz11@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID

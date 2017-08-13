@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "React学习笔记"
+date:   2017-02-20 21:50:00 +0800
+categories: jekyll update
+header-img: "http://oigzh9iic.bkt.clouddn.com/contact-bg.jpg"
+---
+# 起步
+>写入样式，可以在 render 新建 一个对象 styleObj,需要注意到我们所设置的必须css样式必须是， string类型。而且，需要仔细观察第一个示例代码中的css样式的书写方式
+
+>以下会输出 红色字体,字体大小'45px'的  Hello Mr World！
+
+```js
+var Hello=React.createClass({
+    render:function () {
+        var styleObj={
+            color:'red',
+            fontSize:'45px'
+        };
+        return <div style={styleObj}>{this.props.title}{this.props.name}</div> ;
+    }
+})
+React.render(<Hello name="World" title="Mr"/>,
+document.getElementById('container'));
+// js修改样式
+document.getElementById('container').style.paddingLeft='104px';
+```
+# 生命周期
+>React Components => 创建 => 消失
+
+```js
+
+```
