@@ -19,7 +19,7 @@ layout: default-layout
         <div class="col-md-6" style="padding-top:62px">
             <div class="row-fluid">
                 {% assign counter = 0 %}
-                {% assign sortedcollaborations = (page.collaborations | sort:'title') %}
+                {% assign sortedcollaborations = page.collaborations | sort:'title' %}
                 {% for collaborations in sortedcollaborations %}
                     {% if counter >= 4 %}
                         {% assign counter = 0 %}
