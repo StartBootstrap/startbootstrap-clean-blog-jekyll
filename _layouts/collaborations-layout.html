@@ -19,7 +19,8 @@ layout: default-layout
         <div class="col-md-6" style="padding-top:62px">
             <div class="row-fluid">
                 {% assign counter = 0 %}
-                {% for collaborations in page.collaborations %}
+                {% assign sortedcollaborations = page.collaborations | sort:'title' %}
+                {% for collaborations in sortedcollaborations %}
                     {% if counter >= 4 %}
                         {% assign counter = 0 %}
                         <div class="clearfix"></div>
@@ -32,7 +33,7 @@ layout: default-layout
                             <img class="img-responsive" src="{{collaborations.img}}" style="cursor:pointer;"/>
                         </a>
                     </div>
-                    <span class="italicregular" style="font-size:12pt">{{collaborations.title}}</span>
+                    <center><span class="italicregular" style="font-size:12pt; line-height: 5px;">{{collaborations.title}}</span></center>
                     </div>
                 {%endfor %}
             </div>
