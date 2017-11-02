@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ site.baseurl }}/{{ page.background }}')">
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/'  }}')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
