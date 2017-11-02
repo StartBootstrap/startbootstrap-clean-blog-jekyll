@@ -1,14 +1,14 @@
 # Site settings
 title: Javacafe Blog
-header-img: img/home-bg.jpg
+header-img: img/javacafe/javacafe-img.jpg
 email: 
 copyright_name: Javacafe
 description: "Javacafe Tech Blog"
 baseurl: "/official-blog"
 url: "http://yourdomain.com"
 twitter_username: 
-github_username:  JAVACAFE_STUDY
-facebook_username:  https://www.facebook.com/groups/javacafe/
+github_username:  JAVACAFE-STUDY
+facebook_username: groups/javacafe/
 email_username:  
 
 # Google Analytics
