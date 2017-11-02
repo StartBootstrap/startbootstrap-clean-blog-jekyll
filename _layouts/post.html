@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ page.background }}')">
+<header class="masthead" style="background-image: url('{{ site.baseurl }}/{{ page.background }}')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -33,10 +33,10 @@ layout: default
       <div class="clearfix">
 
         {% if page.previous.url %}
-        <a class="btn btn-primary float-left" href="{{ page.previous.url }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="{{ site.baseurl }}/{{ page.previous.url }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         {% endif %}
         {% if page.next.url %}
-        <a class="btn btn-primary float-right" href="{{ page.next.url }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="{{ site.baseurl }}/{{ page.next.url }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         {% endif %}
 
       </div>

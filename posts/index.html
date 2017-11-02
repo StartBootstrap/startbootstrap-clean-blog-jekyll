@@ -7,7 +7,7 @@ background: '/img/bg-post.jpg'
 {% for post in paginator.posts %}
 
   <article class="post-preview">
-    <a href="{{ post.url }}">
+    <a href="{{ site.baseurl }}/{{ post.url }}">
       <h2 class="post-title">{{ post.title }}</h2>
       {% if post.subtitle %}
       <h3 class="post-subtitle">{{ post.subtitle }}</h3>

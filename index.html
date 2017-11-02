@@ -4,7 +4,7 @@ background: '/img/bg-index.jpg'
 ---
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ page.background }}')">
+<header class="masthead" style="background-image: url('{{ site.baseurl }}/{{ page.background }}')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -27,7 +27,7 @@ background: '/img/bg-index.jpg'
       {% for post in site.posts limit: 5 %}
 
         <article class="post-preview">
-          <a href="{{ post.url }}">
+          <a href="{{ site.baseurl }}/{{ post.url }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -50,7 +50,7 @@ background: '/img/bg-index.jpg'
 
       <!-- Pager -->
       <div class="clearfix">
-        <a class="btn btn-primary float-right" href="/posts">View All Posts &rarr;</a>
+        <a class="btn btn-primary float-right" href="{{ site.baseurl }}/posts">View All Posts &rarr;</a>
       </div>
 
     </div>
