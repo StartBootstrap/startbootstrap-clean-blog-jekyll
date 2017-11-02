@@ -1,7 +1,7 @@
 # Site settings
 title: Javacafe Blog
-header-img: img/javacafe/javacafe-img.jpg
-email: 
+header-img: img/javacafe/javacafe_img.jpg
+email:
 copyright_name: Javacafe
 description: "Javacafe Tech Blog"
 baseurl: "/official-blog"
