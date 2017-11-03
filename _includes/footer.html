@@ -7,9 +7,9 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <ul class="list-inline text-center">
-          {% if site.twitter-username %}
+          {% if site.twitter_username %}
           <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter-username }}">
+            <a href="https://www.twitter.com/{{ site.twitter_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -17,9 +17,9 @@
             </a>
           </li>
           {% endif %}
-          {% if site.facebook-username %}
+          {% if site.facebook_username %}
           <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook-username }}">
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -27,19 +27,9 @@
             </a>
           </li>
           {% endif %}
-          {% if site.github-username %}
+          {% if site.github_username %}
           <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github-username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.google-plus-username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.google-plus-username }}">
+            <a href="https://github.com/{{ site.github_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
