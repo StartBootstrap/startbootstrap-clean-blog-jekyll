@@ -3,12 +3,13 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background: #36D1DC; background: -webkit-linear-gradient(#36D1DC, #5B86E5); background: -o-linear-gradient(#36D1DC, #5B86E5); background: -moz-linear-gradient(#36D1DC, #5B86E5); background: linear-gradient(#36D1DC, #5B86E5);/">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1 style="background-color:gainsboro">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <img src="{{ '/img/javacafe/logo-eng.jpg' | prepend: site.baseurl }}" style="width:600px;">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <hr class="small">
                     <span class="subheading">{{ page.description }}</span>
                 </div>
