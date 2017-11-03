@@ -1,24 +1,82 @@
-# Clean Blog by Start Bootstrap - Jekyll Version
+# [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) - Official Jekyll Version
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+[Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
 
-### [View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+This repository holds the official Jekyll version of the Clean Blog!
 
-## Before You Begin
+## Preview
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/templates/clean-blog.jpg)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
-It should look like this:
-`baseurl: ""`
+**[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
 
-## What's Included
+## Installation
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+### Using RubyGems:
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to apply the MIT license, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+1. (Optional) Create a new Jekyll site: `jekyll new my-site`
+2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
+3. Install the theme: `bundle install`
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-awesome`.
+5. Build your site: `bundle exec jekyll serve`
 
-## Support
+Assuming there are no errors and the site is building properly, follow these steps next:
 
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+1. Create the following pages if they do not exist already:
+   - `about.html` - set to `layout: page`
+   - `contact.html` - set to `layout: page`
+   - `index.html` - set to `layout: home`
+   - `posts/index.html` - set to `layout: home` (you will also need to create a `posts` directory)
+2. Configure the `index.html` front matter. Example:
+```
+---
+layout: home
+background: '/PATH_TO_IMAGE'
+---
+```
+3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
+```
+---
+layout: page
+title: Page Title
+description: This is the page description.
+background: '/PATH_TO_IMAGE'
+---
+```
+4. For each post in the `_posts` directory, update the front matter. Example:
+```
+---
+layout: post
+title: "Post Title"
+subtitle: "This is the post subtitle."
+date: YYYY-MM-DD HH:MM:SS
+background: '/PATH_TO_IMAGE'
+---
+```
+
+For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+
+### Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
