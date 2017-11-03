@@ -24,11 +24,11 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
-1. Create the following pages if they do not exist already:
+1. Create the following pages if they do not exist already (or change the extension of exsiting markdown files from `.md` to `.html`):
+   - `index.html` - set to `layout: home`
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
-   - `index.html` - set to `layout: home`
-   - `posts/index.html` - set to `layout: home` (you will also need to create a `posts` directory)
+   - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
 2. Configure the `index.html` front matter. Example:
 ```
 ---
@@ -57,6 +57,8 @@ background: '/PATH_TO_IMAGE'
 ```
 
 For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+
+5. Build your site: `bundle exec jekyll serve`
 
 ### Bugs and Issues
 
