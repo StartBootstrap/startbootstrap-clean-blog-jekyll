@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-clean-blog"
-  spec.version       = "0.1.0"
-  spec.authors       = ["David Miller"]
-  spec.email         = ["hello@davidmiller.io"]
+  spec.version       = "0.1.1"
+  spec.authors       = ["Start Bootstrap"]
+  spec.email         = ["feedback@startbootstrap.com"]
 
   spec.summary       = %q{A simple blog theme based on Bootstrap 4 by Start Bootstrap.}
   spec.homepage      = "https://github.com/blackrockdigital/startbootstrap-clean-blog-jekyll"
