@@ -4,7 +4,7 @@ header-img: img/javacafe/javacafe_img.jpg
 email:
 copyright_name: Javacafe
 description: "Javacafe Tech Blog"
-baseurl: "/official-blog"
+baseurl: "/"
 url: "http://yourdomain.com"
 twitter_username: 
 github_username:  JAVACAFE-STUDY
