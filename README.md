@@ -1,3 +1,23 @@
+# 자바카페 블로그 운영
+
+* https://github.com/JAVACAFE-STUDY/official-blog.git clone 후, **_posts** 하위 폴더에 마크다운 파일 업로드해주시면 됩니다.
+* 파일 이름의 형식은 날짜-제목 형식으로 하면되고, 확장자는 md로 작성해주세요.
+  * 예) 2017-04-08-자바스크립트-패턴-1주.md
+  * '-' 의 경우 자동적으로 띄어쓰기로 변경 됩니다.
+* 이미지의 경우, img 폴더 하위에 넣어주세요
+  * commit 후 push 하면 블로그 사이트에 자동 배포 됩니다. (혹시 push 권한 없으면 밴드에 문의해주세요.)
+* 확인 : [http://tech.javacafe.io/](http://tech.javacafe.io/)
+
+![guide1](/img/javacafe/guide1.png)
+
+
+
+* 참고 : 마크다운 작성시, Typora 라는 프로그램을 사용할 수 있습니다.
+  * https://typora.io/
+
+---
+
+
 #Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
