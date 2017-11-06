@@ -97,8 +97,7 @@ document.body.innerHTML = greeter(user);
 ### Classes
 마지막으로 클래스를 사용하여 예제를 확장해 보겠습니다. TypeScript는 class 기반으로 되어있는 객체 지향 프로그래밍과 같이 new 연산자를 제공 합니다.
 
-Student 클래스에 생성자와 필드들을 만듭니다.
-Notice that classes and interfaces play well together, letting the programmer decide on the right level of abstraction.
+Student 클래스에 생성자와 필드들을 만듭니다. class와 interface를 잘 사용하는 것은 프로그래머들은 알맞은 추상레벨을 결정할 수 있게 합니다.
 
 그리고 생성자에 사용하는 파라미터에 public을 넣으면 자동으로 해당 파라미터 명으로된 프로퍼티가 생성됩니다.
 
@@ -123,7 +122,7 @@ let user = new Student("Keeseung", "Lee");
 
 document.body.innerHTML = greeter(user);
 ```
-Re-run tsc greeter.ts and you’ll see the generated JavaScript is the same as the earlier code. Classes in TypeScript are just a shorthand for the same prototype-based OO that is frequently used in JavaScript.
+tsc greeter.ts 를 다시 실행시키면, 이전 코드와 같은 Javascript가 생성된 것을 볼 수 있습니다. TypeScript에서의 Clsss는 JavaScript에서 자주 사용되는 protytope 기반의 짧은 표현법입니다.
 
 
 
