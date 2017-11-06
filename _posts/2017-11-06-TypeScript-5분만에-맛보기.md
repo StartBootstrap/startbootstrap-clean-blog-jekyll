@@ -1,5 +1,5 @@
 ---
-title: 'TypeScript 5분만에 맛보기
+title: 'TypeScript 5분만에 맛보기'
 date: 2017-11-06 19:00:00
 categories:
 - TypeScript
