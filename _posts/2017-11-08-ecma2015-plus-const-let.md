@@ -8,6 +8,9 @@ tags:
 - ecmascript2015
 thumbnail: http://exploringjs.com/es6/ch_variables.html
 ---
+
+* 작성자 : 서동우
+
 # emcascropt 2015+ - 첫 번째 시간 const, let
 
 ECMASCRIPT2015(줄여서 es2015로 하겠습니다.) 에서 부터 변수를 선언할 떄 두 가지의 키워드가 추가되었습니다.
@@ -198,10 +201,10 @@ if (true) { // enter new scope, TDZ starts
 console.log(tmp); // true
 
 ```
-여기서 첫 번째 console.log(tmp)의 경우 에러가 발생합니다. 아까도 말했지만, `let`, `const`로 선언될 경우 기존 `var`와 다르게 hoisting 되지 않습니다. 그렇기 떄문에 아직 `let`, `const`를 이용해서 선언하지 않는 변수를 호출할 경우 위와 같이 에러가 발생합니다. 이런 에러 발생 구간은 tmp라고 합니다. 또 간단하게 아래와 같이 에제에서 발생합니다.
+여기서 첫 번째 console.log(tmp)의 경우 에러가 발생합니다. 아까도 말했지만, `let`, `const`로 선언될 경우 기존 `var`와 다르게 hoisting 되지 않습니다. 그렇기 떄문에 아직 `let`, `const`를 이용해서 선언하지 않는 변수를 호출할 경우 위와 같이 에러가 발생합니다. 이런 에러 발생 구간은 tmp라고 합니다. 또 간단하게 아래와 같이 에제에서 에러가 발생합니다.
 
 ```javascript
-let foo = console.log(foo); // 할당 연산의 경우는 항상 오른 쪽부터 실행
+let foo = console.log(foo); // 할당 연산의 경우는 항상 오른 쪽부터 실행하기 떄문에 foo가 선언되지 않았기 떄문에 에러
 ```
 
 이런 부분이 발생할 수 있기 때문에 잘 고려해서 프로그램을 작성 하도록 합시다.
