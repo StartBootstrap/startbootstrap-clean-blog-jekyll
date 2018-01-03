@@ -39,8 +39,16 @@ bg-url: {{page.bg-url}}
               {%endif%}
         </div>
       <div class="row">
+        {%if page.video2 != null%}
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
+                <iframe allowfullscreen="" src="{{page.video2}}" frameborder="0" width="100%" height="auto"></iframe>
+              </div>
+              <a class="italic" style="font-weight:100; font-size:13pt">{{page.vidcaption2}}</a>
+              {%endif%}
+        </div>  
+      <div class="row">
           <div class="col-md-6" style="padding:0 0 0 0; margin-top:-10px">
-            <br />
+            <br/>
             <p class="simple-content" style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}</p>
             <p>{{page.description}}</p>
             <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know more.</a>
