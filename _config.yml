@@ -1,14 +1,13 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             Jason Lim
+email:             jasonjklim@gmail.com
+description:       Data Analyst * Data Scientist
+author:            Jason Lim
 baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+url:               "http://jasonjklim.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+github_username:   jasonjklim
+facebook_username: jasonjklim
 
 # Build settings
 markdown:          kramdown
