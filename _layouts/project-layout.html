@@ -51,12 +51,14 @@ bg-url: {{page.bg-url}}
             <br/>
             <p class="simple-content" style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}</p>
             <p>{{page.description}}</p>
+            <a href="{{ page.brochure }}" class="downloadbrochure">Download Brochure</a>
+            <br/><br/>
             <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know more.</a>
-              <br/><br/>
-              {%if page.collaborations != null%}
-            <h4 class="specifics">Collaborations and Funders</h4>
-            <p class="project-specifics" style="margin-left:0px; width:100%">{{page.collaborations}}</p>
-              {%endif%}
+            <br/><br/>
+            {%if page.collaborations != null%}
+              <h4 class="specifics">Collaborations and Funders</h4>
+              <p class="project-specifics" style="margin-left:0px; width:100%">{{page.collaborations}}</p>
+            {%endif%}
             <br/>
             {%if page.icons != null%}
             <p class="icon-attribution">{{page.icons}}</p>
