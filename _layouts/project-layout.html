@@ -51,8 +51,10 @@ bg-url: {{page.bg-url}}
             <br/>
             <p class="simple-content" style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}</p>
             <p>{{page.description}}</p>
-            <a href="{{ page.brochure }}" class="downloadbrochure">Download Brochure</a>
-            <br/><br/>
+            {% if page.brochure != null %}
+              <a href="{{ page.brochure }}" class="downloadbrochure">Download Brochure</a>
+              <br/><br/>
+            {% endif %}
             <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know more.</a>
             <br/><br/>
             {%if page.collaborations != null%}
