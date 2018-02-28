@@ -72,7 +72,7 @@ bg-url: {{page.bg-url}}
             <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
             {%for pub in site.categories['publication']%}
               {% if pub.projectid contains page.ide%}
-                <p class="simple-content"> {{pub.title}} </p>
+                <a href="{{ pub.permalink }}"><p class="simple-content"> {{pub.title}} </p></a>
                 <script>$(document).ready(function(){
                   $("#pub-specifics").show();
                 })</script>
