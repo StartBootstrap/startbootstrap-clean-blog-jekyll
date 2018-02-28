@@ -564,6 +564,14 @@ a.mailid {
   border-bottom-color: #727272;
   padding-top: -5px;
 }
+a.downloadbrochure {
+  font-style: italic;
+  text-decoration: none;
+  color: #474747;
+  font-size: 14pt;
+  letter-spacing: 0.5px;
+  padding-top: -5px; 
+}
 a.dark {
   color: #727272;
 }
