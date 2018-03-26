@@ -19,7 +19,7 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 1. (Optional) Create a new Jekyll site: `jekyll new my-site`
 2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
 3. Install the theme: `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-awesome`.
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
 5. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these steps next:
@@ -124,7 +124,7 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Start Bootstrap is an open source library of free Bootstrap templates and :s. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
 * https://startbootstrap.com
 * https://twitter.com/SBootstrap
