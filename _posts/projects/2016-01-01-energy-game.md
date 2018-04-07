@@ -17,5 +17,6 @@ img3: /img/energy-game-img-3.jpg
 play: Play the Energy Game!
 ide: energy-game
 categories: project
+thread: Policy Lab
 tag: game
 ---

@@ -9,5 +9,6 @@ img1: /img/fov-workshop-img-1.jpg
 img2: /img/fov-workshop-img-2.jpg
 ide: fov-workshop
 categories: project
+thread: Policy Lab, School of Policy, Policy in Play
 tag: wscourses
 ---

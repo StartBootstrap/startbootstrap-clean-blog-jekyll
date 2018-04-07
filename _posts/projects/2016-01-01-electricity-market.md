@@ -16,5 +16,6 @@ img1: /img/em-img-1.jpg
 play: Play Electricity Market.
 ide: electricity-market
 categories: project
+thread: School of Policy
 tag: game
 ---

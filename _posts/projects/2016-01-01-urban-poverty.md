@@ -14,5 +14,6 @@ img1: /img/urban-poverty-img-1.jpg
 img2: /img/urban-poverty-img-2.jpg
 ide: urban-poverty
 categories: project
+thread: Policy Lab
 tag: simulation
 ---
