@@ -13,7 +13,11 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
+            {% if site.logo %}
+                <img class="img-fluid" src="{{ site.logo }}" alt="{{ site.title }}" />
+            {% else %}
+                <h1>{{ site.title }}</h1>
+            {% endif %}
             {% if site.description %}
               <span class="subheading">{{ site.description }}</span>
             {% endif %}
