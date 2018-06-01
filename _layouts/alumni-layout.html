@@ -16,7 +16,7 @@ layout: default-layout
 			</div>
 			<div class="col-md-6" style="padding-top:62px">
 				{% assign counter = 0 %}
-				{% assign sortedalumni = (page.alumni | sort:'title') %}
+				{% assign sortedalumni = page.alumni | sort:'title' %}
 				{%for alumni in sortedalumni%}
 					{% if counter >= 4 %}
 						{% assign counter = 0 %}
