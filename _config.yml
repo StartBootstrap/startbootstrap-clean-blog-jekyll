@@ -14,6 +14,5 @@ linkedin_username: fields-of-view
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]  
-plugins: [jekyll-paginate, jekyll-sitemap]
+plugins_dir: [jekyll-sitemap]
