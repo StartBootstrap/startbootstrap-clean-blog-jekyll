@@ -1,14 +1,14 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             가메 
+email:             wndud9678@gmail.com
+description:       게임 프로그래밍 공부 중
+author:            Kim Ju-Yeong, ReDvGaMe
 baseurl:           /
 url:               "http://redvgame.github.io"
 
 # Social Profiles
 twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+github_username:   ReDvGaMe
+facebook_username: jooyoung.kim.7967
 
 # Build settings
 markdown:          kramdown
