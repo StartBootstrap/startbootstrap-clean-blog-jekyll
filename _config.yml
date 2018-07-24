@@ -1,0 +1,19 @@
+title:             가메
+email:             wndud9678@gmail.com
+description:       Study Game Programming With UnrealEngine4
+author:            Kim Ju-Yeong, ReDvGaMe
+baseurl:           /
+url:               "http://redvgame.github.io"
+
+# Social Profiles
+twitter_username:  
+github_username:   ReDvGaMe
+facebook_username: jooyoung.kim.7967
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
