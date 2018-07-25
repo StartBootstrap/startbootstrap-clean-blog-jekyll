@@ -17,3 +17,6 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  
+# Other settings
+show_drafts:       true
