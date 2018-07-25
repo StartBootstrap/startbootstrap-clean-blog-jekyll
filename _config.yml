@@ -19,7 +19,7 @@ plugins:
   - jekyll-paginate
   
 # Other settings
-show_drafts:       true
+show_drafts:       false
 collections:
 - study
 - programming
