@@ -20,3 +20,8 @@ plugins:
   
 # Other settings
 show_drafts:       true
+collections:
+- study
+- programming
+- review
+- other
