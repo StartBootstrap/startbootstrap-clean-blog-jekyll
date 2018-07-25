@@ -1,5 +1,0 @@
----
-layout: category
-title: test
-category: test
----
