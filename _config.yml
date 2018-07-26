@@ -23,3 +23,5 @@ show_drafts:       false
 collections:
 - CPP
 - UnrealEngine
+category_dir: category/
+tag_dir: tag/
