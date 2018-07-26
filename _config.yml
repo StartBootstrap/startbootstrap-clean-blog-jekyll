@@ -25,3 +25,7 @@ collections:
 - programming
 - review
 - other
+
+navigation:
+ - title: Categories
+   url: /category
