@@ -21,11 +21,5 @@ plugins:
 # Other settings
 show_drafts:       false
 collections:
-- study
-- programming
-- review
-- other
-
-navigation:
- - title: Categories
-   url: /category
+- CPP
+- UnrealEngine
