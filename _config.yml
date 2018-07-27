@@ -9,6 +9,7 @@ url:               "http://redvgame.github.io"
 twitter_username:  
 github_username:   ReDvGaMe
 facebook_username: jooyoung.kim.7967
+email: wndud9678@gmail.com
 
 # Build settings
 markdown:          kramdown
@@ -20,8 +21,5 @@ plugins:
   
 # Other settings
 show_drafts:       false
-collections:
-- CPP
-- UnrealEngine
 category_dir: category/
 tag_dir: tag/
