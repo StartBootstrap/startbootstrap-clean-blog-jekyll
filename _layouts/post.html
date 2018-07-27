@@ -20,8 +20,6 @@ layout: default
           <span class="meta">Posted by
             <a href="#">Kim Ju-Yeong, ReDvGaMe </a>
             on {{ page.date | date: '%B %d, %Y' }}
-                    {% if page.comments %}  • <a href="https://redvgame.github.io{{ page.url }}#disqus_thread">0 Comments</a> {% endif %}
-
           </span>
         </div>
       </div>
@@ -32,11 +30,8 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-
       {{ content }}
-
       <hr>
-
       <div class="clearfix">
         {% if page.previous.url %}
         <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
@@ -48,4 +43,6 @@ layout: default
     </div>
   </div>
 </div>
+                      {% if page.comments %}  • <a href="https://redvgame.github.io{{ page.url }}#disqus_thread">0 Comments</a> {% endif %}
+
 {% include disqus.html %}
