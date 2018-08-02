@@ -10,10 +10,10 @@
       <ul class="navbar-nav ml-auto">
          {% for my_page in site.pages %}
                     {% if my_page.type == 'page' %}
-                    <li>
+                    <li class="nav-item">
                         {% if my_page.url == page.url %}
                         <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
-                            {% else %}
+                        {% else %}
                         <a href="{{ my_page.url | prepend: site.baseurl }}">
                         {% endif %}
                             <i class="nav-link"></i>{{ my_page.title }}
