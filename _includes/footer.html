@@ -48,12 +48,14 @@
           </li>
           {% endif %}
           {% if site.email %}
+         <li class="list-inline-item">
           <a href="mailto:{{site.email}}" title="email">
              <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-google fa-stack-1x fa-inverse"></i>
               </span>
           </a> 
+         </li>
           {% endif %}
            {% if site.discord_serverurl %}
           <li class="list-inline-item">
