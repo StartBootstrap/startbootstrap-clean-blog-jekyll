@@ -9,18 +9,18 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
          {% for my_page in site.pages %}
-                    {% if my_page.type == 'page' %}
-                    <li class="nav-item">
+               {% if my_page.type == 'page' %}
+                    <li class="navbar-brand">
                         {% if my_page.url == page.url %}
-                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
+                             <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
                         {% else %}
-                        <a href="{{ my_page.url | prepend: site.baseurl }}">
+                             <a href="{{ my_page.url | prepend: site.baseurl }}">
                         {% endif %}
-                            <i class="navbar-brand"></i>{{ my_page.title }}
+                             {{ my_page.title }}
                         </a>
                     </li>
-                    {% endif %}
-                {% endfor %}
+               {% endif %}
+          {% endfor %}
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
