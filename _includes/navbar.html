@@ -12,7 +12,7 @@
                {% if my_page.type == 'page' %}
                     <li class="navbar-brand">
                         {% if my_page.url == page.url %}
-                             <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
+                             <a class="nav-item" href="{{ my_page.url | prepend: site.baseurl }}">
                         {% else %}
                              <a href="{{ my_page.url | prepend: site.baseurl }}">
                         {% endif %}
