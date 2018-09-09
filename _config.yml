@@ -1,19 +1,26 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             Hsuan-lin Her
+email:             b101102109@tmu.edu.tw
+description:       Molecules, Sequences, Diseases.
+author:            Hsuan-lin Her
+baseurl:           ""
+url:               "algaebrown.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  hermuba
+github_username:   algaebrown
+facebook_username: 
 
 # Build settings
 markdown:          kramdown
+theme:  jekyll-theme-clean-blog
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: charleneher

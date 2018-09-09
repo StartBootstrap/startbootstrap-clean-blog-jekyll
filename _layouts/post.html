@@ -42,6 +42,9 @@ layout: default
         {% if page.next.url %}
         <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         {% endif %}
+        {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+        {% endif %}
 
       </div>
 
