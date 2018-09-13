@@ -3,7 +3,7 @@ layout: page
 title: UNESCO Sites
 description: UNESCO World Heritage Sites that I have visited.
 background: '/img/unesco.jpg'
-permalink: /unesco
+permalink: /unesco/
 ---
 
 One of my travel goals is to visit as many of the sites in UNESCO List of World Heritage Sites as I can. I list below the ones (arranged by country with approximate dates of the first visit) I have been to so far, for my convenience.
