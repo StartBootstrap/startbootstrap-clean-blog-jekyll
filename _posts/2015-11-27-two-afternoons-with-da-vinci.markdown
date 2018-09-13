@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Two Afternoons with Da Vinci
+subtitle: "About trips to Milan."
+comments: true
+background: '/img/bg-default.jpg'
 date: '2015-11-27 13:03:23'
-tags:
-- blog
+tags: travel
+permalink: '/two-afternoons-with-da-vinci/'
 ---
-
-
-##
 
 *(Images are missing, due to importing from a different location. This will probably never be fixed. Sorry about that.)*
 
