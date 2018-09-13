@@ -31,6 +31,35 @@ layout: default
     <div class="col-lg-8 col-md-10 mx-auto">
 
       {{ content }}
+      
+      <hr>
+      
+      <div class="related">
+    <h3>Related Posts</h3>
+    {% assign firstCategory = page.categories | first %}
+    {% assign relatedCount = 0 %}
+    {% for related in site.categories[firstCategory] %}
+        {% unless page.permalink == related.permalink %}
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            <a href="{{related.permalink}}">{{ related.title }}</a>
+        {% endunless %}
+
+        {% if relatedCount == 3 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+</div>
+      <hr>
+      
+      <h1>{{ page.title }}</h1>
+<div class="tags">
+    {% assign sortedCategories = page.categories | sort %}
+    {% for category in sortedCategories %}
+        <span class="tag">
+            <a href="/category/{{ category }}">#{{ category }}</a>
+        </span>
+    {% endfor %}
+</div>
 
       <hr>
     {% if page.comments %}  
