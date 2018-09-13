@@ -2,7 +2,7 @@
 layout: page
 title: Olympiads
 decription: My involvement in Mathematical Olympiad training.
-background: '/img/olympiads.jpeg'
+background: '/img/olympiads.jpg'
 ---
 
 Since 2008, I have been invited to deliver talks to mathematical Olympiad aspirants at various places. I thought it would be a good idea to collect all the problem sheets from those talks at one place. Some of these sheets have been distributed in other websites as well and they have been well received. I do not claim much originality, almost all the problems in these sheets can be found elsewhere. I have made references in most of the places, for others where references are not found, I apologize for this lapse on my part.
