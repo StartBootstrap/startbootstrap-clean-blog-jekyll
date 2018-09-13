@@ -2,7 +2,7 @@
 layout: page
 title: Links
 description: Links that I frequently visit.
-background: '/img/links.jpeg'
+background: '/img/links.jpg'
 ---
 
 >Below I list some websites that I visit very often. They are not very neatly categorized. I may do so at some point in time.
