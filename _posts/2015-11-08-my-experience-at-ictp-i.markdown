@@ -43,6 +43,6 @@ These are just some of my personal feelings. There is a joint ICTP-SISSA PhD pro
 
 [This was an answer to a question in Quora that I was asked to answer. The original question can be viewed [here](https://www.quora.com/Whats-it-like-to-study-at-the-international-centre-for-theoretical-physics-ICTP).]
 
-* P.S. There are so many things to write about my experiences at ICTP that it would be too large a post, so I will write some more at a later time.*
+*P.S. There are so many things to write about my experiences at ICTP that it would be too large a post, so I will write some more at a later time.*
 
 
