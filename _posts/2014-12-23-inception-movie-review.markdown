@@ -2,11 +2,12 @@
 layout: post
 title: 'Inception: Movie Review'
 date: '2014-12-23 15:35:17'
-tags:
-- blog
+tags: movies
+subtitle: "An amazing experience."
+comments: true
+background: '/img/bg-default.jpg'
+permalink: '/inception-movie-review/'
 ---
-
-##
 
 *I had the good fortune of watching Inception in the second day of its release at Chennai with a friend of mine. I had written a review, which for some reason was never posted properly. It was available in my now defunct old blog, so here it is again without any changes.*
 
