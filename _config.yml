@@ -1,14 +1,14 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             Manjil Saikia
+email:             manjil@gonitsora.com
+description:       Personal Homepage
+author:            Manjil Saikia
 baseurl:           "/"
 url:               "http://manjilsaikia.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  ManjilPSaikia
+github_username:   ManjilSaikia
+facebook_username: manjilps
 
 # Build settings
 markdown:          kramdown
