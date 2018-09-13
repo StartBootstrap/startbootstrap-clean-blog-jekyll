@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Olympiads
-decription: My involvement in Mathematical Olympiad training.
+description: My involvement in Mathematical Olympiad training.
 background: '/img/olympiads.jpg'
 ---
 
