@@ -4,7 +4,7 @@ title: Quotes
 description: Some quotes that I have collected.
 mathjax: true
 background: '/img/quotes.jpg'
-permalink: /quotes
+permalink: /quotes/
 ---
 
 The plan here is to collect some quotes that I have heard somewhere. They will not be categorized according to subject now, maybe in the future I may do so.
