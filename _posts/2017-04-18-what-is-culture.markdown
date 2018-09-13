@@ -2,11 +2,11 @@
 layout: post
 title: What is 'culture'?
 subtitle: "My views on the subject."
-permalink: '/what-is-culture/'
 comments: true
 background: '/img/bg-default.jpg'
 date: '2017-04-18 17:43:10'
 tags: india
+permalink: '/what-is-culture/'
 ---
 
 *Disclaimer: I do not claim to be an expert in the things I am about to say; so there might be mistakes, it would be appreciated if those are pointed out to me. This is also not a rant, it is what I feel at times; now more often, than before. Also, it is a long note, over 1800 words.*  
