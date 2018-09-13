@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Allure of Books"
-description: "Why and How I love my books?"
+subtitle: "Why and how I love my books?"
 background: '/img/books.jpeg'
 comments: true
 permalink: '/the-allure-of-books/'
