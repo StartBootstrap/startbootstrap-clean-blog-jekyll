@@ -2,12 +2,12 @@
 layout: post
 title: DY365’s Most Influential Assamese of 2014
 date: '2014-12-27 15:33:12'
-tags:
-- blog
+tags: assam
+comments: true
+background: '/img/bg-default.jpg'
+subtitle: "The annual who's who in Assam"
+permalink: '/dy-365-most-influential-assamese-2014/'
 ---
-
-
-##
 
 Like last year, this year too DY365 did a program on the most influential assamese of 2014. I nominated my own list for the first round, but due to non availablity of the channel on the Italian network missed out on the other nominations. Still, I am happy that 5 of my nominees made it to the top 10. While 8 had made it to the top 40. By a goof up I sent a list of 11 names instead of 10, here I am removing one name from my list of 11 and posting it.
 
