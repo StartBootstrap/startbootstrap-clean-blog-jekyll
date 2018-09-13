@@ -4,7 +4,7 @@ title: Chicken Jokes
 description: In aid of comic relief.
 mathjax: true
 background: '/img/jokes.jpeg'
-permalink: /chicken-jokes
+permalink: /chicken-jokes/
 ---
 
 >The plan here is to collect some chicken jokes, inspired by David Morin’s [similar thing with physicists](https://www.physics.harvard.edu/academics/undergrad/chickenroad). I try to answer the age old question of *Why did the chicken cross the road?* from the perspective of different mathematicians.
