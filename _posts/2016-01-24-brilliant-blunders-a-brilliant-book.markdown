@@ -2,7 +2,7 @@
 layout: post
 title: 'Brilliant Blunders: A Brilliant Book'
 subtitle: "A short review."
-background: '/img/books.jpg'
+background: '/img/books.jpeg'
 comments: true
 date: '2016-01-24 18:53:33'
 tags: books
