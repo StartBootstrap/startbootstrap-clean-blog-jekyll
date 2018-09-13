@@ -1,13 +1,15 @@
 ---
 layout: post
 title: 'A Star Has Extinguished: Personal Reflections on Stephen W. Hawking'
+subtitle: 'Reflections on Hawking's death.'
+comments: true
+mathjax: true
+permalink: '/a-star-has-extinguished-personal-reflections-on-stephen-w-hawking/'
+background: '/img/research.jpg/'
 date: '2018-03-18 22:10:31'
 tags:
-- blog
+- icons
 ---
-
-
-##
 
 $\pi$ Day, for me, is a day when I am happy. But, this year it was different. I woke up to a text from a friend saying Stephen Hawking is no more. I quickly looked at the news and confirmed that he was correct. It seemed as if, a very personal loss has occured. I had never met Professor Hawking, never have I ever been in the same city as he, but I could feel a tremendous pain at his demise. I am sure, this feeling was shared by so many others. Stephen William Hawking, touched many lives: as a scientist, he was the most well known physicist alive; as a science communicator he was unparalleled in capturing the public imagination; as a public spokesperson, he was a hero for all people with physical disabilities.  He donned several hats with equal composure and wit. His was a life made for the history books.
 
@@ -19,7 +21,7 @@ Since school, I have had courses in special and general relativity, thermodynami
 
 Here is a picture of that board which I had taken then.
 
-![ictp-board-1](/content/images/2018/06/ictp-board-1.jpg)
+![ictp-board-1](/img/research.jpg)
 
 Everything I have done so far, can be traced back to two incidents from my childhood. The first, I remember vividly my father reading out to me an article about Archimedes in an Assamese daily. It was the first time, I realized how powerful mathematics really was; imagine a man burning down numerous ships with a knowledge of how optics works and the geometry behind it. The second, was a person who told me that even I could be a scientist, when I was about 8 or 9 years old. I do not remember who that person was, but I remember him giving me a book about science and urging me to aspire to be a scientist. That was the first book I read, which mentioned black holes, Big Bang, and what not. To him, and to my father I owe more than anyone else for what I have become. These episodes propelled my interest in science, and that is how I came to know about Professor Hawking. I count him, Richard Feynman, S. Ramanujan and Evariste Galois to be my heroes. It is very sad for me, that I lost one of my heroes. His deficit in this world probably never be fulfilled.
 
