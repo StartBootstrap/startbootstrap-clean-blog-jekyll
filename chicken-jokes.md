@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chicken Jokes
-decription: In aid of comic relief.
+description: In aid of comic relief.
 mathjax: true
 background: '/img/jokes.jpeg'
 ---
