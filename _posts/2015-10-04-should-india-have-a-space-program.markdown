@@ -1,0 +1,22 @@
+---
+layout: post
+title: Should India have a space program?
+date: '2015-10-04 17:37:32'
+tags:
+- blog
+---
+
+
+##
+
+A few days ago, India launched it’s first space observatory **[Astrosat](https://en.wikipedia.org/wiki/Astrosat)** into space. This was the latest successful launch by [ISRO](https://en.wikipedia.org/wiki/Indian_Space_Research_Organisation) (**Indian Space Research Organisation**) and it failed to make a splash this time because of one reason: Facebook! Prime Minister Narendra Modi was in the US recently and he had a nice chat with Mark Zuckerberg, among other CEOs of companies. Zuckerberg expressed his support for Digital India campaign by enabling a feature in Facebook where users could change their display picture much like the LGBT support a few months back. All was well and my timeline was flooded with people changing their display pictures until some guy found that the source code for the page had internetorg as an anchor text somewhere. Then all hell broke loose. Many (including me) in India are against [internet.org](http://internet.org) initiative of Facebook because of reasons which I will not go in details here. This incident sparked of much hatred and debate on Facebook and as a result the launch of Astrosat did not occupy the people’s imagination. But I had a very lively discussion with someone who is against India having a space program, and this post tries to give my views on the matter.
+
+ISRO was formed in 1969 as an organisation but it had its roots in the Indian National Committe for Space Research founded in 1962. The Committee was spearheaded by the first Prime Minister of Independent India, Pt. Jawaharlal Nehru and the visionary scientist Dr. Vikram Sarabhai. Since its humble beginnings, ISRO has come to be regarded as one of the most reliable space agencies in the world and has to it’s credit many milestones including the recent Astrosat achievement. By this launch, India has joined a select list of countries to have a space observatory in place, being the only developing nation to have done so. Also, it should be mentioned that ISRO launches satellites for other countries too, including but not limited to Germany, USA, Japan, etc and thereby earning some revenue for the organisation in the process.
+
+But after the [Mars Orbiter Mission](https://en.wikipedia.org/wiki/Mars_Orbiter_Mission)‘s success, many in the [mainstream media](http://www.economist.com/blogs/economist-explains/2013/11/economist-explains-0) questioned whether India should have a space program at all, given that a large portion of the country lives in dire poverty without any means of potable water and sanitary toilets. But this comparison is a classic case of comparing apples with oranges. The budget for the 2015-16 session of ISRO comes to about 7500 crores approximately in Indian rupees. This is just 0.5% of the estimated tax revenue that the government plans to get in the same period. I do not see any reason why 0.5% could not be given to a space research organisation. People who claim otherwise do not think about all the facts before coming to their conclusion.
+
+There are many advantages of having an organisation like ISRO. The immediate benefits include weather forecasting which helps the farmers, cyclone warnings which saves countless lives, GPS and telecommunications services, defence mechanisms, etc. But the most important benefit that I see ISRO fulfilling is to inspire a generation of young students to take up science and technology as a career. It is no doubt true that the future of a nation is heavily dependent on science, technology and research. India’s population is a major advantage in this case, because if a good number of people go in that direction then India would rise quite rapidly in all sectors. ISRO can play a pivotal role in the overall scheme of things, not only by making new jobs available to engineers and science graduates but also by imparting education through the [Indian Institute of Space Technology](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), which is one of it’s kind not only in India, but also in Asia.
+
+So, in summary I believe that we should show support to an organisation who can make a successful Mars Mission in less money taken to shoot a Hollywood sci-fi movie or the cost of making a flyover in Mumbai. After all, developing a scientific temper is one of the fundamental duties of an Indian citizen and we should strive to make that happen.
+
+

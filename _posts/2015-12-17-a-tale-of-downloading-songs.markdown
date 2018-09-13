@@ -1,0 +1,15 @@
+---
+layout: post
+title: A tale of downloading songs
+date: '2015-12-17 17:30:06'
+tags:
+- blog
+---
+
+##
+
+Recently I bought a smart-phone. Not just any smart-phone but an **iPhone 6s**. The rationale behind this purchase was: firstly, since it’s launch (when I was in school) I had promised myself I will buy one when I could afford one; secondly, the contract that I got was really lucrative, they were giving a Christmas bonus rate and it suited my budget pretty well. The previous smart-phones that I had owned were Sony Ericksson Xperia Mini Pro (also bought by my own income) which I had really liked, and a Moto E (which was pretty decent for it’s price range). Unfortunately, the Moto E’s display was damaged earlier this year and the Chinese display that I replaced it with did not work well at freezing temperatures. Hence the phone.
+
+But that is not the point of this post. To be frank, I had never ever even touched an iPhone before my purchase and needless to say it took me about an hour or so to get the hang of it. But what took me a long time to figure out was how to get my songs into the phone. For me, the day is incomplete without listening to songs by Zubeen Da (even now as I am typing this from an airport lounge I am listening to a lovely Bengali song by Zubeen Da), so I was anxious to get my collection into my iPhone. But it turns out that it is not very easy to do if you do not have a Mac (which I don’t, but I hope to purchase one someday). There were two options available to me that I liked: Apple’s own Music app and Spotify. I got a three month subscription for the Apple Music app and I could thus download all the songs that I wanted – LEGALLY. I had never before bought (so as to say) digital music before. It was taken for granted that there would always be mp3 files that I could transfer from my computer to my phone and vice versa. This was a new experience for me. The app lets me stream music as well, which thanks to my unlimited data plan works very well for me, as long as I am within Europe. It’s been a few weeks and I really like my experience so far, I have decided to pay for my music from now on. It is a small price to pay (9,99 Euros) for getting something legally and helping the artists in their efforts.
+
+This experience also reinforces my belief that we are all corrupt in some sense or the other. Corruption is not just stealing public money or not doing public work by the politicians. Every time we download a piece of music or video which is not free, we are stealing something that doesn’t belong to us. One step at a time I am trying to stop my contribution to such corruption. Last month, I also shifted to Netflix and now I do not stream any TV shows illegally unless it is something that I really want to see (I plan to stop completely in the future). Netflix is slightly cheaper if you want a single screen than the music app (7,99 Euros per month). But both of them allow unlimited streaming and that is pretty cool. As they say, *the journey of a thousand miles begins with a single step*. I have taken my step, I hope some day I will be able to traverse the whole distance.

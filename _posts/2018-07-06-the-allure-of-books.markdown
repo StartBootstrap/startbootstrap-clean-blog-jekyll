@@ -1,0 +1,26 @@
+---
+layout: post
+title: The Allure of Books
+date: '2018-07-06 21:29:02'
+tags:
+- blog
+---
+
+##
+
+For as long as I can remember, I have been a voracious reader. The habit somehow dropped in my university years for a variety of reasons, but I have never felt out of place with a book on my hand. Last year, I read 40 books and this year I have read 22 books so far. I don't compain about those numbers. (See [this link](https://manjilsaikia.in/books/) for all the books I have read since August 2014.)
+
+There was a time when I did not have enough money on my hands to buy all the books I wanted, and then I discovered the magic of old book stores. There is something in the air of old book stores, the smell of chlorine (from the old book pages), and the layer of dust one has to remove from a book to glimpse it's cover and then finally finding something that you really want to buy. That is the stuff of magic! The added benefit of being low priced was a boon to the teenager in me with very little money. My favourite haunt was a tiny book shop in Tezpur which was quite well hidden, yet it was still in plain sight. The book store was located in a slope on a road, where no one usually stopped, everyone went uphill to reach the traffic signal just 100 metres or so away. Once, I discovered that place, I would go there as often as I could, even when I didn't have the money to buy books. The owner became a friend and he would keep titles for me, which he thought I would like to read. Now, the store still exists in my home town - Tezpur, but at a different location. Unfortunately, I have not been there since it changed location. 
+
+After I came to Europe in 2014, I bought the cliched book of Salman Rushdie, which was banned in India. I could not read through the whole book and left midway. The book still lies in my bookshelf with the hope that I will read it in the future. That was the beginning of my book buying spree, and I have literally spend at least a couple of thousands of euros on books since then. In 2015, I came to Vienna and finally I had all the money I needed to buy almost any book I wanted too. It turned out that Amazon Germany had great deals on used books, some of which were really collecors items, and every month since the end of 2015, I have been buying more books then I can read. I now have several out of print books, which makes a great addition to any book lovers' stock, as well as many first edition mint condition books. The latest book that has arrived from Amazon Germany in a book about the Tata Institute of Fundamental Research in India, with an unexpected author's signature on the first page.
+
+It was in Vienna, that I discovered the European antique shops, which among other things sold old books. Most of these books were in a language I could not read or understand, but every once in a while I chanced upon an English title, which beckoned to me. In these old bookstores of Vienna, of Heidelberg and in Lyon I bought mint condition first editions of Graham Greene, William Faulkner and Nicholas Bourbaki (in the original French First Edition, surely a collectors item).
+
+The allure of books is somewhat unexplainable. My sizeable stock of books in my Vienese apartment is always a point of query for visitors; they ask me if I have read all of them. Of course, I have not. But, that is beside the point. As the great Italian writer, Umberto Eco mentions, a personal library is a thing of joy, and is a tool for research. It is not necessary that one should read everything, but it is necessary that one has the eagerness to read as many as one could. If someone asks me the advantages of the scientific revolution in Europe, or the demise of the Mughal Empire in India; I would be able to answer her after I have read some of the books in my collection. That alone, for me is reason enough for having a personal library.
+
+During the academic year of 2014-15 I was at the International Centre of Theoretical Physics, in Trieste, Italy and I read lot of books from the amazing library the institute has. One book that I picked up was about John Nash, and in the first page itself there was a message of John Nash, written when he had visited the institute in 2004. Imagine the ghosebumps a book lover would feel in such a moment. Once, I also happened to pick up a book which was last borrowed by Abdus Salam, the founder of the institute and a Nobel Laureate. Books are surely a testament of history, and I have had several episodes which verify that hypothesis. The love of books is just insatiable and probably life-long.
+
+Everytime I look at my book shelf, I see the used book from the 1980s about Vincent van Gogh gifted to a Scottish couple, I see the used book from Bristol Public Library which was a pleasant read; I also see many books picked up from my several trips to books stores in Delhi with unique memories assoiated with each of them, I further see the signed copies of books by Shashi Tharoor, Dana Randall, Manu Joseph, and many others; and I feel that I am living a part in the history of books. I cannot imagine that I will ever be away from books and the allure of books would forever remain with me. The ultimate dream is to own a house with a sizeable library, maybe someday that will also happen and there will be a different blog post. :)
+
+
+

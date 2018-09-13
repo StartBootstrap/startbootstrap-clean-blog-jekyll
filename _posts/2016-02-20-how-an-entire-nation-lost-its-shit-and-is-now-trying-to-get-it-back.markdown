@@ -1,0 +1,23 @@
+---
+layout: post
+title: How an entire nation lost it’s shit and is now trying to get it back?
+date: '2016-02-20 17:32:14'
+tags:
+- blog
+---
+
+
+
+## 
+
+For the last couple of days, everyone everywhere (at least all Indians on social media) have been fantasizing about one person – [Kanhaiya Kumar](http://t.umblr.com/redirect?z=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKanhaiya_Kumar&t=MWYxNDBiNDZhYWUwODlkYjQ3ZGVkNjU5NTk3YmY4ODc5NzE4YjU0MSw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1). The dude even got his own Wikipedia entry! Congrats man! If you go to the [talk page](http://t.umblr.com/redirect?z=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTalk%3AKanhaiya_Kumar&t=ZGM1NzBkYjdiMzU2NzY5OGJhMmJiZmI2ODQ1ZTM3OTM4YWE2MTMyZSw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1) you will see RSS activists trying to brand him a traitor there as well. But thankfully, Wikipedia is not like Indian media and the entry is pretty level-headed and unbiased.
+
+It all started when some news channels showed a video where Kanhaiya was allegedly making some anti-national remarks. All it took was a hour long show on prime time (have to think about what this word really means) and everyone lost their shit. The Home Minister tweeted stuff based on a parody account (Sir, there is a blue tick for a reason on Twitter, just saying), Times Now, Zee News and others castigated the person and branded him a traitor, activists hustled him in court and what not.
+
+But not once, did anyone decide to investigate properly what the matter really was. The Delhi Police slapped a sedition charge against Kanhaiya. The only good thing from this whole episode was perhaps increasing the vocabulary of an entire nation by one word – sedition. This continued for a week and then some people thought with reason and [wrote good stuff](http://t.umblr.com/redirect?z=http%3A%2F%2Fthewire.in%2F2016%2F02%2F19%2Fon-kanhaiya-it-is-time-to-stand-up-and-be-counted-22039%2F&t=NGNhYTRjM2M3ODdjMTBiY2E0MGJlMzkxYjM2ZDA1NGVmYjI1M2VjZiw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1). The truth will be out and Kanhaiya will be released, if he is not then I will have really lost all my faith in Indian judiciary.
+
+But there are important pointers to be taken from this whole episode. Firstly, social media is a rat race, where everyone wants to prove themselves right and there is no way in heaven and earth by which you can convince someone that they are wrong in social media. Thank God, [I left Facebook](http://t.umblr.com/redirect?z=http%3A%2F%2Fblog.kharkhowa.com%2Fpost%2F135126070285%2Fgiving-up-on-facebook-and-other-such-bullshit&t=NDAyNDQ4MGEzMzVkOThhNzU5MDhhMzJkMmRlOTRkMDYxMTlkMzc2Yyw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1) before all this. Secondly, Indian media is suffering from a very bad disease, and NDTV agrees as well. Last night, Ravish Kumar aired one of the best prime time shows that I have seen. The video is shared below. Please listen till the end, specially the poem. If that fails to move you then, I have also lost faith in you!
+
+<figure class="tmblr-embed tmblr-full"><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="525" id="youtube_iframe" src="https://www.youtube.com/embed/shZf-NrSbu0?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&wmode=opaque" width="700"></iframe></figure>I hope, normalcy returns to India and people think about what really matters to a nation of over a billion people. I hope someone thinks clearly and tries to piece through the quagmire of murky politics. Maybe then, they will see why the HRD Minister wants to spend crores of rupees for hoisting national flags all over the country when the same money could easily fund 400 research students every month. God bless India, hopefully you have got your shit back together again.
+
+</div>
