@@ -6,8 +6,7 @@ background: '/img/books.jpeg'
 comments: true
 permalink: '/the-allure-of-books/'
 date: '2018-07-06 21:29:02'
-tags:
-- books
+tags: books
 ---
 
 For as long as I can remember, I have been a voracious reader. The habit somehow dropped in my university years for a variety of reasons, but I have never felt out of place with a book on my hand. Last year, I read 40 books and this year I have read 22 books so far. I don't compain about those numbers. (See [this link](/books/) for all the books I have read since August 2014.)
