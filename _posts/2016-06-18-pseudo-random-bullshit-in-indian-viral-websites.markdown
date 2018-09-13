@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Pseudo Random Bullshit in Indian ‘viral’ websites
+subtitle: "Why they are worse than they seem to be."
+background: '/img/bg-default.jpg'
 date: '2016-06-18 17:31:13'
-tags:
-- blog
+tags: india
+comments: true
+permalink: '/pseudo-random-bullshit-in-indian-viral-websites/'
 ---
 
-
-##
 
 Like many others of our social media generation, I too have been faced countless times with an enticing post title and was fooled into clicking the link and reading some pseudo random bullshit. I enjoyed the humble beginnings of [ScoopWhoop](http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.scoopwhoop.com&t=NzRlMzJjZmQ4ZDRlNGZjNTQzMTEwNWQ4NzIzNWM4YzhhOTNhZGVjNCx0VHdpa09Paw%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F146115467015%2Fpseudo-random-bullshit-in-indian-viral-websites&m=1) and [StoryPick](http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.storypick.com&t=ZjZiMTU1NDMzM2M4MDRmMmRiY2IxYzdmYWE4NjNlNGQ4MGMwZDE1MCx0VHdpa09Paw%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F146115467015%2Fpseudo-random-bullshit-in-indian-viral-websites&m=1) for quite some time now. They provided content which was fun and took me away from my troubles every once in a while. But lately, I have noticed a disturbing trend. They are trying to become something that they are not! For starters, many of the posts tend to be over the top with their wordings and makes you feel like you are the stupid one for reading those. But what I feel most disturbing is that they are trying to become journalistic in their approach. And most of the time when they do that, they either fail to capture the ‘real’ news or end up screwing very bad.
 
