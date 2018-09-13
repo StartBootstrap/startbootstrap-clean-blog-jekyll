@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Should India have a space program?
+subtitle: "On ISRO and public opinion."
+comments: true
+background: '/img/bg-default.jpg'
 date: '2015-10-04 17:37:32'
-tags:
-- blog
+tags: india
+permalink: '/should-india-have-a-space-program/'
 ---
 
-
-##
 
 A few days ago, India launched it’s first space observatory **[Astrosat](https://en.wikipedia.org/wiki/Astrosat)** into space. This was the latest successful launch by [ISRO](https://en.wikipedia.org/wiki/Indian_Space_Research_Organisation) (**Indian Space Research Organisation**) and it failed to make a splash this time because of one reason: Facebook! Prime Minister Narendra Modi was in the US recently and he had a nice chat with Mark Zuckerberg, among other CEOs of companies. Zuckerberg expressed his support for Digital India campaign by enabling a feature in Facebook where users could change their display picture much like the LGBT support a few months back. All was well and my timeline was flooded with people changing their display pictures until some guy found that the source code for the page had internetorg as an anchor text somewhere. Then all hell broke loose. Many (including me) in India are against [internet.org](http://internet.org) initiative of Facebook because of reasons which I will not go in details here. This incident sparked of much hatred and debate on Facebook and as a result the launch of Astrosat did not occupy the people’s imagination. But I had a very lively discussion with someone who is against India having a space program, and this post tries to give my views on the matter.
 
