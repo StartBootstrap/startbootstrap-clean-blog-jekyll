@@ -1,3 +1,4 @@
+---
 layout: page
 title: Research
 description: My past and current research.
