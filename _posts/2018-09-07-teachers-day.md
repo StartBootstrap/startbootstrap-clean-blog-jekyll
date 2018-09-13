@@ -3,6 +3,7 @@ layout: post
 title: "Some Thoughts on Teachers' Day in India"
 subtitle: "With apologies for a late post!"
 date: 2018-09-07
+comments: true
 background: '/img/bg-default.jpg'
 ---
 September 5th is celebrated as Teachers' Day in India, in honour of Dr. Sarvapalli Radhakrishnan, the first vice-president of India and the second President of India. He was, according to many an exemplary teacher; but this post is not about him. I cannot claim to have much knowledge about the philoshophy of Dr. Radhakrishnan to justify myself. This post is about my teachers.
