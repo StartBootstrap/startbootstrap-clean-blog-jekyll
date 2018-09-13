@@ -4,6 +4,7 @@ title: Talks
 description: Selected talks that I have given.
 mathjax: true
 background: '/img/talks.jpeg'
+permalink: /talks
 ---
 Some mathematical talks (arranged in reverse chronological order) that I have given.
 
