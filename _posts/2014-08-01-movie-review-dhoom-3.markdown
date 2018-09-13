@@ -2,11 +2,12 @@
 layout: post
 title: 'Movie Review: Dhoom 3'
 date: '2014-08-01 15:36:36'
-tags:
-- blog
+tags: movies
+subtitle: "A very bad experience."
+comments: true
+background: '/img/bg-default.jpg'
+permalink: '/movie-review-dhoom-3/'
 ---
-
-##
 
 *I had written a review for the movie Dhoom 3 sometime back. It never got published anywhere, so I am posting it here.*
 
