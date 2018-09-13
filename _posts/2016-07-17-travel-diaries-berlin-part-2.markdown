@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 'Travel Diaries: Berlin (Part 2)'
-date: '2016-07-17 00:59:02'
-tags:
-- blog
+subtitle: "Second of the three part series."
+comments: true
+background: '/img/unesco.jpg'
+date: '2016-07-17 18:19:27'
+tags: travel
+permalink: '/travel-diaries-berlin-part-2/'
 ---
-
-
-##
 
 *(Images are missing, due to importing from a different location. This will probably never be fixed. Sorry about that.)*
 
@@ -28,5 +28,3 @@ The next stop was to the ***Berlin Wall Memorial*** in the actual site of the Be
 I then wanted to go to the Schloss Charlottenburg and I made my way to the bus stop, but inspite of waiting for quite a while, the bus didn’t show up. This I found strange because, Germany is known for the punctuality of its public transport timetables. I did not want to walk towards another bus line and so decided to return back to the place where I am staying. By this time, it was already dark and I took a bus which covered a bit of the city. It was a nice way to see some of Berlin’s night life. To end the night, I went to a bar and had a couple more pilsners, this time it was good and the bartender told me that it was made in Berlin and is quite popular. I should try some lager next.
 
 Tomorrow I have the day, and in the evening I have my train back to Vienna. I am planning to go to the Palace and then try to visit two museums. This seems like a tall task, so hopefully I will wake up early tomorrow. I now regret not spending a few more days here, but there are other travel commitments in the next weekend to keep. I will surely like to return to Berlin at some point and stay for a while.
-
-
