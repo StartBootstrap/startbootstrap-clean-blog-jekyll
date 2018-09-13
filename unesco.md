@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UNESCO Sites
-decription: UNESCO World Heritage Sites that I have visited.
+description: UNESCO World Heritage Sites that I have visited.
 background: '/img/unesco.jpg'
 ---
 
