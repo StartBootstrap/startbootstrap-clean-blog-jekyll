@@ -1,13 +1,14 @@
 ---
 layout: post
 title: 'Brilliant Blunders: A Brilliant Book'
+subtitle: "A short review."
+background: '/img/books.jpg'
+comments: true
 date: '2016-01-24 18:53:33'
-tags:
-- blog
+tags: books
+permalink: '/brilliant-blunders-a-brilliant-book/'
 ---
 
-
-##
 
 Recently, I took a trip to India after 16 months. It was a chance to rejuvenate my time and energy with things that I loved to do with people that I loved. One of the things that I had planned to do on the trip was to read at least one good book. Over the years, my habit of reading books have been on the decline so much so that I had to make a special [web-page](http://homepage.univie.ac.at/manjil.saikia/books.html) just to encourage myself to add books on the read list of that web-page. My ‘book reading spree’ in India began from the Vienna International Airport where I bought a book and then at the Frankfurt International Airport where I bought another, and devoured a few pages of that book there. In anticipation of my visit home, I had ordered Mario Livio’s book ‘Brilliant Blunders’ online and was expecting it to wait for me at home. However, it arrived a little late and I neglected it for a week, after which I started to read this brilliant book.
 
