@@ -3,7 +3,7 @@ layout: page
 title: Research
 description: My past and current research.
 mathjax: true
-background: 'img/research.jpg'
+background: '/img/research.jpeg'
 permalink: /research/
 ---
 
