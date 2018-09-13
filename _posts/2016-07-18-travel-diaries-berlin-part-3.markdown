@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 'Travel Diaries: Berlin (Part 3)'
+subtitle: "Last of the three part series."
+comments: true
+background: '/img/unesco.jpg'
 date: '2016-07-18 18:19:27'
-tags:
-- blog
+tags: travel
+permalink: '/travel-diaries-berlin-part-3/'
 ---
-
-
-##
 
 *(Images are missing, due to importing from a different location. This will probably never be fixed. Sorry about that.)*
 
@@ -36,7 +36,3 @@ Whenever I visit any museum in Europe, I am amazed by the sheer amount of hard w
 The Berlin visit was quite good one, and I love the city. This is a stark contrast to my original opinion of the city. I am definitely going to visit the city again and finish my tour of the DHM as well as visit a few more museums. Even at the end of the trip, the ***Berlin Hauptbanhof*** (Berlin Central Train Station) amazed me. I had never seen such a huge station before. The previous one that I have seen in a scale comparable to the Berlin Hbf is the Wien Hbf, but the Berlin one will give Vienna a run for its money. I even enjoyed a cup of coffee in the Einstein Kaffe, near the entrance of the station. Berlin has definitely made an impression on me, and I hope my planned German visits in the next few months to two other cities will be as fruitful and interesting as this one.
 
 The next travel plans for me are to Croatia, very soon. I hope I will have as much to write about Croatia as I had about Berlin.
-
- 
-
-
