@@ -2,6 +2,7 @@
 layout: page
 title: Research
 description: My past and current research.
+mathjax: true
 background: 'img/research.jpeg'
 ---
 
