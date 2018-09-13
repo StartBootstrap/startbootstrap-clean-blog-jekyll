@@ -3,6 +3,7 @@ layout: page
 title: Studying Abroad
 description: Some tips for Indian students.
 background: '/img/study.jpg'
+permalink: /studying-abroad
 ---
 
 Many students have over the past couple of years been asking me how to prepare for their studies abroad (outside India). I have been telling them almost the same answer over these years, so I have decided to put everything I know in one place as easy reference.
