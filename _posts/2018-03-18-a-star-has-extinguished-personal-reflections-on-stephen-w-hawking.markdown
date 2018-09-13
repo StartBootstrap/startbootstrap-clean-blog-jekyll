@@ -5,7 +5,7 @@ subtitle: "Reflections on Hawking's death."
 comments: true
 mathjax: true
 permalink: '/a-star-has-extinguished-personal-reflections-on-stephen-w-hawking/'
-background: '/img/research.jpg/'
+background: '/img/research.jpeg/'
 date: '2018-03-18 22:10:31'
 tags: icons
 ---
