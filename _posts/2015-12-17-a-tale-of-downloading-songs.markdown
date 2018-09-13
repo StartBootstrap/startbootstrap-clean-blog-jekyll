@@ -1,12 +1,13 @@
 ---
 layout: post
 title: A tale of downloading songs
+subtitle: "How I changed my stance."
+comments: true
+background: '/img/bg-default.jpg'
 date: '2015-12-17 17:30:06'
-tags:
-- blog
+tags: random
+permalink: '/a-tale-of-downloading-songs/'
 ---
-
-##
 
 Recently I bought a smart-phone. Not just any smart-phone but an **iPhone 6s**. The rationale behind this purchase was: firstly, since it’s launch (when I was in school) I had promised myself I will buy one when I could afford one; secondly, the contract that I got was really lucrative, they were giving a Christmas bonus rate and it suited my budget pretty well. The previous smart-phones that I had owned were Sony Ericksson Xperia Mini Pro (also bought by my own income) which I had really liked, and a Moto E (which was pretty decent for it’s price range). Unfortunately, the Moto E’s display was damaged earlier this year and the Chinese display that I replaced it with did not work well at freezing temperatures. Hence the phone.
 
