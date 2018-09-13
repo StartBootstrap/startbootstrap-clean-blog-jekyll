@@ -2,12 +2,13 @@
 layout: post
 title: Wedding Conversation
 date: '2015-05-16 15:30:35'
-tags:
-- blog
+tags: random math
+subtitle: "An imaginary one."
+comments: true
+background: '/img/bg-default.jpg'
+permalink: '/wedding-conversation/'
 ---
 
-
-##
 
 *A few days back, I sent a short note (a fictitious conversation) to the guys at [Anti Serious Magazine](http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.antiserious.com&t=MzkzYTAxZDE4NmQ5MDdiOTZiN2JjMGQ3ZDQzOTM5MjEyYmQxMDEzYSxOWkdwdDc3Zw%3D%3D&b=t%3A7YsAI-8rdXDRUkhAWltUHw&p=http%3A%2F%2Ffallingleavesin.tumblr.com%2Fpost%2F119097704936%2Fwedding-conversation&m=1). I have waited a respectable amount of time and since they have not published it yet, so I assume they are not going to. I am posting this here because I don’t see any point in sending it to any other place. The piece is not so good, so I did not mind that much when they didn’t publish it. Anyways here it goes.*
 
