@@ -3,6 +3,7 @@ layout: page
 title: Contact Me
 description: Ways to contact me.
 background: '/img/bg-default.jpg'
+permalink: /contact
 ---
 ## Address >> Current Office
 
