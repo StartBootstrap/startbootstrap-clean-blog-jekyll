@@ -2,12 +2,12 @@
 layout: post
 title: Speak now or forever hold your tongue!
 date: '2015-02-22 15:31:46'
-tags:
-- blog
+tags: india
+subtitle: "Some thoughts on the freedom of speech and other trinkets."
+comments: true
+permalink: '/speak-now-or-forever-hold-your-tongue/'
+background: '/img/unesco.jpg'
 ---
-
-
-##
 
 *The following article was written for Srijan 2015, the annual magazine of [Tezpur University](http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.tezu.ernet.in%2F&t=MjAxOGE3Y2Q2YTdkMzI4ZDRhZjRlY2M5Mzc5ZTM2OWM0OWU5MmM4ZSxRTnZRUnFCOA%3D%3D&b=t%3A7YsAI-8rdXDRUkhAWltUHw&p=http%3A%2F%2Ffallingleavesin.tumblr.com%2Fpost%2F111794767961%2Fspeak-now-or-forever-hold-your-tongue&m=1). I am not sure if they will publish it or not, but here it goes anyways.*
 
