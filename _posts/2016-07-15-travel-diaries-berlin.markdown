@@ -1,14 +1,13 @@
 ---
 layout: post
-title: 'Travel Diaries: Berlin'
-date: '2016-07-15 20:58:20'
-tags:
-- blog
+title: 'Travel Diaries: Berlin (Part 1)'
+subtitle: "First of the three part series."
+comments: true
+background: '/img/unesco.jpg'
+date: '2016-07-15 18:19:27'
+tags: travel
+permalink: '/travel-diaries-berlin-part-1/'
 ---
-
-
-##
-
 *(Images are missing, due to importing from a different location. This will probably never be fixed. Sorry about that.)*
 
 While talking to a friend yesterday, she remarked half-jokingly that I should write some travel logs. I though about it and realized that I have never written a travel log or a travel story before, partly due to the fact that I had never traveled a lot while I was growing up. But somehow it seemed a good idea for me to keep an account of what I remember from the last one and half years of my travels. And as it happens, I am at the moment in Berlin for three days due to some work commitments. But I would also like to take this opportunity to see a bit of the city. My travel log idea is quite rusty, as the only thing that I have written previously which resembles a little to a travel log was about [my rendezvous with Da Vinci](http://homepage.univie.ac.at/manjil.saikia/blog/two-afternoons-with-da-vinci/) and some of his works.
