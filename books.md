@@ -3,6 +3,7 @@ layout: page
 title: Books
 description: Books that I have read since August 2014.
 background: '/img/books.jpeg'
+permalink: /books
 ---
 
 Starting from August 2014, I have decided to keep a record of the books that I have read or am currently reading. This list is just for my own personal recollection, but once in a while if I find the book very appealing I may post a review somewhere.
