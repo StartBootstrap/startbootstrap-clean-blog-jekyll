@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Miscellaneous
+description: Some hidden things.
 background: '/img/misc.jpg'
 ---
 This page will link to various other things about me. Most of the links are perhaps of interest only for me.
