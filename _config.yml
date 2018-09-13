@@ -13,7 +13,7 @@ facebook_username: manjilps
 # Build settings
 permalink: pretty
 markdown:          kramdown
-paginate:          5
+paginate:          50
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
