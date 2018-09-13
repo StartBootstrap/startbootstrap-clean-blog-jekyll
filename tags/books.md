@@ -2,6 +2,6 @@
 layout: tagpage
 tag: books
 title: Posts with tag Books
-background: '/img/bokks.jpg'
+background: '/img/books.jpeg'
 permalink: /tags/books/
 ---
