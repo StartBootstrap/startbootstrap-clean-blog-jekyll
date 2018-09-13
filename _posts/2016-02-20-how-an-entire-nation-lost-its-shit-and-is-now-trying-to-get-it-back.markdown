@@ -1,14 +1,13 @@
 ---
 layout: post
 title: How an entire nation lost it’s shit and is now trying to get it back?
+subtitle: Some thoughts on the JNU fiasco.
+background: '/img/bg-default.jpg'
+comments: true
 date: '2016-02-20 17:32:14'
-tags:
-- blog
+tags: india
+permalink: '/how-an-entire-nation-lost-its-shit-and-is-now-trying-to-get-it-back/'
 ---
-
-
-
-## 
 
 For the last couple of days, everyone everywhere (at least all Indians on social media) have been fantasizing about one person – [Kanhaiya Kumar](http://t.umblr.com/redirect?z=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKanhaiya_Kumar&t=MWYxNDBiNDZhYWUwODlkYjQ3ZGVkNjU5NTk3YmY4ODc5NzE4YjU0MSw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1). The dude even got his own Wikipedia entry! Congrats man! If you go to the [talk page](http://t.umblr.com/redirect?z=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTalk%3AKanhaiya_Kumar&t=ZGM1NzBkYjdiMzU2NzY5OGJhMmJiZmI2ODQ1ZTM3OTM4YWE2MTMyZSw0VjRsQzVPVA%3D%3D&b=t%3Alc4dFy-mVsG-Bcj7rRxdAQ&p=http%3A%2F%2Fkharkhowaoxomiya.tumblr.com%2Fpost%2F139660294700%2Fhow-an-entire-nation-lost-its-shit-and-is-now&m=1) you will see RSS activists trying to brand him a traitor there as well. But thankfully, Wikipedia is not like Indian media and the entry is pretty level-headed and unbiased.
 
