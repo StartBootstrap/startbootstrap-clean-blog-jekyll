@@ -6,6 +6,21 @@ background: '/img/bg-default.jpg'
 permalink: /posts/
 ---
 
+<p> Posts by tages can be found by clicking one of the following links.
+
+    {% for tag in site.tags %}
+    <!-- Here's a hack to generate a "tag cloud" where the size of
+    the word is directly proportional to the number of posts with
+    that tag. -->
+    <a href="/tags/{{ tag[0] }}/" 
+    style="font-size: {{ tag[1] | size | times: 4 | plus: 10 }}px">
+        {{ tag[0] }} | 
+    </a>
+    {% endfor %}
+</p>
+
+<p>Otherwise, all posts are listed below.</p>
+
 {% for post in paginator.posts %}
 
   <article class="post-preview">
