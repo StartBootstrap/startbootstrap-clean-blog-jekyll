@@ -3,6 +3,7 @@ layout: page
 title: Posts by Tags
 description: A list of all tags used in the blog.
 background: '/img/bg-default.jpg'
+permalink: /post-tags/
 ---
 <p>
     {% for tag in site.tags %}
