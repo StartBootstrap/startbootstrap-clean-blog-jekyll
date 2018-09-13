@@ -2,6 +2,7 @@
 layout: page
 title: Quotes
 decription: Some quotes that I have collected.
+mathjax: true
 background: '/img/quotes.jpg'
 ---
 
