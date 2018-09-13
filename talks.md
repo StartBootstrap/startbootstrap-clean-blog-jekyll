@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Talks
-decription: Selected talks that I have given.
+description: Selected talks that I have given.
+mathjax: true
 background: '/img/talks.jpeg'
 ---
 Some mathematical talks (arranged in reverse chronological order) that I have given.
