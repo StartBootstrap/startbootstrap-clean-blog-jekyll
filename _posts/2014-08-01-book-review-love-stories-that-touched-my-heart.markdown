@@ -2,11 +2,12 @@
 layout: post
 title: 'Book Review: Love Stories That Touched My Heart'
 date: '2014-08-01 15:37:20'
-tags:
-- blog
+tags: books
+background: '/img/books.jpeg'
+subtitle: "A rather surprising read."
+comments: true
+permalink: '/book-review-love-stories-that-touched-my-heart/'
 ---
-
-##
 
 Here is another review that I had written for an online magazine but it never got published. The review is not one of my best and is a very sloppily written thing, so please excuse me for that.
 
