@@ -19,4 +19,3 @@ But there are important pointers to be taken from this whole episode. Firstly, s
 
 <figure class="tmblr-embed tmblr-full"><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="525" id="youtube_iframe" src="https://www.youtube.com/embed/shZf-NrSbu0?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&wmode=opaque" width="700"></iframe></figure>I hope, normalcy returns to India and people think about what really matters to a nation of over a billion people. I hope someone thinks clearly and tries to piece through the quagmire of murky politics. Maybe then, they will see why the HRD Minister wants to spend crores of rupees for hoisting national flags all over the country when the same money could easily fund 400 research students every month. God bless India, hopefully you have got your shit back together again.
 
-</div>
