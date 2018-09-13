@@ -4,7 +4,7 @@ title: Research
 description: My past and current research.
 mathjax: true
 background: 'img/research.jpeg'
-permalink: /research
+permalink: /research/
 ---
 
 My current work is focused on combinatorics with a side interest in number theory. I am also interested in history of mathematics. For my publications, see below (arranged in reverse chronological order of publication).
