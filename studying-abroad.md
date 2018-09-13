@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Studying Abroad
-decription: Some tips for Indian students.
+description: Some tips for Indian students.
 background: '/img/study.jpg'
 ---
 
