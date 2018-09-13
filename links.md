@@ -3,7 +3,7 @@ layout: page
 title: Links
 description: Links that I frequently visit.
 background: '/img/links.jpg'
-permalink: /links
+permalink: /links/
 ---
 
 >Below I list some websites that I visit very often. They are not very neatly categorized. I may do so at some point in time.
