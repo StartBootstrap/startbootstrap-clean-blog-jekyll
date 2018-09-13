@@ -1,13 +1,13 @@
 ---
 layout: post
 title: My experience at ICTP (I)
+subtitle: "Some reflections on a year spent at Trieste."
+comments: true
+background: '/img/research.jpeg'
 date: '2015-11-08 16:45:09'
-tags:
-- blog
+tags: academia travel math
+permalink: '/my-experience-at-ictp/'
 ---
-
-
-##
 
 The [Abdus Salam ICTP](http://www.ictp.it) offers a [one year Diploma](http://diploma.ictp.it) in HEP, CMP, ESP and Math. This one year programme is unique in the sense that it prepares students from developing nations to pursue a PhD in US or Europe or other parts of the world. I am an alumni of this programme. I studied at ICTP in 2014-15 batch of the Math Diploma. This will be the first time that I will recount my experiences. Please note that I speak only for the Mathematics Diploma section.
 
