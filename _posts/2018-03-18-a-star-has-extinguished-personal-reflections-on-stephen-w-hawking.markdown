@@ -1,14 +1,13 @@
 ---
 layout: post
-title: 'A Star Has Extinguished: Personal Reflections on Stephen W. Hawking'
-subtitle: 'Reflections on Hawking's death.'
+title: "A Star Has Extinguished: Personal Reflections on Stephen W. Hawking"
+subtitle: "Reflections on Hawking's death."
 comments: true
 mathjax: true
 permalink: '/a-star-has-extinguished-personal-reflections-on-stephen-w-hawking/'
 background: '/img/research.jpg/'
 date: '2018-03-18 22:10:31'
-tags:
-- icons
+tags: icons
 ---
 
 $\pi$ Day, for me, is a day when I am happy. But, this year it was different. I woke up to a text from a friend saying Stephen Hawking is no more. I quickly looked at the news and confirmed that he was correct. It seemed as if, a very personal loss has occured. I had never met Professor Hawking, never have I ever been in the same city as he, but I could feel a tremendous pain at his demise. I am sure, this feeling was shared by so many others. Stephen William Hawking, touched many lives: as a scientist, he was the most well known physicist alive; as a science communicator he was unparalleled in capturing the public imagination; as a public spokesperson, he was a hero for all people with physical disabilities.  He donned several hats with equal composure and wit. His was a life made for the history books.
