@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Allure of Books
-description: Why and How I love my books?
+title: "The Allure of Books"
+description: "Why and How I love my books?"
 background: '/img/books.jpeg'
 comments: true
 permalink: '/the-allure-of-books/'
@@ -10,7 +10,7 @@ tags:
 - books
 ---
 
-For as long as I can remember, I have been a voracious reader. The habit somehow dropped in my university years for a variety of reasons, but I have never felt out of place with a book on my hand. Last year, I read 40 books and this year I have read 22 books so far. I don't compain about those numbers. (See [this link](https://manjilsaikia.in/books/) for all the books I have read since August 2014.)
+For as long as I can remember, I have been a voracious reader. The habit somehow dropped in my university years for a variety of reasons, but I have never felt out of place with a book on my hand. Last year, I read 40 books and this year I have read 22 books so far. I don't compain about those numbers. (See [this link](/books/) for all the books I have read since August 2014.)
 
 There was a time when I did not have enough money on my hands to buy all the books I wanted, and then I discovered the magic of old book stores. There is something in the air of old book stores, the smell of chlorine (from the old book pages), and the layer of dust one has to remove from a book to glimpse it's cover and then finally finding something that you really want to buy. That is the stuff of magic! The added benefit of being low priced was a boon to the teenager in me with very little money. My favourite haunt was a tiny book shop in Tezpur which was quite well hidden, yet it was still in plain sight. The book store was located in a slope on a road, where no one usually stopped, everyone went uphill to reach the traffic signal just 100 metres or so away. Once, I discovered that place, I would go there as often as I could, even when I didn't have the money to buy books. The owner became a friend and he would keep titles for me, which he thought I would like to read. Now, the store still exists in my home town - Tezpur, but at a different location. Unfortunately, I have not been there since it changed location. 
 
