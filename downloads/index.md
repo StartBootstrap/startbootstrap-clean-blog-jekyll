@@ -1,5 +1,2 @@
----
-layout: page
-title: Nothing Here.
-----
-Nothing here!
+
+Nothing here! Click on the menu items.
