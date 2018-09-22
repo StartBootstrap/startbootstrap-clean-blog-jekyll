@@ -68,3 +68,23 @@ Please think of this 4 as a 5.
 Harold Potter came, then some magic happened.
 
 ***Michael Schlosser*** referring to a result by H. Potter, mathematician, Vienna, 2017.
+
+If you don’t think this is a beautiful formula, then you are in the wrong conference. 
+
+***Ole Warnaar*** while showing a massive hypergeometric identity to an audience at Combinatory Analysis 2018, to celebrate George Andrews' 80th birthday, PennState, June 2018.
+
+Focus on Dyson because, one he is math hero, two he is much older than me, and three he is still alive.
+
+***George Andrews*** making a joke during Combinatory Analysis 2018, to celebrate George Andrews' 80th birthday, PennState, June 2018.
+
+If you don't like ultrafilters, you should not do algebra.
+
+***Hans Schoutens*** while explaining ultrafilters at a summer school for PhD students of the University of Vienna, Techendorf, Austria, September 2018.
+
+The biology group has about 50 members and 5000 mice, ...., this is the math building with about 15 members and no mice.
+
+***László Erdős*** while giving a short description of IST Austria at a summer school for PhD students of the University of Vienna, Techendorf, Austria, September 2018.
+
+Most companies do not use elliptic curves for cryptography because they do not know the difference between elliptic curves and an ellipse.
+
+***Adolfo Quirós Gracián*** while explaining about elliptic curve cryptography at a summer school for PhD students of the University of Vienna, Techendorf, Austria, September 2018.
