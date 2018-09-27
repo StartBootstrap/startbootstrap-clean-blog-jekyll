@@ -29,7 +29,9 @@ Slowly making our way among the hundreds of paintings by master artists that ado
 
 Slowly, we made our way back from the Louvre and into the streets of Paris. I saw the big glass pyramids and thought for a while what I had seen. It was another afternoon of my life that I will never forget. Since then, I have had the chance to see works of Monet, Picasso, Klimt and Munch among others, but the feeling of those two afternoons spent with Da Vinci were very different. It was educative, entertaining and though-provoking. I did have a life-changing afternoon in Milan, it changed the way I see and appreciate beauty. Perhaps, it has made me a better man.
 
-***[This was submitted to an English daily based in Assam about a month back, and I am yet to hear anything related to it. I think they are not going to publish it, so I posted it here because I think it would be a waste otherwise.]***
+***[This was submitted to an English daily based in Assam about a month back (at the time of writing), and I am yet to hear anything related to it. I think they are not going to publish it, so I posted it here because I think it would be a waste otherwise.]***
+
+***I am happy to report that they eventually published this piece.***
 
 *[There are no pictures from Milan as cameras were not allowed inside the exhibition halls.]*
 
