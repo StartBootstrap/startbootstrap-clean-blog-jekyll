@@ -5,7 +5,7 @@ subtitle: "Last of the three part series."
 comments: true
 background: '/img/unesco.jpg'
 date: '2016-07-18 18:19:27'
-tags: travel
+tags: travel art
 permalink: '/travel-diaries-berlin-part-3/'
 ---
 
