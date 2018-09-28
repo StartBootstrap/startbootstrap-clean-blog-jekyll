@@ -5,7 +5,7 @@ subtitle: "My views on the subject."
 comments: true
 background: '/img/bg-default.jpg'
 date: '2017-04-18 17:43:10'
-tags: india
+tags: india art
 permalink: '/what-is-culture/'
 ---
 
