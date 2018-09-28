@@ -5,7 +5,7 @@ subtitle: "About trips to Milan and Paris."
 comments: true
 background: '/img/bg-default.jpg'
 date: '2015-11-27 13:03:23'
-tags: travel
+tags: travel art
 permalink: '/two-afternoons-with-da-vinci/'
 ---
 
