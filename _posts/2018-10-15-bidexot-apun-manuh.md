@@ -25,7 +25,7 @@ Perhaps, the first reason would be selfish. The commute time from Vienna was les
 for me was I became actively involved in the arrangement. The trust that the people who have organized it in the past placed on me 
 and Sudeshna (a fellow Assamese in Vienna) was immense. They gave us directions and we did some of the local organizing, but it 
 was nothing compared to the effort that everyone put in at the event, which was held on the foothills of the *Wienerwald* (the Vienna 
-woods), at a small village in Austria called *Sparbach*. Perhaps, at no other time in history has so many people gathered togetehr as 
+woods), at a small village in Austria called *Sparbach*. Perhaps, at no other time in history has so many Assamese people gathered togetehr as 
 a group in Austria. It was a surreal experience for me.
 
 Yashobanta Da (the person who provided the impetus for the whole meet) summarized the feeling aptly, at the conclusion when he 
@@ -47,14 +47,14 @@ were less than 5 km apart in Assam. It does not get better than this. When I wen
 a soft spoken and kind fellow Assamese from Rome. Kabya and I talked before and in the get together, and it was a pleasure to meet him 
 and to watch him help in the running of the meet. I had to leave the get together for some work in Vienna on Friday, but I went there 
 for the second time at night to find a room full of people. All speaking Assamese, it was heaven. I met Eashan (with whom I have 
-only conversed in Instagram; strange, I know), then I met Satya Da, Pranjal Da, Sawat Da, Rakesh Da and so many others. Everyone was 
+only conversed in Instagram; strange, I know), then I met Satya Da, Pranjal Da, Saswat Da, Rakesh Da and so many others. Everyone was 
 warm and everyone made me feel welcome. It made me realize the bonds that we, human beings hold; even without knowing.
 
 Saturday was the day of the *bhoj*, an excellent meal made by Yashobanta Da and Rita Bow, helped by several others. In fact, everyone 
 in the meet did something or the other to make it a succesful one. I have never seen such coordination and such switftness in doing 
 things. The success of the meet lies with everyone who attended (irrespective of whether I mention them by name or not). After the bhoj, 
 we had a small cultural event, which although it officially eneded around midnight, but some of the *kharkhowas* stayed up till 
-6 am crooning to songs by Zubeen Da, Jitul Da, Bhupen Da and even Kishore Da. The start attraction of the show was undoubtedly Jitendra, 
+6 am crooning to songs by Zubeen Da, Jitul Da, Bhupen Da and even Kishore Da. The star attraction of the show was undoubtedly Jitendra, 
 a melodious voice who sang not less than six songs (with a strong public demand), paired brilliantly on instruments by Himan Da and 
 Satya Da. Oh, what bliss it was to listen to him sing; and then later to watch the *nasonis* dancing to Bihu and Jhumur. I thought, 
 if only this happened every weekend.
