@@ -108,6 +108,6 @@ And the whole sky - the playground.<br/>
 They fly away, far away,<br/>
 To nest in an unknown land.
 
-In the moments of solitude, we remember<br/><br/>
+In the moments of solitude, we remember<br/>
 Our brethen abroad.<br/>
 Our brethen abroad.
