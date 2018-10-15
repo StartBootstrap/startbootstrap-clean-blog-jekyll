@@ -64,50 +64,50 @@ same people. I will now count the days for this to happen.
 
 I close the post with an English translation of *Bidexot Apun Manuh* (which does not capture the original in any way).
 
-Every heartbeat holds this for eternity,
-This intimate love.
-Unbreakable, unstoppable,
-This mysterous bond.
+Every heartbeat holds this for eternity,<br/>
+This intimate love.<br/>
+Unbreakable, unstoppable,<br/>
+This mysterous bond.<br/>
 
-Life has it's two wings,
-And the whole sky - the playground.
-They fly away, far away,
+Life has it's two wings,<br/>
+And the whole sky - the playground.<br/>
+They fly away, far away,<br/>
 To nest in an unknown land.
 
-In the moments of solitude, we remember
-Our brethen abroad.
+In the moments of solitude, we remember<br/>
+Our brethen abroad.<br/>
 Our brethen abroad.
 
-With the waves of the Thames,
-And the banks of the Mississippi;
-We search for our friendly Luit.
-Even in this distance
-Every second the heart yearns
+With the waves of the Thames,<br/>
+And the banks of the Mississippi;<br/>
+We search for our friendly Luit.<br/>
+Even in this distance<br/>
+Every second the heart yearns<br/>
 For our utopian Subansiri.
 
-With the waves of the Thames,
-And the banks of the Mississippi;
-We search for our friendly Luit.
-Even in this distance
-Every second the heart yearns
+With the waves of the Thames,<br/>
+And the banks of the Mississippi;<br/>
+We search for our friendly Luit.<br/>
+Even in this distance<br/>
+Every second the heart yearns<br/>
 For our utopian Subansiri.
 
-We brush away the momentary shadows,
-And search for our life's Majuli.
-In the moments of solitude, we remember
-Our brethen abroad.
+We brush away the momentary shadows,<br/>
+And search for our life's Majuli.<br/>
+In the moments of solitude, we remember<br/>
+Our brethen abroad.<br/>
 Our brethen abroad.
 
-Every heartbeat holds this for eternity,
-This intimate love.
-Unbreakable, unstoppable,
+Every heartbeat holds this for eternity,<br/>
+This intimate love.<br/>
+Unbreakable, unstoppable,<br/>
 What is this mysterous bond.
 
-Life has it's two wings,
-And the whole sky - the playground.
-They fly away, far away,
+Life has it's two wings,<br/>
+And the whole sky - the playground.<br/>
+They fly away, far away,<br/>
 To nest in an unknown land.
 
-In the moments of solitude, we remember
+In the moments of solitude, we remember<br/><br/>
 Our brethen abroad.
 Our brethen abroad.
