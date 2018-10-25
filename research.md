@@ -22,6 +22,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and Marcos Villagra*) *Proceedings of WALCOM 2019, Lecture Notes in Computer Science*, Springer, to appear. ([pdf](https://arxiv.org/pdf/1710.04640.pdf))
+
 11. *Enumeration of Domino Tilings of an Aztec Rectangle with boundary defects*, *Advances in Applied Mathematics*, 2017, 89, 41–66. ([pdf](http://gonitsora.com/manjil/papers/Aztec.pdf))
 
 10. *Some Properties of Fibonacci Numbers, Generalized Fibonacci Numbers and Generalized Fibonacci Polynomial Sequences*, (with *Alexandre Laugier*) *Kyungpook Mathematical Journal*, 2017, 57 (1), 1–84. ([pdf](http://gonitsora.com/manjil/papers/kmj.pdf))
@@ -56,9 +58,11 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-7. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) preprint, 2018.
+8. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
 
-6. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and Marcos Villagra*) preprint, 2018. ([pdf](https://arxiv.org/pdf/1710.04640.pdf))
+7. *Almost Circular Balancing Numbers*, preprint, 2018.
+
+6. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) preprint, 2018.
 
 5. *John Forbes Nash, Jr. – A Short Obituary*, *Asia Pacific Mathematics Newsletter*, September 2015, 5 (2), 42 — 43. ([pdf](http://gonitsora.com/manjil/papers/john-nash.pdf))
 
