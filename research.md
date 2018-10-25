@@ -22,7 +22,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
-12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and Marcos Villagra*) *Proceedings of the 13th International Conference and Workshops on Algorithms and Computation (WALCOM) 2019, Lecture Notes in Computer Science (LNCS)*, Springer, to appear. ([pdf](https://arxiv.org/pdf/1710.04640.pdf))
+12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Proceedings of the 13th International Conference and Workshops on Algorithms and Computation (WALCOM) 2019, Lecture Notes in Computer Science (LNCS)*, Springer, to appear. ([pdf](https://arxiv.org/pdf/1710.04640.pdf))
 
 11. *Enumeration of Domino Tilings of an Aztec Rectangle with boundary defects*, *Advances in Applied Mathematics*, 2017, 89, 41–66. ([pdf](http://gonitsora.com/manjil/papers/Aztec.pdf))
 
