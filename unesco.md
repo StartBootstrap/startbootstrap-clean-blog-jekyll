@@ -27,6 +27,11 @@ Old city of Dubrovnik (October 2017)
 
 Historic Centre of Prague (January 2017)
 
+**Denmark**
+
+Kronborg Castle (October 2018)
+Roskilde Cathedral (October 2018)
+
 **France**
 
 Bordeaux, Port of the Moon (March 2016)  
