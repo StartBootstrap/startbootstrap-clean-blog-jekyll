@@ -81,11 +81,14 @@ The books which are marked with a ** are the ones that I am either currently rea
 64. **No Full Stops in India**, *Mark Tully*, Penguin Books, 1992.
 65. **Vienna Mixed Set**, *T. H. Enge*, CreateSpace Independent Publishing Platform, 2018.
 66. **What Little I Remember**, *Otto Frisch*, Cambridge University Press, 1991.
-67. ** **India: From Midnight to the Millennium and Beyond**, *Shashi Tharoor*, Penguin Books, 2007.
-68. ** **The Fall of Yugoslavia**, *Misha Glenny*, Penguin Books, 1996.
-69. ** **Indiscrete Thoughts**, *Gian-Carlo Rota (Edited by Fabrizio Palombi)*, Birkhauser Boston, 1997.
+67. **Strangers of the Mist: Tales of War and Peace from India's Northeast**, *Sanjoy Hazarika*, Penguin Books, 1995.
+68. **Strangers No More: New Narratives from India's Northeast**, *Sanjoy Hazarika*, Aleph Book Company, 2018.
+69. **Blood On My Hands: Confessions of Staged Encounters**, *Kishalay Bhattacharjee*, HarperCollins Publishers India, 2015.
 70. ** **The G. H. Hardy Reader**, *Donald J. Albers (ed.), Gerald L. Alexanderson (ed.) and William Dunham (ed.)*, Mathematical Association of America – Cambridge University Press, 2015.
 71. ** **The Man Who Mistook His Wife for a Hat**, *Oliver Sacks*, Picador, 2011.
+72. ** **India: From Midnight to the Millennium and Beyond**, *Shashi Tharoor*, Penguin Books, 2007.
+73. ** **The Fall of Yugoslavia**, *Misha Glenny*, Penguin Books, 1996.
+74. ** **Indiscrete Thoughts**, *Gian-Carlo Rota (Edited by Fabrizio Palombi)*, Birkhauser Boston, 1997.
 
 
 ## Fiction
