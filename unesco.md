@@ -29,7 +29,7 @@ Historic Centre of Prague (January 2017)
 
 **Denmark**
 
-Kronborg Castle (October 2018)
+Kronborg Castle (October 2018)  
 Roskilde Cathedral (October 2018)
 
 **France**
