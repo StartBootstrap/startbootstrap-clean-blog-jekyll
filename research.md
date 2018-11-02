@@ -48,9 +48,9 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Solutions to Problems
 
-2. *Solution to Problem 4 of The Mathematics Student, 2015 (1-2)*, *The Mathematics Student, *July — December 2015, 84 (3-4), 181. ([pdf](http://gonitsora.com/manjil/publ/solutions/ms-4.pdf))
+2. *Solution to Problem 4 of The Mathematics Student, 2015 (1-2)*, *The Mathematics Student*, July — December 2015, 84 (3-4), 181. ([pdf](http://gonitsora.com/manjil/publ/solutions/ms-4.pdf))
 
-1. *Solution to Problem 1908 of Mathematics Magazine*, (with *Bishal Deb*), *The Mathematics Magazine, *December 2013, 86 (5), 384 — 385. ([pdf](http://gonitsora.com/manjil/publ/solutions/1908.pdf))
+1. *Solution to Problem 1908 of Mathematics Magazine*, (with *Bishal Deb*), *The Mathematics Magazine*, December 2013, 86 (5), 384 — 385. ([pdf](http://gonitsora.com/manjil/publ/solutions/1908.pdf))
 
 ## Books
 
