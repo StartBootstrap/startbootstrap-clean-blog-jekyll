@@ -34,6 +34,8 @@ Here are some more general tips:
 6. Go to conferences in India and network with people. It helps to be known.
 7. Give every competitive examination in India related to your studies, like NET, GATE, etc. even if you do not plan to stay in India.
 8. A PhD is an investment, so you need to be very clear about what you want to do. You cannot say, I want to do a PhD in mathematics. You should be more narrow and specific.
+9. Spend some time in preparation for the GRE, it is not as easy as it looks, for many students.
+10. Do not spend too much time on TOEFL, it is much easy then it actually sounds. I followed just one book and studied diligently for a week and scored 112/120. Take inspiration from that.
 
 If there is some specific query which is not answered by this post, then you can [contact me](/contact) and I will try to answer it. I will be fairly comfortable in answering questions about the process for admissions in North America, UK and Europe. There are several other people, who have country specific knowledge and they have kindly agreed to share there expertise with someone in need. I list them below, with a link to their Facebook profile and the country where they are situated at the moment.
 
