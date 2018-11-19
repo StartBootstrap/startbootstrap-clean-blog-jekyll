@@ -89,6 +89,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 72. ** **India: From Midnight to the Millennium and Beyond**, *Shashi Tharoor*, Penguin Books, 2007.
 73. ** **The Fall of Yugoslavia**, *Misha Glenny*, Penguin Books, 1996.
 74. ** **Indiscrete Thoughts**, *Gian-Carlo Rota (Edited by Fabrizio Palombi)*, Birkhauser Boston, 1997.
+75. **The Accidental Prime Minister: The Making and Unmaking of Manmohan Singh**, *Sanjaya Baru*, Penguin Books, 2017.
 
 
 ## Fiction
@@ -126,6 +127,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 31. **Twilight in Delhi**, *Ahmed Ali*, Rupa, 2017.
 32. ** **A Horse Walks into a Bar**, *David Grossman (Translated by Jessica Cohen)*, Jonathan Cape, 2016.
 33. ** **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
+34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
 
 
 ## Graphic Books
