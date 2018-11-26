@@ -90,6 +90,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 73. ** **The Fall of Yugoslavia**, *Misha Glenny*, Penguin Books, 1996.
 74. ** **Indiscrete Thoughts**, *Gian-Carlo Rota (Edited by Fabrizio Palombi)*, Birkhauser Boston, 1997.
 75. **The Accidental Prime Minister: The Making and Unmaking of Manmohan Singh**, *Sanjaya Baru*, Penguin Books, 2017.
+76. **The Merely Personal: Observations on Science and Scientists**, *Jeremy Bernstein*, Ivan R. Dee, 2001.
+77. **The Life It Brings: One Physicist's Beginnings**, *Jeremy Bernstein*, Penguin Books, 1988.
 
 
 ## Fiction
