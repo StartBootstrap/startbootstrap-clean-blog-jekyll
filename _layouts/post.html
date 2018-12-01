@@ -42,9 +42,15 @@ layout: default
         {% if page.next.url %}
         <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         {% endif %}
-
       </div>
-
+      <div style="display:flex;flex-direction:column">
+        {% include fb_comments.html %}
+        {% if page.fbcomments %}
+        <hr/>
+        <h4>Comments</h4>
+        <div class="fb-comments" width="50%" data-href="https://keyurparalkar.github.io/{{ page.url }}" data-numposts="5"></div>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
