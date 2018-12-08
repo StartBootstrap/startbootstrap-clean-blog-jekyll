@@ -51,7 +51,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 34. **Kohinoor: The Story of the World’s Most Infamous Diamond**, *William Dalrymple and Anita Anand*, Juggernaut Books, 2016.
 35. **City of Djinns: A Year in Delhi**, *William Dalrymple*, Flamingo, 1994.
 36. **The Great Derangement**, *Amitav Ghosh*, Allen Lane (Penguin), 2016.
-37. **Useless Facts Vienna**, *StadtBekannt Wien, *Holzbaum Verlag, 2014.
+37. **Useless Facts Vienna**, *StadtBekannt Wien*, Holzbaum Verlag, 2014.
 38. **Eurekas and Euphorias: The Oxford Book of Scientific Anecdotes**, *Walter Gratzer*, Oxford University Press, 2002.
 39. **The Accidental Scientist: The Role of Chance and Luck in Scientific Discovery**, *Graeme Donald*, Michael O’Mara Books Limited, 2017.
 40. **Secret Vienna Stories: Legends, facts and locations for the true explorer**, *Fabio M. Aromatici*, CreateSpace Independent Publishing Platform, 2016.
@@ -92,6 +92,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 75. **The Accidental Prime Minister: The Making and Unmaking of Manmohan Singh**, *Sanjaya Baru*, Penguin Books, 2017.
 76. **The Merely Personal: Observations on Science and Scientists**, *Jeremy Bernstein*, Ivan R. Dee, 2001.
 77. **The Life It Brings: One Physicist's Beginnings**, *Jeremy Bernstein*, Penguin Books, 1988.
+78. **Who Got Einstein's Office?: Eccentricity and Genius at the Institute for Advanced Study**, *Ed Regis*, Simon and Schuster, 1988.
 
 
 ## Fiction
@@ -143,6 +144,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 7. **A boy named Charlie Brown**, *Charles M. Schulz*, Brockhampton Press, 1970.
 8. **The New Yorker 1950-1955 Album**, Hamish Hamilton, 1955.
 9. **Masters of Abstraction**, *Peter Badge*, Heidelberg Laureate Forum Foundation, 2015.
+10. **Tragidoodles**, *Ben Cameron*, Unbound, 2016.
 
 
 ## Poetry
