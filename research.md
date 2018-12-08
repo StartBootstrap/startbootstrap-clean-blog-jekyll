@@ -58,9 +58,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-8. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
-
-7. *Almost Circular Balancing Numbers*, preprint, 2018.
+7. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
 
 6. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) preprint, 2018.
 
