@@ -93,6 +93,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 76. **The Merely Personal: Observations on Science and Scientists**, *Jeremy Bernstein*, Ivan R. Dee, 2001.
 77. **The Life It Brings: One Physicist's Beginnings**, *Jeremy Bernstein*, Penguin Books, 1988.
 78. **Who Got Einstein's Office?: Eccentricity and Genius at the Institute for Advanced Study**, *Ed Regis*, Simon and Schuster, 1988.
+79. **Three Degrees Above Zero: Bell Labs in the Information Age**, *Jeremy Bernstein*, Charles Scribner's Sons, 1984.
+80. **Serendipity: Accidental Discoveries in Science**, *Royston M. Roberts*, John Wiley & Sons, Inc., 1989.
 
 
 ## Fiction
