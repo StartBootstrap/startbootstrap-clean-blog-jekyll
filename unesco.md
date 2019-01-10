@@ -19,6 +19,10 @@ Historic Centre of Vienna (January 2015)
 Prehistoric Pine Dwellings Around the Alps (November 2015)  
 Wachau Cultural Landscape (April 2018)
 
+**Bulgaria**
+
+Rila Monastery (December 2018)
+
 **Croatia**
 
 Old city of Dubrovnik (October 2017)
@@ -76,3 +80,7 @@ Venice and its Lagoon (December 2014)
 Defence Line of Amsterdam (January 2017)  
 Mill Network of Kinderdjik (January 2017)  
 Canal Ring Area of Amsterdam (January 2017)
+
+**Romania**
+
+Historic Centre of Sighișoara (December 2018)
