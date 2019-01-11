@@ -2,7 +2,7 @@
 layout: default-layout
 ---
 <section class="content" style="min-height:600px">
-<div class="container-fluid clearfix">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
             <h2 class="about" id="all">All Projects</h2>
@@ -10,7 +10,6 @@ layout: default-layout
               {%for category in page.categories %}
                 <li class="about_nav" id="{{category.ide}}">{{ category.title }}</li>
               {%endfor%}
-              <li class="about_nav"><a href="{{ site.baseurl }}/projects/work-with-us/">Work with us</a></li>
             </ul>
         </div>
         <div class="col-md-4" style="padding-top:53px">
