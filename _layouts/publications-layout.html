@@ -28,10 +28,19 @@ layout: default-layout
 
             {% for pub in site.tags['brochures'] %}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><a href="{{pub.docurl}}" class="dark">{{pub.title}}.</a></h3>
+                <h3 class="pub-name"><a href="{{pub.docurl}}" class="dark">{{pub.title}}{% if pub.year %}&nbsp;({{pub.year}}){% endif %}.</a></h3>
                 <a href="{{pub.docurl}}" style="font-size:13.5pt;" class="dark">Brochure for the project {{pub.title}}</a>
               </li>
             {% endfor %}
+            {{ site.tags }}
+            <br>
+            {% for pub in site.tags['presentations'] %}
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+                <h3 class="pub-name"><span class="dark">{{pub.title}}.</span></h3>
+                <a href="" style="font-size:13.5pt;" class="dark">Presentation for {{pub.title}}</a>
+              </li>
+            {% endfor %}
+
             {% for post in site.tags['research'] %}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
               <!--<div><a href="/publications/research"><h2 class="about" id="current_about_publications">RESEARCH IN PLAY</a></div>
