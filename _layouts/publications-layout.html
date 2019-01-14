@@ -32,12 +32,16 @@ layout: default-layout
                 <a href="{{pub.docurl}}" style="font-size:13.5pt;" class="dark">Brochure for the project {{pub.title}}</a>
               </li>
             {% endfor %}
-            {{ site.tags }}
-            <br>
+
             {% for pub in site.tags['presentations'] %}
               <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><span class="dark">{{pub.title}}.</span></h3>
-                <a href="" style="font-size:13.5pt;" class="dark">Presentation for {{pub.title}}</a>
+                {% if pub.link %}
+                  <h3 class="pub-name"><a href="{{pub.link}}" class="dark">{{pub.title}}</a></h3>
+                  <a href="{{pub.link}}" style="font-size:13.5pt;" class="dark">{{pub.description}}</a>
+                {% else %}
+                  <h3 class="pub-name"><span class="dark">{{pub.title}}</span></h3>
+                  <span style="font-size:13.5pt;" class="dark">{{pub.description}}</span>
+                {% endif %}
               </li>
             {% endfor %}
 
@@ -53,7 +57,6 @@ layout: default-layout
 
         </div>
 
-        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:-3px;"></div>
     </div>
 </div>
 </section>
