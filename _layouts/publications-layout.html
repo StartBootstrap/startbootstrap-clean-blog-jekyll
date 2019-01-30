@@ -42,6 +42,9 @@ layout: default-layout
                   <h3 class="pub-name"><span class="dark">{{pub.title}}</span></h3>
                   <span style="font-size:13.5pt;" class="dark">{{pub.description}}</span>
                 {% endif %}
+                {% if pub.link2 %}
+                  <b><i><a href="{{pub.link2}}" style="font-size:13.5pt;" class="dark">[Link]</a></i></b>
+                {% endif %}
               </li>
             {% endfor %}
 
