@@ -24,7 +24,7 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
-1. Create the following pages if they do not exist already (or change the extension of exsiting markdown files from `.md` to `.html`):
+1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
    - `index.html` - set to `layout: home`
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
@@ -116,6 +116,7 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `twitter_username` (Optional)
    - `facebook_username` (Optional)
    - `github_username` (Optional)
+   - `linkedin_username` (Optional)
 3. Build your site: `bundle exec jekyll serve`
 
 ## Bugs and Issues
