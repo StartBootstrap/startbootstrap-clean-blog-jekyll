@@ -107,7 +107,7 @@ When using the core files, the demo images, posts, and pages are all included wi
 
 1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
 2. Update the following configuration settings in your `_config.yml` file:
-   - `baserul`
+   - `baseurl`
    - `url`
    - `title`
    - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
