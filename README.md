@@ -19,12 +19,12 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 1. (Optional) Create a new Jekyll site: `jekyll new my-site`
 2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
 3. Install the theme: `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-awesome`.
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
 5. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
-1. Create the following pages if they do not exist already (or change the extension of exsiting markdown files from `.md` to `.html`):
+1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
    - `index.html` - set to `layout: home`
    - `about.html` - set to `layout: page`
    - `contact.html` - set to `layout: page`
@@ -107,7 +107,7 @@ When using the core files, the demo images, posts, and pages are all included wi
 
 1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
 2. Update the following configuration settings in your `_config.yml` file:
-   - `baserul`
+   - `baseurl`
    - `url`
    - `title`
    - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
@@ -116,6 +116,7 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `twitter_username` (Optional)
    - `facebook_username` (Optional)
    - `github_username` (Optional)
+   - `linkedin_username` (Optional)
 3. Build your site: `bundle exec jekyll serve`
 
 ## Bugs and Issues
