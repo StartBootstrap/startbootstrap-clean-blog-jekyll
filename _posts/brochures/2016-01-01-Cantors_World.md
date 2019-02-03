@@ -1,6 +1,6 @@
 ---
 layout: publication-layout
-yar: 2016
+year: 2016
 title: Cantor's world
 ide: cantors world
 tag: brochures

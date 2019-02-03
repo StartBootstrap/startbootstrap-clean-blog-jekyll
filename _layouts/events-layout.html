@@ -1,38 +1,77 @@
 ---
 layout: default-layout
+bg-url: /img/background-updates.png
+title: Events & Updates
 ---
 <section class="content">
-<div class="container-fluid clearfix" style="min-height: 600px">
-    <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-          {% include events-nav.html %}
+    <div class="container-fluid clearfix" style="min-height: 600px">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-2">
+                {% include events-nav.html %}
+            </div>
+            <!-- <div class="col-md-4" style="padding-top:55px">
+                <div class="blog-update">
+                    <h3 id="blog-title"></h3>
+                    <p id="blog-snippet"></p>
+                </div>
+                <div class="blog-update" style="margin-top:40px">
+                    <h3 id="podcast-title"></h3>
+                    <p id="podcast-audio"></p>
+                </div>
+            </div> -->
+            <div class="col-md-6" style="padding-top:25px">
+                <div class="tweet-update">
+                    <a class="twitter-timeline"  href="https://twitter.com/fovlabs" data-widget-id="694797707907506176" height="550px" width="100%" data-chrome="nofooter transparent noheader transparent">Tweets by @fovlabs</a>
+                    <script>
+                    ! function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4" style:"padding-top:12px; margin-top:-40px;" >
-          {% if page.posters == null%}
-            <p class="project-intro" style="padding-top:45px">Sorry, there are no upcoming events at the moment. Check this space for updates!</p>
-          {% endif %}
-          <p> Request a game session. Write to us at <a href="mailto:info@fieldsofview.in" class="mailid">info@fieldsofview.in</a></p>
-
-          <ul class="new-events-list">
-          {%for posters in page.posters%}
-          <li id="{{posters.ide}}"><img src="{{posters.img}}" style="width:100%; padding-left:0px"/></li>
-          {%endfor %}
-        </ul>
-        </div>
-
-          <div class="col-md-3" style="padding-top:30px">
-          <ul class="new-events-list2">
-            {% for posters in page.posters %}
-              <li>
-                <h3 class="event-heading">{{posters.heading}}</h3>
-                <span class="italic2">{{posters.when}}</span>
-                <p class="simple-content">{{ posters.description }}</p>
-              </li>
-            {% endfor %}
-          </ul>
-          </div>
-
-          <div class="col-md-1" style="margin-top:24px; border-bottom: 1.5px solid #939393"></div>
-      </div>
-  </div>
+    </div>
 </section>
+<!-- <script>
+$(document).ready(function() {
+    urlBlog = 'http://blog.fieldsofview.in/feed/';
+    urlPodcast = "http://blog.fieldsofview.in/tag/podcast/feed/";
+
+    var YQLstr = 'SELECT channel.item FROM feednormalizer WHERE output="rss_2.0" AND url ="' + urlBlog + '" LIMIT ' + '1';
+    $.ajax({
+        type: "GET",
+        url: "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(YQLstr) + "&format=json&diagnostics=false&callback=?",
+        dataType: 'json',
+        error: function() {
+            alert('Unable to load feed, Incorrect path or invalid feed');
+        },
+        success: function(xml) {
+            title = xml.query.results.rss.channel.item.title;
+            snippet = xml.query.results.rss.channel.item.description;
+            $("#blog-title").html(title);
+            $("#blog-snippet").html(snippet);
+        }
+    });
+
+
+    var YQLstr = 'SELECT channel.item FROM feednormalizer WHERE output="rss_2.0" AND url ="' + urlPodcast + '" LIMIT ' + '1';
+    $.ajax({
+        type: "GET",
+        url: "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(YQLstr) + "&format=json&diagnostics=false&callback=?",
+        dataType: 'json',
+        error: function() {
+            alert('Unable to load feed, Incorrect path or invalid feed');
+        },
+        success: function(xml) {
+            title = xml.query.results.rss.channel.item.title;
+            snippet = xml.query.results.rss.channel.item.description;
+            audio = xml.query.results.rss.channel.item.enclosure.url;
+            $("#podcast-title").html(title);
+            $("#podcast-snippet").html(snippet);
+            $("#podcast-audio").html("<audio controls><source src='" + audio + "' ></audio><br/>You can also listen to the podcast here.");
+        }
+    });
+});
+</script> -->

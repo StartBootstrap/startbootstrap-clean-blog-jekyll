@@ -23,9 +23,9 @@ bg-url: {{page.bg-url}}
           <span class="italic2" style="font-size:15pt">Previous Newsletters</span>
         </div>
         
-        <div class="row-fluid" style="margin-left:-15px">
+        <div class="row-fluid wrapper" style="margin-left:-15px;display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 10px;grid-auto-rows: minmax(100px, auto);">
           {% for nl in page.newsletters %}
-            <div class="col-md-4">
+            <div class="col">
             {% for n in nl %}
               <h3 class="team-name" style="padding-top:38px">{{n[1][0]['categories']}}</h3>
             {%endfor%}
@@ -41,7 +41,5 @@ bg-url: {{page.bg-url}}
         </div>
       </div>
     </div>
-
-    <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:61px"></div>
   </div>
 </section>
