@@ -131,7 +131,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 30. **More Bodies Will Fall**, *Ankush Saikia*, Penguin Books, 2018.
 31. **Twilight in Delhi**, *Ahmed Ali*, Rupa, 2017.
 32. ** **A Horse Walks into a Bar**, *David Grossman (Translated by Jessica Cohen)*, Jonathan Cape, 2016.
-33. ** **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
+33. **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
 34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
 
 
