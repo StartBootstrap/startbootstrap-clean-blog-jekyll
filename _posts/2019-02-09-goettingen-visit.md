@@ -9,7 +9,7 @@ comments: true
 permalink: '/a-mathematical-pilgrimage-to-goettingen/'
 ---
 
-*(This article originally appeared in the online magazine **(Biriyaa)[https://biriyaa.com/a-mathematical-pilgrimage-goettingen/]**.)*
+*(This article originally appeared in the online magazine **[Biriyaa](https://biriyaa.com/a-mathematical-pilgrimage-goettingen/)**, and I am grateful to the team of Biriyaa for allowing me to repost it here.)*
 
 Mathematics as a subject has had a much longer and varied history than many other scientific disciplines. The reasons for this are numerous, but the major impetus was its usefulness in calculating assets and probably even taxes for old empires. However, the most important facet for its early history was that it was a thinking game, and was independent of location or individual prejudice. In all of mathematical history, perhaps no other place has exerted a greater influence on its modern development, then a small German town called Goettingen. 
 
