@@ -1,7 +1,7 @@
 {
     "title": "Clean Blog Jekyll",
     "name": "startbootstrap-clean-blog-jekyll",
-    "version": "4.0.2",
+    "version": "4.0.4",
     "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
     "keywords": [
         "css",
@@ -26,10 +26,10 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
     },
     "dependencies": {
-        "bootstrap": "4.2.1",
+        "bootstrap": "4.3.1",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
-        "startbootstrap-clean-blog": "5.0.3"
+        "startbootstrap-clean-blog": "5.0.4"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
