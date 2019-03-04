@@ -4,6 +4,8 @@ description:       Study Game Programming With UnrealEngine4
 author:            Kim Ju-Yeong, ReDvGaMe
 baseurl:           /
 url:               "http://redvgame.github.io"
+search:            true # 사이트 우측 상단 검색 활성화
+search_full_content: # 제목이 아닌 내용까지도 검색할 것인지에 대한 설정 기본 false
 
 # Social Profiles
 twitter_username:  
