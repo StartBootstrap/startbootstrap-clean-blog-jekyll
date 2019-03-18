@@ -1,19 +1,18 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title: MIP-Frontiers
+email: mip-frontiers@upf.edu
+description: New Frontiers in Music Information Processing
+author: MIP-Frontiers
+url: "https://mip-frontiers.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username: mip_frontiers
+github_username: mip-frontiers
 
 # Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+background_color: "#205cac"
 plugins:
   - jekyll-feed
   - jekyll-paginate

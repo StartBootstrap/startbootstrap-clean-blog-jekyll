@@ -11,3 +11,5 @@ Original code of Clean Blog Jekyll copyrighted by 2013-2019 Blackrock Digital LL
 ## Funding
 
 MIP-Frontiers project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowsa-Curie grant agreement No. 765068
+
+![EU flag](img/eu.svg)
