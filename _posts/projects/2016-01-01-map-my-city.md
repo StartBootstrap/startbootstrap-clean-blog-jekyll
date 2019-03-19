@@ -14,7 +14,6 @@ description: <p class="simple-content">Cities are the basis of our society and c
 collaborations: This work was funded by and carried out in collaboration with TARU Leading Edge, Gurgaon.
 img1: /img/map-my-city-img-1.jpg
 img2: /img/map-my-city-img-2.jpg
-play: Play Map my City.
 ide: map-my-city
 categories: project
 thread: Policy Lab, School of Policy
