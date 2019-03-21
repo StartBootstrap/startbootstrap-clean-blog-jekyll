@@ -96,6 +96,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 79. **Three Degrees Above Zero: Bell Labs in the Information Age**, *Jeremy Bernstein*, Charles Scribner's Sons, 1984.
 80. **Serendipity: Accidental Discoveries in Science**, *Royston M. Roberts*, John Wiley & Sons, Inc., 1989.
 81. **Great Feuds in Science: Ten of the Liveliest Disputes Ever**, *Hal Hellman*, John Wiley & Sons, Inc., 1998.
+82. **Bookless in Baghdad and Other Writings about Reading**, *Shashi Tharoor*, Penguin Viking, India, 2005.
+83. **Things That Can and Cannot Be Said: Essays and Conversations**, *Arundhati Roy and John Cusack*, Juggernaut Books, 2016.
+84. **Seven Brief Lessons on Physics**, *Carlo Rovelli*, Penguin Random House UK, 2016.
 
 
 ## Fiction
@@ -134,6 +137,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 32. ** **A Horse Walks into a Bar**, *David Grossman (Translated by Jessica Cohen)*, Jonathan Cape, 2016.
 33. **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
 34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
+35. **Of Mice and Men**, *John Steinbeck*, Penguin Books, 1993.
 
 
 ## Graphic Books
