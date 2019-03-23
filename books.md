@@ -98,7 +98,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 81. **Great Feuds in Science: Ten of the Liveliest Disputes Ever**, *Hal Hellman*, John Wiley & Sons, Inc., 1998.
 82. **Bookless in Baghdad and Other Writings about Reading**, *Shashi Tharoor*, Penguin Viking, India, 2005.
 83. **Things That Can and Cannot Be Said: Essays and Conversations**, *Arundhati Roy and John Cusack*, Juggernaut Books, 2016.
-84. **Seven Brief Lessons on Physics**, *Carlo Rovelli*, Penguin Random House UK, 2016.
+84. **Seven Brief Lessons on Physics**, *Carlo Rovelli (Translated by Simon Carnell and Erica Segre)*, Penguin Random House UK, 2016.
 
 
 ## Fiction
@@ -138,6 +138,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 33. **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
 34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
 35. **Of Mice and Men**, *John Steinbeck*, Penguin Books, 1993.
+36. **Candide**, *Voltaire (Translated by anonymous)*, Dover Publications, 1991.
 
 
 ## Graphic Books
