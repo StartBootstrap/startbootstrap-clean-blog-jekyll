@@ -99,6 +99,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 82. **Bookless in Baghdad and Other Writings about Reading**, *Shashi Tharoor*, Penguin Viking, India, 2005.
 83. **Things That Can and Cannot Be Said: Essays and Conversations**, *Arundhati Roy and John Cusack*, Juggernaut Books, 2016.
 84. **Seven Brief Lessons on Physics**, *Carlo Rovelli (Translated by Simon Carnell and Erica Segre)*, Penguin Random House UK, 2016.
+85. **Khushwantnama: The Lessons of My Life**, *Khushwant Singh*, Penguin Books, 2014.
+86. **Non Stop India**, *Mark Tully*, Penguin Books, 2013.
 
 
 ## Fiction
@@ -153,6 +155,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 8. **The New Yorker 1950-1955 Album**, Hamish Hamilton, 1955.
 9. **Masters of Abstraction**, *Peter Badge*, Heidelberg Laureate Forum Foundation, 2015.
 10. **Tragidoodles**, *Ben Cameron*, Unbound, 2016.
+11. **The Very Best of The Common Man**, *R. K. Laxman*, Penguin Books India, 2012.
 
 
 ## Poetry
