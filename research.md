@@ -32,7 +32,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 8. *A combinatorial proof of a result on generalized Lucas Polynomials*, (with *Alexandre Laugier*) *Demonstratio Mathematica*, 2016, 49 (3), 266–270. ([pdf](http://gonitsora.com/manjil/papers/demmath.pdf))
 
-7. *A study of the crank function in Ramanujan’s Lost Notebook*, *The Mathematics Student*, 2015, 84 (1-2), 105 — 121. ([pdf](http://gonitsora.com/manjil/papers/cranks.pdf))
+7. *A study of the crank function in Ramanujan’s Lost Notebook*, *The Mathematics Student*, 2015, 84 (1-2), 105 — 121. ([pdf](https://arxiv.org/pdf/1406.3299.pdf))
 
 6. *Some results about Linear Recurrence Relation Homomorphisms*, (with *Alexandre Laugier*) *Notes on Number Theory and Discrete Mathematics*, 2014, 20 (4), 58 — 68. ([pdf](http://arxiv.org/pdf/1305.5743.pdf))
 
@@ -68,7 +68,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 3. *Periodic Sequences modulo $m$*, (with *Alexandre Laugier*) *prepint*, 2015. ([pdf](http://arxiv.org/pdf/1209.2371v3.pdf))
 
-2. *Gonit Sora-the two year journey*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Asia Pacific Mathematics Newsletter*, October 2013, 3 (4), 25 — 27. ([pdf](http://gonitsora.com/wp-content/images/2013/11/Gonit-Sora-The-Two-Year-Journey-Asia-Pacific-Math-Newsletter.pdf))
+2. *Gonit Sora-the two year journey*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Asia Pacific Mathematics Newsletter*, October 2013, 3 (4), 25 — 27. ([pdf](/publ/papers/gonit-sora-apmn.pdf))
 
 1. *An interesting number theoretic problem*, *Ganit Bikash*, 2011. ([pdf](http://arxiv.org/pdf/1208.3125.pdf))
 
