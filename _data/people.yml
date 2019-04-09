@@ -1,9 +1,97 @@
-esrs:
-  - name: Philip Tovstogan
-    website: https://philtgun.me/
-    email: philip.tovstogan@upf.edu
-  - name: Antonio Ramires
-    website: https://aframires.github.io/
-    email: antonio.ramires@upf.edu
-  - name: John Doe
-  - name: Robert Doe
+groups:
+  - name: Univesitat Pompeu Fabra
+    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf-mtg.svg" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 40px;"></a></div>'
+    esrs:
+    - name: Philip Tovstogan
+      photo: upf1-philip.jpg
+      id: philip
+      code: UPF1
+
+      topic: Facilitating Interactive Music Exploration
+      supervisors:
+        - name: Xavier Serra
+          web: https://www.upf.edu/web/xavier-serra
+        # - name: Dmitry Bogdanov
+        #   web: https://dbogdanov.github.io/
+
+      email: philip.tovstogan@upf.edu
+      website: https://philtgun.me/
+      github: philtgun
+      linkedin: philtgun
+      twitter: philtgun
+
+      logo: upf-mtg.svg
+
+    - name: António Ramires
+      photo: upf2-antonio.jpg
+      id: antonio
+      code: UPF2
+
+      topic: Methods for Supporting Electronic Music Production with Large-Scale Sound Databases
+      supervisors:
+        - name: Xavier Serra
+          web: https://www.upf.edu/web/xavier-serra
+        # - name: Frederic Font
+
+      email: antonio.ramires@upf.edu
+
+    - name: Furkan Yesiler
+      photo: upf3-furkan.jpg
+      id: furkan
+      code: UPF3
+
+      topic: Identifying and Understanding Versions of Songs with Computational Approaches
+      supervisors:
+        - name: Emilia Gómez
+        - name: Emilio Molina
+
+      email: furkan.yesiler@upf.edu
+
+  - name: Télécom ParisTech
+    logo: '<a href="https://www.tsi.telecom-paristech.fr/en/"><img src="/img/logos/tpt.svg" alt="Information communication and Processing Lab (LTCI), Télécom ParisTech (TPT)" class="img-fluid" style="max-height: 40px;"></a>'
+    esrs:
+      - name: Karim Ibraheem
+        photo: tpt1-karim.jpg
+
+      - name: Kilian Schulze-Forster
+        photo: tpt2-kilian.jpg
+
+      - name: Giorgia Cantisani
+        photo: tpt3-giorgia.jpg
+
+      - name: Ondřej Cífka
+        photo: tpt4-ondrej.jpg
+
+      - name: Javier Nistal
+        photo: tpt5-javier.jpg
+        logo: '<a href="https://www.csl.sony.fr/"><img src="/img/logos/sony.png" alt="Sony Computer Science Laboratory" class="img-fluid" style="max-height: 20px;"></a>'
+
+
+  - name: Queen Mary University of London
+    logo: '<a href="http://c4dm.eecs.qmul.ac.uk/"><img src="/img/logos/qmul.png" alt="Centre for Digital Music (C4DM), Queen Mary University of London (QMUL)" class="img-fluid" style="max-height: 40px;"></a>'
+    esrs: 
+      - name: Emir Demirel
+        photo: qmul1-emir.jpg
+        logo: '<a href="http://doremir.com/"><img src="/img/logos/doremir.png" alt="DoReMIR Music Research" class="img-fluid" style="max-height: 40px"></a>'
+
+      - name: Carlos Lordelo
+        photo: qmul2-carlos.jpg
+
+      - name: Ruchit Agrawal
+        photo: qmul3-ruchit.jpg
+
+      - name: Alejandro Delgado
+        photo: qmul4-alejandro.jpg
+        logo: '<a href="https://roli.com/"><img src="/img/logos/roli.jpg" alt="Roli Ltd" class="img-fluid" style="max-height: 50px;"></a>'
+
+      - name: Vinod Subramanian
+        photo: qmul5-vinod.jpg
+
+  - name: Johannes Kepler Universität Linz
+    logo: '<a href="https://www.jku.at/en/institute-of-computational-perception/"><img src="/img/logos/jku.svg" src="Department of Computational Perception (CP), Johannes Kepler University of Linz (JKU)" class="img-fluid" style="max-height: 40px; max-width: 90px;"></a>'
+    esrs:
+      - name: Luís Carvalho
+        photo: jku1-luis.jpg
+
+      - name: Charles Brazier
+        photo: jku2-charles.jpg
