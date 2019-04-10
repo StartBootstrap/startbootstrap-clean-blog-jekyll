@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-description: Fellows and professors
+description: MIP-Frontiers fellows
 width: 12
 ---
 
@@ -16,9 +16,9 @@ width: 12
     	</div>
     	<div class="col-8">
     		<h2 id="{{ esr.id }}">{{ esr.name }}</h2>
-        <div><em>Topic:</em> {{ esr.topic }}</div>
+        <div>Topic: {{ esr.topic }}</div>
     		<div>
-          <em>Supervisor:</em> 
+          <em>Supervisor:
           {% for supervisor in esr.supervisors %}
             {% if supervisor.web %}
               <a href="{{ supervisor.web }}">{{ supervisor.name }}</a> 
@@ -26,6 +26,7 @@ width: 12
               {{ supervisor.name }}
             {% endif %}
           {% endfor %}
+          </em>
         </div>
 
         {% if esr.logo %}

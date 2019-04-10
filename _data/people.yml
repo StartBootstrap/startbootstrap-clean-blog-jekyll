@@ -20,8 +20,6 @@ groups:
       linkedin: philtgun
       twitter: philtgun
 
-      logo: upf-mtg.svg
-
     - name: António Ramires
       photo: upf2-antonio.jpg
       id: antonio
@@ -34,6 +32,7 @@ groups:
         # - name: Frederic Font
 
       email: antonio.ramires@upf.edu
+      github: aframires
 
     - name: Furkan Yesiler
       photo: upf3-furkan.jpg
@@ -43,55 +42,175 @@ groups:
       topic: Identifying and Understanding Versions of Songs with Computational Approaches
       supervisors:
         - name: Emilia Gómez
-        - name: Emilio Molina
+          web: https://emiliagomez.com/
+        # - name: Emilio Molina
 
       email: furkan.yesiler@upf.edu
+      github: furkanyesiler
+      linkedin: furkan-yesiler-30230a40
 
   - name: Télécom ParisTech
     logo: '<a href="https://www.tsi.telecom-paristech.fr/en/"><img src="/img/logos/tpt.svg" alt="Information communication and Processing Lab (LTCI), Télécom ParisTech (TPT)" class="img-fluid" style="max-height: 40px;"></a>'
     esrs:
       - name: Karim Ibraheem
         photo: tpt1-karim.jpg
+        id: Karim
+        code: TPT1
+
+        topic: Audio Content and Context in Music Recommendation
+        supervisors:
+          - name: Gaël Richard
+            web: https://perso.telecom-paristech.fr/grichard/
+
+        email: karim.ibrahim@telecom-paristech.fr
+        linkedin: kmagdy
 
       - name: Kilian Schulze-Forster
         photo: tpt2-kilian.jpg
+        id: kilian
+        code: TPT2
+
+        topic: Text-Informed Lead Vocal Extraction
+        supervisors:
+          - name: Gaël Richard
+            web: https://perso.telecom-paristech.fr/grichard/
+
+        email: kschulze@telecom-paristech.fr
+        linkedin: kilian-schulze-forster
 
       - name: Giorgia Cantisani
         photo: tpt3-giorgia.jpg
+        id: giorgia
+        code: TPT3
+
+        topic: Multimodal Music Recording Remastering
+        supervisors:
+          - name: Gaël Richard
+            web: https://perso.telecom-paristech.fr/grichard/
+
+        email: giorgia.cantisani@telecom-paristech.fr
 
       - name: Ondřej Cífka
         photo: tpt4-ondrej.jpg
+        id: ondrej
+        code: TPT4
+
+        topic: Context-Driven Music Transformation
+        supervisors:
+          - name: Gaël Richard
+            web: https://perso.telecom-paristech.fr/grichard/
+
+        email: ondrej.cifka@telecom-paristech.fr
+        github: cifkao
+        linkedin: ondrej-cifka
 
       - name: Javier Nistal
         photo: tpt5-javier.jpg
         logo: '<a href="https://www.csl.sony.fr/"><img src="/img/logos/sony.png" alt="Sony Computer Science Laboratory" class="img-fluid" style="max-height: 20px;"></a>'
+        id: javier
+        code: TP5
 
+        topic: Conditional Generation of Audio using Deep Neural Networks
+        supervisors:
+          - name: Gaël Richard
+            web: https://perso.telecom-paristech.fr/grichard/
+
+        email: j.nistalhurle@gmail.com
 
   - name: Queen Mary University of London
     logo: '<a href="http://c4dm.eecs.qmul.ac.uk/"><img src="/img/logos/qmul.png" alt="Centre for Digital Music (C4DM), Queen Mary University of London (QMUL)" class="img-fluid" style="max-height: 40px;"></a>'
     esrs: 
       - name: Emir Demirel
         photo: qmul1-emir.jpg
-        logo: '<a href="http://doremir.com/"><img src="/img/logos/doremir.png" alt="DoReMIR Music Research" class="img-fluid" style="max-height: 40px"></a>'
+        id: emir
+        code: QMUL1
+
+        topic: Representation Learning in Singing Voice
+        supervisors:
+          - name: Simon Dixon
+            web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
+
+        email: e.demirel@qmul.ac.uk
+        github: emirdemirel
+        linkedin: emir-demirel-047465156
+        twitter: EmirDemirel9
 
       - name: Carlos Lordelo
         photo: qmul2-carlos.jpg
+        logo: '<a href="http://doremir.com/"><img src="/img/logos/doremir.png" alt="DoReMIR Music Research" class="img-fluid" style="max-height: 40px"></a>'
+        id: carlos
+        code: QMUL2
+
+        topic: Domain Transfer for Automatic Instrument Recognition and Separation to Aid Polyphonic Transcription
+        supervisors:
+          - name: Simon Dixon
+            web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
+
+        email: c.p.viannalordelo@qmul.ac.uk
 
       - name: Ruchit Agrawal
         photo: qmul3-ruchit.jpg
+        id: ruchit
+        code: QMUL3
+
+        topic: Adaptive Semi-Supervised Music Alignment
+        supervisors:
+          - name: Simon Dixon
+            web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
+
+        email: r.r.agrawal@qmul.ac.uk
 
       - name: Alejandro Delgado
         photo: qmul4-alejandro.jpg
         logo: '<a href="https://roli.com/"><img src="/img/logos/roli.jpg" alt="Roli Ltd" class="img-fluid" style="max-height: 50px;"></a>'
+        id: alejandro
+        code: QMUL4
+
+        topic: Fine Grain Time Resolution Audio Features Using Autoregressive Analysis and Representation Learning
+        supervisors:
+          - name: Mark Sandler
+            web: http://www.eecs.qmul.ac.uk/profiles/sandlermark.html
+
+        email: a.delgadoluezas@qmul.ac.uk
 
       - name: Vinod Subramanian
         photo: qmul5-vinod.jpg
+        id: vinod
+        code: QMUL5
+
+        topic: Robust Deep Learning for Music Performance Analysis
+        supervisors: 
+          - name: Mark Sandler
+            web: http://www.eecs.qmul.ac.uk/profiles/sandlermark.html
+
+        email: v.subramanian@qmul.ac.uk
 
   - name: Johannes Kepler Universität Linz
     logo: '<a href="https://www.jku.at/en/institute-of-computational-perception/"><img src="/img/logos/jku.svg" src="Department of Computational Perception (CP), Johannes Kepler University of Linz (JKU)" class="img-fluid" style="max-height: 40px; max-width: 90px;"></a>'
     esrs:
       - name: Luís Carvalho
         photo: jku1-luis.jpg
+        id: luis
+        code: JKU1
+
+        topic: Large-Scale Multi-Modal Music Search and Retrieval without Symbolic Representations
+        supervisors:
+          - name: Gerhard Widmer
+            web: https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/
+
+        email: luis.carvalho@jku.at
 
       - name: Charles Brazier
         photo: jku2-charles.jpg
+        id: charles
+        code: JKU2
+
+        topic: Live Tracking and Synchronization of Complex Musical Works via Multi-modal Analysis
+        supervisors: 
+          - name: Gerhard Widmer
+            web: https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/
+
+        email: charles.brazier@jku.at
+        linkedin: charlesbrazier
+        twitter: chorl_b
+
