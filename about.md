@@ -2,7 +2,6 @@
 layout: page
 title: About
 description: The project and state of MIR
-permalink: /about/
 ---
 
 **Music Information Processing (MIP)**, also known as **Music Information Research (MIR)**, involves the use of information processing methodologies to understand and model music and to develop products and services for creation, distribution, and interaction with music and music-related information. MIR has reached a state of maturity where there are standard methods for most music information processing tasks, but as these have been developed and tested on small datasets, they tend to suffer from **three main weaknesses**: 
