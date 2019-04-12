@@ -1,6 +1,6 @@
 groups:
   - name: Univesitat Pompeu Fabra
-    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf-mtg.svg" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 40px;"></a></div>'
+    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf-mtg.png" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 35px;"></a></div>'
     esrs:
     - name: Philip Tovstogan
       photo: upf1-philip.jpg
@@ -52,7 +52,7 @@ groups:
   - name: Télécom ParisTech
     logo: '<a href="https://www.tsi.telecom-paristech.fr/en/"><img src="/img/logos/tpt.svg" alt="Information communication and Processing Lab (LTCI), Télécom ParisTech (TPT)" class="img-fluid" style="max-height: 40px;"></a>'
     esrs:
-      - name: Karim Ibraheem
+      - name: Karim M. Ibrahim
         photo: tpt1-karim.jpg
         id: Karim
         code: TPT1

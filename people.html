@@ -13,6 +13,15 @@ width: 12
     <div class="row">
     	<div class="col-4">
     		<img src="/img/photos/{{ esr.photo }}" class="img-fluid" alt="{{ esr.name }}">
+
+        <div>
+          <a target="_blank" href="mailto:{{ esr.email }}"><i class="fas fa-envelope"></i></a>
+          {% if esr.website %}<a target="_blank" href="{{ esr.website }}"><i class="fas fa-globe-europe"></i></a>{% endif %}
+          {% if esr.github %}<a target="_blank" href="https://github.com/{{ esr.github }}"><i class="fab fa-github"></i></a>{% endif %}
+          {% if esr.linkedin %}<a target="_blank" href="https://www.linkedin.com/in/{{ esr.linkedin }}"><i class="fab fa-linkedin-in"></i></a>{% endif %}
+          {% if esr.twitter %}<a target="_blank" href="https://twitter.com/{{ esr.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
+        </div>
+
     	</div>
     	<div class="col-8">
     		<h2 id="{{ esr.id }}">{{ esr.name }}</h2>
@@ -34,13 +43,6 @@ width: 12
         {% endif %}
         {{ group.logo }}
 
-    		<div>
-          <a target="_blank" href="mailto:{{ esr.email }}"><i class="fas fa-envelope"></i></a>
-          {% if esr.website %}<a target="_blank" href="{{ esr.website }}"><i class="fas fa-globe-europe"></i></a>{% endif %}
-          {% if esr.github %}<a target="_blank" href="https://github.com/{{ esr.github }}"><i class="fab fa-github"></i></a>{% endif %}
-          {% if esr.linkedin %}<a target="_blank" href="https://www.linkedin.com/in/{{ esr.linkedin }}"><i class="fab fa-linkedin-in"></i></a>{% endif %}
-          {% if esr.twitter %}<a target="_blank" href="https://twitter.com/{{ esr.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
-    		</div>
 
     	</div>
     </div>
