@@ -101,6 +101,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 84. **Seven Brief Lessons on Physics**, *Carlo Rovelli (Translated by Simon Carnell and Erica Segre)*, Penguin Random House UK, 2016.
 85. **Khushwantnama: The Lessons of My Life**, *Khushwant Singh*, Penguin Books, 2014.
 86. **Non Stop India**, *Mark Tully*, Penguin Books, 2013.
+87. **A Mind At Play: How Claude Shannon Invented the Information Age**, *Jimmy Soni and Rob Goodman*, Simon & Schuster Paperbacks, 2018.
+88. **Adventures of a Mathematician**, *S. M. Ulam*, University of California Press, 1991.
 
 
 ## Fiction
@@ -141,6 +143,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
 35. **Of Mice and Men**, *John Steinbeck*, Penguin Books, 1993.
 36. **Candide**, *Voltaire (Translated by anonymous)*, Dover Publications, 1991.
+37. **Lot No. 249**, *Arthur Conan Doyle*, Penguin Little Black Classics, 2016.
+38. **How Much Land Does A Man Need?**, *Leo Tolstoy*, Penguin Little Black Classics, 2015.
 
 
 ## Graphic Books
