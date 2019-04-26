@@ -52,8 +52,8 @@ Strasbourg-Grand Ile and Neustadt (April 2016)
 Berlin Modernist Housing Estates (July 2016)  
 Museumsinsel, Berlin (July 2016)  
 Palaces and Parks of Potsdam and Berlin (July 2016)  
-Speyer Cathedral (September 2016)
-Town of Bamberg (September 2018)
+Speyer Cathedral (September 2016)  
+Town of Bamberg (September 2018)  
 Old Town of Regensburg with Stadtamhof (September 2018)
 
 **Hungary**
