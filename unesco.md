@@ -17,12 +17,12 @@ City of Graz: Historic Centre and Palace of Eggenberg (May 2017)
 Neusiedlersee Cultural Landscape (February 2017)  
 Historic Centre of Vienna (January 2015)  
 Prehistoric Pine Dwellings Around the Alps (November 2015)  
-Wachau Cultural Landscape (April 2018)
+Wachau Cultural Landscape (April 2018)  
 Hallstatt-Dachstein/Salzkammergut Cultural Landscape (April 2019)
 
 **Bulgaria**
 
-Rila Monastery (December 2018)
+Rila Monastery (December 2018)  
 Boyana Church (December 2018)
 
 **Croatia**
@@ -31,7 +31,7 @@ Old city of Dubrovnik (October 2017)
 
 **Czechia**
 
-Historic Centre of Prague (January 2017)
+Historic Centre of Prague (January 2017)  
 Tugendhat Villa in Brno (April 2019)
 
 **Denmark**
@@ -42,8 +42,8 @@ Roskilde Cathedral (October 2018)
 **France**
 
 Bordeaux, Port of the Moon (March 2016)  
-Paris, Banks of the Seine (August 2015)
-Cathedral of Notre-Dame (August 2015)
+Paris, Banks of the Seine (August 2015)  
+Cathedral of Notre-Dame (August 2015)  
 Historic Site of Lyon (March 2018)  
 Strasbourg-Grand Ile and Neustadt (April 2016)
 
