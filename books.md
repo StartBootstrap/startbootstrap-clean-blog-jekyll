@@ -145,6 +145,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 36. **Candide**, *Voltaire (Translated by anonymous)*, Dover Publications, 1991.
 37. **Lot No. 249**, *Arthur Conan Doyle*, Penguin Little Black Classics, 2016.
 38. **How Much Land Does A Man Need?**, *Leo Tolstoy*, Penguin Little Black Classics, 2015.
+39. **A Madman Dreams of Turing Machines**, *Janna Levin*, Anchor Books, 2006.
 
 
 ## Graphic Books
