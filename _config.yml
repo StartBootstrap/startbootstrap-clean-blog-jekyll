@@ -1,19 +1,24 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             NH Home N' Brew
+email:             nhhomenbrew@gmail.com
+description:       NH Home Cooking and Homebrewing
+author:            Ian Newcombe & Mariya Kobets
 baseurl:           ""
 url:               ""
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+
 
 # Build settings
 markdown:          kramdown
 paginate:          5
-paginate_path:     "/posts/page:num/"
+paginate_path:     "/recipes/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+collections:
+   recipes:
+      output: true
+      
+
+

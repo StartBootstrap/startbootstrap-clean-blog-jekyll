@@ -1,0 +1,48 @@
+---
+layout: page
+title: Recipes
+background: '/img/bg-post.jpg'
+---
+
+{% for recipe in paginator.recipes %}
+
+<article class="recipe-preview">
+  <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="recipe-title">{{ recipe.title }}</h2>
+    {% if recipe.subtitle %}
+    <h3 class="recipe-subtitle">{{ recipe.subtitle }}</h3>
+    {% else %}
+    <h3 class="recipe-subtitle">{{ recipe.excerpt | strip_html | truncatewords: 15 }}</h3>
+    {% endif %}
+  </a>
+  <p class="recipe-meta">Posted by
+    {% if recipe.author %}
+    {{ recipe.author }}
+    {% else %}
+    {{ site.author }}
+    {% endif %}
+    on {{ recipe.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=recipe.content %}</p>
+</article>
+
+<hr>
+
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+<div class="clearfix">
+
+  {% if paginator.previous_page %}
+  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+    Newer<span class="d-none d-md-inline"> Recipes</span></a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
+      class="d-none d-md-inline"> Recipes</span> &rarr;</a>
+  {% endif %}
+
+</div>
+
+{% endif %}
