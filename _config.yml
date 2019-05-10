@@ -11,13 +11,15 @@ url:               ""
 # Build settings
 markdown:          kramdown
 paginate:          5
-paginate_path:     "/recipes/page:num/"
+paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
 
 collections:
    recipes:
+      output: true
+   homebrews:
       output: true
       
 
