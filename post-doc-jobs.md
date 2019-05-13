@@ -13,3 +13,4 @@ permalink: /post-doc-links/
 [Math-Jobs.com](https://www.acad.jobs/Jobs/Mathematics-Statistics/All-Countries/All-Categories/Experienced/Academic)<br/>
 [AcademicGates](https://www.academicgates.com/job/filter?jobtypes%5B0%5D=POSTDOC&jobtypes%5B1%5D=LECTURER&researchareas%5B0%5D=MATH&kw=%22Discrete+Mathematics%22&page=2)<br/>
 [Academic Positions](https://academicpositions.com/find-jobs/Postdoc-in-Mathematics-by-all-in-all/all/1)<br/>
+[UK Academic Jobs](https://www.jobs.ac.uk/search/?activeFacet=&resetFacet=&placeId=&keywords=Discrete+Mathematics&location=&academicDisciplineFacet-expander=on&academicDisciplineFacet%5B%5D=mathematics-and-statistics&subDisciplineFacet%5B%5D=mathematics&hoursTypeFacet-expander=on&hoursTypeFacet%5B%5D=full-time)<br/>
