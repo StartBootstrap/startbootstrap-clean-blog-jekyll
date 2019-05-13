@@ -11,3 +11,4 @@ permalink: /post-doc-links/
 [Nordic Math Jobs](http://www.maths.lth.se/nordic/)<br/>
 [EURAXESS](https://euraxess.ec.europa.eu/jobs/search/field_research_field/mathematics-297/field_research_profile/first-stage-researcher-r1-446)<br/>
 [Math-Jobs.com](https://www.acad.jobs/Jobs/Mathematics-Statistics/All-Countries/All-Categories/Experienced/Academic)<br/>
+[AcademicGates](https://www.academicgates.com/job/filter?jobtypes%5B0%5D=POSTDOC&jobtypes%5B1%5D=LECTURER&researchareas%5B0%5D=MATH&kw=%22Discrete+Mathematics%22&page=2)<br/>
