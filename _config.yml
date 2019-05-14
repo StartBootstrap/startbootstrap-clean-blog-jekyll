@@ -6,9 +6,7 @@ baseurl:           "/blog"
 url:               "http://saul-r.github.io"
 
 # Social Profiles
-witter_username:  SBootstrap
 github_username:   Saul-R
-facebook_username: StartBootstrap
 
 # Build settings
 markdown:          kramdown
