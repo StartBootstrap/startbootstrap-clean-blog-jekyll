@@ -4,7 +4,7 @@ title: Recipes
 background: '/img/recipes/recipe.jpg'
 ---
 
-{% for recipe in site.recipes %}
+<!-- {% for recipe in site.recipes %}
 
 <article class="post-preview">
   <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -26,4 +26,22 @@ background: '/img/recipes/recipe.jpg'
 
 <hr>
 
-{% endfor %}
+{% endfor %} -->
+{% for recipe in site.recipes %}
+<div class="recipe-card-container">
+    <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
+  <div class="recipe-card u-clearfix">
+    <div class="recipe-card-body">
+      <!-- <span class="card-number card-circle subtle">01</span> -->
+      <span class="recipe-card-author subtle">{{recipe.author}}</span>
+      <h2 class="recipe-card-title">{{ recipe.title }}</h2>
+      <span class="recipe-card-description subtle">{{ recipe.subtitle }}</span>
+      <!-- <div class="recipe-card-read">Make This Recipe</div> -->
+      <!-- <span class="card-tag card-circle subtle">C</span> -->
+    </div>
+    <img src="{{recipe.icon}}" alt="" class="recipe-card-media" />
+  </div>
+  <div class="recipe-card-shadow"></div>
+</div>
+</hr>
+{% endfor %} 
