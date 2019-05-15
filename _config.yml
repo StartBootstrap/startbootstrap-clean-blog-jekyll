@@ -17,3 +17,5 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+
+exclude: ['_site', '.idea']
