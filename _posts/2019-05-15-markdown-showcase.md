@@ -107,7 +107,7 @@ Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).
 
 Here's a link to [a website](http://foo.bar), to a [local
-doc](/about), and to a [section heading in the current
+doc]({{site.url}}{{site.baseurl}}/about), and to a [section heading in the current
 doc](#an-h2-header). Here's a footnote [^1].
 
 [^1]: Some footnote text.
