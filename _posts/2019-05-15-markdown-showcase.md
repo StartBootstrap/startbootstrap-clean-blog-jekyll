@@ -112,7 +112,7 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 [^1]: Some footnote text.
 
-## But this does
+This is a table in kramdown, it's a bit different than markdown, needs attribute `class` to be defined as `table table-bordered`
 
 {:class="table table-bordered"}
 | Item | Description | Price |

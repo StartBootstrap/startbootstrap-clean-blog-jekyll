@@ -4,3 +4,6 @@ _site
 node_modules
 Gemfile.lock
 *.gem
+.DS_Store
+.idea/*
+.vscode/*
