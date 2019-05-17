@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: Recipes
 background: '/img/recipes/recipe.jpg'
 ---
@@ -24,24 +24,34 @@ background: '/img/recipes/recipe.jpg'
     on {{ recipe.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=recipe.content %}</p>
 </article>
 
-<hr>
+
 
 {% endfor %} -->
-{% for recipe in site.recipes %}
-<div class="recipe-card-container">
-    <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
+<hr>
+<!-- <div class = "centered"> -->
+  <section class = "recipe-cards">
+      {% for recipe in site.recipes %}
+  <!-- <div class="recipe-card-container"> -->
+      
   <div class="recipe-card u-clearfix">
-    <div class="recipe-card-body">
+      <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <img src="{{recipe.icon}}" alt="" class="recipe-card-media" />  
+        <div class="recipe-card-body">
+      
       <!-- <span class="card-number card-circle subtle">01</span> -->
-      <span class="recipe-card-author subtle">{{recipe.author}}</span>
+      <!-- <span class="recipe-card-author subtle">{{recipe.author}}</span> -->
       <h2 class="recipe-card-title">{{ recipe.title }}</h2>
       <span class="recipe-card-description subtle">{{ recipe.subtitle }}</span>
-      <!-- <div class="recipe-card-read">Make This Recipe</div> -->
+      <div class="recipe-card-read">Make This Recipe</div>
       <!-- <span class="card-tag card-circle subtle">C</span> -->
     </div>
-    <img src="{{recipe.icon}}" alt="" class="recipe-card-media" />
+    
   </div>
   <div class="recipe-card-shadow"></div>
-</div>
+  <!-- </div> -->
+  {% endfor %}
+</section>
+
+<!-- </div> -->
 </hr>
-{% endfor %} 
+ 

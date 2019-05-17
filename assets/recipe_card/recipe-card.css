@@ -25,17 +25,9 @@
     margin: 25px auto 0;
     position: relative;
     width: 692px;
+    display: flex;
   }
   
-  .recipe-card {
-    background-color: #fff;
-    padding: 30px;
-    position: relative;
-    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-  }
   
   .recipe-card-body {
     display: inline-block;
@@ -68,16 +60,16 @@
   
   .recipe-card-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 60px;
+    font-size: 24px;
     font-weight: 300;
-    line-height: 60px;
+    line-height: 20px;
     margin: 10px 0;
   }
   
   .recipe-card-description {
     display: inline-block;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 10px;
     margin: 10px 0;
   }
   
@@ -99,7 +91,7 @@
     height: 1px;
     position: absolute;
     top: 9px;
-    width: 75%;
+    width: 25%;
   }
   
   .recipe-card-tag {
@@ -107,9 +99,16 @@
     margin: 5px 0 0;
   }
   
-  .recipe-card-media {
+  /* .recipe-card-media {
     float: right;
-  }
+  } */
+
+  .recipe-card-media {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
   
   .recipe-card-shadow {
     background-color: #fff;
@@ -119,3 +118,44 @@
     width: 80%;
     z-index: -1;
   }
+  .centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+@media screen and (min-width: 40em) {
+  .recipe-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .recipe-card{
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    flex: 0 1 calc(50% - 1em);
+  }
+}
+
+@media screen and (min-width: 60em) {
+
+  .recipe-card {
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    flex: 0 1 calc(25% - 1em);
+  }
+}
+/* .recipe-card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+  z-index: 1;
+  
+} */
