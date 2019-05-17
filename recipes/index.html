@@ -4,37 +4,13 @@ title: Recipes
 background: '/img/recipes/recipe.jpg'
 ---
 
-<!-- {% for recipe in site.recipes %}
-
-<article class="post-preview">
-  <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ recipe.title }}</h2>
-    {% if recipe.subtitle %}
-    <h3 class="post-subtitle">{{ recipe.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ recipe.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if recipe.author %}
-    {{ recipe.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ recipe.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=recipe.content %}</p>
-</article>
-
-
-
-{% endfor %} -->
-<hr>
 <!-- <div class = "centered"> -->
   <section class = "recipe-cards">
       {% for recipe in site.recipes %}
   <!-- <div class="recipe-card-container"> -->
       
   <div class="recipe-card u-clearfix">
-      <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
         <img src="{{recipe.icon}}" alt="" class="recipe-card-media" />  
         <div class="recipe-card-body">
       
@@ -42,16 +18,16 @@ background: '/img/recipes/recipe.jpg'
       <!-- <span class="recipe-card-author subtle">{{recipe.author}}</span> -->
       <h2 class="recipe-card-title">{{ recipe.title }}</h2>
       <span class="recipe-card-description subtle">{{ recipe.subtitle }}</span>
-      <div class="recipe-card-read">Make This Recipe</div>
+      
+      <!-- <div class="recipe-card-read">See The Recipe</div> -->
       <!-- <span class="card-tag card-circle subtle">C</span> -->
     </div>
-    
   </div>
-  <div class="recipe-card-shadow"></div>
+  <div class="recipe-card-shadow"></div></a>
   <!-- </div> -->
   {% endfor %}
 </section>
 
-<!-- </div> -->
-</hr>
+
+
  
