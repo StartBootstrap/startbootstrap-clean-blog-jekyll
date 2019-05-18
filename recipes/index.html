@@ -9,7 +9,7 @@ background: '/img/recipes/recipe.jpg'
       {% for recipe in site.recipes %}
   <!-- <div class="recipe-card-container"> -->
       
-  <div class="recipe-card u-clearfix">
+  <div class="recipe-card">
     <a href="{{ recipe.url | prepend: site.baseurl | replace: '//', '/' }}">
         <img src="{{recipe.icon}}" alt="" class="recipe-card-media" />  
         <div class="recipe-card-body">

@@ -11,6 +11,7 @@
   
   .u-clearfix:after {
     clear: both;
+
   }
   
   .u-clearfix {
@@ -117,6 +118,7 @@
     margin: -1px auto 0;
     width: 80%;
     z-index: -1;
+    padding-bottom: 10px;
   }
   .centered {
     margin: 0 auto;
@@ -132,11 +134,12 @@
 
   .recipe-card{
     background-color: #fff;
-    padding: 30px;
+    padding: 10px;
     position: relative;
     box-shadow: 0 0 5px rgba(75, 75, 75, .07);
     z-index: 1;
     flex: 0 1 calc(50% - 1em);
+    margin: 25px auto 0;
   }
 }
 
@@ -144,11 +147,12 @@
 
   .recipe-card {
     background-color: #fff;
-    padding: 30px;
+    padding: 10px;
     position: relative;
     box-shadow: 0 0 5px rgba(75, 75, 75, .07);
     z-index: 1;
     flex: 0 1 calc(25% - 1em);
+    margin: 25px auto 0;
   }
 }
 /* .recipe-card {
