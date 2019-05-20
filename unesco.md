@@ -32,7 +32,8 @@ Old city of Dubrovnik (October 2017)
 **Czechia**
 
 Historic Centre of Prague (January 2017)  
-Tugendhat Villa in Brno (April 2019)
+Tugendhat Villa in Brno (April 2019)  
+Historic Centre of Český Krumlov (May 2019)  
 
 **Denmark**
 
