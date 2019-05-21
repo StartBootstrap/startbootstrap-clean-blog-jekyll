@@ -4,7 +4,9 @@ title: Resources
 description: MIR in general and MIP-Frontiers
 ---
 
-# Getting started
+# Online presence
+
+# Getting started with MIR
 
 # Datasets
 
