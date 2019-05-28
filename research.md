@@ -62,7 +62,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 7. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
 
-6. *The Perils of the Indian Education System*, (with *Madhurrya P. Talukdar*) *Pragyan, Tinisukia College Magazine*, 2019. ([pdf](/publ/papers/Tinisukia_Education.pdf)
+6. *The Perils of the Indian Education System*, (with *Madhurrya P. Talukdar*) *Pragyan, Tinisukia College Magazine*, 2019. ([pdf](/publ/papers/Tinisukia_Education.pdf))
 
 5. *John Forbes Nash, Jr. – A Short Obituary*, *Asia Pacific Mathematics Newsletter*, September 2015, 5 (2), 42 — 43. ([pdf](http://gonitsora.com/manjil/papers/john-nash.pdf))
 
