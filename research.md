@@ -22,6 +22,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+13. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) *Asian-European Journal of Mathematics*, accepted, 2019, 13 pp.
+
 12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Proceedings of the 13th International Conference and Workshops on Algorithms and Computation (WALCOM) 2019, Lecture Notes in Computer Science (LNCS)*, Volume 11355, Springer, 2019, 82-95. ([pdf](/publ/papers/paper_22.pdf))
 
 11. *Enumeration of Domino Tilings of an Aztec Rectangle with boundary defects*, *Advances in Applied Mathematics*, 2017, 89, 41–66. ([pdf](http://gonitsora.com/manjil/papers/Aztec.pdf))
@@ -60,7 +62,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 7. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
 
-6. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) preprint, 2018.
+6. *The Perils of the Indian Education System*, (with *Madhurrya P. Talukdar*) *Pragyan, Tinisukia College Magazine*, 2019. ([pdf](/publ/papers/Tinisukia_Education.pdf)
 
 5. *John Forbes Nash, Jr. – A Short Obituary*, *Asia Pacific Mathematics Newsletter*, September 2015, 5 (2), 42 — 43. ([pdf](http://gonitsora.com/manjil/papers/john-nash.pdf))
 
