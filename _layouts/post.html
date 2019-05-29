@@ -21,6 +21,17 @@ layout: default
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}</span>
+            <span class="meta">
+             Categories:
+             {% for category in page.categories %}
+                 <a href="{{ category | prepend: "/" | relative_url }}">
+                     {{ category | capitalize }}
+                 </a>
+             {% endfor %}
+            </span>
+            {% if page.credits %}
+            <span class="meta"> {{ page.credits }} </span>
+            {% endif %}
           </div>
         </div>
       </div>
