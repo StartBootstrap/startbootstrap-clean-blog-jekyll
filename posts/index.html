@@ -22,13 +22,6 @@ background: '/img/bg-post.jpg'
     {{ site.author }}
     {% endif %}
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-    <br>
-    Categories:
-    {% for category in post.categories %}
-    <a href="{{ category | prepend: "/" | relative_url }}">
-        {{ category | capitalize }}
-    </a>
-    {% endfor %}
   </p>
 </article>
 
@@ -47,8 +40,7 @@ background: '/img/bg-post.jpg'
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
-      class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
   {% endif %}
 
 </div>

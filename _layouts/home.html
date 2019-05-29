@@ -17,9 +17,6 @@ layout: default
             {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
             {% endif %}
-            {% if page.credits %}
-            <span class="meta"> {{ page.credits }} </span>
-            {% endif %}
           </div>
         </div>
       </div>
@@ -51,14 +48,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-            <br>
-            Categories:
-            {% for category in post.categories %}
-                <a href="{{ category | prepend: "/" | relative_url }}">
-                    {{ category | capitalize }}
-                </a>
-            {% endfor %}
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
           </p>
         </article>
 

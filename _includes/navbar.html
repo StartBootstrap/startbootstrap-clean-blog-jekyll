@@ -14,15 +14,8 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
-        <li class="nav-item dropdown" style="text-decoration: none;">
-            <a href="{{ "/posts" | relative_url }}">Posts &#9660;</a>
-          <div class="dropdown-content">
-              {% for category in site.categories %}
-                <a href="{{ category[0] | prepend: "/" | relative_url }}">
-                    {{ category[0] | capitalize }}
-                </a>
-              {% endfor %}
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
