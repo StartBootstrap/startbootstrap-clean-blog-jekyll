@@ -1,0 +1,38 @@
+/* Addition css made for this blog */
+
+/*************************************
+ * Dropdown menu css for navbar
+ *************************************/
+.dropdown  a:link {
+  text-decoration: none ;
+} 
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    min-width: 160px;
+    text-decoration: none;
+}
+
+.dropdown-content a {  
+    color: white;  
+    background: rgba(0, 0, 0, 0.4);  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #000000;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*************************************
+ *************************************/

@@ -9,6 +9,11 @@ url:               "https://blackrockdigital.github.io"
 twitter_username:  SBootstrap
 github_username:   BlackrockDigital
 facebook_username: StartBootstrap
+linkedin_username:
+goodreads_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:          kramdown
@@ -17,3 +22,12 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+jekyll-archives:
+  enabled:
+      - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
