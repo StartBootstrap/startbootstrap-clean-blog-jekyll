@@ -7,5 +7,5 @@ link: /publications/StreetVendorLaw_Kannada.pdf
 categories: visual
 ide: streetvendorcomic
 tag: publications
-permalink: /publications/visuals/streetvendorcomic/
+permalink: /publications/visuals/streetvendorcomickannada/
 ---

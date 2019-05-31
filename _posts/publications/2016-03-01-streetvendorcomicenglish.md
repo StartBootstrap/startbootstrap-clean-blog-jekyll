@@ -7,5 +7,5 @@ link: /publications/StreetVendorLaw_English.pdf
 categories: visual
 ide: streetvendorcomic
 tag: publications
-permalink: /publications/visuals/streetvendorcomic/
+permalink: /publications/visuals/streetvendorcomicenglish/
 ---
