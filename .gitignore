@@ -3,4 +3,4 @@ node_modules
 *.swp
 *.swo
 *.lock
-**.DS_STORE
+*.DS_Store
