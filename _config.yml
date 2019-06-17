@@ -4,6 +4,10 @@ description: New Frontiers in Music Information Processing
 author: MIP-Frontiers
 url: "https://mip-frontiers.eu"
 
+logo:
+  normal: "/img/logo.svg"
+  inverted: "/img/logo-white.svg"
+
 # Social Profiles
 twitter_username: mip_frontiers
 github_username: mip-frontiers
