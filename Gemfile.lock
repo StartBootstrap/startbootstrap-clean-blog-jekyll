@@ -245,6 +245,7 @@ DEPENDENCIES
   github-pages (~> 197)
   jekyll-feed (~> 0.11)
   jekyll-paginate (~> 1.1.0)
+  jekyll-sitemap
 
 BUNDLED WITH
    2.0.1

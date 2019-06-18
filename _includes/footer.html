@@ -14,7 +14,7 @@
         <ul class="list-inline text-center">
           {% if site.twitter_username %}
           <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}">
+            <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -34,7 +34,7 @@
           {% endif %}
           {% if site.email %}
           <li class="list-inline-item">
-            <a href="mailto:{{ site.email }}">
+            <a href="mailto:{{ site.email | encode_email }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
