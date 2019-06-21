@@ -7,7 +7,6 @@ url: "https://mip-frontiers.eu"
 logo:
   normal: "/img/logo.svg"
   inverted: "/img/logo-white.svg"
-lfs_prefix: https://github.com/mip-frontiers/resources/raw/master
 
 # Social Profiles
 twitter_username: mip_frontiers
