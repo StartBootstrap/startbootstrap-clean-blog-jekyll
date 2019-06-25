@@ -12,7 +12,7 @@ layout: default-layout
               {%endfor%}
                 <!-- <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li> -->
                 <li class="about_nav"><a href="{{ site.baseurl }}/publications/research/">research in play</a></li>
-
+                <li class="about_nav"><a href="{{ site.baseurl }}/publications/jointroadforward">joint road forward</a></li>
             </ul>
         </div>
 
@@ -49,13 +49,8 @@ layout: default-layout
             {% endfor %}
 
             {% for post in site.tags['research'] %}
-              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-              <!--<div><a href="/publications/research"><h2 class="about" id="current_about_publications">RESEARCH IN PLAY</a></div>
-                <!--<img src="/img/{{post.ide}}.png" style="width:100%; cursor: pointer; padding-bottom:35px"/>-->
-              </a>
-              </li>
+              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px"></li>
             {%endfor%}
-
           </ul>
 
         </div>
