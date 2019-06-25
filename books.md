@@ -104,6 +104,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 87. **A Mind At Play: How Claude Shannon Invented the Information Age**, *Jimmy Soni and Rob Goodman*, Simon & Schuster Paperbacks, 2018.
 88. **Adventures of a Mathematician**, *S. M. Ulam*, University of California Press, 1991.
 89. **Countdown**, *Amitav Ghosh*, Penguin Books, 2010.
+90. **Florence: A Delicate Case**, *David Leavitt*, Bloomsbury, 2015.
+91. **The Last Mughal: The fall of a dynasty, Delhi, 1857**, *William Dalrymple*, Penguin Books, 2007.
 
 
 ## Fiction
@@ -147,6 +149,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 37. **Lot No. 249**, *Arthur Conan Doyle*, Penguin Little Black Classics, 2016.
 38. **How Much Land Does A Man Need?**, *Leo Tolstoy*, Penguin Little Black Classics, 2015.
 39. **A Madman Dreams of Turing Machines**, *Janna Levin*, Anchor Books, 2006.
+40. **Origin**, *Dan Brown*, Corgi Books, 2018.
 
 
 ## Graphic Books
