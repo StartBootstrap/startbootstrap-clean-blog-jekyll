@@ -5,7 +5,7 @@ layout: default-layout
   <div class="container-fluid clearfix">
     <div class="row">
         <div class="col-md-offset-2 col-md-2">
-            <a href="{{site.baseurl}}/publications/jointroadforward/"><h2 class="about" id="all">joint road forward</h2></a>
+            <a href="{{site.baseurl}}/publications/allaboard/"><h2 class="about" id="all">All Aboard</h2></a>
             <ul>
               {% for category in page.categories %}
                 <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
@@ -20,7 +20,7 @@ layout: default-layout
             {% for post in site.categories['jrf'] %}
             <div style="width: 30%;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
             	<a href="{{post.href}}" style="cursor:pointer">
-            		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 35px;"/>
+            		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 15px;"/>
                 <center><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ post.name }}</span></center>
               </a>
             </div>
