@@ -17,11 +17,12 @@ layout: default-layout
         <div class="col-md-4" style="padding-top:53px">
           <span class="topspace"></span>
           <div class="row-fluid">
-            {% for post in site.categories['jrf'] %}
-            <div style="width: 30%;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
+            {% assign sortedposts = site.categories['jrf'] | sort: 'order' %}
+            {% for post in sortedposts %}
+            <div style="width: 30%; padding-bottom: 30px;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
             	<a href="{{post.href}}" style="cursor:pointer">
             		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 15px;"/>
-                <center><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ post.name }}</span></center>
+                <center style="height: 60px !important;"><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px;">{{ post.name }}</span></center>
               </a>
             </div>
             {%endfor%}
