@@ -54,8 +54,8 @@ groups:
       github: furkanyesiler
       linkedin: furkan-yesiler-30230a40
 
-  - name: Télécom ParisTech
-    logo: '<a href="https://www.tsi.telecom-paristech.fr/en/"><img src="/img/logos/tpt.svg" alt="Information communication and Processing Lab (LTCI), Télécom ParisTech (TPT)" class="img-fluid" style="max-height: 40px;"></a>'
+  - name: Télécom Paris
+    logo: '<a href="https://ltci.telecom-paris.fr/"><img src="/img/logos/tpt.svg" alt="Information Communication and Processing Lab (LTCI), Télécom Paris, Institut Polytechnique de Paris" class="img-fluid" style="max-height: 60px;"></a>'
     esrs:
       - name: Karim M. Ibrahim
         photo: tpt1-karim.jpg
