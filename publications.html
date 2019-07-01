@@ -1,0 +1,9 @@
+---
+layout: page
+title: Publications
+description: Conference presentations, posters, journal articles
+---
+
+{% assign publications = site.data.publications | sort: 'date' | reverse %}
+
+{% include publications.html %}

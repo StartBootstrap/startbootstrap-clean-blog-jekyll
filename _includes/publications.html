@@ -1,0 +1,3 @@
+{% for publication in publications %}
+	<p>{{ publication.authors }} ({{ publication.date | date: "%Y" }}). <strong>{{ publication.title }}.</strong> <em>{{ publication.in }}.</em> <a href="{{ publication.url }}">Link</a></p>
+{% endfor %}
