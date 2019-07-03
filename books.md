@@ -105,7 +105,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 88. **Adventures of a Mathematician**, *S. M. Ulam*, University of California Press, 1991.
 89. **Countdown**, *Amitav Ghosh*, Penguin Books, 2010.
 90. **Florence: A Delicate Case**, *David Leavitt*, Bloomsbury, 2015.
-91. **The Last Mughal: The fall of a dynasty, Delhi, 1857**, *William Dalrymple*, Penguin Books, 2007.
+91. **Five Past Midnight in Bhopal**, *Dominique Lapierre and Javier Moro (Translated by Kathryn Spink)*, Scribner, 2002. 
+92. **The Last Mughal: The fall of a dynasty, Delhi, 1857**, *William Dalrymple*, Penguin Books, 2007.
 
 
 ## Fiction
