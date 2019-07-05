@@ -6,8 +6,7 @@ description: TPT, Paris, September 20-28, 2018
 
 ### First MIP Frontiers Training Week
 
-Seminar organized in the context of MIP-Frontiers to introduce the project, on the 20th of September.
-
+Presentations from the first meeting in Télécom ParisTech, in the context of the first MIP Frontiers training week.
 - _Research planning and strategy: the big picture_ <br> Xavier Serra, Universitat Pompeu Fabra <br> [**PDF** (250KB)](/resources/first-training-week/MIP-academic-career.Xavier.pdf)
 - _Research planning: the thesis proposal_ <br> Xavier Serra, Universitat Pompeu Fabra <br> [**PDF** (250KB)](/resources/first-training-week/MIP-thesis-proposal.Xavier.pdf)
 - _ESRs&#39; role in MIP Frontiers: responsibilities, rules and regulations_ <br> Simon Dixon, Queen Mary University of London <br> [**PDF** (2MB)](/resources/first-training-week/SDixonSlides.pdf)
