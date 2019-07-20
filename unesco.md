@@ -71,7 +71,8 @@ Group of Monuments in Mahabalipuram (July 2010)
 Agra Fort (November 2017)  
 Taj Mahal (November 2017)  
 Hill Forts of Rajasthan: Amber Sub-cluster (January 2018)  
-The Architectural Works of Le Corbusier, Chandigarh (July 2011)
+The Architectural Works of Le Corbusier, Chandigarh (July 2011)  
+Jaipur (January 2018)
 
 **Italy**
 
@@ -80,7 +81,7 @@ City of Verona (March 2015)
 City of Vicenza (March 2015)  
 Venice and its Lagoon (December 2014)  
 Historic Centre of Florence (July 2019)  
-Historic Centre of Siena (july 2019)  
+Historic Centre of Siena (July 2019)  
 Piazza del Duomo, Pisa (July 2019)  
 Cinque Terre (July 2019)
 
