@@ -107,6 +107,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 90. **Florence: A Delicate Case**, *David Leavitt*, Bloomsbury, 2015.
 91. **Five Past Midnight in Bhopal**, *Dominique Lapierre and Javier Moro (Translated by Kathryn Spink)*, Scribner, 2002. 
 92. **The Last Mughal: The fall of a dynasty, Delhi, 1857**, *William Dalrymple*, Penguin Books, 2007.
+93. **Oppenheimer: Portrait of an Enigma**, *Jeremy Bernstein*, Ivan R. Dee, 2004.
 
 
 ## Fiction
