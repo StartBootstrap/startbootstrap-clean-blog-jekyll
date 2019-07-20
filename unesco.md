@@ -78,7 +78,11 @@ The Architectural Works of Le Corbusier, Chandigarh (July 2011)
 Church and Dominican Convent of Santa Maria delle Grazie with “The Last Supper” by Leonardo da Vinci (July 2015)  
 City of Verona (March 2015)  
 City of Vicenza (March 2015)  
-Venice and its Lagoon (December 2014)
+Venice and its Lagoon (December 2014)  
+Historic Centre of Florence (July 2019)  
+Historic Centre of Siena (july 2019)  
+Piazza del Duomo, Pisa (July 2019)  
+Cinque Terre (July 2019)
 
 **Netherlands**
 
