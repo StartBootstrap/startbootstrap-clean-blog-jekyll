@@ -11,7 +11,7 @@ Open seminar organized in the context of MIP-Frontiers project to give perspecti
 - _MIP-Frontiers project: What we do and who we are_ <br> Simon Dixon, Queen Mary University of London <br> [**YouTube**](https://youtu.be/PX-QQXcs5bI), [**PDF** (150KB)](/resources/summer-school/simon-intro.pdf)
 - _Application-oriented research: What is it, who does it, and why?_ <br> Estefania Cano, A\*STAR Singapore / Fraunhofer IDMT Germany <br> [**YouTube**](https://youtu.be/DFxSbxgdzbM), [**PDF** (2.1MB)](estefania-application.pdf)
 - _MIR research for broadcast monitoring at BMAT_ <br> Emilio Molina, BMAT <br> [**YouTube**](https://youtu.be/9ow0S9yhMS8), [**PDF** (2.5MB)](emilio-monitoring.pdf)
-- _(Web) Studies involving user data_ <br> Daniel Wolf, Tido Music <br> [**PDF** (2.5MB)](daniel-user-studies.pdf)
+- _(Web) Studies involving user data_ <br> Daniel Wolff, Tido Music <br> [**PDF** (2.5MB)](daniel-user-studies.pdf)
 - _Why the music business is dead, and a computational understanding of music is the way out_ <br> Matthias Röder, Herbert von Karajan Institute
 
 ### May 22-24: Music and Machine Learning Days
