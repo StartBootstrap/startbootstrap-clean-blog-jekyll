@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Highlights of SMC 2019
-subtitle: Overview of Emir Demirel's observations on SMC 2019
-date:   2019-07-21
+subtitle: Overview of Emir Demirel's observations on SMC 2019 in Malaga, Spain
+date:   2019-07-25
 author: Emir Demirel
 author-id: emir
 background: /img/blog_images/smc_post/malaga.png
