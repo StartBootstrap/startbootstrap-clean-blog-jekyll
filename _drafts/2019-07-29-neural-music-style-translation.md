@@ -26,7 +26,7 @@ Let's first hear the system in action. The playlist below contains three version
 
 ## From language to music
 
-Since most of my previous work had been on machine translation&nbsp;– i.e. automatic translation between human languages&nbsp;–, it seemed natural to approach style transformation as a machine translation problem.
+Since most of my previous work had been on machine translation – i.e. automatic translation between human languages –, it seemed natural to approach style transformation as a machine translation problem.
 However, applying machine translation (MT) techniques to musical styles is not straightforward.
 An MT system typically requires a large **parallel corpus**, i.e. a collection of texts in language $$L_1$$ along with their translations into language $$L_2$$.
 Such a corpus is usually *aligned* on the level of sentences, which allows us to train a system to translate each source sentence to the corresponding target sentence.
@@ -34,7 +34,7 @@ To apply the same approach to music, one would, by analogy, need a huge parallel
 
 Even though **unsupervised translation** techniques exist (requiring little or no parallel data), they rely on an important assumption, which is that words/sentences in $$L_1$$ and $$L_2$$ can be mapped to a **shared feature space** where their *distributions* will match.
 (This is a bit like trying to decipher an unknown language just by looking at how often different words and phrases occur together, and then somehow mapping that to a language you know.)
-Clearly, this can only work if the training texts in $$L_1$$ and $$L_2$$ are from the same domain (i.e. on the same set of topics); just imagine trying to match the distribution of words in French recipes to German children's books!
+This can only work if the training texts in $$L_1$$ and $$L_2$$ are from the same domain (i.e. on the same set of topics); just imagine trying to match the distribution of words in French recipes to German children's books!
 
 Sadly, it's not clear at all that such an assumption should hold for music, given the fact that different musical styles may have completely different characteristics (similarly to texts from different domains).
 This could be one of the reasons some of the recent attempts at unsupervised music style translation[^1]<sup>,</sup>[^2] haven't been as successful as one might hope (especially considering the successes of style transfer for images[^3]).
@@ -43,13 +43,13 @@ This could be one of the reasons some of the recent attempts at unsupervised mus
 ## What is style?
 
 Another problem with the style translation task is that it's not always clear what we mean when we talk about style.
-There are many aspects to musical style&nbsp;– e.g. *composition*, *arrangement*, *performance*&nbsp;– and we should be clear about which of them we want our algorithm to change.
+There are many aspects to musical style – e.g. *composition*, *arrangement*, *performance* – and we should be clear about which of them we want our algorithm to change.
 (If we tried to change all of them, we probably wouldn't recognize the original piece anymore!)
 This is, however, hard to control, especially with unsupervised learning.
 
 For example, consider the recent 'Universal Music Translation Network'[^4] by Facebook Research, which makes use of unsupervised translation techniques.
-Even though the [capabilities of this model](https://youtu.be/vdxCqNWTpUs) are very impressive (the best I've seen so far), it seems to be mostly just changing the instrumentation and leaving other musical aspects largely intact. Notice how the [jazz guitar example](https://youtu.be/vdxCqNWTpUs?t=199) set to 'Beethoven Piano' sounds a lot like jazz piano and pretty much unlike Beethoven.
-This shows that the approach is not as 'universal' as claimed, since in this case it seems to work on one level only and it's not clear how to control this (e.g. to make it focus more on aspects like harmony or groove).
+Even though the [capabilities of this model](https://youtu.be/vdxCqNWTpUs) are very impressive (the best I've seen so far), it seems to be mostly just changing the instrumentation and leaving other musical aspects largely intact. Notice how the [jazz guitar example](https://youtu.be/vdxCqNWTpUs?t=199) set to 'Beethoven Piano' sounds a lot like jazz piano and pretty much not like Beethoven.
+This shows that the approach is not as 'universal' as claimed since in this case it seems to work on one level only and it's not clear how to control this (e.g. to make it focus more on aspects like harmony or groove).
 
 
 ## Band-in-a-Box to the rescue
@@ -58,38 +58,40 @@ To sum up, unsupervised translation is tricky to pull off; on the other hand, su
 I decided to work around the latter issue by creating a *synthetic* training dataset using the [Band-in-a-Box](https://www.pgmusic.com/) software, which allows generating song accompaniments in many different styles. To give you an idea of what Band-in-a-Box can do, here are accompaniments in two different styles, generated based on the same blues chord sequence:
 
 <figure class="half">
-  <div>
-    <a href="{{ '/assets/blog/music-translation/BLUJAM09_ZZJAZZ.png' | relative_url }}">
-      <img src="{{ '/assets/blog/music-translation/BLUJAM09_ZZJAZZ_small.png' | relative_url }}" alt="Example jazz swing accompaniment">
-    </a>
-    <audio controls="controls" style="width: 100%;">
-      <source src="{{ '/assets/blog/music-translation/BLUJAM09.ZZJAZZ.mp3' | relative_url }}" type="audio/mpeg">
-    </audio>
-  </div>
-  <div>
-    <a href="{{ '/assets/blog/music-translation/BLUJAM09_SAMBA.png' | relative_url }}">
-      <img src="{{ '/assets/blog/music-translation/BLUJAM09_SAMBA_small.png' | relative_url }}" alt="Example samba accompaniment">
-    </a>
-    <audio controls="controls" style="width: 100%;">
-      <source src="{{ '/assets/blog/music-translation/BLUJAM09.SAMBA.mp3' | relative_url }}" type="audio/mpeg">
-    </audio>
+  <div class="row">
+    <div class="col-lg-6">
+      <a href="{{ '/posts/music-translation/BLUJAM09_ZZJAZZ.png' | relative_url }}">
+        <img src="{{ '/posts/music-translation/BLUJAM09_ZZJAZZ_small.png' | relative_url }}" alt="Example jazz swing accompaniment" class="img-fluid">
+      </a>
+      <audio controls="controls" style="width: 100%;">
+        <source src="{{ '/posts/music-translation/BLUJAM09.ZZJAZZ.mp3' | relative_url }}" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="col-lg-6">
+      <a href="{{ '/posts/music-translation/BLUJAM09_SAMBA.png' | relative_url }}">
+        <img src="{{ '/posts/music-translation/BLUJAM09_SAMBA_small.png' | relative_url }}" alt="Example samba accompaniment" class="img-fluid">
+      </a>
+      <audio controls="controls" style="width: 100%;">
+        <source src="{{ '/posts/music-translation/BLUJAM09.SAMBA.mp3' | relative_url }}" type="audio/mpeg">
+      </audio>
+    </div>
   </div>
   <figcaption class="figure-caption" markdown="1">
-    The bass and piano track of a 12-bar blues accompaniment, rendered as a ‘jazz swing’ (left) and as a ‘samba’ (right). The input chord sequence is shown at the top.
+  The bass and piano track of a 12-bar blues accompaniment, rendered as a ‘jazz swing’ (left) and as a ‘samba’ (right). The input chord sequence is shown at the top.
   </figcaption>
 </figure>
 
-How can we use this to perform style translation? The idea is simple: Given the chord charts of a set of songs, we can use Band-in-a-Box to generate an accompaniment for these songs in two different styles $$S_1$$ and $$S_2$$, and then train a neural network to translate from $$S_1$$ to $$S_2$$.
+How can we use this to perform style translation? The idea is simple: Given the chord charts of a set of songs, we can use Band-in-a-Box to generate an accompaniment for these songs in two different styles $$S_1$$ and $$S_2$$ and then train a neural network to translate from $$S_1$$ to $$S_2$$.
 However, that alone isn't very interesting, because such a model is likely only going to work on Band-in-a-Box-generated inputs in style $$S_1$$.
 I wanted to be able to handle *real* music, ideally in a range of different styles, so I instead picked 70 different Band-in-a-Box styles and trained my network to translate between all the different style pairs.
 
 The whole training pipeline then looks like this:
 
 <figure class="figure">
-<img src="{{ '/assets/blog/music-translation/pipeline.png' | relative_url }}" alt="The training pipeline." class="figure-img img-fluid mx-auto d-flex">
-<figcaption class="figure-caption" markdown="1">
-The model is trained to predict the target-style segment $$y$$ given a source segment $$x$$ and the target style $$z$$. Both $$x$$ and $$y$$ are accompaniments generated by Band-in-a-Box.
-</figcaption>
+  <img src="{{ '/posts/music-translation/pipeline.png' | relative_url }}" alt="The training pipeline." class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption" markdown="1">
+  The model is trained to predict the target-style segment $$y$$ given a source segment $$x$$ and the target style $$z$$. Both $$x$$ and $$y$$ are accompaniments generated by Band-in-a-Box.
+  </figcaption>
 </figure>
 
 The model has an encoder-decoder architecture, with the encoder computing a style-independent representation and the decoder generating the output in a given target style (provided as an embedding vector $$z$$).
@@ -100,7 +102,7 @@ As you can hear from the examples, this was enough to make the model generalize 
 
 We used a model based on RNN **sequence-to-sequence** ('seq2seq') models with **attention**.[^5]
 This is a very popular neural network architecture which was, until recently, the state of the art in machine translation.
-There are number of elements which may be a bit difficult to grasp, so I do not aim to explain the architecture in detail.
+There are many elements which may be a bit difficult to grasp, so I do not aim to explain the architecture in detail.
 Instead, I recommend [this blog post](https://guillaumegenthial.github.io/sequence-to-sequence.html) as a pretty comprehensive introduction.
 
 In short, the classical seq2seq model consists of an RNN encoder and an RNN decoder. The encoder computes an intermediate representation of the input sequence and the decoder then generates the output sequence based on this representation.
@@ -114,10 +116,10 @@ The point of using it here is that the input and output are different in how the
 This is what the whole model looks like:
 
 <figure class="figure">
-<img src="{{ '/assets/blog/music-translation/arch2-small.png' | relative_url }}" alt="The model architecture." class="figure-img img-fluid mx-auto d-flex">
-<figcaption class="figure-caption" markdown="1">
-The 'roll2seq' architecture, consisting of a CNN-RNN encoder and an RNN decoder with attention. The attention mechanism is represented by the red arrows.
-</figcaption>
+  <img src="{{ '/posts/music-translation/arch2-small.png' | relative_url }}" alt="The model architecture." class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption" markdown="1">
+  The 'roll2seq' architecture, consisting of a CNN-RNN encoder and an RNN decoder with attention. The attention mechanism is represented by the red arrows.
+  </figcaption>
 </figure>
 
 What still deserves an explanation is the output representation (shown at the bottom of the figure above).
@@ -126,9 +128,9 @@ In our case, we use a sequence of *event tokens*, based on those used by Magenta
 [PerformanceRNN](https://magenta.tensorflow.org/performance-rnn).
 To encode a piece of music in this way, we go through the piece from beginning to end and as we encounter note onsets and offsets, we emit `NoteOn` and `NoteOff` tokens (each with an associated pitch); between consecutive events, we emit `TimeShift` tokens, specifying the time difference (in terms of fractions of a beat).
 This representation is very powerful, allowing to encode arbitrary polyphony while being easy to generate with an RNN decoder.
-However, we also found that it's prone to occasional timing errors, causing the  model to 'drift away' from the beat.
+However, we also found that it's prone to occasional timing errors, causing the model to 'drift away' from the beat.
 
-To make the task easier, we trained a dedicated model for each output track (for the purpose of the paper, we chose bass and piano). This way, the decoder doesn't need to waste its capacity on keeping track of the different instruments playing at the same time, and can instead focus on the style of the track it was trained for.
+To make the task easier, we trained a dedicated model for each output track (for the paper, we chose bass and piano). This way, the decoder doesn't need to waste its capacity on keeping track of the different instruments playing at the same time, and can instead focus on the style of the track it was trained for.
 However, we found it helpful to provide multiple tracks of the original song as input to the encoder, since this gives the model more information about the song's harmony.
 
 ## Conclusion
@@ -137,7 +139,7 @@ The main advantage of using synthetic training data is that it enables supervise
 On the other hand, training exclusively on data generated by Band-in-a-Box means that the model will only be able to produce Band-in-a-Box-style outputs, which is definitely a limitation.
 
 In any case, it's interesting to see how far we can get with this method, and I'm curious whether unsupervised approaches (having access to a greater diversity of music data) will be able to surpass it.
-I also think synthetic data like ours can serve as a sort of sanity check for such unsupervised models, since it should be easier to train on than 'real-world' music.
+I also think synthetic data like ours can serve as a sort of sanity check for such unsupervised models since it should be easier to train on than 'real-world' music.
 
 Check out the [paper](https://arxiv.org/abs/1907.02265) for more details on our approach, including how we evaluated our models.
 For people interested in playing around with our system, the [code](https://github.com/cifkao/ismir2019-music-style-translation) and the [trained models](https://doi.org/10.5281/zenodo.3245374) are available for download.
