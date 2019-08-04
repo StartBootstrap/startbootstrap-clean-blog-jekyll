@@ -108,6 +108,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 91. **Five Past Midnight in Bhopal**, *Dominique Lapierre and Javier Moro (Translated by Kathryn Spink)*, Scribner, 2002. 
 92. **The Last Mughal: The fall of a dynasty, Delhi, 1857**, *William Dalrymple*, Penguin Books, 2007.
 93. **Oppenheimer: Portrait of an Enigma**, *Jeremy Bernstein*, Ivan R. Dee, 2004.
+94. **Quantum Profiles**, *Jeremy Bernstein*, Princeton University Press, 1991.
+95. ** **India's Unending Journey: Finding Balance in a Time of Change**, *Mark Tully*, Rider, 2007.
 
 
 ## Fiction
