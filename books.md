@@ -110,6 +110,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 93. **Oppenheimer: Portrait of an Enigma**, *Jeremy Bernstein*, Ivan R. Dee, 2004.
 94. **Quantum Profiles**, *Jeremy Bernstein*, Princeton University Press, 1991.
 95. ** **India's Unending Journey: Finding Balance in a Time of Change**, *Mark Tully*, Rider, 2007.
+96. **Essentials of Mathematical Thinking**, *Steven G. Krantz*, CRC Press, 2018.
 
 
 ## Fiction
