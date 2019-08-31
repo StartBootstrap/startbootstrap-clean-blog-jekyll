@@ -157,6 +157,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 38. **How Much Land Does A Man Need?**, *Leo Tolstoy*, Penguin Little Black Classics, 2015.
 39. **A Madman Dreams of Turing Machines**, *Janna Levin*, Anchor Books, 2006.
 40. **Origin**, *Dan Brown*, Corgi Books, 2018.
+41. **The Palace of Illusions**, *Chitra Banerjee Divakaruni*, Picador, 2009.
+42. **The tattooist of Auschwitz**, *Heather Morris*, Zaffre, 2018.
 
 
 ## Graphic Books
