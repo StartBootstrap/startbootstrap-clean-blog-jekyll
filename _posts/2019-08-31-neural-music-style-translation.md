@@ -2,11 +2,13 @@
 layout: post
 title: 'Neural Music Style Translation'
 subtitle: "Ondřej's summary of his paper about applying machine translation techniques to musical styles"
-date: 2019-07-29
+date: 2019-09-01
 author: Ondřej Cífka
 author-id: ondrej
 background: /posts/music-translation/splash.jpg
 ---
+
+*This post has been adopted from [Ondřej's blog](https://ondrej.cifka.com/posts/neural-music-style-translation/).*
 
 I'm very happy that our paper ['Supervised symbolic music style translation using synthetic data'](https://arxiv.org/abs/1907.02265) has been accepted to ISMIR 2019 and I'm looking forward to presenting it this November.
 Today, I would like to give an overview of the paper, and also offer a slightly different perspective by explaining how I approached the task of music style transformation as someone coming from a machine translation background.
