@@ -2,6 +2,7 @@
 layout: post
 title: 'Neural Music Style Translation'
 subtitle: "Ondřej's summary of his paper about applying machine translation techniques to musical styles"
+excerpt: "Ondřej's summary of his paper about applying machine translation techniques to musical styles."
 date: 2019-09-01
 author: Ondřej Cífka
 author-id: ondrej
