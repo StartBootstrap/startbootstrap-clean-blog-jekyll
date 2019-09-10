@@ -20,9 +20,6 @@ models:
         name: email
         label: Email
       - type: string
-        name: description
-        label: Description
-      - type: string
         name: author
         label: Author name
       - type: string
