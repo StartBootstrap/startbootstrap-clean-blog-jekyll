@@ -1,0 +1,165 @@
+stackbitVersion: ~0.2.0
+ssgName: custom
+publishDir: _site
+buildCommand: bundle install && bundle exec jekyll build
+uploadDir: img
+staticDir: ""
+pagesDir: ""
+dataDir: ""
+models:
+  config:
+    type: data
+    label: Config
+    file: _config.yml
+    fields:
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: string
+        name: email
+        label: Email
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: author
+        label: Author name
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: baseurl
+        label: Base URL
+        description: the subpath of your site, e.g. /blog/
+      - type: string
+        name: url
+        label: URL
+        description: the base hostname & protocol for your site
+      - type: string
+        name: twitter_username
+        label: Twitter Username
+      - type: string
+        name: github_username
+        label: Github Username
+      - type: string
+        name: facebook_username
+        label: Facebook Username
+      - type: string
+        name: linkedin_username
+        label: Linkein Username
+      - type: string
+        name: google_analytics
+        label: Google Analytics Code
+      - type: string
+        name: markdown
+        label: Markdown
+      - type: number
+        name: paginate
+        label: Paginate per page
+      - type: string
+        name: paginate_path
+        label: Paginate Path
+      - type: list
+        name: plugins
+        label: Plugins
+        items:
+          type: string
+  home:
+    type: page
+    label: Home Page
+    file: index.html
+    singleInstance: true
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: home
+      - type: image
+        name: background
+        label: Background
+  about:
+    type: page
+    label: About Page
+    file: about.html
+    singleInstance: true
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: page
+      - type: string
+        name: title
+        label: Page Title
+      - type: string
+        name: description
+        label: Page Description
+      - type: image
+        name: background
+        label: Background
+  contact:
+    type: page
+    label: Contact Page
+    file: contact.html
+    singleInstance: true
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: page
+      - type: string
+        name: title
+        label: Page Title
+      - type: string
+        name: description
+        label: Page Description
+      - type: image
+        name: background
+        label: Background
+      - type: boolean
+        name: form
+        label: Form
+  posts:
+    type: page
+    label: Post List Page
+    file: posts/index.html
+    singleInstance: true
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: page
+      - type: string
+        name: title
+        label: Page Title
+      - type: image
+        name: background
+        label: Background
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: post
+      - type: string
+        name: title
+        label: Page Title 
+      - type: string
+        name: subtitle
+        label: Subtitle
+      - type: date
+        name: date
+        label: Publish Date
+      - type: image
+        name: background
+        label: Background
+
+
+
+
+
+
+

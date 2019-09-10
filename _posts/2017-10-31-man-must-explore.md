@@ -2,7 +2,7 @@
 layout: post
 title: "Man must explore, and this is exploration at its greatest"
 subtitle: "Problems look mighty small from 150 miles up"
-date: 2017-10-31 10:45:13 -0400
+date: 2017-10-31T14:25:52-05:00
 background: '/img/posts/06.jpg'
 ---
 
