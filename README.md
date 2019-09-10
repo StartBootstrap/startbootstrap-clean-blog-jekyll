@@ -4,6 +4,12 @@
 
 This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
+## Stackbit Deploy
+
+This theme is ready to import into Stackbit. This theme can be deployed to Netlify and you can connect any headless CMS including Forestry, NetlifyCMS, DatoCMS or Contentful. 
+
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll)
+
 ## Preview
 
 [![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
