@@ -77,11 +77,13 @@ groups:
 
         topic: Text-Informed Lead Vocal Extraction
         supervisors:
-          - name: Gaël Richard
-            web: https://perso.telecom-paristech.fr/grichard/
+          - name: Roland Badeau
+            web: https://perso.telecom-paristech.fr/rbadeau/
 
         email: kschulze@telecom-paristech.fr
+        website: https://schufo.github.io
         linkedin: kilian-schulze-forster
+        github: schufo
 
       - name: Giorgia Cantisani
         photo: tpt3-giorgia.jpg
@@ -90,10 +92,12 @@ groups:
 
         topic: Multimodal Music Recording Remastering
         supervisors:
-          - name: Gaël Richard
-            web: https://perso.telecom-paristech.fr/grichard/
+          - name: Slim Essid
+            web: https://perso.telecom-paristech.fr/essid/
 
         email: giorgia.cantisani@telecom-paristech.fr
+        linkedin: giorgia-cantisani-371732131
+        github: giorgiacantisani
 
       - name: Ondřej Cífka
         photo: tpt4-ondrej.jpg
