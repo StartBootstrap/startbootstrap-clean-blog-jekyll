@@ -25,7 +25,13 @@ width: 12
     	</div>
     	<div class="col-8">
     		<h2 id="{{ esr.id }}">{{ esr.name }}</h2>
-        <div>Topic: <a href="#" data-toggle="modal" data-target="#modal{{ esr.code }}">{{ esr.topic }}</a></div>
+        <div>Topic: 
+          {% if site.data.abstracts[esr.code] %}
+            <a href="#" data-toggle="modal" data-target="#modal{{ esr.code }}">{{ esr.topic }}</a>
+          {% else %}
+            {{ esr.topic }}
+          {% endif %}
+        </div>
     		<div>
           <em>Supervisor:
           {% for supervisor in esr.supervisors %}
@@ -53,12 +59,14 @@ width: 12
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalLabel{{ esr.code }}">{{ esr.name }}: {{ esr.topic }}</h5>
+            <h4 class="modal-title" id="modalLabel{{ esr.code }}">{{ esr.name }}: {{ esr.topic }}</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">{{ site.data.abstracts[esr.code] }}</div>
+          <div class="modal-body">
+            {{ site.data.abstracts[esr.code] }}
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
@@ -67,23 +75,4 @@ width: 12
     </div>
   {% endfor %}
 {% endfor %}
-</div>
-
-
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Philip Tovstogan: Facilitating Interactive Music Exploration</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">Music recommendation systems are an integral part of modern music streaming services. Usually, they utilize exploit vs explore model from game theory. There is a lot of work being done on music exploitation, but not enough on exploration. We address the issue of strict categorization of music according to classes (genres, moods, themes) by introducing the concept of continuous semantic latent space that is constructed based on feature learning and transfer learning from relevant classifier systems. This space is used to map out user preferences and identify good recommendations for exploration. Moreover, we use reinforcement learning and negative feedback to learn the current context and goal of the user to provide the most relevant suggestions at the time of interaction. The evaluation of the system will be performed based on the experiments involving user interactions with the system with the metrics based on user engagement and novelty.</div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
 </div>

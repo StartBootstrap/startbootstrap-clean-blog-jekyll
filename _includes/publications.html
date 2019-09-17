@@ -1,3 +1,11 @@
 {% for publication in publications %}
-	<p>{{ publication.authors }} ({{ publication.date | date: "%Y" }}). <strong>{{ publication.title }}.</strong> <em>{{ publication.in }}.</em> <a href="{{ publication.url }}">Link</a></p>
+	<p>
+		{{ publication.authors }} 
+		({{ publication.date | date: "%Y" }}). 
+		<strong>{{ publication.title }}.</strong> 
+		<em>{{ publication.in }}.</em> 
+		{% if publication.url %}
+			<a href="{{ publication.url }}"><i class="fas fa-external-link-alt"></i></a>
+		{% endif %}
+	</p>
 {% endfor %}

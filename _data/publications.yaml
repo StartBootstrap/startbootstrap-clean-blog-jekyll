@@ -1,6 +1,58 @@
+# please follow the citation style!
+# all fields except url are required
+# esr field can be either string or an array of strings for collaborations (e.g. furkan or [furkan, philip])
+# add links to people page for esrs involved (e.g <a href="/people#furkan">Yesiler F.</a>)
+
 - title: 'The MTG-Jamendo Dataset for Automatic Music Tagging'
   esr: philip 
-  url: http://mtg.upf.edu/node/3957
-  authors: Bogdanov, D., Won M., Tovstogan P., Porter A., Serra X.
-  in: Machine Learning for Music Discovery Workshop (ML4MD), International Conference on Machine Learning (ICML 2019)
+  authors: Bogdanov, D., Won M., <a href="/people#philip">Tovstogan P.</a>, Porter A., and Serra X.
+  in: Machine Learning for Music Discovery Workshop (ML4MD), 36th International Conference on Machine Learning (ICML 2019), Long Beach, California, USA
   date: 2019-06-15
+  url: http://mtg.upf.edu/node/3957
+
+- title: 'Da-TACOS: A Dataset for Cover Song Identification and Understanding'
+  esr: [furkan, philip]
+  authors: <a href="/people#furkan">Yesiler F.</a>, Tralie C., Correya A., Silva D. F., <a href="/people#philip">Tovstogan P.</a>, Gómez E., and Serra X.
+  in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
+  date: 2019-11-02
+
+- title: 'A New Dataset for Amateur Vocal Percussion Analysis'
+  esr: alejandro
+  authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., and Sandler M.
+  in: Audio Mostly 2019, Nottingham, UK
+  date: 2019-09-20
+
+- title: Automatic chord-scale recognition using harmonic pitch class profiles
+  esr: emir
+  authors: <a href="/people#emir">Demirel E.</a>, Bozkurt B., and Serra X.
+  in: 16th Sound & Music Computing Conference (SMC 2019), Málaga, Spain
+  date: 2019-05-28
+  url: http://hdl.handle.net/10230/41706
+
+- title: Exploring Generalizability of Automatic Phoneme Recognition Models
+  esr: emir
+  authors: <a href="/people#emir">Demirel E.</a>, Ahlback S. and Dixon S.
+  in: UK Speech 2019, Birmingham, UK
+  date: 2019-06-24
+  url: http://www.thespeechark.com/ukspeech2019/abstractBook_UKSpeech2019_fin_noLogos.pdf
+
+- title: A Hybrid Approach to Audio-to-Score Alignment
+  esr: ruchit
+  authors: <a href="/people#ruchit">Agrawal R.</a>, and Dixon S.
+  in: 36th International Conference on Machine Learning (ICML 2019), Long Beach, California, USA
+  date: 2019-06-15
+
+- title: Supervised Symbolic Music Style Translation Using Synthetic Data
+  esr: ondrej
+  authors: <a href="/people#ondrej">Cífka O.</a>, Şimşekli U., and Richard G.
+  in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
+  date: 2019-11-02
+  url: https://arxiv.org/abs/1907.02265
+
+- title: Investigating Kernel Shapes and Skip Connections for Deep Learning-Based Harmonic-Percussive Separation
+  esr: carlos
+  authors: <a href="/people#carlos">Lordelo C.</a>, Benetos E., Dixon S., and Ahlbäck S.
+  in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, (WASPAA 2019), New Paltz, NY, USA
+  date: 2019-10-20
+  url: https://arxiv.org/abs/1905.01899
+
