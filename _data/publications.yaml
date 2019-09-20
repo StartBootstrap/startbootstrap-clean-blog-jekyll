@@ -55,4 +55,16 @@
   in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, (WASPAA 2019), New Paltz, NY, USA
   date: 2019-10-20
   url: https://arxiv.org/abs/1905.01899
+  
+  - title: EEG-based Decoding of Auditory Attention to a Target Instrument in Polyphonic Music
+  esr: giorgia
+  authors: <a href="/people#giorgia">Cantisani G.</a>, Essid S., and Richard G.
+  in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, (WASPAA 2019), New Paltz, NY, USA
+  date: 2019-10-20
+  
+  - title: MAD-EEG: an EEG Dataset for Decoding Auditory Attention to a Target Instrument in Polyphonic Music
+  esr: giorgia
+  authors: <a href="/people#giorgia">Cantisani G.</a>, Trégoat G., Essid S., and Richard G.
+  in: Workshop on Speech, Music and Mind 2019, (SMM 2019), Vienna, Austria
+  date: 2019-09-14
 
