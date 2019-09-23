@@ -70,7 +70,7 @@
   date: 2019-09-14
   url: https://hal.archives-ouvertes.fr/hal-02291882
   
-  - title: 'Data Augmentation for Instrument Classification Robust to Audio Effects'
+- title: 'Data Augmentation for Instrument Classification Robust to Audio Effects'
   esr: antonio
   authors: <a href="/people#antonio">Ramires A.</a>, and Serra X.
   in: 22nd International Conference on Digital Audio Effects (DAFx-19), Birmingham, UK
