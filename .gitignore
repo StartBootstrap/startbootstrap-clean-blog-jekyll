@@ -4,3 +4,5 @@ node_modules
 *.swo
 *.lock
 *.DS_Store
+.DS_Store
+
