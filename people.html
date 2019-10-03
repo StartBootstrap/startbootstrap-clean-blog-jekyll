@@ -66,8 +66,6 @@ width: 12
           </div>
           <div class="modal-body">
             {{ site.data.abstracts[esr.code] }}
-            {% assign publications = site.data.publications | where: 'esr', esr.id | sort: 'date' | reverse %}
-            {% include publications.html %}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
