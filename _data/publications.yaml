@@ -55,4 +55,31 @@
   in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, (WASPAA 2019), New Paltz, NY, USA
   date: 2019-10-20
   url: https://arxiv.org/abs/1905.01899
+  
+- title: EEG-based Decoding of Auditory Attention to a Target Instrument in Polyphonic Music
+  esr: giorgia
+  authors: <a href="/people#giorgia">Cantisani G.</a>, Essid S., and Richard G.
+  in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA 2019), New Paltz, NY, USA
+  date: 2019-10-20
+  url: https://hal.archives-ouvertes.fr/hal-02291896
+  
+- title: 'MAD-EEG: an EEG Dataset for Decoding Auditory Attention to a Target Instrument in Polyphonic Music'
+  esr: giorgia
+  authors: <a href="/people#giorgia">Cantisani G.</a>, Trégoat G., Essid S., and Richard G.
+  in: Workshop on Speech, Music and Mind 2019 (SMM 2019), Vienna, Austria
+  date: 2019-09-14
+  url: https://hal.archives-ouvertes.fr/hal-02291882
+  
+- title: 'Data Augmentation for Instrument Classification Robust to Audio Effects'
+  esr: antonio
+  authors: <a href="/people#antonio">Ramires A.</a>, and Serra X.
+  in: 22nd International Conference on Digital Audio Effects (DAFx-19), Birmingham, UK
+  date: 2019-09-04
+  url: https://repositori.upf.edu/handle/10230/42218
+
+- title: Learning Soft-Attention Models for Tempo-invariant Audio-Sheet Music Retrieval
+  esr: luis
+  authors: Balke S., Dorfer M., <a href="/people#luis">Carvalho L.</a>, Arzt A., and Widmer G.
+  in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
+  date: 2019-11-02
 
