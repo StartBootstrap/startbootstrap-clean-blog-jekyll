@@ -113,6 +113,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 96. **Essentials of Mathematical Thinking**, *Steven G. Krantz*, CRC Press, 2018. [(review)](https://zbmath.org/?q=an%3A06758729)
 97. **The Cost of Living**, *Arundhati Roy*, Modern Library, 1999.
 98. **The Algebra of Infinite Justice**, *Arundhati Roy*, Penguin Books, 2014.
+99. **King of Infinite Space: Donald Coxeter, the Man Who Saved Geometry**, *Siobhan Roberts*, Walker, 2006.
+100. **Assam: The Accord, The Discord**, *Sangeeta Barooah Pisharoty*, Ebury Press, 2019.
 
 
 ## Fiction
@@ -159,6 +161,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 40. **Origin**, *Dan Brown*, Corgi Books, 2018.
 41. **The Palace of Illusions**, *Chitra Banerjee Divakaruni*, Picador, 2009.
 42. **The tattooist of Auschwitz**, *Heather Morris*, Zaffre, 2018.
+43. **Nothing Ventured**, *Jeffrey Archer*, Pan Macmillan, 2019.
+44. **Life Over Two Beers: And Other Stories**, *Sanjeev Sanyal*, Penguin Random House, 2018.
+45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books, 2008.
 
 
 ## Graphic Books
