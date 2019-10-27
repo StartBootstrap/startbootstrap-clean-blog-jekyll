@@ -9,17 +9,17 @@ category_dir: category/
 tag_dir: tag/
 
 
-collections:
-  category:
-    output: true
+#collections:
+#  category:
+#    output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: category
+#    values:
+#      layout: "category"
 
 
 permalink: pretty
