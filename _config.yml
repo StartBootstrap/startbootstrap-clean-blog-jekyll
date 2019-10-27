@@ -8,6 +8,22 @@ url:                "https://dykim413.github.io"
 category_dir: category/
 tag_dir: tag/
 
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+
+permalink: pretty
+
 # Social Profiles
 twitter_username:   SBootstrap
 github_username:    BlackrockDigital
