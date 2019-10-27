@@ -74,19 +74,20 @@ layout: default
     <strong style="color:#2ac1bc;font-size:18px;">categories</strong>
     <ul>
       
-	  		
+	 {% for category in site.categories %}	
 	  		
 	  		
 	  		<li>
-	  			<a class="bold" href="/category/interview">
-	  				interview (1)
-	  		</a></li><a class="bold" href="/category/interview">
+
+	  			<a class="bold" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+	  				{{ category | first }} ({{ category | last | size }})
 	  			</a>
+	    		</li>
 	  	
+	 {% endfor %} 		
 	  		
 	  		
-	  		
-	  		<li>
+	  		<!--li>
 	  			<a class="bold" href="/category/tools">
 	  				tools (23)
 	  		</a></li><a class="bold" href="/category/tools">
@@ -171,12 +172,12 @@ layout: default
 	  			<a class="bold" href="/category/techcourse">
 	  				techcourse (5)
 	  		</a></li><a class="bold" href="/category/techcourse">
-	  			</a>
+	  			</a-->
 	  	
     </ul>
   </section>
   
-  <section class="recent-posts">
+  <!--section class="recent-posts">
     <strong style="color:#2ac1bc;font-size:18px;">Recent Posts</strong>
     <ul>
       
@@ -193,7 +194,7 @@ layout: default
       </a></li>
     
     </ul>
-  </section>
+  </section-->
 </aside>
     
     
