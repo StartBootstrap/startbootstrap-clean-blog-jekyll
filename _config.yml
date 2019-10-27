@@ -22,7 +22,8 @@ tag_dir: tag/
 #      layout: "category"
 
 
-permalink: pretty
+#permalink: pretty
+permalink: /:categories/:title/
 
 # Social Profiles
 twitter_username:   SBootstrap
