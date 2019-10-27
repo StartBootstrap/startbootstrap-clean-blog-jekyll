@@ -5,7 +5,7 @@ author:             Start Bootstrap
 baseurl:            "/tech"
 url:                "https://dykim413.github.io"
 
-category_dir: categories/
+category_dir: category/
 tag_dir: tag/
 
 
