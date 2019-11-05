@@ -16,6 +16,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Theses
 
+3. *Topics on Alternating Sign Matrices and Aztec Rectangles*, Doctoral Thesis, University of Vienna (Vienna, Austria), 2019. (Supervisor: [Prof. Ilse Fischer](https://mat.univie.ac.at/~ifischer/)) ([pdf](/publ/Manjil-Thesis.pdf)).
+
 2. *Representations of the Symmetric Group*, Diploma Thesis, The Abdus Salam International Centre for Theoretical Physics (Trieste, Italy), 2015. (Supervisor: [Prof. Fernando R. Villegas](https://users.ictp.it/~villegas/)) ([pdf](http://gonitsora.com/manjil/thesis/saikia-diploma-thesis.pdf)).
  
 1. *A study of the crank function with special emphasis on Ramanujan’s Lost Notebook*, M.Sc Thesis, Tezpur University (Tezpur, India), 2014. (Supervisor: [Prof. Nayandeep Deka Baruah](http://www.tezu.ernet.in/dmaths/people/faculty-pages/ndb.html)) ([pdf](http://arxiv.org/pdf/1406.3299v1.pdf)).
@@ -55,6 +57,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 1. *Solution to Problem 1908 of Mathematics Magazine*, (with *Bishal Deb*), *The Mathematics Magazine*, December 2013, 86 (5), 384 — 385. ([pdf](http://gonitsora.com/manjil/publ/solutions/1908.pdf))
 
 ## Books
+
+2. *Moha Moha Puruxor Sanekire Jibonor* (edited with *Pankaj Jyoti Mahanta*), Panchajanya Publishers, Guwahati, 2018.
 
 1. *The Pursuit of Joy* (with *Pankaj Jyoti Mahanta*), LAP Lambert Academic Publishing, Germany, 2011. ([pdf](http://gonitsora.com/manjil/publ/books/the_pursuit_of_joy.pdf))
 
