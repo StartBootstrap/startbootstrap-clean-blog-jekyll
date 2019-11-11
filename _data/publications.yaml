@@ -90,9 +90,9 @@
   date: 2019-10-20
   url: https://schufo.github.io/files/waspaa_2019_paper.pdf
 
-- title: Adversarial Attacks in Sound Event Classification
+- title: Robustness of Adversarial Attacks in Sound Event Classification
   esr: vinod
-  authors: <a href="/people#vinod">Subramanian V.</a>, Benetos E., Xu N., McDonald S., and Sandler M.
+  authors: <a href="/people#vinod">Subramanian V.</a>, Benetos E., and Sandler M.
   in: Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE 2019), New York, USA
   date: 2019-10-25
-  link: https://arxiv.org/abs/1907.02477
+  link: https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/59658/Benetos%20Robustness%20of%20Adversarial%202019%20Accepted.pdf?sequence=5
