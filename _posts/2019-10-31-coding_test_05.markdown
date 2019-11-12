@@ -44,130 +44,71 @@ categories: [코딩문제풀이] # add categories
 
 def solution(s):
 
-
-
     answer = 1000
-
     if len(s) == 1:
-
         return 1
-
     for i in range(1, len(s)/2+1):
 
-
-
         # 최종 압축 문자열
-
         string = '';
 
-
-
         # 비교할 리스트 미리 만들기
-
         list_arr = []
-
         for j in range(0, len(s), i):
-
             list_arr.append(s[j:j+i])
 
-
-
         # 문자 압축
-
         cnt_tmp = 1
-
         for k in range(0, len(list_arr)):
 
-
-
             #  마지막 리스트 값일때
-
             if k == len(list_arr) -1:
-
                 if cnt_tmp == 1:
-
                     cnt_tmp = "";
-
                 string += str(cnt_tmp) + list_arr[k];
-
                 break
 
-
-
             if list_arr[k] == list_arr[k+1]:
-
                 cnt_tmp += 1
-
             else:
-
                 if cnt_tmp > 1:
-
                     string += str(cnt_tmp) + list_arr[k];
-
                 else:
-
                     string += list_arr[k];
 
-
-
-                cnt_tmp = 1
-
-
+	            cnt_tmp = 1
 
         if len(string) < answer:
-
             answer = len(string)
 
-
-
     return answer
-
 ```
 
 
 # 참고 소스
 
 ```
-
-
-
 def solution(s):
 
     min_value=99999
-
     answer = 0
-
     if len(s)==1:
-
         return 1
 
     for size in range(1,int(len(s)/2)+1): # 문자열 비교 블럭 크기(1/2이 최대압축)
 
         count=0
-
         before_word="" # 첫글자 넣기.
-
         for i in range(0,len(s)+1,size): # 사이즈별 비교
-
             if before_word[-size:]==s[i:i+size]: # 같다면
-
                 count+=1
-
             else: # 다르다면
-
                 if count > 1:
-
                     before_word +=str(count)+s[i:i+size]
-
                 else:
-
                     before_word +=s[i:i+size]
-
                 count=1
-
         if min_value > len(before_word):
-
             min_value=len(before_word)
-
     return min_value
 ```
