@@ -15,6 +15,7 @@
   authors: <a href="/people#furkan">Yesiler F.</a>, Tralie C., Correya A., Silva D. F., <a href="/people#philip">Tovstogan P.</a>, Gómez E., and Serra X.
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-02
+  url: http://doi.org/10.5281/zenodo.3527810
 
 - title: 'A New Dataset for Amateur Vocal Percussion Analysis'
   esr: alejandro
@@ -75,24 +76,25 @@
   authors: <a href="/people#antonio">Ramires A.</a>, and Serra X.
   in: 22nd International Conference on Digital Audio Effects (DAFx-19), Birmingham, UK
   date: 2019-09-04
-  url: https://repositori.upf.edu/handle/10230/42218
+  url: http://hdl.handle.net/10230/42218
 
 - title: Learning Soft-Attention Models for Tempo-invariant Audio-Sheet Music Retrieval
   esr: luis
   authors: Balke S., Dorfer M., <a href="/people#luis">Carvalho L.</a>, Arzt A., and Widmer G.
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-02
+  url: https://arxiv.org/abs/1906.10996
 
 - title: Weakly Informed Audio Source Separation
   esr: kilian
   authors: <a href="/people#kilian">Schulze-Forster K.</a>, Doire C., Richard G., and Badeau R.
   in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA 2019), New Paltz, NY, USA
   date: 2019-10-20
-  url: https://schufo.github.io/files/waspaa_2019_paper.pdf
+  url: https://hal.telecom-paristech.fr/hal-02332689
 
 - title: Robustness of Adversarial Attacks in Sound Event Classification
   esr: vinod
   authors: <a href="/people#vinod">Subramanian V.</a>, Benetos E., and Sandler M.
   in: Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE 2019), New York, USA
   date: 2019-10-25
-  url: https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/59658/Benetos%20Robustness%20of%20Adversarial%202019%20Accepted.pdf?sequence=5&isAllowed=y
+  url: https://qmro.qmul.ac.uk/xmlui/handle/123456789/59658
