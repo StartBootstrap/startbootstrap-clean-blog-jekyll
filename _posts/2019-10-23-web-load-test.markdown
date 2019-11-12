@@ -8,8 +8,7 @@ categories: [web, linux] # add categories
 ---
 
 # 서버 튜닝
-
-##### - nginx worker 설정
+##### nginx worker 설정
 ```
 worker_processes            auto;
 
@@ -18,6 +17,7 @@ events {
 }
 ```
 
+##### nginx worker 설정
 초당 동접 6500에서 더 상승하지 못하고 클라이언트에서 접속하지 못했고, 서버측은 아래와 같다.
 
 `/vag/log/message` 에서 아래와 같은 오류메시지를 확인했다.<br>
