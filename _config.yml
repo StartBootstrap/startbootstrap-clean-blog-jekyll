@@ -6,9 +6,9 @@ baseurl:            ""
 url:                "https://papion93.github.io/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:	PAPION93
+facebook_username:	
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
