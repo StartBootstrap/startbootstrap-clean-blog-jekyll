@@ -1,0 +1,143 @@
+---
+layout: post
+title: title: 코딩테스트 파이썬으로 풀기5
+date: 2019-10-31 00:00:00 +0300
+description: # Add post description (optional)
+tags: [코딩문제풀이, python] # add tag
+categories: [코딩문제풀이] # add categories
+---
+
+# 파이썬 입문겸 문제풀기
+# [2020카카오공채] 문자열 압축
+문제 참고 : https://programmers.co.kr/learn/courses/30/lessons/60057?language=python
+```
+문제 설명
+데이터 처리 전문가가 되고 싶은 어피치는 문자열을 압축하는 방법에 대해 공부를 하고 있습니다. 최근에 대량의 데이터 처리를 위한 간단한 비손실 압축 방법에 대해 공부를 하고 있는데, 문자열에서 같은 값이 연속해서 나타나는 것을 그 문자의 개수와 반복되는 값으로 표현하여 더 짧은 문자열로 줄여서 표현하는 알고리즘을 공부하고 있습니다.
+간단한 예로 aabbaccc의 경우 2a2ba3c(문자가 반복되지 않아 한번만 나타난 경우 1은 생략함)와 같이 표현할 수 있는데, 이러한 방식은 반복되는 문자가 적은 경우 압축률이 낮다는 단점이 있습니다. 예를 들면, abcabcdede와 같은 문자열은 전혀 압축되지 않습니다. 어피치는 이러한 단점을 해결하기 위해 문자열을 1개 이상의 단위로 잘라서 압축하여 더 짧은 문자열로 표현할 수 있는지 방법을 찾아보려고 합니다.
+
+예를 들어, ababcdcdababcdcd의 경우 문자를 1개 단위로 자르면 전혀 압축되지 않지만, 2개 단위로 잘라서 압축한다면 2ab2cd2ab2cd로 표현할 수 있습니다. 다른 방법으로 8개 단위로 잘라서 압축한다면 2ababcdcd로 표현할 수 있으며, 이때가 가장 짧게 압축하여 표현할 수 있는 방법입니다.
+
+다른 예로, abcabcdede와 같은 경우, 문자를 2개 단위로 잘라서 압축하면 abcabc2de가 되지만, 3개 단위로 자른다면 2abcdede가 되어 3개 단위가 가장 짧은 압축 방법이 됩니다. 이때 3개 단위로 자르고 마지막에 남는 문자열은 그대로 붙여주면 됩니다.
+
+압축할 문자열 s가 매개변수로 주어질 때, 위에 설명한 방법으로 1개 이상 단위로 문자열을 잘라 압축하여 표현한 문자열 중 가장 짧은 것의 길이를 return 하도록 solution 함수를 완성해주세요.
+
+제한사항
+s의 길이는 1 이상 1,000 이하입니다.
+s는 알파벳 소문자로만 이루어져 있습니다.
+입출력 예
+s	result
+"aabbaccc"	7
+"ababcdcdababcdcd"	9
+"abcabcdede"	8
+"abcabcabcabcdededededede"	14
+"xababcdcdababcdcd"	17
+입출력 예에 대한 설명
+입출력 예 #1
+
+문자열을 1개 단위로 잘라 압축했을 때 가장 짧습니다.
+
+입출력 예 #2
+
+문자열을 8개 단위로 잘라 압축했을 때 가장 짧습니다.
+
+입출력 예 #3
+
+문자열을 3개 단위로 잘라 압축했을 때 가장 짧습니다.
+
+입출력 예 #4
+
+문자열을 2개 단위로 자르면 abcabcabcabc6de 가 됩니다.
+문자열을 3개 단위로 자르면 4abcdededededede 가 됩니다.
+문자열을 4개 단위로 자르면 abcabcabcabc3dede 가 됩니다.
+문자열을 6개 단위로 자를 경우 2abcabc2dedede가 되며, 이때의 길이가 14로 가장 짧습니다.
+
+입출력 예 #5
+
+문자열은 제일 앞부터 정해진 길이만큼 잘라야 합니다.
+따라서 주어진 문자열을 x / ababcdcd / ababcdcd 로 자르는 것은 불가능 합니다.
+이 경우 어떻게 문자열을 잘라도 압축되지 않으므로 가장 짧은 길이는 17이 됩니다.
+```
+* * *
+# 문제풀이
+짜투리시간마다 풀었던 문제...진정 돌대가리 굴리기 힘들었다. 파이썬 문자열, 배열 처리하는 부분에도 많이 애먹었고..<br>
+원하는대로 조립할 수 없었다..아니 못했다.. 그래서 비교할 문자열을 리스트로 만들어서 순차 비교하였고,<br>
+리스트를 겨우 만들었는데 그 후에는 더 시간이 걸렸다..<br>
+어려운 문제일 수록 쉽게 생각해야한다는 점 오래만에 다시 깨닳았다. 돌대가리도 꾸준하게 돌려줘야겠다..<br>
+
+일단 생각해낸 방식은 cnt_tmp 변수로 카운트 증가시켜주기.. 그전에는 이것도 문자열 인덱싱으로 해보려다 파이썬은 string 의 3번째자리수를 바꿔버린다던지 이렇게는 되지않았다.<br>
+
+그 다음 시도는 2차원배열에 key(개수) => value(문자열) 와 같이 처리해보려했으나 파이썬 역시 가독성을 중시하여서 그런지 예제가 잘..... 찾다가 파이썬 성격에 맞지않는다 생각하여 간단하게 할 수 없을까 생각하다 cnt_tmp 가 생각났다. 앞으로는 이런 방식이 가장먼저 떠오르길...어렵게 생각하는 방식은 왜이렇게 꾸준한걸까
+
+느낀 점은 아주 조금이지만 파이썬으로 코딩을 하다보면.. 또는 다른 예제들을 살펴보면 파이썬의 소스는 가독성을 중요시하는것이 눈에 많이 띄고, 좀 더 쉽게 짜려고 다른 생소한 함수들을 찾아나서지 않게된다. 좋은걸까
+
+아래 코드는 정답이긴하나 모법답안을 좀 찾아보았는데 내소스 길이의 1/2 이다..허허
+내가 처음에 시도하려했던 문자열 처리로 해결한 소스이다. 잘 알아둬야겠다.
+```
+def solution(s):
+
+    answer = 1000
+    if len(s) == 1:
+        return 1
+    for i in range(1, len(s)/2+1):
+
+        # 최종 압축 문자열
+        string = '';
+
+        # 비교할 리스트 미리 만들기
+        list_arr = []
+        for j in range(0, len(s), i):
+            list_arr.append(s[j:j+i])
+
+        # 문자 압축
+        cnt_tmp = 1
+        for k in range(0, len(list_arr)):
+
+            #  마지막 리스트 값일때
+            if k == len(list_arr) -1:
+                if cnt_tmp == 1:
+                    cnt_tmp = "";
+                string += str(cnt_tmp) + list_arr[k];
+                break
+
+            if list_arr[k] == list_arr[k+1]:
+                cnt_tmp += 1
+            else:
+                if cnt_tmp > 1:
+                    string += str(cnt_tmp) + list_arr[k];
+                else:
+                    string += list_arr[k];
+
+                cnt_tmp = 1
+
+        if len(string) < answer:
+            answer = len(string)
+
+    return answer
+```
+```
+내생각 모법답안
+
+before_word[-size:] 이문법은 무엇인가??? 신기하다..
+
+def solution(s):
+    min_value=99999
+    answer = 0
+    if len(s)==1:
+        return 1
+    for size in range(1,int(len(s)/2)+1): # 문자열 비교 블럭 크기(1/2이 최대압축)
+        count=0
+        before_word="" # 첫글자 넣기.
+        for i in range(0,len(s)+1,size): # 사이즈별 비교
+            if before_word[-size:]==s[i:i+size]: # 같다면
+                count+=1
+            else: # 다르다면
+                if count > 1:
+                    before_word +=str(count)+s[i:i+size]
+                else:
+                    before_word +=s[i:i+size]
+                count=1
+        if min_value > len(before_word):
+            min_value=len(before_word)
+    return min_value
+
+```
