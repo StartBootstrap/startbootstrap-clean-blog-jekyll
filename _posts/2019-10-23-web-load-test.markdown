@@ -11,20 +11,20 @@ categories: [web, linux] # add categories
 <br>
 ```
 worker_processes            auto;
-worker_rlimit_nofile        10240; # 
+worker_rlimit_nofile        10240; # worker_processes의 최대 오픈 파일 개수
 
 events {
     worker_connections  8192;
 }
 ```
 - `worker_processes` 는 CPU 혹은 CPU Core 의 총 개수와 동일하게 맞춘다.
- 	- grep processor /proc/cpuinfo | wc -l CPU 갯수
- 	- 하지만 보통은 4개 정도가 넘어가면 이미 최대 성능치일 경우가 많다.
+- grep processor /proc/cpuinfo | wc -l CPU 갯수
+- 하지만 보통은 4개 정도가 넘어가면 이미 최대 성능치일 경우가 많다.
 - `worker_connections`은 `worker_process`가 받을 수 있는 클라이언트 갯수이다.
- 	- 총 접속 가능 클라이언트 갯수(MaxClients)는 worker_processes * worker_connections로 지정된다.
- 	- Reverse Proxy 상태에서는 worker_processes * worker_connections / 4 이 값은 ulimit -n의 결과값(open files)보다 작아야 한다. 필요시 `limit.conf` 튜닝할 것.
+- 총 접속 가능 클라이언트 갯수(MaxClients)는 worker_processes * worker_connections로 지정된다.
+- Reverse Proxy 상태에서는 worker_processes * worker_connections / 4 이 값은 ulimit -n의 결과값(open files)보다 작아야 한다. 필요시 `limit.conf` 튜닝할 것.<br>
 
-
+* * *
 
 # kernel 설정
 <br>
