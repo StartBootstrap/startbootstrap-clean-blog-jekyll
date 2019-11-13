@@ -1,1 +1,1 @@
-# Clean Blog Theme로 테마 수정!!!!
+# Clean Blog Theme로 블로그 테마 수정!!!!
