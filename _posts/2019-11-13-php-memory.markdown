@@ -29,28 +29,27 @@ struct _zval_struct {
     zend_uchar is_ref __gc;
 };
 ```
-`zvalue_value value` 는 실질적인 값을 나타낸다. (an integer, a string, and object…)<br>
-그 다음 메모리 관리는 2개의 필드와 연관이 있다.`refcount, is_ref`<br>
+`zvalue_value value` 는 실질적인 값이다. (an integer, a string, and object…)<br>
+메모리 관리는 `refcount, is_ref` 2개의 필드와 연관이 있다. <br>
 
-`refcount` 는 얼마나 많은 변수들이 이 `zval`을 가르키는지 나타내는 정수이다. 즉 변수에 지정된 `value`는 위의 `zval` 구조체로 메모리에 저장되고, 각 변수는 이 `zval` 을 가르키게 되는데, 이 때 얼마나 많은 변수들이 가르키고 있는지 알 수 있다.<br>
+`refcount` 는 얼마나 많은 변수들이 이 `zval`을 가르키는지 나타내는 `integer`이다. 즉 변수의 값은 위의 `zval` 구조체로 메모리에 저장되고, 각 변수는 이 `zval` 을 가르키게 되는데, 이 때 얼마나 많은 변수들이 가르키고 있는지 나타낸다.<br>
 
 `is_ref` boolean 을 나타내는 정수이다. default는 0이고, 아직 참조되지 않은 상태를 의미한다.`(&$a in PHP syntax)`<br>
 1로 된다면 참조되고 있다는 것을 의미하고, 이 zval을 어떻게 가지고 노느냐에 따라 PHP는 크게 변화할 것이다.<br>
 <br>
 # Composite types
-<br>
 이 작은 스크립트에서 몇개의 zval이 사용되고 있을까?<br>
 `$a = 'foo';`<br>
 
 물론 1개이다. 그림으로 나타낸다면 아래와 같다.<br>
-![](../img/pauli_variables1_custom_0.png)
+![](/img/pauli_variables1_custom_0.png)
 
 
 다음 스크립트를 보자.<br>
 `$a = array('foo'=>'bar', 42);`<br>
 여기에는 3개가 사용된다. string `bar`, integer `42`, 마지막으로 이를 감싸는 `array` 이다.<br>
 그림은 아래와 같다.<br>
-![](../img/pauli_variables2_custom_0.png)
+![](/img/pauli_variables2_custom_0.png)
 여기서 배열의 키인 `foo` 와 `1` 은 `zval`이 아니다. 단순히 value 이다. PHP 에서는 모든 타입이 zvals 인 것을 기억하고 다음 objects 를 보자<br>
 ```
 class Foo {
@@ -70,7 +69,7 @@ PHP가 변수를 복제할 때 어떻게 zval memory를 복제하지 않고 어�
 $a = 'foo';
 $b = $a;
 ```
-![](../img/pauli_variables3_custom_0.png)
+![](/img/pauli_variables3_custom_0.png)
 위에서 본 `zval` 컨테이너는 노란색 부분과 같다. 회색 부분은 변수이고 실제로 메모리를 소비하지 않는다. 메모리를 잡아먹는 부분은 노란색 `zval` 컨테이너이고, 복제작업으로 인해 해당 `zval`을 가르키는 변수가 증가하여 `refcount` 가 증가했을 뿐이다. 따라서 아래의 두 코드의 메모리 사용량은 동일하다.<br>
 ```
 // code1
