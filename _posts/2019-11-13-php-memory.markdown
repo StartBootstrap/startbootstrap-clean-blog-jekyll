@@ -163,7 +163,7 @@ echo foo($value);
 
 Memory leak, gc는 다음 포스트에서 작성한다.
 
-더 테스트해볼것. 3개의 참조일 때 동작
+더 테스트해볼것. 3개의 참조일 때 동작, 실제 메모리 사용확인
 
 [How PHP manages variables](https://entwickler.de/webandphp/how-php-manages-variables-125644.html)
 
