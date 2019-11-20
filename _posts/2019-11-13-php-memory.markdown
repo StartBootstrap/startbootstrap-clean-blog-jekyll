@@ -166,7 +166,7 @@ Memory leak, gc는 다음 포스트에서 작성한다.<br>
 
 더 테스트해볼것. 3개의 참조일 때 동작, 실제 메모리 사용확인<br><br>
 
-## 테스트 결과
+## 실제 메모리 사용 확인
 ```
 function foo(&$var)
 {
@@ -188,7 +188,7 @@ echo foo($value);
 
 **결국은 참조변수를 복사하는데만 조심한다면 메모리는 추가로 사용되지 않을 것이다.**<br>
 
-참조변수 테스트<br>
+## 참조변수 테스트<br>
 ```
 1 $a = "varvar";
 2 $b = &$a; or $b = $a;
@@ -199,12 +199,12 @@ echo foo($value);
 ```
 위의 경우 결과물은 아래와 같다. 중요한 점은 2번라인까지는 메모리 추가사용이 없었으나 3번부터 그 이후의 참조는 계속해서 `refcount`가 같은 `zval`이 생성되는지 메모리가 계속해서 복사되었다.
 ```
-a:
-(refcount=3, is_ref=1),string 'varvar' (length=6)
-b:
-(refcount=3, is_ref=1),string 'varvar' (length=6)
-c:
-(refcount=3, is_ref=1),string 'varvar' (length=6)
+a:(refcount=3, is_ref=1),string 'varvar' (length=6)
+-> 872 bytes
+b:(refcount=3, is_ref=1),string 'varvar' (length=6)\
+-> 872 bytes
+c:(refcount=3, is_ref=1),string 'varvar' (length=6)
+1032 bytes
 ```
 <br>
 참고
