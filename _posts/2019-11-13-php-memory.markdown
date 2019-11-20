@@ -162,9 +162,9 @@ echo foo($value);
 
 `foo()`에 참조변수를 넘기지 않았다면, 중복은 전혀 일어나지 않았을 것이다. 요즘 `barbaz`와 같은 string을 복제하는데에는 nanoseconds가 소요된다. 하지만 배열의 경우는 다르다. 특히 많은 키와 복잡한 배열의 경우.. 배열자체가 복사되므로 매우 많은 리소스가 소요될 수 있다.(PHP 5.5를 실행하는 2013 년 데스크톱 하드웨어에서는 백만 개의 슬롯 배열을 복제하는 데 약 0.3 초 소요)<br>
 
-Memory leak, gc는 다음 포스트에서 작성한다.
+Memory leak, gc는 다음 포스트에서 작성한다.<br>
 
-더 테스트해볼것. 3개의 참조일 때 동작, 실제 메모리 사용확인
+더 테스트해볼것. 3개의 참조일 때 동작, 실제 메모리 사용확인<br><br>
 
 ## 테스트 결과
 ```
@@ -180,14 +180,15 @@ function foo(&$var)
         return strtoupper($var);
     }
 }
-
+$value = 'barbaz';
+echo foo($value);
 ```
 
-현재 5.6.1 버전에서 위 소스로 테스트 해보았다. foo() 함수의 인자로 `$var` 와 `&$var` 로 비교해 보았으나 최종 메모리 사용량은 같았다. 그리고 `xdebug_debug_zval()` 1, 2번의 결과는 `(refcount=3, is_ref=1),string 'barbar' (length=6)` 와 같았다. 위에서 언급한 내용은 5.5 버전 이전의 내용인듯하고, 현재 5.6.1 에서는 `strlen()`이나 `strtoupper()`로 인해 메모리가 추가로 사용되거나 `refcount` 가 높아지는 현상은 없었다.<br>
+현재 5.6.1 버전에서 위 소스로 테스트 해보았다. foo() 함수의 인자로 `$var` 와 `&$var` 로 비교해 보았으나 최종 메모리 사용량은 같았다. 그리고 `xdebug_debug_zval()` 1, 2번의 결과는 `(refcount=3, is_ref=1),string 'barbar' (length=6)` 와 같았다. 위에서 언급한 내용은 5.5 버전 이전의 내용인 것으로 추측된다, 지금 테스트한 5.6.1 에서는 `strlen()`이나 `strtoupper()`로 인해 메모리가 추가로 사용되거나 `refcount` 가 높아지는 현상은 없었다.<br>
 
-**결국은 참조변수를 복사하는데만 조심한다면 메모리는 추가로 사용되지 않을 것이다.**
+**결국은 참조변수를 복사하는데만 조심한다면 메모리는 추가로 사용되지 않을 것이다.**<br>
 
-3개의 참조일 때
+참조변수 테스트<br>
 ```
 1 $a = "varvar";
 2 $b = &$a; or $b = $a;
@@ -196,7 +197,7 @@ function foo(&$var)
 5 xdebug_debug_zval('b');
 6 xdebug_debug_zval('c');
 ```
-위의 경우 결과물은 아래와 같다. 중요한 점은 2번라인까지는 메모리 복사가 없었으나 3번부터 그 이후의 참조는 계속해서 `refcount`가 같은 `zval`이 생성되는지 메모리가 계속해서 복사되었다.
+위의 경우 결과물은 아래와 같다. 중요한 점은 2번라인까지는 메모리 추가사용이 없었으나 3번부터 그 이후의 참조는 계속해서 `refcount`가 같은 `zval`이 생성되는지 메모리가 계속해서 복사되었다.
 ```
 a:
 (refcount=3, is_ref=1),string 'varvar' (length=6)
@@ -205,6 +206,7 @@ b:
 c:
 (refcount=3, is_ref=1),string 'varvar' (length=6)
 ```
+<br>
 참고
 - [How PHP manages variables](https://entwickler.de/webandphp/how-php-manages-variables-125644.html)
 
