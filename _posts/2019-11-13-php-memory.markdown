@@ -123,7 +123,7 @@ $a = 'string';
 $b = &$a;
 $b = 1;
 ```
-`$a` 와 `$b`는 모두 같은 value 를 공유하고 있다. 위와 같이 참조를 사용하는 것은 `$a`와 `$b`는 같은 `zval`에 묶는것을 의미한다. 사실 `$a = $b;`와 `$a = &%b;`는 이 단일 라인에서는 동일한 작업이 맞다. 하지만 마지막 라인의 `$b = 1;`에서 Copy On Write는 PHP를 크게 변화시킨다.<br>
+`$a` 와 `$b`는 모두 같은 value 를 공유하고 있다. 위와 같이 참조를 사용하는 것은 `$a`와 `$b`는 같은 `zval`에 묶는것을 의미한다. 사실 `$a = $b;`와 `$a = &$b;`는 이 단일 라인에서는 동일한 작업이 맞다. 하지만 마지막 라인의 `$b = 1;`에서 Copy On Write는 PHP를 크게 변화시킨다.<br>
 ![](https://papion93.github.io/img/pauli_variables8_custom_0.png)<br><br>
 
 먼저 &를 사용하여 `is_ref`가 1로 증가한 것을 볼 수 있다. 하지만 `refcount`의 의미는 바뀌지 않는다.<br>
@@ -155,9 +155,10 @@ function foo(&$var)
 $value = 'barbaz';
 echo foo($value);
 ```
-`foo()` 함수의 `$var`는 참조변수로 넘겨졌다. `foo()` 안에서 `$var`의 `is_ref`는 1일 것이다. 여기서 호출한 `stlen()`와 `strtoupper()`에서 어떤 동작이 벌어질까? 이 함수들은 `value`에 의해 동작하게 되고(매뉴얼에서 확인가능)  `$var`은 참조에 바인딩되며, PHP는 그러한 string 관련 함수를 호출 할 때마다 메모리를 복제한다.<br>
+아래 설명은 PHP 5.5이하의 내용이 포함되어 있다.<br>
+~~`foo()` 함수의 `$var`는 참조변수로 넘겨졌다. `foo()` 안에서 `$var`의 `is_ref`는 1일 것이다. 여기서 호출한 `stlen()`와 `strtoupper()`에서 어떤 동작이 벌어질까? 이 함수들은 `value`에 의해 동작하게 되고(매뉴얼에서 확인가능)  `$var`은 참조에 바인딩되며, PHP는 그러한 string 관련 함수를 호출 할 때마다 메모리를 복제한다.~~<br>
 
-만약 `strlen()` 등 함수들이 새롭게 할당하여 쓰지않고 참조를 사용한다면, 저 함수들은 우리가 제어하는 변수값들을 변경할 수 있게 될 것이다. 우리는 그것을 원하지않고, PHP는 정확히 같은 값을 가진 새로운 값을 만들기 위해 `$var zval`을 복제해서 사용해야만 한다.<br>
+~~만약 `strlen()` 등 함수들이 새롭게 할당하여 쓰지않고 참조를 사용한다면, 저 함수들은 우리가 제어하는 변수값들을 변경할 수 있게 될 것이다. 우리는 그것을 원하지않고, PHP는 정확히 같은 값을 가진 새로운 값을 만들기 위해 `$var zval`을 복제해서 사용해야만 한다.<br>~~
 
 `foo()`에 참조변수를 넘기지 않았다면, 중복은 전혀 일어나지 않았을 것이다. 요즘 `barbaz`와 같은 string을 복제하는데에는 nanoseconds가 소요된다. 하지만 배열의 경우는 다르다. 특히 많은 키와 복잡한 배열의 경우.. 배열자체가 복사되므로 매우 많은 리소스가 소요될 수 있다.(PHP 5.5를 실행하는 2013 년 데스크톱 하드웨어에서는 백만 개의 슬롯 배열을 복제하는 데 약 0.3 초 소요)<br>
 
@@ -165,10 +166,47 @@ Memory leak, gc는 다음 포스트에서 작성한다.
 
 더 테스트해볼것. 3개의 참조일 때 동작, 실제 메모리 사용확인
 
-[How PHP manages variables](https://entwickler.de/webandphp/how-php-manages-variables-125644.html)
+## 테스트 결과
+```
+function foo(&$var)
+{
+	xdebug_debug_zval('var');        ---> 1번
 
+    if (strlen($var) > 3){
+		xdebug_debug_zval('var');    ---> 2번
+        return $var;
+    } else {
+        $var .= '_uppercased';
+        return strtoupper($var);
+    }
+}
 
+```
 
+현재 5.6.1 버전에서 위 소스로 테스트 해보았다. foo() 함수의 인자로 `$var` 와 `&$var` 로 비교해 보았으나 최종 메모리 사용량은 같았다. 그리고 `xdebug_debug_zval()` 1, 2번의 결과는 `(refcount=3, is_ref=1),string 'barbar' (length=6)` 와 같았다. 위에서 언급한 내용은 5.5 버전 이전의 내용인듯하고, 현재 5.6.1 에서는 `strlen()`이나 `strtoupper()`로 인해 메모리가 추가로 사용되거나 `refcount` 가 높아지는 현상은 없었다.<br>
+
+**결국은 참조변수를 복사하는데만 조심한다면 메모리는 추가로 사용되지 않을 것이다.**
+
+3개의 참조일 때
+```
+1 $a = "varvar";
+2 $b = &$a; or $b = $a;
+3 $c = &$b;
+4 xdebug_debug_zval('a');
+5 xdebug_debug_zval('b');
+6 xdebug_debug_zval('c');
+```
+위의 경우 결과물은 아래와 같다. 중요한 점은 2번라인까지는 메모리 복사가 없었으나 3번부터 그 이후의 참조는 계속해서 `refcount`가 같은 `zval`이 생성되는지 메모리가 계속해서 복사되었다.
+```
+a:
+(refcount=3, is_ref=1),string 'varvar' (length=6)
+b:
+(refcount=3, is_ref=1),string 'varvar' (length=6)
+c:
+(refcount=3, is_ref=1),string 'varvar' (length=6)
+```
+참고
+- [How PHP manages variables](https://entwickler.de/webandphp/how-php-manages-variables-125644.html)
 
 
 
