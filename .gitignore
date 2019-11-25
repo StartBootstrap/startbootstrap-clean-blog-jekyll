@@ -3,4 +3,6 @@ _site
 node_modules
 *.gem
 
+.idea
+
 .DS_store
