@@ -28,9 +28,6 @@ In both cases (pitch-shift and time-shift invariance), the features carry some d
 <div style="text-align:center">
 <figure class="figure">
   <img src="/posts/Stefan_Lattner_interview/Stefan_3.jpg" alt="Stefan Lattner (second from left) receiving the Best Paper Award at ISMIR 2019" class="figure-img img-fluid mx-auto d-flex" width="500"/>
-  <figcaption class="figure-caption text-center" markdown="1">
-  Stefan Lattner (second from left) receiving the Best Paper Award at ISMIR 2019
-  </figcaption>
 </figure>
 </div>
 
