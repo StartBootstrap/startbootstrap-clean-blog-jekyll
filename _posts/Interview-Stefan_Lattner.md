@@ -19,7 +19,7 @@ In this interview, Stefan shares his perspectives on a few topics including audi
 </figure>
 </div>
 
-####In your ISMIR paper this year you were looking for audio representations that are invariant to irrelevant transformations given a certain task. Your past work showcases that spirit as well. Do you think achieving such invariances constitutes a priority in MIR research?
+####In your [ISMIR paper](http://archives.ismir.net/ismir2019/paper/000085.pdf) this year you were looking for audio representations that are invariant to irrelevant transformations given a certain task. Your [past work](https://arxiv.org/pdf/1708.05325.pdf) showcases that spirit as well. Do you think achieving such invariances constitutes a priority in MIR research?
 
 I am not sure about the priority, but the invariant features computed by a Complex Autoencoder (CAE) have some interesting properties, and I particularly like their musical interpretation. When we train the CAE for pitch-shift invariance, we obtain representations of musical intervals. Musically, this makes a lot of sense, because most people have relative pitch perception. Moreover, the compression ratio for these representations considering only the different pitch classes is 1/12. When the CAE is trained for time-shift invariance, the features represent rhythmic structures. For time-shift invariance, we have the same gain/loss as when we perform FFT on signals - we represent some temporal relationships for the cost of temporal precision (and possibly order).
 
