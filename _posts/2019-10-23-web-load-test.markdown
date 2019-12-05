@@ -69,4 +69,5 @@ overruns은 커널이 버퍼를 비우는 속도보다 버퍼가 가득 차는 �
 하지만 `keepalive` 는 지속적인 호출이 있는 경우 적절히 사용하는 것이 필요하여 무작정 끌 수 없다. 적절한 시간을 정하는 것이 중요하다.<br>
 
 
-[네이버 클라우드 플랫폼 - nf_conntrack full로 인한 Packet Drop 대응](https://medium.com/naver-cloud-platform/nf-conntrack-full%EB%A1%9C-%EC%9D%B8%ED%95%9C-packet-drop-%EB%8C%80%EC%9D%91-2586146e6714), [nginx 기본 설정](https://kwonnam.pe.kr/wiki/nginx/performance)
+- [네이버 클라우드 플랫폼 - nf_conntrack full로 인한 Packet Drop 대응](https://medium.com/naver-cloud-platform/nf-conntrack-full%EB%A1%9C-%EC%9D%B8%ED%95%9C-packet-drop-%EB%8C%80%EC%9D%91-2586146e6714)
+- [nginx 기본 설정](https://kwonnam.pe.kr/wiki/nginx/performance)
