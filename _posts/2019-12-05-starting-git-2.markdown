@@ -19,17 +19,17 @@ categories: [Git] # add categories
 타겟이 되는 프로젝트를 일단 Fork 해오자. 내 github에 정상적으로 Fork되면 다음 진행.
 
 ### 2. Clone, remote, branch
-내 로컬저장소에 Fork 해온 저장소를 Clone 하자.<br>
+- 내 로컬저장소에 Fork 해온 저장소를 Clone 하자.<br>
 `$ git clone https://github.com/내계정/프로젝트명`<br>
 
-내 github 저장소로 올리고 난 후 Pull Request 한다.<br>
+- 내 github 저장소로 올리고 난 후 Pull Request 한다.<br>
 `$ git remote add 별명 https://github.com/내계정/프로젝트명`<br>
 
-branch 생성과 동시에 해당 branch로 진행<br>
+- branch 생성과 동시에 해당 branch로 진행<br>
 `$ git checkout -b 브랜치명`<br>
 
 ### 3. add, commit, push
-소스 수정 작업 진행 후 add, commit<br>
+- 소스 수정 작업 진행 후 add, commit<br>
 `$ git push <remote 별명> <브랜치명>`<br>
 remote 를 원본원격지로 했을 때 push를 하면 아래와 같이 permission 오류가 났다.
 ```
