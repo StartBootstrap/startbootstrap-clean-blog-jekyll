@@ -30,7 +30,7 @@ GANs are another model type that so far has had limited success in the symbolic 
 
 #### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Earlier this year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from the users? Do you have examples of music produced with Magenta Studio?
 
-We have gotten a lot of positive feedback from early adopters[^6], but I think it's a bit too early to know what effect these types of tools will have on music composition and production.
+We have gotten a lot of positive feedback from early adopters,[^6] but I think it's a bit too early to know what effect these types of tools will have on music composition and production.
 YACHT [composed an album](https://magenta.tensorflow.org/chain-tripping) using the same MusicVAE models before Magenta Studio existed and have spoken a bit about their experience in various publications.
 I'd imagine more professionals have used the software but may not be as eager to advertise that it has become a part of their technique.
 In the end, I think there will be a huge benefit in setting up this type of feedback loop with creators in discovering what tools they want and also sparking collaborations and data sharing.
