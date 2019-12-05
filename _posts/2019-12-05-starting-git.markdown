@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Git 입문
+title: Git 기초정리
 date: 2019-12-05 00:00:00 +0300
 description: # Add post description (optional)
 tags: [Git] # add tag
 categories: [Git] # add categories
 ---
+# Git 기초정리
 
 사내에서 따로 Git이나 분산 버전 관리 시스템을 사용하지 않는다. 하지만 사수는 아니지만 친하게 지내고 많이 도와주시는 대리님의 권유로 같이 객체지향 설계 공부를 시작하기로 했다. 혼자 Github 블로그 포스팅 할때나 간단히 사용했었지만 이번에 기초부터 다시 공부하며 남겨놓으려 한다.
 
@@ -84,5 +85,5 @@ nothing added to commit but untracked files present (use "git add" to track)
 `$ git commit`
 
 
-여기까지 정말 기본적인 Git 기초를 봤다. 기초적인 내용은 더있지만 필요할 때 사용하도록 하고 당장 필요한 내용을 다음포스팅으로 보겠다.
+여기까지 정말 기본적인 Git 기초를 봤다. 기초적인 내용은 더 있지만 이 외에는 필요할 때 찾아 알아두면 될거같고 당장 필요한 내용을 다음 포스팅으로 보겠다.
 
