@@ -11,9 +11,9 @@ background: /posts/adam-roberts/splash.png
 
 Adam Roberts is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
 He got his PhD in Computational Biology at UC Berkeley and before joining Google Brain, he worked in the Google Play Music Knowledge team.
-I met Adam at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference in November where he was presenting some of the music generation work together with his colleagues from Magenta, and I took this opportunity to ask him a few questions.
+I met Adam in November at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference, where he was presenting some of the music generation work together with his colleagues from Magenta, and I took this opportunity to ask him a few questions.
 
-#### This year at ISMIR, we have seen many interesting papers about music generation. What are your highlights?
+#### We have seen many interesting papers about music generation this year at ISMIR. What are your highlights?
 
 I was really excited by progress in many areas of MIR research that I believe will help us improve music generation in the future.
 For example, there were multiple papers releasing very useful datasets (e.g., [SUPRA](https://supra.stanford.edu/)[^1] and the [Harmonix Set](https://github.com/urinieto/harmonixset)[^2]) that can be used for training generative models.
@@ -28,7 +28,7 @@ VAEs (see our [MusicVAE](https://g.co/magenta/musicvae) model) are one way of en
 Thus, the quality of their outputs has been constrained by the architecture in addition to trade-offs between supporting accurate reconstructions or better sampling.
 GANs are another model type that so far has had limited success in the symbolic generation space, but the "perceptual" loss they provide could lead to much better outputs versus the standard autoregressive maximum-likelihood/reconstruction losses typically used.
 
-#### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Earlier this year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from people that are using them? Do you have examples of music produced with Magenta Studio?
+#### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Earlier this year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from the users? Do you have examples of music produced with Magenta Studio?
 
 We have gotten a lot of positive feedback from early adopters[^6], but I think it's a bit too early to know what effect these types of tools will have on music composition and production.
 YACHT [composed an album](https://magenta.tensorflow.org/chain-tripping) using the same MusicVAE models before Magenta Studio existed and have spoken a bit about their experience in various publications.
