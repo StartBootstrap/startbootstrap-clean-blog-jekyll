@@ -11,7 +11,7 @@ background: /posts/adam-roberts/splash.png
 
 Adam Roberts is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
 He got his PhD in Computational Biology at UC Berkeley and before joining Google Brain, he worked in the Google Play Music Knowledge team.
-I met Adam at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference in November where he was presenting some of the music generation work together with his colleagues from Magenta, and I used this opportunity to ask him a few questions.
+I met Adam at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference in November where he was presenting some of the music generation work together with his colleagues from Magenta, and I took this opportunity to ask him a few questions.
 
 #### This year at ISMIR, we have seen many interesting papers about music generation. What are your highlights?
 
