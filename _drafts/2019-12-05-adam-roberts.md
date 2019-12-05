@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 'Interview with Adam Roberts'
-subtitle: ""
-excerpt: ""
+subtitle: "A Google Brain researcher's thoughts on music generation and creativity"
+excerpt: "A Google Brain researcher's thoughts on music generation and creativity"
 date: 2019-12-05
 author: Ondřej Cífka
 author-id: ondrej
-background: /posts/adam-roberts/splash.jpg
+background: /posts/adam-roberts/splash.png
 ---
 
 Adam Roberts is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
