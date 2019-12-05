@@ -11,7 +11,7 @@ background: /posts/adam-roberts/splash.jpg
 
 Adam Roberts is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
 He got his PhD in Computational Biology at UC Berkeley and before joining Google Brain, he worked in the Google Play Music Knowledge team.
-I met Adam in [November](https://ismir2019.ewi.tudelft.nl/) at the ISMIR conference where he was presenting some of the music generation work together with his colleagues from Magenta, and I used this opportunity to ask him a few questions.
+I met Adam at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference in November where he was presenting some of the music generation work together with his colleagues from Magenta, and I used this opportunity to ask him a few questions.
 
 #### This year at ISMIR, we have seen many interesting papers about music generation. What are your highlights?
 
@@ -22,15 +22,15 @@ Finally, I'm always happy to see people building really useful tools for creator
 
 #### You have worked with different generative models (RNNs, Transformers, VAEs etc.). What are some differences in the behaviour of these models that you noticed when applying them to music? Are there any trade-offs to consider when choosing the architecture?
 
-Yes, there are a ton of tradeoffs!
+Yes, there are a ton of trade-offs!
 Transformers seem to capture long-term structure and expressivity better than RNNs, but they tend to be slower at inference-time, which makes them difficult to use in a real-time setting.
-VAEs are one way of enabling more control over the generative process on top of continuation, which is trivially provided by language models (see our [MusicVAE](https://g.co/magenta/musicvae)), but their implementations in the symbolic music space have so far been limited to RNNs.
-Thus, the quality of their outputs have so far been limited by the architecture in addition to tradeoffs between supporting accurate reconstructions or better sampling.
+VAEs (see our [MusicVAE](https://g.co/magenta/musicvae) model) are one way of enabling more control over the generative process on top of continuation -- trivially provided by language models -- but their implementations in the symbolic music space have so far been limited to RNNs.
+Thus, the quality of their outputs has been constrained by the architecture in addition to trade-offs between supporting accurate reconstructions or better sampling.
 GANs are another model type that so far has had limited success in the symbolic generation space, but the "perceptual" loss they provide could lead to much better outputs versus the standard autoregressive maximum-likelihood/reconstruction losses typically used.
 
 #### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Earlier this year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from people that are using them? Do you have examples of music produced with Magenta Studio?
 
-We have gotten a lot of positive feedback from early adopters[^6], but I think it's a bit too early to know what affect these types of tools will have on music composition and production.
+We have gotten a lot of positive feedback from early adopters[^6], but I think it's a bit too early to know what effect these types of tools will have on music composition and production.
 YACHT [composed an album](https://magenta.tensorflow.org/chain-tripping) using the same MusicVAE models before Magenta Studio existed and have spoken a bit about their experience in various publications.
 I'd imagine more professionals have used the software but may not be as eager to advertise that it has become a part of their technique.
 In the end, I think there will be a huge benefit in setting up this type of feedback loop with creators in discovering what tools they want and also sparking collaborations and data sharing.
@@ -39,7 +39,7 @@ In the end, I think there will be a huge benefit in setting up this type of feed
 
 I think it's up to the (co-)creators and consumers to decide when art is good.  Human evaluation and curation, at a minimum, will be necessary for the foreseeable future. If art is created but nobody is there to enjoy it, is it still even art?
 
-#### Do you think machines by themselves can be creative? Are we eventually going to be able to generate truly novel and interesting art fully automatically, just by training on art produced in the past?
+#### Do you think machines by themselves can be creative? Are we eventually going to be able to generate truly novel and interesting art fully automatically, just by extrapolating from art produced in the past?
 
 I think you can't really remove the human from the loop here either. The best art to come out of these systems has a lot of human involvement both in the development and training stage as well in curation and post-production.  I'm not sure if it will be possible or desirable to have completely machine-generated art that doesn't get stale over time. It needs to move with the cultural zeitgeist. Also, if such a system were to exist, who is actually the artist: the model or the people who created it?
 
