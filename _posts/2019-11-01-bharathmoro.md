@@ -6,6 +6,6 @@ email: bharathmoro@fieldsofview.in
 description: 
 img: bharathmoro.jpg
 category: team
-ide: vidgis
+ide: bharathmoro
 permalink: /team/bharathmoro/
 ---
