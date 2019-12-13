@@ -115,6 +115,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 98. **The Algebra of Infinite Justice**, *Arundhati Roy*, Penguin Books, 2014.
 99. **King of Infinite Space: Donald Coxeter, the Man Who Saved Geometry**, *Siobhan Roberts*, Walker, 2006.
 100. **Assam: The Accord, The Discord**, *Sangeeta Barooah Pisharoty*, Ebury Press, 2019.
+101. **We Should All Be Feminists**, *Chimamanda Ngozi Adichie*, Fourth Estate, 2014.
+102. **Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions**, *Chimamanda Ngozi Adichie*, 4th Estate, 2017.
+103. **S. Chandrasekhar: The Man Behind the Legend**, *Kameshwar C. Wali (ed.)*, Imperial College Press, 1997.
 
 
 ## Fiction
