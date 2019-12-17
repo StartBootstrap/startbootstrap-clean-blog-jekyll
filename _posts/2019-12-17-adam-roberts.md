@@ -3,13 +3,13 @@ layout: post
 title: 'Interview with Adam Roberts'
 subtitle: "A Google Brain researcher's thoughts on music generation and creativity"
 excerpt: "A Google Brain researcher's thoughts on music generation and creativity"
-date: 2019-12-05
+date: 2019-12-17
 author: Ondřej Cífka
 author-id: ondrej
 background: /posts/adam-roberts/splash.png
 ---
 
-Adam Roberts is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
+[Adam Roberts](https://research.google/people/104881/) is a software engineer and machine learning researcher at Google Brain, working on music and art generation as part of the [Magenta](https://magenta.tensorflow.org/) project.
 He got his PhD in Computational Biology at UC Berkeley and before joining Google Brain, he worked in the Google Play Music Knowledge team.
 I met Adam in November at the [ISMIR](https://ismir2019.ewi.tudelft.nl/) conference, where he was presenting some of the music generation work together with his colleagues from Magenta, and I took this opportunity to ask him a few questions.
 
@@ -20,7 +20,7 @@ For example, there were multiple papers releasing very useful datasets (e.g., [S
 There were also improvements in such things as beat detection (e.g., Böck et al.[^3]) and transcription, which will help provide even more useful data. As far as generation specifically, I was really excited to see Donahue et al.'s applying transfer learning to fine-tune Music Transformer on their [NES](https://github.com/chrisdonahue/nesmdb) dataset.[^4]
 Finally, I'm always happy to see people building really useful tools for creators like Smith et al.'s [Unmixer](https://unmixer.ongaaccel.jp/).[^5]
 
-#### You have worked with different generative models (RNNs, Transformers, VAEs etc.). What are some differences in the behaviour of these models that you noticed when applying them to music? Are there any trade-offs to consider when choosing the architecture?
+#### You have worked with different generative models (RNNs, Transformers, VAEs, etc.). What are some differences in the behavior of these models that you noticed when applying them to music? Are there any trade-offs to consider when choosing the architecture?
 
 Yes, there are a ton of trade-offs!
 Transformers seem to capture long-term structure and expressivity better than RNNs, but they tend to be slower at inference-time, which makes them difficult to use in a real-time setting.
