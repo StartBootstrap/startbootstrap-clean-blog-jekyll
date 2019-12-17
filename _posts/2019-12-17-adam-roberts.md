@@ -28,7 +28,7 @@ VAEs (see our [MusicVAE](https://g.co/magenta/musicvae) model) are one way of en
 Thus, the quality of their outputs has been constrained by the architecture in addition to trade-offs between supporting accurate reconstructions or better sampling.
 GANs are another model type that so far has had limited success in the symbolic generation space, but the "perceptual" loss they provide could lead to much better outputs versus the standard autoregressive maximum-likelihood/reconstruction losses typically used.
 
-#### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Earlier this year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from the users? Do you have examples of music produced with Magenta Studio?
+#### Magenta is all about "exploring the role of machine learning as a tool in the creative process". Last year, you released [Magenta Studio](https://magenta.tensorflow.org/studio/), which makes such tools readily available to music creators. Do you hear back from the users? Do you have examples of music produced with Magenta Studio?
 
 We have gotten a lot of positive feedback from early adopters,[^6] but I think it's a bit too early to know what effect these types of tools will have on music composition and production.
 YACHT [composed an album](https://magenta.tensorflow.org/chain-tripping) using the same MusicVAE models before Magenta Studio existed and have spoken a bit about their experience in various publications.
