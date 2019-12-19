@@ -84,6 +84,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 수정한 것을 커밋하기 위해 `Staging Area`에 파일을 정리했다. `Unstaged` 상태의 파일은 커밋되지 않는다는 것을 기억해야 한다. Git은 생성하거나 수정하고 나서 `git add` 명령으로 추가하지 않은 파일은 커밋하지 않는다. 그 파일은 여전히 `Modified` 상태로 남아 있다. 커밋하기 전에 `git status` 명령으로 모든 것이 `Staged` 상태인지 확인할 수 있다. 그 후에 `git commit` 을 실행하여 커밋한다.<br>
 
 
+### 마치며
 이번 포스팅을 하면서 Git Book 문서 읽으면서 추가로 알게된 점이 적잖아 있다. 이런것까지 해야하나 싶었지만 역시 해보는게 맞다. 포스팅에는 없지만 감이 잡히듯 익혀지는 것이 존재한다. 기초적인 내용은 더 있지만 이 외에는 필요할 때 찾아 알아두면 될거 같고 당장 필요한 내용을 다음 포스팅으로 보겠다.
 
+
+### 참고자료
 [Git-Book](https://git-scm.com/book/ko/v2)
