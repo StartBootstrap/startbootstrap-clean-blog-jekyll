@@ -4,8 +4,8 @@ title: Git 맛보기(Pull Request 후기)
 subtitle: 처음 Pull Request 해본 후기
 date: 2019-12-05 00:00:00 +0300
 description: # Add post description (optional)
-tags: [Git] # add tag
-categories: [Git] # add categories
+tags: [git] # add tag
+categories: [git] # add categories
 ---
 
 이번에 동료들과 같이 해볼 스터디 환경에 제일 필요한 것 Pull Request. Git 환경 구성하면서 시행착오가 좀 있었는데 포스팅해보겠다.<br>

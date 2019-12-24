@@ -4,8 +4,8 @@ title: Git 기초정리
 subtitle: 나만의 Git 기초 정리해보기
 date: 2019-12-05 00:00:00 +0300
 description: # Add post description (optional)
-tags: [Git] # add tag
-categories: [Git] # add categories
+tags: [git] # add tag
+categories: [git] # add categories
 ---
 
 사내에서 따로 Git이나 분산 버전 관리 시스템을 사용하지 않는다.. 사수는 아니지만 친하게 지내면서 많이 도와주시고 매사 긍정적이신 대리님~~(보고계십니까..?)~~의 권유로 같이 객체지향 설계 공부를 시작하기로 했다. 혼자 Github 블로그 포스팅 할때나 간단히 사용했었지만 이번에 정말 기초부터 다시 공부하며 남겨놓으려 한다.

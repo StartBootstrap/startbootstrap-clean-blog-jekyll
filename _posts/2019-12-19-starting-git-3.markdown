@@ -4,8 +4,8 @@ title: Git 명령어 정리
 subtitle: 간단한 git 명령어 정리를 해봅시다.
 date: 2019-12-19 00:00:00 +0300
 description: # Add post description (optional)
-tags: [Git] # add tag
-categories: [Git] # add categories
+tags: [git] # add tag
+categories: [git] # add categories
 ---
 
 포스팅은 못했지만 계속해서 동료들과 객체 지향 설계를 공부하고 있다. 이번 연습과제를 잘 마치면 포스팅해보도록 해야겠다. 이번 포스팅 주제는 gitignore의 존재는 알았지만 어떤 것을 등록해야하는지 몰라 사용하진 않았는데, 이번에 하게되어 과정을 정리해두려고 한다.<br>

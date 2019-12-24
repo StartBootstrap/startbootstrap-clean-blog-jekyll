@@ -2,11 +2,11 @@
 
 layout: post
 title: PHP의 변수 관리법
-subtitle: PHP 의 메모리 할당은 어떻게 이루어 지는가?
+subtitle: PHP 의 메모리 할당은 어떻게 이루어질까?
 date: 2019-11-13 00:00:00 +0300
 description: # Add post description (optional)
-tags: [PHP] # add tag
-categories: [PHP] # add categories
+tags: [php] # add tag
+categories: [php] # add categories
 
 ---
 # PHP의 변수 관리

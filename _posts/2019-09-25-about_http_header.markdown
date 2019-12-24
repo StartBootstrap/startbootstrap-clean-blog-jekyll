@@ -4,8 +4,8 @@ title: HTTP 헤더 알아보기
 subtitle: HTTP의 헤더 구조를 정리해보자
 date: 2019-09-19 00:00:00 +0300
 description: # Add post description (optional)
-tags: [web, http, header] # add tag
-categories: [WEB] # add categories
+tags: [web, http] # add tag
+categories: [web] # add categories
 ---
 
 ## 정의. HTTP 헤더는 클라이언트와 서버가 요청 또는 응답으로 부가적인 정보를 전송할 수 있도록 해줍니다.

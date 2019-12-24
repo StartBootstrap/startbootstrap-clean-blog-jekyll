@@ -26,7 +26,9 @@ layout: default
 
             {% if page.tags %}
               {% for tag in page.tags %}
-                <span class="tag"><u>{{ tag }}</u></span>
+                {% if site.data.tags contains tag %}
+                  <span class="tag"><u>{{ tag }}</u></span>
+                {% endif %}
               {% endfor %}
             {% endif %}
 

@@ -4,7 +4,7 @@ title: 기술블로그 만들기 - GitHub
 subtitle: Jykyll, Github을 통해 첫 블로그 탄생
 date: 2019-09-10 00:00:00 +0300
 img: software.jpg # Add image post (optional)
-tags: [기술블로그, git, jekyll] # add tag
+tags: [git, jekyll] # add tag
 categories: [블로그] # add categories
 ---
 

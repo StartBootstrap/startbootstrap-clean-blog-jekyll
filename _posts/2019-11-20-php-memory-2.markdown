@@ -2,11 +2,11 @@
 
 layout: post
 title: PHP의 변수 관리법2
-subtitle: PHP는 어떨때 메모리 누수가 발생할 수 있는가?
+subtitle: PHP는 어떨때 메모리 누수가 발생할까?
 date: 2019-11-13 00:00:00 +0300
 description: # Add post description (optional)
-tags: [PHP] # add tag
-categories: [PHP] # add categories
+tags: [php] # add tag
+categories: [php] # add categories
 
 ---
 # PHP의 변수 관리2
