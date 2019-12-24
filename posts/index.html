@@ -1,36 +1,44 @@
 ---
 layout: page
 title: Posts
-description: 전체 포스트 목록입니다.
+description: 전체 포스트 목록입니다.1
 background: '/img/bg-post.jpg'
 ---
+{{ site.data.tags }}
 
 {% for tag in site.data.tags %}
+{{tag}}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
   </span>
 {% endfor %}
 
 {% for post in site.posts %}
-
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
+<div class="post-wrapper"
+  {% if post.tags %}
+    {% for tag in post.tags %}
+      data-{{ tag }}
+    {% endfor %}
+  {% endif %}>
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+      {% if post.subtitle %}
+      <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+      {% else %}
+      <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+      {% endif %}
+    </a>
+    <p class="post-meta">Posted by
+      {% if post.author %}
+      {{ post.author }}
+      {% else %}
+      {{ site.author }}
+      {% endif %}
+      on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    </p>
 </article>
+</div>
 
 <hr>
 
