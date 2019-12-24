@@ -4,6 +4,25 @@ title: Posts
 description: 전체 포스트 목록입니다.
 background: '/img/bg-post.jpg'
 ---
+
+<script>
+$("[data-tag]").click((e) => {
+  currentTag = e.target.dataset.tag;
+  filterByTagName(currentTag);
+})
+
+function filterByTagName(tagName) {
+  $('.hidden').removeClass('hidden');
+  $('.post-wrapper').each((index, elem) => {
+    if (!elem.hasAttribute(`data-${tagName}`)) {
+      $(elem).addClass('hidden');
+    }
+  });
+  $(`.tag`).removeClass('selected');
+  $(`.tag[data-tag=${tagName}]`).addClass('selected');
+}
+</script>
+
 {% for tag in site.data.tags %}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
@@ -34,7 +53,7 @@ background: '/img/bg-post.jpg'
       {% endif %}
       on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
     </p>
-</article>
+  </article>
 </div>
 
 <hr>
