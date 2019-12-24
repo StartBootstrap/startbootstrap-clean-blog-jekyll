@@ -7,9 +7,7 @@ background: '/img/bg-post.jpg'
 
 <script type="text/javascript">
   $("[data-tag]").click((e) => {
-    alert(1);
     currentTag = e.target.dataset.tag;
-    alert(currentTag)
     filterByTagName(currentTag);
   })
 
@@ -20,8 +18,8 @@ background: '/img/bg-post.jpg'
         $(elem).addClass('hidden');
       }
     });
-    $(`.tag`).removeClass('selected');
-    $(`.tag[data-tag=${tagName}]`).addClass('selected');
+    $('.tag').removeClass('selected');
+    $('.tag[data-tag=${tagName}]').addClass('selected');
   }
 </script>
 
