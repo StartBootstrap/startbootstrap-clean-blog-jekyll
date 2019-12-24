@@ -21,6 +21,14 @@ layout: default
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}
+
+              {% if page.tags %}
+                {% for tag in page.tags %}
+                  <span class="tag">{{ tag }}</span>
+                {% endfor %}
+              {% endif %}
+
+            
             </span>
           </div>
         </div>
@@ -33,12 +41,6 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
-        
-        {% if page.tags %}
-          {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-          {% endfor %}
-        {% endif %}
 
         <hr>
 
