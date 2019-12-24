@@ -33,6 +33,12 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
+        
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
 
         <hr>
 
