@@ -12,6 +12,7 @@ background: '/img/bg-post.jpg'
   })
 
   function filterByTagName(tagName) {
+    alert(tagName);
     $('.hidden').removeClass('hidden');
     $('.post-wrapper').each((index, elem) => {
       if (!elem.hasAttribute('data-${tagName}')) {
