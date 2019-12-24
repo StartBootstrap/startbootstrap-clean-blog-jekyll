@@ -6,21 +6,23 @@ background: '/img/bg-post.jpg'
 ---
 
 <script type="text/javascript">
-$("[data-tag]").click((e) => {
-  currentTag = e.target.dataset.tag;
-  filterByTagName(currentTag);
-})
+  $("[data-tag]").click((e) => {
+    alert(1);
+    currentTag = e.target.dataset.tag;
+    alert(currentTag)
+    filterByTagName(currentTag);
+  })
 
-function filterByTagName(tagName) {
-  $('.hidden').removeClass('hidden');
-  $('.post-wrapper').each((index, elem) => {
-    if (!elem.hasAttribute(`data-${tagName}`)) {
-      $(elem).addClass('hidden');
-    }
-  });
-  $(`.tag`).removeClass('selected');
-  $(`.tag[data-tag=${tagName}]`).addClass('selected');
-}
+  function filterByTagName(tagName) {
+    $('.hidden').removeClass('hidden');
+    $('.post-wrapper').each((index, elem) => {
+      if (!elem.hasAttribute(`data-${tagName}`)) {
+        $(elem).addClass('hidden');
+      }
+    });
+    $(`.tag`).removeClass('selected');
+    $(`.tag[data-tag=${tagName}]`).addClass('selected');
+  }
 </script>
 
 {% for tag in site.data.tags %}
