@@ -5,11 +5,11 @@ description: 전체 포스트 목록입니다.
 background: '/img/bg-post.jpg'
 ---
 
-{% if page.tags %}
-  {% for tag in page.tags %}
-    <span class="tag">{{ tag }}</span>
-  {% endfor %}
-{% endif %}
+{% for tag in site.tags %}
+  <span class="tag" data-tag="{{tag}}">
+    {{ site.tag }}
+  </span>
+{% endfor %}
 
 {% for post in site.posts %}
 
