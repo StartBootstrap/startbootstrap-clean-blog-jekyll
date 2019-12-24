@@ -1,13 +1,10 @@
 ---
 layout: page
 title: Posts
-description: 전체 포스트 목록입니다.1
+description: 전체 포스트 목록입니다.
 background: '/img/bg-post.jpg'
 ---
-{{ site.data.tags }}
-
 {% for tag in site.data.tags %}
-{{tag}}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
   </span>
