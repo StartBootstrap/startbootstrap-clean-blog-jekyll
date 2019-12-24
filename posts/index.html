@@ -8,7 +8,7 @@ background: '/img/bg-post.jpg'
 {% if page.tags %}
   {% for tag in page.tags %}
     {% if site.tags contains tag %}
-      <span class="tag">{{ site.format[tag] }}</span>
+      <span class="tag">{{ site.tag }}</span>
     {% endif %}
   {% endfor %}
 {% endif %}
