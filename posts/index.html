@@ -4,7 +4,7 @@ title: Posts
 background: '/img/bg-post.jpg'
 ---
 
-{% for post in paginator.total_posts %}
+{% for post in site.posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
