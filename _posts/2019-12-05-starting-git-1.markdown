@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git 기초정리
+subtitle: 나만의 Git 기초 정리해보기
 date: 2019-12-05 00:00:00 +0300
 description: # Add post description (optional)
 tags: [Git] # add tag

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 웹 동접 부하 테스트
+subtitle: 웹 동접 부하 테스트시 관련 설정 기록
 date: 2019-10-13 00:00:00 +0300
 description: # Add post description (optional)
-tags: [web, linux] # add tag
-categories: [web, linux] # add categories
+tags: [web, nginx, linux] # add tag
+categories: [web, nginx, linux] # add categories
 ---
 
 # nginx worker 설정

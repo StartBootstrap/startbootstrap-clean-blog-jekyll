@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux CPU Info 확인하기
+subtitle: Linux CPU를 확인해보자
 date: 2019-10-13 00:00:00 +0300
 description: # Add post description (optional)
 tags: [linux] # add tag

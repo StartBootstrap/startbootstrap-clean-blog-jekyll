@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Git 협업맛보기(Pull Request 후기)
+title: Git 맛보기(Pull Request 후기)
+subtitle: 처음 Pull Request 해본 후기
 date: 2019-12-05 00:00:00 +0300
 description: # Add post description (optional)
 tags: [Git] # add tag

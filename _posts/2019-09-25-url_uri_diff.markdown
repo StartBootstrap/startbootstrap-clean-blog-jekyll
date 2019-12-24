@@ -1,6 +1,7 @@
 ---
 layout: post
 title: URL과 URI
+subtitle: URL과 URI의 개념 그리고 차이를 알아보자
 date: 2019-09-19 00:00:00 +0300
 description: # Add post description (optional)
 tags: [web] # add tag

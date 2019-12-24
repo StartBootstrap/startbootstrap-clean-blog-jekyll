@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HTTP 헤더 알아보기
+subtitle: HTTP의 헤더 구조를 정리해보자
 date: 2019-09-19 00:00:00 +0300
 description: # Add post description (optional)
 tags: [web, http, header] # add tag

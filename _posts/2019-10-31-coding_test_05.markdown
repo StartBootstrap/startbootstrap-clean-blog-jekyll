@@ -1,15 +1,11 @@
 ---
 
 layout: post
-
-title: 코딩테스트 파이썬으로 풀기5
-
+title: 코딩테스트 파이썬으로 풀기
+subtitle: 2020카카오공채 파이썬으로 풀어보기
 date: 2019-10-31 00:00:00 +0300
-
 description: # Add post description (optional)
-
 tags: [코딩문제풀이, python] # add tag
-
 categories: [코딩문제풀이] # add categories
 
 ---

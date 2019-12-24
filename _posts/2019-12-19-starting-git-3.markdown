@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git 명령어 정리
+subtitle: 간단한 git 명령어 정리를 해봅시다.
 date: 2019-12-19 00:00:00 +0300
 description: # Add post description (optional)
 tags: [Git] # add tag

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 코딩테스트 파이썬으로 풀기4
+title: 코딩테스트 파이썬으로 풀기
+subtitle: 프로그래머스 코딩테스트 파이썬으로 풀어보기
 date: 2019-10-13 00:00:00 +0300
 description: # Add post description (optional)
 tags: [코딩문제풀이, python] # add tag
