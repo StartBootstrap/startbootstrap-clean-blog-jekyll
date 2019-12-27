@@ -18,6 +18,10 @@ categories: [java]
 
 우선 나같은 경우는 어쩌면 폭포수와 애자일의 타협을 거쳤는지도 모르겠다.(~~매우 긍정적인편~~)
 
+그림
+
+우선 구조를 살펴보면 가장 위의 회사(Company)는 마커 인터페이스이다. 그 아래를 2가지로 나눠 Worker interface와 Building interface가 있고 Worker는 Employer class와 Employee class로 나뉜다. Building 은 ResearchFloor 를 가진다.(상속관계이다).
+
 메인 프로세스부터 보자.
 ```java
 public class OneDayWorkProcess {
@@ -88,11 +92,9 @@ Cho야 오늘은 여기까지해!
 이번달은 Jun 너 보너스!
 ```
 
-우선 구조를 살펴보면 가장 위의 회사(Company)는 마커 인터페이스이다. 그 아래를 2가지로 나눠 Worker interface와 Building interface가 있고 Worker는 Employer class와 Employee class로 나뉜다. Building 은 ResearchFloor 를 가진다.(상속관계이다).
-
 여기서는 직원과 사장 그리고 출근하는 장소인 연구실이 객체가 된다. 직원객체는 집을떠나 연구실 객체에 출근하고 사장은 직원들 출근을 확인한다.(~~쫓겨나기도함~~) 그리고 일을 하면 사장이 보너스주는 시늉을 진행하며 하루가 끝났다. 스스로는 스토리가 맘에든다.
 
-내가 구현한 동작중 출근하는 comeToWork()만 살펴보고 마치도록 해야겠다.
+ResearchFloor class만 살펴보고 마치도록 해야겠다.
 ```
 public class ResearchFloor implements Building {
 
@@ -130,8 +132,13 @@ public class ResearchFloor implements Building {
     }
 }
 ```
-해당 내용 중 내게 java 공부가 되는부분은
+해당 클래스를 구현하면서 java 공부가 되었던 부분을 정리해보면
 1. 각 메소드가 특정 타입의 객체를 전달받아 진행하는 부분
 2. 객체의 타입에 따라 동작이 달라지는 부분
 3. 직원 객체 리스트를 사장이 기억해 가는 부분
-4. 그 후 사장이 보너스를 주겠지.
+4. 그 후 사장이 보너스를 주겠지
+
+## 마치며
+일단 회사 설계를 해보면서 회사의 interface, class 구조는 잡았다 하더라도 각 객체들의 동작을 현실성 있게 구현하는 부분이 매우 힘들었다. 애자일 방법론을 통하여 생각하지 않았더라면 더욱 오래걸렸을 것이고, 현실성있는 진행도 되지 않았을 것이다. 나에게 객체지향 사고에 나름 큰 도움이 되었던 과제였던 것 같고 다음 과제가 몹시 기대되는 수준이다. 부끄럽지만 내맘대로 설계하는 것도 엄청 재밌는 것 같다.
+
+
