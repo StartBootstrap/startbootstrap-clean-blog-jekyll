@@ -92,7 +92,7 @@ Cho야 오늘은 여기까지해!
 
 여기서는 직원과 사장 그리고 출근하는 장소인 연구실이 객체가 된다. 직원객체는 집을떠나 연구실 객체에 출근하고 사장은 직원들 출근을 확인한다.(~~쫓겨나기도함~~) 그리고 일을 하다보면 사장은 업무를 중지시키고 보너스를 주는 시늉을 하며 하루가 끝난다. 스스로는 스토리가 맘에든다. 처음이라 이렇게 쉬운 것도 추상화 계층 설계와 나름 깔끔한 스토리를 위해 몹시 고민한 결과물이다.
 
-ResearchFloor class만 살펴보고 마치도록 해야겠다.
+추상화 계층도 보았고 메인스토리도 보았으니, 나에게 java 공부가 되었던 ResearchFloor class만 더 살펴보고 마치도록 해야겠다. [더보기](https://github.com/PAPION93/Object-Oriented/tree/sj/src/main/java/personal/oop/practice3/company)
 ```
 public class ResearchFloor implements Building {
 
