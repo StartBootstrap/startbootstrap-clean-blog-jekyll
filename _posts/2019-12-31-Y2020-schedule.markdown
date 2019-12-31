@@ -2,7 +2,7 @@
 
 layout: post
 title: 2020년 계획과 첫 도전
-subtitle: 계획을 이렇게 싸악~ 그럴싸하쥬?
+subtitle: 😁계획을 이렇게 싸악~ 그럴싸하쥬?
 date: 2019-12-31 00:00:00 +0300
 description: # Add post description (optional)
 tags: [회고]
