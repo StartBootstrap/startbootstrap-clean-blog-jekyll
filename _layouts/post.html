@@ -21,13 +21,12 @@ layout: default
               {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}
-
             </span>
 
             {% if page.tags %}
               {% for tag in page.tags %}
                 {% if site.data.tags contains tag %}
-                  <span class="tag"><u>{{ tag }}</u></span>
+                  <span class="tag">{{ site.data.format[tag] }}</span>
                 {% endif %}
               {% endfor %}
             {% endif %}
