@@ -43,7 +43,6 @@ categories: [git] # add categories
 ### 5. 원본 저장소의 관리자는 내가 보낸 `pull request`를 보고 `Merge` 여부를 결정하면 된다.
 ---
 <br><br>
-
 ### 6. Merge 후 동기화 및 branch 삭제
 ---
 - Merge가 확정되면 내 로컬로 소스 동기화`(git pull <remote 별명>)`를 진행한 뒤, `git branch -d <브랜치명>`으로 branch까지 삭제. 추가 작업시 branch 생성부터 반복 작업.
