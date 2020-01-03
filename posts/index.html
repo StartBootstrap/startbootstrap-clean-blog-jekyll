@@ -1,0 +1,81 @@
+---
+layout: page
+title: Posts
+description: 전체 포스트 목록입니다.
+background: '/img/bg-post.jpg'
+---
+
+<script>
+  $("[data-tag]").click((e) => {
+    currentTag = e.target.dataset.tag;
+    filterByTagName(currentTag);
+  })
+
+  function filterByTagName(tagName) {
+    alert(tagName);
+    $('.hidden').removeClass('hidden');
+    $('.post-wrapper').each((index, elem) => {
+      if (!elem.hasAttribute('data-${tagName}')) {
+        $(elem).addClass('hidden');
+      }
+    });
+    $('.tag').removeClass('selected');
+    $('.tag[data-tag=${tagName}]').addClass('selected');
+  }
+</script>
+
+{% for tag in site.data.tags %}
+  <span class="tag" data-tag="{{tag}}">
+    {{ site.data.format[tag] }}
+  </span>
+{% endfor %}
+
+{% for post in site.posts %}
+<div class="post-wrapper"
+  {% if post.tags %}
+    {% for tag in post.tags %}
+      data-{{ tag }}
+    {% endfor %}
+  {% endif %}>
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+      {% if post.subtitle %}
+      <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+      {% else %}
+      <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+      {% endif %}
+    </a>
+    <p class="post-meta">Posted by
+      {% if post.author %}
+      {{ post.author }}
+      {% else %}
+      {{ site.author }}
+      {% endif %}
+      on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    </p>
+  </article>
+</div>
+
+<hr>
+
+{% endfor %}
+
+<!-- Pager 
+{% if paginator.total_pages > 1 %}
+
+<div class="clearfix">
+
+  {% if paginator.previous_page %}
+  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+    Newer<span class="d-none d-md-inline"> Posts</span></a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  {% endif %}
+
+</div>
+
+{% endif %}
+-->

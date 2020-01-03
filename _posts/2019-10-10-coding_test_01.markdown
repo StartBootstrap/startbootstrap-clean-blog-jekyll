@@ -1,0 +1,53 @@
+---
+layout: post
+title: 코딩테스트 파이썬으로 풀기
+subtitle: 프로그래머스 코딩테스트 파이썬으로 풀어보기
+date: 2019-10-10 00:00:00 +0300
+description: # Add post description (optional)
+tags: [코딩문제풀이, python] # add tag
+categories: [코딩문제풀이] # add categories
+---
+
+문제 참고 : https://tech.kakao.com/2018/09/21/kakao-blind-recruitment-for2019-round-1/
+
+# 파이썬 입문겸 문제풀기
+
+- N : 스테이지 개수
+- stages : 사용자가 현재 도전 중인 스테이지의 번호
+
+- 실패율은 다음과 같이 정의한다.
+- 스테이지에 도달했으나 아직 클리어하지 못한 플레이어의 수 / 스테이지에 도달한 플레이어 수
+- 실패율이 높은 스테이지부터 내림차순으로 스테이지의 번호가 담겨있는 배열을 return 하도록 solution 함수를 완성하라.
+
+```
+def solution(N, stages):
+	result = {}
+
+	# 1에서 N까지 반복
+	for i in range(1,N+1):
+		parti = 0.0
+		clear = 0.0
+
+		for user in stages:
+			# i스테이지 통과시
+			if user > i:
+				parti += 1.0
+				clear += 1.0
+
+			# i스테이지 도달했으나 클리어 못했을시
+			elif user == i:
+				parti+=1.0
+
+		if parti == 0:
+			result[i] = 0.0
+		else :
+			# 도달수-통과수/도달수
+			result[i] = float((parti-clear)/parti)
+
+	# 정렬
+	answer = sorted(result, key=lambda k : result[k], reverse = True)
+
+	return answer
+```
+
+난이도 낮추서 차근차근 도전할것............

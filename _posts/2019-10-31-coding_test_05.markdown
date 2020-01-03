@@ -1,0 +1,110 @@
+---
+
+layout: post
+title: 코딩테스트 파이썬으로 풀기
+subtitle: 2020카카오공채 파이썬으로 풀어보기
+date: 2019-10-31 00:00:00 +0300
+description: # Add post description (optional)
+tags: [코딩문제풀이, python] # add tag
+categories: [코딩문제풀이] # add categories
+
+---
+
+
+
+# [2020카카오공채] 문자열 압축
+[문제 참고](https://programmers.co.kr/learn/courses/30/lessons/60057?language=python)
+
+* * *
+
+# 문제풀이
+
+짜투리시간마다 풀었던 문제이다. 파이썬 문자열, 배열 처리하는 부분에 대해 많이 알게되었다.<br>
+문자열 인덱싱으로 처리하려다 그만두고 먼저 비교할 문자열을 리스트화 하는 방식으로 생각하였다.<br>
+
+
+일단 리스트를 만들고 난 후 한개의 변수로 카운트 증가. <br>
+
+이전에 기존 문자열 그대로 인덱스 증가하며 사용해보려다 실패했다. 다른 사람들 답안을 보니 저렇게도 쓸 수 있구나 싶었다.<br>
+그 다음 시도는 2차원 배열을 가지고 처리해보려했으나 원하는 예제를 찾기 힘들었다. (내 생각은 더러웠다.)<br>
+
+그러면서도 느낀 점이 있다면 파이썬하면 가독성 아니겠는가? 라고 해서 아래 cnt_tmp 라는 변수로 처리하게 된 것이다.<br>
+
+이번 문제가 얼마안되지만 그중에서 제일 어려웠다. 풀어내면서 파이썬의 장점인 가독성이 눈에 많이 띄었고, 그 때문에 다른 내장함수들을 찾지 않게 된달까.<br>
+
+
+아래 코드는 정답이긴하나 모법답안을 좀 찾아보았는데 내소스 길이의 절반이다....<br>
+내가 처음에 시도하려했던 문자열 처리로 해결한 소스이다. 잘 알아둬야겠다.<br>
+
+```
+
+def solution(s):
+
+    answer = 1000
+    if len(s) == 1:
+        return 1
+    for i in range(1, len(s)/2+1):
+
+        # 최종 압축 문자열
+        string = '';
+
+        # 비교할 리스트 미리 만들기
+        list_arr = []
+        for j in range(0, len(s), i):
+            list_arr.append(s[j:j+i])
+
+        # 문자 압축
+        cnt_tmp = 1
+        for k in range(0, len(list_arr)):
+
+            #  마지막 리스트 값일때
+            if k == len(list_arr) -1:
+                if cnt_tmp == 1:
+                    cnt_tmp = "";
+                string += str(cnt_tmp) + list_arr[k];
+                break
+
+            if list_arr[k] == list_arr[k+1]:
+                cnt_tmp += 1
+            else:
+                if cnt_tmp > 1:
+                    string += str(cnt_tmp) + list_arr[k];
+                else:
+                    string += list_arr[k];
+
+	            cnt_tmp = 1
+
+        if len(string) < answer:
+            answer = len(string)
+
+    return answer
+```
+
+
+# 참고 소스
+
+```
+def solution(s):
+
+    min_value=99999
+    answer = 0
+    if len(s)==1:
+        return 1
+
+    for size in range(1,int(len(s)/2)+1): # 문자열 비교 블럭 크기(1/2이 최대압축)
+
+        count=0
+        before_word="" # 첫글자 넣기.
+        for i in range(0,len(s)+1,size): # 사이즈별 비교
+            if before_word[-size:]==s[i:i+size]: # 같다면
+                count+=1
+            else: # 다르다면
+                if count > 1:
+                    before_word +=str(count)+s[i:i+size]
+                else:
+                    before_word +=s[i:i+size]
+                count=1
+        if min_value > len(before_word):
+            min_value=len(before_word)
+    return min_value
+```

@@ -1,0 +1,24 @@
+title:              PAPION's 삽질로그
+email:              sjun1319@gmail.com
+description:        ""
+author:             PAPION
+baseurl:            ""
+url:                "https://papion93.github.io/"
+
+# Social Profiles
+twitter_username:
+github_username:	PAPION93
+facebook_username:	
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-152965125-1 # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
