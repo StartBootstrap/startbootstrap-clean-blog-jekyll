@@ -25,7 +25,7 @@ categories: [git] # add categories
 그런데 파일을 등록할 뿐 이미 원격저장소에 올라간 파일들이 지워지진 않는다.<br>
 이때 로컬 저장소에는 남기고 원격저장소의 파일을 지우는 명령어(`--cached`)를 찾았다.<br>
 ```
-$ git rm -r --cached 파일 또는 디렉토리
+$ git rm -r --cached .
 $ git add *
 $ git commit -m "커밋메시지"
 $ git push 
