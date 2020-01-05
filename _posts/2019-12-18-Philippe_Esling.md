@@ -3,7 +3,7 @@ layout: post
 title: Deep beers
 subtitle: A chat with Philippe Esling
 excerpt: A chat with Philippe Esling
-date: 2019-11-27
+date: 2020-01-04
 author: Javier Nistal
 author-id: javier
 background: /posts/Philippe_Esling_interview/philippe_esling.jpg
