@@ -118,6 +118,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 101. **We Should All Be Feminists**, *Chimamanda Ngozi Adichie*, Fourth Estate, 2014.
 102. **Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions**, *Chimamanda Ngozi Adichie*, 4th Estate, 2017.
 103. **S. Chandrasekhar: The Man Behind the Legend**, *Kameshwar C. Wali (ed.)*, Imperial College Press, 1997.
+104. **Liber Amicorum Richard “Dick” Allen Askey (2nd ed.)**, *Howard S. Cohl and Mourad E. H. Ismail (ed.)*, eBook, 2019.
+105. **The Bookseller of Kabul**, *Åsne Seierstad (Translated by Ingrid Christophersen)*, Virago, 2004.
+106. **Godman to Tycoon: The Untold Story of Baba Ramdev**, *Priyanka Pathak-Narain*, Juggernaut, 2017.
+107. **We are the Weather: Saving the Planet Begins at Breakfast**, *Jonathan Safran Foer*, Hamish Hamilton, 2019.
+108. **THe Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Father of the Nuclear Age**, *David N. Schwartz*, Basic Books, 2017.
 
 
 ## Fiction
@@ -187,4 +192,6 @@ The books which are marked with a ** are the ones that I am either currently rea
 ## Poetry
 
 1. **Away from Shore**, *Mary McCormack Deka*, CreateSpace Independent Publishing Platform, 2016.
-2. ** **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
+2. **Nonsense**, *Edward Lear*, Penguin Little Black Classics, 2016.
+3. **The World's Best Limericks**, *Richard Floethe (Illustrator)*, The Peter Pauper Press, 1951.
+4. ** **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
