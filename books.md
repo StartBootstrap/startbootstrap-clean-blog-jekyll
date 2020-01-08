@@ -120,7 +120,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 103. **S. Chandrasekhar: The Man Behind the Legend**, *Kameshwar C. Wali (ed.)*, Imperial College Press, 1997.
 104. **Liber Amicorum Richard “Dick” Allen Askey (2nd ed.)**, *Howard S. Cohl and Mourad E. H. Ismail (ed.)*, eBook, 2019.
 105. **The Bookseller of Kabul**, *Åsne Seierstad (Translated by Ingrid Christophersen)*, Virago, 2004.
-106. **Godman to Tycoon: The Untold Story of Baba Ramdev**, *Priyanka Pathak-Narain*, Juggernaut, 2017.
+106. **Godman to Tycoon: The Untold Story of Baba Ramdev**, *Priyanka Pathak-Narain*, Juggernaut Books, 2017.
 107. **We are the Weather: Saving the Planet Begins at Breakfast**, *Jonathan Safran Foer*, Hamish Hamilton, 2019.
 108. **THe Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Father of the Nuclear Age**, *David N. Schwartz*, Basic Books, 2017.
 
