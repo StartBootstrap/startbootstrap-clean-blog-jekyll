@@ -22,9 +22,10 @@ categories: [db, mysql]
  - Trigger를 통해 저장하는 Log를 기반으로 원본테이블과 복호화테이블을 실시간 동기화하는 데몬  
 정도만 설명하고 아래에서 더 설명하겠습니다.  
   
+<br>
 
 ### 1. Trigger를 사용하여 원본 테이블의 이벤트를 저장한다.  
-
+  
 - Log 테이블 생성  
 - Insert, Update, Delete 발생시 Log 테이블로 원본테이블의 고유번호와 이벤트 종류(insert, update, delete)를 Insert 한다.  
 
