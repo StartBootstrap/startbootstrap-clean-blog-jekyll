@@ -18,7 +18,9 @@ categories: [db, mysql]
 
 해결방법은 아래와 같습니다.
 
-### 1. Trigger를 사용하여 원본 테이블의 Insert, Update, Delete 발생시 Log Table로 그 고유번호와 종류를 Insert하게 한다.
+### 1. Trigger를 사용하여 원본 테이블의 이벤트를 저장한다.
+- Log 테이블 생성
+- Insert, Update, Delete 발생시 Log Table로 그 고유번호와 종류를 Insert하게 한다.
 
 아래는 Log 테이블입니다.  
 ![desc_logtable.jpg](https://papion93.github.io/img/desc_logtable.jpg)  
