@@ -5,8 +5,8 @@ title: [mysql] 서비스중인 대용량 테이블 변경하기
 subtitle: 대용량 테이블의 모든 행의 변경을 최단시간 서비스중단으로 서비스에 적용하기
 date: 2020-01-07 00:00:00 +0300
 description: # Add post description (optional)
-tags: [DB]
-categories: [DB]
+tags: [db, mysql]
+categories: [db, mysql]
 
 ---
 
