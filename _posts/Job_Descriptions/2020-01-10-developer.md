@@ -1,7 +1,7 @@
 ---
 layout: work-with-us-layout
 
-title: Product Engineer
+title: Programmer
 
 description: A programmer engineer in Fields of View works on a number of projects — big and small, developing tools and processes that contribute directly to our goal of bettering policy making. Fields of View is an interdisciplinary group with diverse life and work experiences and each piece of our work is informed by these. We are a not-for-profit research organization and the position is based in Bangalore. Women developers are highly encouraged to apply. For details of remuneration and any other information, please mail [work@fieldsofview.in](mailto://work@fieldsofview.in) with your CV.
 
