@@ -1,7 +1,7 @@
 ---
 layout: publication-layout
 year: 2018
-authors: Debraj Roy, Bharath M. Palavalli, Niveditha Menon, Robin King, Karin Pfeffer, Michael Lees & Peter M.A. Sloot
+authors: Debraj Roy, Bharath M. Palavalli, Niveditha Menon, Robin King, Karin Pfeffer, Michael Lees and Peter M.A. Sloot
 title: Survey-based socio-economic data from slums in Bangalore, India
 journal: Nature
 categories: publication

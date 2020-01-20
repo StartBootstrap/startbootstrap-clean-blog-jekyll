@@ -1,7 +1,7 @@
 ---
 layout: publication-layout
 year: 2013
-authors: Subrahmanian Eswaran, Reich Yoram, Sruthi Krishnan.
+authors: Subrahmanian Eswaran, Reich Yoram, Sruthi Krishnan
 title: Context, collaboration and complexity in designing - The pivotal role of cognitive artifacts.
 book: ICED13 - 19th International Conference on Engineering Design.
 categories: publication

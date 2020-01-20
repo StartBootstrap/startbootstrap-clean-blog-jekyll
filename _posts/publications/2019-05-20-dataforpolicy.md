@@ -2,7 +2,7 @@
 layout: publication-layout
 year: 2019
 authors: Vaibhav Dutt, Srijan Sil, Harsha Krishna and Bharath M. Palavalli
-title: Imagining Futures &#45; A generative scenario&#45;based methodology to improve planning and decision&#45;support systems for policymakers
+title: Imagining Futures - A generative scenario&#45;based methodology to improve planning and decision&#45;support systems for policymakers
 categories: publication
 ide: dataforpolicy
 authorid: vaibhav, srijan, harsha, bharath
