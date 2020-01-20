@@ -2,6 +2,7 @@
 layout: publication-layout
 year: 2014
 authors: Sruthi Krishnan
+authorid: sruthi
 title: White paper documenting the process of designing Convers[t]ation.
 link: /publications/WhitePaperConverstation2014.pdf
 categories: visual

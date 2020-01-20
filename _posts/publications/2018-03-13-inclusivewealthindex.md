@@ -1,7 +1,7 @@
 ---
 layout: publication-layout
 year: 2018
-authors: Bharath  M.  Palavalli, Srijan  Sil, Anantha Kumar Duraiappah 
+authors: Bharath M. Palavalli, Srijan  Sil and Anantha Kumar Duraiappah 
 title: Inclusive Wealth Report 2018&#58 Measuring Progress Towards Sustainability
 book: Inclusive Wealth Report 2018&#58 Measuring Progress Towards Sustainability
 categories: publication

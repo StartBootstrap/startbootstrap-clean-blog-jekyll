@@ -1,8 +1,8 @@
 ---
 layout: publication-layout
 year: 2019
-authors: Poornima Dore, Sruthi Parija, Simrat Swani
-title: Developing Resilience Scenarios and Strategies through Parcipatory Simulations – Case of Metropolitan Chennai -- Case Study 3
+authors: Poornima Dore, Sruthi Parija and Simrat Swani
+title: Developing Resilience Scenarios and Strategies through Participatory Simulations – Case of Metropolitan Chennai -- Case Study 3
 categories: publication
 ide: dataforpolicy
 authorid: srijan, vaibhav

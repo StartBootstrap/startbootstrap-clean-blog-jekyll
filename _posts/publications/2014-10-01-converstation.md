@@ -18,7 +18,6 @@ bibtex: "@inproceedings{kondi2014interdisciplinary,
   booktitle={Global Humanitarian Technology Conference-South Asia Satellite (GHTC-SAS), 2014 IEEE},
   pages={169--176},
   year={2014},
-  organization={IEEE}
-}"
+  organization={IEEE}}"
 permalink: /publications/converstation/
 ---

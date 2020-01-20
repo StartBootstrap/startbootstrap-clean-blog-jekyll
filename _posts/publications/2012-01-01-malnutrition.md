@@ -1,7 +1,8 @@
 ---
 layout: publication-layout
 year: 2012
-authors: Amar Chadgar, Aditi Murthy.
+authors: Amar Chadgar and Aditi Murthy
+authorid: amar, aditi
 title: Malnutrition - Guide to a healthy child.
 link: /brochures/malnutrition_fov.pdf
 categories: visual
