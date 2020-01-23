@@ -5,8 +5,8 @@ title: [독서] 나는 LINE 개발자입니다
 subtitle: 좋았던 문장 기록하기.
 date: 2020-01-23 00:00:00 +0300
 description: # Add post description (optional)
-tags: [reading]
-categories: [reading]
+tags: [essay]
+categories: [essay]
 
 ---
 
