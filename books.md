@@ -122,7 +122,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 105. **The Bookseller of Kabul**, *Åsne Seierstad (Translated by Ingrid Christophersen)*, Virago, 2004.
 106. **Godman to Tycoon: The Untold Story of Baba Ramdev**, *Priyanka Pathak-Narain*, Juggernaut Books, 2017.
 107. **We are the Weather: Saving the Planet Begins at Breakfast**, *Jonathan Safran Foer*, Hamish Hamilton, 2019.
-108. **The Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Father of the Nuclear Age**, *David N. Schwartz*, Basic Books, 2017.
+108. **No One is Too Small to Make a Difference**, *Greta Thunberg*, Penguin Books, 2019.
+109. **The Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Father of the Nuclear Age**, *David N. Schwartz*, Basic Books, 2017.
 
 
 ## Fiction
@@ -172,6 +173,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 43. **Nothing Ventured**, *Jeffrey Archer*, Pan Macmillan, 2019.
 44. **Life Over Two Beers: And Other Stories**, *Sanjeev Sanyal*, Penguin Random House, 2018.
 45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books, 2008.
+46. **The Thing Around Your Neck**, *Chimamanda Ngozi Adichie*, W. F. Howes Ltd., 2009.
 
 
 ## Graphic Books
@@ -195,3 +197,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 2. **Nonsense**, *Edward Lear*, Penguin Little Black Classics, 2016.
 3. **The World's Best Limericks**, *Richard Floethe (Illustrator)*, The Peter Pauper Press, 1951.
 4. ** **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
+
+
+## Mixed
+
+1. **Not a Nice Man to Know: The Best of Khushwant Singh**, *Khushwant Singh*, Penguin Books, 1993.  
