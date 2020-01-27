@@ -64,11 +64,13 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+10. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
+
 9. *Refined Enumeration of Symmetry Classes of Alternating Sign Matrices*, (with *[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)*), preprint, 2019. ([pdf](https://arxiv.org/pdf/1906.07723.pdf))
 
 8. *Almost Circular Balancing Numbers*, *Advances in Mathematical Sciences* (Z. Ahmed (ed.)), Empyreal Publishing House, 2019, 61 — 67. ([pdf](http://www.editedbook.in/pdf/dr-zakir-ahmed-edited.pdf#%5B%7B%22num%22%3A72%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C73.441%2C696.959%2Cnull%5D))
 
-7. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018.
+7. *On Deficient Perfect Numbers with Four Distinct Prime Factors, II*, preprint, 2018. ([pdf](/publ/papers/saikia_deficient_7.pdf))
 
 6. *The Perils of the Indian Education System*, (with *Madhurrya P. Talukdar*) *Pragyan, Tinisukia College Magazine*, 2019. ([pdf](/publ/papers/Tinisukia_Education.pdf))
 
