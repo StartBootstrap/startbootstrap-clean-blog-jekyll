@@ -42,14 +42,14 @@ background: '/img/bg-post.jpg'
 {% endfor %}
 
 {% for post in site.posts %}
-
 <div class="post-wrapper"
-
   {% if post.tags %}
     {% for tag in post.tags %}
       data-{{ tag }}
     {% endfor %}
   {% endif %}>
+  
+  <hr>
 
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -69,7 +69,6 @@ background: '/img/bg-post.jpg'
       on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
     </p>
   </article>
-  <hr>
 </div>
 
 {% endfor %}
