@@ -7,26 +7,26 @@ background: '/img/bg-post.jpg'
 
 <script>
 
-$(document).ready(function() {
-  $("[data-tag]").click((e) => {
-    currentTag = e.target.dataset.tag;
-    console.log(currentTag);
-    alert(currentTag);
-    filterByTagName(currentTag);
-  })
-});
-
+  $(document).ready(function() {
+    $("[data-tag]").click((e) => {
+      currentTag = e.target.dataset.tag;
+      console.log(currentTag);
+      alert(currentTag);
+      filterByTagName(currentTag);
+    })
+  });
+  
   function filterByTagName(tagName) {
-    console.log(tagName);
     $('.hidden').removeClass('hidden');
     $('.post-wrapper').each((index, elem) => {
-      if (!elem.hasAttribute('data-${tagName}')) {
+      if (!elem.hasAttribute(`data-${tagName}`)) {
         $(elem).addClass('hidden');
       }
     });
-    $('.tag').removeClass('selected');
-    $('.tag[data-tag=${tagName}]').addClass('selected');
+    $(`.tag`).removeClass('selected');
+    $(`.tag[data-tag=${tagName}]`).addClass('selected');
   }
+
 </script>
 
 {% for tag in site.data.tags %}
