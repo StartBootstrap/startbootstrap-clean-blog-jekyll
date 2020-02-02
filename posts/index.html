@@ -9,6 +9,7 @@ background: '/img/bg-post.jpg'
   $("[data-tag]").click((e) => {
     currentTag = e.target.dataset.tag;
     filterByTagName(currentTag);
+    console.log(filterByTagName(currentTag));
   })
 
   function filterByTagName(tagName) {
@@ -31,12 +32,15 @@ background: '/img/bg-post.jpg'
 {% endfor %}
 
 {% for post in site.posts %}
+
 <div class="post-wrapper"
+
   {% if post.tags %}
     {% for tag in post.tags %}
       data-{{ tag }}
     {% endfor %}
   {% endif %}>
+
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
       <h2 class="post-title">{{ post.title }}</h2>
