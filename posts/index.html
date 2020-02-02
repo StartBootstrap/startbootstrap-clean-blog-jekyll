@@ -8,8 +8,8 @@ background: '/img/bg-post.jpg'
 <script>
   $("[data-tag]").click((e) => {
     currentTag = e.target.dataset.tag;
+    alert(currentTag);
     filterByTagName(currentTag);
-    console.log(filterByTagName(currentTag));
   })
 
   function filterByTagName(tagName) {
