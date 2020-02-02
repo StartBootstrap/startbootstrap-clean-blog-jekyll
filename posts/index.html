@@ -8,12 +8,12 @@ background: '/img/bg-post.jpg'
 <script>
   $("[data-tag]").click((e) => {
     currentTag = e.target.dataset.tag;
-    alert(currentTag);
+    console.log(currentTag);
     filterByTagName(currentTag);
   })
 
   function filterByTagName(tagName) {
-    alert(tagName);
+    console.log(tagName);
     $('.hidden').removeClass('hidden');
     $('.post-wrapper').each((index, elem) => {
       if (!elem.hasAttribute('data-${tagName}')) {
