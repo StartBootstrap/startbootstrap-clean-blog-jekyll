@@ -6,11 +6,15 @@ background: '/img/bg-post.jpg'
 ---
 
 <script>
+
+$(document).ready(function() {
   $("[data-tag]").click((e) => {
     currentTag = e.target.dataset.tag;
     console.log(currentTag);
+    alert(currentTag);
     filterByTagName(currentTag);
   })
+});
 
   function filterByTagName(tagName) {
     console.log(tagName);
