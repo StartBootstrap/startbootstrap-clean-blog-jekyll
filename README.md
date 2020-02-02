@@ -1,6 +1,6 @@
 # Clean Blog Theme로 블로그 테마 수정!!!!
 
-#Ruby 
+## Ruby 
 - Change Directory
 `cd /d D:\`
 
