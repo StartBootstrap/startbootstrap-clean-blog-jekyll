@@ -12,8 +12,6 @@ background: '/img/bg-post.jpg'
   $(document).ready(function() {
     $("[data-tag]").click((e) => {
       currentTag = e.target.dataset.tag;
-      console.log(currentTag);
-      alert(currentTag);
       filterByTagName(currentTag);
     })
   });
