@@ -1,8 +1,8 @@
 # Clean Blog Theme로 블로그 테마 수정!!!!
 
 ## Ruby 
-- Change Directory
+- Change Directory  
 `cd /d D:\`
 
-- Exec
+- Exec  
 `bundle exec jekyll serve `
