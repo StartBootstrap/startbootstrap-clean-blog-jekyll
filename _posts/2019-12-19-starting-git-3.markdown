@@ -11,9 +11,12 @@ categories: [git] # add categories
 포스팅은 못했지만 계속해서 동료들과 객체 지향 설계를 공부하고 있다. 이번 연습과제를 잘 마치면 포스팅해보도록 해야겠다. 이번 포스팅 주제는 gitignore의 존재는 알았지만 어떤 것을 등록해야하는지 몰라 사용하진 않았는데, 이번에 하게되어 과정을 정리해두려고 한다.<br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### 1. gitignore  
 우선 [.gitignore](https://git-scm.com/docs/gitignore) 파일을 생성했다. 위치는 해당 프로젝트의 최상위.  
 =======
+=======
+>>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
  ### gitignore  
 우선 [.gitignore](https://git-scm.com/docs/gitignore) 파일을 생성했다. 위치는 해당 프로젝트의 최상위.<br>
 >>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
@@ -64,8 +67,13 @@ classes/
 <br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### 2. 원격 저장소에만 존재하는 데이터 지우기  
 gitignore 파일을 등록해도 이미 원격저장소에 올라간 파일들이 지워지진 않는다.<br>
+=======
+### 원격 저장소에만 존재하는 데이터 지우기
+그런데 이미 원격저장소에 올라간 파일들이 지워지진 않는다.<br>
+>>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
 =======
 ### 원격 저장소에만 존재하는 데이터 지우기
 그런데 이미 원격저장소에 올라간 파일들이 지워지진 않는다.<br>
@@ -129,6 +137,21 @@ $ git reset HEAD [file]
 # commit 목록 확인
 $ git log
 
+<<<<<<< HEAD
+=======
+여기서 `git rm` 을 통해 잘못된 파일을 삭제했을 때는 `git reset HEAD` 를 통해 아직 로컬저장소의 `HEAD` 안에 머물고있는 데이터를 원복시킬 수 있다.  
+
+### git add 취소하기
+```
+$ git reset HEAD [file]
+```
+
+### git commit 확인 및 취소하기
+```
+# commit 목록 확인
+$ git log
+
+>>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
 # 1. commit을 취소하고 해당 파일들을 staged 상태로 워킹 디렉터리에서 보존
 $ get reset --soft HEAD^
 
@@ -138,5 +161,9 @@ $ get reset HEAD^
 
 # 3. commit을 취소하고 해당 파일들을 unstaged 상태로 워킹 디렉터리에서 삭제
 $ get reset --hard HEAD^
+<<<<<<< HEAD
+```
+>>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
+=======
 ```
 >>>>>>> e332d0a031f39f502033bb59162bebc27b7f9aa3
