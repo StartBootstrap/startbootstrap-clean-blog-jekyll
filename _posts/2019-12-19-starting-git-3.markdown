@@ -11,7 +11,7 @@ categories: [git] # add categories
 git을 사용하면서 알게된 내용등을 정리해보자.  
 
 ##### 1. gitignore  
-명령어를 시작 전에 먼저 [.gitignore](https://git-scm.com/docs/gitignore) 을 먼저 살펴보자면 아래와 같다.
+[.gitignore](https://git-scm.com/docs/gitignore) 을 먼저 살펴보자면 아래와 같다.  
 나는 intellij 에서 생성하는 각종 디렉토리, 파일등을 아래처럼 등록했다. 필요한 소스 외에는 모두 등록했다.
 
 ```
@@ -60,7 +60,7 @@ classes/
 
 ##### 2. 원격 저장소에만 존재하는 데이터 지우기  
 gitignore 파일을 등록해도 이미 원격저장소에 올라간 파일들이 지워지진 않는다.  
-이때 로컬 저장소에는 남기고 원격저장소의 파일을 지우는 방법은 아래처럼 하면된다.<br>
+이때 로컬 저장소에는 남기고 원격저장소의 파일을 지우는 방법은 아래처럼 하면된다.
 ```
 $ git rm -r --cached .
 $ git add *
