@@ -26,3 +26,6 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+
+#
+.idea/
