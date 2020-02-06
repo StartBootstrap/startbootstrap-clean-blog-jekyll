@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Git 명령어 정리
-subtitle: 간단한 git 명령어를 정리해봅시다.
+title: 사용하면서 익힌 Git 내용정리
+subtitle: 간단한 git 내용(명령어)을 정리해봅시다.
 date: 2019-12-19 00:00:00 +0300
 description: # Add post description (optional)
 tags: [git] # add tag
 categories: [git] # add categories
 ---
 
-포스팅은 못했지만 계속해서 동료들과 객체 지향 설계를 공부하고 있다. 이번 연습과제를 잘 마치면 포스팅해보도록 해야겠다. 이번 포스팅 주제는 gitignore의 존재는 알았지만 어떤 것을 등록해야하는지 몰라 사용하진 않았는데, 이번에 하게되어 과정을 정리해두려고 한다.<br>
+git을 사용하면서 알게된 내용등을 정리해보자.  
 
 ##### 1. gitignore  
-명령어를 시작 전에 먼저 [.gitignore](https://git-scm.com/docs/gitignore) 을 먼저 살펴보자면 아래와 같다.  
+명령어를 시작 전에 먼저 [.gitignore](https://git-scm.com/docs/gitignore) 을 먼저 살펴보자면 아래와 같다.
 나는 intellij 에서 생성하는 각종 디렉토리, 파일등을 아래처럼 등록했다. 필요한 소스 외에는 모두 등록했다.
 
 ```
