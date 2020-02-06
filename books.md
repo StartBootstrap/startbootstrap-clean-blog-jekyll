@@ -174,6 +174,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 44. **Life Over Two Beers: And Other Stories**, *Sanjeev Sanyal*, Penguin Random House, 2018.
 45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books, 2008.
 46. **The Thing Around Your Neck**, *Chimamanda Ngozi Adichie*, W. F. Howes Ltd., 2009.
+47. **A Good Hanging and other stories**, *Ian Rankin*, Orion Books Ltd., 1998.
 
 
 ## Graphic Books
