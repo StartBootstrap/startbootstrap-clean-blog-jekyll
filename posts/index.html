@@ -34,6 +34,7 @@ background: '/img/bg-post.jpg'
 
 </script>
 
+
 {% for tag in site.data.tags %}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
@@ -41,14 +42,14 @@ background: '/img/bg-post.jpg'
 {% endfor %}
 
 {% for post in site.posts %}
-
 <div class="post-wrapper"
-
   {% if post.tags %}
     {% for tag in post.tags %}
       data-{{ tag }}
     {% endfor %}
   {% endif %}>
+  
+  <hr>
 
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -70,8 +71,6 @@ background: '/img/bg-post.jpg'
   </article>
 </div>
 
-<hr>
-
 {% endfor %}
 
 <!-- Pager 
@@ -91,4 +90,3 @@ background: '/img/bg-post.jpg'
 </div>
 
 {% endif %}
--->
