@@ -64,6 +64,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+12. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
+
 11. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
 
 10. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
