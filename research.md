@@ -24,6 +24,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+14. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Theoretical Computer Science*, accepted, 2020, 23 pp. ([pdf](/publ/papers/tcs.pdf))
+
 13. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) *Asian-European Journal of Mathematics*, accepted, 2019, 13 pp. ([pdf](https://arxiv.org/pdf/1906.09947.pdf))
 
 12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Proceedings of the 13th International Conference and Workshops on Algorithms and Computation (WALCOM) 2019, Lecture Notes in Computer Science (LNCS)*, Volume 11355, Springer, 2019, 82-95. ([pdf](/publ/papers/paper_22.pdf))
