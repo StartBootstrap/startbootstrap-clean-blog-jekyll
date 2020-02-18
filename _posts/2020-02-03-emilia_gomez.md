@@ -3,7 +3,7 @@ layout: post
 title: Interview with Emilia Gómez
 subtitle: An overview of the past and the future challenges for the ISMIR community
 excerpt: An overview of the past and the future challenges for the ISMIR community
-date: 2020-02-03
+date: 2020-02-18
 author: Furkan Yesiler
 author-id: furkan
 background: /posts/emilia_gomez_interview/background.jpg
