@@ -21,6 +21,12 @@ Details TBA
 
 TBA
 
+
 ## Invited Speakers
 
-TBA
+- [Meinard Müller](https://www.audiolabs-erlangen.de/fau/professor/mueller) (International Audio Laboratories Erlangen)
+   - [MIR as Opportunity for Interdisciplinary Research (or: From the Life of a Figure Junkie)](/resources/mip-frontiers-workshop/mmueller)
+
+- [Kazuyoshi Yoshii](http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/) (Kyoto University)
+   - TBA
+   
