@@ -125,6 +125,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 108. **No One is Too Small to Make a Difference**, *Greta Thunberg*, Penguin Books, 2019.
 109. **The Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Father of the Nuclear Age**, *David N. Schwartz*, Basic Books, 2017.
 110. **Einstein's Luck: The Truth Behind Some of the Greatest Scientific Discoveries**, *John Waller*, Oxford University Press, 2002.
+111. **C.V. Raman: A Biography**, *Uma Parameswaran*, Penguin Books, 2011.
+112. **The Uninhabitable Earth: A Story of the Future**, *David Wallace-Wells*, Penguin Books, 2019.
+113. **Disturbing the Universe**, *Freeman Dyson*, Harper & Row, 1979.
 
 
 ## Fiction
