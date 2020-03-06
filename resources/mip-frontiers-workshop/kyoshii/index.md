@@ -4,7 +4,7 @@ title: 1st MIP-Frontiers Workshop
 description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 ---
 
-## MIR as Opportunity for Interdisciplinary Research (or: From the Life of a Figure Junkie)
+## Title: TBA
 
 Music is a ubiquitous and vital part of our lives. We interact with music in a variety of ways, both as listeners and active participants. Given the increasing amount of digital music, the development of computational tools that allow users to find, organize, analyze, and interact with music has become central to our research field known as Music Information Retrieval (MIR). In this talk, I want to show that music not only connects people but also yields an intuitive entry point to research in various disciplines, including digital signal processing, information retrieval, machine learning, musicology, library science, and digital humanities. MIR offers the opportunity for interdisciplinary research, naturally bridging the gap between engineering and the humanities. However, multidisciplinary research comes at a cost: it takes more time, it is less likely to be funded, and it requires communication skills. In particular, we need to explain our ideas and techniques in an intuitive fashion, accounting for non-experts and researchers who are not familiar with our field. Using some representative MIR topics, I want to demonstrate how one may convey even complex algorithms by working with sound examples, overlay figures, and plenty of illustrations. Our community offers numerous open-source software tools (such as [LibROSA](https://librosa.github.io/librosa/) or the [FMP notebooks](https://www.audiolabs-erlangen.de/FMP)) for learning, teaching, and generating educational material for lectures and presentations. Make use of these tools!
 
@@ -16,8 +16,8 @@ Reference:
 </figure>
 </div>
 
-Meinard Müller, 
-Fundamentals of Music Processing — Audio, Analysis, Algorithms, Applications. 
+Meinard Müller
+Fundamentals of Music Processing — Audio, Analysis, Algorithms, Applications
 Springer Verlag, ISBN: 978-3-319-21944-8, 2015.
 Weblink (FMP notebooks): [https://www.audiolabs-erlangen.de/FMP](https://www.audiolabs-erlangen.de/FMP)
 <br/><br/>
