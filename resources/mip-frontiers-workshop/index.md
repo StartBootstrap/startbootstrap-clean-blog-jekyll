@@ -27,7 +27,7 @@ However, for purposes of planning, prospective workshop participants are require
 
 The program consists of invited talks and a number of presentations by the PhD students ("Early Stage Researchers, ESRs") of the project. The ESRs will report on some of their recent (joint) work.
 
-Preliminary program (detailed titles and presenter names to come):
+**Preliminary program** (detailed titles and presenter names to come):
 
 9:30 - 10:00 Welcome, Introduction to Project and to the Workshop  
 10:00 - 10:45 Invited Talk: Meinard Müller  
