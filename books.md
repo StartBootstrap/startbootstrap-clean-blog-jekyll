@@ -179,6 +179,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books, 2008.
 46. **The Thing Around Your Neck**, *Chimamanda Ngozi Adichie*, W. F. Howes Ltd., 2009.
 47. **A Good Hanging and other stories**, *Ian Rankin*, Orion Books Ltd., 1998.
+48. **Fräulein Else: A Novel**, *Arthur Schnitzler (Translated by Robert A. Simon)*, Simon and Schuster, 1971.
 
 
 ## Graphic Books
