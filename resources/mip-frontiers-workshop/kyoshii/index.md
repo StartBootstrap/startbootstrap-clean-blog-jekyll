@@ -4,30 +4,18 @@ title: 1st MIP-Frontiers Workshop
 description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 ---
 
-## Title: TBA
+## Title: MIP as Opportunity for Probabilistic Thinking
 
-Music is a ubiquitous and vital part of our lives. We interact with music in a variety of ways, both as listeners and active participants. Given the increasing amount of digital music, the development of computational tools that allow users to find, organize, analyze, and interact with music has become central to our research field known as Music Information Retrieval (MIR). In this talk, I want to show that music not only connects people but also yields an intuitive entry point to research in various disciplines, including digital signal processing, information retrieval, machine learning, musicology, library science, and digital humanities. MIR offers the opportunity for interdisciplinary research, naturally bridging the gap between engineering and the humanities. However, multidisciplinary research comes at a cost: it takes more time, it is less likely to be funded, and it requires communication skills. In particular, we need to explain our ideas and techniques in an intuitive fashion, accounting for non-experts and researchers who are not familiar with our field. Using some representative MIR topics, I want to demonstrate how one may convey even complex algorithms by working with sound examples, overlay figures, and plenty of illustrations. Our community offers numerous open-source software tools (such as [LibROSA](https://librosa.github.io/librosa/) or the [FMP notebooks](https://www.audiolabs-erlangen.de/FMP)) for learning, teaching, and generating educational material for lectures and presentations. Make use of these tools!
+Music, which is represented in a symbolic or acoustic form, is a random variable from a stochastic process. A composer happens to make a musical score according to a musical theory and a performer happens to makes a music signal from a musical score. These stochastic "generation" processes inherently yield infinitely many possible hypotheses in uncertain "inference" processes that aim to induce a musical theory from a musical score or transcribe a musical score from a music signal. The composition and theorization processes or the performance and transcription processes is the two sides of the same coin and all these processes are mutually dependent through a musical score, the symbolic representation of music.
 
-Reference:
-
-<div style="float:left;margin: 0 10px -10px 0" markdown="1">
-<figure class="figure">
-  <img src="Meinard_Mueller_FMP_Cover_small.jpg" alt="FMP" class="figure-img img-fluid mx-auto d-flex" width="100"/>
-</figure>
-</div>
-
-Meinard Müller
-Fundamentals of Music Processing — Audio, Analysis, Algorithms, Applications
-Springer Verlag, ISBN: 978-3-319-21944-8, 2015.
-Weblink (FMP notebooks): [https://www.audiolabs-erlangen.de/FMP](https://www.audiolabs-erlangen.de/FMP)
-<br/><br/>
+Using music as a good example, I want to emphasize the importance of associating the symbolic and acoustic representations of music and introduce probabilistic thinking, a universal approach to computational modeling of human intelligence. In music transcription tasks, I present how to "stochastically" and "statistically" deal with music by formulating a latent variable model and deriving a posterior inference algorithm. I also present how to enrich this classical principled framework by using deep learning techniques. The key advantage of this approach enables unsupervised or semi supervised learning, which would play an essential role for overcoming the robustness, generalizability, and scalability limitations of recent Music Information Processing (MIP) methods based on supervised learning of DNNs. The fact that such deep Bayesian learning (not Bayesian deep learning) can be applied to various research fields (e.g., probabilistic robotics) would encourage students, researchers, and engineers to learn "probabilistic" MIP.
 
 About the speaker:
 
 <div style="float:left;margin: 0 10px -10px 0" markdown="1">
 <figure class="figure">
-  <img src="Meinard_Mueller_Photo_small.jpg" alt="Meinard Mueller" class="figure-img img-fluid mx-auto d-flex" width="170"/>
+  <img src="photo_yoshii.jpg" alt="Kazuyoshi Yoshii" class="figure-img img-fluid mx-auto d-flex" width="170"/>
 </figure>
 </div>
 
-Meinard Müller studied mathematics (Diplom) and computer science (Ph.D.) at the University of Bonn, Germany. In 2002/2003, he conducted postdoctoral research in combinatorics at the Mathematical Department of Keio University, Japan. In 2007, he finished his Habilitation at Bonn University in the field of multimedia retrieval. From 2007 to 2012, he was a member of the Saarland University and the Max-Planck Institut für Informatik. Since September 2012, Meinard Müller holds a professorship for Semantic Audio Processing at the International Audio Laboratories Erlangen, which is a joint institution of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and the Fraunhofer-Institut für Integrierte Schaltungen IIS. His recent research interests include music processing, music information retrieval, audio signal processing, and motion processing. Meinard Müller has been a member of the IEEE Audio and Acoustic Signal Processing Technical Committee from 2010 to 2015 and is a member of the Board of Directors of the International Society for Music Information Retrieval (ISMIR) since 2009. He wrote a monograph titled "Information Retrieval for Music and Motion" (Springer, 2007) as well as a textbook titled "Fundamentals of Music Processing" (Springer, 2015, [www.music-processing.de](www.music-processing.de)).
+Kazuyoshi Yoshii received the M.S. and Ph.D. degrees in informatics from Kyoto University, Kyoto, Japan, in 2005 and 2008, respectively. He is an Associate Professor at the Graduate School of Informatics, Kyoto University, and concurrently the Leader of the Sound Scene Understanding Team, Center for Advanced Intelligence Project (AIP), RIKEN, Tokyo, Japan. His research interests include music informatics, single-channel and multichannel audio signal processing, and statistical machine learning.

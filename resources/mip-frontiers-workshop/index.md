@@ -48,5 +48,5 @@ The program consists of invited talks and a number of presentations by the PhD s
    - [MIR as Opportunity for Interdisciplinary Research (or: From the Life of a Figure Junkie)](/resources/mip-frontiers-workshop/mmueller)
 
 - [Kazuyoshi Yoshii](http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/) (Kyoto University)
-   - TBA
+   - [MIP as Opportunity for Probabilistic Thinking](/resources/mip-frontiers-workshop/kyoshii)
    
