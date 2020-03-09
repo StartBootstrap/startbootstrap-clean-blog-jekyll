@@ -34,6 +34,13 @@ layout: default-layout
             {% endif %}
           </div>
 
+          <div class="col-md-12" style="padding-left: 0px">
+            {% if page.desc != null%}
+              <h3 class="team-name">Description</h3>
+              <p class="simple-content" style="margin-top:0px">{{page.desc}}</p>
+            {% endif %}
+          </div>
+
           {% if page.bibtex != null%}
           <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px">
               <h3 class="team-name">BibTex</h3>
@@ -46,6 +53,27 @@ layout: default-layout
           <div class="col-md-12" style="padding-left: 0px;">
             <h3 class="team-name">Link</h3>
             <a style="font-size: 14pt" href="{{page.link}}">View Publication</a>
+          </div>
+          {% endif %}
+
+          {% if page.reportlink != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <h3 class="team-name">Link</h3>
+            <a style="font-size: 14pt" href="{{page.link}}">View Report</a>
+          </div>
+          {% endif %}
+
+          {% if page.datalink != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <!-- <h3 class="team-name">Link</h3> -->
+            <a style="font-size: 14pt" href="{{page.link}}">View Data</a>
+          </div>
+          {% endif %}
+
+          {% if page.visuallink != null%}
+          <div class="col-md-12" style="padding-left: 0px;">
+            <!-- <h3 class="team-name">Link</h3> -->
+            <a style="font-size: 14pt" href="{{page.link}}">View Visual</a>
           </div>
           {% endif %}
 
