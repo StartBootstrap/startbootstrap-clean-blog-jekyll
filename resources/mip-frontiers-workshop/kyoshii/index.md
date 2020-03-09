@@ -4,7 +4,7 @@ title: 1st MIP-Frontiers Workshop
 description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 ---
 
-## Title: MIP as Opportunity for Probabilistic Thinking
+## MIP as Opportunity for Probabilistic Thinking
 
 Music, which is represented in a symbolic or acoustic form, is a random variable from a stochastic process. A composer happens to make a musical score according to a musical theory and a performer happens to makes a music signal from a musical score. These stochastic "generation" processes inherently yield infinitely many possible hypotheses in uncertain "inference" processes that aim to induce a musical theory from a musical score or transcribe a musical score from a music signal. The composition and theorization processes or the performance and transcription processes is the two sides of the same coin and all these processes are mutually dependent through a musical score, the symbolic representation of music.
 
