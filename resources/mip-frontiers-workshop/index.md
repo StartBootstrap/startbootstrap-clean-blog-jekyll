@@ -6,7 +6,7 @@ description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 
 ## General Information
 
-The first of two MIP-Frontiers Workshops will document some of the ongoing work in the MIP-Frontiers project, complemented by several invited talks on current research topics by external experts.
+The first of two MIP-Frontiers Workshops will document recent and ongoing work in the MIP-Frontiers project, complemented by two invited talks by international experts (Meinard Müller and Kazuyoshi Yoshii, see below).
 
 MIP-Frontiers is a multidisciplinary, transnational and cross-sectoral European training network for MIR researchers, funded by the EU's Horizon 2020 program. More information can be found [here](/about).
 
