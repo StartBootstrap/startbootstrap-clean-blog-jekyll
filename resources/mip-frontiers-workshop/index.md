@@ -4,6 +4,10 @@ title: 1st MIP-Frontiers Workshop
 description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 ---
 
+## <span style="color:red"> NOTE ON THE CURRENT COVID-19 CRISIS</span>
+
+*Update March 7, 2020: In the light of the global health emergency and pervasive travel restrictions the 1st MIP-Frontiers Workshop has been postponed. We will update the information about date and location as soon as possible.*
+
 ## General Information
 
 The first of two MIP-Frontiers Workshops will document recent and ongoing work in the MIP-Frontiers project, complemented by two invited talks by international experts (Meinard Müller and Kazuyoshi Yoshii, see below).
