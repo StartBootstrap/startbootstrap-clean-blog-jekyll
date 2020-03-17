@@ -26,7 +26,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 15. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, accepted, 2020, 6 pp. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
 
-14. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Theoretical Computer Science*, accepted, 2020, 23 pp. ([pdf](publ/papers/tcs.pdf))
+14. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Theoretical Computer Science*, 2020, 815, 197-212. ([pdf](publ/papers/tcs.pdf))
 
 13. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) *Asian-European Journal of Mathematics*, accepted, 2019, 13 pp. ([pdf](https://arxiv.org/pdf/1906.09947.pdf))
 
@@ -67,6 +67,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 1. *The Pursuit of Joy* (with *Pankaj Jyoti Mahanta*), LAP Lambert Academic Publishing, Germany, 2011. ([pdf](http://gonitsora.com/manjil/publ/books/the_pursuit_of_joy.pdf))
 
 ## Non Peer-Reviewed Papers
+
+12. *Some properties of Zumkeller numbers and $k$-layered numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and Daniel Yaqubi*), preprint, 2020. ([pdf](/publ/papers/Zumkeller_Numbers.pdf))
 
 11. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
 
