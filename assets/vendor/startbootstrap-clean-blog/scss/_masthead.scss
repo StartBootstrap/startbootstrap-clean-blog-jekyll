@@ -33,12 +33,13 @@ header.masthead {
       margin-top: 0;
     }
     .subheading {
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 1.1;
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 1.3;
       display: block;
       margin: 10px 0 0;
-      @include sans-serif-font;
+//       @include serif-font;
+      font-family: 'Lora', 'Times New Roman', serif;
     }
     @media only screen and (min-width: 768px) {
       h1 {
