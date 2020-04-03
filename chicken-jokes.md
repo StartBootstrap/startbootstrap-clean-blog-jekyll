@@ -7,7 +7,7 @@ background: '/img/jokes.jpeg'
 permalink: /chicken-jokes/
 ---
 
->The plan here is to collect some chicken jokes, inspired by David Morin’s [similar thing with physicists](https://www.physics.harvard.edu/academics/undergrad/chickenroad). I try to answer the age old question of *Why did the chicken cross the road?* from the perspective of different mathematicians.
+>The plan here is to collect some chicken jokes, inspired by David Morin’s [similar thing with physicists](https://www.physics.harvard.edu/undergrad/humor). I try to answer the age old question of *Why did the chicken cross the road?* from the perspective of different mathematicians.
 
 **John Nash**: Because the chicken always does what is best for the chicken. The chicken does not care for the group.
 
