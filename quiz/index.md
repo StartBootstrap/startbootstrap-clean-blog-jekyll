@@ -11,3 +11,5 @@ I was an avid quizzer in my school days. Even today, I enjoy a good science and/
 Below, I will upload some of the quiz sets that I have prepared.
 
 [Cerebrum, 2019: The Tezpur University Open Science Quiz](/quiz/Cerebrum_2019.pdf) (prelims is quite easy, but the finals might give you some food for thought)
+
+[Cerebrum Redux: Adda Quiz via Zoom](/quiz/Cerebrum_Redux_Web.pdf) (questions are deliberately vague to inhibit cheating, since this was an online quiz via Zoom)
