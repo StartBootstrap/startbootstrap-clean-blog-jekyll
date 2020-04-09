@@ -5,8 +5,8 @@ background: '/img/bg-post.jpg'
 ---
 
 {% for post in paginator.posts %}
-<!-- only show english posts on post page -->
-{% if post.lang == 'en' %}
+<!-- only show french posts on post page -->
+{% if post.lang == 'fr' %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -30,7 +30,7 @@ background: '/img/bg-post.jpg'
 <hr>
 
 {% endif %}
-<!-- endif post.lang == 'en' -->
+<!-- endif post.lang == 'fr' -->
 
 {% endfor %}
 

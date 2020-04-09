@@ -5,6 +5,8 @@ subtitle: "Adopting a new mindset"
 author: "Jasper Chan"
 date: 2020-03-12 17:00:00 -0400
 background: '/img/posts/blog3/agile-background.jpg'
+lang: en
+lang-ref: digital-capacity-1
 ---
 
 <h3>Hey everyone!</h3>

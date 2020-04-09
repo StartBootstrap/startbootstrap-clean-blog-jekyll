@@ -1,0 +1,25 @@
+{% if page.layout == 'post' %}
+{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% if posts.size == 0 %}
+{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% endif %}
+{% if posts.size > 1 %}
+
+<span class="meta">
+    {% for post in posts %}
+    {% if page.lang != post.lang %}
+    <button class="header--translate-button"
+        style="background-color: Transparent; background-repeat: no-repeat; cursor: pointer; overflow: hidden; outline: none; margin-top: 30px; padding: 10px; border-radius: 10px;"">
+        <em><a href=" {{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title=" View in {{post.lang}}">
+        {% if page.lang == 'fr' %}
+        Lire en Anglais
+        {% elsif page.lang == 'en' %}
+        Read in French
+        {% endif %}
+        </a></em></button>
+    {% endif %}
+    {% endfor %}
+</span>
+
+{% endif %}
+{% endif %}
