@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Décollage dans 3... 2... 1... !"
+title: "Décollage dans 3... 2... 1...!"
 subtitle: "Adopter un nouvel état d'esprit"
 author: "Jasper Chan"
 date: 2020-03-12 17:00:00 -0400
