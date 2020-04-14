@@ -8,6 +8,7 @@ background: '/img/posts/blog3/agile-background.jpg'
 lang: fr
 lang-ref: digital-capacity-1
 ---
+<<<<<<< HEAD
 
 <h3>Salut à tous !</h3>
 
@@ -58,3 +59,5 @@ lang-ref: digital-capacity-1
 <span class="caption text-muted">Mapping the structure of an agile scrum team to the Gas lab</span> -->
 
 <p>Si vous voulez savoir comment votre équipe peut être plus Agile, envoyez-nous un e-mail ou un message sur Microsoft Teams ; nous aimerions beaucoup travailler avec vous !</p>
+=======
+>>>>>>> 74f075e393f161959f3e375482511d099eec9082
