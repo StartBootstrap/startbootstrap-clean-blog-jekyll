@@ -5,6 +5,8 @@ subtitle: "The Goose has landed"
 author: "Jasper Chan"
 date: 2020-02-04 17:00:00 -0400
 background: '/img/posts/blog1/hello2.jpg'
+lang: en
+lang-ref: intro-blog
 ---
 
 <h3>Hi Measurement Canada!</h3>
