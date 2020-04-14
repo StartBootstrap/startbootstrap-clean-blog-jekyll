@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Articles de blog
+title: Posts
 background: '/img/bg-post.jpg'
 ---
 
@@ -23,7 +23,7 @@ background: '/img/bg-post.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    en {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time_fr.html content=post.content %}
+    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time_fr.html content=post.content %}
   </p>
 </article>
 
