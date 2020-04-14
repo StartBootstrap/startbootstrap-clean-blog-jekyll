@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Lift off in 3… 2… 1...!" # translate
-subtitle: "Adopting a new mindset" # translate
+title: "Décollage dans 3... 2... 1... !"
+subtitle: "Adopter un nouvel état d'esprit"
 author: "Jasper Chan"
 date: 2020-03-12 17:00:00 -0400
 background: '/img/posts/blog3/agile-background.jpg'
@@ -9,52 +9,52 @@ lang: fr
 lang-ref: digital-capacity-1
 ---
 
-<h3>Hey everyone!</h3>
+<h3>Salut à tous !</h3>
 
-<p>We are thrilled to share that a group of legal metrologists have begun experimenting with using agile practices into their daily work! Legal metrologists play a critical role in ensuring the integrity and accuracy of measurement in the Canadian marketplace. One of their key roles is to examine and certify new measurement devices being pushed into the Canadian marketplace to ensure they are up to Canadian regulations and standards. Legal metrology is broken down into four main disciplines at Measurement Canada:</p>
-
-<ol class="pg-list">
-  <li>Gravimetric (Mass)</li>
-  <li>Volumetric</li>
-  <li>Electricity</li>
-  <li>Gas</li>
-</ol>
-
-<p>We have been working with the Gas team to figure out how we can apply agile practices to achieve two key goals:</p>
+<p>Nous sommes heureux de vous annoncer qu'un groupe de métrologues juridiques a commencé à expérimenter l'utilisation de pratiques agiles dans leur travail quotidien ! Les métrologues juridiques jouent un rôle essentiel pour garantir l'intégrité et l'exactitude des mesures sur le marché canadien. L'un de leurs rôles principaux est d'approuver et de certifier les nouveaux appareils de mesure mis sur le marché canadien afin de s'assurer qu'ils sont conformes aux réglementations et aux normes du Canada. La métrologie légale est divisée en quatre disciplines principales à Mesures Canada :</p>
 
 <ol class="pg-list">
-  <li>Increase device certification and calibration throughput</li>
-  <li>Building processes to enable more collaboration</li>
+  <li>Gravimétrique (masse)</li>
+  <li>Volumétrique</li>
+  <li>Électricité</li>
+  <li>Gaz</li>
 </ol>
 
-<h2 class="section-heading">How did we help the Gas team?</h2>
-<p>We sat down with the team to better understand the current challenges. We learned that device approvals are very complicated, and can take as long as a month or even more for each device! Through our discussion, we walked the Gas team through four things:
+<p>Nous avons travaillé avec l'équipe de Gaz pour trouver comment appliquer des pratiques agiles pour atteindre deux objectifs clés :</p>
+
+<ol class="pg-list">
+  <li>Augmenter la certification des appareils et le débit d'étalonnage</li>
+  <li>Mettre en place des processus pour permettre une plus grande collaboration</li>
+</ol>
+
+<h2 class="section-heading">Comment avons-nous aidé l'équipe de gaz ?</h2>
+<p>Nous nous sommes assis avec l'équipe pour mieux comprendre les défis actuels. Nous avons appris que l'approbation des appareils est très compliquée et peut prendre jun mois (ou plus) pour chaque ! Au cours de notre discussion, nous avons expliqué à l'équipe de gaz quatre choses :
 </p>
 
 <ol class="pg-list">
-  <li>Introduced scrum methodology</li>
+  <li>Présentation de la méthodologie de la mêlée ordonnée (scrum)</li>
   	<ol type="a">
-    	<li>A time-boxed way of working</li>
+    	<li>Une méthode de travail axée sur le temps</li>
     </ol>
-  <li>Mapped the scrum team structure to the Gas lab roles </li>
+  <li>A fait le lien entre la structure de l'équipe gaz et les rôles des laboratoires de gaz</li>
     <ol type="a">
-    	<li>Product Owner & Scrum Master -> Lab Manager </li>
-      <li>Team of Devs -> Team of Metrologists</li>
+    	<li>Propriétaire du produit -> Responsable de laboratoire</li>
+      <li>Équipe de développeurs -> Équipe de métrologistes</li>
     </ol>
-  <li>Identified potential software tools to assist the transition</li>
+  <li>Identification d'outils logiciels potentiels pour aider à la transition</li>
   	<ol type="a">
-        <li>e.g Trello, Jira, and Confluence</li>
+        <li>par exemple Trello, Jira et Confluence</li>
     </ol>
-  <li>Highlighted key agile rituals</li>
+  <li>Mise en évidence des rituels agiles clés</li>
     <ol type="a">
-      <li>Standups, Sprint Planning and Retrospective</li>
+      <li>Réunion “Standups”, planification et rétrospective des sprints</li>
     </ol>
 </ol> 
 
 <img class="img-fluid img_horizontal" src="/img/posts/blog3/IMG_5466.jpg" alt="Session Picture">
-<span class="caption text-muted">Mapping the structure of an agile scrum team to the Gas lab</span>
+<span class="caption text-muted">Représentation de la structure d'une équipe agile de scrum liée au laboratoire de gaz</span>
 
 <!-- <img class="img-fluid" src="/img/posts/blog3/IMG_5466.jpg" style="transform:rotate(90deg);>
 <span class="caption text-muted">Mapping the structure of an agile scrum team to the Gas lab</span> -->
 
-<p>If you’d like to learn about how your team can be more Agile, shoot us an email or a message on Microsoft Teams; we’d love to work with you!</p>
+<p>Si vous voulez savoir comment votre équipe peut être plus Agile, envoyez-nous un e-mail ou un message sur Microsoft Teams ; nous aimerions beaucoup travailler avec vous !</p>
