@@ -18,10 +18,16 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">Posted by
+            <span class="meta">{% if post.lang == 'en' %}Posted by{% elsif post.lang == 'fr' %}}Affiché par{% endif %}
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
+              on {{ page.date | date: '%B %d, %Y' }} &middot;
+              {% if post.lang == 'en' %}
+              {% include read_time.html
+                content=page.content %}
+              {% elsif post.lang == 'fr' %}}
+              {% include read_time_fr.html
+                content=page.content %}
+              {% endif %}
             </span>
             {% include translate.html %}
           </div>
