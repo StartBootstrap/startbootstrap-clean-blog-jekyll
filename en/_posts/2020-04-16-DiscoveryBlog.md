@@ -1,13 +1,14 @@
- ---
+---
 layout: post
 title: "Houston, We’ve Discovered the Problem!"
-subtitle: "Finalizing our discovery phase "
+subtitle: "Finalizing our discovery phase"
 author: "Ramis Khawaja"
 date: 2020-04-22 17:00:00 -0400
 background: '/img/posts/blog4/alice-donovan-rouse-unsplash.jpg'
 lang: en
 lang-ref: blog-4
 ---
+
 
 <h3>Hey Measurement Canada!</h3>
 
