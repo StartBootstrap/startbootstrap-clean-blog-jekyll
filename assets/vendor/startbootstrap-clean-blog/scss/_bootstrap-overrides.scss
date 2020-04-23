@@ -7,12 +7,17 @@
   margin-top: 6.5rem;
   margin-bottom: 6.5rem;
 }
-
+.img_border{
+border: .3em solid #f4f4f4;
+border-radius: .15rem;
+}
 
 // Typography Styling
 
 h3{
-  font-weight:700;
+  font-weight: 600;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
 }
 
 .blockquote{
