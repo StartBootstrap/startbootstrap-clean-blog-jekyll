@@ -13,11 +13,11 @@ additionalSkills: <b> Additional Skills </b> <br> <ul> <li> Ability to understan
 
 notes: <b> Other Notes </b> <br> <ul> <li>Fields of View is a non-profit organisation.</li> <li>The position is based in Bangalore</li> <li>Our office is in JP Nagar, close to Rangashankara</li> </ul>
 
-ide: intern
+ide: quantitative_researcher
 
-tag: Intern
+tag: Quantitative_Researcher
 
 category: jd
 
-permalink: /projects/work-with-us/internships/
+permalink: /projects/work-with-us/quantitative_researcher/
 ---
