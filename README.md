@@ -18,7 +18,7 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 
 1. (Optional) Create a new Jekyll site: `jekyll new my-site`
 2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme: `bundle install`
+3. Install the theme (run the command inside your site directory): `bundle install`
 4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
 5. Build your site: `bundle exec jekyll serve`
 
@@ -115,16 +115,17 @@ When using the core files, the demo images, posts, and pages are all included wi
 
 1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
 2. Update the following configuration settings in your `_config.yml` file:
-   * `baseurl`
-   * `url`
-   * `title`
-   * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
-   * `description`
-   * `author`
-   * `twitter_username` (Optional)
-   * `facebook_username` (Optional)
-   * `github_username` (Optional)
-   * `linkedin_username` (Optional)
+   - `baseurl`
+   - `url`
+   - `title`
+   - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+   - `description`
+   - `author`
+   - `twitter_username` (Optional)
+   - `facebook_username` (Optional)
+   - `github_username` (Optional)
+   - `linkedin_username` (Optional)
+   - `instagram_username` (Optional)
 3. Build your site: `bundle exec jekyll serve`
 
 ## Bugs and Issues
