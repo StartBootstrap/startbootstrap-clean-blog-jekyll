@@ -47,13 +47,18 @@ Recently, Chan and Wang (Fractional powers of the generating function for the pa
 <summary><b>31 July, 2020</b>: tba </summary>
 
 tba
-</details>
-
-
+</details>  
+  
+    
+      
+      
 
 
 ## Past Speakers
-
+  
+    
+      
+      
 
 
 
