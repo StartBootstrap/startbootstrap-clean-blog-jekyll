@@ -17,11 +17,13 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Parama Dutta (Lakhimpur Girls' College): Autocommuting Probability of finite groups**  
+**Autocommuting Probability of finite groups**  
+
+**Parama Dutta (Lakhimpur Girls' College)**
 
 **26 July 2020 (8 pm IST)**
 
-Abstract: Let G be a finite group and Aut(G) the automorphism group of G. The autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability that a randomly chosen automorphism of G fixes a randomly chosen element of G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
+**Abstract**: Let G be a finite group and Aut(G) the automorphism group of G. The autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability that a randomly chosen automorphism of G fixes a randomly chosen element of G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
 
 ## Upcoming Talks
 
@@ -48,7 +50,11 @@ tba
 </details>
 
 
+
+
 ## Past Speakers
+
+
 
 
 ## <a name="faqs"></a>FAQs
