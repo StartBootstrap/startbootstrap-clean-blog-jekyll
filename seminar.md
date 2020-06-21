@@ -15,6 +15,8 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Current Speakers
 
+Please click on the talk title to see the abstract.
+
 <details>
 <summary>26 June, 2020 (8 pm IST): Autocommuting Probability of finite groups (Dr. Parama Dutta, Lahimpur Girls' College)</summary>
   
