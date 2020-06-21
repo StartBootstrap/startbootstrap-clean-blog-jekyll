@@ -17,7 +17,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Autocommuting Probability of finite groups**  
+**What is the Probability that an automorphism fixes a group element?**  
 
 **Parama Dutta (Lakhimpur Girls' College)**
 
