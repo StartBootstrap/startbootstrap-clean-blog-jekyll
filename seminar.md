@@ -16,7 +16,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 ## Current Speakers
 
 * 26 June, 2020 (8 pm IST): Dr. Parama Dutta (Lahimpur Girls' College)
-*<details>
+<details>
 <summary>26 June, 2020 (8 pm IST): Autocommuting Probability of finite groups (Dr. Parama Dutta, Lahimpur Girls' College)</summary>
 Let G be a finite group and Aut(G) the automorphism group of G. The
 autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability
