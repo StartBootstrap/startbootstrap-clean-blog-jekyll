@@ -9,7 +9,9 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com). 
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com).
+
+Check the [FAQs](#faqs).
 
 All the talks will be over Zoom and the meeting details will be emailed to the registered participants.
 
@@ -22,6 +24,8 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 Abstract: Let G be a finite group and Aut(G) the automorphism group of G. The autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability that a randomly chosen automorphism of G fixes a randomly chosen element of G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
 
 ## Upcoming Talks
+
+*Please click on the title to see the abstract.*
 
 <details>
 <summary><b>10 July, 2020</b>: Hypergeometric Series over Finite Fields (<b>Arjun Singh Chetry</b>, IIIT Guwahati)</summary>
@@ -45,3 +49,8 @@ tba
 
 
 ## Past Speakers
+
+
+## <a name="faqs"></a>FAQs
+
+
