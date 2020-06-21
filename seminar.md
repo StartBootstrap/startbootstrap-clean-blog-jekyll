@@ -9,7 +9,7 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com).
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com) or Parama Dutta (parama@gonitsora.com).
 
 Check the [FAQs](#faqs).
 
@@ -21,7 +21,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 **Parama Dutta (Lakhimpur Girls' College)**
 
-**26 July 2020 (8 pm IST)**
+**26 June 2020 (8 pm IST)**
 
 **Abstract**: Let G be a finite group and Aut(G) the automorphism group of G. The autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability that a randomly chosen automorphism of G fixes a randomly chosen element of G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
 
@@ -71,4 +71,4 @@ Usually on Fridays, the times change depending on the availability of the speake
 Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@gonitsora.com, mentioning your name and affiliation (if any).
 
 **Who can give a talk?**
-At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com.
+At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com or parama@gonitsora.com.
