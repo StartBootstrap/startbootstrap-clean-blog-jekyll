@@ -51,5 +51,6 @@ of the fractional powers of the generating function for the 2-color partition fu
 
 tba
 </details>
+</br>
 
-## Past Seminars
+## Past Speakers
