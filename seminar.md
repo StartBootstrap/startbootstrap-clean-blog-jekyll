@@ -26,7 +26,7 @@ that a randomly chosen automorphism of G fixes a randomly chosen element of
 G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and
 bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
 </details>
-</br>
+
 
 <details>
 <summary><b>10 July, 2020</b>: tba (<b>Arjun Chetry</b>, IIIT Guwahati)</summary>
