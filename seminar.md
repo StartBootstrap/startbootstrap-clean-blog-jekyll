@@ -9,7 +9,7 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place every Friday, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com). 
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com). 
 
 All the talks will be over Zoom and the meeting details will be emailed to the registered participants.
 
@@ -18,7 +18,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 Please click on the talk title to see the abstract.
 
 <details>
-<summary>26 June, 2020 (8 pm IST): Autocommuting Probability of finite groups (Dr. Parama Dutta, Lahimpur Girls' College)</summary>
+<summary>**26 June, 2020 (8 pm IST)**: Autocommuting Probability of finite groups (Dr. Parama Dutta, Lahimpur Girls' College)</summary>
   
 Let G be a finite group and Aut(G) the automorphism group of G. The
 autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability
