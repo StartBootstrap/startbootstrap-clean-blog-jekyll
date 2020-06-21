@@ -71,4 +71,4 @@ Usually on Fridays, the times change depending on the availability of the speake
 Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@gonitsora.com, mentioning your name and affiliation (if any).
 
 **Who can give a talk?**
-At the moment we are encouraging only PhD students, postdocs and young faculty members to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com.
+At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com.
