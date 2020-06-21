@@ -15,8 +15,17 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Current Speakers
 
-* 26 June, 2020: Dr. Parama Dutta (Lahimpur Girls' College)
-* 03 July, 2020: Pankaj Jyoti Mahanta (Gonit Sora)
+* 26 June, 2020 (8 pm IST): Dr. Parama Dutta (Lahimpur Girls' College)
+*<details>
+<summary>26 June, 2020 (8 pm IST): Autocommuting Probability of finite groups (Dr. Parama Dutta, Lahimpur Girls' College)</summary>
+Let G be a finite group and Aut(G) the automorphism group of G. The
+autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability
+that a randomly chosen automorphism of G fixes a randomly chosen element of
+G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and
+bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
+</details>
 * 10 July, 2020: Arjun Chetry (IIIT, Guwahati)
+* 17 July, 2020 (5 pm IST): Hirakjyoti Das (Tezpur University)
+* 31 July, 2020: tba
 
 ## Past Seminars
