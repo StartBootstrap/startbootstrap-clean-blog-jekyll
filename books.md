@@ -87,7 +87,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 70. ** **The G. H. Hardy Reader**, *Donald J. Albers (ed.), Gerald L. Alexanderson (ed.) and William Dunham (ed.)*, Mathematical Association of America – Cambridge University Press, 2015.
 71. ** **The Man Who Mistook His Wife for a Hat**, *Oliver Sacks*, Picador, 2011.
 72. ** **India: From Midnight to the Millennium and Beyond**, *Shashi Tharoor*, Penguin Books, 2007.
-73. ** **The Fall of Yugoslavia**, *Misha Glenny*, Penguin Books, 1996.
+73. **Great Feuds in Mathematics: Ten of the Liveliest Disputes Ever**, *Hal Hellman*, John Wiley & Sons, Inc., 2006.
 74. ** **Indiscrete Thoughts**, *Gian-Carlo Rota (Edited by Fabrizio Palombi)*, Birkhauser Boston, 1997.
 75. **The Accidental Prime Minister: The Making and Unmaking of Manmohan Singh**, *Sanjaya Baru*, Penguin Books, 2017.
 76. **The Merely Personal: Observations on Science and Scientists**, *Jeremy Bernstein*, Ivan R. Dee, 2001.
@@ -127,7 +127,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 110. **Einstein's Luck: The Truth Behind Some of the Greatest Scientific Discoveries**, *John Waller*, Oxford University Press, 2002.
 111. **C.V. Raman: A Biography**, *Uma Parameswaran*, Penguin Books, 2011.
 112. **The Uninhabitable Earth: A Story of the Future**, *David Wallace-Wells*, Penguin Books, 2019.
-113. **Disturbing the Universe**, *Freeman Dyson*, Harper & Row, 1979.
+113. **The Hunt for Vulcan: How Albert Einstein Destroyed a Planet and Deciphered the Universe**, *Thomas Levenson*, Head of Zeus, 2015.
 114. **Freakonomics: A Rogue Economist Explores the Hidden Side of Everything**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2015.
 115. **Humble Pi: A Comedy of Maths Errors**, *Matt Parker*, Penguin Books, 2019.
 116. **Things I don't Want to Know: A response to George Orwell's 1946 essay 'Why I Write'**, *Deborah Levy*, Penguin Books, 2018.
@@ -183,6 +183,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 46. **The Thing Around Your Neck**, *Chimamanda Ngozi Adichie*, W. F. Howes Ltd., 2009.
 47. **A Good Hanging and other stories**, *Ian Rankin*, Orion Books Ltd., 1998.
 48. **Fräulein Else: A Novel**, *Arthur Schnitzler (Translated by Robert A. Simon)*, Simon and Schuster, 1971.
+49. **The Cuckoo's Calling**, *Robert Galbraith*, Sphere, 2014.
 
 
 ## Graphic Books
