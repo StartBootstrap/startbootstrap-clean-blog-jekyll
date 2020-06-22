@@ -44,7 +44,7 @@ Recently, Chan and Wang (Fractional powers of the generating function for the pa
 
 
 <details>
-<summary><b>31 July, 2020</b>: tba </summary>
+  <summary><b>31 July, 2020</b>: tba (<b>Bishal Deb</b>, University College London)</summary>
 
 tba
 </details>  
