@@ -206,7 +206,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 1. **Away from Shore**, *Mary McCormack Deka*, CreateSpace Independent Publishing Platform, 2016.
 2. **Nonsense**, *Edward Lear*, Penguin Little Black Classics, 2016.
 3. **The World's Best Limericks**, *Richard Floethe (Illustrator)*, The Peter Pauper Press, 1951.
-4. ** **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
+4. **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
 
 
 ## Mixed
