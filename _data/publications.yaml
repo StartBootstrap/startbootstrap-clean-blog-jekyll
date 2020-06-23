@@ -105,3 +105,19 @@
   in:  ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
   date: 2020-05-08
   url: https://ieeexplore.ieee.org/document/9053128
+
+- title: 'eal-Time Visualisation of Fugue Played by a String Quartet'
+  esr: charles 
+  authors: Lartillot O., Cancino-Chacón C., and <a href="/people#charles">Brazier C.</a>.
+  in:  17th Sound & Music Computing Conference (SMC 2020), Torino, Italy
+  date: 2020-06-24
+  url: https://arxiv.org/abs/2006.10168
+
+- title: 'Towards Reliable Real-Time Opera Tracking: Combining Alignment with Audio Event Detectors to Increase Robustness'
+  esr: charles 
+  authors: <a href="/people#charles">Brazier C.</a>, and Widmer G.
+  in:  17th Sound & Music Computing Conference (SMC 2020), Torino, Italy
+  date: 2020-06-26
+  url: https://arxiv.org/abs/2006.11033
+
+
