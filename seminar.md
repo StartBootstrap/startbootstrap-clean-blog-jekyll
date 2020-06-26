@@ -72,3 +72,5 @@ Everyone is welcome to attend, but you have to register to get the links to atte
 
 **Who can give a talk?**
 At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com or parama@gonitsora.com.
+
+**Will there be any certificate for attending?** No.
