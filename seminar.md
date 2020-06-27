@@ -17,24 +17,18 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**What is the Probability that an automorphism fixes a group element?**  
+**Hypergeometric Series over Finite Fields**
 
-**Parama Dutta (Lakhimpur Girls' College)**
+**Arjun Singh Chetry (IIIT, Guwahati)**
 
-**26 June 2020 (8 pm IST)**
+**10 July 2020 (8 pm IST)**
 
-**Abstract**: Let G be a finite group and Aut(G) the automorphism group of G. The autocommuting probability of G, denoted by Pr(G; Aut(G)), is the probability that a randomly chosen automorphism of G fixes a randomly chosen element of G. In the talk, we study Pr(G; Aut(G)) through certain computing formula and bounds. We also discuss certain characterizations of G through Pr(G; Aut(G)).
+**Abstract**: Hypergeometric series are special functions which find its applications in numerous branch of mathematics. In this talk, we shall visualize this function from a number-theoretic point of view. In 1987, John Greene developed a character sum analogue of the binomial theorem and binomial coeficients, and as a result, finite field analogue for the hypergeometric series was established. Analogous to the classical series, hypergeometric series over finite fields satisfy many summation and transformation formulas. We shall look into some of them.
+
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
-
-<details>
-<summary><b>10 July, 2020</b>: Hypergeometric Series over Finite Fields (<b>Arjun Singh Chetry</b>, IIIT Guwahati)</summary>
-
-Hypergeometric series are special functions which find its applications in numerous branch of mathematics. In this talk, we shall visualize this function from a number-theoretic point of view. In 1987, John Greene developed a character sum analogue of the binomial theorem and binomial coeficients, and as a result, finite field analogue for the hypergeometric series was established. Analogous to the classical series, hypergeometric series over finite fields satisfy many summation and transformation formulas. We shall look into some of them.
-</details>
-
 
 <details>
 <summary><b>17 July, 2020 (5 pm IST)</b>: Families of Congruences for Fractional Partition Functions Modulo Powers of Primes (<b>Hirakjyoti Das</b>, Tezpur University)</summary>
@@ -56,7 +50,7 @@ tba
 
 ## Past Speakers
   
-    
+**[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)
       
       
 
@@ -65,13 +59,17 @@ tba
 ## <a name="faqs"></a>FAQs
 
 **When does the seminar take place?**  
+
 Usually on Fridays, the times change depending on the availability of the speaker.
 
 **Who can attend?**  
+
 Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@gonitsora.com, mentioning your name and affiliation (if any).
 
 **Who can give a talk?**  
+
 At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com or parama@gonitsora.com.
 
 **Will there be any certificate for attending?**  
+
 No.
