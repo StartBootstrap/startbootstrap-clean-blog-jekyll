@@ -48,7 +48,7 @@ tba
       
 
 
-## Past Speakers
+## Past Talks
   
 **[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)
       
