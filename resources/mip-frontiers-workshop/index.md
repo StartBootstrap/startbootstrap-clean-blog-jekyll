@@ -4,53 +4,29 @@ title: 1st MIP-Frontiers Workshop
 description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
 ---
 
-## <span style="color:red"> NOTE ON THE CURRENT COVID-19 CRISIS</span>
-
-*Update March 7, 2020: In the light of the global health emergency and pervasive travel restrictions the 1st MIP-Frontiers Workshop has been postponed. We will update the information about date and location as soon as possible.*
-
 ## General Information
 
-The first of two MIP-Frontiers Workshops will document recent and ongoing work in the MIP-Frontiers project, complemented by two invited talks by international experts (Meinard Müller and Kazuyoshi Yoshii, see below).
+The purpose of this first MIP-Frontiers Workshop was for the PhD students (ESRs) to give brief updates on the collaborations they had started during the "Sandbox" event that was held at QMUL, London, in February 2020, where they teamed up in groups of two or three to identify and work on some research question of common interest between their individual PhD projects. For the workshop, they were asked to prepare short (10 min) presentations on how their collaborative projects had progressed in the meantime, or why they turned out to be too ambitious or failed in other interesting ways.
+
+The workshop was originally planned to take place at UPF, Barcelona, on May 9, right after the ICASSP 2020 conference. However, due to the Coronavirus / Covid-19 pandemic, it had to be turned into a purely virtual event. It was held via tele-conferencing (zoom). The presentations were recorded. The corresponding videos can be accessed in the workshop programme below.
 
 MIP-Frontiers is a multidisciplinary, transnational and cross-sectoral European training network for MIR researchers, funded by the EU's Horizon 2020 program. More information can be found [here](/about).
 
-## Date and Location
-
-Saturday, May, 9, 2020, 9:30 - 16:00  
-Universitat Pompeu Fabra (UPF)  
-Ciutadella Campus, Ramon Trias Fargas, 25-27, Barcelona  
-[https://www.upf.edu/web/campus/campus-ciutadella](https://www.upf.edu/web/campus/campus-ciutadella)
-
-## Participation and Registration
-
-The workshop is open to all interested individuals.
-However, for purposes of planning, prospective workshop participants are required to **register** for the workshop in advance, via [EventBrite](https://www.eventbrite.co.uk/e/1st-mip-frontiers-workshop-tickets-98390060319).
-
-
 ## Workshop Program
 
-The program consists of invited talks and a number of presentations by the PhD students ("Early Stage Researchers, ESRs") of the project. The ESRs will report on some of their recent (joint) work.
+Thursday, April 30, 2020, 10:00 - 12:45 CET
 
-**Preliminary program** (detailed titles and presenter names to come):
+### Welcome and Brief Project Update
 
-9:30 - 10:00 Welcome, Introduction to Project and to the Workshop  
-10:00 - 10:45 Invited Talk: Meinard Müller  
-10:45 - 11:00 Coffee Break  
-11:00 - 12:40 4 ESR (Group) Presentations  
+- _Welcome to the Workshop_ <br> Gerhard Widmer, Johannes Kepler University of Linz
+- _MIP-Frontiers in these Corona Times: A Short Status Update_ <br> Simon Dixon, Queen Mary University of London
 
-12:40 - 14:00 Lunch Break
+### ESR Group Presentations
 
-14:00 - 14:45 Invited Talk: Kazuyoshi Yoshii  
-14:45 - 16:00 3 ESR (Group) Presentations  
-16:00 - 16:15 Short Break  
-16:15 - 16:45 Closed, internal project meeting
-
-
-## Invited Speakers
-
-- [Meinard Müller](https://www.audiolabs-erlangen.de/fau/professor/mueller) (International Audio Laboratories Erlangen)
-   - [MIR as Opportunity for Interdisciplinary Research (or: From the Life of a Figure Junkie)](/resources/mip-frontiers-workshop/mmueller)
-
-- [Kazuyoshi Yoshii](http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/) (Kyoto University)
-   - [MIP as Opportunity for Probabilistic Thinking](/resources/mip-frontiers-workshop/kyoshii)
-   
+- _Conditioned-UNet for Singing Voice Separation_ <br> Giorgia Cantisani and Kilian Schulze-Forster
+- _Recitatives-to-lyrics Alignment in Opera Recordings_ <br> Charles Brazier and Emir Demirel
+- _A Deeper Dive into the Volume Sensitivity Issue of Singing Voice Detection_ <br> Vinod Subramanian and Furkan Yesiler
+- _Can Transient/Non-Transient Separation Improve Instrument Recognition?_ <br> Carlos Lordelo, Alejandro Delgado and Antonio Ramires
+- _Demystifying Differentiable Digital Signal Processing_ <br> Ondřej Cífka and Javier Nistal
+- _Automatic Identification of Repeats in Music Performances_ <br> Luís Carvalho and Ruchit Agrawal
+- _Cross-dataset Evaluation of Auto-tagging Models_ <br> Karim M. Ibrahim and Philip Tovstogan

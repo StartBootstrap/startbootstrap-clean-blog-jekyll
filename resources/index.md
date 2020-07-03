@@ -4,12 +4,12 @@ title: Resources
 description: Materials, presentations and tutorials
 ---
 
-# Upcoming Events
+<!-- # Upcoming Events -->
 
-- [First MIP-Frontiers Workshop 2020, Universitat Pompeu Fabra, Barcelona, May 9, 2020](/resources/mip-frontiers-workshop)
 
 # Past Events
 
+- [First MIP-Frontiers Workshop 2020, Universitat Pompeu Fabra, Barcelona, April 30, 2020](/resources/mip-frontiers-workshop)
 - [Summer School 2019, Universitat Pompeu Fabra, Barcelona, May 20-24, 2019](/resources/summer-school)
 - [First Training Week 2018, Télécom Paris, Paris, September 20-28, 2018](/resources/first-training-week)
 
