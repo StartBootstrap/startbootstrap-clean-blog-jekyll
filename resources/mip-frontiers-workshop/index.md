@@ -1,20 +1,16 @@
 ---
 layout: page
 title: 1st MIP-Frontiers Workshop
-description: UPF, Barcelona, May 9, 2020 (after ICASSP2020)
+description: April 30, 2020
 ---
 
-## General Information
+### General Information
 
 The purpose of this first MIP-Frontiers Workshop was for the PhD students (ESRs) to give brief updates on the collaborations they had started during the "Sandbox" event that was held at QMUL, London, in February 2020, where they teamed up in groups of two or three to identify and work on some research question of common interest between their individual PhD projects. For the workshop, they were asked to prepare short (10 min) presentations on how their collaborative projects had progressed in the meantime, or why they turned out to be too ambitious or failed in other interesting ways.
 
 The workshop was originally planned to take place at UPF, Barcelona, on May 9, right after the ICASSP 2020 conference. However, due to the Coronavirus / Covid-19 pandemic, it had to be turned into a purely virtual event. It was held via tele-conferencing (zoom). The presentations were recorded. The corresponding videos can be accessed in the workshop programme below.
 
 MIP-Frontiers is a multidisciplinary, transnational and cross-sectoral European training network for MIR researchers, funded by the EU's Horizon 2020 program. More information can be found [here](/about).
-
-## Workshop Program
-
-Thursday, April 30, 2020, 10:00 - 12:45 CET
 
 ### Welcome and Brief Project Update
 
