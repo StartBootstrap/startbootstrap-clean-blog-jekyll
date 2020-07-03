@@ -12,12 +12,16 @@ The workshop was originally planned to take place at UPF, Barcelona, on May 9, r
 
 MIP-Frontiers is a multidisciplinary, transnational and cross-sectoral European training network for MIR researchers, funded by the EU's Horizon 2020 program. More information can be found [here](/about).
 
-### Welcome and Brief Project Update
+### Virtual Workshop Programme
+
+Thursday, April 30, 2020, 10:00 - 12:45 CET
+
+**WELCOME AND BRIEF PROJECT UPDATE**
 
 - _Welcome to the Workshop_ <br> Gerhard Widmer, Johannes Kepler University of Linz
 - _MIP-Frontiers in these Corona Times: A Short Status Update_ <br> Simon Dixon, Queen Mary University of London
 
-### ESR Group Presentations
+**ESR GROUP PRESENTATIONS**
 
 - _Conditioned-UNet for Singing Voice Separation_ <br> Giorgia Cantisani and Kilian Schulze-Forster
 - _Recitatives-to-lyrics Alignment in Opera Recordings_ <br> Charles Brazier and Emir Demirel
