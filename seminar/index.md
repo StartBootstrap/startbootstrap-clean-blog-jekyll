@@ -38,13 +38,13 @@ tba
 </details>  
 
 <details>
-  <summary><b>07 August, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>07 August, 2020</b>: tba (<b>Nilufar Mana Begum</b>, Debraj Roy College)</summary>
 
 tba
 </details>  
 
 <details>
-  <summary><b>14 August, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>14 August, 2020</b>: tba (<b>Anurag Baruah</b>, Gauhati University)</summary>
 
 tba
 </details>  
