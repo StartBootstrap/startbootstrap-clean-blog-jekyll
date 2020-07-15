@@ -1,25 +1,26 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
-
-# Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
-
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+title:              "Yidan Xu"
+email:              "yx2516@uw.edu"
+description:        ""
+baseurl:            ""
+url:                "https://edenx.github.io"
+github_username:    "edenx"
 
 # Build settings
-markdown:           kramdown
-paginate:           5
+timezone:           "US/Seattle"
+markdown:           "kramdown"
+paginate:           10
 paginate_path:      "/posts/page:num/"
+highlighter:        "rouge"
+permalink:          "pretty"
+exclude:            ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+mathjax_url: "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
