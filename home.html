@@ -1,0 +1,31 @@
+---
+layout: page
+title: "Home"
+weight: 5
+---
+
+{% assign posts = site.posts | where: 'category', 'posts' %}
+
+{% for post in posts %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img style="max-height: 200px" src="/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}">
+                </div>
+                <div class="col-sm-8">
+                    <h2 class="post-title">
+                        {{ post.title }}
+                    </h2>
+                    {% if post.subtitle %}
+                        {{ post.subtitle }}
+                    {% endif %}
+                    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% unless forloop.last %}
+        <hr>
+    {% endunless %}
+{% endfor %}
