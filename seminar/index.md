@@ -17,13 +17,15 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Families of Congruences for Fractional Partition Functions Modulo Powers of Primes**
+**Combinatorics of Stammering Tableaux**
 
-**Hirakjyoti Das (Tezpur University)**
+**Bishal Deb (University College London)**
 
-**17 July 2020 (5 pm IST)**
+**31 July 2020 (8 pm IST)**
 
-**Abstract**: Recently, Chan and Wang (Fractional powers of the generating function for the partition function. Acta Arith. 187(1), 59--80 (2019)) studied the fractional powers of the generating function for the partition function and found several congruences satisfied by the corresponding coefficients. In this talk, we find some new families of congruences modulo powers of primes. We also find analogous results for the coefficients of the fractional powers of the generating function for the 2-color partition function.
+**Abstract**: Stammering tableaux are a kind of walks on the Young lattice introduced by Josuat-Vergès in 2017. In this talk, we look at properties of stammering tableaux. Firstly, we use a link between stammering tableaux and oscillating tableaux which gives rise to a sequence of polynomials, and we describe the coefficients of these polynomials. Secondly, we describe a bijection between stammering tableaux and increasing trees, and relate this to Stirling permutations. Finally, we define a statistic on stammering tableaux called weight and show that the average weight over all stammering tableaux of a given size and shape is a polynomial in the size and shape of the stammering tableaux.
+
+This work is part of the masters thesis of the speaker, funded by Labex Bézout at Université Paris-Est Marne-la-Vallée (now Université Gustave Eiffel), and supervised by Samuele Giraudo and Matthieu Josuat-Vergès.
 
 
 ## Upcoming Talks
@@ -32,13 +34,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 
 <details>
-  <summary><b>31 July, 2020</b>: tba (<b>Bishal Deb</b>, University College London)</summary>
-
-tba
-</details>  
-
-<details>
-  <summary><b>07 August, 2020</b>: tba (<b>Nilufar Mana Begum</b>, Debraj Roy College)</summary>
+  <summary><b>07 August, 2020</b>: tba (<b>Munmi Saikia</b>, Royal Global University Guwahati)</summary>
 
 tba
 </details>  
@@ -50,7 +46,7 @@ tba
 </details>  
 
 <details>
-  <summary><b>21 August, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>21 August, 2020</b>: tba (<b>Nilufar Mana Begum</b>, D. R. College)</summary>
 
 tba
 </details>  
@@ -69,7 +65,8 @@ tba
 ## Past Talks
   
 **[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)  
-**[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)
+**[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)  
+**[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)
       
       
 
