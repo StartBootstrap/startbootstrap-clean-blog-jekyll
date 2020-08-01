@@ -9,7 +9,7 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com) or Parama Dutta (parama@gonitsora.com).
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). By Assamese, we mean anyone residing/working in Assam now or residing/working in Assam in the past. If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com) or Parama Dutta (parama@gonitsora.com).
 
 Check the [FAQs](#faqs).
 
