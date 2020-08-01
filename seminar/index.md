@@ -64,7 +64,7 @@ tba
   
 **[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)  
 **[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)  
-**[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)
+**[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)  
 **Combinatorics of Stammering Tableaux** (*Bishal Deb*: 31 July 2020)  
       
       
