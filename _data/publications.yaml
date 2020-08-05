@@ -105,6 +105,13 @@
   in:  ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
   date: 2020-05-08
   url: https://ieeexplore.ieee.org/document/9053128
+  
+- title: Joint Phoneme Alignment and Text-Informed Speech Separation on Highly Corrupted Speech
+  esr: kilian
+  authors: <a href="/people#kilian">Schulze-Forster K.</a>, Doire C., Richard G., and Badeau R.
+  in: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
+  date: 2020-05-07
+  url: https://hal.telecom-paris.fr/hal-02457075
 
 - title: 'Real-Time Visualisation of Fugue Played by a String Quartet'
   esr: charles 
