@@ -44,7 +44,7 @@ tba
 </details>
 
 <details>
-  <summary><b>04 September, 2020</b>: tba (<b>Manjil P. Saikia</b>, Cardiff University</summary>
+  <summary><b>04 September, 2020</b>: tba (<b>Manjil P. Saikia</b>, Cardiff University)</summary>
 
 tba
 </details>   
