@@ -189,7 +189,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 49. **The Cuckoo's Calling**, *Robert Galbraith*, Sphere, 2014.
 50. **The Fourth Estate**, *Jeffrey Archer*, HarperCollins, 1996.
 51. **As the Crow Flies**, *Jeffrey Archer*, BCA, 1991.
-52. **THe Last Juror**, *John Grisham*, Arrow Books, 2004.
+52. **The Last Juror**, *John Grisham*, Arrow Books, 2004.
 53. **Chinatown Days**, *Rita Chowdhury*, Macmillan, 2018.
 
 
