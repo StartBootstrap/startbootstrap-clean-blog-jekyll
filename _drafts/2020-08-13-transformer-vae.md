@@ -27,8 +27,15 @@ Here, the input is a melody, and because we are in an autoencoding scenario, the
 And, as with any autoencoder, we are then interested by the representation _between_ the encoder and the decoder (i.e. the output of the last encoder layer) – this representation is called the _latent code_ and denoted $$z$$.
 
 At every layer, Transformers work with sequences of representation vectors where each vector corresponds to a specific position in the input.
-In this specific application, the Transformer works on the bar level.
+In this specific application, the Transformer works on the level of bars.
 To achieve this, every bar is first encoded using a _local encoder_ before being passed to the Transformer encoder, and similarly, every output of the Transformer decoder is passed through a _local decoder_ to generate the corresponding bar.
+
+<figure class="figure">
+  <img src="{{ '/posts/transformer-vae/architecture.svg' | relative_url }}" alt="The model architecture." class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption" markdown="1">
+  An overview of the Transformer VAE architecture. Each bar $$x_1,\ldots,x_T$$ is encoded separately by the local encoder so that the Transformer operates on representations of bars.
+  </figcaption>
+</figure>
 
 The Transformer encoder and decoder both have a similar architecture, consisting of _self-attention_ and _feed-forward_ layers.
 While the feed-forward layers act on each position (bar) independently, the self-attention layers essentially allow every position to fetch information from any other position, creating a representation where each bar is ‘aware’ of its context.
@@ -44,7 +51,7 @@ In VAEs, the output of the encoder parameterizes a normal distribution $$q(z|x)=
 The practical effect of this KL term is that it tries to push the posterior $$q(z|x)$$ closer to the prior $$p(x)$$, and this can be interpreted as trying to make the latent code _less informative_ (as opposed to the reconstruction term, which is trying to make it as informative as possible).
 Therefore, the model should only store each piece of information at a single position, because encoding it repeatedly would result in a higher KL term.
 
-To show that the Transformer VAE has the desired properties, the authors perform ‘context transfer’: they encode two melodies, $$x^{(1)}$$ and $$x^{(2)}$$ to obtain the latent codes $$z^{(1)}$$ and $$z^{(2)}$$, then run the decoder on the sequence $$z^{(1)}_1,z^{(2)}_2,z^{(2)}_3,\ldots,z^{(2)}_n$$, i.e. with the first bar swapped. The result is quite interesting, and indeed gives the impression of the first bar of $$x^{(1)}$$ being developed in the ‘style’ of $$x^{(2)}$$.
+To show that the Transformer VAE has the desired properties, the authors perform ‘context transfer’: they encode two melodies, $$x^{(1)}$$ and $$x^{(2)}$$ to obtain the latent codes $$z^{(1)}$$ and $$z^{(2)}$$, then run the decoder on the sequence $$z^{(1)}_1,z^{(2)}_2,z^{(2)}_3,\ldots,z^{(2)}_T$$, i.e. with the first bar swapped. The result is quite interesting, and indeed gives the impression of the first bar of $$x^{(1)}$$ being developed in the ‘style’ of $$x^{(2)}$$.
 
 
 While the experimental results of the paper are somewhat limited overall, I believe they show a promising direction for music and sequence generation.
