@@ -17,25 +17,21 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Some aspects of $\Gamma_2$ graph over some of the finite commutative rings**
+**Application of the Rogers-Ramanujan continued fraction to partition functions**
 
-**Anurag Baruah (Gauhati University)**
+**Nilufar Mana Begum (Debraj Roy College, Golaghat, Assam)**
 
-**14 August 2020 (8 pm IST)**
+**21 August 2020 (8 pm IST)**
 
-**Abstract**: Among graphs associated to a ring, Zero-divisor graph holds a special place as it reveals interesting relations between ring theory and graph theory. After the concept of zero-divisor graph was introduced by Beck in 1988, Anderson and Livingston modified this definition of zero divisor graph in 1999 by restricting the vertices to the non-zero zero divisors of the ring $R$. In 2008, Anderson and Badawi introduced the total graph $\Gamma (R)$ of a commutative ring $R$. Motivated by the significant results obtained from the structure of $\Gamma (R)$, Sengupta introduced a new type of graph over rings, involving both the operations of a ring in the adjacency conditions. Let $R$ be a ring then $\Gamma_2$ is an undirected graph $(V,E)$ in which $V = R \setminus \{0\}$ and for any $a, b \in V$, $ab \in E$ if and only if $a \neq b$ and either $a\cdot b = 0$ or $b \cdot a = 0$ or $a + b$ is a zero-divisor (including $0$). Here the general structure of this graph is dicussed for some of the finite commutative rings and other properties like connectedness, diameter, girth, chromatic number, completeness, eulerianity and planarity of these graphs are also determined.
+**Abstract**: In this talk, we will discuss the applications of Ramanujan's theta funcion identities and a few identities arising from the Rogers-Ramanujan continued fraction in finding the generating functions and congruences modulo powers of $5$ for various partition functions.
+
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
  
-
-<details>
-  <summary><b>21 August, 2020</b>: tba (<b>Nilufar Mana Begum</b>, D. R. College)</summary>
-
-tba
-</details>  
+ 
 
 <details>
   <summary><b>28 August, 2020</b>: tba (<b>Himangshu Hazarika</b>, Tezpur University)</summary>
@@ -47,7 +43,25 @@ tba
   <summary><b>04 September, 2020</b>: tba (<b>Manjil P. Saikia</b>, Cardiff University)</summary>
 
 tba
-</details>   
+</details> 
+
+<details>
+  <summary><b>11 September, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details>  
+
+<details>
+  <summary><b>18 September, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details>  
+
+<details>
+  <summary><b>25 September, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details>  
   
     
       
@@ -61,6 +75,7 @@ tba
 **[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)  
 **[Combinatorics of Stammering Tableaux](/seminar/Bishal_Deb.pdf)** (*Bishal Deb*: 31 July 2020)  
 **[An approach to construct Mathematical model through system of ordinary differential equation](/seminar/Munmi_Saikia.pdf)** (*Munmi Saikia*: 07 August 2020)  
+**[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
       
       
 
