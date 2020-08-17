@@ -41,15 +41,15 @@ Let $\mathbb{F}(q^m)$ be a finite field which is extended from the field $\mathb
 </details>
 
 <details>
-  <summary><b>04 September, 2020</b>: tba (<b>Manjil P. Saikia</b>, Cardiff University)</summary>
+  <summary><b>04 September, 2020</b>: tba (<b>tba</b>)</summary>
 
 tba
 </details> 
 
 <details>
-  <summary><b>11 September, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>11 September, 2020</b>: $1/N$ Phenomenon of Quarter-turn Symmetric Alternating Sign Matrices (<b>Manjil P. Saikia</b>, Cardiff University)</summary>
 
-tba
+Alternating sign matrices (ASMs) of order $n$ are $n\times n$ square matrices with entries in the set $\{0,\pm\}$ where the non-zero entries along the rows and columns alternate in sign and all the row and column sums are equal to $1$. In this talk we will introduce these objects, explain some central themes related to their enumenration and then prove two conjectures of Stroganov about certain aspects of ASMs with quarter-turn symmetry. The talk will be self-contained and no background will be assumed.
 </details>  
 
 <details>
