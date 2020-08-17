@@ -3,7 +3,7 @@ layout: post
 title: 'Transformer VAE'
 subtitle: 'Summary of an ICASSP 2020 paper about music representation learning'
 excerpt: 'Summary of an ICASSP 2020 paper about music representation learning'
-date: 2020-08-13
+date: 2020-08-17
 author: Ondřej Cífka
 author-id: ondrej
 background: /img/barcelona.jpg
