@@ -96,7 +96,7 @@ The result is quite interesting, and indeed does sometimes give the impression o
   </figure>
 </figure>
 
-Other times, it is a bit hard to interpret what happened:
+Other times, the model seems to get a bit confused:
 
 <figure class="figure" role="group" style="max-width: 100%;">
   <figure>
