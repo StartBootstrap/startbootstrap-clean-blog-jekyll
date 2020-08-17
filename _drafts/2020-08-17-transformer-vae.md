@@ -6,7 +6,7 @@ excerpt: 'Summary of an ICASSP 2020 paper about music representation learning'
 date: 2020-08-17
 author: Ondřej Cífka
 author-id: ondrej
-background: /img/barcelona.jpg
+background: /posts/transformer-vae/splash.png
 ---
 
 <!-- scripts for MIDI playback -->
