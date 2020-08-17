@@ -9,6 +9,24 @@ author-id: ondrej
 background: /img/barcelona.jpg
 ---
 
+<!-- scripts for MIDI playback -->
+<script src="https://cdn.jsdelivr.net/npm/focus-visible@5/dist/focus-visible.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.8.21/Tone.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@magenta/music@1/es6/core.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@magenta/music@1/es6/protobuf.js"></script>
+<script src="https://github.com/cifkao/html-midi-player/releases/download/v0.0.1/html-midi-player.js"></script>
+
+<style>
+  midi-visualizer, midi-player {
+    display: block;
+  }
+
+  midi-visualizer svg {
+    height: 60px;
+  }
+</style>
+
+
 This is the first of a series of blog posts about ICASSP 2020 papers.
 Today's paper is _[Transformer VAE: A Hierarchical Model for Structure-Aware and Interpretable Music Representation Learning](https://doi.org/10.1109/ICASSP40776.2020.9054554){:target="_blank"}_ by researchers from CMU, NYU Shanghai and Hooktheory.[^1]
 
@@ -51,8 +69,48 @@ In VAEs, the output of the encoder parameterizes a normal distribution $$q(z|x)=
 The practical effect of this KL term is that it tries to push the posterior $$q(z|x)$$ closer to the prior $$p(x)$$, and this can be interpreted as trying to make the latent code _less informative_ (as opposed to the reconstruction term, which is trying to make it as informative as possible).
 Therefore, the model should only store each piece of information at a single position, because encoding it repeatedly would result in a higher KL term.
 
-To show that the Transformer VAE has the desired properties, the authors perform ‘context transfer’: they encode two melodies, $$x^{(1)}$$ and $$x^{(2)}$$ to obtain the latent codes $$z^{(1)}$$ and $$z^{(2)}$$, then run the decoder on the sequence $$z^{(1)}_1,z^{(2)}_2,z^{(2)}_3,\ldots,z^{(2)}_T$$, i.e. with the first bar swapped. The result is quite interesting, and indeed gives the impression of the first bar of $$x^{(1)}$$ being developed in the ‘style’ of $$x^{(2)}$$.
+To show that the Transformer VAE has the desired properties, the authors perform ‘context transfer’: they encode two melodies, $$x^{(1)}$$ and $$x^{(2)}$$ to obtain the latent codes $$z^{(1)}$$ and $$z^{(2)}$$, then run the decoder on the sequence $$z^{(1)}_1,z^{(2)}_2,z^{(2)}_3,\ldots,z^{(2)}_T$$, i.e. with the first bar swapped.
+The result is quite interesting, and indeed sometimes gives the impression of the first bar of $$x^{(1)}$$ being developed in the ‘style’ of $$x^{(2)}$$, as the authors claim.
 
+<figure class="figure" role="group" style="max-width: 100%;">
+  <figure>
+    <figcaption class="figure-caption">Input 1: Mary Had A Little Lamb</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/Mary.mid' | relative_url }}" type="staff" id="viz11"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/Mary.mid' | relative_url }}" sound-font visualizer="#viz11"></midi-player>
+  </figure>
+  <figure>
+    <figcaption class="figure-caption">Input 2: Jingle Bells</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/Jingle%20Bells.mid' | relative_url }}" type="staff" id="viz12"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/Jingle%20Bells.mid' | relative_url }}" sound-font visualizer="#viz12"></midi-player>
+  </figure>
+  <figure>
+    <figcaption class="figure-caption">Output. Notice the repetition in the 3<sup>rd</sup> bar</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/Mary_Jingle%20Bells.mid' | relative_url }}" type="staff" id="viz13"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/Mary_Jingle%20Bells.mid' | relative_url }}" sound-font visualizer="#viz13"></midi-player>
+  </figure>
+</figure>
+
+Other times, it is a bit unclear what happened:
+
+<figure class="figure" role="group" style="max-width: 100%;">
+  <figure>
+    <figcaption class="figure-caption">Input 1: Twinkle Twinkle, Little Star</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/littlestar+8.mid' | relative_url }}" type="staff" id="viz21"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/littlestar+8.mid' | relative_url }}" sound-font visualizer="#viz21"></midi-player>
+  </figure>
+  <figure>
+    <figcaption class="figure-caption">Input 2: Ode To Joy</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/Joy.mid' | relative_url }}" type="staff" id="viz22"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/Joy.mid' | relative_url }}" sound-font visualizer="#viz22"></midi-player>
+  </figure>
+  <figure>
+    <figcaption class="figure-caption">Output. Some unexpected turns</figcaption>
+    <midi-visualizer src="{{ '/posts/transformer-vae/midi/littlestar+8_Joy.mid' | relative_url }}" type="staff" id="viz23"></midi-visualizer>
+    <midi-player src="{{ '/posts/transformer-vae/midi/littlestar+8_Joy.mid' | relative_url }}" sound-font visualizer="#viz23"></midi-player>
+  </figure>
+</figure>
+
+More examples are provided [here](https://drive.google.com/open?id=1Su-8qrK__28mAesSCJdjo6QZf9zEgIx6){:target="_blank"}.
 
 While the experimental results of the paper are somewhat limited overall, I believe they show a promising direction for music and sequence generation.
 I hope future work can shed some light on how general the approach is, in particular:
