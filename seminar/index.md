@@ -34,9 +34,10 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
  
 
 <details>
-  <summary><b>28 August, 2020</b>: tba (<b>Himangshu Hazarika</b>, Tezpur University)</summary>
+  <summary><b>28 August, 2020</b>: Certain types of primitive and normal elements over finite fields (<b>Himangshu Hazarika</b>, Tezpur University)</summary>
 
-tba
+Let $\mathbb{F}_{q^m}$ be a finite field which is extended from the field $\mathbb{F}_q$. The generators of the multiplicative group $\mathbb{F}^{\star}_{q^m}$ are called primitive elements and those elements whose conjugates forms a basis of $\mathbb{F}_{q^m}$ over $\mathbb{F}_{q}$ are called normal elements. In this talk we discuss about the existence of certain types of primitive elements, normal elements and primitive normal elements. We also discuss about the Lenstra-Schoof method which is used to prove these existences.
+
 </details>
 
 <details>
