@@ -100,7 +100,7 @@ Other times, the model seems to get a bit confused:
 
 <figure class="figure" role="group" style="max-width: 100%;">
   <figure>
-    <figcaption class="figure-caption">Input 1: Twinkle Twinkle, Little Star</figcaption>
+    <figcaption class="figure-caption">Input 1: Twinkle, Twinkle, Little Star</figcaption>
     <midi-visualizer src="{{ '/posts/transformer-vae/midi/littlestar+8.mid' | relative_url }}" type="staff" id="viz21"></midi-visualizer>
     <midi-player src="{{ '/posts/transformer-vae/midi/littlestar+8.mid' | relative_url }}" sound-font visualizer="#viz21"></midi-player>
   </figure>
