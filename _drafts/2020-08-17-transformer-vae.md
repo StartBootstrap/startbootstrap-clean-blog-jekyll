@@ -37,7 +37,7 @@ One possible application is what the authors refer to as _context transfer_, whe
 The work combines two popular approaches – _variational autoencoders_[^2] (VAEs) and _Transformers_[^3] – to propose the _Transformer VAE_.
 VAEs are a type of autoencoder that tries to learn a nicely organized representation space by making some assumptions about the distribution of latent codes.
 The Transformer, on the other hand, is a powerful type of neural network originally applied to the machine translation task and is known to be capable of capturing dependencies at different time scales, just as the authors want.
-I will try to explain how the paper builds upon these two approaches, but given their popularity and to keep the post relatively short, I will not fully explain them, so it might help to have some idea about them.
+This post will focus on how the paper combines these two approaches, so to learn more about the individual architectures check the references.
 
 ## The model
 Probably the best starting point is the original Transformer architecture,[^3] consisting of an encoder and a decoder.
@@ -60,7 +60,7 @@ The Transformer encoder and decoder both have a similar architecture, consisting
 While the feed-forward layers act on each position (bar) independently, the self-attention layers essentially allow every position to fetch information from any other position, creating a representation where each bar is ‘aware’ of its context.
 The situation in the decoder is possibly a bit confusing because of the interplay between self-attention (attention of a given position to previous positions in the decoder) and _inter-attention_ (attention to positions in the encoder representation), but this is not so important for understanding the paper, so I will gracefully avoid discussing it here.
 
-The model as I just described it would still not learn a particularly _interpretable_ representation. To achieve interpretability, the authors propose two changes to the Transformer architecture:
+The model, as it had just been described, would still not learn a particularly _interpretable_ representation. To achieve interpretability, the authors propose two changes to the Transformer architecture:
 
 1. Apply _masking_ to all (self-)attention layers, ensuring that when generating a given bar, the model does not have access to any information about the following bars. (Note: The decoder self-attention is already masked in the original Transformer; the authors of Transformer VAE extend the masking to the rest of the model.)
 
