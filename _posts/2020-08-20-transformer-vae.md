@@ -3,7 +3,7 @@ layout: post
 title: 'Transformer VAE'
 subtitle: 'Summary of an ICASSP 2020 paper about music representation learning'
 excerpt: 'Summary of an ICASSP 2020 paper about music representation learning'
-date: 2020-08-17
+date: 2020-08-20
 author: Ondřej Cífka
 author-id: ondrej
 background: /posts/transformer-vae/splash.png
@@ -43,7 +43,7 @@ This post will focus on how the paper combines these two approaches, so to learn
 Probably the best starting point is the original Transformer architecture,[^3] consisting of an encoder and a decoder.
 Originally, the input to the encoder would be an English sentence, and the output of the decoder would be its translation into the target language.
 In this paper, on the other hand, the input is a melody, and because we are in an autoencoding scenario, the model is trained to produce the same melody as its output.
-And, as with any autoencoder, we are then interested by the representation _between_ the encoder and the decoder (i.e. the output of the last encoder layer) – this representation is called the _latent code_ and denoted $$z$$.
+And, as with any autoencoder, we are then interested in the representation _between_ the encoder and the decoder (i.e. the output of the last encoder layer) – this representation is called the _latent code_ and denoted $$z$$.
 
 At every layer, Transformers work with sequences of representation vectors where each vector corresponds to a specific position in the input.
 In this specific application, the Transformer works on the level of bars.
@@ -122,7 +122,7 @@ More examples are provided [here](https://drive.google.com/open?id=1Su-8qrK__28m
 
 While the experimental results of the paper are somewhat limited overall, I believe they show a promising direction for music and sequence generation.
 I hope future work can shed some light on how general the approach is, in particular:
-- The approach seems to hinge on the fact that it’s ‘cheaper’ (in terms of the KL term) to encode a repeated segment as a reference to the first occurrence than to encode its content directly. I wonder how the model would behave when trained on longer sequences, where position may be more expensive to encode.
+- The approach seems to hinge on the fact that it’s ‘cheaper’ (in terms of the KL term) to encode a repeated segment as a reference to the first occurrence than to encode its content directly. I wonder how the model would behave when trained on longer sequences, where the position may be more expensive to encode.
 - Will the approach generalize to more complex musical structures (full scores)? Or will the dependencies between different segments be too complex to encode concisely?
 - How about text and other modalities?
   Would the approach scale to enormous models like GPT-3,[^4] so that we can, for example, take the first chapter of a novel and develop it in the style of a different book?
