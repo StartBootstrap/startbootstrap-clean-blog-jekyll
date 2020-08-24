@@ -28,5 +28,5 @@ Thursday, April 30, 2020, 10:00 - 12:45 CET
 - _A Deeper Dive into the Volume Sensitivity Issue of Singing Voice Detection_ <br> Vinod Subramanian and Furkan Yesiler <br> [**YouTube**](https://youtu.be/vSECVENxSkM)
 - _Can Transient/Non-Transient Separation Improve Instrument Recognition?_ <br> Carlos Lordelo, Alejandro Delgado and Antonio Ramires <br> [**YouTube**](https://youtu.be/LmIJwp-VvSE)
 - _Demystifying Differentiable Digital Signal Processing (DDSP)_ <br> Ondřej Cífka and Javier Nistal <br> [**YouTube**](https://youtu.be/cYkSWgMHCPk)
-- _Automatic Identification of Jumps in Music Performances_ <br> Luís Carvalho and Ruchit Agrawal <br> [**YouTube**](https://youtu.be/HmU56Gj_jaQ)
+- _Automatic Identification of Jumps in Music Performances_ <br> Luís Carvalho and Ruchit Agrawal <br> [**YouTube**](https://youtu.be/t_PjLuoLMyo)
 - _Cross-Dataset Evaluation of Auto-Tagging Models_ <br> Karim M. Ibrahim and Philip Tovstogan <br> [**YouTube**](https://youtu.be/lF0Bt8yZmq8)

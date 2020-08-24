@@ -53,7 +53,7 @@ description: "1st MIP-Frontiers Workshop <br> April 30, 2020"
 <p style="margin: 0;">Luís Carvalho and Ruchit Agrawal</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/HmU56Gj_jaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/t_PjLuoLMyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 -------------------
