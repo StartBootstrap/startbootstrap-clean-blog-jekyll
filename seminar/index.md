@@ -17,13 +17,13 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Application of the Rogers-Ramanujan continued fraction to partition functions**
+**Certain types of primitive and normal elements over finite fields**
 
-**Nilufar Mana Begum (Debraj Roy College, Golaghat, Assam)**
+**Himangshu Hazarika (Tezpur University)**
 
-**21 August 2020 (8 pm IST)**
+**28 August 2020 (8 pm IST)**
 
-**Abstract**: In this talk, we will discuss the applications of Ramanujan's theta funcion identities and a few identities arising from the Rogers-Ramanujan continued fraction in finding the generating functions and congruences modulo powers of $5$ for various partition functions.
+**Abstract**: Let $\mathbb{F}(q^m)$ be a finite field which is extended from the field $\mathbb{F}(q)$. The generators of the multiplicative group $\mathbb{F}^{\star}(q^m)$ are called primitive elements and those elements whose conjugates forms a basis of $\mathbb{F}(q^m)$ over $\mathbb{F}(q)$ are called normal elements. In this talk we discuss about the existence of certain types of primitive elements, normal elements and primitive normal elements. We also discuss about the Lenstra-Schoof method which is used to prove these existences.
 
 
 
@@ -32,13 +32,6 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 *Please click on the title to see the abstract.*
  
  
-
-<details>
-  <summary><b>28 August, 2020</b>: Certain types of primitive and normal elements over finite fields (<b>Himangshu Hazarika</b>, Tezpur University)</summary>
-
-Let $\mathbb{F}(q^m)$ be a finite field which is extended from the field $\mathbb{F}(q)$. The generators of the multiplicative group $\mathbb{F}^{\star}(q^m)$ are called primitive elements and those elements whose conjugates forms a basis of $\mathbb{F}(q^m)$ over $\mathbb{F}(q)$ are called normal elements. In this talk we discuss about the existence of certain types of primitive elements, normal elements and primitive normal elements. We also discuss about the Lenstra-Schoof method which is used to prove these existences.
-
-</details>
 
 <details>
   <summary><b>04 September, 2020</b>: tba (<b>tba</b>)</summary>
@@ -77,6 +70,7 @@ tba
 **[Combinatorics of Stammering Tableaux](/seminar/Bishal_Deb.pdf)** (*Bishal Deb*: 31 July 2020)  
 **[An approach to construct Mathematical model through system of ordinary differential equation](/seminar/Munmi_Saikia.pdf)** (*Munmi Saikia*: 07 August 2020)  
 **[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
+**[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
       
       
 
