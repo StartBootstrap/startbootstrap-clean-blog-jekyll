@@ -9,13 +9,6 @@ author-id: ondrej
 background: /posts/transformer-vae/splash.png
 ---
 
-<!-- scripts for MIDI playback -->
-<script src="https://cdn.jsdelivr.net/npm/focus-visible@5/dist/focus-visible.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.8.21/Tone.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@magenta/music@1/es6/core.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@magenta/music@1/es6/protobuf.js"></script>
-<script src="https://github.com/cifkao/html-midi-player/releases/download/v0.0.1/html-midi-player.js"></script>
-
 <style>
   midi-visualizer, midi-player {
     display: block;
@@ -126,6 +119,10 @@ I hope future work can shed some light on how general the approach is, in partic
 - Will the approach generalize to more complex musical structures (full scores)? Or will the dependencies between different segments be too complex to encode concisely?
 - How about text and other modalities?
   Would the approach scale to enormous models like GPT-3,[^4] so that we can, for example, take the first chapter of a novel and develop it in the style of a different book?
+
+
+<!-- scripts for MIDI playback -->
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@13,npm/@magenta/music@1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1"></script>
 
 
 ## References
