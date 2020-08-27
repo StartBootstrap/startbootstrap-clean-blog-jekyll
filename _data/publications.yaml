@@ -133,6 +133,13 @@
   in: Machine Learning for Media Discovery Workshop (ML4MD), 37th International Conference on Machine Learning (ICML 2020), Vienna, Austria
   date: 2020-07-18
   url: https://drive.google.com/file/d/19RtnbKWhM_A48daEKR1OoZgG9uWUQafU/view?usp=sharing
+  
+- title: 'Groove2Groove: One-Shot Music Style Transfer with Supervision from Synthetic Data'
+  esr: ondrej
+  authors: <a href="/people#ondrej">Cífka O.</a>, Şimşekli U., and Richard G.
+  in: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+  date: 2020-08-26
+  url: https://hal.archives-ouvertes.fr/hal-02923548
 
 - title: 'Comparing Representations for Audio Synthesis Using Generative Adversarial Networks'
   esr: javier 
