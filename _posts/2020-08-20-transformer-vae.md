@@ -120,7 +120,7 @@ I hope future work can shed some light on how general the approach is, in partic
 - How about text and other modalities?
   Would the approach scale to enormous models like GPT-3,[^4] so that we can, for example, take the first chapter of a novel and develop it in the style of a different book?
 
-By the way, if you are curious how I added the examples to this post, check out <a href="https://github.com/cifkao/html-midi-player">html-midi-player</a>.
+By the way, if you are curious how I added the examples to this post, check out [`html-midi-player`](https://github.com/cifkao/html-midi-player).
 
 <!-- scripts for MIDI playback -->
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@13,npm/@magenta/music@1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1"></script>
