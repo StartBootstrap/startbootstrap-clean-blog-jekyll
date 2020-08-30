@@ -17,13 +17,13 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Certain types of primitive and normal elements over finite fields**
+**Hard and Easy Instances of L-Tromino Tilings**
 
-**Himangshu Hazarika (Tezpur University)**
+**Manjil Saikia (Cardiff University)**
 
-**28 August 2020 (8 pm IST)**
+**04 September 2020 (8 pm IST)**
 
-**Abstract**: Let $\mathbb{F}(q^m)$ be a finite field which is extended from the field $\mathbb{F}(q)$. The generators of the multiplicative group $\mathbb{F}^{\star}(q^m)$ are called primitive elements and those elements whose conjugates forms a basis of $\mathbb{F}(q^m)$ over $\mathbb{F}(q)$ are called normal elements. In this talk we discuss about the existence of certain types of primitive elements, normal elements and primitive normal elements. We also discuss about the Lenstra-Schoof method which is used to prove these existences.
+**Abstract**: We study tilings of regions in the square lattice with L-shaped trominoes. Deciding the existence of a tiling with L-trominoes for an arbitrary region in general is NP-complete, nonetheless, we identify restrictions to the problem where it either remains NP-complete or has a polynomial time algorithm. This is based on joint work with Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and Marcos Villagra.
 
 
 
@@ -34,28 +34,28 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
  
 
 <details>
-  <summary><b>04 September, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>11 September, 2020</b>: tba (<b>Pankaj Jyoti Mahanta</b>, Gonit Sora)</summary>
+
+tba
+</details>  
+
+<details>
+ <summary><b>18 September, 2020</b>: tba (<b>Debashish Sharma</b>, Gurucharan College, Silchar)</summary>
+
+tba
+</details>  
+
+<details>
+  <summary><b>25 September, 2020</b>: tba (<b>Chayanika Boruah</b>, University of Science and Technology, Meghalaya)</summary>
+
+tba
+</details>  
+
+<details>
+  <summary><b>02 October, 2020</b>: tba (<b>tba</b>)</summary>
 
 tba
 </details> 
-
-<details>
-  <summary><b>11 September, 2020</b>: $1/N$ Phenomenon of Quarter-turn Symmetric Alternating Sign Matrices (<b>Manjil P. Saikia</b>, Cardiff University)</summary>
-
-Alternating sign matrices (ASMs) of order $n$ are $n\times n$ square matrices with entries in the set $\{0,\pm\}$ where the non-zero entries along the rows and columns alternate in sign and all the row and column sums are equal to $1$. In this talk we will introduce these objects, explain some central themes related to their enumenration and then prove two conjectures of Stroganov about certain aspects of ASMs with quarter-turn symmetry. The talk will be self-contained and no background will be assumed.
-</details>  
-
-<details>
-  <summary><b>18 September, 2020</b>: tba (<b>tba</b>)</summary>
-
-tba
-</details>  
-
-<details>
-  <summary><b>25 September, 2020</b>: tba (<b>tba</b>)</summary>
-
-tba
-</details>  
   
     
       
@@ -71,6 +71,7 @@ tba
 **[An approach to construct Mathematical model through system of ordinary differential equation](/seminar/Munmi_Saikia.pdf)** (*Munmi Saikia*: 07 August 2020)  
 **[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
 **[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
+**[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
       
       
 
