@@ -133,7 +133,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 116. **Things I don't Want to Know: A response to George Orwell's 1946 essay 'Why I Write'**, *Deborah Levy*, Penguin Books, 2018.
 117. **The Communist Manifesto**, *Karl Marx and Friedrich Engels (Translated by Samuel Moore)*, Penguin Little Black Classics, 2015.
 118. **How to Bullsh_t Your Way to Number 1: An Unorthodox Guide to 21st Century Success from the World's #1 Fake Restaurateur and Paris Fashion Week's #1 Fake Designer**, *Oobah Butler*, Oobah Butler, 2019.
-119. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
+119. ** **The Mathematics of Various Entertaining Subjects: Volume 3: The Magic of Mathematics**, *Jennifer Beineke and Jason Rosenhouse (eds.)*, Princeton University Press, 2019.
+120. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
 
 
 ## Fiction
@@ -191,6 +192,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 51. **As the Crow Flies**, *Jeffrey Archer*, BCA, 1991.
 52. **The Last Juror**, *John Grisham*, Arrow Books, 2004.
 53. **Chinatown Days**, *Rita Chowdhury*, Macmillan, 2018.
+54. **The Ministry of Utmost Happiness**, *Arundhati Roy*, Hamish Hamilton, 2017.
 
 
 ## Graphic Books
