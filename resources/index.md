@@ -22,4 +22,4 @@ description: Materials, presentations and tutorials
 - [Contextual Tags for Music Auto-Tagging](https://zenodo.org/record/3648287#.XxWvLZ4zYuV) by [Karim M. Ibrahim](/people#karim) et al.
 - [Amateur Vocal Percussion Dataset](https://zenodo.org/record/3250230#.Xk_DKUqnyUk) by [Alejandro Delgado](/people#alejandro)
 - [The MTG-Jamendo Dataset for Automatic Music Tagging](https://mtg.github.io/mtg-jamendo-dataset/) by [Philip Tovstogan](/people#philip) et al.
-- [Groove2Groove MIDI Dataset: synthetic accompaniments in 3,000 styles](http://doi.org/10.5281/zenodo.3958000) by [Ondřej Cífka](/people#ondrej)
+- [Groove2Groove MIDI Dataset: synthetic accompaniments in 3,000 styles](http://doi.org/10.5281/zenodo.3958000) by [Ondřej Cífka](/people#ondrej) et al.
