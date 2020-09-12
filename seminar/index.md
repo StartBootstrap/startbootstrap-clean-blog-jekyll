@@ -17,33 +17,20 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Hard and Easy Instances of L-Tromino Tilings**
+**Extremal inverse eigenvalue problems for matrices with a prescribed graph**
 
-**Manjil Saikia (Cardiff University)**
+**Debashish Sharma (Gurucharan College, Silchar)**
 
-**04 September 2020 (8 pm IST)**
+**18 September 2020 (4 pm IST)**
 
-**Abstract**: We study tilings of regions in the square lattice with L-shaped trominoes. Deciding the existence of a tiling with L-trominoes for an arbitrary region in general is NP-complete, nonetheless, we identify restrictions to the problem where it either remains NP-complete or has a polynomial time algorithm. This is based on joint work with Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and Marcos Villagra.
-
+**Abstract**: An inverse eigenvalue problem (IEP) is the problem of constructing matrices of a pre-assigned structure which also satisfy the given restrictions on eigenvalues and eigenvectors of the matrices or their submatrices. IEPs that require the construction of matrices having a pre-assigned pattern of zero entries are quite interesting. The pattern of zero entries of an $n\times n$ symmetric matrix determines the structure of the underlying graph on n vertices. The structure of the underlying graph has a considerable influence on the spectrum of the corresponding matrix. Such relations between the structure of a graph and the eigen structure of the corresponding matrix motivates the study of IEPs of constructing matrices described by graphs. In this talk, we discuss the inverse eigenvalue problem of constructing matrices with a prescribed graph from given eigen data consisting of the smallest and largest eigenvalues of their leading principal submatrices. In order to solve the problem, we adopt suitable schemes of labelling the vertices of a given unlabeled graph such that the characteristic polynomials of each leading principal submatrix of the matrices can be expressed by simple recurrence relations. We have obtained general results for matrices described by trees and unicyclic graphs. The method of solving provides algorithms for computing the actual entries of the required matrix. Numerical solutions of the problem are then obtained with SCILAB by feeding the eigen data and plugging in the adjacency matrix as inputs.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
  
- 
 
-<details>
-  <summary><b>11 September, 2020</b>: tba (<b>Pankaj Jyoti Mahanta</b>, Gonit Sora)</summary>
-
-tba
-</details>  
-
-<details>
- <summary><b>18 September, 2020</b>: tba (<b>Debashish Sharma</b>, Gurucharan College, Silchar)</summary>
-
-tba
-</details>  
 
 <details>
   <summary><b>25 September, 2020</b>: tba (<b>Chayanika Boruah</b>, University of Science and Technology, Meghalaya)</summary>
@@ -52,7 +39,7 @@ tba
 </details>  
 
 <details>
-  <summary><b>02 October, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>02 October, 2020</b>: tba (<b>Parishmita Baruah</b>, Dibrugarh University)</summary>
 
 tba
 </details> 
@@ -72,6 +59,7 @@ tba
 **[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
 **[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
 **[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
+**[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
       
       
 
