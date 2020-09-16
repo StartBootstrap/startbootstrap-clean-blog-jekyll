@@ -4,48 +4,50 @@
 {% include head.html %}
 
 <body>
-    <div class="overlay-full">
-      <div id="search-container" class="search-box" style="z-index: 103">
-        <input type="text" id="search-input" size="25" autofocus>
-        <span id="cancel-search"><i class="fa fa-times" style="margin-left:-25px"></i></span>
-        <ul id="results-container"></ul>
-      </div>
+  <div class="overlay-full">
+    <div id="search-container" class="search-box" style="z-index: 103">
+      <input type="text" id="search-input" size="25" autofocus>
+      <span id="cancel-search"><i class="fa fa-times" style="margin-left:-25px"></i></span>
+      <ul id="results-container"></ul>
     </div>
-    {% include nav.html %}
-    <div style="background-image:url({{page.bg-url}}); height:100%">
+  </div>
+  {% include nav.html %}
+  <div style="background-image:url({{page.bg-url}}); height:100%">
 
     {{ content }}
-        <a class="scrollup" style="float:right; padding-right:30px; color:#f4f4f4"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+    <a class="scrollup" style="float:right; padding-right:30px; color:#f4f4f4"><i
+        class="fa fa-chevron-circle-up fa-2x"></i></a>
     {% include footer.html %}
   </div>
 
-    <script>
+  <script>
     $(document).ready(function () {
       $(window).scroll(function () {
-          if ($(this).scrollTop() > 100) {
-              $('.scrollup').fadeIn();
-          } else {
-              $('.scrollup').fadeOut();
-          }
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
       });
       $('.scrollup').click(function () {
-            $("html, body").animate({
-                scrollTop: 0
-            }, 600);
-          return false;
+        $("html, body").animate({
+          scrollTop: 0
+        }, 600);
+        return false;
       });
       SimpleJekyllSearch({
-            searchInput: document.getElementById("search-input"),
-            resultsContainer: document.getElementById("results-container"),
-            json: '/search.json'
-        });
-      $(".glyphicon-search").click(function() {
-            $(".search-box").slideToggle();
-            $("#results-container").slideToggle();
+        searchInput: document.getElementById("search-input"),
+        resultsContainer: document.getElementById("results-container"),
+        json: '/search.json'
+      });
+      $(".glyphicon-search").click(function () {
+        $(".search-box").slideToggle();
+        $("#results-container").slideToggle();
       });
     });
-    </script>
-    <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
+  </script>
+  <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
 
 </body>
+
 </html>
