@@ -2,105 +2,107 @@
 layout: default-layout
 ---
 <section class="content" style="min-height:600px">
-<div class="container-fluid clearfix">
+  <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-            <a href="/publications/"><h2 class="about" id="current_about_publications">Back</h2></a>
-        </div>
-        <div class="col-md-5" style="padding-top:30px">
-          <div class="col-md-12" style="padding-left: 0px">
-            <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
-            <p class="simple-content" style="margin-top:0px">
+      <div class="col-md-offset-2 col-md-2">
+        <a href="/publications/">
+          <h2 class="about" id="current_about_publications">Back</h2>
+        </a>
+      </div>
+      <div class="col-md-5" style="padding-top:30px">
+        <div class="col-md-12" style="padding-left: 0px">
+          <h3 class="team-name">{{page.authors}}<br />{{page.year}}</h3>
+          <p class="simple-content" style="margin-top:0px">
             <span style="font-weight:bold">{{page.title}}</span>
-            <br/><span style="font-style:italic">
-            {% if page.book != null %}
-            {{page.book}}
-            {% endif %}
-            {% if page.journal != null %}
-            {{page.journal}}
-            {% endif %}
-            {% if page.conference != null %}
-            {{page.conference}}
-            {% endif %}</span>
-            <br/>
+            <br /><span style="font-style:italic">
+              {% if page.book != null %}
+              {{page.book}}
+              {% endif %}
+              {% if page.journal != null %}
+              {{page.journal}}
+              {% endif %}
+              {% if page.conference != null %}
+              {{page.conference}}
+              {% endif %}</span>
+            <br />
             {{page.place}}
-            </p>
-          </div>
-
-          <div class="col-md-12" style="padding-left: 0px">
-            {% if page.abstract != null%}
-              <h3 class="team-name">Abstract</h3>
-              <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
-            {% endif %}
-          </div>
-
-          <div class="col-md-12" style="padding-left: 0px">
-            {% if page.desc != null%}
-              <h3 class="team-name">Description</h3>
-              <p class="simple-content" style="margin-top:0px">{{page.desc}}</p>
-            {% endif %}
-          </div>
-
-          {% if page.bibtex != null%}
-          <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px">
-              <h3 class="team-name">BibTex</h3>
-              <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
-          </div>
-          <div class="clear"></div>
-          {% endif %}
-
-          {% if page.link != null%}
-          <div class="col-md-12" style="padding-left: 0px;">
-            <h3 class="team-name">Link</h3>
-            <a style="font-size: 14pt" href="{{page.link}}">View Publication</a>
-          </div>
-          {% endif %}
-
-          {% if page.reportlink != null%}
-          <div class="col-md-12" style="padding-left: 0px;">
-            <h3 class="team-name">Links</h3>
-            <a style="font-size: 14pt" href="{{page.reportlink}}">View Report</a>
-          </div>
-          {% endif %}
-
-          {% if page.datalink != null%}
-          <div class="col-md-12" style="padding-left: 0px;">
-            <!-- <h3 class="team-name">Link</h3> -->
-            <a style="font-size: 14pt" href="{{page.datalink}}">View Data</a>
-          </div>
-          {% endif %}
-
-          {% if page.visuallink != null%}
-          <div class="col-md-12" style="padding-left: 0px;">
-            <!-- <h3 class="team-name">Link</h3> -->
-            <a style="font-size: 14pt" href="{{page.visuallink}}">View Visual</a>
-          </div>
-          {% endif %}
-
-          <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
-            <h3 class="team-name">Related links</h3>
-            <ul>
-              {% for person in site.categories['team']%}
-                {% if page.authorid contains person.ide %}
-                  <li class="project-specifics">
-                    <a href="{{person.url}}">{{person.title}}</a>
-                  </li>
-                {%endif%}
-              {% endfor %}
-              {% for project in site.categories['project']%}
-                {% if page.projectid contains project.ide %}
-                  <li class="project-specifics">
-                    <a href="{{project.url}}">{{project.title}}</a>
-                  </li>
-                {%endif%}
-              {% endfor %}
-            </ul>
-          </div>
-
-
+          </p>
         </div>
 
-        <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;"></div>
+        <div class="col-md-12" style="padding-left: 0px">
+          {% if page.abstract != null%}
+          <h3 class="team-name">Abstract</h3>
+          <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
+          {% endif %}
+        </div>
+
+        <div class="col-md-12" style="padding-left: 0px">
+          {% if page.desc != null%}
+          <h3 class="team-name">Description</h3>
+          <p class="simple-content" style="margin-top:0px">{{page.desc}}</p>
+          {% endif %}
+        </div>
+
+        {% if page.bibtex != null%}
+        <div class="col-md-6" style="padding-left: 0px; padding-bottom:30px">
+          <h3 class="team-name">BibTex</h3>
+          <p class="simple-content-bibtex" style="margin-top:0px; float:left">{{page.bibtex}}</p>
+        </div>
+        <div class="clear"></div>
+        {% endif %}
+
+        {% if page.link != null%}
+        <div class="col-md-12" style="padding-left: 0px;">
+          <h3 class="team-name">Link</h3>
+          <a style="font-size: 14pt" href="{{page.link}}">View Publication</a>
+        </div>
+        {% endif %}
+
+        {% if page.reportlink != null%}
+        <div class="col-md-12" style="padding-left: 0px;">
+          <h3 class="team-name">Links</h3>
+          <a style="font-size: 14pt" href="{{page.reportlink}}">View Report</a>
+        </div>
+        {% endif %}
+
+        {% if page.datalink != null%}
+        <div class="col-md-12" style="padding-left: 0px;">
+          <!-- <h3 class="team-name">Link</h3> -->
+          <a style="font-size: 14pt" href="{{page.datalink}}">View Data</a>
+        </div>
+        {% endif %}
+
+        {% if page.visuallink != null%}
+        <div class="col-md-12" style="padding-left: 0px;">
+          <!-- <h3 class="team-name">Link</h3> -->
+          <a style="font-size: 14pt" href="{{page.visuallink}}">View Visual</a>
+        </div>
+        {% endif %}
+
+        <div class="col-md-12" style="padding-left: 0px; padding-top:30px">
+          <h3 class="team-name">Related links</h3>
+          <ul>
+            {% for person in site.categories['team']%}
+            {% if page.authorid contains person.ide %}
+            <li class="project-specifics">
+              <a href="{{person.url}}">{{person.title}}</a>
+            </li>
+            {%endif%}
+            {% endfor %}
+            {% for project in site.categories['project']%}
+            {% if page.projectid contains project.ide %}
+            <li class="project-specifics">
+              <a href="{{project.url}}">{{project.title}}</a>
+            </li>
+            {%endif%}
+            {% endfor %}
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-3" style="border-bottom: 1.5px solid #939393; margin-top:24px;"></div>
     </div>
-</div>
+  </div>
 </section>
