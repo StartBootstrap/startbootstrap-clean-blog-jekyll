@@ -2,56 +2,57 @@
 layout: default-layout
 ---
 <section class="content">
-<div class="container-fluid clearfix">
+  <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about">Past Events</h2>
-          <ul>
-            {%for category in page.categories%}
-              <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
-            {%endfor%}
-            <li class="about_nav" id="all" style="display: none">Past Events</li>
-            <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back</a></li>
-            </ul>
-        </div>
+      <div class="col-md-offset-2 col-md-2">
+        <h2 class="about" id="current_about">Past Events</h2>
+        <ul>
+          {%for category in page.categories%}
+          <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+          {%endfor%}
+          <li class="about_nav" id="all" style="display: none">Past Events</li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/events/">Back</a></li>
+        </ul>
+      </div>
 
-        <div class="col-md-4" >
-          <ul class="old-events-list">
+      <div class="col-md-4">
+        <ul class="old-events-list">
           {%for events in page.events%}
-            <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}" style="cursor: pointer; width:100%"/></li>
+          <li id="{{events.ide}}" class="event {{events.categories}}"><img src="{{events.img}}"
+              style="cursor: pointer; width:100%" /></li>
           {%endfor %}
         </ul>
-        </div>
-
-          <div class="col-md-3">
-                {%for events in page.events%}
-                  <div id="{{events.ide}}-content" class="event-descriptions" style="display:none; padding-top:30px;">
-                      <h3 class="event-heading">{{events.heading}}</h3>
-                      <p class="simple-content">{{events.description}}</p>
-                  </div>
-                {%endfor%}
-          </div>
       </div>
+
+      <div class="col-md-3">
+        {%for events in page.events%}
+        <div id="{{events.ide}}-content" class="event-descriptions" style="display:none; padding-top:30px;">
+          <h3 class="event-heading">{{events.heading}}</h3>
+          <p class="simple-content">{{events.description}}</p>
+        </div>
+        {%endfor%}
+      </div>
+    </div>
   </div>
 </section>
 
 <script>
-  $(document).ready(function(){
-    {%for events in page.events%}
-    $("#{{events.ide}}").click(function(){
-      $(".event-descriptions").css("display","none");
+  $(document).ready(function () {
+    {%for events in page.events %}
+    $("#{{events.ide}}").click(function () {
+      $(".event-descriptions").css("display", "none");
       $("#{{events.ide}}-content").toggle();
     });
-    {%endfor %}
+    {% endfor %}
 
-    {%for category in page.categories%}
-      $("#{{category.ide}}").click(function(){
-        $("li.event").css("display","none");
-        $("li.{{category.ide}}").css("display","block");
+    {%for category in page.categories %}
+    $("#{{category.ide}}").click(function () {
+      $("li.event").css("display", "none");
+      $("li.{{category.ide}}").css("display", "block");
 
-        $("li.about_nav").css("font-weight","normal");
-        $("#{{category.ide}}").css("font-weight","bold");
-      });
-    {%endfor%}
+      $("li.about_nav").css("font-weight", "normal");
+      $("#{{category.ide}}").css("font-weight", "bold");
+    });
+    {% endfor %}
   });
 </script>
