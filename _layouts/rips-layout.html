@@ -4,63 +4,73 @@ layout: default-layout
 <section class="content" style="min-height:600px">
   <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-            <a href="{{site.baseurl}}/publications/research/"><h2 class="about" id="all">research in play</h2></a>
-            <ul>
-              {%for category in page.categories%}
-                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
-              {%endfor%}
-              <li class="about_nav"><a href="{{ site.baseurl }}/publications/">Back</a></li>
-            </ul>
+      <div class="col-md-offset-2 col-md-2">
+        <a href="{{site.baseurl}}/publications/research/">
+          <h2 class="about" id="all">research in play</h2>
+        </a>
+        <ul>
+          {%for category in page.categories%}
+          <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+          {%endfor%}
+          <li class="about_nav"><a href="{{ site.baseurl }}/publications/">Back</a></li>
+        </ul>
+      </div>
+      <!-- <div class="col-md-6" style="padding-top:62px;margin-left: 103px;width: 35%;"> -->
+      <div class="col-md-4" style="padding-top:53px">
+        <span class="topspace"></span>
+        <div class="row-fluid">
+          {% for post in site.categories['rip'] %}
+          <div style="width: 30%;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
+            <a href="{{site.baseurl}}/research/{{post.ide}}" style="cursor:pointer">
+              <img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 35px;" />
+              <center><span class="team-name"
+                  style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ post.authors}}</span>
+              </center>
+            </a>
+          </div>
+          {%endfor%}
         </div>
-        <!-- <div class="col-md-6" style="padding-top:62px;margin-left: 103px;width: 35%;"> -->
-        <div class="col-md-4" style="padding-top:53px">
-          <span class="topspace"></span>
-          <div class="row-fluid">
-            {% for post in site.categories['rip'] %}
-            <div style="width: 30%;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
-            	<a href="{{site.baseurl}}/research/{{post.ide}}" style="cursor:pointer">
-            		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 35px;"/>
-                <center><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ post.authors}}</span></center>
-              </a>
-            </div>
-            {%endfor%}
-            </div>
+      </div>
+      <div class="col-md-3" style="padding-top:18px">
+        <div id="our-work-description">
+          <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">We hear that
+            theory needs to make sense in the real world, and that practice will benefit immensely by paying attention
+            to theory. At 'Research in Play', our intention was to create a space at the intersection of theory and
+            practice, and we hosted twelve different talks and workshops between August 2015 to January 2017. We had a
+            diverse set of voices speaking on different topics, ranging from India's literature on poverty to the Street
+            Vendor Act of 2014. To commemorate the successful completion of the series, we will present here a
+            compilation of all the talks and the workshop over the next few weeks.</p>
         </div>
-        <div class="col-md-3" style="padding-top:18px">
-            <div id="our-work-description">
-               <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">We hear that theory needs to make sense in the real world, and that practice will benefit immensely by paying attention to theory. At 'Research in Play', our intention was to create a space at the intersection of theory and practice, and we hosted twelve different talks and workshops between August 2015 to January 2017. We had a diverse set of voices speaking on different topics, ranging from India's literature on poverty to the Street Vendor Act of 2014. To commemorate the successful completion of the series, we will present here a compilation of all the talks and the workshop over the next few weeks.</p>
-            </div>
-        </div>
-        {% for category in page.categories%}
-            <div class="category-desc" id="{{category.ide}}-content" style="display: none">
-              <p class="simple-content">{{category.description}}</p>
-            </div>
-        {% endfor %}
+      </div>
+      {% for category in page.categories%}
+      <div class="category-desc" id="{{category.ide}}-content" style="display: none">
+        <p class="simple-content">{{category.description}}</p>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
 
 <script>
-  $(document).ready(function(){
+  $(document).ready(function () {
 
-    {%for category in page.categories%}
-      $("#{{category.ide}}").click(function(){
-        $(".research").css("display","none");
-        $(".{{category.ide}}").css("display","block");
+    {%for category in page.categories %}
+    $("#{{category.ide}}").click(function () {
+      $(".research").css("display", "none");
+      $(".{{category.ide}}").css("display", "block");
 
-        $(".about_nav").css("font-weight","normal");
-        $("#{{category.ide}}").css("font-weight","bold");
+      $(".about_nav").css("font-weight", "normal");
+      $("#{{category.ide}}").css("font-weight", "bold");
 
-        $(".category-desc").hide();
-        $("#{{category.ide}}-content").show();
-        $("#our-work-description").hide();
-      });
-    {%endfor%}
-      $("#all").click(function(){
-        $("li.research").css("display","block");
-        $(".about_nav").css("font-weight","normal");
-        $("#our-work-description").show();
-      });
+      $(".category-desc").hide();
+      $("#{{category.ide}}-content").show();
+      $("#our-work-description").hide();
+    });
+    {% endfor %}
+    $("#all").click(function () {
+      $("li.research").css("display", "block");
+      $(".about_nav").css("font-weight", "normal");
+      $("#our-work-description").show();
+    });
   });
 </script>
