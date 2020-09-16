@@ -3,53 +3,53 @@ layout: default-layout
 ---
 
 <section class="content">
-<div class="container-fluid clearfix" style="min-height:600px">
+  <div class="container-fluid clearfix" style="min-height:600px">
     <div class="row-fluid">
-        <div class="col-md-2 col-md-offset-2">
-            <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
-            <ul>
-                <li class="about_nav"><a href="{{ site.baseurl }}/about/team/">Team</a></li>
-                <li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/">Alumni</a></li>
-                <li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
-                <li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/">Newsletters</a></li>
-                <li class="about_nav"><a href="{{ site.baseurl }}/about/history/">History</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3" style="padding-top:55px">
-          {% if page.category == "team" %}
-            {% assign imgurl = "" %}
-          {%endif%}
-          {% if page.category == "advisors" %}
-            {% assign imgurl = "advisors" %}
-          {%endif%}
+      <div class="col-md-2 col-md-offset-2">
+        <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
+        <ul>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/team/">Team</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/">Alumni</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/">Newsletters</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/history/">History</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3" style="padding-top:55px">
+        {% if page.category == "team" %}
+        {% assign imgurl = "" %}
+        {%endif%}
+        {% if page.category == "advisors" %}
+        {% assign imgurl = "advisors" %}
+        {%endif%}
 
-          <img src="/img/team/{{imgurl}}/{{page.img}}" />
-        </div>
-        <div class="col-md-3" style="padding-top:30px">
-          <h3 class="team-name" style="font-size:16pt; margin-bottom:-15px">{{page.title}}</h3>
-          <p class="simple-content" style="margin-bottom:5px">{{page.description}}</p>
-          <a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
-          <h4 class="specifics" id="pub-specifics" style="display: none; margin-top:40px">Publications</h4>
-          <ul>
+        <img src="/img/team/{{imgurl}}/{{page.img}}" />
+      </div>
+      <div class="col-md-3" style="padding-top:30px">
+        <h3 class="team-name" style="font-size:16pt; margin-bottom:-15px">{{page.title}}</h3>
+        <p class="simple-content" style="margin-bottom:5px">{{page.description}}</p>
+        <a href="mailto:{{ page.email }}" class="mailid">{{ page.email }}</a>
+        <h4 class="specifics" id="pub-specifics" style="display: none; margin-top:40px">Publications</h4>
+        <ul>
           {% assign sitepublications = site.categories['publication'] | sort:'year' %}
           {%for pub in sitepublications%}
-            {% if pub.authorid contains page.ide %}
-              <li class="peoplepub" style="margin-left:-40px"> <a href="{{pub.url}}">{{pub.title}}. {{pub.year}}</a></li>
-              <script>$(document).ready(function(){
-                $("#pub-specifics").show();
-              })</script>
-            {% endif %}
+          {% if pub.authorid contains page.ide %}
+          <li class="peoplepub" style="margin-left:-40px"> <a href="{{pub.url}}">{{pub.title}}. {{pub.year}}</a></li>
+          <script>$(document).ready(function () {
+              $("#pub-specifics").show();
+            })</script>
+          {% endif %}
           {% endfor %}
         </ul>
-        </div>
-        <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:54px">
-        </div>
+      </div>
+      <div class="col-md-2" style="border-top:1.5px solid #939393; margin-top:54px">
+      </div>
     </div>
-</div>
+  </div>
 </section>
 
 <script>
-$(document).ready(function(){
-  $("body").css("background-image","url('/img/background5.png')")
-});
+  $(document).ready(function () {
+    $("body").css("background-image", "url('/img/background5.png')")
+  });
 </script>
