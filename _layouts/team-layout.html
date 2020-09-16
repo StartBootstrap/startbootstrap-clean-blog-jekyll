@@ -7,7 +7,8 @@ layout: default-layout
 			<div class="col-md-offset-2 col-md-2">
 				<h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
 				<ul>
-					<li class="about_nav"><a href="{{ site.baseurl }}/about/team/" style="font-weight: bold">Team</a></li>
+					<li class="about_nav"><a href="{{ site.baseurl }}/about/team/" style="font-weight: bold">Team</a>
+					</li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/">Alumni</a></li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/">Newsletters</a></li>
@@ -20,30 +21,31 @@ layout: default-layout
 					{% assign counter = 0 %}
 					{% assign sortedpeople = site.categories['team'] | sort:'title' %}
 					{%for people in sortedpeople %}
-						{% if counter >= 3 %}
-							{% assign counter = 0 %}
-							<div class="clearfix"></div>
-						{% endif %}
-						{% assign counter = counter | plus: 1  %}
-						<div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px">
-							<a href="/team/{{people.ide}}/">
-								<img src="/img/team/{{people.img}}" style="cursor: pointer"/>
-								<h3 class="team-name">{{ people.title }}</h3>
-							</a>
-						</div>
+					{% if counter >= 3 %}
+					{% assign counter = 0 %}
+					<div class="clearfix"></div>
+					{% endif %}
+					{% assign counter = counter | plus: 1  %}
+					<div id="{{people.ide}}" class="col-md-4" style="padding-bottom:30px">
+						<a href="/team/{{people.ide}}/">
+							<img src="/img/team/{{people.img}}" style="cursor: pointer" />
+							<h3 class="team-name">{{ people.title }}</h3>
+						</a>
+					</div>
 					{%endfor %}
 				</div>
 				<div class="clearfix"></div>
 				<div class="row-fluid">
-					<h2 class="about" style="padding-top:30px; padding-left:15px">Advisors</h2><br/>
+					<h2 class="about" style="padding-top:30px; padding-left:15px">Advisors</h2><br />
 					{% assign sortedadvisors  = site.categories['advisors'] | sort:'title' %}
 					{%for advisors in sortedadvisors %}
-						<div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;">
-							<a href="/advisors/{{advisors.ide}}/">
-								<img src="/img/team/advisors/{{advisors.img}}" style="cursor: pointer width:600 height:400"/>
-								<h3 class="team-name">{{ advisors.title }}</h3>
-							</a>
-						</div>
+					<div id="{{advisors.ide}}" class="col-md-4" style="padding-bottom:30px;">
+						<a href="/advisors/{{advisors.ide}}/">
+							<img src="/img/team/advisors/{{advisors.img}}"
+								style="cursor: pointer width:600 height:400" />
+							<h3 class="team-name">{{ advisors.title }}</h3>
+						</a>
+					</div>
 					{%endfor %}
 				</div>
 			</div>
