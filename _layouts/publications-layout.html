@@ -2,73 +2,77 @@
 layout: default-layout
 ---
 <section class="content" style="min-height:600px">
-<div class="container-fluid clearfix">
+  <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="current_about_publications">All Publications</h2>
-            <ul>
-              {%for category in page.categories%}
-                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
-              {%endfor%}
-                <!-- <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li> -->
-                <li class="about_nav"><a href="{{ site.baseurl }}/publications/research/">research in play</a></li>
-                <li class="about_nav"><a href="{{ site.baseurl }}/publications/allaboard">All Aboard</a></li>
-            </ul>
-        </div>
+      <div class="col-md-offset-2 col-md-2">
+        <h2 class="about" id="current_about_publications">All Publications</h2>
+        <ul>
+          {%for category in page.categories%}
+          <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+          {%endfor%}
+          <!-- <li class="about_nav" id="magazine"><a href="/about/magazine/">Magazine</a></li> -->
+          <li class="about_nav"><a href="{{ site.baseurl }}/publications/research/">research in play</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/publications/allaboard">All Aboard</a></li>
+          <li class="about_nav"><a href="http://blog.fieldsofview.in" target="_blank">Blog</a></li>
+          <li class="about_nav"><a href="http://blog.fieldsofview.in/smartcitiespodcast/" target="_blank">Podcasts</a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="col-md-5" style="padding-top:30px">
-          <ul class="publications-list">
-            {% assign sortedpub = site.tags['publications']| sort: 'year' %}
-            {% for pub in sortedpub reversed%}
-              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><a href="{{pub.url}}" class="dark">{{pub.authors}} ({{pub.year}}).</a></h3>
-                <a href="{{pub.url}}" style="font-size:13.5pt;" class="dark">{{pub.title}}</a>
-              </li>
-            {% endfor %}
+      <div class="col-md-5" style="padding-top:30px">
+        <ul class="publications-list">
+          {% assign sortedpub = site.tags['publications']| sort: 'year' %}
+          {% for pub in sortedpub reversed%}
+          <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+            <h3 class="pub-name"><a href="{{pub.url}}" class="dark">{{pub.authors}} ({{pub.year}}).</a></h3>
+            <a href="{{pub.url}}" style="font-size:13.5pt;" class="dark">{{pub.title}}</a>
+          </li>
+          {% endfor %}
 
-            {% for pub in site.tags['brochures'] %}
-              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                <h3 class="pub-name"><a href="{{pub.docurl}}" class="dark">{{pub.title}}{% if pub.year %}&nbsp;({{pub.year}}){% endif %}.</a></h3>
-                <a href="{{pub.docurl}}" style="font-size:13.5pt;" class="dark">Brochure for the project {{pub.title}}</a>
-              </li>
-            {% endfor %}
+          {% for pub in site.tags['brochures'] %}
+          <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+            <h3 class="pub-name"><a href="{{pub.docurl}}"
+                class="dark">{{pub.title}}{% if pub.year %}&nbsp;({{pub.year}}){% endif %}.</a></h3>
+            <a href="{{pub.docurl}}" style="font-size:13.5pt;" class="dark">Brochure for the project {{pub.title}}</a>
+          </li>
+          {% endfor %}
 
-            {% for pub in site.tags['presentations'] %}
-              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
-                {% if pub.link %}
-                  <h3 class="pub-name"><a href="{{pub.link}}" class="dark">{{pub.title}}</a></h3>
-                  <a href="{{pub.link}}" style="font-size:13.5pt;" class="dark">{{pub.description}}</a>
-                {% else %}
-                  <h3 class="pub-name"><span class="dark">{{pub.title}}</span></h3>
-                  <span style="font-size:13.5pt;" class="dark">{{pub.description}}</span>
-                {% endif %}
-                {% if pub.link2 %}
-                  <b><i><a href="{{pub.link2}}" style="font-size:13.5pt;" class="dark">[Link]</a></i></b>
-                {% endif %}
-              </li>
-            {% endfor %}
+          {% for pub in site.tags['presentations'] %}
+          <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px">
+            {% if pub.link %}
+            <h3 class="pub-name"><a href="{{pub.link}}" class="dark">{{pub.title}}</a></h3>
+            <a href="{{pub.link}}" style="font-size:13.5pt;" class="dark">{{pub.description}}</a>
+            {% else %}
+            <h3 class="pub-name"><span class="dark">{{pub.title}}</span></h3>
+            <span style="font-size:13.5pt;" class="dark">{{pub.description}}</span>
+            {% endif %}
+            {% if pub.link2 %}
+            <b><i><a href="{{pub.link2}}" style="font-size:13.5pt;" class="dark">[Link]</a></i></b>
+            {% endif %}
+          </li>
+          {% endfor %}
 
-            {% for post in site.tags['research'] %}
-              <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px"></li>
-            {%endfor%}
-          </ul>
+          {% for post in site.tags['research'] %}
+          <li id="{{pub.ide}}" class="{{pub.categories}} publications" style="padding-bottom:10px"></li>
+          {%endfor%}
+        </ul>
 
-        </div>
+      </div>
 
     </div>
-</div>
+  </div>
 </section>
 
 <script>
-$(document).ready(function(){
-  {%for category in page.categories%}
-    $("#{{category.ide}}").click(function(){
+  $(document).ready(function () {
+    {%for category in page.categories %}
+    $("#{{category.ide}}").click(function () {
       $(".publications").hide();
       $(".{{category.ide}}").show();
     });
-  {%endfor%}
-  $("#current_about_publications").click(function(){
-    $(".publications").show();
+    {% endfor %}
+    $("#current_about_publications").click(function () {
+      $(".publications").show();
+    });
   });
-});
 </script>
