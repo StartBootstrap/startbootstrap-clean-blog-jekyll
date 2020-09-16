@@ -4,66 +4,81 @@ layout: default-layout
 <section class="content" style="min-height:600px">
   <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-            <a href="{{site.baseurl}}/publications/allaboard/"><h2 class="about" id="all">All Aboard</h2></a>
-            <ul>
-              {% for category in page.categories %}
-                <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
-              {% endfor %}
-              <li class="about_nav"><a href="{{ site.baseurl }}/publications/">Back</a></li>
-            </ul>
+      <div class="col-md-offset-2 col-md-2">
+        <a href="{{site.baseurl}}/publications/allaboard/">
+          <h2 class="about" id="all">All Aboard</h2>
+        </a>
+        <ul>
+          {% for category in page.categories %}
+          <li class="about_nav" id="{{category.ide}}">{{category.title}}</li>
+          {% endfor %}
+          <li class="about_nav"><a href="{{ site.baseurl }}/publications/">Back</a></li>
+        </ul>
+      </div>
+      <!-- <div class="col-md-6" style="padding-top:62px;margin-left: 103px;width: 35%;"> -->
+      <div class="col-md-4" style="padding-top:53px">
+        <span class="topspace"></span>
+        <div class="row-fluid">
+          {% assign sortedposts = site.categories['jrf'] | sort: 'order' %}
+          {% for post in sortedposts %}
+          <div style="width: 30%; padding-bottom: 30px;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
+            <a href="{{post.href}}" style="cursor:pointer">
+              <img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 15px;" />
+              <center style="height: 60px !important;"><span class="team-name"
+                  style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px;">{{ post.name }}</span>
+              </center>
+            </a>
+          </div>
+          {%endfor%}
         </div>
-        <!-- <div class="col-md-6" style="padding-top:62px;margin-left: 103px;width: 35%;"> -->
-        <div class="col-md-4" style="padding-top:53px">
-          <span class="topspace"></span>
-          <div class="row-fluid">
-            {% assign sortedposts = site.categories['jrf'] | sort: 'order' %}
-            {% for post in sortedposts %}
-            <div style="width: 30%; padding-bottom: 30px;" id="{{post.ide}}" class="research {{post.tag}} col-md-8">
-            	<a href="{{post.href}}" style="cursor:pointer">
-            		<img src="{{post.speakerimage}}" style="width: 100%;cursor: pointer;padding-bottom: 15px;"/>
-                <center style="height: 60px !important;"><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px;">{{ post.name }}</span></center>
-              </a>
-            </div>
-            {%endfor%}
-            </div>
+      </div>
+      <div class="col-md-3" style="padding-top:18px">
+        <div id="our-work-description">
+          <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">The number of
+            people who use public transport, such as buses, daily in a major Indian city could fill a small European
+            country. For instance, BMTC records approximately 50 lakh passenger trips in a day. Planning for public
+            transport in Indian cities is not just a question of efficiency, but has implications for people's
+            livelihoods, and in turn, social mobility. But how can we include the needs of diverse sets of people in the
+            transport planning process?</p>
+          <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">Fields of View
+            undertook research in collaboration with our partners IIIT-B, TU Delft, and KTH Royal Institute of
+            Technology to build tools for transport planners that can integrate both data on physical resources (fleet,
+            road networks, and fuel) as well as the needs and preferences of people. Our efforts in this project are
+            supported by The Netherlands Organisation for Scientific Research (NWO).</p>
+          <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">We presented
+            our research, and released data comics based on the research during 'All Aboard!', a workshop on equity in
+            public transport held on June 20-21, 2019.</p>
         </div>
-        <div class="col-md-3" style="padding-top:18px">
-            <div id="our-work-description">
-               <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">The number of people who use public transport, such as buses, daily in a major Indian city could fill a small European country. For instance, BMTC records approximately 50 lakh passenger trips in a day. Planning for public transport in Indian cities is not just a question of efficiency, but has implications for people's livelihoods, and in turn, social mobility. But how can we include the needs of diverse sets of people in the transport planning process?</p>
-               <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">Fields of View undertook research in collaboration with our partners IIIT-B, TU Delft, and KTH Royal Institute of Technology to build tools for transport planners that can integrate both data on physical resources (fleet, road networks, and fuel) as well as the needs and preferences of people. Our efforts in this project are supported by The Netherlands Organisation for Scientific Research (NWO).</p>
-               <p style=" font-style: italic;width: 300px;margin-left: -19px;font-size: 18px;margin-top: 7%;">We presented our research, and released data comics based on the research during 'All Aboard!', a workshop on equity in public transport held on June 20-21, 2019.</p>
-            </div>
-        </div>
-        {% for category in page.categories%}
-            <div class="category-desc" id="{{category.ide}}-content" style="display: none">
-              <p class="simple-content">{{category.description}}</p>
-            </div>
-        {% endfor %}
+      </div>
+      {% for category in page.categories%}
+      <div class="category-desc" id="{{category.ide}}-content" style="display: none">
+        <p class="simple-content">{{category.description}}</p>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
 
 <script>
-  $(document).ready(function(){
+  $(document).ready(function () {
 
-    {%for category in page.categories%}
-      $("#{{category.ide}}").click(function(){
-        $(".research").css("display","none");
-        $(".{{category.ide}}").css("display","block");
+    {%for category in page.categories %}
+    $("#{{category.ide}}").click(function () {
+      $(".research").css("display", "none");
+      $(".{{category.ide}}").css("display", "block");
 
-        $(".about_nav").css("font-weight","normal");
-        $("#{{category.ide}}").css("font-weight","bold");
+      $(".about_nav").css("font-weight", "normal");
+      $("#{{category.ide}}").css("font-weight", "bold");
 
-        $(".category-desc").hide();
-        $("#{{category.ide}}-content").show();
-        $("#our-work-description").hide();
-      });
-    {%endfor%}
-      $("#all").click(function(){
-        $("li.research").css("display","block");
-        $(".about_nav").css("font-weight","normal");
-        $("#our-work-description").show();
-      });
+      $(".category-desc").hide();
+      $("#{{category.ide}}-content").show();
+      $("#our-work-description").hide();
+    });
+    {% endfor %}
+    $("#all").click(function () {
+      $("li.research").css("display", "block");
+      $(".about_nav").css("font-weight", "normal");
+      $("#our-work-description").show();
+    });
   });
 </script>
