@@ -1,9 +1,0 @@
----
-name: Garment Workers Needs
-speakerimage: /img/jrf_publications/Adequacy_GarmentWorker.jpg
-href: /allaboard/Garment_Workers_Needs.pdf
-ide: garment-workers-needs
-order: 2
-categories: jrf
-tag: datacomic
----
