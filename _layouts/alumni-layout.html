@@ -8,7 +8,8 @@ layout: default-layout
 				<h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
 				<ul>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/team/">Team</a></li>
-					<li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/" style="font-weight: bold">Alumni</a></li>
+					<li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/"
+							style="font-weight: bold">Alumni</a></li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/">Newsletters</a></li>
 					<li class="about_nav"><a href="{{ site.baseurl }}/about/history/">History</a></li>
@@ -19,17 +20,18 @@ layout: default-layout
 				{% assign counter = 0 %}
 				{% assign sortedalumni = page.alumni | sort:'title' %}
 				{%for alumni in sortedalumni%}
-					{% if counter >= 4 %}
-						{% assign counter = 0 %}
-						<div class="clearfix"></div>
-					{% endif %}
-					{% assign counter = counter | plus: 1  %}
-					<div id="{{alumni.ide}}" class="col-md-3" style="padding-bottom:50px">
-						<img src="/img/team/alumni/{{alumni.img}}"/>
-						<span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span>
-						<!-- <a href="mailto:{{ alumni.email }}" class="mailid"><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span></a>
+				{% if counter >= 4 %}
+				{% assign counter = 0 %}
+				<div class="clearfix"></div>
+				{% endif %}
+				{% assign counter = counter | plus: 1  %}
+				<div id="{{alumni.ide}}" class="col-md-3" style="padding-bottom:50px">
+					<img src="/img/team/alumni/{{alumni.img}}" />
+					<span class="team-name"
+						style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span>
+					<!-- <a href="mailto:{{ alumni.email }}" class="mailid"><span class="team-name" style="font-family: Bebas Neue; font-size: 14pt; color:#939393; letter-spacing:0.5px">{{ alumni.title}}</span></a>
 						<span class="designation">{{ alumni.designation }}</span><br/> -->
-					</div>
+				</div>
 				{%endfor %}
 			</div>
 		</div>
