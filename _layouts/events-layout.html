@@ -21,57 +21,22 @@ title: Events & Updates
             </div> -->
             <div class="col-md-6" style="padding-top:25px">
                 <div class="tweet-update">
-                    <a class="twitter-timeline"  href="https://twitter.com/fovlabs" data-widget-id="694797707907506176" height="550px" width="100%" data-chrome="nofooter transparent noheader transparent">Tweets by @fovlabs</a>
+                    <a class="twitter-timeline" href="https://twitter.com/fovlabs" data-widget-id="694797707907506176"
+                        height="550px" width="100%" data-chrome="nofooter transparent noheader transparent">Tweets by
+                        @fovlabs</a>
                     <script>
-                    ! function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0],
-                            p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + "://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                        ! function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0],
+                                p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                        }(document, "script", "twitter-wjs");
                     </script>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- <script>
-$(document).ready(function() {
-    urlBlog = 'http://blog.fieldsofview.in/feed/';
-    urlPodcast = "http://blog.fieldsofview.in/tag/podcast/feed/";
-
-    var YQLstr = 'SELECT channel.item FROM feednormalizer WHERE output="rss_2.0" AND url ="' + urlBlog + '" LIMIT ' + '1';
-    $.ajax({
-        type: "GET",
-        url: "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(YQLstr) + "&format=json&diagnostics=false&callback=?",
-        dataType: 'json',
-        error: function() {
-            alert('Unable to load feed, Incorrect path or invalid feed');
-        },
-        success: function(xml) {
-            title = xml.query.results.rss.channel.item.title;
-            snippet = xml.query.results.rss.channel.item.description;
-            $("#blog-title").html(title);
-            $("#blog-snippet").html(snippet);
-        }
-    });
-
-
-    var YQLstr = 'SELECT channel.item FROM feednormalizer WHERE output="rss_2.0" AND url ="' + urlPodcast + '" LIMIT ' + '1';
-    $.ajax({
-        type: "GET",
-        url: "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(YQLstr) + "&format=json&diagnostics=false&callback=?",
-        dataType: 'json',
-        error: function() {
-            alert('Unable to load feed, Incorrect path or invalid feed');
-        },
-        success: function(xml) {
-            title = xml.query.results.rss.channel.item.title;
-            snippet = xml.query.results.rss.channel.item.description;
-            audio = xml.query.results.rss.channel.item.enclosure.url;
-            $("#podcast-title").html(title);
-            $("#podcast-snippet").html(snippet);
-            $("#podcast-audio").html("<audio controls><source src='" + audio + "' ></audio><br/>You can also listen to the podcast here.");
-        }
-    });
-});
-</script> -->
