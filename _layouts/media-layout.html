@@ -2,31 +2,31 @@
 layout: default-layout
 ---
 <section class="content">
-<div class="container-fluid clearfix" style="min-height:600px">
+  <div class="container-fluid clearfix" style="min-height:600px">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-          <h2 class="about" id="current_about"><a href="/in-the-media/">In the Media</a></h2>
-        </div>
+      <div class="col-md-offset-2 col-md-2">
+        <h2 class="about" id="current_about"><a href="/in-the-media/">In the Media</a></h2>
+      </div>
 
-        <div class="col-md-6">
+      <div class="col-md-6">
 
-          {% for year in page.mediamentions %}
-            <h3 class="team-name" style="padding-top:38px;">{{year.year}}</h3>
-            <ul class="presentations-list">
-            {% for item in year.items %}
-              <li>
-                {% if item.link != null %}
-                  <a href="{{item.link}}"><span class="italic2">{{ item.title }}</span></a>
-                {% else %}
-                  <span class="italic2">{{ item.title }}</span>
-                {%endif%}
-                <span class="italicregular">{{ item.description }}</span>
-              </li>
-            {% endfor %}
-            </ul>
+        {% for year in page.mediamentions %}
+        <h3 class="team-name" style="padding-top:38px;">{{year.year}}</h3>
+        <ul class="presentations-list">
+          {% for item in year.items %}
+          <li>
+            {% if item.link != null %}
+            <a href="{{item.link}}"><span class="italic2">{{ item.title }}</span></a>
+            {% else %}
+            <span class="italic2">{{ item.title }}</span>
+            {%endif%}
+            <span class="italicregular">{{ item.description }}</span>
+          </li>
           {% endfor %}
+        </ul>
+        {% endfor %}
 
-        </div>
+      </div>
     </div>
-</div>
+  </div>
 </section>
