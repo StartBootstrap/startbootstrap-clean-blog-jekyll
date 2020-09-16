@@ -2,69 +2,81 @@
 layout: default-layout
 ---
 <section class="content" style="min-height:600px">
-<div class="container-fluid">
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-            <h2 class="about" id="all">All Projects</h2>
-            <ul>
-              {%for category in page.categories %}
-                <li class="about_nav" id="{{category.ide}}">{{ category.title }}</li>
-              {%endfor%}
-            </ul>
+      <div class="col-md-offset-2 col-md-2">
+        <h2 class="about" id="all">All Projects</h2>
+        <ul>
+          {%for category in page.categories %}
+          <li class="about_nav" id="{{category.ide}}">{{ category.title }}</li>
+          {%endfor%}
+        </ul>
+      </div>
+      <div class="col-md-4" style="padding-top:53px">
+        <span class="topspace"></span>
+        {% for post in site.categories['project'] %}
+        <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
+          <a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer">
+            <img src="/img/{{post.ide}}-thumb.jpg" style="width:100%; cursor: pointer; padding-bottom:35px" />
+          </a>
         </div>
-        <div class="col-md-4" style="padding-top:53px">
-          <span class="topspace"></span>
-            {% for post in site.categories['project'] %}
-            <div id="{{post.ide}}" class="project {{post.tag}} col-md-6">
-              <a href="{{site.baseurl}}/projects/{{post.ide}}" style="cursor:pointer">
-                <img src="/img/{{post.ide}}-thumb.jpg" style="width:100%; cursor: pointer; padding-bottom:35px"/>
-              </a>
-            </div>
-            {% endfor %}
-        </div>
+        {% endfor %}
+      </div>
       <!--  <div class="col-md-3" style="padding-top:24px" id="description_dynamic">-->
-          <div class="col-md-3" style="padding-top:18px">
-            <div id="our-work-description">
-              <p class="simple-content">
-                Our goal is to design better policy using games and simulations. Our work involves three inter-related threads&#58;<br><b>PolicyLab</b> where we undertake research at the intersection of art, social sciences, and technology to design games and simulations&#59;<br><b>School of Policy</b> where we train policymakers and civil society groups in the use of these tools&#59;<br><b>Policy in Play</b> where we design artefacts such as graphic novels and games to make policy more accessible.<br>We work with the Government, Academia, and Civil Society.</br></p>
-                <p class="simple-content">
-                Some of our current projects include: Building a game for the UN for students of economics and sustainability studies to understand the Inclusive Wealth Indicator (IWI), an indicator proposed as a complement to the GDP and HDI; ₹ubbish! a game on waste management in Bangalore; SimCity - building simulations to understand and plan for cities in the Indian context; and building a game for the Institute of Plasma Research, a Government of India undertaking.
-              </p>
-            </div>
-
-            {% for category in page.categories %}
-            <div class="category-desc" id="{{category.ide}}-content" style="display: none">
-              <p class="simple-content">{{ category.description }}</p>
-            </div>
-            {% endfor %}
-            <a href="/brochures/FoVBrochure.pdf" style="font-size:14pt" class="mailid">Download our brochure here.</a></span><br/><br>
-            <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV" style="font-size:14pt">Work with us.</a></span><br/>
-            <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV" style="font-size:14pt">Fund a project.</a></span>
+      <div class="col-md-3" style="padding-top:18px">
+        <div id="our-work-description">
+          <p class="simple-content">
+            Our goal is to design better policy using games and simulations. Our work involves three inter-related
+            threads&#58;<br><b>PolicyLab</b> where we undertake research at the intersection of art, social sciences,
+            and technology to design games and simulations&#59;<br><b>School of Policy</b> where we train policymakers
+            and civil society groups in the use of these tools&#59;<br><b>Policy in Play</b> where we design artefacts
+            such as graphic novels and games to make policy more accessible.<br>We work with the Government, Academia,
+            and Civil Society.</br></p>
+          <p class="simple-content">
+            Some of our current projects include: Building a game for the UN for students of economics and
+            sustainability studies to understand the Inclusive Wealth Indicator (IWI), an indicator proposed as a
+            complement to the GDP and HDI; ₹ubbish! a game on waste management in Bangalore; SimCity - building
+            simulations to understand and plan for cities in the Indian context; and building a game for the Institute
+            of Plasma Research, a Government of India undertaking.
+          </p>
         </div>
+
+        {% for category in page.categories %}
+        <div class="category-desc" id="{{category.ide}}-content" style="display: none">
+          <p class="simple-content">{{ category.description }}</p>
+        </div>
+        {% endfor %}
+        <a href="/brochures/FoVBrochure.pdf" style="font-size:14pt" class="mailid">Download our brochure
+          here.</a></span><br /><br>
+        <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV"
+            style="font-size:14pt">Work with us.</a></span><br />
+        <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV"
+            style="font-size:14pt">Fund a project.</a></span>
+      </div>
     </div>
-</div>
+  </div>
 </section>
 
 <script>
-  $(document).ready(function(){
+  $(document).ready(function () {
 
-    {%for category in page.categories%}
-      $("#{{category.ide}}").click(function(){
-        $(".project").css("display","none");
-        $(".{{category.ide}}").css("display","block");
+    {%for category in page.categories %}
+    $("#{{category.ide}}").click(function () {
+      $(".project").css("display", "none");
+      $(".{{category.ide}}").css("display", "block");
 
-        $(".about_nav").css("font-weight","normal");
-        $("#{{category.ide}}").css("font-weight","bold");
+      $(".about_nav").css("font-weight", "normal");
+      $("#{{category.ide}}").css("font-weight", "bold");
 
-        $(".category-desc").hide();
-        $("#{{category.ide}}-content").show();
-        $("#our-work-description").hide();
-      });
-    {%endfor%}
-      $("#all").click(function(){
-        $("li.project").css("display","block");
-        $(".about_nav").css("font-weight","normal");
-        $("#our-work-description").show();
-      });
+      $(".category-desc").hide();
+      $("#{{category.ide}}-content").show();
+      $("#our-work-description").hide();
+    });
+    {% endfor %}
+    $("#all").click(function () {
+      $("li.project").css("display", "block");
+      $(".about_nav").css("font-weight", "normal");
+      $("#our-work-description").show();
+    });
   });
 </script>
