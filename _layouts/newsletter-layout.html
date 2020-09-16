@@ -6,38 +6,41 @@ bg-url: {{page.bg-url}}
 <section class="content">
   <div class="container-fluid clearfix" style="min-height:600px">
     <div class="row-fluid">
-      
+
       <div class="col-md-offset-2 col-md-2">
         <h2 class="about" id="current_about"><a href="{{ site.baseurl }}/about/">About Us</a></h2>
         <ul>
           <li class="about_nav"><a href="{{ site.baseurl }}/about/team/">Team</a></li>
           <li class="about_nav"><a href="{{ site.baseurl }}/about/alumni/">Alumni</a></li>
           <li class="about_nav"><a href="{{ site.baseurl }}/about/collaborations/">Collaborations</a></li>
-          <li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/" style="font-weight: bold">Newsletters</a></li>
+          <li class="about_nav"><a href="{{ site.baseurl }}/about/newsletter/" style="font-weight: bold">Newsletters</a>
+          </li>
           <li class="about_nav"><a href="{{ site.baseurl }}/about/history/">History</a></li>
           <li class="about_nav"><a href="{{ site.baseurl }}/about/pif/">Pay it Forward</a></li>
         </ul>
       </div>
-      
+
       <div class="col-md-6">
         <div class="row-fluid" style="margin-bottom:-40px">
           <span class="italic2" style="font-size:15pt">Previous Newsletters</span>
         </div>
-        
-        <div class="row-fluid wrapper" style="margin-left:-15px;display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 10px;grid-auto-rows: minmax(100px, auto);">
+
+        <div class="row-fluid wrapper"
+          style="margin-left:-15px;display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 10px;grid-auto-rows: minmax(100px, auto);">
           {% for nl in page.newsletters %}
-            <div class="col">
+          <div class="col">
             {% for n in nl %}
-              <h3 class="team-name" style="padding-top:38px">{{n[1][0]['categories']}}</h3>
+            <h3 class="team-name" style="padding-top:38px">{{n[1][0]['categories']}}</h3>
             {%endfor%}
-              <ul class="newsletter-list">
+            <ul class="newsletter-list">
               {% for n in nl %}
-                {% for news in n[1] %}
-                  <li id="{{news['ide']}}"><a href="{{news['description']}}" class="mailid">{{ news['title'] }}</a></li><br/>
-                {%endfor%}
+              {% for news in n[1] %}
+              <li id="{{news['ide']}}"><a href="{{news['description']}}" class="mailid">{{ news['title'] }}</a></li>
+              <br />
               {%endfor%}
-              </ul> <br/>
-            </div> 
+              {%endfor%}
+            </ul> <br />
+          </div>
           {%endfor%}
         </div>
       </div>
