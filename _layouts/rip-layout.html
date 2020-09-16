@@ -4,47 +4,51 @@ bg-url: {{page.bg-url}}
 ---
 <style type="text/css">
   ::-webkit-scrollbar {
-      -webkit-appearance: none;
-      width: 4px;
+    -webkit-appearance: none;
+    width: 4px;
   }
+
   ::-webkit-scrollbar-thumb {
-      border-radius: 4px;
-      background-color: rgba(0,0,0,.5);
-      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 </style>
 <section class="content" style="min-height:600px">
-<div class="container-fluid clearfix">
+  <div class="container-fluid clearfix">
     <div class="row">
-        <div class="col-md-offset-2 col-md-2">
-          <a href="/publications/research"><h2 class="about" id="current_about_publications">Back</h2></a>
-        </div>
+      <div class="col-md-offset-2 col-md-2">
+        <a href="/publications/research">
+          <h2 class="about" id="current_about_publications">Back</h2>
+        </a>
+      </div>
 
-        <div class="col-md-5" style="padding-top:30px">
+      <div class="col-md-5" style="padding-top:30px">
 
-          <div class="col-md-12" style="padding-left: 0px">
-            <h3 class="team-name">{{page.authors}}<br/>{{page.year}}</h3>
-            <p class="simple-content" style="margin-top:0px">
+        <div class="col-md-12" style="padding-left: 0px">
+          <h3 class="team-name">{{page.authors}}<br />{{page.year}}</h3>
+          <p class="simple-content" style="margin-top:0px">
             <span style="font-weight:bold">{{page.title}}</span>
-            </p>
-          </div>
-
-          <div class="col-md-12" style="padding-left: 0px;overflow: scroll;overflow-y: visible;overflow-x: hidden;width: 800px;height: 600px;">
-            {% if page.abstract != null%}
-              <h3 class="team-name">Abstract</h3>
-              <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
-            {% endif %}
-          </div>
-
-          {% if page.link != null%}
-          <div class="col-md-12" style="padding-left: 0px;">
-            <h3 class="team-name">Link</h3>
-            <a style="font-size: 14pt" href="{{page.link}}">{{page.link}}</a>
-          </div>
-          {% endif %}
-
+          </p>
         </div>
+
+        <div class="col-md-12"
+          style="padding-left: 0px;overflow: scroll;overflow-y: visible;overflow-x: hidden;width: 800px;height: 600px;">
+          {% if page.abstract != null%}
+          <h3 class="team-name">Abstract</h3>
+          <p class="simple-content" style="margin-top:0px">{{page.abstract}}</p>
+          {% endif %}
+        </div>
+
+        {% if page.link != null%}
+        <div class="col-md-12" style="padding-left: 0px;">
+          <h3 class="team-name">Link</h3>
+          <a style="font-size: 14pt" href="{{page.link}}">{{page.link}}</a>
+        </div>
+        {% endif %}
+
+      </div>
 
     </div>
-</div>
+  </div>
 </section>
