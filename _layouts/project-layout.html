@@ -10,27 +10,32 @@ bg-url: {{page.bg-url}}
                 <ul>
                     {% if page.intended != null%}
                     <li class="project-specifics" style="width:100%">
-                        <p><h4 class="specifics">Intended Audience</h4>{{page.intended}}</p>
+                        <p>
+                        <h4 class="specifics">Intended Audience</h4>{{page.intended}}</p>
                     </li>
                     {%endif%}
                     {% if page.keywords != null%}
                     <li class="project-specifics" style="width:100%">
-                        <p><h4 class="specifics">Keywords</h4>{{page.keywords}}</p>
+                        <p>
+                        <h4 class="specifics">Keywords</h4>{{page.keywords}}</p>
                     </li>
                     {%endif%}
                     {% if page.type != null%}
                     <li class="project-specifics" style="width:100%">
-                        <p><h4 class="specifics">Type</h4>{{page.type}}</p>
+                        <p>
+                        <h4 class="specifics">Type</h4>{{page.type}}</p>
                     </li>
                     {%endif%}
                     {% if page.duration != null%}
                     <li class="project-specifics" style="width:100%">
-                        <p><h4 class="specifics">Duration</h4>{{page.duration}}</p>
+                        <p>
+                        <h4 class="specifics">Duration</h4>{{page.duration}}</p>
                     </li>
                     {%endif%}
                     {% if page.players != null%}
                     <li class="project-specifics" style="width:100%">
-                        <p><h4 class="specifics">Number of Players</h4>{{page.players}}</p>
+                        <p>
+                        <h4 class="specifics">Number of Players</h4>{{page.players}}</p>
                     </li>
                     {%endif%}
                     {% if page.notitle != null%}
@@ -43,16 +48,20 @@ bg-url: {{page.bg-url}}
             <div class="col-md-6">
                 <div class="row">
                     {%if page.video != null%}
-                    <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
-                        <iframe allowfullscreen="" src="{{page.video}}" frameborder="0" width="100%" height="auto"></iframe>
+                    <div class="flex-video widescreen"
+                        style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
+                        <iframe allowfullscreen="" src="{{page.video}}" frameborder="0" width="100%"
+                            height="auto"></iframe>
                     </div>
                     <a class="italic" style="font-weight:100; font-size:13pt">{{page.vidcaption}}</a>
                     {%endif%}
                 </div>
                 <div class="row">
                     {%if page.video2 != null%}
-                    <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
-                        <iframe allowfullscreen="" src="{{page.video2}}" frameborder="0" width="100%" height="auto"></iframe>
+                    <div class="flex-video widescreen"
+                        style="margin: 0 auto;text-align:center; padding-top:55px; padding-right:15px">
+                        <iframe allowfullscreen="" src="{{page.video2}}" frameborder="0" width="100%"
+                            height="auto"></iframe>
                     </div>
                     <a class="italic" style="font-weight:100; font-size:13pt">{{page.vidcaption2}}</a>
                     {%endif%}
@@ -60,13 +69,16 @@ bg-url: {{page.bg-url}}
                 <div class="row">
                     <div class="col-md-6" style="padding:0 0 0 0; margin-top:-10px">
                         <br />
-                        <p class="simple-content" style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}</p>
+                        <p class="simple-content"
+                            style="font-weight: 500; color: #727272; font-style: italic; font-size: 16pt">{{page.intro}}
+                        </p>
                         <p>{{page.description}}</p>
                         {% if page.brochure != null %}
                         <a href="{{ page.brochure }}" class="downloadbrochure">Download Brochure</a>
                         <br /><br />
                         {% endif %}
-                        <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know more.</a>
+                        <a href="mailto:info@fieldsofview.in?subject={{page.title}}" class="mailid">Mail us to know
+                            more.</a>
                         <br /><br />
                         {%if page.collaborations != null%}
                         <h4 class="specifics">Collaborations and Funders</h4>
@@ -77,25 +89,32 @@ bg-url: {{page.bg-url}}
                         <p class="icon-attribution">{{page.icons}}</p>
                         {%endif%}
                         {%if page.play != null%}
-                        <span class="italic"><a href="{{ site.baseurl }}/events/game-sessions/" style="font-size:14pt">{{page.play}}</a></span>
+                        <span class="italic"><a href="{{ site.baseurl }}/events/game-sessions/"
+                                style="font-size:14pt">{{page.play}}</a></span>
                         {%endif%} <br />
                         {%if page.donate != null%}
-                        <span class="italic"><a href="{{ site.baseurl }}/donate/rubbish" style="font-size:14pt">{{page.donate}}</a></span>
+                        <span class="italic"><a href="{{ site.baseurl }}/donate/rubbish"
+                                style="font-size:14pt">{{page.donate}}</a></span>
                         {%endif%}
                         <br />
                         <h4 class="specifics" id="pub-specifics" style="display: none">Publications</h4>
                         {%for pub in site.categories['publication']%}
-                          {% if pub.projectid contains page.ide%}
-                          <a href="{{ pub.permalink }}"><p class="simple-content"> {{pub.title}} </p></a>
-                          <script>
-                          $(document).ready(function() {
-                              $("#pub-specifics").show();
-                          })
-                          </script>
-                          {% endif %}
+                        {% if pub.projectid contains page.ide%}
+                        <a href="{{ pub.permalink }}">
+                            <p class="simple-content"> {{pub.title}} </p>
+                        </a>
+                        <script>
+                            $(document).ready(function () {
+                                $("#pub-specifics").show();
+                            })
+                        </script>
+                        {% endif %}
                         {% endfor %}
-                        <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV on {{page.title}}" style="font-size:14pt">Collaborate with us.</a></span><br />
-                        <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV" style="font-size:14pt">Fund this project.</a></span>
+                        <span class="italic"><a
+                                href="mailto:info@fieldsofview.in?Subject=Collaborating with FoV on {{page.title}}"
+                                style="font-size:14pt">Collaborate with us.</a></span><br />
+                        <span class="italic"><a href="mailto:info@fieldsofview.in?Subject=Funding {{page.title}} at FoV"
+                                style="font-size:14pt">Fund this project.</a></span>
                     </div>
                     <div class="col-md-6" style="padding-top:55px">
                         <img src="{{page.img1}}" style="padding-bottom:40px; float:right; height:100%; width:100%;">
