@@ -90,7 +90,7 @@ tba
 **[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
 **[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
 **[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
-**[**Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
+**[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
       
       
 
