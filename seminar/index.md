@@ -51,7 +51,7 @@ tba
 </details> 
 
 <details>
-  <summary><b>30 October, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>30 October, 2020</b>: tba (<b>Kunjakanan Nath</b>, Université de Montréal, Canada)</summary>
 
 tba
 </details> 
