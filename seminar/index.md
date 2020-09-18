@@ -17,29 +17,59 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Extremal inverse eigenvalue problems for matrices with a prescribed graph**
+**Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$**
 
-**Debashish Sharma (Gurucharan College, Silchar)**
+**Chayanika Boruah (University of Science and Technology Meghalaya)**
 
-**18 September 2020 (4 pm IST)**
+**25 September 2020 (8 pm IST)**
 
-**Abstract**: An inverse eigenvalue problem (IEP) is the problem of constructing matrices of a pre-assigned structure which also satisfy the given restrictions on eigenvalues and eigenvectors of the matrices or their submatrices. IEPs that require the construction of matrices having a pre-assigned pattern of zero entries are quite interesting. The pattern of zero entries of an $n\times n$ symmetric matrix determines the structure of the underlying graph on n vertices. The structure of the underlying graph has a considerable influence on the spectrum of the corresponding matrix. Such relations between the structure of a graph and the eigen structure of the corresponding matrix motivates the study of IEPs of constructing matrices described by graphs. In this talk, we discuss the inverse eigenvalue problem of constructing matrices with a prescribed graph from given eigen data consisting of the smallest and largest eigenvalues of their leading principal submatrices. In order to solve the problem, we adopt suitable schemes of labelling the vertices of a given unlabeled graph such that the characteristic polynomials of each leading principal submatrix of the matrices can be expressed by simple recurrence relations. We have obtained general results for matrices described by trees and unicyclic graphs. The method of solving provides algorithms for computing the actual entries of the required matrix. Numerical solutions of the problem are then obtained with SCILAB by feeding the eigen data and plugging in the adjacency matrix as inputs.
+**Abstract**: A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
  
-
+ 
 
 <details>
-  <summary><b>25 September, 2020</b>: tba (<b>Chayanika Boruah</b>, University of Science and Technology, Meghalaya)</summary>
+  <summary><b>02 October, 2020</b>: Solution Concepts in Transferable Utility Games (<b>Parishmita Baruah</b>, Dibrugarh University)</summary>
+
+In cooperative games with transferable utility (TU games in short), players work together for a common goal under binding agreements. The contributions by the players to achieve this common goal fetch them some worth. But one question naturally arises, how fair is the distribution of total worth generated due to their cooperation among the players? As a result, many solution concepts have been put forward over the years. By defining so-called solution concepts, cooperative game theory tries to characterize the set of outcomes that are, seen from a viewpoint of rationality, interesting. In the most general setup of TU games, the players’ contributions cannot be directly determined and, therefore, are measured indirectly by a term called “marginal contributions”. Thus, the notion of marginal contribution is an indicator of the productivity of a player. The designer may or may not consider a player’s productivity as a preferable criterion for her solution. This leads to the definition of two extreme classes of solutions: the class of marginalistic solutions and the egalitarian solutions. The marginalistic solutions award players according to their productivities, whereas the egalitarian solutions express solidarity to the non-productive players. This work will discuss some solution concepts of TU-games that behave as a trade-off between marginalism and egalitarianism and their corresponding axiomatic characterizations.
+</details> 
+
+<details>
+  <summary><b>09 October, 2020</b>: tba (<b>tba</b>)</summary>
 
 tba
-</details>  
+</details> 
 
 <details>
-  <summary><b>02 October, 2020</b>: tba (<b>Parishmita Baruah</b>, Dibrugarh University)</summary>
+  <summary><b>16 October, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>30 October, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>06 November, 2020</b>: tba (<b>Shamik Das</b>, Indian Institute of Technology Guwahati)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>20 November, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>27 November, 2020</b>: tba (<b>tba</b>)</summary>
 
 tba
 </details> 
@@ -60,6 +90,7 @@ tba
 **[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
 **[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
 **[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
+**[**Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
       
       
 
