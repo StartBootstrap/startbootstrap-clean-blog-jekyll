@@ -3,7 +3,7 @@ layout: post
 title: 'Meta-TasNet'
 subtitle: 'Summary of an ICASSP 2020 paper about musical source separation'
 excerpt: 'Summary of an ICASSP 2020 paper about musical source separation'
-date: 2020-09-15
+date: 2020-09-21
 author: Kilian Schulze-Forster
 author-id: kilian
 background: /posts/meta-tasnet/icassp_2020_header.jpg
@@ -20,12 +20,14 @@ The goal of music source separation is to extract the signals of the individual 
 
 The Conv-TasNet[^2], which was originally proposed for speech separation, is used as a separation network. Unlike most other audio source separation models, Conv-TasNet does not rely on the short-time Fourier transform as a pre-processing step to compute magnitude spectrograms as inputs. Instead, it learns a transformation of a time domain input signal into a higher dimensional latent space with an encoder. The latent mixture representation is processed by a masking network which predicts a mask that is then element-wise multiplied with the latent mixture representation to perform the separation. The transformation of the resulting target source representation back to the time domain is done by the decoder. The authors propose some modifications to improve Conv-TasNet's performance on music signals which I will describe in the next paragraphs.
 
-<p align="center">
-<img src="/posts/meta_tasnet_sketch.png" alt="image" style="width:981px;height:452px;border:1px solid black">
-<figcaption> <font size="+1"> <b>Figure 1:</b> Overview of the Meta-Conv-TasNet workflow. The generator estimates parameters for the masking network given a target instrument identity. The encoder transforms a given time domain signal into the latent space where the separation is done by masking. The decoder transforms the target instrument representation back to the time domain.</font></figcaption>
-</p>
+<figure class="figure">
+  <img src="/posts/meta-tasnet/meta_tasnet_sketch.png" alt="Meta-Conv-TasNet workflow" class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption">
+  Overview of the Meta-Conv-TasNet workflow. The generator estimates parameters for the masking network given a target instrument identity. The encoder transforms a given time domain signal into the latent space where the separation is done by masking. The decoder transforms the target instrument representation back to the time domain.
+  </figcaption>
+</figure>
 
-### Stronger encode and decoder
+### Stronger encoder and decoder
 
 In the original Conv-TasNet, the encoder and decoder consist of one single 1-dimensional (1-D) convolutional layer and transposed convolutional layer, respectively. Here, several 1-D convolutional layers with different kernel sizes process the mixture input. This means that a wider range of information can be captured from the wave forms. Furthermore, also a magnitude spectrogram of the mixture is computed and compressed by a linear layer. The outputs of all convolutional layers and the compressed spectrogram are concatenated and processed by two more 1-D convolutional layers to produce the latent mixture representation. The decoder mirrors the encoder to perform the inverse transformation.
 
