@@ -20,6 +20,20 @@ Speech recognition can be considered as the task of predicting the most likely w
 \widehat{\mathbf{w}} = argmax(P(\mathbf{w}|\mathbf{X})) = argmax(P(\mathbf{X}|\mathbf{w}) P(\mathbf{w}))
 \end{equation*}
 
+<figure class="figure">
+  <img src="{{ '/posts/transformer_hybridASR/asr_basic.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption" markdown="1">
+  Hybrid ASR pipeline.
+  </figcaption>
+</figure>
+
+<figure class="figure">
+  <img src="{{ '/posts/transformer_hybridASR/asr_bayes.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption" markdown="1">
+  Hybrid ASR pipeline.
+  </figcaption>
+</figure>
+
 In this equation the variable \mathbf{X} can be vectors of spectrogram, MFCC features, waveform signal, etc. P(\mathbf{X}|\mathbf{w}) and P(\mathbf{w}) are referred as *the acoustic* and *the language model* respectively.
 
 There are two popular approaches for predicting this word likelihood in the state-of-the-art in automatic speech recognition (ASR) systems: Hybrid-ASR and End-to-end ASR. In the latter, the goal is to train a deep neural network to learn the complete mapping between acoustic feature vectors and alphabetic characters that form words. End-to-end ASR paradigms such as encoder-decoder or neural transducer approaches have been experiencing growing popularity due to their simplicity and them requiring lesser domain knowledge for building a pipeline. 
