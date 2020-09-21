@@ -10,7 +10,7 @@ background: /posts/transformer_hybridASR/
 
 
 
-In this blogpost, we take a look into one of the best performing systems in *hybrid speech recognition* which was presented in the paper *"TRANSFORMER-BASED ACOUSTIC MODELING FOR HYBRID SPEECH RECOGNITION (...,ICAASP,2020)"*. The transformer architecture has been a popular neural network design since it's introduction in \cite. In this paper, the authors successfully implement the transformer architecture in a hybrid speech recognition setting and managed to get competetive results with the state of the art. 
+In this blogpost, we take a look into one of the best performing systems in *hybrid speech recognition* which was presented in the paper "*TRANSFORMER-BASED ACOUSTIC MODELING FOR HYBRID SPEECH RECOGNITION* _(Wang, et al., ICAASP,2020)_". The transformer architecture has been a popular neural network design since it's introduction in \cite. In this paper, the authors successfully implement the transformer architecture in a hybrid speech recognition setting and managed to get competetive results with the state of the art. 
 
 Before going into details of the hybrid transformer model, let's give a little bit of context about speech recognition.
 
