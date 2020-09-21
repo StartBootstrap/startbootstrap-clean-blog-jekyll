@@ -17,37 +17,31 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$**
+**Solution Concepts in Transferable Utility Games**
 
-**Chayanika Boruah (University of Science and Technology Meghalaya)**
+**Parishmita Baruah (Dibrugarh University)**
 
 **25 September 2020 (8 pm IST)**
 
-**Abstract**: A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
+**Abstract**: In cooperative games with transferable utility (TU games in short), players work together for a common goal under binding agreements. The contributions by the players to achieve this common goal fetch them some worth. But one question naturally arises, how fair is the distribution of total worth generated due to their cooperation among the players? As a result, many solution concepts have been put forward over the years. By defining so-called solution concepts, cooperative game theory tries to characterize the set of outcomes that are, seen from a viewpoint of rationality, interesting. In the most general setup of TU games, the players’ contributions cannot be directly determined and, therefore, are measured indirectly by a term called “marginal contributions”. Thus, the notion of marginal contribution is an indicator of the productivity of a player. The designer may or may not consider a player’s productivity as a preferable criterion for her solution. This leads to the definition of two extreme classes of solutions: the class of marginalistic solutions and the egalitarian solutions. The marginalistic solutions award players according to their productivities, whereas the egalitarian solutions express solidarity to the non-productive players. This work will discuss some solution concepts of TU-games that behave as a trade-off between marginalism and egalitarianism and their corresponding axiomatic characterizations.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
- 
- 
+
+
 
 <details>
-  <summary><b>02 October, 2020</b>: Solution Concepts in Transferable Utility Games (<b>Parishmita Baruah</b>, Dibrugarh University)</summary>
-
-In cooperative games with transferable utility (TU games in short), players work together for a common goal under binding agreements. The contributions by the players to achieve this common goal fetch them some worth. But one question naturally arises, how fair is the distribution of total worth generated due to their cooperation among the players? As a result, many solution concepts have been put forward over the years. By defining so-called solution concepts, cooperative game theory tries to characterize the set of outcomes that are, seen from a viewpoint of rationality, interesting. In the most general setup of TU games, the players’ contributions cannot be directly determined and, therefore, are measured indirectly by a term called “marginal contributions”. Thus, the notion of marginal contribution is an indicator of the productivity of a player. The designer may or may not consider a player’s productivity as a preferable criterion for her solution. This leads to the definition of two extreme classes of solutions: the class of marginalistic solutions and the egalitarian solutions. The marginalistic solutions award players according to their productivities, whereas the egalitarian solutions express solidarity to the non-productive players. This work will discuss some solution concepts of TU-games that behave as a trade-off between marginalism and egalitarianism and their corresponding axiomatic characterizations.
-</details> 
-
-<details>
-  <summary><b>09 October, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>09 October, 2020</b>: tba (<b>Deepak Sarma</b>, Assam Agricultural University, Jorhat)</summary>
 
 tba
 </details> 
 
 <details>
-  <summary><b>16 October, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>16 October, 2020</b>: Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$ (<b>Chayanika Boruah</b>, University of Science and Technology Meghalaya)</summary>
 
-tba
+A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
 </details> 
 
 <details>
@@ -69,9 +63,9 @@ tba
 </details> 
 
 <details>
-  <summary><b>27 November, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>27 November, 2020</b>: An introduction to combinatorial representation theory (<b>Manjil Saikia</b>, Cardiff University)</summary>
 
-tba
+We will give a leisurely introduction to combinatorial representation theory, focusing mainly on the symmetric group. The talk will be self-contained and only basic knowledge of abstract and linear algebra will be assumed.
 </details> 
   
     
