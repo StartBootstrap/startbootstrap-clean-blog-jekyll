@@ -24,7 +24,7 @@ Thursday, April 30, 2020, 10:00 - 12:45 CET
 #### ESR group presentations
 
 - _Conditioned-U-Net for Singing Voice Separation_ <br> Giorgia Cantisani and Kilian Schulze-Forster <br> [**YouTube**](https://youtu.be/JxCD2W1YaqU)
-- _Real-Time Recitatives-to-Score Alignment_ <br> Charles Brazier and Emir Demirel <br> [**YouTube**](https://youtu.be/cMDlDhGKC80)
+- _Real-Time Recitatives-to-Score Alignment_ <br> Charles Brazier and Emir Demirel <br> [**YouTube**](https://youtu.be/fPLe1si5NMg)
 - _A Deeper Dive into the Volume Sensitivity Issue of Singing Voice Detection_ <br> Vinod Subramanian and Furkan Yesiler <br> [**YouTube**](https://youtu.be/vSECVENxSkM)
 - _Can Transient/Non-Transient Separation Improve Instrument Recognition?_ <br> Carlos Lordelo, Alejandro Delgado and Antonio Ramires <br> [**YouTube**](https://youtu.be/LmIJwp-VvSE)
 - _Demystifying Differentiable Digital Signal Processing (DDSP)_ <br> Ondřej Cífka and Javier Nistal <br> [**YouTube**](https://youtu.be/cYkSWgMHCPk)

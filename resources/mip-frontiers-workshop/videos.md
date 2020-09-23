@@ -17,7 +17,7 @@ description: "1st MIP-Frontiers Workshop <br> April 30, 2020"
 <p style="margin: 0;">Charles Brazier and Emir Demirel</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/cMDlDhGKC80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/fPLe1si5NMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 -------------------
