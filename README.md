@@ -68,25 +68,25 @@ Assuming there are no errors and the site is building properly, follow these ste
 5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 
     ```html
-    <form name="sentMessage" id="contactForm" novalidate>
+    <form id="contactform" name="sentMessage" id="contactForm" action="https://formspree.io/{{ site.email }}" method="POST">
       <div class="control-group">
         <div class="form-group floating-label-form-group controls">
           <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="control-group">
         <div class="form-group floating-label-form-group controls">
           <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
           <label>Phone Number</label>
-          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+          <input type="tel" name="phone" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
@@ -97,10 +97,19 @@ Assuming there are no errors and the site is building properly, follow these ste
           <p class="help-block text-danger"></p>
         </div>
       </div>
+        <!--the following are optional fields to customize how submissions are processed-->
+        <!--The first sets the subject of Formspree notification emails.-->
+        <!--The second catches (some) spambots.-->
+    
+      <!-- <input type="hidden" name="_subject" value="Sent from your blog contact form." /> -->
+      <!-- <input type="text" name="_gotcha" style="display:none" /> -->
+    
+        <!--End of optional fields.-->
+    
       <br>
       <div id="success"></div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+        <input type="submit" class="btn btn-primary" value="Send">
       </div>
     </form>
     ```
