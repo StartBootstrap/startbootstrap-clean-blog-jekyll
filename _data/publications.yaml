@@ -113,6 +113,13 @@
   date: 2020-05-07
   url: https://hal.telecom-paris.fr/hal-02457075
 
+- title: A Study on the Transferability of Adversarial Attacks in Sound Event Classification
+  esr: vinod
+  authors: <a href="/people#vinod">Subramanian V.</a>, Pankajakshan A., Benetos E., Xu N., McDonald S., Sandler M.
+  in: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
+  date: 2020-05-05
+  url: https://ieeexplore.ieee.org/abstract/document/9054445
+
 - title: 'Real-Time Visualisation of Fugue Played by a String Quartet'
   esr: charles 
   authors: Lartillot O., Cancino-Chacón C., and <a href="/people#charles">Brazier C.</a>.
