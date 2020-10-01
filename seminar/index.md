@@ -57,15 +57,33 @@ tba
 </details> 
 
 <details>
-  <summary><b>20 November, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>20 November, 2020</b>: Introduction to the mapping class groups (<b>Soumya Dey</b>, The Institute of Mathematical Sciences (IMSc), Chennai)</summary>
 
-tba
+We shall discuss basic notions and fundamental results in the theory of mapping class groups of surfaces. Prerequisite for the talk would be undergraduate courses on topology and group theory.
 </details> 
 
 <details>
   <summary><b>27 November, 2020</b>: An introduction to combinatorial representation theory (<b>Manjil Saikia</b>, Cardiff University)</summary>
 
 We will give a leisurely introduction to combinatorial representation theory, focusing mainly on the symmetric group. The talk will be self-contained and only basic knowledge of abstract and linear algebra will be assumed.
+</details> 
+
+<details>
+  <summary><b>04 December, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>11 December, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
+</details> 
+
+<details>
+  <summary><b>18 December, 2020</b>: tba (<b>tba</b>)</summary>
+
+tba
 </details> 
   
     
