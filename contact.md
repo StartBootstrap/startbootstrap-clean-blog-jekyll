@@ -7,7 +7,6 @@ permalink: /contact/
 ---
 ## Address >> Current Office
 
-Research Associate  
 Room M/1.07  
 School of Mathematics  
 Cardiff University  
@@ -36,7 +35,4 @@ India: +91 80119 02141
 
 ## Email
 
-SaikiaM[at]cardiff.ac.uk (Official)  
-manjil[at]gonitsora.com (Personal)
-
-Replace [at] by @ in the above email addresses.
+[Check this](/email)
