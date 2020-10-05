@@ -14,7 +14,7 @@ If you wish to email me regarding my **work at [Gonit Sora](https://gonitsora.co
 
 If you wish to email me regarding any **other work related to mathematics or academics**, then please use my personal email id: **manjil[at]saikia.in**. (*I check this email account once every two days and reply to emails as soon as I see them.*)
 
-If you wish to email me regarding any **other work NOT related to mathematics or academics**, then please use my personal email id: **mailme[at]manjilsaikia.in**. (*I check this email account once every two days and reply to emails as soon as I see them.*)
+If you wish to email me regarding any **other work NOT related to mathematics or academics**, then please use my personal email id: **mail[at]manjilsaikia.in**. (*I check this email account once every two days and reply to emails as soon as I see them.*)
 
 If your email is **not related to any work** at all, then please email me at **manjil[at]gonitsora.org**. (*I check this email account very rarely and reply only if I have time.*)
 
