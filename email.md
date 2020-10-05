@@ -18,4 +18,6 @@ If you wish to email me regarding any **other work NOT related to mathematics or
 
 If your email is **not related to any work** at all, then please email me at **manjil[at]gonitsora.org**. (*I check this email account very rarely and reply only if I have time.*)
 
+**I do not have any other email id which I use, so emails sent to other addresses will not be replied.**
+
 *I now segregate my email replies as well, so you might receive a reply from a different email id than the one that you sent your email to.*
