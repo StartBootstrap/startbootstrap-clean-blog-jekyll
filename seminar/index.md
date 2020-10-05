@@ -9,7 +9,7 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). By Assamese, we mean anyone residing/working in Assam now or residing/working in Assam in the past. If you wish to attend or give a talk in the seminar please email me (manjil@gonitsora.com) or Parama Dutta (parama@gonitsora.com).
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). By Assamese, we mean anyone residing/working in Assam now or residing/working in Assam in the past. If you wish to attend or give a talk in the seminar please email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
 
 Check the [FAQs](#faqs).
 
@@ -116,11 +116,11 @@ Usually on Fridays, the times change depending on the availability of the speake
 
 **Who can attend?**  
 
-Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@gonitsora.com, mentioning your name and affiliation (if any).
+Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@saikia.in, mentioning your name and affiliation (if any).
 
 **Who can give a talk?**  
 
-At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@gonitsora.com or parama@gonitsora.com.
+At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@saikia.in or parama@gonitsora.com.
 
 **Will there be any certificate for attending?**  
 
