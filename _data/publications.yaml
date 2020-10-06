@@ -7,8 +7,8 @@
 - title: 'Automatic Lyrics Transcription using Dilated Convolutional Neural Networks with Self-Attention'
   esr: emir 
   authors: <a href="/people#emir">Demirel E.</a> Ahlback S. and Dixon S.
-  in: International Joint Conference on Neural Networks (IJCNN 2020), Edinburgh, UK
-  date: 2020-07-23
+  in:  2020 International Joint Conference on Neural Networks (IJCNN), Edinburgh, UK
+  date: 2019-07-23
   url: https://arxiv.org/abs/2007.06486
 
 - title: 'MIREX 2019-AUDIO-TO-LYRICS ALIGNMENT CHALLENGE 2019'
@@ -129,6 +129,14 @@
   in: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
   date: 2020-05-07
   url: https://hal.telecom-paris.fr/hal-02457075
+  
+  title: Audio-based Auto-tagging with contextual tags for music
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Royo-letelier J., Eepure E., Peeters G., Richard G.
+  in: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
+  date: 2020-05-07
+  url: https://hal.archives-ouvertes.fr/hal-02481374
+  video: https://youtu.be/mxhO5PjW58M
 
 - title: A Study on the Transferability of Adversarial Attacks in Sound Event Classification
   esr: vinod
@@ -151,6 +159,14 @@
   date: 2020-06-26
   url: https://arxiv.org/abs/2006.11033
 
+  title: Confidence-based Weighted Loss for Multi-label Classification with Missing Labels
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Eepure E., Peeters G., Richard G.
+  in: ICMR 2020- The 2020 International Conference on Multimedia Retrieval , Dublin, Ireland
+  date: 2020-06-08
+  url: https://hal.archives-ouvertes.fr/hal-02547012
+  video: https://youtu.be/qRv8sDOEwok
+  
 - title: Web Interface for Exploration of Latent and Tag Spaces in Music Auto-Tagging
   esr: philip
   authors: <a href="/people#philip">Tovstogan P.</a>, Serra X., and Bogdanov D.
@@ -164,6 +180,14 @@
   in: IEEE/ACM Transactions on Audio, Speech, and Language Processing
   date: 2020-08-26
   url: https://hal.archives-ouvertes.fr/hal-02923548
+  
+  title: SHOULD WE CONSIDER THE USERS IN CONTEXTUAL MUSIC AUTO-TAGGING MODELS?
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Eepure E., Peeters G., Richard G.
+  in: ISMIR 2020- 21st International Society for Music Information Retrieval Conference, Montreal, Canada
+  date: 2020-10-12
+  url: https://hal.archives-ouvertes.fr/hal-02934433
+  video: https://youtu.be/Hn55VTZ795M
 
 - title: 'Comparing Representations for Audio Synthesis Using Generative Adversarial Networks'
   esr: javier 
