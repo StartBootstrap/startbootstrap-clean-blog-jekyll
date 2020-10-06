@@ -3,6 +3,22 @@
 # esr field can be either string or an array of strings for collaborations (e.g. furkan or [furkan, philip])
 # add links to people page for esrs involved (e.g <a href="/people#furkan">Yesiler F.</a>)
 
+
+- title: 'Automatic Lyrics Transcription using Dilated Convolutional Neural Networks with Self-Attention'
+  esr: emir 
+  authors: <a href="/people#emir">Demirel E.</a> Ahlback S. and Dixon S.
+  in:  2020 International Joint Conference on Neural Networks (IJCNN), Edinburgh, UK
+  date: 2019-07-23
+  url: https://arxiv.org/abs/2007.06486
+
+- title: 'MIREX 2019-AUDIO-TO-LYRICS ALIGNMENT CHALLENGE 2019'
+  esr: emir 
+  authors: <a href="/people#emir">Demirel E.</a>
+  in:  20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
+  date: 2019-11-05
+  url: https://www.music-ir.org/mirex/abstracts/2019/ED1.pdf
+
+
 - title: 'The MTG-Jamendo Dataset for Automatic Music Tagging'
   esr: philip 
   authors: Bogdanov, D., Won M., <a href="/people#philip">Tovstogan P.</a>, Porter A., and Serra X.
