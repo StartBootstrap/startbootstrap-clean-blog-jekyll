@@ -141,7 +141,7 @@ groups:
         id: emir
         code: QMUL1
 
-        topic: Representation Learning in Singing Voice
+        topic: Automatic Lyrics Transcription and Alignment
         supervisors:
           - name: Simon Dixon
             web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
@@ -149,7 +149,8 @@ groups:
         email: e.demirel@qmul.ac.uk
         github: emirdemirel
         linkedin: emir-demirel-047465156
-        twitter: EmirDemirel9
+        twitter: _emir_demirel_
+        web: https://emirdemirel.github.io/
 
       - name: Carlos Lordelo
         photo: qmul2-carlos.jpg
