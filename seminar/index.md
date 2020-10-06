@@ -17,13 +17,13 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Solution Concepts in Transferable Utility Games**
+**Distance Pareto eigenvalue of a graph**
 
-**Parishmita Baruah (Dibrugarh University)**
+**Deepak Sarma (Assam Agricultural University)**
 
-**02 October 2020 (8 pm IST)**
+**09 October 2020 (8 pm IST)**
 
-**Abstract**: In cooperative games with transferable utility (TU games in short), players work together for a common goal under binding agreements. The contributions by the players to achieve this common goal fetch them some worth. But one question naturally arises, how fair is the distribution of total worth generated due to their cooperation among the players? As a result, many solution concepts have been put forward over the years. By defining so-called solution concepts, cooperative game theory tries to characterize the set of outcomes that are, seen from a viewpoint of rationality, interesting. In the most general setup of TU games, the players’ contributions cannot be directly determined and, therefore, are measured indirectly by a term called “marginal contributions”. Thus, the notion of marginal contribution is an indicator of the productivity of a player. The designer may or may not consider a player’s productivity as a preferable criterion for her solution. This leads to the definition of two extreme classes of solutions: the class of marginalistic solutions and the egalitarian solutions. The marginalistic solutions award players according to their productivities, whereas the egalitarian solutions express solidarity to the non-productive players. This work will discuss some solution concepts of TU-games that behave as a trade-off between marginalism and egalitarianism and their corresponding axiomatic characterizations.
+**Abstract**: In this talk, we discuss Pareto eigenvalues of distance matrix of connected graphs and we find the minimum number of possible distance Pareto eigenvalue of a connected graph. Also, we discuss some bounds for the second-largest distance Pareto eigenvalue and find graphs with optimal second largest distance Pareto eigenvalue. Finally, we characterize all possible values for the smallest six distance Pareto eigenvalues of a connected graph.
 
 
 ## Upcoming Talks
@@ -31,12 +31,6 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 *Please click on the title to see the abstract.*
 
 
-
-<details>
-  <summary><b>09 October, 2020</b>: tba (<b>Deepak Sarma</b>, Assam Agricultural University, Jorhat)</summary>
-
-tba
-</details> 
 
 <details>
   <summary><b>16 October, 2020</b>: Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$ (<b>Chayanika Boruah</b>, University of Science and Technology Meghalaya)</summary>
@@ -103,6 +97,7 @@ tba
 **[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
 **[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
 **[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
+**[Solution Concepts in Transferable Utility Games](/seminar/Parishmita_Boruah.pdf)** (*Parishmita Baruah*: 02 October 2020)  
       
       
 
