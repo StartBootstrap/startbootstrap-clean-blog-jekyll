@@ -24,13 +24,15 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
-16. *Some properties of Zumkeller numbers and $k$-layered numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and Daniel Yaqubi*), *Journal of Number Theory*, accepted, 2020. ([pdf](/publ/papers/Zumkeller_Numbers.pdf))
+17. *Refined Enumeration of Symmetry Classes of Alternating Sign Matrices*, (with *[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)*), *Journal of Combinatorial Theory, Series A*, accepted, 2020, 42 pp. ([pdf](https://arxiv.org/pdf/1906.07723.pdf))
 
-15. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, accepted, 2020, 6 pp. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
+16. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, accepted, 2020, 6 pp. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
+
+15. *Some properties of Zumkeller numbers and $k$-layered numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and Daniel Yaqubi*), *Journal of Number Theory*, 2020, 217, 218–236. ([pdf](/publ/papers/Zumkeller_Numbers.pdf))
 
 14. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Theoretical Computer Science*, 2020, 815, 197-212. ([pdf](publ/papers/tcs.pdf))
 
-13. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) *Asian-European Journal of Mathematics*, accepted, 2019, 13 pp. ([pdf](https://arxiv.org/pdf/1906.09947.pdf))
+13. *On Deficient Perfect Numbers with Four Distinct Prime Factors*, (with *Parama Dutta*) *Asian-European Journal of Mathematics*, 2020, 7, 2050126, 13 pp. ([pdf](https://arxiv.org/pdf/1906.09947.pdf))
 
 12. *Hard and Easy Instances of L-Tromino Tilings*, (with *Javier T. Akagi, Carlos F. Gaona, Fabricio Mendoza and [Marcos Villagra](https://sites.google.com/site/marcosvillagrahome/home)*) *Proceedings of the 13th International Conference and Workshops on Algorithms and Computation (WALCOM) 2019, Lecture Notes in Computer Science (LNCS)*, Volume 11355, Springer, 2019, 82-95. ([pdf](/publ/papers/paper_22.pdf))
 
@@ -70,13 +72,11 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-12. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
+11. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
 
-11. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
+10. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
 
-10. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
-
-9. *Refined Enumeration of Symmetry Classes of Alternating Sign Matrices*, (with *[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)*), preprint, 2019. ([pdf](https://arxiv.org/pdf/1906.07723.pdf))
+9. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
 
 8. *Almost Circular Balancing Numbers*, *Advances in Mathematical Sciences* (Z. Ahmed (ed.)), Empyreal Publishing House, 2019, 61 — 67. ([pdf](http://www.editedbook.in/pdf/dr-zakir-ahmed-edited.pdf#%5B%7B%22num%22%3A72%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C73.441%2C696.959%2Cnull%5D))
 
