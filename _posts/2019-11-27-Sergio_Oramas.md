@@ -11,14 +11,12 @@ background: /posts/Sergio_Oramas_interview/delft.jpg
 
 During [ISMIR 2019](https://ismir2019.ewi.tudelft.nl/), we got the chance to have a talk with [Sergio Oramas](http://sergiooramas.com/). Sergio is a researcher in Music Data Science, specialized in **Recommender Systems**, **Natural Language Processing**, and **Deep Learning** with **audio** and **text**. He got his PhD in 2017 at the Music Technology Group of the Pompeu Fabra University in Barcelona. He is currently working as a Research Scientist at Pandora. He is also an Assistant Professor of Machine Learning at the Pompeu Fabra University. He has more than 20 publications in top-tier peer-reviewed conferences and journals and holds a B.S. in Computer Science, a B.A. in Musicology, and a Major in Jazz Composition. He also works as a composer for films and produces his own songs. He sings and plays guitar, timple (a kind of ukulele from the Canary Islands), and synthesizers.
 
-<div style="text-align:center">
-<figure class="figure">
-  <img src="/posts/Sergio_Oramas_interview/sergio_photo.jpg" alt="Sergio during our interview" class="figure-img img-fluid mx-auto d-flex" width="500"/>
-  <figcaption class="figure-caption text-center" markdown="1">
+<figure class="figure w-100">
+  <img src="{{ '/posts/Sergio_Oramas_interview/sergio_photo.jpg' | relative_url }}" alt="Sergio during our interview" class="figure-img img-fluid mx-auto d-flex" style="width: 500px;"/>
+  <figcaption class="figure-caption text-center">
   Sergio during our interview at ISMIR 2019 
   </figcaption>
 </figure>
-</div>
 
 #### Hello Sergio, it is nice to have you here. ISMIR is a great occasion to meet all the MIR researchers. We want to take the occasion to get to know you and discuss some of the hot topics on MIR. For starters, Could you please introduce yourself? 
  

@@ -42,9 +42,9 @@ At every layer, Transformers work with sequences of representation vectors where
 In this specific application, the Transformer works on the level of bars.
 To achieve this, every bar is first encoded using a _local encoder_ before being passed to the Transformer encoder, and similarly, every output of the Transformer decoder is passed through a _local decoder_ to generate the corresponding bar.
 
-<figure class="figure">
+<figure class="figure w-100">
   <img src="{{ '/posts/transformer-vae/architecture.svg' | relative_url }}" alt="The model architecture." class="figure-img img-fluid mx-auto d-flex">
-  <figcaption class="figure-caption" markdown="1">
+  <figcaption class="figure-caption text-center" markdown="1">
   An overview of the Transformer VAE architecture. The local encoder and decoder make sure that each bar $$x_1,\ldots,x_T$$ is encoded separately so that the Transformer operates on representations of bars.
   </figcaption>
 </figure>
@@ -71,7 +71,7 @@ The model, as it had just been described, would still not learn a particularly _
 To show that the Transformer VAE has the desired properties, the authors perform ‘context transfer’: they encode two melodies, $$x^{(1)}$$ and $$x^{(2)}$$ to obtain the respective latent codes $$z^{(1)}$$ and $$z^{(2)}$$, then run the decoder on the sequence $$z^{(1)}_1,z^{(2)}_2,z^{(2)}_3,\ldots,z^{(2)}_T$$, i.e. with the first bar swapped.
 The result is quite interesting, and indeed does sometimes give the impression of the first bar of $$x^{(1)}$$ being developed in the ‘style’ of $$x^{(2)}$$, as the authors claim:
 
-<figure class="figure" role="group" style="max-width: 100%;">
+<figure class="figure w-100" role="group">
   <figure>
     <figcaption class="figure-caption">Input 1: Mary Had A Little Lamb</figcaption>
     <midi-visualizer src="{{ '/posts/transformer-vae/midi/Mary.mid' | relative_url }}" type="staff" id="viz11"></midi-visualizer>
@@ -91,7 +91,7 @@ The result is quite interesting, and indeed does sometimes give the impression o
 
 Other times, the model seems to get a bit confused:
 
-<figure class="figure" role="group" style="max-width: 100%;">
+<figure class="figure w-100" role="group">
   <figure>
     <figcaption class="figure-caption">Input 1: Twinkle, Twinkle, Little Star</figcaption>
     <midi-visualizer src="{{ '/posts/transformer-vae/midi/littlestar+8.mid' | relative_url }}" type="staff" id="viz21"></midi-visualizer>

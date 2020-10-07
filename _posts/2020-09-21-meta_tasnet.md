@@ -20,9 +20,9 @@ The goal of music source separation is to extract the signals of the individual 
 
 The Conv-TasNet[^2], which was originally proposed for speech separation, is used as a separation network. Unlike most other audio source separation models, Conv-TasNet does not rely on the short-time Fourier transform as a pre-processing step to compute magnitude spectrograms as inputs. Instead, it learns a transformation of a time domain input signal into a higher dimensional latent space with an encoder. The latent mixture representation is processed by a masking network which predicts a mask that is then element-wise multiplied with the latent mixture representation to perform the separation. The transformation of the resulting target source representation back to the time domain is done by the decoder. The authors propose some modifications to improve Conv-TasNet's performance on music signals which I will describe in the next paragraphs.
 
-<figure class="figure">
-  <img src="/posts/meta-tasnet/meta_tasnet_sketch.png" alt="Meta-Conv-TasNet workflow" class="figure-img img-fluid mx-auto d-flex">
-  <figcaption class="figure-caption">
+<figure class="figure w-100">
+  <img src="{{ '/posts/meta-tasnet/meta_tasnet_sketch.png' | relative_url }}" alt="Meta-Conv-TasNet workflow" class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption text-center">
   Overview of the Meta-Conv-TasNet workflow. The generator estimates parameters for the masking network given a target instrument identity. The encoder transforms a given time domain signal into the latent space where the separation is done by masking. The decoder transforms the target instrument representation back to the time domain.
   </figcaption>
 </figure>

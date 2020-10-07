@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "A Day in the Life: Winning Abbey Road's Hackathon"
+title: "A Day in the Life: Winning Abbey Road's Hackathon"
 subtitle: Four MIP-Frontiers fellows won the Abbey Road's Hackathon with the Rapple - virtual rap-battle opponent.
-date:   2018-11-27
+date: 2018-11-27
 background: /img/abbey-road.jpg
 author: Alejandro Delgado
 author-id: alejandro

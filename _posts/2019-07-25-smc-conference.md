@@ -2,7 +2,7 @@
 layout: post
 title:  Highlights of SMC 2019
 subtitle: Overview of Emir Demirel's observations on SMC 2019 in Malaga, Spain
-date:   2019-07-25
+date: 2019-07-25
 author: Emir Demirel
 author-id: emir
 background: /posts/smc_post/malaga.png
@@ -16,14 +16,18 @@ The three keynote speakers at this year’s conference were Elvira Brattico, Anj
 
 The first talk by Elvira Brattico had an emphasis on music perception studies that involve human participants. She stated in her talk that “From a neuroscience perspective, listening to repeated sounds, as in many music perception studies, is the opposite of listening to the ‘real’ music, phenomenologically.” Moreover, her years in neuroscientific research validated that musicians have higher brain connectivity compared to non-musicians. Anja Volk, the second keynote speaker of this year’s SMC conference, underpinned the importance of explicit computational modelling of musical concepts through analysing melodic patterns in folk music in her talk.
 
-![](/posts/smc_post/smc1.png){: .img-fluid .mx-auto .d-flex :}
-<center><i>... on semantics (from Sandler's presentation)</i></center>
+<figure class="figure w-100">
+  <img src="{{ '/posts/smc_post/smc1.png' | relative_url }}" alt="On semantics" class="figure-img img-fluid mx-auto d-flex">
+  <figcaption class="figure-caption text-center" markdown="1">
+  ... on semantics (from Sandler's presentation)
+  </figcaption>
+</figure>
 
 On the last day of the conference, Mark Sandler, head of Centre for Digital Music (C4DM), gave his keynote talk where he highlighted the outcomes of the [FAST project](http://www.semanticaudio.ac.uk/news/). The FAST project, also one of the main sponsors of the conference, aims to encapsulate well-structured musical metadata in the form of Digital Music Objects (DMO). In essence, the main goal of the project is to empower people in the music production/consumption value chain via these DMOs.
 
 Alo Allik, a colleague from C4DM, has demonstrated one of the outcomes of the FAST project, [MoodPlay](http://moodplay.github.io). It is an online music player that allows users to collaboratively choose music by mood in the hope of enhancing social interactions in music streaming. The interface (figure below) represents tracks in a 2-dimensional mood space, where selection ranges between negative to positive on one axis, and calm to excited on the other. The users can explore the mood space and vote what kind of music they want to listen to while also being shown the preferences of other participants.  The music is automatically mixed by an auto-DJ module that models various DJ-ing styles using content-based audio features that represent musical parameters such as tempo, beats, bars, keys, instrumentation and amplitude.
 
-![](/posts/smc_post/smc3.png){: .img-fluid .mx-auto .d-flex :}
+![MoodPlay interface](/posts/smc_post/smc3.png){: .img-fluid .mx-auto .d-flex :}
 
 ## Scientific Program
 ### Sonic Interaction
@@ -31,7 +35,7 @@ As the theme of the conference implies, papers focused on human-computer interac
 
 There were a few studies related to Virtual Reality (VR) applications. In [[6]](http://smc2019.uma.es/articles/S3/S3_03_SMC2019_paper.pdf), the author gives a perspective on how diegetic (originated from the VR system) and non-diegetic (sourced from the external environment) sounds affect the decision-making process of VR users. In [[7]](http://smc2019.uma.es/articles/S3/S3_05_SMC2019_paper.pdf), the authors presented an application of ‘stringless’ guitar playing in a VR scenario.
 
-![](/posts/smc_post/smc4.jpg){: .img-fluid .mx-auto .d-flex :}
+![Sonic Mug poster](/posts/smc_post/smc4.jpg){: .img-fluid .mx-auto .d-flex :}
 
 Physical modelling of human - computer interaction in the context of sonic interaction was another popular research focus in the conference. For instance, the framework seen in the picture above aims to highlight the common behavioural aspects of eating and listening via the sensors in their physical model [[9]](http://smc2019.uma.es/articles/D2/D2_08_SMC2019_paper.pdf). The authors of [[10]](http://smc2019.uma.es/articles/P1/P1_09_SMC2019_paper.pdf) propose methods for ‘media transformations’ in the context of audio-visual performances. They demonstrated their work using an interactive glove the team designed for this study.
 
@@ -53,7 +57,7 @@ New software libraries and toolkits designed for Sound and Music Computing studi
 
 **MiningSuite** [[17]](http://smc2019.uma.es/articles/D3/D3_01_SMC2019_paper.pdf) : A MATLAB framework for signal processing and analysis for music applications, which is an extension of the famous MIR Toolbox.
 
-![](/posts/smc_post/smc5.png){: .img-fluid .mx-auto .d-flex :}
+![MiningSuite poster](/posts/smc_post/smc5.png){: .img-fluid .mx-auto .d-flex :}
 
 **OCR-XR**[[8]](http://smc2019.uma.es/articles/S3/S3_04_SMC2019_paper.pdf) : A toolkit written in Unity, which is designed for rapid development of musical environments in extended reality (XR) applications.
 
@@ -67,7 +71,7 @@ There were quite a few work on automatic chord recognition/estimation presented 
 
 I presented my paper in this session, which was on building GMM-based scale models in the context of jazz improvisation [[26]](http://smc2019.uma.es/articles/P1/P1_11_SMC2019_paper.pdf). The figure below shows the GMM-based scale models constructed on the Harmonic Pitch Class Profile (HPCP) distributions of the improvised Jazz solos. Yet, I was able to have a quick glance on other posters. There was another work on the computational analysis of improvisation where the author highlights some musical interaction based ideas for segmenting unstructured, freely-improvised performance [[27]](http://smc2019.uma.es/articles/P3/P3_10_SMC2019_paper.pdf).
 
-![](/posts/smc_post/smc6.png){: .img-fluid .mx-auto .d-flex :}
+![Chord-scale Models](/posts/smc_post/smc6.png){: .img-fluid .mx-auto .d-flex :}
 
 ### Multi-cultural Analysis
 
@@ -75,11 +79,10 @@ While most computational music analyses were based on pop, electronic or Western
 
 ## Awards
 ### 1st best paper award:
-![](/posts/smc_post/smc7.png){: .img-fluid .mx-auto .d-flex :}
+![Real-Time Modeling of Audio Distortion Circuits with Deep Learning](/posts/smc_post/smc7.png){: .img-fluid .mx-auto .d-flex :}
 
 ### 2nd best paper award:
-![](/posts/smc_post/smc8.png){: .img-fluid .mx-auto .d-flex :}
+![Tempo and Metrical Analysis by Tracking Multiple Metrical Levels Using Autocorrelation](/posts/smc_post/smc8.png){: .img-fluid .mx-auto .d-flex :}
 
 ### Best paper presentation award:
-![](/posts/smc_post/smc9.png){: .img-fluid .mx-auto .d-flex :}
-
+![Real Time Audio Digital Signal Processing with Faust and the Teensy](/posts/smc_post/smc9.png){: .img-fluid .mx-auto .d-flex :}

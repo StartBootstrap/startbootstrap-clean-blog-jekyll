@@ -13,11 +13,9 @@ Today we were very pleased to do a written interview with [Stefan Lattner](https
 
 In this interview, Stefan shares his perspectives on a few topics including audio representations for music analysis, the problem of insufficient labelled data in MIR and the impact of his research on his way of experiencing music. If you are an MIR practitioner, this is a 10-min reading you cannot miss.
 
-<div style="text-align:center">
-<figure class="figure">
-  <img src="/posts/Stefan_Lattner_interview/Stefan_2.jpg" alt="Stefan Lattner" class="figure-img img-fluid mx-auto d-flex" width="500"/>
+<figure class="figure w-100">
+  <img src="{{ '/posts/Stefan_Lattner_interview/Stefan_2.jpg' | relative_url }}" alt="Stefan Lattner" class="figure-img img-fluid mx-auto d-flex" style="width: 500px;"/>
 </figure>
-</div>
 
 #### In your [ISMIR paper](http://archives.ismir.net/ismir2019/paper/000085.pdf) this year you were looking for audio representations that are invariant to irrelevant transformations given a certain task. Your [past work](https://arxiv.org/pdf/1708.05325.pdf) showcases that spirit as well. Do you think achieving such invariances constitutes a priority in MIR research?
 
@@ -25,11 +23,9 @@ I am not sure about the priority, but the invariant features computed by a Compl
 
 In both cases (pitch-shift and time-shift invariance), the features carry some disentangled (i.e., invariant), mid-level structural information. We could show that this makes a lot of sense when we want to operate in the feature space, for example, when we want to compare the features with each other for self-similarity analysis in audio. But we have to consider that we also lose some information, most of which can be retrieved in the "phase space" of the CAE. Therefore, it has still to be tested for which tasks the features could also be useful as input representations to deep-learning architectures (and if to also input the phase, not only the amplitude information of the data, improves the results).
 
-<div style="text-align:center">
-<figure class="figure">
-  <img src="/posts/Stefan_Lattner_interview/Stefan_3.jpg" alt="Stefan Lattner (second from left) receiving the Best Paper Award at ISMIR 2019" class="figure-img img-fluid mx-auto d-flex" width="500"/>
+<figure class="figure w-100">
+  <img src="{{ '/posts/Stefan_Lattner_interview/Stefan_3.jpg' | relative_url }}" alt="Stefan Lattner (second from left) receiving the Best Paper Award at ISMIR 2019" class="figure-img img-fluid mx-auto d-flex" style="width: 500px;"/>
 </figure>
-</div>
 
 In any case, it is striking that in many MIR tasks, musical mid- and high-level structure is neglected. Often this makes perfect sense because music-structural cues are simply not informative for the current task. But given the fact that MIR is about music most of the time, a more "musical modeling" of mid- and higher-level structure in music could lead to improvements for some tasks. I think the features computed by a CAE could make musical mid- and higher-level structure in audio more accessible. In drum transcription, for example, representing rhythmic and tonal structure separately could improve the results, but also using invariant self-similarity analysis could add some structural cues to a drum transcription task (because the occurrence probabilities of some percussion types are correlated with sectional transitions). 
 

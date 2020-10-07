@@ -1,5 +1,5 @@
 # please follow the citation style!
-# all fields except url are required
+# all fields except url and video are required
 # esr field can be either string or an array of strings for collaborations (e.g. furkan or [furkan, philip])
 # add links to people page for esrs involved (e.g <a href="/people#furkan">Yesiler F.</a>)
 
