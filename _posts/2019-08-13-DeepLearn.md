@@ -5,7 +5,7 @@ subtitle: Kilian Schulze-Forster's key take-aways from the summer school in Wars
 date: 2019-08-13
 author: Kilian Schulze-Forster
 author-id: kilian
-background: /img/blog_images/2019_deeplearn/jimmy-moon-HSFmeiIVljA-unsplash.jpg
+background: /posts/deeplearn2019/jimmy-moon-HSFmeiIVljA-unsplash.jpg
 ---
 
 At the end of July, I attended the 3rd International Summer School on Deep Learning, [DeepLearn 2019](http://deeplearn2019.irdta.eu/) in Warsaw, Poland. It offered a full week of exciting talks, courses, networking and pirogi eating. In total there were 22 courses to choose from, which covered several aspects of deep learning research ranging from introductory to advanced levels. All speakers were well-known experts in their respective areas of research. Beyond that, three keynote talks and many presentations by participants about their work gave further insight into the extremely wide range of research fields where deep learning is applied. In this post, I will address some lessons I learnt at the summer school and briefly summarize some of my favorite courses.
@@ -25,7 +25,7 @@ Andrew Ng once said that deep learning will change the world like electricity ha
 This course by Gaël Varoquaux addressed the issue of not having enough training and test data available to learn a highly complex mapping with a Deep Neural Network (DNN) and to verify its performance with high statistical confidence. For example, most layers of a DNN for a classification task learn a representation of the input data while only at the very last layer(s) a decision is taken. When having limited data, it is advantageous to learn simpler representations and thereby restricting the class of functions that can be learned to map from the input space to the correct label. An illustrative example is shown in Figure 1.
 
 <figure class="figure w-100">
-  <img src="{{ '/img/blog_images/2019_deeplearn/Varoquaux1.png' | relative_url }}" alt="Simple vs complex representations" class="figure-img img-fluid mx-auto d-flex" style="width: 504px;">
+  <img src="{{ '/posts/deeplearn2019/Varoquaux1.png' | relative_url }}" alt="Simple vs complex representations" class="figure-img img-fluid mx-auto d-flex" style="width: 504px;">
   <figcaption class="figure-caption text-center" markdown="1">
   Figure 1: Simple vs. complex representations in a limited data setting. Figure by G. Varoquaux, usage with permission
   </figcaption>
@@ -52,7 +52,7 @@ In his lectures, Hermann Ney reviewed about 40 years of speech recognition and m
 
 Deep learning based models optimize mappings from an input to an output space without considering the interpretability of solution by humans. It is nonetheless often important to understand how the model came to a certain output, for example in medical or forensic applications. Sargur Srihari introduced concepts of explainable artificial intelligence. In general, we can differentiate between ante-hoc systems, where explainability is incorporated in a model from the beginning, and post-hoc explainability, where a blackbox model is explained by investigations after training. Ante-hoc explainability requires changes to the model architecture, so that the output can directly be accompanied by an explanation, e.g. "This is a Downy Woodpecker because it is a black and white bird with a red spot in its crown" for a bird classification task. This is convenient but potentially affects the model performance negatively. Post-hoc explainability may be harder to obtain but does not affect a model’s performance. One way to get post-hoc explanations, that has been mentioned in several courses of the summer school, is [Local Interpretable Model-Agnostic Explanations (LIME)](https://dl.acm.org/citation.cfm?Id=2939778)[^4]. This method systematically manipulates inputs to a model and analyzes how the output changes.
 
-<img src="{{ '/img/blog_images/2019_deeplearn/deep_learn_logo.png' | relative_url }}" alt="DeepLearn logo" class="img-fluid mx-auto d-flex" style="width: 357px;">
+<img src="{{ '/posts/deeplearn2019/deep_learn_logo.png' | relative_url }}" alt="DeepLearn logo" class="img-fluid mx-auto d-flex" style="width: 357px;">
 
 ## Conclusion
 

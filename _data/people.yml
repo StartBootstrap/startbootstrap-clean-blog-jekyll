@@ -1,6 +1,6 @@
 groups:
   - name: Univesitat Pompeu Fabra
-    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf-mtg.png" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 35px;"></a></div>'
+    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf.svg" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 45px;"></a></div>'
     esrs:
     - name: Philip Tovstogan
       photo: upf1-philip.jpg
