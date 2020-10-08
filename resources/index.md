@@ -18,9 +18,6 @@ description: Materials, presentations and tutorials
 - [State of the Art, Challenges and Potential of Data-driven approaches in MIR](/resources/deliverables/D1.1_State_of_the_art,_challenges_and_potential_of_data-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
 - [State of the Art, Challenges and Potential of Knowledge-driven approaches in MIR](/resources/deliverables/D2.1_State_of_the_art,_challenges_and_potential_of_knowledge-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
 - [State of the Art, Challenges and Potential of User-driven approaches in MIR](/resources/deliverables/D3.1_State_of_the_art,_challenges_and_potential_of_user-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
-- [First Report on Novel Data-driven approaches in MIR](/resources/deliverables/D1.2_First_report_on_novel_data-driven_approaches_in_MIR.pdf){:target="_blank"}, September 2020
-- [First Report on Novel Knowledge-driven approaches in MIR](/resources/deliverables/D2.2_First_report_on_novel_knowledge-driven_approaches_in_MIR.pdf){:target="_blank"}, September 2020
-- [First Report on Novel User-driven approaches in MIR](/resources/deliverables/D3.2_First_report_on_novel_user-driven_approaches_in_MIR.pdf){:target="_blank"}, September 2020
 
 # Datasets
 
