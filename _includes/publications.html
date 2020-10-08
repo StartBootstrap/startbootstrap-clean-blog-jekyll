@@ -10,5 +10,8 @@
 		{% if publication.video %}
 			<a href="{{ publication.video }}"><i class="fas fa-video"></i></a>
 		{% endif %}
+		{% if publication.github %}
+			<a href="https://github.com/{{ publication.github }}"><i class="fab fa-github"></i></a>
+		{% endif %}
 	</p>
 {% endfor %}
