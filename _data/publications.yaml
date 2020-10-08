@@ -162,6 +162,7 @@
   date: 2020-06-08
   url: https://hal.archives-ouvertes.fr/hal-02547012
   video: https://youtu.be/GBWPYo5xbp8
+  github: https://github.com/KarimMibrahim/Sample-level-weighted-loss
   
 - title: Web Interface for Exploration of Latent and Tag Spaces in Music Auto-Tagging
   esr: philip
@@ -193,6 +194,7 @@
   date: 2020-10-12
   url: https://hal.archives-ouvertes.fr/hal-02934433
   video: https://youtu.be/Hn55VTZ795M
+  github: https://github.com/KarimMibrahim/user-aware-music-autotagging
 
 - title: 'Comparing Representations for Audio Synthesis Using Generative Adversarial Networks'
   esr: javier 
