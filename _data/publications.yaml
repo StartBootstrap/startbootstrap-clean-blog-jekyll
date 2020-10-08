@@ -17,6 +17,7 @@
   in: Machine Learning for Music Discovery Workshop (ML4MD), 36th International Conference on Machine Learning (ICML 2019), Long Beach, California, USA
   date: 2019-06-15
   url: http://hdl.handle.net/10230/42015
+  github: MTG/mtg-jamendo-dataset
 
 - title: 'Da-TACOS: A Dataset for Cover Song Identification and Understanding'
   esr: [furkan, philip]
@@ -24,6 +25,7 @@
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-02
   url: http://doi.org/10.5281/zenodo.3527810
+  github: MTG/da-tacos
 
 - title: 'A New Dataset for Amateur Vocal Percussion Analysis'
   esr: alejandro
@@ -167,6 +169,7 @@
   in: Machine Learning for Media Discovery Workshop (ML4MD), 37th International Conference on Machine Learning (ICML 2020), Vienna, Austria
   date: 2020-07-18
   url: http://hdl.handle.net/10230/45186
+  github: MTG/music-explore
 
 - title: 'Automatic Lyrics Transcription using Dilated Convolutional Neural Networks with Self-Attention'
   esr: emir 
