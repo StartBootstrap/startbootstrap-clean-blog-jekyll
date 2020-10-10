@@ -17,26 +17,19 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Distance Pareto eigenvalue of a graph**
+**Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$**
 
-**Deepak Sarma (Assam Agricultural University)**
+**Chayanika Boruah (University of Science and Technology, Meghalaya)**
 
-**09 October 2020 (8 pm IST)**
+**16 October 2020 (8 pm IST)**
 
-**Abstract**: In this talk, we discuss Pareto eigenvalues of distance matrix of connected graphs and we find the minimum number of possible distance Pareto eigenvalue of a connected graph. Also, we discuss some bounds for the second-largest distance Pareto eigenvalue and find graphs with optimal second largest distance Pareto eigenvalue. Finally, we characterize all possible values for the smallest six distance Pareto eigenvalues of a connected graph.
+**Abstract**: A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
 
-
-
-<details>
-  <summary><b>16 October, 2020</b>: Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$ (<b>Chayanika Boruah</b>, University of Science and Technology Meghalaya)</summary>
-
-A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
-</details> 
 
 <details>
   <summary><b>30 October, 2020</b>: tba (<b>Kunjakanan Nath</b>, Université de Montréal, Canada)</summary>
@@ -98,6 +91,7 @@ tba
 **[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
 **[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
 **[Solution Concepts in Transferable Utility Games](/seminar/Parishmita_Boruah.pdf)** (*Parishmita Baruah*: 02 October 2020)  
+**[Distance Pareto eigenvalue of a graph](/seminar/Deepak_Sarma.pdf)** (*Deepak Sarma*: 09 October 2020)  
       
       
 
