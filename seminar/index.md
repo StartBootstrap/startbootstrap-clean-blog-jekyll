@@ -38,9 +38,9 @@ tba
 </details> 
 
 <details>
-  <summary><b>06 November, 2020</b>: tba (<b>Shamik Das</b>, Indian Institute of Technology Guwahati)</summary>
+  <summary><b>06 November, 2020</b>: On Congruent Numbers and Their Generalizations over Number Fields (<b>Shamik Das</b>, Indian Institute of Technology Guwahati)</summary>
 
-tba
+A natural number n is called a congruent number if it is the area of a right triangle with rational lengths. The classical problem of determining whether a given natural number is congruent or not is known as the congruent number problem which still remains unsolved. Here we mainly discuss two aspects of congruent number briefly. Firstly, construction of in finitely many new families, each containing infinitely many non-congruent numbers and secondly,  a criterion for a natural number to be theta-congruent over certain real number fields, where theta-congruent numbers is a generalization of congruent numbers where one considers triangles with an angle theta such that cos theta is a rational number.
 </details> 
 
 <details>
