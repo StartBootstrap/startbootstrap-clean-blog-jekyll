@@ -134,6 +134,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 117. **The Communist Manifesto**, *Karl Marx and Friedrich Engels (Translated by Samuel Moore)*, Penguin Little Black Classics, 2015.
 118. **How to Bullsh_t Your Way to Number 1: An Unorthodox Guide to 21st Century Success from the World's #1 Fake Restaurateur and Paris Fashion Week's #1 Fake Designer**, *Oobah Butler*, Oobah Butler, 2019.
 119. ** **The Mathematics of Various Entertaining Subjects: Volume 3: The Magic of Mathematics**, *Jennifer Beineke and Jason Rosenhouse (eds.)*, Princeton University Press, 2019.
+120. **Azadi: Freedom. Fascism. Fiction.**, *Arundhati Roy*, Penguin Books, 2020.
 120. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
 
 
