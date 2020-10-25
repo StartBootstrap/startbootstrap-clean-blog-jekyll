@@ -17,25 +17,19 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$**
+**Primes with restricted digits in arithmetic progressions**
 
-**Chayanika Boruah (University of Science and Technology, Meghalaya)**
+**Kunjakanan Nath (Université de Montréal, Canada)**
 
-**16 October 2020 (8 pm IST)**
+**30 October 2020 (6 pm IST)**
 
-**Abstract**: A partition of a positive integer $n$ is a non-increasing sequence of positive integers, called parts, whose sum equals $n$. For any positive integer ${\ell}$, ${\ell}$-regular partition of a positive integer $n$ is a partition of $n$ such that none of its part is divisible by ${\ell}$. An overpartition of a positive integer $n$ is a partition of $n$ in which the first occurrence of each part can be over lined. Let $\bar{A}^\ell(n)$ denote the number of overpartitions of a non-negative integer $n$ with no part divisible by $\ell$, where $\ell$ is a positive integer. We prove, infinite family of congruences for $\bar{A}^5(n)$ modulo 4, $\bar{A}^6(n)$ modulo 3, and $\bar{A}^8(n)$ modulo 4. We also prove some other congruences.
+**Abstract**: Let $b>1$ be a non-zero integer and fix $a_0\in\{0,1,\dotsc, b-1\}$. Let $\mathcal{A}=\{n=\sum_{j\geq 0}n_jb^j: n_j\in\{0,1,\dotsc, b-1\}\setminus \{a_0\}\}$ be the set of integers with a missing digit $a_0$. In 2016, Maynard showed that $\mathcal{A}$ contains infinitely many primes whenever $b\geq 10$. In fact, he has established the right order of upper and lower bound when the base $b=10$ and an asymptotic formula whenever $b$ is large (say $2\times 10^6$). In this talk, we will show the distribution of primes in $\mathcal{A}$ in arithmetic progressions for $b$ large enough. In particular, we will be establishing analog of the Bombieri-Vinogradov type theorem for primes in the set $\mathcal{A}$. The proof relies on the circle method for the binary problem, which in turn based on $L^\infty-L^1$ cancellation philosophy for the minor arc. The key ingredients in this method are: good control over the Fourier transform of the set $\mathcal{A}$ and the Fourier transform of primes over arithmetic progressions on an average. We will sketch the main ideas underlying this method. Finally, if time permits, we will show some applications of this theorem.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
 
-
-<details>
-  <summary><b>30 October, 2020</b>: tba (<b>Kunjakanan Nath</b>, Université de Montréal, Canada)</summary>
-
-tba
-</details> 
 
 <details>
   <summary><b>06 November, 2020</b>: On Congruent Numbers and Their Generalizations over Number Fields (<b>Shamik Das</b>, Indian Institute of Technology Guwahati)</summary>
@@ -92,6 +86,7 @@ tba
 **[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
 **[Solution Concepts in Transferable Utility Games](/seminar/Parishmita_Boruah.pdf)** (*Parishmita Baruah*: 02 October 2020)  
 **[Distance Pareto eigenvalue of a graph](/seminar/Deepak_Sarma.pdf)** (*Deepak Sarma*: 09 October 2020)  
+**[Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$](/seminar/Chayanika_Boruah.pdf)** (*Chayanika Boruah*: 16 October 2020)  
       
       
 
