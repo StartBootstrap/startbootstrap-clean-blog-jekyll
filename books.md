@@ -136,7 +136,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 119. ** **The Mathematics of Various Entertaining Subjects: Volume 3: The Magic of Mathematics**, *Jennifer Beineke and Jason Rosenhouse (eds.)*, Princeton University Press, 2019.
 120. **Azadi: Freedom. Fascism. Fiction.**, *Arundhati Roy*, Penguin Books, 2020.
 121. **The Rise and Fall of the Dinosaurs: The Untold Story of a Lost World**, *Steve Brusatte*, Picador, 2019.
-122. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
+122. **From Raj to Rajiv: 40 Years of Indian Independence**, *Mark Tully and Zareer Masani*, Universal Book Stall, 1988.
+123. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
 
 
 ## Fiction
