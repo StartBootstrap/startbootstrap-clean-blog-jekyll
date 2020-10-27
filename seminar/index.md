@@ -50,7 +50,7 @@ We will give a leisurely introduction to combinatorial representation theory, fo
 </details> 
 
 <details>
-  <summary><b>04 December, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>04 December, 2020</b>: tba (<b>Rupam Haloi</b>, Sipajhar College, Assam)</summary>
 
 tba
 </details> 
