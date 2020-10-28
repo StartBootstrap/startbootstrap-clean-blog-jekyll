@@ -56,7 +56,7 @@ tba
 </details> 
 
 <details>
-  <summary><b>11 December, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>11 December, 2020</b>: tba (<b>Parthajit Bhowal</b>, Tezpur University)</summary>
 
 tba
 </details> 
