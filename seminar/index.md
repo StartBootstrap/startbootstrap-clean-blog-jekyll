@@ -62,7 +62,7 @@ tba
 </details> 
 
 <details>
-  <summary><b>18 December, 2020</b>: tba (<b>tba</b>)</summary>
+  <summary><b>18 December, 2020</b>: tba (<b>Souvik Parial</b>, Indian Institute of Technology Guwahati)</summary>
 
 tba
 </details> 
