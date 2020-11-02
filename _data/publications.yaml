@@ -210,6 +210,13 @@
   date: 2020-10-08
   url: https://arxiv.org/abs/2010.11013
 
+- title: 'Memory Controlled Sequential Self Attention for Sound Recognition'
+  esr: vinod
+  authors: Pankajakshan A., Bear H., <a href="/people#vinod">Subramanian V.</a> and Benetos E.
+  in: Interspeech 2020
+  date: 2020-10-25
+  url: https://arxiv.org/abs/2005.06650
+
 - title: 'Learning Frame Similarity using Siamese networksfor Audio-to-Score Alignment'
   esr: ruchit
   authors: <a href="/people#ruchit">Agrawal R.</a>, and Dixon S.
