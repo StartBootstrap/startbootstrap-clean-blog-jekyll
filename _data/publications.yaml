@@ -210,3 +210,9 @@
   date: 2020-10-08
   url: https://arxiv.org/abs/2010.11013
 
+- title: 'Learning Frame Similarity using Siamese networksfor Audio-to-Score Alignment'
+  esr: ruchit
+  authors: <a href="/people#ruchit">Agrawal R.</a>, and Dixon S.
+  in: 28th European Signal Processing Conference (EUSIPCO 2020), Amsterdam, The Netherlands
+  date: 2021-01-18
+  url: http://www.eecs.qmul.ac.uk/~simond/pub/2020/AgrawalDixon-EUSIPCO2020.pdf
