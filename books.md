@@ -137,7 +137,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 120. **Azadi: Freedom. Fascism. Fiction.**, *Arundhati Roy*, Penguin Books, 2020.
 121. **The Rise and Fall of the Dinosaurs: The Untold Story of a Lost World**, *Steve Brusatte*, Picador, 2019.
 122. **From Raj to Rajiv: 40 Years of Indian Independence**, *Mark Tully and Zareer Masani*, Universal Book Stall, 1988.
-123. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
+123. **Packing My Library: An Elegy and Ten Digressions**, *Alberto Manguel*, Yale University Press, 2018.
+124. **The Weil Conjectures**, *Karen Olsson*, Bloomsbury Publishing, 2019.
 
 
 ## Fiction
