@@ -8,7 +8,7 @@ author: Alejandro Delgado
 author-id: alejandro
 ---
 
-On the 10th of November this year, Abbey Road Studios held the first edition of its hackathon in Studio 1, birthplace of iconic film soundtracks like the ones for 'The Lord of The Rings' and 'Star Wars'. All in all, about one hundred participants with 24 hours of coding ahead and a common goal: to create the next revolutionary tool for music production.
+On November 10th this year, Abbey Road Studios held the very first edition of its hackathon in Studio 1, birthplace of iconic soundtracks for films like 'The Lord of The Rings' and 'Star Wars'. All in all, about a hundred participants with 24 hours of coding ahead and a common goal: to create the next revolutionary tool for music production.
 
 In that spirit, MIP-Frontiers fellows [Kilian](/people#kilian), [Giorgia](/people#giorgia), [Ondřej](/people#ondrej) (Télécom) and [Alejandro](/people#alejandro) (Roli) joined Tim Kirby (QMUL) and Diego Di Carlo (Univ Rennes) to work on Rapple, an AI-powered opponent to challenge for a rap battle.
 
