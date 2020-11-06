@@ -6,7 +6,7 @@ excerpt: 'ISMIR 2020 paper about drum pattern analysis'
 date: 2020-11-06
 author: Alejandro Delgado
 author-id: alejandro
-background: /posts/groove-toobox/head.jpg
+background: /posts/abbey-road/head.jpg
 ---
 
 Here we take a look at a lovely [paper](https://program.ismir2020.net/poster_2-13.html) by Fred Bruford et al. that presents and evaluates a set of
