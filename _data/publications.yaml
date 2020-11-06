@@ -32,6 +32,7 @@
   authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., and Sandler M.
   in: Audio Mostly 2019, Nottingham, UK
   date: 2019-09-20
+  url: https://arxiv.org/abs/2009.11737
 
 - title: Automatic Chord-Scale Recognition Using Harmonic Pitch Class Profiles
   esr: emir
@@ -140,6 +141,13 @@
   in: 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020), Barcelona, Spain
   date: 2020-05-05
   url: https://ieeexplore.ieee.org/abstract/document/9054445
+  
+- title: 'Spectral and Temporal Timbral Cues of Vocal Imitations of Drum Sounds'
+  esr: alejandro
+  authors: <a href="/people#alejandro">Delgado A.</a>, Saitis C., and Sandler M.
+  in: Proceedings of the 2nd International Conference on Timbre (online)
+  date: 2020-09-04
+  url: http://timbre2020.mus.auth.gr/assets/papers/25.Delgado.pdf
 
 - title: 'Real-Time Visualisation of Fugue Played by a String Quartet'
   esr: charles 
@@ -223,3 +231,9 @@
   in: 28th European Signal Processing Conference (EUSIPCO 2020), Amsterdam, The Netherlands
   date: 2021-01-18
   url: http://www.eecs.qmul.ac.uk/~simond/pub/2020/AgrawalDixon-EUSIPCO2020.pdf
+  
+- title: 'Learning Models for Query by Vocal Percussion: A Comparative Study'
+  esr: alejandro
+  authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., Saitis C., and Sandler M.,
+  in: Proceedings of the 46th International Computer Music Conference, ICMC, Santiago de Chile, Chile.
+  date: 2021-07-05 (postponed)
