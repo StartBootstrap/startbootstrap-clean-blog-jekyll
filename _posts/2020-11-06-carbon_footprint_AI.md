@@ -6,6 +6,7 @@ excerpt: The carbon impact of AI
 date: 2020-11-06
 author: Giorgia Cantisani
 author-id: giorgia
+background: /posts/carbon_footprint_AI/header.PNG
 ---
 
 The topic of this blog is the carbon footprint of artificial intelligence. I thought this was a relevant topic to discuss as **we, as researchers, are part of the emission process**, even if we are mostly unaware of it. I believe it is ethically essential to be aware of the consequences that can derive from training our models and try to introduce some **guidelines and best practices** in our research community.
