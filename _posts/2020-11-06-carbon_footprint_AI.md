@@ -3,7 +3,7 @@ layout: post
 title: AI Carbon Footprint 
 subtitle: The carbon impact of AI
 excerpt: The carbon impact of AI
-date: 2020-11-04
+date: 2020-11-06
 author: Giorgia Cantisani
 author-id: giorgia
 ---
