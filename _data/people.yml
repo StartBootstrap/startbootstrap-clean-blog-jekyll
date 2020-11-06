@@ -183,7 +183,7 @@ groups:
         id: alejandro
         code: QMUL4
 
-        topic: Fine Grain Time Resolution Audio Features Using Autoregressive Analysis and Representation Learning
+        topic: Data-Driven Approaches for Query by Vocal Percussion
         supervisors:
           - name: Mark Sandler
             web: http://www.eecs.qmul.ac.uk/profiles/sandlermark.html
