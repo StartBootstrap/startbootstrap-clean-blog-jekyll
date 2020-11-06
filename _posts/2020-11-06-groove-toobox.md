@@ -15,7 +15,9 @@ It gathers both new and pre-existing features in literature, grouped in rhythm f
 
 ## Toolbox
 
-The Groove Toolbox is a comprehensive framework for modelling perceptual qualities of drum loops. The authors decided to implement those pre-existing algorithms that were proven to be perceptually relevant and that could handle different onset velocities. They also introduced four microtiming features and two similarity models. These two similarity models are the *fuzzy hamming distance*, a variant of the hamming distance that accounts for minimal onset deviations, and a new *structural similarity metric* based on a transformation model[^2] that removes ghost notes and ornamentations to facilitate modelling.
+The Groove Toolbox is a comprehensive framework for modelling perceptual qualities of drum loops in the symbolic domain. It builds on previous research on drum loop analysis and, while not studying data-driven approaches yet, it provides a cohesive and interpretable set of perceptually motivated features.
+
+The authors decided to implement those pre-existing algorithms that were proven to be perceptually relevant and that could handle different onset velocities. They also introduced four microtiming features and two similarity models. These two similarity models are the *fuzzy hamming distance*, a variant of the hamming distance that accounts for minimal onset deviations, and a new *structural similarity metric* based on a transformation model[^2] that removes ghost notes and ornamentations to facilitate modelling.
 
 <figure class="figure w-100">
   <img src="{{ '/posts/abbey-road/table1.png' | relative_url }}" alt="Table." class="figure-img img-fluid mx-auto d-flex">
