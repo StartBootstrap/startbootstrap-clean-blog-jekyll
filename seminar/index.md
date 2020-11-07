@@ -17,24 +17,19 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**On Congruent Numbers and Their Generalizations over Number Fields**
+**Introduction to the mapping class groups**
 
-**Shamik Das (Indian Institute of Technology Guwahati)**
+**Soumya Dey (The Institute of Mathematical Sciences, Chennai)**
 
-**06 November 2020 (8 pm IST)**
+**20 November 2020 (8 pm IST)**
 
-**Abstract**: A natural number n is called a congruent number if it is the area of a right triangle with rational lengths. The classical problem of determining whether a given natural number is congruent or not is known as the congruent number problem which still remains unsolved. Here we mainly discuss two aspects of congruent number briefly. Firstly, construction of in finitely many new families, each containing infinitely many non-congruent numbers and secondly,  a criterion for a natural number to be theta-congruent over certain real number fields, where theta-congruent numbers is a generalization of congruent numbers where one considers triangles with an angle theta such that cos theta is a rational number.
+**Abstract**: We shall discuss basic notions and fundamental results in the theory of mapping class groups of surfaces. Prerequisite for the talk would be undergraduate courses on topology and group theory.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
 
-<details>
-  <summary><b>20 November, 2020</b>: Introduction to the mapping class groups (<b>Soumya Dey</b>, The Institute of Mathematical Sciences (IMSc), Chennai)</summary>
-
-We shall discuss basic notions and fundamental results in the theory of mapping class groups of surfaces. Prerequisite for the talk would be undergraduate courses on topology and group theory.
-</details> 
 
 <details>
   <summary><b>27 November, 2020</b>: An introduction to combinatorial representation theory (<b>Manjil Saikia</b>, Cardiff University)</summary>
@@ -81,6 +76,7 @@ tba
 **[Distance Pareto eigenvalue of a graph](/seminar/Deepak_Sarma.pdf)** (*Deepak Sarma*: 09 October 2020)  
 **[Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$](/seminar/Chayanika_Boruah.pdf)** (*Chayanika Boruah*: 16 October 2020)  
 **[Primes with restricted digits in arithmetic progressions](/seminar/Kunjakanan_Nath.pdf)** (*Kunjakanan Nath*: 30 October 2020)  
+**[On Congruent Numbers and Their Generalizations over Number Fields](/seminar/Shamik_Das.pdf)** (*Shamik Das*: 06 November 2020)  
       
       
 
