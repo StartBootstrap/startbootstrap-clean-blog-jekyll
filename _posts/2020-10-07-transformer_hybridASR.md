@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transformer-based Acoustic Modeling for Hybrid Speech Recognition
-subtitle: Review of the paper presented in ICAASP2020
+subtitle: Review of the paper presented in ICASSP2020
 date: 2020-10-07
 author: Emir Demirel
 author-id: emir
