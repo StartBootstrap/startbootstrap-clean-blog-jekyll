@@ -158,12 +158,16 @@ groups:
         id: carlos
         code: QMUL2
 
-        topic: Domain Transfer for Automatic Instrument Recognition and Separation to Aid Polyphonic Transcription
+        topic: Improving Polyphonic Transcription through Instrument Recognition and Source Separation
         supervisors:
+          - name: Emmanouil Benetos
+            web: https://www.eecs.qmul.ac.uk/~emmanouilb/        
           - name: Simon Dixon
-            web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
+            web: http://www.eecs.qmul.ac.uk/~simond/
 
         email: c.p.viannalordelo@qmul.ac.uk
+        github: cpvlordelo
+        linkedin: lordelo-carlos
 
       - name: Ruchit Agrawal
         photo: qmul3-ruchit.jpg
