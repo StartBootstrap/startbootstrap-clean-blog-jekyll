@@ -9,7 +9,7 @@ author-id: giorgia
 background: /posts/carbon_footprint_AI/ai-anatomy-map_1.jpg
 ---
 
-The topic of this post is the carbon footprint of Artificial Intelligence (AI). I thought this was a relevant topic to discuss as **we, as researchers, are part of the emission process**, even if we are mostly unaware of it. I believe it is ethically essential to be aware of the consequences that can derive from training our large deep learning models and Iwill suggest some **guidelines and best practices** to our research community.
+The topic of this post is the carbon footprint of Artificial Intelligence (AI). I thought this was a relevant topic to discuss as **we, as researchers, are part of the emission process**, even if we are mostly unaware of it. I believe it is ethically essential to be aware of the consequences that can derive from training our large deep learning models and I will suggest some **guidelines and best practices** to our research community.
 
 ### Climate Change
 First, let us recall the consequences of climate change, even if they are under our eyes every day. The United Nations declared climate change a *[“defining crisis of our time”](https://www.un.org/en/un75/climate-crisis-race-we-can-win){:target="_blank"}*[^1], and most climate scientists agree that human activity is its main driver[^2]. However, the effects of climate change are not only the rise of temperatures and the melting of glaciers, but also:
