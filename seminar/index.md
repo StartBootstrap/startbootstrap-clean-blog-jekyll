@@ -38,9 +38,9 @@ We will give a leisurely introduction to combinatorial representation theory, fo
 </details> 
 
 <details>
-  <summary><b>04 December, 2020</b>: tba (<b>Rupam Haloi</b>, Sipajhar College, Assam)</summary>
+  <summary><b>04 December, 2020</b>: $\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces  (<b>Rupam Haloi</b>, Sipajhar College, Assam)</summary>
 
-tba
+By a multiple sequence, we mean a sequence of $k$-tuple, of elements of a set $X$. A multiple sequence is a mapping from $\mathbb{N}^k$ into the set $X$, where $\mathbb{N}^k$ is the $k$-th power of the set of natural number $\mathbb{N}$. A term of a multiple sequence $f:\mathbb{N}^k\rightarrow X$ is an ordered set of $k+1$ elements $(n_1,n_2,\dots,n_k,x)$, where $x=f(n_1,n_2,\dots,n_k)\in X$ and $(n_1,n_2,\dots,n_k)\in\mathbb{N}^k,~n_i\in\mathbb{N}$, for $i=1,2,\dots,k$. The term is also denoted by $x_{n_1n_2\dots n_k}.$ In this talk, we will discuss about the concepts of $\mu$-statistically convergent and $\mu$-statistically Cauchy multiple sequences in the theory of probabilistic normed spaces (in short PN-spaces). We will also discuss about some useful characterizations on these introduced notions. Moreover, we will discuss about $\mu$-statistical limit points and its relation with limit points of multiple sequences in the settings of PN-spaces.
 </details> 
 
 <details>
