@@ -26,7 +26,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 17. *Refined Enumeration of Symmetry Classes of Alternating Sign Matrices*, (with *[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)*), *Journal of Combinatorial Theory, Series A*, 2021, 178, 105350, 51 pp. ([pdf](https://arxiv.org/pdf/1906.07723.pdf))
 
-16. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, accepted, 2020, 6 pp. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
+16. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, accepted, 2020, 58 (4), 356-360. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
 
 15. *Some properties of Zumkeller numbers and $k$-layered numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and Daniel Yaqubi*), *Journal of Number Theory*, 2020, 217, 218–236. ([pdf](/publ/papers/Zumkeller_Numbers.pdf))
 
