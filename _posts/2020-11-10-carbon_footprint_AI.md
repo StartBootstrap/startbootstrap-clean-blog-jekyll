@@ -57,7 +57,7 @@ In a paper from 2019, Roy Schwartz and collaborators observed that a linear gain
 
 - the cost of running the model on a single example; 
 - the training dataset size, which controls the number of times the model is run; 
-- the number of hyperparameters, which controls how many computations are are necessary to train the model. 
+- the number of hyperparameters, which controls how many computations are necessary to train the model. 
 
 They analysed papers from top conferences and observed that the majority prioritised accuracy over efficiency (90% from the Computational Linguistics Conference 2018, 80% from NeurIPS 2018, and 75% from the Conference on Computer Vision and Pattern Recognition 2019). In the same paper, the authors also defined the term **‘green AI’** as *[“AI research that yields novel results without increasing or, ideally reducing, computational cost”](https://arxiv.org/pdf/1907.10597.pdf){:target="_blank"}*. Green AI considers efficiency as a critical evaluation criterion and is considered an opposite term to red AI. Ideally, this type of research would level the possibilities of academia versus big tech companies, whose research is often facilitated by impressive computational resources.
 
