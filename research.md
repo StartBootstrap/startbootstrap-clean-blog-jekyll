@@ -72,6 +72,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+12. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/PJM_MY.pdf))
+
 11. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
 
 10. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
