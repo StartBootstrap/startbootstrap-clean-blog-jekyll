@@ -29,10 +29,11 @@ permalink: /links/
 ## People
 
 [George E. Andrews](http://www.personal.psu.edu/gea1/)  
-[Rupam Barman](http://web.iitd.ac.in/~rupam/)  
+[Rupam Barman](https://www.iitg.ac.in/rupam/)  
 [Nayandeep Deka Baruah](http://www.tezu.ernet.in/dmaths/people/faculty-pages/ndb.html)  
 [Bruce C. Berndt](http://www.math.uiuc.edu/~berndt/)  
 [Mihai Ciucu](http://pages.iu.edu/~mciucu/)  
+[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)  
 [Christian Krattenthaler](http://www.mat.univie.ac.at/~kratt/)  
 [M. Ram Murty](http://www.mast.queensu.ca/~murty/)  
 [Anupam Saikia](http://www.iitg.ernet.in/a.saikia/)  
@@ -64,6 +65,7 @@ permalink: /links/
 ## Journals
 
 [Integers](http://www.integers-ejcnt.org/)  
+[Bulletin of the Australian Mathematical Society](https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/firstview)  
 [The Electronic Journal of Combinatorics](http://www.combinatorics.org/)  
 [Journal of Integer Sequences](https://cs.uwaterloo.ca/journals/JIS/)  
 [Journal of Number Theory](http://www.sciencedirect.com/science/journal/0022314X)  
