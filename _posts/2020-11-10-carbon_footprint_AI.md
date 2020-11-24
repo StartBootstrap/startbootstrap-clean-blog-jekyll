@@ -9,7 +9,7 @@ author-id: giorgia
 background: /posts/carbon_footprint_AI/ai-anatomy-map_1.jpg
 ---
 
-The topic of this post is the carbon footprint of Artificial Intelligence (AI). I thought this was a relevant topic to discuss as **we, as researchers, are part of the emission process**, even if we are mostly unaware of it. I believe it is ethically essential to be aware of the consequences that can derive from training our large deep learning models and Iwill suggest some **guidelines and best practices** to our research community.
+The topic of this post is the carbon footprint of Artificial Intelligence (AI). I thought this was a relevant topic to discuss as **we, as researchers, are part of the emission process**, even if we are mostly unaware of it. I believe it is ethically essential to be aware of the consequences that can derive from training our large deep learning models and discuss **guidelines and best practices** for our research community.
 
 ### Climate Change
 First, let us recall the consequences of climate change, even if they are under our eyes every day. The United Nations declared climate change a *[“defining crisis of our time”](https://www.un.org/en/un75/climate-crisis-race-we-can-win){:target="_blank"}*[^1], and most climate scientists agree that human activity is its main driver[^2]. However, the effects of climate change are not only the rise of temperatures and the melting of glaciers, but also:
@@ -57,7 +57,7 @@ In a paper from 2019, Roy Schwartz and collaborators observed that a linear gain
 
 - the cost of running the model on a single example; 
 - the training dataset size, which controls the number of times the model is run; 
-- the number of hyperparameters, which controls how many computations are are necessary to train the model. 
+- the number of hyperparameters, which controls how many computations are necessary to train the model. 
 
 They analysed papers from top conferences and observed that the majority prioritised accuracy over efficiency (90% from the Computational Linguistics Conference 2018, 80% from NeurIPS 2018, and 75% from the Conference on Computer Vision and Pattern Recognition 2019). In the same paper, the authors also defined the term **‘green AI’** as *[“AI research that yields novel results without increasing or, ideally reducing, computational cost”](https://arxiv.org/pdf/1907.10597.pdf){:target="_blank"}*. Green AI considers efficiency as a critical evaluation criterion and is considered an opposite term to red AI. Ideally, this type of research would level the possibilities of academia versus big tech companies, whose research is often facilitated by impressive computational resources.
 

@@ -123,7 +123,7 @@ I hope future work can shed some light on how general the approach is, in partic
 By the way, if you are curious how I added the examples to this post, check out [`html-midi-player`](https://github.com/cifkao/html-midi-player).
 
 <!-- scripts for MIDI playback -->
-<script src="https://cdn.jsdelivr.net/combine/npm/tone@13,npm/@magenta/music@1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.0"></script>
 
 
 ## References
