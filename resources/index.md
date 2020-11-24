@@ -18,6 +18,7 @@ description: Materials, presentations and tutorials
 - [State of the Art, Challenges and Potential of Data-driven approaches in MIR](/resources/deliverables/D1.1_State_of_the_art,_challenges_and_potential_of_data-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
 - [State of the Art, Challenges and Potential of Knowledge-driven approaches in MIR](/resources/deliverables/D2.1_State_of_the_art,_challenges_and_potential_of_knowledge-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
 - [State of the Art, Challenges and Potential of User-driven approaches in MIR](/resources/deliverables/D3.1_State_of_the_art,_challenges_and_potential_of_user-driven_approaches_in_MIR_v1.0.pdf){:target="_blank"}, September 2019
+- [Data Management Plan](/resources/deliverables/D6.2_Data_management_plan_non_conf_web_version_v1.0.pdf){:target="_blank"}, November 2020
 
 # Datasets
 
