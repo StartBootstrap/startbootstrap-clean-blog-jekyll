@@ -17,25 +17,18 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**An introduction to combinatorial representation theory**
+**$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces**
 
-**Manjil Saikia (Cardiff University)**
+**Rupam Haloi (Sipajhar College, Assam)**
 
-**27 November 2020 (7.30 pm IST)**
+**04 December 2020 (8 pm IST)**
 
-**Abstract**: We will give a leisurely introduction to combinatorial representation theory, focusing mainly on the symmetric group. The talk will be self-contained and only basic knowledge of abstract and linear algebra will be assumed.
+**Abstract**: By a multiple sequence, we mean a sequence of $k$-tuple, of elements of a set $X$. A multiple sequence is a mapping from $\mathbb{N}^k$ into the set $X$, where $\mathbb{N}^k$ is the $k$-th power of the set of natural number $\mathbb{N}$. A term of a multiple sequence $f:\mathbb{N}^k\rightarrow X$ is an ordered set of $k+1$ elements $(n_1,n_2,\dots,n_k,x)$, where $x=f(n_1,n_2,\dots,n_k)\in X$ and $(n_1,n_2,\dots,n_k)\in\mathbb{N}^k,~n_i\in\mathbb{N}$, for $i=1,2,\dots,k$. The term is also denoted by $x_{n_1n_2\dots n_k}.$ In this talk, we will discuss about the concepts of $\mu$-statistically convergent and $\mu$-statistically Cauchy multiple sequences in the theory of probabilistic normed spaces (in short PN-spaces). We will also discuss about some useful characterizations on these introduced notions. Moreover, we will discuss about $\mu$-statistical limit points and its relation with limit points of multiple sequences in the settings of PN-spaces.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
-
-
-<details>
-  <summary><b>04 December, 2020</b>: $\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces  (<b>Rupam Haloi</b>, Sipajhar College, Assam)</summary>
-
-By a multiple sequence, we mean a sequence of $k$-tuple, of elements of a set $X$. A multiple sequence is a mapping from $\mathbb{N}^k$ into the set $X$, where $\mathbb{N}^k$ is the $k$-th power of the set of natural number $\mathbb{N}$. A term of a multiple sequence $f:\mathbb{N}^k\rightarrow X$ is an ordered set of $k+1$ elements $(n_1,n_2,\dots,n_k,x)$, where $x=f(n_1,n_2,\dots,n_k)\in X$ and $(n_1,n_2,\dots,n_k)\in\mathbb{N}^k,~n_i\in\mathbb{N}$, for $i=1,2,\dots,k$. The term is also denoted by $x_{n_1n_2\dots n_k}.$ In this talk, we will discuss about the concepts of $\mu$-statistically convergent and $\mu$-statistically Cauchy multiple sequences in the theory of probabilistic normed spaces (in short PN-spaces). We will also discuss about some useful characterizations on these introduced notions. Moreover, we will discuss about $\mu$-statistical limit points and its relation with limit points of multiple sequences in the settings of PN-spaces.
-</details> 
 
 <details>
   <summary><b>11 December, 2020</b>: tba (<b>tba</b>, tba)</summary>
@@ -72,6 +65,7 @@ tba
 **[Primes with restricted digits in arithmetic progressions](/seminar/Kunjakanan_Nath.pdf)** (*Kunjakanan Nath*: 30 October 2020)  
 **[On Congruent Numbers and Their Generalizations over Number Fields](/seminar/Shamik_Das.pdf)** (*Shamik Das*: 06 November 2020)  
 **Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
+**An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
       
       
 
