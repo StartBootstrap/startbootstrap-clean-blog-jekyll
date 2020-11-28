@@ -142,7 +142,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 125. **The Weil Conjectures: On Math and the Pursuit of the Unknown**, *Karen Olsson*, Bloomsbury Publishing, 2019.
 126. **Rosalind Franklin: The Dark Lady of DNA**, *Brenda Maddox*, Harper Collins Publishers, 2003.
 127. **The Book Nobody Read: Chasing the Revolutions of Nicolaus Copernicus**, *Owen Gingerich*, William Heinemann, 2004.
-128. **Charles Darwin's Barnacle and David Bowie's Spider: How Scientific Names Celebrate Adventurers, Heroes, and Even a Few Scoundrels**, *Stephen B. Heard*, Yale University Press, 2020.
+128. **Think Like a Freak: How to Think Smarter About Almost Everything**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2014.
+129. **Charles Darwin's Barnacle and David Bowie's Spider: How Scientific Names Celebrate Adventurers, Heroes, and Even a Few Scoundrels**, *Stephen B. Heard*, Yale University Press, 2020.
 
 
 ## Fiction
