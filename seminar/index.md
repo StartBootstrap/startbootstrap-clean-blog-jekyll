@@ -31,9 +31,9 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 *Please click on the title to see the abstract.*
 
 <details>
-  <summary><b>11 December, 2020</b>: tba (<b>tba</b>, tba)</summary>
+  <summary><b>11 December, 2020</b>: On the parity of Andrews' Singular overpartition function (<b>Ajit Singh</b>, Indian Institute of Technology Guwahati)</summary>
 
-tba
+A partition of a positive integer $n$ is any nonincreasing sequence of positive integers whose sum is $n$. The number of partitions of $n$ is denoted by $p(n)$. The partition function $p(n)$ satisfies many interesting arithmetic properties. For example, the number of partitions of $n$ into odd parts is equal to the number of partitions $n$ into distinct parts. In this talk we discuss some parity results of a special type of partition function, namely Andrews' singular overpartition. We also discuss some special spaces of Modular forms and their applications in Partition theory.
 </details> 
 
 <details>
