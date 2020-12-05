@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Online Weekly Research Seminar for Early Career Mathematicians from India
-description: Email me to get into the mailing list.
+title: Seminars
+description: Online Weekly Research Seminar for Early Career Mathematicians from India.
 background: '/img/bg-default.jpg'
 permalink: /seminar/
 mathjax: true
