@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Online Seminar of Assamese Mathematicians
+title: Online Weekly Research Seminar for Early Career Mathematicians from India
 description: Email me to get into the mailing list.
 background: '/img/bg-default.jpg'
 permalink: /seminar/
@@ -9,7 +9,9 @@ mathjax: true
 
 ## About The Seminar
 
-This seminar takes place usually on Fridays, at a suitable time and is meant for talks by young Assamese mathematicians (PhD Students, Postdocs, and young faculty members). By Assamese, we mean anyone residing/working in Assam now or residing/working in Assam in the past. If you wish to attend or give a talk in the seminar please email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
+This seminar takes place usually on Fridays, at a suitable time and is meant for talks by early career Indian mathematicians (PhD Students, Postdocs, and young faculty members). By Indian, we mean anyone residing/working in India now or residing/working in India in the past.
+
+You can register to get the Zoom links by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u). Alternatively, you can also email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
 
 Check the [FAQs](#faqs).
 
@@ -17,33 +19,25 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces**
+**On the parity of Andrews' Singular overpartition function**
 
-**Rupam Haloi (Sipajhar College, Assam)**
+**Ajit Singh (Indian Institute of Technology Guwahati)**
 
-**04 December 2020 (8 pm IST)**
+**11 December 2020 (8.30 pm IST)**
 
-**Abstract**: By a multiple sequence, we mean a sequence of $k$-tuple, of elements of a set $X$. A multiple sequence is a mapping from $\mathbb{N}^k$ into the set $X$, where $\mathbb{N}^k$ is the $k$-th power of the set of natural number $\mathbb{N}$. A term of a multiple sequence $f:\mathbb{N}^k\rightarrow X$ is an ordered set of $k+1$ elements $(n_1,n_2,\dots,n_k,x)$, where $x=f(n_1,n_2,\dots,n_k)\in X$ and $(n_1,n_2,\dots,n_k)\in\mathbb{N}^k,~n_i\in\mathbb{N}$, for $i=1,2,\dots,k$. The term is also denoted by $x_{n_1n_2\dots n_k}.$ In this talk, we will discuss about the concepts of $\mu$-statistically convergent and $\mu$-statistically Cauchy multiple sequences in the theory of probabilistic normed spaces (in short PN-spaces). We will also discuss about some useful characterizations on these introduced notions. Moreover, we will discuss about $\mu$-statistical limit points and its relation with limit points of multiple sequences in the settings of PN-spaces.
+**Abstract**: A partition of a positive integer $n$ is any nonincreasing sequence of positive integers whose sum is $n$. The number of partitions of $n$ is denoted by $p(n)$. The partition function $p(n)$ satisfies many interesting arithmetic properties. For example, the number of partitions of $n$ into odd parts is equal to the number of partitions $n$ into distinct parts. In this talk we discuss some parity results of a special type of partition function, namely Andrews' singular overpartition. We also discuss some special spaces of Modular forms and their applications in Partition theory.
 
 
 ## Upcoming Talks
 
 *Please click on the title to see the abstract.*
 
-<details>
-  <summary><b>11 December, 2020</b>: On the parity of Andrews' Singular overpartition function (<b>Ajit Singh</b>, Indian Institute of Technology Guwahati)</summary>
-
-A partition of a positive integer $n$ is any nonincreasing sequence of positive integers whose sum is $n$. The number of partitions of $n$ is denoted by $p(n)$. The partition function $p(n)$ satisfies many interesting arithmetic properties. For example, the number of partitions of $n$ into odd parts is equal to the number of partitions $n$ into distinct parts. In this talk we discuss some parity results of a special type of partition function, namely Andrews' singular overpartition. We also discuss some special spaces of Modular forms and their applications in Partition theory.
-</details> 
 
 <details>
   <summary><b>18 December, 2020</b>: tba (<b>Souvik Parial</b>, Indian Institute of Technology Guwahati)</summary>
 
 tba
 </details> 
-  
-    
-      
       
 
 
@@ -66,6 +60,7 @@ tba
 **[On Congruent Numbers and Their Generalizations over Number Fields](/seminar/Shamik_Das.pdf)** (*Shamik Das*: 06 November 2020)  
 **Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
 **An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
+**[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
       
       
 
@@ -79,12 +74,28 @@ Usually on Fridays, the times change depending on the availability of the speake
 
 **Who can attend?**  
 
-Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by sending an email to manjil@saikia.in, mentioning your name and affiliation (if any).
+Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u).
 
 **Who can give a talk?**  
 
-At the moment we are encouraging only PhD students, postdocs and young faculty members either from Assam or living in Assam to give talks. If you are interested in giving a talk, please send an email to manjil@saikia.in or parama@gonitsora.com.
+At the moment we are encouraging only PhD students, postdocs and young faculty members either to give talks. If you are interested in giving a talk, please send an email to manjil@saikia.in or parama@gonitsora.com.
+
+**Are the talks meant for a general audience?**
+
+Yes, but this is a research seminar. We ask the speakers to spend at least 30% of their time on introduction and motivation of the topic which should be understandable for someone with a Masters level education in mathematics.
+
+**How long is a talk?**
+
+The talks are between 45-60 minutes, followed by discussions. We leave the discussions open ended and usually spend about 60 minutes after the talk just chatting with each other about various topics related to mathematics.
+
+**Why was this series started?**
+
+The primary aim was to know the different type of work being done by young mathematicians and to also look for oppurtunities for collaborative work.
 
 **Will there be any certificate for attending?**  
 
 No.
+
+**Are there recordings of the talk?**
+
+No. Only the speaker has access to recordings of their own talks. The speakers can decide to make them public if they wish to.
