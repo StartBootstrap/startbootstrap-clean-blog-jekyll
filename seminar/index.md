@@ -30,37 +30,30 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Upcoming Talks
 
-*Please click on the title to see the abstract.*
-
-
-<details>
-  <summary><b>18 December, 2020</b>: tba (<b>Souvik Parial</b>, Indian Institute of Technology Guwahati)</summary>
-
-tba
-</details> 
+* **18 December, 2020**: (**Souvik Parial**, *Indian Institute of Technology Guwahati*
       
 
 
 ## Past Talks
   
-**[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)  
-**[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)  
-**[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)  
-**[Combinatorics of Stammering Tableaux](/seminar/Bishal_Deb.pdf)** (*Bishal Deb*: 31 July 2020)  
-**[An approach to construct Mathematical model through system of ordinary differential equation](/seminar/Munmi_Saikia.pdf)** (*Munmi Saikia*: 07 August 2020)  
-**[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
-**[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
-**[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
-**[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
-**[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
-**[Solution Concepts in Transferable Utility Games](/seminar/Parishmita_Boruah.pdf)** (*Parishmita Baruah*: 02 October 2020)  
-**[Distance Pareto eigenvalue of a graph](/seminar/Deepak_Sarma.pdf)** (*Deepak Sarma*: 09 October 2020)  
-**[Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$](/seminar/Chayanika_Boruah.pdf)** (*Chayanika Boruah*: 16 October 2020)  
-**[Primes with restricted digits in arithmetic progressions](/seminar/Kunjakanan_Nath.pdf)** (*Kunjakanan Nath*: 30 October 2020)  
-**[On Congruent Numbers and Their Generalizations over Number Fields](/seminar/Shamik_Das.pdf)** (*Shamik Das*: 06 November 2020)  
-**Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
-**An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
-**[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
+1. **[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)  
+2. **[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)  
+3. **[Families of Congruences for Fractional Partition Functions Modulo Powers of Primes](/seminar/Hirakjyoti_Das.pdf)** (*Hirakjyoti Das*: 17 July 2020)  
+4. **[Combinatorics of Stammering Tableaux](/seminar/Bishal_Deb.pdf)** (*Bishal Deb*: 31 July 2020)  
+5. **[An approach to construct Mathematical model through system of ordinary differential equation](/seminar/Munmi_Saikia.pdf)** (*Munmi Saikia*: 07 August 2020)  
+6. **[Some aspects of $\Gamma_2$ graph over some of the finite commutative rings](/seminar/Anurag_Baruah.pdf)** (*Anurag Baruah*: 14 August 2020)  
+7. **[Application of the Rogers-Ramanujan continued fraction to partition functions](/seminar/Nilufar_Mana_Begum.pdf)** (*Nilufar Mana Begum*: 21 August 2020)  
+8. **[Certain types of primitive and normal elements over finite fields](/seminar/Himangshu_Hazarika.pdf)** (*Himangshu Hazarika*: 28 August 2020)  
+9. **[Hard and Easy Instances of L-Tromino Tilings](/seminar/Manjil_Saikia.pdf)** (*Manjil Saikia*: 04 September 2020)  
+10. **[Extremal inverse eigenvalue problems for matrices with a prescribed graph](/seminar/Debashish_Sharma.pdf)** (*Debashish Sharma*: 18 September 2020)  
+11. **[Solution Concepts in Transferable Utility Games](/seminar/Parishmita_Boruah.pdf)** (*Parishmita Baruah*: 02 October 2020)  
+12. **[Distance Pareto eigenvalue of a graph](/seminar/Deepak_Sarma.pdf)** (*Deepak Sarma*: 09 October 2020)  
+13. **[Congruences for $\ell$-Regular OverPartition for $\ell\in \{5, 6, 8\}$](/seminar/Chayanika_Boruah.pdf)** (*Chayanika Boruah*: 16 October 2020)  
+14. **[Primes with restricted digits in arithmetic progressions](/seminar/Kunjakanan_Nath.pdf)** (*Kunjakanan Nath*: 30 October 2020)  
+15. **[On Congruent Numbers and Their Generalizations over Number Fields](/seminar/Shamik_Das.pdf)** (*Shamik Das*: 06 November 2020)  
+16. **Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
+17. **An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
+18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
       
       
 
