@@ -32,7 +32,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 * **18 December, 2020**: (**Souvik Parial**, *Indian Institute of Technology Guwahati*)
 * **8 January, 2021**: (to be announced)
-* **22 January, 2021**: (to be announced)
+* **22 January, 2021**: (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: (to be announced)
 * **5 February, 2021**: (to be announced)
 
