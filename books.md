@@ -145,6 +145,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 128. **Think Like a Freak: How to Think Smarter About Almost Everything**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2014.
 129. **Charles Darwin's Barnacle and David Bowie's Spider: How Scientific Names Celebrate Adventurers, Heroes, and Even a Few Scoundrels**, *Stephen B. Heard*, Yale University Press, 2020.
 130. **The Curious Life of Robert Hooke: The Man Who Measured London**, *Lisa Jardine*, Perennial, 2005.
+131. **SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2010.
 
 
 ## Fiction
