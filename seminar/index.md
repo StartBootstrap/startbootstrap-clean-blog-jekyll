@@ -76,7 +76,7 @@ Everyone is welcome to attend, but you have to register to get the links to atte
 
 **Who can give a talk?**  
 
-At the moment we are encouraging only PhD students, postdocs and young faculty members either to give talks. If you are interested in giving a talk, please send an email to manjil@saikia.in or parama@gonitsora.com.
+At the moment we are encouraging only PhD students, postdocs and young faculty members to give talks. If you are interested in giving a talk, please send an email to manjil@saikia.in or parama@gonitsora.com.
 
 **Are the talks meant for a general audience?**
 
@@ -94,6 +94,6 @@ The primary aim was to know the different type of work being done by young mathe
 
 No.
 
-**Are there recordings of the talk?**
+**Are there recordings of the talks?**
 
 No. Only the speaker has access to recordings of their own talks. The speakers can decide to make them public if they wish to.
