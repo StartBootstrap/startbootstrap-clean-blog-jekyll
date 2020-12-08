@@ -31,7 +31,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 ## Upcoming Talks
 
 * **18 December, 2020**: to be announced (**Souvik Parial**, *Indian Institute of Technology Guwahati*)
-* **8 January, 2021**: (to be announced)
+* **8 January, 2021**: to be announced (**Bibekananda Maji**, *Indian Institute of Technology Indore*)
 * **22 January, 2021**: to be announced (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
 * **5 February, 2021**: to be announced (**Subhajit Bandyopadhyay**, *Tezpur University*)
