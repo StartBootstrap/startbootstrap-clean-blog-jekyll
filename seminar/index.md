@@ -36,7 +36,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
 * **5 February, 2021**: to be announced (**Subhajit Bandyopadhyay**, *Tezpur University*)
 * **12 February, 2021**: (to be announced)
-* **19 February, 2021**: (to be announced)
+* **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
 * **26 February, 2021**: (to be announced)
 
 
