@@ -41,7 +41,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Past Talks
 
-*Click on the title to view the slides.*
+*Click on the title to view the slides (if they are available).*
   
 1. **[What is the Probability that an automorphism fixes a group element?](/seminar/Parama_Dutta.pdf)** (*Parama Dutta*: 26 June 2020)  
 2. **[Hypergeometric Series over Finite Fields](/seminar/Arjun_Singh_Chetry.pdf)** (*Arjun Singh Chetry*: 10 July 2020)  
