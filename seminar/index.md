@@ -19,18 +19,17 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 
 ## Next Talk
 
-**On the parity of Andrews' Singular overpartition function**
+**The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!**
 
-**Ajit Singh (Indian Institute of Technology Guwahati)**
+**Souvik Parial (Indian Institute of Technology Guwahati)**
 
-**11 December 2020 (8.30 pm IST)**
+**18 December 2020 (7 pm IST)**
 
-**Abstract**: A partition of a positive integer $n$ is any nonincreasing sequence of positive integers whose sum is $n$. The number of partitions of $n$ is denoted by $p(n)$. The partition function $p(n)$ satisfies many interesting arithmetic properties. For example, the number of partitions of $n$ into odd parts is equal to the number of partitions $n$ into distinct parts. In this talk we discuss some parity results of a special type of partition function, namely Andrews' singular overpartition. We also discuss some special spaces of Modular forms and their applications in Partition theory.
+**Abstract**: Consider a bipartite graph of men and women, with edges representing preferences/possible matches, where the goal is to find a matching of pairs of men-women that are "stable". We'll see the classical Gale-Shapley algorithm for solving the same. We also discuss some very interesting variants of the problem and some useful applications in the area. In this introductory talk, the goal is to give a bird's eye view to the mathematicians into the area of (Theoretical) computer science through this problem and to give the computer scientists an idea of how a theoretically interesting problem can also have (immediate) useful applications in the real world. The talk will be accesible to a broad audience and no background will be assumed, apart from some level of mathematical maturity.
 
 
 ## Upcoming Talks
 
-* **18 December, 2020**: The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability! (**Souvik Parial**, *Indian Institute of Technology Guwahati*)
 * **8 January, 2021**: to be announced (**Bibekananda Maji**, *Indian Institute of Technology Indore*)
 * **22 January, 2021**: to be announced (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
@@ -62,6 +61,7 @@ All the talks will be over Zoom and the meeting details will be emailed to the r
 16. **Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
 17. **An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
 18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
+19. **On the parity of Andrews' Singular overpartition function** (*Ajit Singh*: 11 December 2020)
       
       
 
