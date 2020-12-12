@@ -11,11 +11,11 @@ mathjax: true
 
 This seminar takes place usually on Fridays, at a suitable time and is meant for talks by early career Indian mathematicians (PhD Students, Postdocs, and young faculty members). By Indian, we mean anyone residing/working in India now or residing/working in India in the past.
 
-You can register to get the Zoom links by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u). Alternatively, you can also email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
+You can register to be on the mailing list by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u). Alternatively, you can also email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
 
 Check the [FAQs](#faqs).
 
-All the talks will be over Zoom and the meeting details will be emailed to the registered participants.
+All the talks will be over Zoom. To join a talk please use the following information: ***Meeting ID 926 1140 2828*** and the Passcode is ***the smallest positive integer that can be written as the sum of two cubes in two different ways***.
 
 ## Next Talk
 
@@ -75,7 +75,7 @@ Usually on Fridays, the times change depending on the availability of the speake
 
 **Who can attend?**  
 
-Everyone is welcome to attend, but you have to register to get the links to attend the seminars. You can register by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u).
+Everyone is welcome to attend. You can register to be on the mailing list by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u).
 
 **Who can give a talk?**  
 
