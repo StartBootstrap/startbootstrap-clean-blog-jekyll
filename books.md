@@ -146,6 +146,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 129. **Charles Darwin's Barnacle and David Bowie's Spider: How Scientific Names Celebrate Adventurers, Heroes, and Even a Few Scoundrels**, *Stephen B. Heard*, Yale University Press, 2020.
 130. **The Curious Life of Robert Hooke: The Man Who Measured London**, *Lisa Jardine*, Perennial, 2005.
 131. **SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2010.
+132. **When to Rob a Bank...And 131 More Warped Suggestions and well-intended Rant**, *Steven D. Levitt and Stephen J. Dubner*, HarperLuxe, 2015.
+133. **Allahu Akbar: Understanding the Great Mughal in Today's India**, *Manimugdha S. Sharma*, Bloomsbury India, 2019.
 
 
 ## Fiction
