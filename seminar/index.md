@@ -61,7 +61,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 16. **Introduction to the mapping class groups** (*Soumya Dey*: 20 November 2020)  
 17. **An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
 18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
-19. **On the parity of Andrews' Singular overpartition function** (*Ajit Singh*: 11 December 2020)
+19. **[On the parity of Andrews' Singular overpartition function](/seminar/Ajit_Singh.pdf)** (*Ajit Singh*: 11 December 2020)
       
       
 
