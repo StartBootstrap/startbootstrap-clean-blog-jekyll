@@ -36,7 +36,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **5 February, 2021**: to be announced (**Subhajit Bandyopadhyay**, *Tezpur University*)
 * **12 February, 2021**: (to be announced)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
-* **26 February, 2021**: (to be announced)
+* **26 February, 2021**: (to be announced) (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 
 
 ## Past Talks
