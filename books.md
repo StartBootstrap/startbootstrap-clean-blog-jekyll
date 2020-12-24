@@ -148,7 +148,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 131. **SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance**, *Steven D. Levitt and Stephen J. Dubner*, Penguin Books, 2010.
 132. **When to Rob a Bank: ...And 131 More Warped Suggestions and well-intended Rants**, *Steven D. Levitt and Stephen J. Dubner*, HarperLuxe, 2015.
 133. **Allahu Akbar: Understanding the Great Mughal in Today's India**, *Manimugdha S. Sharma*, Bloomsbury India, 2019.
-134. **The Cost of Living**, *Deborah Levy*, Penguin Books, 2018.
+134. **The Cost of Living: A Working Autobiography**, *Deborah Levy*, Penguin Books, 2018.
 135. **When Life Nearly Died: The Greatest Mass Extinction of All Time**, *Michael J. Benton*, Thomas & Hudson, 2003.
 136. **Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty**, *Abhijit V. Banerjee and Esther Duflo*, Public Affairs, 2011.
 
