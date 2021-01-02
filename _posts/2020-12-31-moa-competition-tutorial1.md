@@ -68,9 +68,9 @@ func level_one_solution(train_data: Dataset) -> SolutionFunc {
 }
 ~~~
 
-_Why am I using Swift? I am using Swift to write code snippets because I have work experience as iOS developer where Swift is the dominant language. When I started learning Python I found it really dirty and less readable compared to Swift. Maybe this is due to the lack of my deeper experience in Python but anyway I love Swift so I will stick to it whenever it is possible :)_
+_Why am I using Swift? I am using Swift to write code snippets because I have work experience as an iOS developer where Swift is the dominant language. When I started learning Python I found it a lot less readable than Swift. Maybe this is due to the lack of my deeper experience in Python but anyway I love Swift so I will stick to it whenever it is possible :)_
 
-In this code we first define a simple _Dataset_ object which represents the training dataset. Afterwards we define a function _neural_network_ which accepts a _train_sample_ i.e input vector **_X_** and returns a list of float number which is the output vector **_Y<sub>pred</sub>_**. In the end we have _level_one_solution_ function that accepts a Dataset and returns a _SolutionFunc_ which is just cleaner way of writing `([Float]) -> [Float]` which is a way of defining a function that accepts list of floats as an argument and returns another list of floats. As an example, in the _level_one_function_ we return the previously defined neural network which will approximate the MoA activations for a given train sample. In the real implementation of this function we train a neural network on the given train dataset and return it a solution to the problem. 
+In this code we first define a simple _Dataset_ object which represents the training dataset. Afterwards we define a function _neural_network_ which accepts a _train_sample_ i.e input vector **_X_** and returns a list of float number which is the output vector **_Y<sub>pred</sub>_**. In the end we have _level_one_solution_ function that accepts a Dataset and returns a _SolutionFunc_ which is just cleaner way of writing `([Float]) -> [Float]` which is the Swift's way of defining a function that accepts list of floats as an argument and returns another list of floats. As an example, in the _level_one_function_ we return the previously defined neural network which will approximate the MoA activations for a given train sample. In the real implementation of this function we train a neural network on the given dataset and return it as a solution function to the problem. 
 
 Nothing stops us from creating multiple different _level_one_solution_ functions and afterwards using the weighted average of their outputs in order to hopefully produce a better final **_Y<sub>pred</sub>_** output. In the literature this is called ensambling or blending, you can read more about this on this [blog post](https://mlwave.com/kaggle-ensembling-guide/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BPZ4T3JLHTu%2BOWNI0d5kFbg%3D%3D). 
 
@@ -94,7 +94,7 @@ func level_two_solution(level_one_solutions: [SolutionFunc]) -> SolutionFunc {
 }
 ~~~
 
-From this code we can see that the _level_two_solution_ function is not that different from the level one. In the function body It has just one additional function that creates the datasets and after the creation of the new training datasets it returns a function that trains new model on that dataset. The process where we train a model on the predictions of another model is called stacking. Basically we are stacking models on top of each other. [Here](https://machinelearningmastery.com/blending-ensemble-machine-learning-with-python/) is a nice blog post that describes that. 
+From this code we can see that the _level_two_solution_ function is not that different from the level one. In the function body It calls one additional function that creates the train dataset and returns a function that trains new model on the newly created dataset. The process where we train a model on the predictions of another model is called stacking. Basically we are stacking models on top of each other. [Here](https://machinelearningmastery.com/blending-ensemble-machine-learning-with-python/) is a nice blog post that describes that. 
 
 _Note: As I can see in the literature the terms stacking, blending and ensambling are sometimes used interchangeably. To the best of my understanding I use the term stacking when the model is trained on predictions from another models and blending or ensambling when the output of multiple models is scaled with some function. This usage may be wrong so take it with a grain of salt._
 
@@ -104,12 +104,34 @@ This is the final Jupyter notebook that gets submitted to the competition. Since
 
 We can see that the _level_one_solution_ and the _level_two_solution_ functions are returning the same type of output which is a solution function **_S_**. So given a list of solution function **_S_** we can experiments with different blending algorithms in order to find the **_Y<sub>pred</sub>_** value that is the closest to the **_Y<sub>true</sub>_** value.
 
-I decided to go with the weighted average algorithm which just multiplies every solution function **_S<sub>i</sub>_** with a value **_w<sub>i</sub>_** which is called a weight where the weight determines the importance of that solution function to the final predictions. The sum of the all the weights should equal to 1.
+I decided to go with the weighted average algorithm which just multiplies every solution function **_S<sub>i</sub>_** with a value **_w<sub>i</sub>_** which is called a weight where the weight determines the importance of that solution function to the final predictions. The sum of all the weights should equal to 1.
 
+# Training solution pipeline
 
+The pipeline of training a single neural network on a given dataset for this competition consists of several processes such as: setting up cross-validation strategy, data preprocessing and training the model.
 
-My single solution pipeline can be separated in following processes:
+### Cross-validation strategy
 
-1. **_Data preprocessing_** - this process prepare
+After reading a lot of discussions on Kaggle on this and another competitions I realized that the creation of proper cross-validation strategy is one of the most important things in every competition. This directly influences your score because you are optimizing the function that you setup in this part. If your validation loss is not correlated to the private leaderboard then you may experience a [big shake-up](https://www.kaggle.com/c/siim-isic-melanoma-classification/leaderboard) on the final results. [Here](https://machinelearningmastery.com/k-fold-cross-validation/) is a really nice blog post that describes what is k-fold-cross validation.
+
+In this competition's dataset we said that every sample i.e row contains a single _'sig_id'_ value which uniquely identifies that sample. Each sample consists of gene expression and cell viability of a single person. The experiments were setup in a way that for every person there are 6 different samples where each sample has different drug dose and different time recording of the biological activity. There are 2 possible drug doses and 3 different timestamps (24, 48 and 72 hours). So this makes our data not [I.I.D](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables) which easily can lead us into an invalid evaluation of our models. 
+
+Every given drug to a person activates the same set of MoAs. Additionally, in the competition data there is a _csv_ file that describes which drug was used on every sample in the training data. We use this data to improve our setup of the 5-fold-cross validation strategy. 
+
+[Here](https://www.kaggle.com/c/lish-moa/discussion/195195) is a link to the the code that I used for creating the cross-validation strategy and also there is a nice discussion regarding that. I am using Drug and MultiLabel stratification strategy and the reasons are the following:
+
+* Drug stratification - The distribution of sampled drugs is not the same so some drugs appear a lot more frequently than other drugs. Those drugs that appear very frequently are also expected to be frequent in the test dataset so they are not assigned to their own fold while drugs that are rare belong to the same fold. 
+* MultiLabel stratification - As we said earlier this is multi-label classification problem where some MoAs are a lot more activated than others. For example the MoA _nfkb_inhibitor_ is activated 832 times while the MoA _erbb2_inhibitor_ is activated only once in the training data. While creating the fold data, we need to try to achieve equal activation distribution of each MoA class in every fold. If we are using 5 folds there should be roughly _832/5_ samples where _nfkb_inhibitor_ is active in every fold. This is achievable by using the MultilabelStratifiedKFold class from the [iterative-stratification project]((https://github.com/trent-b/iterative-stratification)).
+
+### Data preprocessing
+
+In my solution I didn't use very much data preprocessing. Before training the model I only scaled the data using QuantileNormalization or RankGaus scalers in order to help the neural network to learn easier. A lot of people on this competition used PCA as additional features to the model but I stayed away from it.
+
+What I found challenging here is the decision for which part of the available data to fit to the scaler and which part of the data to just transform it. I assume that the correct way _by the book_ is to fit the training data and then to just transform the test data. In this way we are not leaking any information from the test data to the train data. I used this way of scaling.
+
+Another way that I think is specific to online data science competition where we know the test features is to scale the data with all the available data (combining the train and test features). Sometimes this process can lead to better results since for every sample in the train data there is a little bit of information about the test data. But this process is risky because we won't know how the models will behave on new unseen data and we can lose some value of the generalization property.
+
+### Training the model
+
 
 
