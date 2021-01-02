@@ -12,7 +12,7 @@ background: '/img/posts/06.jpg'
 
 The goal of this blog post is to describe a medal winning solution to the [MoA competition](https://www.kaggle.com/c/lish-moa/overview) on Kaggle. Since this was my first ranked competition on Kaggle and I do not have plenty of Data Science experience I would say that this blog post is going to be most suitable for beginners in this domain. 
 
-While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. 
+While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. All of the solution code was implemented in Python but because my favorite programming language is Swift all of the code snippets in this post are gonna be written in Swift. 
 
 # Competition explanation
 
@@ -40,10 +40,48 @@ Let's have two variables **_X_** and **_Y_** and a function **_S(X) &rarr; Y_**.
 
 _But what it means to best describe the given input ?_
 
-For a given input vector **_X_** we don't know the true output **_Y<sub>true</sub>_** so the best thing we can do is to come up with an approximation of it. We can call our approximated output **_Y<sub>pred</sub>_**  where we obtain it from passing **_X_** in the solution function **_S_**. On the other hand, the organizers of this competition know the true output for every input vector so they define a loss function **_L(Y<sub>true</sub>,  Y<sub>pred</sub>) &rarr; V_** where the value _V_ is just a float number that represents how far is our **_Y<sub>pred</sub>_**  approximation from the true value **_Y<sub>true</sub>_**. The oraganizers want us to predict values as close as possible to the true ones, so the goal of this competition is to minimize this loss function **_L_**. When we rewrite what we have said before, for a given input **_X_** we need to find a solution function **_S_** that minimizes the loss function **_L(Y<sub>true</sub>,  S(X)) &rarr; V_**.
+For a given input vector **_X_** we don't know the true output **_Y<sub>true</sub>_** so the best thing we can do is to come up with an approximation of it. We can call our approximated output **_Y<sub>pred</sub>_** where we obtain it from passing **_X_** in the solution function **_S_**. On the other hand, the organizers of this competition know the true output for every input vector so they define a loss function **_L(Y<sub>true</sub>,  Y<sub>pred</sub>) &rarr; V_** where the value _V_ is just a float number that represents how far is our **_Y<sub>pred</sub>_**  approximation from the true value **_Y<sub>true</sub>_**. The oraganizers want us to predict values as close as possible to the true ones, so the goal of this competition is to minimize this loss function **_L_**. When we rewrite what we have said before, for a given input **_X_** we need to find a solution function **_S_** that minimizes the loss function **_L(Y<sub>true</sub>,  S(X)) &rarr; V_**.
 
 In order to find a good approximation function the organizers have provided us with a train dataset **_D<sub>train</sub>_**  which is a list of train examples where each example is represented as tuple (**_X_**, **_Y_**). With this dataset at hand we need to find good use of it in order to improve our soulution function **_S_** that we have defined before. Additionaly, there is a test dataset **_D<sub>test</sub>_** where the true **_Y_** values are hidden from us. We need to approximate those values using our solution function. In the end our score is calculated by summing up the values of the loss function **_L_** for every sample in the test dataset.
 
-As you can have guessed by now, the input vector **_X_** will be a subset of the _876_ columns given in the training data. I say subset because we are not gonna use all of the features that are given to us. The output vector **_Y_** will be the the probability vector over the MoAs activation meaning that every _i<sup>-th</sup>_ element in this vector represents the probability of the  _i<sup>-th</sup>_ MoA being activated. The [competition loss](https://www.kaggle.com/c/lish-moa/overview/evaluation) function **_L_** is the mean columnwise [log loss](https://www.kaggle.com/dansbecker/what-is-log-loss).
+As you can have guessed by now, the input vector **_X_** will be a subset of the _876_ columns given in each sample in the training data. I say subset because we are not gonna use all of the features that are given to us. The predicted output vector **_Y<sub>pred</sub>_** will be the the probability vector over the MoAs activation meaning that the _i<sup>-th</sup>_ element in this vector represents the probability of the  _i<sup>-th</sup>_ MoA being activated. The [competition loss](https://www.kaggle.com/c/lish-moa/overview/evaluation) function **_L_** is the mean columnwise [log loss](https://www.kaggle.com/dansbecker/what-is-log-loss).
+
+# Solution overview
+
+In this competition I define two types of solution pipelines. Let's call them **_level one_** solution pipeline and **_level two_** solution pipeline where the level two solution is dependent of the level one solution.
+
+### Level one
+
+Level one solution pipeline represents an end-to-end solution for the problem. This means that we can represent it as a function that takes one argument **_D<sub>train</sub>_** which is the training data and returns a solution function **_S(X) &rarr; Y_** which was described in the _Defining the problem_ section. So, basically we can apply this function **_S_** to an unseen data, which is the test dataset in this case, and we can make predictions about which MoAs will get activated. In my case this function **_S_** is represented as a neural network which tries to approximate the *"real"* function **_S_** that produces the correct MoA activations for a given sample. 
+
+Here is a code snippet written in Swift that describes the things that we explained earlier:
+
+~~~swift
+struct Dataset {}
+
+func neural_network(train_sample: [Float]) -> [Float] { return [] }
+
+typealias SolutionFunc = ([Float]) -> [Float]
+
+func level_one_solution(train_data: Dataset) -> SolutionFunc { 
+  return neural_network(train_sample:) 
+}
+~~~
+
+_P.S.: I am using Swift to write code snippets because I have work experience as iOS developer where Swift is the dominant language. When I started learning Python I found it really dirty and less readable compared to Swift. Maybe this is due to the my lack of deeper experience in Python but anyway I love Swift so I will stick to it whenever it is possible :)_
+
+In this code we first define a simple _Dataset_ object which can represents the training dataset. Afterwards we define a function _neural_network_ which accepts a _train_sample_ i.e input vector **_X_** and returns a list of float number which is the output vector **_Y<sub>pred</sub>_**. In the end we have _level_one_solution_ function that accepts a Dataset and returns a _SolutionFunc_ which is just cleaner way of writing `([Float]) -> [Float]` which is a way of defining a function that accepts list of floats and returns another list of floats in Swift. As an example, in the _level_one_function_ we return the previously defined neural network which will approximate the MoA activations for a given train sample. In the real implementation of this function we train a neural network on the given train dataset and return it a solution to the problem.
+
+Nothing stops us from creating multiple different _level_one_solution_ functions and afterwards combining their outputs in order to hopefully produce a better final **_Y<sub>pred</sub>_** output. In the literature this is called ensambling or stacking. [This](https://mlwave.com/kaggle-ensembling-guide/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BPZ4T3JLHTu%2BOWNI0d5kFbg%3D%3D) article explains this concept very well.
+
+### Level two
+
+
+
+
+
+My single solution pipeline can be separated in following processes:
+
+1. **_Data preprocessing_** - this process prepare
 
 
