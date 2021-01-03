@@ -12,7 +12,7 @@ background: '/img/posts/06.jpg'
 
 The goal of this blog post is to describe a medal winning solution to the [MoA competition](https://www.kaggle.com/c/lish-moa/overview) on Kaggle. Since this was my first ranked competition on Kaggle and I do not have plenty of Data Science experience I would say that this blog post is going to be most suitable for beginners in this domain. 
 
-While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. All of the solution code was implemented in Python but since my favorite programming language is Swift the short code snippets in this post are gonna be written in Swift. (TODO: ADD LINK TO REPO)
+While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. All of the solution code was implemented in Python, if you are just interested in the code you can find it on the [github repo](https://github.com/Vilijan/MoAKaggleCompetition).
 
 # Competition explanation
 
@@ -48,7 +48,7 @@ As you can have guessed by now, the input vector **_X_** will be a subset of the
 
 # Solution overview
 
-In this competition I define 3 types of solution pipelines. Let's call them **_level one_**, **_level two_** and **_inference_** solution pipelines. Each of those sub-solutions is presented as a single Jupyter notebook in the github repo(TODO: ADD LINK TO REPO).
+In this competition I define 3 types of solution pipelines. Let's call them **_level one_**, **_level two_** and **_inference_** solution pipelines. Each of those sub-solutions is presented as a single Jupyter notebook in the [github repo](https://github.com/Vilijan/MoAKaggleCompetition/tree/main/code).
 
 ### Level one
 
@@ -74,7 +74,7 @@ In this code we first define a simple _Dataset_ object which represents the trai
 
 Nothing stops us from creating multiple different _level_one_solution_ functions and afterwards using the weighted average of their outputs in order to hopefully produce a better final **_Y<sub>pred</sub>_** output. In the literature this is called ensambling or blending, you can read more about this on this [blog post](https://mlwave.com/kaggle-ensembling-guide/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BPZ4T3JLHTu%2BOWNI0d5kFbg%3D%3D). 
 
-I decided to have 4 different _level_one_solutions_ which will lead to 4 different types of neural networks for every function. After execution of the _level_1_ (TODOO: ADD link to github's script) solution script of the code I am going to end up with saved neural network weights for 4 different models.
+I decided to have 4 different _level_one_solutions_ which will lead to 4 different types of neural networks for every function. After execution of the _level_1_ [solution script](https://github.com/Vilijan/MoAKaggleCompetition/blob/main/code/TrainingNotebook_LevelOne.ipynb) of the code I am going to end up with saved neural network weights for 4 different models.
 
 ### Level two
 
