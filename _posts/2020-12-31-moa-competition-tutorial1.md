@@ -12,7 +12,7 @@ background: '/img/posts/06.jpg'
 
 The goal of this blog post is to describe a medal winning solution to the [MoA competition](https://www.kaggle.com/c/lish-moa/overview) on Kaggle. Since this was my first ranked competition on Kaggle and I do not have plenty of Data Science experience I would say that this blog post is going to be most suitable for beginners in this domain. 
 
-While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. All of the solution code was implemented in Python but because my favorite programming language is Swift all of the code snippets in this post are gonna be written in Swift. (TODO: ADD LINK TO REPO)
+While describing the solution, my idea is to focus more on the overall concepts rather than going into details of the code. All of the solution code was implemented in Python but since my favorite programming language is Swift the short code snippets in this post are gonna be written in Swift. (TODO: ADD LINK TO REPO)
 
 # Competition explanation
 
@@ -108,7 +108,7 @@ I decided to go with the weighted average algorithm which just multiplies every 
 
 # Training solution pipeline
 
-The pipeline of training a single neural network on a given dataset for this competition consists of several processes such as: setting up cross-validation strategy, data preprocessing and training the model.
+The pipeline of training a single neural network on a given dataset for this competition consists of several processes such as: setting up cross-validation strategy, data preprocessing and training a model.
 
 ### Cross-validation strategy
 
@@ -118,7 +118,7 @@ In this competition's dataset we said that every sample i.e row contains a singl
 
 Every given drug to a person activates the same set of MoAs. Additionally, in the competition data there is a _csv_ file that describes which drug was used on every sample in the training data. We use this data to improve our setup of the 5-fold-cross validation strategy. 
 
-[Here](https://www.kaggle.com/c/lish-moa/discussion/195195) is a link to the the code that I used for creating the cross-validation strategy and also there is a nice discussion regarding that. I am using Drug and MultiLabel stratification strategy and the reasons are the following:
+I took the code for creating the cross validation strategy from this [discussion](https://www.kaggle.com/c/lish-moa/discussion/195195). It is using Drug and MultiLabel stratification strategy and the reasons are the following:
 
 * Drug stratification - The distribution of sampled drugs is not the same so some drugs appear a lot more frequently than other drugs. Those drugs that appear very frequently are also expected to be frequent in the test dataset so they are not assigned to their own fold while drugs that are rare belong to the same fold. 
 * MultiLabel stratification - As we said earlier this is multi-label classification problem where some MoAs are a lot more activated than others. For example the MoA _nfkb_inhibitor_ is activated 832 times while the MoA _erbb2_inhibitor_ is activated only once in the training data. While creating the fold data, we need to try to achieve equal activation distribution of each MoA class in every fold. If we are using 5 folds there should be roughly _832/5_ samples where _nfkb_inhibitor_ is active in every fold. This is achievable by using the MultilabelStratifiedKFold class from the [iterative-stratification project]((https://github.com/trent-b/iterative-stratification)).
@@ -131,7 +131,31 @@ What I found challenging here is the decision for which part of the available da
 
 Another way that I think is specific to online data science competition where we know the test features is to scale the data with all the available data (combining the train and test features). Sometimes this process can lead to better results since for every sample in the train data there is a little bit of information about the test data. But this process is risky because we won't know how the models will behave on new unseen data and we can lose some value of the generalization property.
 
-### Training the model
+### Training a model - level one
+
+As I said in the _Solution overview_ section, I used 4 different _level_one_solutions_ where each of those solutions was training different neural network with different data preprocessing function.
+
+![alt text](/img/posts/post-01-moa/train_model_explanation.png "Training models pipeline")
+
+After the execution of this pipeline we have 4 models that are capable of providing us a solution for the MoA competition. In fact we can submit each of them separately and check their performances. What is important here to note is that every model was trained with different preprocessing function, so whenever we want to make predictions with that model on new unseen data we need to pass the data to the model's specific data preprocessing function.
+
+In order our blending to be more successful at the end our models need to be more diversified i.e less correlated. If we blend two almost identical models then we are not gonna be getting any new information from the blend it will be just like averaging a single model. While on the other hand if we blend models that have completely different view of the world, the final blended model will have a little bit of both worlds regarding which-one was more real. To make the models more diversified I used 4 different neural network architectures and 4 different data-scaling functions. The 4<sup>th</sup> model which is a 1D-CNN was inspired by the beautiful explanaition of the [solution](https://www.kaggle.com/c/lish-moa/discussion/202256) that achieved second place on this competition. 
+
+As discussed before, I am using 5 fold cross-validation strategy so in every solution function I will end up with 5 different weights for the neural network used in that solution. Additionally, to make the predictions more stable and to reduce the randomness I execute each solution function on 3 different seeds and in the end I average out the predictions of each seed.
+
+### Training the stacked model - level two
+
+When we have successfully trained the 4 separate models we can go one level further and train the stacked model. This training pipeline is almost identical like the previous one, there is just one additional detail that is creating new dataset based on the predictions obtained by the previous models.
+
+![alt text](/img/posts/post-01-moa/meta_model.png "Stacked model")
+
+This is the last model that is trained, so after this process has finished we end up with total of 5 trained models. The first 4 are level one models and can be directly submitted to the competition while the 5<sup>th</sup> stacked model is dependent of the predictions of the previous models. 
+
+
+
+# Final submission
+
+
 
 
 
