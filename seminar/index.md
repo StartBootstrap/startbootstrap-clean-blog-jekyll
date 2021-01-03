@@ -33,9 +33,8 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **22 January, 2021**: to be announced (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
 * **5 February, 2021**: to be announced (**Subhajit Bandyopadhyay**, *Tezpur University*)
-* **12 February, 2021**: (to be announced)
+* **12 February, 2021**: (to be announced) (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
-* **26 February, 2021**: (to be announced) (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 
 
 ## Past Talks
