@@ -19,18 +19,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!**
+**tba**
 
-**Souvik Parial (Indian Institute of Technology Guwahati)**
+**Bibekananda Maji (Indian Institute of Technology Indore)**
 
-**18 December 2020 (7 pm IST)**
+**8 January 2021 (7 pm IST)**
 
-**Abstract**: Consider a bipartite graph of men and women, with edges representing preferences/possible matches, where the goal is to find a matching of pairs of men-women that are "stable". We'll see the classical Gale-Shapley algorithm for solving the same. We also discuss some very interesting variants of the problem and some useful applications in the area. In this introductory talk, the goal is to give a bird's eye view to the mathematicians into the area of (Theoretical) computer science through this problem and to give the computer scientists an idea of how a theoretically interesting problem can also have (immediate) useful applications in the real world. The talk will be accesible to a broad audience and no background will be assumed, apart from some level of mathematical maturity.
+**Abstract**: tba
 
 
 ## Upcoming Talks
 
-* **8 January, 2021**: to be announced (**Bibekananda Maji**, *Indian Institute of Technology Indore*)
 * **22 January, 2021**: to be announced (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
 * **5 February, 2021**: to be announced (**Subhajit Bandyopadhyay**, *Tezpur University*)
@@ -62,6 +61,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 17. **An introduction to combinatorial representation theory** (*Manjil Saikia*: 27 November 2020)  
 18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
 19. **[On the parity of Andrews' Singular overpartition function](/seminar/Ajit_Singh.pdf)** (*Ajit Singh*: 11 December 2020)
+20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
       
       
 
