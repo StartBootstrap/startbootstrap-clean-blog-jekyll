@@ -120,16 +120,18 @@ Every given drug to a person activates the same set of MoAs. Additionally, in th
 
 I took the code for creating the cross validation strategy from this [discussion](https://www.kaggle.com/c/lish-moa/discussion/195195). It is using Drug and MultiLabel stratification strategy and the reasons are the following:
 
-* Drug stratification - The distribution of sampled drugs is not the same so some drugs appear a lot more frequently than other drugs. Those drugs that appear very frequently are also expected to be frequent in the test dataset so they are not assigned to their own fold while drugs that are rare belong to the same fold. 
-* MultiLabel stratification - As we said earlier this is multi-label classification problem where some MoAs are a lot more activated than others. For example the MoA _nfkb_inhibitor_ is activated 832 times while the MoA _erbb2_inhibitor_ is activated only once in the training data. While creating the fold data, we need to try to achieve equal activation distribution of each MoA class in every fold. If we are using 5 folds there should be roughly _832/5_ samples where _nfkb_inhibitor_ is active in every fold. This is achievable by using the MultilabelStratifiedKFold class from the [iterative-stratification project]((https://github.com/trent-b/iterative-stratification)).
+* _Drug stratification_ - The distribution of sampled drugs is not the same so some drugs appear a lot more frequently than other drugs. Those drugs that appear very frequently are also expected to be frequent in the test dataset so they are not assigned to their own fold while drugs that are rare belong to the same fold. This means that we will evaluate the performance of the model on seen and unseen drugs which will be also the case when the model will be ran on the private dataset.
+* _MultiLabel stratification_ - As we said earlier this is multi-label classification problem where some MoAs are a lot more activated than others. For example the MoA _nfkb_inhibitor_ is activated 832 times while the MoA _erbb2_inhibitor_ is activated only once in the training data. While creating the fold data, we need to try to achieve equal activation distribution of each MoA class in every fold. If we are using 5 folds there should be roughly _832/5_ samples where _nfkb_inhibitor_ is active in every fold. This is achievable by using the MultilabelStratifiedKFold class from the [iterative-stratification project]((https://github.com/trent-b/iterative-stratification)).
+
+With setting up the cross-validation strategy this way, we are hoping that we are mimicking the private test set as best as possible.
 
 ### Data preprocessing
 
-In my solution I didn't use very much data preprocessing. Before training the model I only scaled the data using QuantileNormalization or RankGaus scalers in order to help the neural network to learn easier. A lot of people on this competition used PCA as additional features to the model but I stayed away from it.
+In my solution I didn't use very much data preprocessing. Before training the model I only scaled the data using QuantileNormalization or RankGaus scalers in order to help the neural network learn easier. A lot of people on this competition used PCA as additional features to the model but I stayed away from it.
 
 What I found challenging here is the decision for which part of the available data to fit to the scaler and which part of the data to just transform it. I assume that the correct way _by the book_ is to fit the training data and then to just transform the test data. In this way we are not leaking any information from the test data to the train data. I used this way of scaling.
 
-Another way that I think is specific to online data science competition where we know the test features is to scale the data with all the available data (combining the train and test features). Sometimes this process can lead to better results since for every sample in the train data there is a little bit of information about the test data. But this process is risky because we won't know how the models will behave on new unseen data and we can lose some value of the generalization property.
+Another way that I think is specific to online data science competition, where we know the test features, is to scale the data with all the available data (combining the train and test features). Sometimes this process can lead to better results since for every sample in the train data there is a little bit of information about the test data. But this process is risky because we won't know how the models will behave on new unseen data and we can lose some value of the generalization property.
 
 ### Training a model - level one
 
@@ -155,7 +157,14 @@ This is the last model that is trained, so after this process has finished we en
 
 # Final submission
 
+The goal of the inference notebook is to load all of the previously trained neural networks where each network represents a solution function to the MoA competition problem. We saw in the previous section that after finishing with the whole training process we end up with 5 different trained models architectures. Since every model architecture was trained on 5 folds and every training process was executed on 3 different seeds we end up with 15 saved weights for every one of the 5 models architectures. The predictions from those 15 neural networks for each model architecture are simply averaged and afterwards we end up with 5 different predictions which represents the total number of model used.
 
+![alt text](/img/posts/post-01-moa/blog_blending.png "Inference and blending")
 
+There are multiple ways of blending the predictions of the 5 different models. One possible way is to submit the 4 level one models to the competition and then assign weights based on their performance on the public leaderboard. Another to go decide the target activation is based on majority vote of the multiple models. I decided to calculate the blend weights based on the best performance on my local validation score. 
 
+# Final thoughts
 
+Good job, you made it all the way to the end. I want to thank you very much for reading the blog post and I hope that you had a fun time and maybe learnt something new. This was my first writing experience of this kind so any feedback is much appreciated.
+
+It really enjoyed competing in this MoA competition on Kaggle and I am really thankful for all the people who made this competition possible. Looking forward for the next one and for the next blog post!
