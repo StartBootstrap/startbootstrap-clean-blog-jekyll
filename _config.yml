@@ -1,19 +1,19 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              bakemyday
+email:              leekyounghee@kakao.com
+description:        bakemyday : 2018년에 만들어낸 문구인데, 그때는 내가 도자기 계속 배울 줄 알았지.. 
+author:             leekyounghee
 baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+url:                "https://leekyounghee.github.io/bakemyday"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   
+github_username:    leekyounghee
+facebook_username:  
+instagram_username:  leekyounghee
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:    # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
