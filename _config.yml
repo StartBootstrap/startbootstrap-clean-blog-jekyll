@@ -2,8 +2,8 @@ title:              bakemyday
 email:              leekyounghee@kakao.com
 description:        bakemyday : 2018년에 만들어낸 문구인데, 그때는 내가 도자기 계속 배울 줄 알았지.. 
 author:             leekyounghee
-baseurl:            "https://leekyounghee.github.io/"
-url:                "https://leekyounghee.github.io/"
+baseurl:            ""
+url:                ""
 
 # Social Profiles
 twitter_username:   
