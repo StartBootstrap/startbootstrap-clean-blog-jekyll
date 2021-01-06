@@ -19,13 +19,13 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**tba**
+**Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities**
 
 **Bibekananda Maji (Indian Institute of Technology Indore)**
 
 **8 January 2021 (7 pm IST)**
 
-**Abstract**: tba
+**Abstract**: The unorganized portion of Ramanujan's second notebook contains five interesting $q$-series identities. Recently, in joint work with Atul Dixit, we found a one-variable generalization of one of the aforementioned five identities of Ramanujan and derived the last three $q$-series identities, but couldn't derive the first two. In this work, we establish a new $q$-series identity from which we successfully deduce all the five $q$-series identities of Ramanujan and also derive a few interesting weighted partition identities. This is joint work with Subhas Chand Bhoria and Pramod Eyyunni.
 
 
 ## Upcoming Talks
