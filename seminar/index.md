@@ -61,7 +61,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
 19. **[On the parity of Andrews' Singular overpartition function](/seminar/Ajit_Singh.pdf)** (*Ajit Singh*: 11 December 2020)
 20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
-21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
+21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_Maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
       
       
 
