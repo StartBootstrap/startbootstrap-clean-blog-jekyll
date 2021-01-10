@@ -19,22 +19,22 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities**
+**Interconnected sequences: A generalization of Fibonacci sequence and some identities**
 
-**Bibekananda Maji (Indian Institute of Technology Indore)**
+**Neeraj Kumar Paul (Gauhati University, Guwahati)**
 
-**8 January 2021 (7 pm IST)**
+**22 January 2021 (7 pm IST)**
 
-**Abstract**: The unorganized portion of Ramanujan's second notebook contains five interesting $q$-series identities. Recently, in joint work with Atul Dixit, we found a one-variable generalization of one of the aforementioned five identities of Ramanujan and derived the last three $q$-series identities, but couldn't derive the first two. In this work, we establish a new $q$-series identity from which we successfully deduce all the five $q$-series identities of Ramanujan and also derive a few interesting weighted partition identities. This is joint work with Subhas Chand Bhoria and Pramod Eyyunni.
+**Abstract**: We explore a generalization of Fibonacci sequence in the sense of number of sequences. Fibonacci sequence is a particular case of generating one sequence. We generalize few identities related to Fibonacci numbers, in particular Cassini's identity. Two properties viz. "two consecutive Fibonacci numbers are relatively prime" and "every third Fibonacci number is even" are also dealt with.
 
 
 ## Upcoming Talks
 
-* **22 January, 2021**:  Interconnected sequences: A generalization of Fibonacci sequence and some identities (**Neeraj Kumar Paul**, *Gauhati University, Guwahati*)
 * **29 January, 2021**: to be announced (**Ajay Sharma**, *Sadiya College, Assam*)
-* **5 February, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, *Tezpur University*)
+* **05 February, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, *Tezpur University*)
 * **12 February, 2021**: to be announced (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
+* **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
 
 
 ## Past Talks
@@ -61,6 +61,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 18. **[$\mu$-Statistically Convergent Multiple Sequences in Probabilistic Normed Spaces](/seminar/Rupam_Haloi.pdf)** (*Rupam Haloi*: 04 December 2020)  
 19. **[On the parity of Andrews' Singular overpartition function](/seminar/Ajit_Singh.pdf)** (*Ajit Singh*: 11 December 2020)
 20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
+21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
       
       
 
