@@ -153,6 +153,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 136. **More Letters of Note: Correspondence Deserving of a Wider Audience**, *Shaun Usher (Compiler)*, Unbound & Canongate Books, 2015.
 137. **When Life Nearly Died: The Greatest Mass Extinction of All Time**, *Michael J. Benton*, Thames & Hudson, 2003.
 138. **Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty**, *Abhijit V. Banerjee and Esther Duflo*, Public Affairs, 2011.
+139. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
