@@ -211,6 +211,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 52. **The Last Juror**, *John Grisham*, Arrow Books, 2004.
 53. **Chinatown Days**, *Rita Chowdhury*, Macmillan, 2018.
 54. **The Ministry of Utmost Happiness**, *Arundhati Roy*, Hamish Hamilton, 2017.
+55. **Murder on the Orient Express**, *Agatha Christie*, HarperCollins, 2017.
 
 
 ## Graphic Books
