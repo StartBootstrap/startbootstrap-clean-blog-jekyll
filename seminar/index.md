@@ -35,6 +35,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **12 February, 2021**: to be announced (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
 * **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
+* **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
+* **12 March, 2021**: to be announced (to be announced)
+* **19 March, 2021**: to be announced (to be announced)
+* **26 March, 2021**: to be announced (to be announced)
+* **09 April, 2021**: to be announced (to be announced)
+* **23 April, 2021**: to be announced (to be announced)
+* **30 April, 2021**: to be announced (to be announced)
+* **07 May, 2021**: to be announced (to be announced)
+* **14 May, 2021**: to be announced (to be announced)
+* **21 May, 2021**: to be announced (to be announced)
+* **28 May, 2021**: to be announced (to be announced)
 
 
 ## Past Talks
