@@ -19,18 +19,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Interconnected sequences: A generalization of Fibonacci sequence and some identities**
+**Tessellation by Equilateral Polygons**
 
-**Neeraj Kumar Paul (Gauhati University, Guwahati)**
+**Anirban Roy (Christ University, Bengaluru)**
 
-**22 January 2021 (7 pm IST)**
+**29 January 2021 (7 pm IST)**
 
-**Abstract**: We explore a generalization of Fibonacci sequence in the sense of number of sequences. Fibonacci sequence is a particular case of generating one sequence. We generalize few identities related to Fibonacci numbers, in particular Cassini's identity. Two properties viz. "two consecutive Fibonacci numbers are relatively prime" and "every third Fibonacci number is even" are also dealt with.
+**Abstract**: In the century long search of covering a two-dimensional Euclidean plane by different polygons, it is been found that no convex polygons can pave the plane, if it has more than six sides. And among these polygons, it is observed that some are equilateral. In this talk we will discuss the nature and existence of these equilateral tilings. We will explore in detail the multiple approaches that have been obtained so far to prove this type of tilings.
 
 
 ## Upcoming Talks
 
-* **29 January, 2021**: to be announced (**Anirban Roy**, *Christ University, Bengaluru*)
 * **05 February, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, *Tezpur University*)
 * **12 February, 2021**: to be announced (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
@@ -73,6 +72,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 19. **[On the parity of Andrews' Singular overpartition function](/seminar/Ajit_Singh.pdf)** (*Ajit Singh*: 11 December 2020)
 20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
 21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_Maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
+22. **Interconnected sequences: A generalization of Fibonacci sequence and some identities** (*Neeraj Kumar Paul*: 22 January 2021)
       
       
 
