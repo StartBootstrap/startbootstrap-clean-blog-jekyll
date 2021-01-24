@@ -153,7 +153,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 136. **More Letters of Note: Correspondence Deserving of a Wider Audience**, *Shaun Usher (Compiler)*, Unbound & Canongate Books, 2015.
 137. **When Life Nearly Died: The Greatest Mass Extinction of All Time**, *Michael J. Benton*, Thames & Hudson, 2003.
 138. **Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty**, *Abhijit V. Banerjee and Esther Duflo*, Public Affairs, 2011.
-139. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+139. **India Misinformed: The True Story**, *Pratik Sinha, Sumaiya Shaikh and Arjun Sidharth*, HarperCollins India, 2019.
+140. **Genius at Play: The Curious Mind of John Horton Conway**, *Siobhan Roberts*, Bloomsbury, 2015.
+141. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -202,7 +204,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 42. **The tattooist of Auschwitz**, *Heather Morris*, Zaffre, 2018.
 43. **Nothing Ventured**, *Jeffrey Archer*, Pan Macmillan, 2019.
 44. **Life Over Two Beers: And Other Stories**, *Sanjeev Sanyal*, Penguin Random House, 2018.
-45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books, 2008.
+45. **Next Door: Stories**, *Jahnavi Barua*, Penguin Books India, 2008.
 46. **The Thing Around Your Neck**, *Chimamanda Ngozi Adichie*, W. F. Howes Ltd., 2009.
 47. **A Good Hanging and other stories**, *Ian Rankin*, Orion Books Ltd., 1998.
 48. **Fräulein Else: A Novel**, *Arthur Schnitzler (Translated by Robert A. Simon)*, Simon and Schuster, 1971.
@@ -213,6 +215,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 53. **Chinatown Days**, *Rita Chowdhury*, Macmillan, 2018.
 54. **The Ministry of Utmost Happiness**, *Arundhati Roy*, Hamish Hamilton, 2017.
 55. **Murder on the Orient Express**, *Agatha Christie*, HarperCollins, 2017.
+56. **Undertow**, *Jahnavi Barua*, Penguin Books India, 2020.
+57. **His Father's Disease**, *Aruni Kashyap*, Context, 2019.
 
 
 ## Graphic Books
