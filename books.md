@@ -195,7 +195,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 33. **The Old Man and The Sea**, *Ernest Hemingway*, Arrow Books, 2004.
 34. **Heads You Win**, *Jeffrey Archer*, Pan Macmillan, 2018.
 35. **Of Mice and Men**, *John Steinbeck*, Penguin Books, 1993.
-36. **Candide**, *Voltaire (Translated by anonymous)*, Dover Publications, 1991.
+36. **His Father's Disease: Stories**, *Aruni Kashyap*, Context, 2019.
 37. **Lot No. 249**, *Arthur Conan Doyle*, Penguin Little Black Classics, 2016.
 38. **How Much Land Does A Man Need?**, *Leo Tolstoy*, Penguin Little Black Classics, 2015.
 39. **A Madman Dreams of Turing Machines**, *Janna Levin*, Anchor Books, 2006.
@@ -216,7 +216,6 @@ The books which are marked with a ** are the ones that I am either currently rea
 54. **The Ministry of Utmost Happiness**, *Arundhati Roy*, Hamish Hamilton, 2017.
 55. **Murder on the Orient Express**, *Agatha Christie*, HarperCollins, 2017.
 56. **Undertow**, *Jahnavi Barua*, Penguin Books India, 2020.
-57. **His Father's Disease**, *Aruni Kashyap*, Context, 2019.
 
 
 ## Graphic Books
