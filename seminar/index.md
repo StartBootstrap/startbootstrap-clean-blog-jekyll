@@ -19,18 +19,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Tessellation by Equilateral Polygons**
+**Plane Partitions and Other Topics**
 
-**Anirban Roy (Christ University, Bengaluru)**
+**Subhajit Bandyopadhyay (Tezpur University)**
 
-**29 January 2021 (7 pm IST)**
+**05 February 2021 (7 pm IST)**
 
-**Abstract**: In the century long search of covering a two-dimensional Euclidean plane by different polygons, it is been found that no convex polygons can pave the plane, if it has more than six sides. And among these polygons, it is observed that some are equilateral. In this talk we will discuss the nature and existence of these equilateral tilings. We will explore in detail the multiple approaches that have been obtained so far to prove this type of tilings.
+**Abstract**: In this talk we talk about the concept of plane partitions and how they relate to the integer partitions. Ferrers diagram, Young tableau and Schur polynomials are introduced, leading to the famous generating function of plane partitions by MacMahon. We also talk about how it coincides with the generating function for n-color partions and the implications thereafter.
 
 
 ## Upcoming Talks
 
-* **05 February, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, *Tezpur University*)
 * **12 February, 2021**: to be announced (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: to be announced (**Ritu Dutta**, *Dibrugarh University*)
 * **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
@@ -41,7 +40,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **09 April, 2021**: to be announced (to be announced)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
 * **30 April, 2021**: to be announced (to be announced)
-* **07 May, 2021**: to be announced (to be announced)
+* **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (to be announced)
 * **21 May, 2021**: to be announced (to be announced)
 * **28 May, 2021**: to be announced (to be announced)
@@ -73,6 +72,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
 21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_Maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
 22. **Interconnected sequences: A generalization of Fibonacci sequence and some identities** (*Neeraj Kumar Paul*: 22 January 2021)
+23. **Tessellation by Equilateral Polygons** (*Anirban Roy*: 29 January 2021)
       
       
 
