@@ -39,7 +39,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **26 March, 2021**: to be announced (to be announced)
 * **09 April, 2021**: to be announced (to be announced)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
-* **30 April, 2021**: to be announced (to be announced)
+* **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (to be announced)
 * **21 May, 2021**: to be announced (to be announced)
