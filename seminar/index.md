@@ -72,7 +72,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 20. **[The Stable Marriage Problem: Marriages made by algorithms, Guaranteed with stability!](/seminar/Souvik_Parial.pdf)** (*Souvik Parial*: 18 December 2020)
 21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_Maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
 22. **Interconnected sequences: A generalization of Fibonacci sequence and some identities** (*Neeraj Kumar Paul*: 22 January 2021)
-23. **Tessellation by Equilateral Polygons** (*Anirban Roy*: 29 January 2021)
+23. **[Tessellation by Equilateral Polygons](/seminar/Anirban_Roy.pdf)** (*Anirban Roy*: 29 January 2021)
       
       
 
