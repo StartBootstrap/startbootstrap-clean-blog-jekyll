@@ -155,7 +155,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 138. **Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty**, *Abhijit V. Banerjee and Esther Duflo*, Public Affairs, 2011.
 139. **India Misinformed: The True Story**, *Pratik Sinha, Sumaiya Shaikh and Arjun Sidharth*, HarperCollins India, 2019.
 140. **Genius at Play: The Curious Mind of John Horton Conway**, *Siobhan Roberts*, Bloomsbury, 2015.
-141. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+141. **The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle**, *David Edmonds*, Princeton University Press, 2020.
+142. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
