@@ -19,18 +19,16 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Plane Partitions and Other Topics**
+**Enumeration of matrices and splitting subspaces over finite fields**
 
-**Subhajit Bandyopadhyay (Tezpur University)**
+**Divya Aggarwal (Indraprastha Institute of Information Technology, Delhi)**
 
-**05 February 2021 (7 pm IST)**
+**12 February 2021 (7 pm IST)**
 
-**Abstract**: In this talk we talk about the concept of plane partitions and how they relate to the integer partitions. Ferrers diagram, Young tableau and Schur polynomials are introduced, leading to the famous generating function of plane partitions by MacMahon. We also talk about how it coincides with the generating function for n-color partions and the implications thereafter.
-
+**Abstract**: We will outline some enumeration techniques and discuss their applications in counting various kinds of matrices. We will then introduce the notion of T-splitting subspaces and discuss their connections with other areas. Enumeration of splitting subspaces for an arbitrary operator T is an open problem. We will describe some recent progress on it and some future directions for research.
 
 ## Upcoming Talks
 
-* **12 February, 2021**: to be announced (**Divya Aggarwal**, *Indraprastha Institute of Information Technology, Delhi*)
 * **19 February, 2021**: Voting rules: an introduction (**Ritu Dutta**, *Dibrugarh University*)
 * **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
 * **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
@@ -43,7 +41,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (to be announced)
 * **21 May, 2021**: to be announced (to be announced)
-* **28 May, 2021**: to be announced (to be announced)
+* **28 May, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, Tezpur University)
 
 
 ## Past Talks
