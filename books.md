@@ -156,8 +156,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 139. **India Misinformed: The True Story**, *Pratik Sinha, Sumaiya Shaikh and Arjun Sidharth*, HarperCollins India, 2019.
 140. **Genius at Play: The Curious Mind of John Horton Conway**, *Siobhan Roberts*, Bloomsbury, 2015.
 141. **Galileo: And the Science Deniers**, *Mario Livio*, Simon & Schuster, 2020.
-142. **The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle**, *David Edmonds*, Princeton University Press, 2020.
-143. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+142. **Maths on the Back of an Envelope: Clever ways to (roughly) calculate anything**, *Rob Eastaway*, HarperCollins, 2019.
+143. **The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle**, *David Edmonds*, Princeton University Press, 2020.
+144. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -218,6 +219,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 54. **The Ministry of Utmost Happiness**, *Arundhati Roy*, Hamish Hamilton, 2017.
 55. **Murder on the Orient Express**, *Agatha Christie*, HarperCollins, 2017.
 56. **Undertow**, *Jahnavi Barua*, Penguin Books India, 2020.
+57. **The Tales of Beedle the Bard**, *J. K. Rowling*, Pottermore, 2016.
 
 
 ## Graphic Books
