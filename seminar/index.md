@@ -32,7 +32,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **19 February, 2021**: Voting rules: an introduction (**Ritu Dutta**, *Dibrugarh University*)
 * **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
 * **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
-* **12 March, 2021**: to be announced (to be announced)
+* **12 March, 2021**: to be announced (**Azizul Hoque**, *Rangapara College, Assam*)
 * **19 March, 2021**: to be announced (to be announced)
 * **26 March, 2021**: to be announced (to be announced)
 * **09 April, 2021**: to be announced (**Bidihsa Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
