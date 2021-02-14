@@ -19,22 +19,21 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Enumeration of matrices and splitting subspaces over finite fields**
+**Voting rules: an introduction**
 
-**Divya Aggarwal (Indraprastha Institute of Information Technology, Delhi)**
+**Ritu Dutta (Dibrugarh University)**
 
-**12 February 2021 (7 pm IST)**
+**19 February 2021 (7 pm IST)**
 
-**Abstract**: We will outline some enumeration techniques and discuss their applications in counting various kinds of matrices. We will then introduce the notion of T-splitting subspaces and discuss their connections with other areas. Enumeration of splitting subspaces for an arbitrary operator T is an open problem. We will describe some recent progress on it and some future directions for research.
+**Abstract**: In this talk, we talk about different voting methods. Their merits and demerits, how voting rule(s) shaped our democracy, what are the possibilities to improve our democratic institutions? If time permits, we will discuss some recent voting reforms across the globe.
 
 ## Upcoming Talks
 
-* **19 February, 2021**: Voting rules: an introduction (**Ritu Dutta**, *Dibrugarh University*)
-* **26 February, 2021**: to be announced (**Gauranga K. Baishya**, *Tezpur University*)
+* **26 February, 2021**: Combinatorial proof of a beautiful Euler-type Identity (**Gauranga K. Baishya**, *Tezpur University*)
 * **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
-* **12 March, 2021**: to be announced (**Azizul Hoque**, *Rangapara College, Assam*)
+* **12 March, 2021**: Parametrized Families of Quadratic Fields with Large n-rank (**Azizul Hoque**, *Rangapara College, Assam*)
 * **19 March, 2021**: to be announced (to be announced)
-* **26 March, 2021**: to be announced (to be announced)
+* **26 March, 2021**: to be announced (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
 * **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 21. **[Generalization of five $q$-series identities of Ramanujan and unexplored weighted partition identities](/seminar/Bibekananda_Maji.pdf)** (*Bibekananda Maji*: 08 January 2021)
 22. **Interconnected sequences: A generalization of Fibonacci sequence and some identities** (*Neeraj Kumar Paul*: 22 January 2021)
 23. **[Tessellation by Equilateral Polygons](/seminar/Anirban_Roy.pdf)** (*Anirban Roy*: 29 January 2021)
+24. **[Enumeration of matrices and splitting subspaces over finite fields](/seminar/Divya_Aggarwal.pdf)** (*Divya Aggarwal*: 12 February 2021)
       
       
 
