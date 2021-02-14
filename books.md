@@ -158,7 +158,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 141. **Galileo: And the Science Deniers**, *Mario Livio*, Simon & Schuster, 2020.
 142. **Maths on the Back of an Envelope: Clever ways to (roughly) calculate anything**, *Rob Eastaway*, HarperCollins, 2019.
 143. **The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle**, *David Edmonds*, Princeton University Press, 2020.
-144. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+144. **The Economics of Small Things**, *Sudipta Sarangi*, Penguin Books, 2020.
+145. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
