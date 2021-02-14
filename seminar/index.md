@@ -15,7 +15,7 @@ You can register to be on the mailing list by filling [in this form](https://for
 
 Check the [FAQs](#faqs).
 
-All the talks will be over Zoom. To join a talk please use the following information: ***Meeting ID 926 1140 2828*** and the Passcode is ***the smallest positive integer that can be written as the sum of two cubes in two different ways***.
+All the talks will be over Zoom. To join a talk please use the following information: ***Meeting ID 926 1140 2828*** and the Passcode is ***1729***.
 
 ## Next Talk
 
