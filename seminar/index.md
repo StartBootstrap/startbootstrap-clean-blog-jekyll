@@ -19,17 +19,16 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Voting rules: an introduction**
+**Combinatorial proof of a beautiful Euler-type Identity**
 
-**Ritu Dutta (Dibrugarh University)**
+**Gauranga K. Baishya (Tezpur University)**
 
-**19 February 2021 (7 pm IST)**
+**26 February 2021 (7 pm IST)**
 
-**Abstract**: In this talk, we talk about different voting methods. Their merits and demerits, how voting rule(s) shaped our democracy, what are the possibilities to improve our democratic institutions? If time permits, we will discuss some recent voting reforms across the globe.
+**Abstract**: Let a(n) be the number of partitions of n such that the set of even parts have exactly one element, b(n) be the difference between the number of parts in all odd partitions of n and the number of parts in all distinct partitions of n and c(n) are the number of partitions of n in which exactly one part is repeated. One can show that a(n)=b(n) and b(n)=c(n) separately. We will prove combinatorially, the beautiful identity that a(n)=b(n)=c(n). The proof relies on bijections between a set and a multiset, where the partitions in the multiset are decorated with bit strings. This is an expository talk.
 
 ## Upcoming Talks
 
-* **26 February, 2021**: Combinatorial proof of a beautiful Euler-type Identity (**Gauranga K. Baishya**, *Tezpur University*)
 * **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
 * **12 March, 2021**: Parametrized Families of Quadratic Fields with Large n-rank (**Azizul Hoque**, *Rangapara College, Assam*)
 * **19 March, 2021**: to be announced (to be announced)
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 22. **Interconnected sequences: A generalization of Fibonacci sequence and some identities** (*Neeraj Kumar Paul*: 22 January 2021)
 23. **[Tessellation by Equilateral Polygons](/seminar/Anirban_Roy.pdf)** (*Anirban Roy*: 29 January 2021)
 24. **[Enumeration of matrices and splitting subspaces over finite fields](/seminar/Divya_Aggarwal.pdf)** (*Divya Aggarwal*: 12 February 2021)
+25. **[Voting Rules: An Introduction](/seminar/Ritu_Dutta.pdf)** (*Ritu Dutta*: 19 February 2021)
       
       
 
