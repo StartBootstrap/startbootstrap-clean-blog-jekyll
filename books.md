@@ -159,7 +159,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 142. **Maths on the Back of an Envelope: Clever ways to (roughly) calculate anything**, *Rob Eastaway*, HarperCollins, 2019.
 143. **The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle**, *David Edmonds*, Princeton University Press, 2020.
 144. **The Economics of Small Things**, *Sudipta Sarangi*, Penguin Books, 2020.
-145. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+145. **The Dinosaur Artist: Obsession, Science, and the Global Quest for Fossils**, *Paige Williams*, Hachette Books, 2019.
+146. **Outliers: The Story of Success**, *Malcolm Gladwell*, Back Bay Books: Little, Brown and Company, 2009.
+147. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -250,3 +252,4 @@ The books which are marked with a ** are the ones that I am either currently rea
 
 1. **Not a Nice Man to Know: The Best of Khushwant Singh**, *Khushwant Singh*, Penguin Books, 1993.
 2. **I love you madly**, *Helen Exley (ed.), Liz Smith and Caroline Gardner (Illustrators)*, Helen Exley Giftbooks, 2005.
+3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
