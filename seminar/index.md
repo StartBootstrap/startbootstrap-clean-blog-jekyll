@@ -31,7 +31,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 * **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
 * **12 March, 2021**: Parametrized Families of Quadratic Fields with Large n-rank (**Azizul Hoque**, *Rangapara College, Assam*)
-* **19 March, 2021**: to be announced (to be announced)
+* **19 March, 2021**: to be announced (**Tushar Kanta Naik**, *Indian Institute of Science Education and Research, Mohali*)
 * **26 March, 2021**: to be announced (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
