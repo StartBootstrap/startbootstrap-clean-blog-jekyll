@@ -19,7 +19,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**CGromov's compactness theorem for (pseudo)holomorphic curves**
+**Gromov's compactness theorem for (pseudo)holomorphic curves**
 
 **Mohan Swaminathan (Princeton University, USA)**
 
