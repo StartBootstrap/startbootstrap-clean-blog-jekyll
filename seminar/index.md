@@ -19,19 +19,18 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Combinatorial proof of a beautiful Euler-type Identity**
+**CGromov's compactness theorem for (pseudo)holomorphic curves**
 
-**Gauranga K. Baishya (Tezpur University)**
+**Mohan Swaminathan (Princeton University, USA)**
 
-**26 February 2021 (7 pm IST)**
+**05 March 2021 (7 pm IST)**
 
-**Abstract**: Let a(n) be the number of partitions of n such that the set of even parts have exactly one element, b(n) be the difference between the number of parts in all odd partitions of n and the number of parts in all distinct partitions of n and c(n) are the number of partitions of n in which exactly one part is repeated. One can show that a(n)=b(n) and b(n)=c(n) separately. We will prove combinatorially, the beautiful identity that a(n)=b(n)=c(n). The proof relies on bijections between a set and a multiset, where the partitions in the multiset are decorated with bit strings. This is an expository talk.
+**Abstract**: I will provide some motivation and an introduction to the titular theorem which roughly states (in a special case) that the space of smooth projective curves (of a given genus and given area) in a closed Kahler manifold can be compactified by adding certain special types of singular curves. Assuming standard estimates on solutions of the Cauchy-Riemann equation as a black box, I will then sketch the proof of Gromov's theorem as an application of the Arzela-Ascoli theorem.
 
 ## Upcoming Talks
 
-* **05 March, 2021**: to be announced (**Mohan Swaminathan**, *Princeton University, USA*)
 * **12 March, 2021**: Parametrized Families of Quadratic Fields with Large n-rank (**Azizul Hoque**, *Rangapara College, Assam*)
-* **19 March, 2021**: to be announced (**Tushar Kanta Naik**, *Indian Institute of Science Education and Research, Mohali*)
+* **19 March, 2021**: Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra (**Tushar Kanta Naik**, *Indian Institute of Science Education and Research, Mohali*)
 * **26 March, 2021**: to be announced (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 23. **[Tessellation by Equilateral Polygons](/seminar/Anirban_Roy.pdf)** (*Anirban Roy*: 29 January 2021)
 24. **[Enumeration of matrices and splitting subspaces over finite fields](/seminar/Divya_Aggarwal.pdf)** (*Divya Aggarwal*: 12 February 2021)
 25. **[Voting Rules: An Introduction](/seminar/Ritu_Dutta.pdf)** (*Ritu Dutta*: 19 February 2021)
+26. **[Combinatorial proof of a beautiful Euler-type Identity](/seminar/Gauranga_Baishya.pdf)** (*Gauranga K. Baishya*: 26 February 2021)
       
       
 
