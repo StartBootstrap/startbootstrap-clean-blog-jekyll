@@ -19,17 +19,16 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Gromov's compactness theorem for (pseudo)holomorphic curves**
+**Parametrized Families of Quadratic Fields with Large n-rank**
 
-**Mohan Swaminathan (Princeton University, USA)**
+**Azizul Hoque (Rangapara College, Assam)**
 
-**05 March 2021 (7 pm IST)**
+**12 March 2021 (7 pm IST)**
 
-**Abstract**: I will provide some motivation and an introduction to the titular theorem which roughly states (in a special case) that the space of smooth projective curves (of a given genus and given area) in a closed Kahler manifold can be compactified by adding certain special types of singular curves. Assuming standard estimates on solutions of the Cauchy-Riemann equation as a black box, I will then sketch the proof of Gromov's theorem as an application of the Arzela-Ascoli theorem.
+**Abstract**: Constructing number fields with large n-rank has proved to be a challenging practical problem, due in part to the fact that we believe such examples to be very rare. There is a conjecture (folklore) that the n-rank of k is unbounded when k runs through the quadratic fields. It was Quer who constructed 3 imaginary quadratic fields with 3-rank equal to 6, and this result still stands as the current record. We will discuss two methods for constructing quadratic fields with large n-rank. We will show that for every large positive real number x, there exists a sufficiently large positive constant c such that the number of quadratic fields with 3-rank at least 3 and absolute discriminant ≤ x is > $cx^{1/3}$. If time permits, we will construct a parametric family of real (resp. imaginary) quadratic fields with n-rank at least 2.
 
 ## Upcoming Talks
 
-* **12 March, 2021**: Parametrized Families of Quadratic Fields with Large n-rank (**Azizul Hoque**, *Rangapara College, Assam*)
 * **19 March, 2021**: Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra (**Tushar Kanta Naik**, *Indian Institute of Science Education and Research, Mohali*)
 * **26 March, 2021**: to be announced (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 24. **[Enumeration of matrices and splitting subspaces over finite fields](/seminar/Divya_Aggarwal.pdf)** (*Divya Aggarwal*: 12 February 2021)
 25. **[Voting Rules: An Introduction](/seminar/Ritu_Dutta.pdf)** (*Ritu Dutta*: 19 February 2021)
 26. **[Combinatorial proof of a beautiful Euler-type Identity](/seminar/Gauranga_Baishya.pdf)** (*Gauranga K. Baishya*: 26 February 2021)
+27. **[Gromov's compactness theorem for (pseudo)holomorphic curves](/seminar/Mohan.pdf)** (*Mohan Swaminathan*: 05 March 2021)
       
       
 
