@@ -72,6 +72,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+13. *On $k$-layered numbers*, (with *Farid Jokar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2021. ([pdf](/publ/papers/k-layered.pdf))
+
 12. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/PJM_MY.pdf))
 
 11. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
