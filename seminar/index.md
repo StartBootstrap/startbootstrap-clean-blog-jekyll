@@ -19,18 +19,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Parametrized Families of Quadratic Fields with Large n-rank**
+**Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra**
 
-**Azizul Hoque (Rangapara College, Assam)**
+**Tushar Kanta Naik (Indian Institute of Science Education and Research, Mohali)**
 
-**12 March 2021 (7 pm IST)**
+**19 March 2021 (5 pm IST)**
 
-**Abstract**: Constructing number fields with large n-rank has proved to be a challenging practical problem, due in part to the fact that we believe such examples to be very rare. There is a conjecture (folklore) that the n-rank of k is unbounded when k runs through the quadratic fields. It was Quer who constructed 3 imaginary quadratic fields with 3-rank equal to 6, and this result still stands as the current record. We will discuss two methods for constructing quadratic fields with large n-rank. We will show that for every large positive real number x, there exists a sufficiently large positive constant c such that the number of quadratic fields with 3-rank at least 3 and absolute discriminant ≤ x is > $cx^{1/3}$. If time permits, we will construct a parametric family of real (resp. imaginary) quadratic fields with n-rank at least 2.
+**Abstract**: The classification of the finite simple groups is one of the most celebrated achievements of the last century. On the other hand, finite p-groups of order $p^n$ for $n\leq 4$ were classified early in the history of group theory, and modern work has extended these classifications to groups, up to the order $p^7$. The number of p-groups grows so quickly that further classifications along these lines seem a near-impossible task. To reduce the difficulty, it is of practice to study finite p-groups with added conditions. One such condition is the sizes of conjugacy classes. In this talk, we shall discuss the known results and remaining problems in the classification of finite p-groups with exactly two conjugacy class sizes. In the end, we shall throw some lights on the analogous study in Lie algebra.
 
 ## Upcoming Talks
 
-* **19 March, 2021**: Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra (**Tushar Kanta Naik**, *Indian Institute of Science Education and Research, Mohali*)
-* **26 March, 2021**: to be announced (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
+* **26 March, 2021**: Translation surfaces with poles and meromorphic differentials (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
 * **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
 * **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 25. **[Voting Rules: An Introduction](/seminar/Ritu_Dutta.pdf)** (*Ritu Dutta*: 19 February 2021)
 26. **[Combinatorial proof of a beautiful Euler-type Identity](/seminar/Gauranga_Baishya.pdf)** (*Gauranga K. Baishya*: 26 February 2021)
 27. **[Gromov's compactness theorem for (pseudo)holomorphic curves](/seminar/Mohan.pdf)** (*Mohan Swaminathan*: 05 March 2021)
+28. **Parametrized Families of Quadratic Fields with Large n-rank** (*Azizul Hoque*: 12 March 2021)
       
       
 
