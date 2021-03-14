@@ -161,7 +161,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 144. **The Economics of Small Things**, *Sudipta Sarangi*, Penguin Books, 2020.
 145. **The Dinosaur Artist: Obsession, Science, and the Global Quest for Fossils**, *Paige Williams*, Hachette Books, 2019.
 146. **Outliers: The Story of Success**, *Malcolm Gladwell*, Back Bay Books: Little, Brown and Company, 2009.
-147. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+147. **Blink: The Power of Thinking without Thinking**, *Malcolm Gladwell*, Penguin Books, 2006.
+148. **How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need**, *Bill Gates*, Allen Lane, 2021.
+149. **Euler: The Master of Us All**, *William Dunham*, The Mathematical Association of America, 1999.
+150. **The Library Book**, *Susan Orlean*, Simon and Schuster, 2018.
+151. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -223,6 +227,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 55. **Murder on the Orient Express**, *Agatha Christie*, HarperCollins, 2017.
 56. **Undertow**, *Jahnavi Barua*, Penguin Books India, 2020.
 57. **The Tales of Beedle the Bard**, *J. K. Rowling*, Pottermore, 2016.
+58. **Hidden in Plain Sight**, *Jeffrey Archer*, Macmillan, 2020.
+59. **A Matter of Honour**, *Jeffrey Archer*, Reader's Digest Condensed Books, 1986.
 
 
 ## Graphic Books
@@ -253,3 +259,4 @@ The books which are marked with a ** are the ones that I am either currently rea
 1. **Not a Nice Man to Know: The Best of Khushwant Singh**, *Khushwant Singh*, Penguin Books, 1993.
 2. **I love you madly**, *Helen Exley (ed.), Liz Smith and Caroline Gardner (Illustrators)*, Helen Exley Giftbooks, 2005.
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
+4. **The Very Best of Ruskin Bond: The Writer on the Hill (selected fiction and non-fiction)**, *Ruskin Bond*, Rupa Publications, 2017.
