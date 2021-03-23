@@ -19,24 +19,23 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra**
+**Translation surfaces with poles and meromorphic differentials**
 
-**Tushar Kanta Naik (Indian Institute of Science Education and Research, Mohali)**
+**Gianluca Faraco (Indian Institute of Science, Bengaluru)**
 
-**19 March 2021 (5 pm IST)**
+**26 March 2021 (7 pm IST)**
 
-**Abstract**: The classification of the finite simple groups is one of the most celebrated achievements of the last century. On the other hand, finite p-groups of order $p^n$ for $n\leq 4$ were classified early in the history of group theory, and modern work has extended these classifications to groups, up to the order $p^7$. The number of p-groups grows so quickly that further classifications along these lines seem a near-impossible task. To reduce the difficulty, it is of practice to study finite p-groups with added conditions. One such condition is the sizes of conjugacy classes. In this talk, we shall discuss the known results and remaining problems in the classification of finite p-groups with exactly two conjugacy class sizes. In the end, we shall throw some lights on the analogous study in Lie algebra.
+**Abstract**: Let $S$ be an oriented surface of genus $g$ and $n$ punctures. The periods of any meromorphic differential on $S$, with respect to a choice of complex structure, determine a representation  $\chi:\Gamma_{g,n}  \to\mathbb C$ where $\Gamma_{g,n}$ is the first homology group of $S$.  We characterize the representations that thus arise, that is, lie in the image of the period map   $\textsf{Per}:\Omega\mathcal{M}_{g,n}\to \textsf{Hom}(\Gamma_{g,n},\Bbb C)$. This generalizes a classical result of Haupt in the holomorphic case. This is a joint work with S. Chenakkod and S. Gupta.
 
 ## Upcoming Talks
 
-* **26 March, 2021**: Translation surfaces with poles and meromorphic differentials (**Gianluca Faraco**, *Indian Institute of Science, Bengaluru*)
 * **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
-* **23 April, 2021**: to be announced (**Diksha Tiwari**, *Universität Wien, Austria*)
+* **23 April, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, Tezpur University)
 * **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
 * **21 May, 2021**: to be announced (to be announced)
-* **28 May, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, Tezpur University)
+* **28 May, 2021**: to be announced (to be announced)
 
 
 ## Past Talks
@@ -71,6 +70,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 26. **[Combinatorial proof of a beautiful Euler-type Identity](/seminar/Gauranga_Baishya.pdf)** (*Gauranga K. Baishya*: 26 February 2021)
 27. **[Gromov's compactness theorem for (pseudo)holomorphic curves](/seminar/Mohan.pdf)** (*Mohan Swaminathan*: 05 March 2021)
 28. **Parametrized Families of Quadratic Fields with Large n-rank** (*Azizul Hoque*: 12 March 2021)
+29. **Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra** (*Tushar Kanta Naik*: 19 March 2021)
       
       
 
