@@ -165,7 +165,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 148. **How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need**, *Bill Gates*, Allen Lane, 2021.
 149. **Euler: The Master of Us All**, *William Dunham*, The Mathematical Association of America, 1999.
 150. **The Library Book**, *Susan Orlean*, Simon and Schuster, 2018.
-151. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+151. **The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire**, *William Dalrymple*, Bloomsbury Publishing, 2019.
+152. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -229,6 +230,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 57. **The Tales of Beedle the Bard**, *J. K. Rowling*, Pottermore, 2016.
 58. **Hidden in Plain Sight**, *Jeffrey Archer*, Macmillan, 2020.
 59. **A Matter of Honour**, *Jeffrey Archer*, Reader's Digest Condensed Books, 1986.
+60. **A Prisoner of Birth**, *Jeffrey Archer*, Pan Books, 2008.
 
 
 ## Graphic Books
@@ -244,6 +246,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 9. **Masters of Abstraction**, *Peter Badge*, Heidelberg Laureate Forum Foundation, 2015.
 10. **Tragidoodles**, *Ben Cameron*, Unbound, 2016.
 11. **The Very Best of The Common Man**, *R. K. Laxman*, Penguin Books India, 2012.
+12. **Telling It Like It Isn't**, *Scott Adams*, Boxtree, 1997.
 
 
 ## Poetry
