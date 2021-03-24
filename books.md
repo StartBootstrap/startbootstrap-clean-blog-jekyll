@@ -231,6 +231,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 58. **Hidden in Plain Sight**, *Jeffrey Archer*, Macmillan, 2020.
 59. **A Matter of Honour**, *Jeffrey Archer*, Reader's Digest Condensed Books, 1986.
 60. **A Prisoner of Birth**, *Jeffrey Archer*, Pan Books, 2008.
+61. **Not a Penny More, Not a Penny Less**, *Jeffrey Archer*, Coronet Books, 1985.
 
 
 ## Graphic Books
