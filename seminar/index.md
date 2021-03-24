@@ -34,7 +34,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 * **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
-* **21 May, 2021**: to be announced (to be announced)
+* **21 May, 2021**: to be announced (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
 * **28 May, 2021**: to be announced (to be announced)
 
 
