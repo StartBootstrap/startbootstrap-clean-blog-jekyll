@@ -19,22 +19,23 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Translation surfaces with poles and meromorphic differentials**
+**On some properties of consecutive Lehmer numbers modulo a prime**
 
-**Gianluca Faraco (Indian Institute of Science, Bengaluru)**
+**Bidisha Roy (Polish Academy of Sciences, Warsaw, Poland)**
 
-**26 March 2021 (7 pm IST)**
+**09 April 2021 (7 pm IST)**
 
-**Abstract**: Let $S$ be an oriented surface of genus $g$ and $n$ punctures. The periods of any meromorphic differential on $S$, with respect to a choice of complex structure, determine a representation  $\chi:\Gamma_{g,n}  \to\mathbb C$ where $\Gamma_{g,n}$ is the first homology group of $S$.  We characterize the representations that thus arise, that is, lie in the image of the period map   $\textsf{Per}:\Omega\mathcal{M}_{g,n}\to \textsf{Hom}(\Gamma_{g,n},\Bbb C)$. This generalizes a classical result of Haupt in the holomorphic case. This is a joint work with S. Chenakkod and S. Gupta.
+**Abstract**: A Lehmer number modulo a prime $p$ is an integer $a$ with $1 \leq a \leq p - 1$ whose inverse $\bar{a}$ within the same range has opposite parity. A Lehmer number  which is also a primitive root modulo $p$ is called an Lehmer primitive root (LPR).
+
+Let $N$ be a positive integer and $p$ be an odd prime number. In this talk, we will discuss about existence of $N$-consecutive Lehmer numbers and $N$- consecutive Lehmer primitive roots in  $\left(\mathbb{Z}/ p\mathbb{Z} \right)^*$, where $p$ depends on $N$.  In the second part, we will discuss on non-primitive Lehmer numbers and their properties.
 
 ## Upcoming Talks
 
-* **09 April, 2021**: to be announced (**Bidisha Roy**, *Polish Academy of Sciences, Warsaw, Poland*)
 * **23 April, 2021**: Plane Partitions and Other Topics (**Subhajit Bandyopadhyay**, Tezpur University)
 * **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
-* **21 May, 2021**: to be announced (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
+* **21 May, 2021**: Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
 * **28 May, 2021**: to be announced (**Rahul Kumar**, *Indian Institute of Technology Gandhinagar*)
 
 
@@ -71,6 +72,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 27. **[Gromov's compactness theorem for (pseudo)holomorphic curves](/seminar/Mohan.pdf)** (*Mohan Swaminathan*: 05 March 2021)
 28. **Parametrized Families of Quadratic Fields with Large n-rank** (*Azizul Hoque*: 12 March 2021)
 29. **Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra** (*Tushar Kanta Naik*: 19 March 2021)
+30. **Translation surfaces with poles and meromorphic differentials** (*Gianluca Faraco*: 26 March 2021)
       
       
 
