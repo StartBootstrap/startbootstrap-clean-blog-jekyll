@@ -166,7 +166,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 149. **Euler: The Master of Us All**, *William Dunham*, The Mathematical Association of America, 1999.
 150. **The Library Book**, *Susan Orlean*, Simon and Schuster, 2018.
 151. **The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire**, *William Dalrymple*, Bloomsbury Publishing, 2019.
-152. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+152. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+153. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
