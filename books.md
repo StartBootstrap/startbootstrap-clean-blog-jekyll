@@ -167,9 +167,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 150. **The Library Book**, *Susan Orlean*, Simon and Schuster, 2018.
 151. **The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire**, *William Dalrymple*, Bloomsbury Publishing, 2019.
 152. **Used and Rare: Travels in the Book World**, *Lawrence and Nancy Goldstone*, St. Martin's Griffin, 1998.
-153. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
-154. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
-155. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+153. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+154. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 
 
 ## Fiction
@@ -266,4 +265,5 @@ The books which are marked with a ** are the ones that I am either currently rea
 1. **Not a Nice Man to Know: The Best of Khushwant Singh**, *Khushwant Singh*, Penguin Books, 1993.
 2. **I love you madly**, *Helen Exley (ed.), Liz Smith and Caroline Gardner (Illustrators)*, Helen Exley Giftbooks, 2005.
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
-4. **The Very Best of Ruskin Bond: The Writer on the Hill (selected fiction and non-fiction)**, *Ruskin Bond*, Rupa Publications, 2017.
+4.  **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
+5. **The Very Best of Ruskin Bond: The Writer on the Hill (selected fiction and non-fiction)**, *Ruskin Bond*, Rupa Publications, 2017.
