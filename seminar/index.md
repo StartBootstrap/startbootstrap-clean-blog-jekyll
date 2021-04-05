@@ -71,7 +71,7 @@ Let $N$ be a positive integer and $p$ be an odd prime number. In this talk, we w
 26. **[Combinatorial proof of a beautiful Euler-type Identity](/seminar/Gauranga_Baishya.pdf)** (*Gauranga K. Baishya*: 26 February 2021)
 27. **[Gromov's compactness theorem for (pseudo)holomorphic curves](/seminar/Mohan.pdf)** (*Mohan Swaminathan*: 05 March 2021)
 28. **[Parametrized Families of Quadratic Fields with Large n-rank](/seminar/Azizul_Hoque.pdf)** (*Azizul Hoque*: 12 March 2021)
-29. **Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra** (*Tushar Kanta Naik*: 19 March 2021)
+29. **[Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra](/seminar/Tushar.pdf)** (*Tushar Kanta Naik*: 19 March 2021)
 30. **Translation surfaces with poles and meromorphic differentials** (*Gianluca Faraco*: 26 March 2021)
       
       
