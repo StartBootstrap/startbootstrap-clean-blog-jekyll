@@ -167,8 +167,12 @@ The books which are marked with a ** are the ones that I am either currently rea
 150. **The Library Book**, *Susan Orlean*, Simon and Schuster, 2018.
 151. **The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire**, *William Dalrymple*, Bloomsbury Publishing, 2019.
 152. **Used and Rare: Travels in the Book World**, *Lawrence and Nancy Goldstone*, St. Martin's Griffin, 1998.
-153. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
-154. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+153. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
+154. **Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time**, *Dava Sobel*, Harper Perennial, 2007.
+155. **Fascism and Democracy**, *George Orwell*, Penguin Books, 2020.
+156. **How to Spot a Fascist**, *Umberto Eco*, Harvill Secker, 2020.
+157. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
+158. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
