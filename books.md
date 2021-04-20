@@ -170,9 +170,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 153. **The Scientist as Rebel**, *Freeman Dyson*, New York Review Books, 2006.
 154. **Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time**, *Dava Sobel*, Harper Perennial, 2007.
 155. **Fascism and Democracy**, *George Orwell*, Penguin Books, 2020.
-156. **How to Spot a Fascist**, *Umberto Eco*, Harvill Secker, 2020.
+156. **How to Spot a Fascist**, *Umberto Eco (Translated by Richard Dixon and Alastair McEwen)*, Harvill Secker, 2020.
 157. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
-158. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+158. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
+159. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
