@@ -19,17 +19,16 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Plane Partitions and Other Topics**
+**tba**
 
-**Subhajit Bandyopadhyay (Tezpur University)**
+**Uday Bhaskar Sharma (Tata Institute of Fundamental Research, Mumbai)**
 
-**23 April 2021 (7 pm IST)**
+**30 April 2021 (7 pm IST)**
 
-**Abstract**: In this talk we talk about the concept of plane partitions and how they relate to integer partitions. Ferrers diagrams, Young tableaux and Schur polynomials are introduced, leading to the famous generating function of plane partitions by MacMahon. We also talk about how it coincides with the generating function for $n$-color partitions and the implications thereafter.
+**Abstract**: 
 
 ## Upcoming Talks
 
-* **30 April, 2021**: to be announced (**Uday Bhaskar Sharma**, *Tata Institute of Fundamental Research, Mumbai*)
 * **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
 * **14 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
 * **21 May, 2021**: Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
