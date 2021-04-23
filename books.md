@@ -171,9 +171,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 154. **Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time**, *Dava Sobel*, Harper Perennial, 2007.
 155. **Fascism and Democracy**, *George Orwell*, Penguin Books, 2020.
 156. **How to Spot a Fascist**, *Umberto Eco (Translated by Richard Dixon and Alastair McEwen)*, Harvill Secker, 2020.
-157. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
-158. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
-159. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+157. **Politics and the English Language**, *George Orwell*, Penguin Books, 2013.
+158. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
+159. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
+160. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
