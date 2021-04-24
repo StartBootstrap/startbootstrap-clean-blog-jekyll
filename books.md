@@ -172,9 +172,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 155. **Fascism and Democracy**, *George Orwell*, Penguin Books, 2020.
 156. **How to Spot a Fascist**, *Umberto Eco (Translated by Richard Dixon and Alastair McEwen)*, Harvill Secker, 2020.
 157. **Politics and the English Language**, *George Orwell*, Penguin Books, 2013.
-158. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
-159. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
-160. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+158. **Notes on Nationalism**, *George Orwell*, Penguin Books, 2018.
+159. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
+160. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
+161. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
