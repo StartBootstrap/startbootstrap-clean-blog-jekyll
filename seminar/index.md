@@ -19,13 +19,13 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**tba**
+**Commuting Tuples and Commuting Probability**
 
 **Uday Bhaskar Sharma (Tata Institute of Fundamental Research, Mumbai)**
 
 **30 April 2021 (7 pm IST)**
 
-**Abstract**: 
+**Abstract**: In this talk, I will speak about simultaneous similarity classes of commuting tuples of elements of an algebra and a group, and explain its connection with commuting probability.
 
 ## Upcoming Talks
 
