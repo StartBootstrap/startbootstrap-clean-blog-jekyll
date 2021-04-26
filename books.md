@@ -173,9 +173,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 156. **How to Spot a Fascist**, *Umberto Eco (Translated by Richard Dixon and Alastair McEwen)*, Harvill Secker, 2020.
 157. **Politics and the English Language**, *George Orwell*, Penguin Books, 2013.
 158. **Notes on Nationalism**, *George Orwell*, Penguin Books, 2018.
-159. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec*, Penguin Books, 2020.
-160. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
-161. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+159. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
+160. **A Short History of Humanity: How Migration Made Us Who We Are**, *Johannes Krause and Thomas Trappe (Translated by Caroline Waight)*, WH Allen, 2021.
+161. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec (Translated by John Sturrock)*, Penguin Books, 2020.
+162. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
@@ -272,5 +273,5 @@ The books which are marked with a ** are the ones that I am either currently rea
 1. **Not a Nice Man to Know: The Best of Khushwant Singh**, *Khushwant Singh*, Penguin Books, 1993.
 2. **I love you madly**, *Helen Exley (ed.), Liz Smith and Caroline Gardner (Illustrators)*, Helen Exley Giftbooks, 2005.
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
-4.  **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
+4. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
 5. **The Very Best of Ruskin Bond: The Writer on the Hill (selected fiction and non-fiction)**, *Ruskin Bond*, Rupa Publications, 2017.
