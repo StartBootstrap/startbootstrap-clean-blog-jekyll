@@ -1,0 +1,44 @@
+I"�<h2 id="introduction">Introduction:</h2>
+
+<p>We are a group of researchers spanning language sciences, computation, and interaction interested in leveraging virtual reality to systematically explore the interplay of metaphor and emotion using immersive, spatial interaction. <!---W-e are also interested in multimodal metaphoric interaction --any immersive interaction that associates a physical experience with a more abstract concept.---></p>
+
+<p><strong>metaphorVR</strong> (<span style="color:gray">formerly MetaVR</span>) is an interface specifically designed to facilitate this exploration. It allows researchers (potentially their subjects) and interaction designers to easily configure various multimodal metaphoric interactions in VR in order to run experiments in a controlled environment and prototype novel interactions.</p>
+
+<!---## Motivation:
+
+We have noticed that  HCI applications targeting health often employ metaphor and wish to more deeply understand the limits and boundaries of how one might engage metaphorically with virtual content to maintain wellbeing.Advances in virtual reality technology can enhance our understanding of how our interaction with the physical world impacts the representation and processing of more abstract knowledge --including more complex emotion concepts. --->
+
+<h2 id="exploring-the-association-of-wellbeing-with-verticality-in-vr">Exploring the Association of Wellbeing with Verticality in VR:</h2>
+
+<p>In our proof-of-concept we are currently only supporting personifications –a type of metaphor and instances of multimodal metaphoric interactions loosely associated wtih the larger conceptual metaphor class WELL-BEING is VERTICALITY. We will be presenting the work at <a href="https://chi2021.acm.org/">CHI 2021</a>. Please see details below.</p>
+
+<p><em>MetaVR: Understanding metaphors in the mind and relation to emotion through immersive, spatial interaction</em>
+Vesna G. Djokic, Ekaterina Shutova, Rebecca Fiebrink</p>
+
+<p>CHI’21: ACM CHI Conference on Human Factors in Computing Systems
+Session: 
+Interactivity Day 2 - E
+Interactivity Day 2 - F</p>
+
+<p>Abstract
+Metaphorical thinking acts as a bridge between embodiment and abstraction and helps flexibly organize human knowledge and behavior. Yet its role in embodied human-computer interface design, and its potential for supporting goals such as self-awareness and well-being, have not been extensively explored in the HCI community. We have designed a system called MetaVR to support the creation and exploration of immersive, multimodal, metaphoric experiences, in which people’s bodily actions in the physical world are linked to metaphorically relevant actions in a virtual reality world. As a team of researchers in interaction, neuroscience, and linguistics, we have created MetaVR to support research exploring the impact of such metaphoric interactions on human emotion and well-being. We have used MetaVR to create a proof-of-concept interface for immersive, spatial interactions underpinned by the <code class="language-plaintext highlighter-rouge">Verticality is Well-Being'' conceptual mapping---the known association of `up'=`good' and `down'=`bad'. Researchers and developers can currently interact with this proof of concept to configure various metaphoric interactions or personifications that have positive associations (e.g., `being like a butterfly' or `being like a flower') and also involve vertical motion (e.g., a butterfly might fly upwards, or a flower might bloom upwards). Importantly, the metaphoric interactions supported in MetaVR do not link human movement to VR actions in one-to-one ways, but rather use abstracted relational mappings in which events in VR (e.g., the blooming of a virtual flower) are contingent not merely on a</code>correct’’ gesture being performed, but on aspects of verticality exhibited in human movement (e.g., in a very simple case, the time a person’s hands spend above some height threshold). This work thus serves as a small-scale vehicle for us to research how such interactions may impact well-being. Relatedly, it highlights the potential of using virtual embodied interaction as a tool to study cognitive processes involved in more deliberate/functional uses of metaphor and how this relates to emotion processing. By demonstrating MetaVR and metaphoric interactions designed with it at CHI Interactivity, and by offering the MetaVR tool to other researchers, we hope to inspire new perspectives, discussion, and research within the HCI community about the role that such metaphoric interaction may play, in interfaces designed for well-being and beyond.</p>
+
+<p>DOI:: https://doi.org/10.1145/3411763.3451565​
+WEB:: https://chi2021.acm.org</p>
+
+<hr />
+
+<h3 id="demo-video">Demo Video:</h3>
+<div class="embed-container">
+    <iframe width="640" height="480" src="https://drive.google.com/file/d/1g1ZOr1o0gfmqL3X7zuGA1fO2pmVmSIfg/preview" frameborder="0" allowfullscreen="">
+    </iframe>
+  </div>
+
+<!---Credits:
+
+*Unity Asset Store*
+
+Nature Manufacturer
+
+*Sounds*--->
+:ET

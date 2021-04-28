@@ -1,0 +1,30 @@
+I"¥<h2 id="introduction">Introduction:</h2>
+
+<p>We are a group of researchers spanning language sciences, computation, and interaction interested in leveraging virtual reality to systematically explore the interplay of metaphor and emotion using immersive, spatial interaction. <!---We are also interested in multimodal metaphoric interaction --any immersive interaction that associates a physical experience with a more abstract concept.---></p>
+
+<p><strong>metaphorVR</strong> (<span style="color:gray">formerly MetaVR</span>) is an interface specifically designed to facilitate the exploration of multimodal metaphoric interaction. It allows researchers (potentially their subjects) and interaction designers to configure different metaphoric interactions and prototype novel interactions.</p>
+
+<!---## Motivation:
+
+We have noticed that  HCI applications targeting health often employ metaphor and wish to more deeply understand the limits and boundaries of how one might engage metaphorically with virtual content to maintain wellbeing.Advances in virtual reality technology can enhance our understanding of how our interaction with the physical world impacts the representation and processing of more abstract knowledge --including more complex emotion concepts. --->
+
+<h2 id="exploring-the-association-of-wellbeing-with-verticality-in-vr">Exploring the Association of Wellbeing with Verticality in VR:</h2>
+
+<p>Below we describe our exploration of the Wellbeing is Verticality conceptual metaphor or the known association of x and x in virtual reality. MetaphorVR allows users to x. We will be presenting the work at CHI 2021.</p>
+
+<hr />
+
+<h3 id="demo-video">Demo Video:</h3>
+<div class="embed-container">
+    <iframe width="640" height="480" src="https://drive.google.com/file/d/1g1ZOr1o0gfmqL3X7zuGA1fO2pmVmSIfg/preview" frameborder="0" allowfullscreen="">
+    </iframe>
+  </div>
+
+<!---Credits:
+
+*Unity Asset Store*
+
+Nature Manufacturer
+
+*Sounds*--->
+:ET
