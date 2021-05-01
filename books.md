@@ -175,8 +175,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 158. **Notes on Nationalism**, *George Orwell*, Penguin Books, 2018.
 159. **Slightly Chipped: Footnotes in Booklore**, *Lawrence and Nancy Goldstone*, St. Martin's Press, 1999.
 160. **A Short History of Humanity: How Migration Made Us Who We Are**, *Johannes Krause and Thomas Trappe (Translated by Caroline Waight)*, WH Allen, 2021.
-161. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec (Translated by John Sturrock)*, Penguin Books, 2020.
-162. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
+161. **The World Before Us: How Science is Revealing a New Story of Our Human Origins**, *Tom Higham*, Viking, 2021.
+162. **Brief Notes on the Art and Manner of Arranging One's Books**, *George Perec (Translated by John Sturrock)*, Penguin Books, 2020.
+163. **Return of a King: The Battle for Afghanistan**, *William Dalrymple*, Bloomsbury Publishing, 2014.
 
 
 ## Fiction
@@ -242,6 +243,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 59. **A Matter of Honour**, *Jeffrey Archer*, Reader's Digest Condensed Books, 1986.
 60. **A Prisoner of Birth**, *Jeffrey Archer*, Pan Books, 2008.
 61. **Not a Penny More, Not a Penny Less**, *Jeffrey Archer*, Coronet Books, 1985.
+62. **Adua**, *Igiaba Scego (Translated by Jamie Richards)*, New Vessel Press, 2017.
 
 
 ## Graphic Books
