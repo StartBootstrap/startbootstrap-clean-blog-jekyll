@@ -19,19 +19,18 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Commuting Tuples and Commuting Probability**
+**Orbits of zipping maps of surfaces of infinite type**
 
-**Uday Bhaskar Sharma (Tata Institute of Fundamental Research, Mumbai)**
+**Soumya Dey (The Institute of Mathematical Sciences, Chennai)**
 
-**30 April 2021 (7 pm IST)**
+**07 May 2021 (7 pm IST)**
 
-**Abstract**: In this talk, I will speak about simultaneous similarity classes of commuting tuples of elements of an algebra and a group, and explain its connection with commuting probability.
+**Abstract**: We shall introduce the mapping class groups of surfaces of infinite type, which are known as 'big' mapping class groups, and the associated Teichmüller spaces. In the second half of the talk we shall briefly discuss about an ongoing work with Dr. Gianluca Faraco, which concerns some interesting mapping classes which we call 'zipping maps', and the orbits of their action on the Teichmüller space.
 
 ## Upcoming Talks
 
-* **07 May, 2021**: to be announced (**Soumya Dey**, *The Institute of Mathematical Sciences, Chennai*)
-* **14 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
-* **21 May, 2021**: Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
+* **14 May, 2021**: Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields (**Jaitra Chattopadhyay**, *Indian Institute of Technology Guwahati*)
+* **21 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
 * **28 May, 2021**: to be announced (**Rahul Kumar**, *Indian Institute of Technology Gandhinagar*)
 
 
@@ -70,6 +69,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 29. **[Finite Groups with Exactly Two Conjugacy Class Size and the Analogous Study in Lie Algebra](/seminar/Tushar.pdf)** (*Tushar Kanta Naik*: 19 March 2021)
 30. **[Translation surfaces with poles and meromorphic differentials](/seminar/Gianluca.pdf)** (*Gianluca Faraco*: 26 March 2021)
 31. **On some properties of consecutive Lehmer numbers modulo a prime** (*Bidisha Roy*: 09 April 2021)
+32. **Commuting Tuples and Commuting Probability** (*Uday Bhaskar Sharma*: 30 April 2021)
       
       
 
