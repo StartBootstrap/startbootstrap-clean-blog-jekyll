@@ -30,7 +30,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 ## Upcoming Talks
 
 * **21 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
-* **28 May, 2021**: to be announced (**Rahul Kumar**, *Indian Institute of Technology Gandhinagar*)
+* **28 May, 2021**: Extended higher Herglotz functions I. Functional equations (**Rahul Kumar**, *Indian Institute of Technology Gandhinagar*)
 
 
 ## Past Talks
