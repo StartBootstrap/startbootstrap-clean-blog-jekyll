@@ -19,17 +19,16 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields**
+**A Stroll Through Davenport Constant**
 
-**Jaitra Chattopadhyay (Indian Institute of Technology Guwahati)**
+**Eshita Mazumdar (Indian Statistical Institute, Bengaluru)**
 
-**14 May 2021 (7 pm IST)**
+**21 May 2021 (7 pm IST)**
 
-**Abstract**: The ideal class group and class number are important algebraic objects associated to a number field. The famous "Class number $1$ conjecture", due to Gauss, motivates number theorists to have a closer look into the distribution of class numbers of quadratic fields. In particular, the divisibility properties of class numbers turn out to be useful to understand the ideal class groups of quadratic fields. In this talk, we shall briefly recall the divisibility results in the literature and touch upon the topic of simultaneous divisibility of class numbers of triples of imaginary quadratic fields, which is a joint work with M. Subramani. We conclude with a recent result on the simultaneous indivisibility of pairs of real quadratic fields, which is a joint work with A. Saikia.
+**Abstract**: For a finite abelian group G, the Davenport Constant D(G) is defined to be the least positive integer k such that any sequence S with length k over G has a non-trivial zerosum subsequence. The original motivation for introducing Davenport Constant was to study the problem of non-unique factorization domain over number fields. The precise value of this group invariant for any finite abelian group is still unknown. In my talk I am going to present my most recent research works related to Davenport Constant. In first half of my talk, I will present an Extremal Problem related to Weighted Davenport Constant, where we introduce and discuss several exciting combinatorial results for finite abelian group. In second half of my talk, I will talk about my current project, where my main aim is to discuss the perfect power of a polynomial $f(x)\in \mathbb{Z}[x]$ for integral values of x: While doing so we developed a new group invariant whichis a natural generalization of Davenport Constant.
 
 ## Upcoming Talks
 
-* **21 May, 2021**: to be announced (**Eshita Mazumdar**, *Indian Statistical Institute, Bengaluru*)
 * **28 May, 2021**: Extended higher Herglotz functions I. Functional equations (**Rahul Kumar**, *Indian Institute of Technology Gandhinagar*)
 
 
@@ -70,6 +69,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 31. **On some properties of consecutive Lehmer numbers modulo a prime** (*Bidisha Roy*: 09 April 2021)
 32. **Commuting Tuples and Commuting Probability** (*Uday Bhaskar Sharma*: 30 April 2021)
 33. **[Orbits of zipping maps of surfaces of infinite type](/seminar/Soumya_Dey.pdf)** (*Soumya Dey*: 07 May 2021)
+34. **[Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields](/seminar/Jaitra.pdf)** (*Jaitra Chattopadhyay*: 14 May 2021)
       
       
 
