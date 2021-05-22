@@ -181,7 +181,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 164. **Sixpence House: Lost in a Town of Books**, *Paul Collins*, Bloomsbury, 2003.
 165. **Empireland: How Imperialism Has Shaped Modern Britain**, *Sathnam Sanghera*, Viking, 2021.
 166. **The Man Who Loved Books Too Much: The True Story of a Thief, a Detective, and a World of Literary Obsession**, *Allison Hoover Bartlett*, Riverhead Books, 2009.
-167. **A Library Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2018.
+167. **Disappearing Ink: The Insider, the FBI, and the Looting of the Kenyon College Library**, *Travis McDade*, Diversion Books, 2015.
+168. **A Library Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2018.
 
 
 ## Fiction
