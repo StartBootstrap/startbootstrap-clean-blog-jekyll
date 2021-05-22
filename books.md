@@ -183,6 +183,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 166. **The Man Who Loved Books Too Much: The True Story of a Thief, a Detective, and a World of Literary Obsession**, *Allison Hoover Bartlett*, Riverhead Books, 2009.
 167. **Disappearing Ink: The Insider, the FBI, and the Looting of the Kenyon College Library**, *Travis McDade*, Diversion Books, 2015.
 168. **A Library Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2018.
+169. **Almost Human: The Astonishing Tale of Homo naledi and the Discovery That Changed Our Human Story**, *Lee Berger and John Hawks*, National Geographic, 2017.
 
 
 ## Fiction
