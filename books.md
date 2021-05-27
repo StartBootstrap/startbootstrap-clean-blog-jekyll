@@ -184,8 +184,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 167. **Disappearing Ink: The Insider, the FBI, and the Looting of the Kenyon College Library**, *Travis McDade*, Diversion Books, 2015.
 168. **A Library Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2018.
 169. **Almost Human: The Astonishing Tale of Homo naledi and the Discovery That Changed Our Human Story**, *Lee Berger and John Hawks*, National Geographic, 2017.
-170. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
-171. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
+170. **The Book Lovers' Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2017.
+171. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+172. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
+173. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
 
 
 ## Fiction
