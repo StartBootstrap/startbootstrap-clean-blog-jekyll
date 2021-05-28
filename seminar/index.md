@@ -19,17 +19,17 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**A generalized modified Bessel function and explicit transformations of certain Lambert series**
+**to be announced**
 
-**Rahul Kumar (Indian Institute of Technology Gandhinagar)**
+**Daniel Yaqubi (Ferdowsi University of Mashhad, Iran)**
 
-**28 May 2021 (7 pm IST)**
+**25 June 2021 (7 pm IST)**
 
-**Abstract**: An exact transformation, which we call a master identity, is obtained for the series $\sum_{n=1}^{\infty}\sigma_{a}(n)e^{-ny}$ for $a\in\mathbb{C}$ and Re$(y)>0$. As corollaries when $a$ is an odd integer, we derive the well-known transformations of the Eisenstein series on $SL_2\left(\mathbb{Z}\right)$, that of the Dedekind eta function as well as Ramanujan's famous formula for $\zeta(2m+1)$. Corresponding new transformations when $a$ is a non-zero even integer are also obtained as special cases of the master identity. These include a novel companion to Ramanujan's formula for $\zeta(2m+1)$. Although not modular, it is surprising that such explicit transformations exist. The Wigert-Bellman identity arising from the $a=0$ case of the master identity is derived too. The latter identity itself is derived using Guinand's version of the Voronoi summation formula and an integral evaluation of N. S. Koshliakov involving a generalization of the modified Bessel function $K_{\nu}(z)$. Koshliakov's integral evaluation is proved for the first time. It is then generalized using a well-known kernel of Watson to obtain an interesting two-variable generalization of the modified Bessel function. This generalization allows us to obtain a new transformation involving the sums-of-squares function $r_k(n)$. This is joint work with Atul Dixit and Aashita Kesarwani.
+**Abstract**: to be announced
 
 ## Upcoming Talks
 
-* **25 June, 2021**: to be announced (**Daniel Yaqubi**, *Ferdowsi University of Mashhad, Iran*)
+* **16 July, 2021**: to be announced (**to be announced**, *to be announced*)
 
 
 ## Past Talks
@@ -71,6 +71,7 @@ All the talks will be over Zoom. To join a talk please use the following informa
 33. **[Orbits of zipping maps of surfaces of infinite type](/seminar/Soumya_Dey.pdf)** (*Soumya Dey*: 07 May 2021)
 34. **[Simultaneous divisibility and indivisibility properties of class numbers of quadratic fields](/seminar/Jaitra.pdf)** (*Jaitra Chattopadhyay*: 14 May 2021)
 35. **A Stroll Through Davenport Constant** (*Eshita Mazumdar*: 21 May 2021)
+36. **[A generalized modified Bessel function and explicit transformations of certain Lambert series](/seminar/Rahul.pdf)** (*Rahul Kumar*: 28 May 2021)
       
       
 
