@@ -27,11 +27,6 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 **Abstract**: to be announced
 
-## Upcoming Talks
-
-* **16 July, 2021**: to be announced (**to be announced**, *to be announced*)
-
-
 ## Past Talks
 
 *Click on the title to view the slides (if they are available).*
