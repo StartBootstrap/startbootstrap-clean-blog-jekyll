@@ -188,9 +188,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 171. **The Book Lovers' Miscellany**, *Claire Cock-Starkey*, Bodleian Library, 2017.
 172. **Books v. Cigarettes**, *George Orwell*, Penguin Books, 2008.
 173. **Night**, *Elie Wiesel (Translated by Marion Wiesel)*, Penguin Books, 2008.
-174. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
-175. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
-176. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
+174. **A Force of Nature: The Frontier Genius of Ernest Rutherford**, *Richard Reeves*, Atlas Books, 2008.
+175. **Miss Leavitt's Stars: The Untold Story of the Woman Who Discovered How to Measure the Universe**, *George Johnson*, Atlas Books, 2005.
+176. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+177. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
+178. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
 
 
 ## Fiction
