@@ -190,9 +190,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 173. **Night**, *Elie Wiesel (Translated by Marion Wiesel)*, Penguin Books, 2008.
 174. **A Force of Nature: The Frontier Genius of Ernest Rutherford**, *Richard Reeves*, Atlas Books, 2008.
 175. **Miss Leavitt's Stars: The Untold Story of the Woman Who Discovered How to Measure the Universe**, *George Johnson*, Atlas Books, 2005.
-176. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
-177. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
-178. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
+176. **The Doctors’ Plague: Germs, Childbed Fever, and the Strange Story of Ignác Semmelweis**, *Sherwin B. Nuland*, Atlas Books, 2003.
+177. **Decline of the English Murder**, *George Orwell*, Penguin Books, 2009.
+178. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
+179. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+180. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
 
 
 ## Fiction
