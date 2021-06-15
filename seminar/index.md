@@ -19,13 +19,13 @@ All the talks will be over Zoom. To join a talk please use the following informa
 
 ## Next Talk
 
-**to be announced**
+**Enumeration of direct animals with lattice paths**
 
 **Daniel Yaqubi (Ferdowsi University of Mashhad, Iran)**
 
 **25 June 2021 (7 pm IST)**
 
-**Abstract**: to be announced
+**Abstract**: The aim of this talk is the enumeration of direct animals with lattice paths. Lattice paths have been studied for a very long time, explicitly at least since the second half of the 19th century. A typical problem in lattice paths is the enumeration of all $\mathcal{S}$-lattice paths (lattice paths with respect to the set $\mathcal{S}$). A non-trivial simple case is the problem of finding the number of lattice paths starting from the origin $(0,0)$ and ending at a point $(m,n)$ using only right step $(1,0)$ and up step $(0,1)$ (i.e., $\mathcal{S}=\{(1,0),(0,1)\}$).
 
 ## Past Talks
 
