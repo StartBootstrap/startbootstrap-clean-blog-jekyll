@@ -197,7 +197,6 @@ The books which are marked with a ** are the ones that I am either currently rea
 180. **Warmly Inscribed: The New England Forger and Other Book Tales**, *Lawrence and Nancy Goldstone*, Thomas Dunne Books, 2001.
 181. **Uranium: War, Energy, and the Rock that Shaped the World**, *Tom Zoellner*, 2010.
 182. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
-183. **Curious Tales from Chemistry: the Last Alchemist in Paris, and Other Episodes**, *Lars Öhrström*, Oxford University Press, 2015.
 
 
 ## Fiction
@@ -265,7 +264,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 61. **Not a Penny More, Not a Penny Less**, *Jeffrey Archer*, Coronet Books, 1985.
 62. **Adua**, *Igiaba Scego (Translated by Jamie Richards)*, New Vessel Press, 2017.
 63. **Booked to Die: A Mystery Introducing Cliff Janeway**, *John Dunning*, Scribner, 1992.
-64. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. (review)
+64. **The Bookman’s Wake: A Mystery with Cliff Janeway**, *John Dunning*, Scribner, 1995.
+65. **Bookscout**, *John Dunning*, MysteriousPress.com & Open Road, 2013.
+66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. (review)
 
 
 ## Graphic Books
