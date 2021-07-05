@@ -196,7 +196,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 179. **Fossil Men: The Quest for the Oldest Skeleton and the Origins of Humankind**, *Kermit Pattison*, William Morrow, 2020.
 180. **Warmly Inscribed: The New England Forger and Other Book Tales**, *Lawrence and Nancy Goldstone*, Thomas Dunne Books, 2001.
 181. **Uranium: War, Energy, and the Rock that Shaped the World**, *Tom Zoellner*, 2010.
-182. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+182. **The Book Thieves: The Nazi Looting of Europe’s Libraries and the Race to Return a Literary Inheritance**, *Anders Rydell (Translated by Henning Koch)*, Viking, 2017.
+183. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
 
 
 ## Fiction
