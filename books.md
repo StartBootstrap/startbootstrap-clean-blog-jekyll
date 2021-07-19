@@ -197,7 +197,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 180. **Warmly Inscribed: The New England Forger and Other Book Tales**, *Lawrence and Nancy Goldstone*, Thomas Dunne Books, 2001.
 181. **Uranium: War, Energy, and the Rock that Shaped the World**, *Tom Zoellner*, 2010.
 182. **The Book Thieves: The Nazi Looting of Europe’s Libraries and the Race to Return a Literary Inheritance**, *Anders Rydell (Translated by Henning Koch)*, Viking, 2017.
-183. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+183. **The Falcon Thief: A True Tale of Adventure, Treachery, and the Hunt for the Perfect Bird**, *Joshua Hammer*, Simon & Schuster, 2020.
+184. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
 
 
 ## Fiction
@@ -267,7 +268,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 63. **Booked to Die: A Mystery Introducing Cliff Janeway**, *John Dunning*, Scribner, 1992.
 64. **The Bookman’s Wake: A Mystery with Cliff Janeway**, *John Dunning*, Scribner, 1995.
 65. **Bookscout**, *John Dunning*, MysteriousPress.com & Open Road, 2013.
-66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. (review)
+66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. [(review)](https://www.maa.org/press/maa-reviews/perelmans-refusal-a-novel)
+67. **Twenty-Four Hours in the Life of a Woman**, *Stefan Zweig (Translated by Anthea Bell)*, Pushkin Press, 2016.
+68. **Maigret’s Holiday**, *Georges Simenon (Translated by Ros Schwartz)*, Penguin Books, 2016.
 
 
 ## Graphic Books
@@ -300,3 +303,4 @@ The books which are marked with a ** are the ones that I am either currently rea
 2. **I love you madly**, *Helen Exley (ed.), Liz Smith and Caroline Gardner (Illustrators)*, Helen Exley Giftbooks, 2005.
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
 4. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
+5. **Race**, *Toni Morrison*, Vintage, 2017.
