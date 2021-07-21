@@ -94,3 +94,7 @@ Canal Ring Area of Amsterdam (January 2017)
 **Romania**
 
 Historic Centre of Sighișoara (December 2018)
+
+**United Kingdom of Great Britain and Northern Ireland**
+
+Castles and Town Walls of King Edward in Gwynedd (July 2021)
