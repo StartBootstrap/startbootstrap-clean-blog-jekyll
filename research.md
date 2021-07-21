@@ -24,6 +24,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+18. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Rocky Mountain Journal of Mathematics*, accepted, 2021. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
+ 
 17. *Refined Enumeration of Symmetry Classes of Alternating Sign Matrices*, (with *[Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)*), *Journal of Combinatorial Theory, Series A*, 2021, 178, 105350, 51 pp. ([pdf](https://arxiv.org/pdf/1906.07723.pdf))
 
 16. *A family of lacunary recurrences for Lucas Numbers*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *The Fibonacci Quarterly*, 2020, 58 (4), 356-360. ([pdf](/publ/papers/Lucas_Pankaj.pdf))
@@ -72,9 +74,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-12. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/PJM_MY.pdf))
-
-11. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
+11. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/PJM_MY.pdf))
 
 10. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
 
