@@ -19,6 +19,7 @@ Historic Centre of Vienna (January 2015)
 Prehistoric Pine Dwellings Around the Alps (November 2015)  
 Wachau Cultural Landscape (April 2018)  
 Hallstatt-Dachstein/Salzkammergut Cultural Landscape (April 2019)
+Baden (June 2019)
 
 **Bulgaria**
 
@@ -98,3 +99,7 @@ Historic Centre of Sighișoara (December 2018)
 **United Kingdom of Great Britain and Northern Ireland**
 
 Castles and Town Walls of King Edward in Gwynedd (July 2021)
+
+**Slovenia**
+
+The works of Jože Plečnik in Ljubljana – Human Centred Urban Design (June 2015)
