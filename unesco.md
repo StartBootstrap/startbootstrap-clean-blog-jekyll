@@ -18,7 +18,7 @@ Neusiedlersee Cultural Landscape (February 2017)
 Historic Centre of Vienna (January 2015)  
 Prehistoric Pine Dwellings Around the Alps (November 2015)  
 Wachau Cultural Landscape (April 2018)  
-Hallstatt-Dachstein/Salzkammergut Cultural Landscape (April 2019)
+Hallstatt-Dachstein/Salzkammergut Cultural Landscape (April 2019)  
 Baden (June 2019)
 
 **Bulgaria**
