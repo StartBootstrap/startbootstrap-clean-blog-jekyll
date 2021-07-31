@@ -1,0 +1,8 @@
+I"x<h2 id="description">Description</h2>
+
+<p>The name of the project is vehicle number plate recognition.
+It includes object detection, classification task and ocr.
+I am using ssd for object detection, mobilenet for classification and pytesseract for ocr.</p>
+
+<p>Link to the demo: <a href="https://avinash539.github.io/vnpr.github.io/">Vehicle Number Plate Recognition</a>.</p>
+:ET
