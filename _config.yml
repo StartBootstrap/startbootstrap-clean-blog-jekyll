@@ -2,13 +2,13 @@ title:              Than Than Swe
 email:              thanthanswe124509@gmail.com
 description:        
 author:             Than Than Swe
-baseurl:            "/than_than_swe_portfolio"
+baseurl:            "/thanthanswe-github.io"
 url:                ""
 
 # Social Profiles
 twitter_username:   ThanThanSwe7
 github_username:    thanthanswe-github
-linkedin_username:  than-than-swe-0a52a216a
+linkedin_username:  than-than-swe-0a52a216a/
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
@@ -20,5 +20,4 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap  ##Uncomment this line 
-highlighter : rouge
+  - jekyll-sitemap 
