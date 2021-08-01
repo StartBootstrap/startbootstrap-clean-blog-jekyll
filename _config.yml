@@ -6,9 +6,9 @@ baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://thanthanswe-github.github.io"
 
 # Social Profiles
-twitter_username:   https://twitter.com/ThanThanSwe7
-github_username:    https://github.com/thanthanswe-github
-linkedin_username:  https://www.linkedin.com/in/than-than-swe-0a52a216a/
+twitter_username:   ThanThanSwe7
+github_username:    thanthanswe-github
+linkedin_username:  than-than-swe-0a52a216a
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
