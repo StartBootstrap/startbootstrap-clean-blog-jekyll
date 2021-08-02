@@ -200,7 +200,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 183. **The Falcon Thief: A True Tale of Adventure, Treachery, and the Hunt for the Perfect Bird**, *Joshua Hammer*, Simon & Schuster, 2020.
 184. **The Orpheus Clock: The Search for My Family’s Art Treasures Stolen by the Nazis**, *Simon Goodman*, Scribner, 2015.
 185. **The Auschwitz Photographer: Based on the true story of Wilhelm Brasse prisoner 3444**, *Luca Crippa and Mauricio Onnis (Translated by Jennifer Higgins)*, Doubleday, 2021.
-186. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+186. **First Steps: How Walking Upright Made Us Human**, *Jeremy DeSilva*, William Collins, 2021.
+187. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
 
 
 ## Fiction
