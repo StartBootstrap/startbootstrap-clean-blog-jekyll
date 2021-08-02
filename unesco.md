@@ -19,7 +19,8 @@ Historic Centre of Vienna (January 2015)
 Prehistoric Pine Dwellings Around the Alps (November 2015)  
 Wachau Cultural Landscape (April 2018)  
 Hallstatt-Dachstein/Salzkammergut Cultural Landscape (April 2019)  
-Baden (June 2019)
+Baden (June 2019)  
+Frontiers of the Roman Empire – The Danube Limes (Western Segment) (January 2015)
 
 **Bulgaria**
 
@@ -56,7 +57,8 @@ Museumsinsel, Berlin (July 2016)
 Palaces and Parks of Potsdam and Berlin (July 2016)  
 Speyer Cathedral (September 2016)  
 Town of Bamberg (September 2018)  
-Old Town of Regensburg with Stadtamhof (September 2018)
+Old Town of Regensburg with Stadtamhof (September 2018)  
+Frontiers of the Roman Empire – The Danube Limes (Western Segment) (September 2018)
 
 **Hungary**
 
