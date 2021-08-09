@@ -201,7 +201,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 184. **The Orpheus Clock: The Search for My Family’s Art Treasures Stolen by the Nazis**, *Simon Goodman*, Scribner, 2015.
 185. **The Auschwitz Photographer: Based on the true story of Wilhelm Brasse prisoner 3444**, *Luca Crippa and Mauricio Onnis (Translated by Jennifer Higgins)*, Doubleday, 2021.
 186. **First Steps: How Walking Upright Made Us Human**, *Jeremy DeSilva*, William Collins, 2021.
-187. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+187. **Masters of the Planet: The Search for our Human Origins**, *Ian Tattersall*, Palgrave Macmillan, 2012.
+188. **The First Human: The Race to Discover Our Earliest Ancestors**, *Ann Gibbbons*, Doubleday, 2006.
+189. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+190. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -274,6 +277,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. [(review)](https://www.maa.org/press/maa-reviews/perelmans-refusal-a-novel)
 67. **Twenty-Four Hours in the Life of a Woman**, *Stefan Zweig (Translated by Anthea Bell)*, Pushkin Press, 2016.
 68. **Maigret’s Holiday**, *Georges Simenon (Translated by Ros Schwartz)*, Penguin Books, 2016.
+69. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
 
 
 ## Graphic Books
