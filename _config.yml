@@ -1,25 +1,24 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
+title:              Automation with Node.js
+email:              melishkevich.gala@gmail.com
+description:        Tips & tricks of routine automation
 author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            ""
+url:                "https://halynamelishkevich.github.io/HalynaMelishkevych.github.io/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+github_username:    halynamelishkevich
+facebook_username:  Halya Melishkevych
+instagram_username: h.melishkevych
+linkedin_username:  halyna-melishkevich
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# Analytics
+google_analytics:   G-E5HDPN42XP
 
 # Build settings
 markdown:           kramdown
+highlighter:        rouge
+permalink:          pretty
 paginate:           5
-paginate_path:      "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+exclude:            ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+
+gems:               [jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-sitemap]
