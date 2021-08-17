@@ -4,6 +4,7 @@ description:        A Blog Theme by Start Bootstrap
 author:             Start Bootstrap
 baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://startbootstrap.github.io"
+formspree:
 
 # Social Profiles
 twitter_username:   SBootstrap
