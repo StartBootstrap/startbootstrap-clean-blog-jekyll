@@ -207,9 +207,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 190. **The Lost Café Schindler: One Family, Two Wars and the Search for Truth**, *Meriel Schindler*, Hodder & Stoughton, 2021.
 191. **The Twins of Auschwitz: The Inspiring True Story of a Young Girl Surviving Mengele’s Hell**, *Eva Mozes Kor and Lisa Rojany Buccieri*, Monoray, 2020.
 192. **Mengele: Unmasking the “Angel of Death”**, *David G. Marwell*, W. W. Norton & Company, 2020.
-193. **Trieste and the Meaning of Nowhere**, *Jan Morris*, Faber and Faber Ltd, 2002.
-194. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
-195. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+193. **Serving the Reich: The Struggle for the Soul of Physics Under Hitler**, *Philip Ball*, Vintage Books, 2014.
+194. **Trieste and the Meaning of Nowhere**, *Jan Morris*, Faber and Faber Ltd, 2002.
+195. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
+196. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
