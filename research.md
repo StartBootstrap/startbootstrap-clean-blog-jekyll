@@ -74,7 +74,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-12. *Family of Congruences for $(2, \beta)$ Regular Bipartition Triples*, (with *V Puneeth and Anirban Roy*), preprint, 2021.
+12. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2021.
 
 11. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/PJM_MY.pdf))
 
