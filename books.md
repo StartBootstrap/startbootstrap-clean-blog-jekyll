@@ -215,7 +215,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 198. **Gratitude**, *Oliver Sacks*, Picador, 2015.
 199. **Intimations: Six Essays**, *Zadie Smith*, Penguin Books, 2020.
 200. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
-201. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+201. **Neanderthal Man: In Search of Lost Genomes**, *Svante Pääbo*, Basic Books, 2014.
+202. **Catching Fire: How Cooking Made Us Human**, *Richard Wrangham*, Basic Books, 2009.
+203. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
