@@ -294,7 +294,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. [(review)](https://www.maa.org/press/maa-reviews/perelmans-refusal-a-novel)
 67. **Twenty-Four Hours in the Life of a Woman**, *Stefan Zweig (Translated by Anthea Bell)*, Pushkin Press, 2016.
 68. **Maigret’s Holiday**, *Georges Simenon (Translated by Ros Schwartz)*, Penguin Books, 2016.
-69. ** The Children's Block: Based on a true story by an Auschwitz survivor**, *Otto B. Kraus*, Ebury Press, 2019.
+69. **The Children's Block: Based on a true story by an Auschwitz survivor**, *Otto B. Kraus*, Ebury Press, 2019.
 70. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
 
 
