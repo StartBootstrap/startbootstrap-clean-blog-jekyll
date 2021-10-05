@@ -217,7 +217,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 200. **Kindred: Neanderthal Life, Love, Death and Art**, *Rebecca Wragg Sykes*, Bloomsbury Sigma, 2020.
 201. **Neanderthal Man: In Search of Lost Genomes**, *Svante Pääbo*, Basic Books, 2014.
 202. **Catching Fire: How Cooking Made Us Human**, *Richard Wrangham*, Basic Books, 2009.
-203. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+203. **The Nazis: A Warning From History**, *Laurence Rees*, BBC Books, 2021.
+204. **Inside Hitler’s Bunker: The Last Days of the Third Reich**, *Joachim Fest (Translated by Margot Bettauer Dembo)*, Macmillan, 2004.
+205. **I Belong to Vienna: A Jewish Family’s Story of Exile and Return**, *Anna Goldenberg (Translated by Alta L. Price)*, New Vessel Press, 2020.
+206. **The Art of More: How Mathematics Created Civilisation**, *Michael Brooks*, Scribe, 2021.
+207. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -290,7 +294,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 66. **Perelman's Refusal: A Novel**, *Philippe Zaouati (Translated by Rachel Zerner)*, American Mathematical Society, 2021. [(review)](https://www.maa.org/press/maa-reviews/perelmans-refusal-a-novel)
 67. **Twenty-Four Hours in the Life of a Woman**, *Stefan Zweig (Translated by Anthea Bell)*, Pushkin Press, 2016.
 68. **Maigret’s Holiday**, *Georges Simenon (Translated by Ros Schwartz)*, Penguin Books, 2016.
-69. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
+69. ** The Children's Block: Based on a true story by an Auschwitz survivor**, *Otto B. Kraus*, Ebury Press, 2019.
+70. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
 
 
 ## Graphic Books
@@ -310,6 +315,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 13. **The Story of BREXIT**, *J. A. Hazeley and J. P. Morris*, Penguin Books, 2018.
 14. **Brexit: Join The F@@@ing Dots**, *Jamie Whyte*, Pyramid, 2018.
 15. **Famous Cities of the World: Florence**, *Lazzaro Donati*, Spring Books, 1964.
+16. **Persepolis: The Story of a Childhood and The Story of a Return**, *Marjane Satrapi (Translated by Anjali Singh)*, Vintage, 2008.
 
 
 ## Poetry
