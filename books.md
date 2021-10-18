@@ -221,7 +221,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 204. **Inside Hitler’s Bunker: The Last Days of the Third Reich**, *Joachim Fest (Translated by Margot Bettauer Dembo)*, Macmillan, 2004.
 205. **I Belong to Vienna: A Jewish Family’s Story of Exile and Return**, *Anna Goldenberg (Translated by Alta L. Price)*, New Vessel Press, 2020.
 206. **The Art of More: How Mathematics Created Civilisation**, *Michael Brooks*, Scribe, 2021.
-207. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+207. **Debunked! ESP, Telekinesis, and Other Pseudoscience**, *Georges Charpak and Henri Broch (Translated by Bart K. Holland)*, The Johns Hopkins University Press, 2004.
+208. **Science Fictions: Exposing Fraud, Bias, Negligence and Hype in Science**, *Stuart Ritchie*, Vintage, 2021.
+209. **Languages Are Good For Us**, *Sophie Hardach*, Head of Zeus Ltd, 2021.
+210. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -316,6 +319,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 14. **Brexit: Join The F@@@ing Dots**, *Jamie Whyte*, Pyramid, 2018.
 15. **Famous Cities of the World: Florence**, *Lazzaro Donati*, Spring Books, 1964.
 16. **Persepolis: The Story of a Childhood and The Story of a Return**, *Marjane Satrapi (Translated by Anjali Singh)*, Vintage, 2008.
+17. **Famous Cities of the World: Vienna**, *Alfred Cermak*, Spring Books, 1966.
 
 
 ## Poetry
