@@ -2,8 +2,8 @@ title:              Smart Circular Constrution Ecosystems
 email:              y.yu-1@utwente.nl
 description:        Theories of designing a circularity information platform
 author:             Yifei Yu
-baseurl:            "/yifei-yu-utwente.github.io/SCCE/"
-url:                "https://yifei-yu-utwente.github.io/SCCE/" 
+baseurl:            "/SCCE"
+url:                "https://yifei-yu-utwente.github.io" 
 
 # Social Profiles
 twitter_username:   SBootstrap
