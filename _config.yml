@@ -1,5 +1,5 @@
 title:              Clean Blog
-email:              your-email@example.com
+email:              y.yu-1@utwente.nl
 description:        A Blog Theme by Start Bootstrap
 author:             Start Bootstrap
 baseurl:            "/yifei-yu-utwente.github.io"
@@ -23,4 +23,3 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
-bundle exec jekyll serve
