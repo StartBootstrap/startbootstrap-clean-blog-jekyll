@@ -6,11 +6,10 @@ baseurl:            "/SCCE"
 url:                "https://yifei-yu-utwente.github.io" 
 
 # Social Profiles
-twitter_username:   
 github_username:    Yifei-Yu-UTwente
-facebook_username:  Yifei Yu
-instagram_username: Yifei Yu 
-linkedin_username:
+linkedin_username:  in/yifei-yu-375246144/
+facebook_username:  profile.php?id=100013259350468
+
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
