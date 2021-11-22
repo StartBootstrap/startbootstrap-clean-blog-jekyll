@@ -228,7 +228,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 211. **Zero: The Biography of a Dangerous Idea**, *Charles Seife*, Penguin Books, 2000.
 212. **How Contagion Works: Science, Awareness and Community in Times of Global Crises**, *Paolo Giordano (Translated by Alex Valente)*, Weidenfeld & Nicolson, 2020.
 213. **To Kill A Democracy: India’s Passage to Despotism**, *Debasish Roy Chowdhury and John Keane*, Oxford University Press, 2021.
-214. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+214. **How Democracies Die: What History Reveals About Our Future**, *Steven Levitsky and Daniel Ziblatt*, Penguin Books, 2019.
+215. **Everybody Loves a Good Drought: Stories from India’s Poorest Districts**, *P. Sainath*, Penguin Books, 2017.
+216. **Midnight’s Borders: A People’s History of Modern India**, *Suchitra Vijayan*, Melville House, 2021.
+217. **Modi’s India: Hindu Nationalism and the Rise of Ethnic Democracy**, *Christophe Jaffrelot (Translated by Cynthia Schoch)*, Princeton University Press, 2021.
+218. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -341,3 +345,4 @@ The books which are marked with a ** are the ones that I am either currently rea
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
 4. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
 5. **Race**, *Toni Morrison*, Vintage, 2017.
+6. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
