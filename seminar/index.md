@@ -9,6 +9,8 @@ mathjax: true
 
 ## About The Seminar
 
+**The seminar is not running at the moment.**
+
 This seminar takes place usually on Fridays, at a suitable time and is meant for talks by early career Indian mathematicians (PhD Students, Postdocs, and young faculty members). By Indian, we mean anyone residing/working in India now or residing/working in India in the past.
 
 You can register to be on the mailing list by filling [in this form](https://forms.office.com/Pages/ResponsePage.aspx?id=TMed1p1reUOCSt_owRbqYpGWPpPueOhKgz_4Mo1dioBURFVKRk1INVc0TTk4U0VXWkJBMUMyRDZPMi4u). Alternatively, you can also email me (manjil@saikia.in) or Parama Dutta (parama@gonitsora.com).
