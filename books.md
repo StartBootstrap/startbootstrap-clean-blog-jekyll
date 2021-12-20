@@ -232,7 +232,14 @@ The books which are marked with a ** are the ones that I am either currently rea
 215. **Everybody Loves a Good Drought: Stories from India’s Poorest Districts**, *P. Sainath*, Penguin Books, 2017.
 216. **Midnight’s Borders: A People’s History of Modern India**, *Suchitra Vijayan*, Melville House, 2021.
 217. **Modi’s India: Hindu Nationalism and the Rise of Ethnic Democracy**, *Christophe Jaffrelot (Translated by Cynthia Schoch)*, Princeton University Press, 2021.
-218. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+218. **On Tyranny: Twenty Lessons from the Twentieth Century**, *Timothy Snyder*, The Bodley Head, 2017.
+219. **I Am a Troll: Inside the Secret World of the BJP’s Digital Army**, *Swati Chaturvedi*, Juggernaut Books, 2019.
+220. **The Great Unravelling: India after 2014**, *Sanjay Jha*, Context, 2020.
+221. **Let Me Go: My Mother and the SS**, *Helga Schneider (Translated by Shaun Whiteside)*, Vintage, 2005.
+222. **Our Hindu Rashtra: What It Is. How We Got Here**, *Aakar Patel*, Westland, 2020.
+223. **Price of the Modi Years**, *Aakar Patel*, Westland Non-Fiction, 2021.
+224. **Island Dreams: Mapping an Obsession**, *Gavin Francis*, Canongate, 2020.
+225. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -307,6 +314,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 68. **Maigret’s Holiday**, *Georges Simenon (Translated by Ros Schwartz)*, Penguin Books, 2016.
 69. **The Children's Block: Based on a true story by an Auschwitz survivor**, *Otto B. Kraus*, Ebury Press, 2019.
 70. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
+71. **My Son the Fanatic**, *Hanif Kureishi*, Faber and Faber Limited, 2019.
 
 
 ## Graphic Books
