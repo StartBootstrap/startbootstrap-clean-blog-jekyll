@@ -240,7 +240,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 223. **Price of the Modi Years**, *Aakar Patel*, Westland Non-Fiction, 2021.
 224. **Island Dreams: Mapping an Obsession**, *Gavin Francis*, Canongate, 2020.
 225. **Eichmann and the Holocaust**, *Hannah Arendt*, Penguin Books, 2005.
-226. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+226. **Undercover: My Journey into the Darkness of Hindutva**, *Ashish Khetan*, Context, 2021.
+227. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
