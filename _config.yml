@@ -2,7 +2,7 @@ title:              Ciencia de Dados
 email:              jeffersonm019@gmail.com
 description:        Projetos, artigos e tutoriais sobre o universo de Dados.
 author:             Start Bootstrap
-baseurl:            ""
+baseurl:            "/DataSciencePortfolio"
 url:                "https://DataSciencePortfolio.github.io"
 
 # Social Profiles
