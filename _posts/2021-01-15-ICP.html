@@ -1,0 +1,18 @@
+---
+layout: post
+title: "2D Iterative Closest Point (ICP)"
+subtitle: "ICP using c++ and eigen library"
+date: 2020-01-26 23:45:13 -0400
+background: '/img/posts/01.jpg'
+---
+
+
+<p>ICP is an algorithm used to compute the rotation and transformation ( rotation \(R\) and translation \(t\) between two groups of points target points \(P = p_i\) and references points \(Q = {q_i}\), where it uses and minimizing the differences of the two group of points. For example, ICP use in 3D reconstruction point cloud, or in 2D to match between scanning (for robot localizations)</p>
+
+<p>In this projects I wrote a ICP using C++ and Eigne template. I used cv-Plot to show a visualization presentation of the points. <a href=”https://github.com/Profactor/cv-plot”>CV-Plot </a> is a library developed using purely opencv that can work in real time with easy integration.</p>
+
+    <h2 class="section-heading">ICP algorithms</h2>
+
+    <p> In this project I used different algorithms which: (1) ICP based on SVD (2) ICP based on nonlinear least square and (3) using point to plane metrics with least square ICP. </p>
+
+<p> There are five steps to do the ICP </p>
