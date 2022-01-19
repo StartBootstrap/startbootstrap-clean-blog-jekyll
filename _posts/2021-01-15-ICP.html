@@ -7,12 +7,28 @@ background: '/img/posts/01.jpg'
 ---
 
 
-<p>ICP is an algorithm used to compute the rotation and transformation ( rotation \(R\) and translation \(t\) between two groups of points target points \(P = p_i\) and references points \(Q = {q_i}\), where it uses and minimizing the differences of the two group of points. For example, ICP use in 3D reconstruction point cloud, or in 2D to match between scanning (for robot localizations)</p>
+<p>ICP is an algorithm used to compute the rotation and transformation ( rotation \(R\) and translation \(t\) between two groups of points target points \(P = p_i\) and references points \(Q = {q_i}\), 
+    where it uses and minimizing the differences of the two group of points. For example, ICP use in 3D reconstruction point cloud, or in 2D to match between scanning (for robot localizations)</p>
 
-<p>In this projects I wrote a ICP using C++ and Eigne template. I used cv-Plot to show a visualization presentation of the points. <a href=”https://github.com/Profactor/cv-plot”>CV-Plot </a> is a library developed using purely opencv that can work in real time with easy integration.</p>
+<p>In this projects I wrote a ICP using C++ and Eigne template. I used cv-Plot to show a visualization presentation of the points. 
+    <a href=”https://github.com/Profactor/cv-plot”>CV-Plot </a> is a library developed using purely opencv that can work in real time with easy integration.</p>
 
     <h2 class="section-heading">ICP algorithms</h2>
 
     <p> In this project I used different algorithms which: (1) ICP based on SVD (2) ICP based on nonlinear least square and (3) using point to plane metrics with least square ICP. </p>
 
-<p> There are five steps to do the ICP </p>
+<p> First I will start with SVD_ICP algorithms where there are five steps to do the ICP which are</p>
+
+
+-computer center data and transform them 
+-Compute correspondences
+-compute_cross_covariance
+-Find  \(𝑅\)  and  \(𝑡\)  from SVD decomposition
+-Apply transformation and computer error
+
+<p>I will show the code and explain it for each steps. Before we start it is important to define the data type will be used in programming. So starting by defineing the point I use Eigen template Vector2d to store the value of the point \((x,y)\). 
+    And I used std::vectore to store the list of the point. I used Eigen::MatrixXd to process the rotation matrix and translation. Note: using Eigen library we need to keep the definition of variable constant.</p>
+
+
+<h3 class="section-heading">Computer center data and transform them </h3>
+<p>This step we compute the mean center of all points in targets \(\overline P=\frac{1}{n}\sum_{i=1}^n p_i\) and references \(\overline Q=\frac{1}{n}\sum_{i=1}^n q_i\). </p>
