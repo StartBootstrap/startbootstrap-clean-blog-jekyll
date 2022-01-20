@@ -7,7 +7,7 @@ background: '/img/posts/01.jpg'
 ---
 
 
-<p>ICP is an algorithm used to compute the rotation and transformation ( rotation \(R\) and translation \(t\) between two groups of points target points \(P = p_i\) and references points \(Q = {q_i}\), 
+<p>ICP is an algorithm used to compute the rotation and the transformation ( rotation \(R\) and translation \(t\) ) between two sets of points, which target points \(P = \{p_i\}\) and references points \(Q = \{q_i\}\), 
     where it uses and minimizing the differences of the two group of points. For example, ICP use in 3D reconstruction point cloud, or in 2D to match between scanning (for robot localizations)</p>
 
 <p>In this projects I wrote a ICP using C++ and Eigne template. I used cv-Plot to show a visualization presentation of the points. 
@@ -19,16 +19,225 @@ background: '/img/posts/01.jpg'
 
 <p> First I will start with SVD_ICP algorithms where there are five steps to do the ICP which are</p>
 
+<ul>
+    <li>Computer center data and transform them </li>
+    <li>Compute correspondences</li>
+    <li>Compute cross covariance matrix</li>
+    <li>Find  \(𝑅\)  and  \(𝑡\)  from SVD decomposition</li>
+    <li>Apply transformation and computer error</li>
+</ul> 
 
--computer center data and transform them 
--Compute correspondences
--compute_cross_covariance
--Find  \(𝑅\)  and  \(𝑡\)  from SVD decomposition
--Apply transformation and computer error
-
-<p>I will show the code and explain it for each steps. Before we start it is important to define the data type will be used in programming. So starting by defineing the point I use Eigen template Vector2d to store the value of the point \((x,y)\). 
-    And I used std::vectore to store the list of the point. I used Eigen::MatrixXd to process the rotation matrix and translation. Note: using Eigen library we need to keep the definition of variable constant.</p>
+<p>I will show the code and explain it for each steps. Before we start it is important to define the data type will be used in programming. 
+    So starting by defineing the point I use Eigen template Vector2d to store the value of the point \((x,y)\). 
+    And I used std::vectore to store the list of the point. I used Eigen::MatrixXd to process the rotation matrix and translation. 
+    Note: using Eigen library we need to keep the definition of variable constant.</p>
 
 
 <h3 class="section-heading">Computer center data and transform them </h3>
-<p>This step we compute the mean center of all points in targets \(\overline P=\frac{1}{n}\sum_{i=1}^n p_i\) and references \(\overline Q=\frac{1}{n}\sum_{i=1}^n q_i\). </p>
+<p>This step we compute the mean center of all points in targets \(\overline P=\frac{1}{n}\sum_{i=1}^n p_i\) and references \(\overline Q=\frac{1}{n}\sum_{i=1}^n q_i\). 
+    After computing center of each point we reduce thier coordinate \(p^{'} = p_i - \overline P\) and \(q^{'} = q_i - \overline Q\). </p>
+
+<p>The data used to test this projects is hand made data \(Q\) then a transformation applied to create the targets set \(P\).</p>
+
+
+<img src="{{site.baseurl}}/assets/icp/Data.PNG">
+
+<p>
+    The function of computing the center of the points is shown below.
+     The inpute is a vector contain the list of points in Eigen::Vector2d format and the output is Eigen::Vector2d as well.
+</p>
+{% highlight ruby %}
+Eigen::Vector2d Center_data(vector<Eigen::Vector2d> P)
+{
+	Eigen::Vector2d temp;
+	temp << 0, 0;
+	for (int i = 0; i < P.size(); i++)
+	{
+		temp += P[i];
+	}
+	temp = temp / P.size();
+	return temp;
+}
+{% endhighlight %}
+
+<p>After computing the center of data or the mean, we reduce the coordinate of the points using the following code</p>
+
+{% highlight ruby %}
+for (int i = 0; i < Q.size(); i++)
+	{
+		Q_centered.push_back(Q[i] - center_of_Q);
+	}
+{% endhighlight %}
+
+<p>The output of transformation show below</p>
+
+<img src="{{site.baseurl}}/assets/icp/reduce coordinate.PNG">
+
+<p>We can see how the target points \(P\) move to the center of refrence points \(Q\).</p>
+
+<h3 class="section-heading">Compute correspondences</h3>
+<p>Now we need to compute the correspondences between the target points and reference points. At this point there many 
+    algorithms we can use to do the matching such as search Tree and ANN. 
+    Correspondences algorithms also known by the name of Registration algorithms. 
+    to measure the matched point I am going to use linalg_norm to calculate the normal vector. 
+    The function is show below where the inpute is Vector2d and the output is the differencess.
+</p>
+
+{% highlight ruby %}
+double linalg_norm(Eigen::Vector2d p) {
+	return sqrt(p(0) * p(0) + p(1) * p(1));
+}
+{% endhighlight %}
+
+<p>
+    The correspondences algorithms consiste of two loops where the firest loop is to go through the point in refrence point \(Q\),
+    and the second loop to go through the targets points \(P\). Each point is measured using linalg_norm and compared it with the minimumvalue.
+    Then the indexs of both the target points and the reference points stored in vector. The function is show below where two vectors is the input 
+    and the output is a vector contain the matched indexes. 
+</p>
+
+{% highlight ruby %}
+vector<Eigen::Vector2d> Get_correspondence_indices(vector<Eigen::Vector2d> P, vector<Eigen::Vector2d> Q)
+{
+	vector<Eigen::Vector2d> correspondences;
+	for (int i = 0; i < P.size(); i++)
+	{
+		double min_distance = 99999999.9;
+		int match_index = -1;
+		for (int j = 0; j < Q.size(); j++)
+		{
+			double distance = linalg_norm(Q[j] - P[i]);
+			if (distance < min_distance)
+			{
+				match_index = j;
+				min_distance = distance;
+			}
+		}
+		if (match_index != -1)
+		{
+			Eigen::Vector2d temp;
+			temp << i, match_index;
+			correspondences.push_back(temp);
+		}
+	}
+	return correspondences;
+}
+{% endhighlight %}
+
+<p>
+    The figure below shows the output of the correspondences process, where each point from the reference points \(Q\) is linked to the target points \(P\).
+    As can be seen the matching process is not a great one, but it do the work for a 2D and small points set.
+</p>
+
+
+<img src="{{site.baseurl}}/assets/icp/correspondeces.jpg">
+
+<h1 class="section-heading">Compute cross covariance matrix</h1>
+<p>
+    Now we need to compute the cross covariance \(K\) between the correspondeces points.
+</p>
+
+$$K=E[(q_i - \overline Q)(p_i - \overline P)^T)] $$
+$$ =\frac{1}{N} \sum(q_i - \overline Q)(p_i - \overline P)^T) $$
+$$ \approx \sum(q_i - \overline Q)(p_i - \overline P)^T) $$
+<p>
+    The output of this equation \(K\) will be a mratix of \(2x2\), due to that \(p_i , q_j \in \Bbb R^2\).
+</p>
+
+$$K = \begin{pmatrix}cov(p_{xi},q_{xj}) & cov(p_{xi},q_{yj})\\\ cov(p_{yi},q_{xj}) & cov(p_{yi},q_{yj})\end{pmatrix}$$
+
+<p>
+    After computing the covariance, we will compute \(R\) and \(t\) using Singular Value Decompositions SVD.
+    SVD of matrix is a factorization of the matrix. Where the output of SVD is three matrixs which \(S\), \(U\), and \(T_V\).
+    Therefore, \(R=UV^T\) and \(t=\mu_Q - R_{\mu_P}\). Using Eigen library we will compute the SVD of cov using Eigen::JacobiSVD, 
+    then we will compute the rotation and translation as shown in the below snap code.
+</p>
+
+{% highlight ruby %}
+// Step 4: Find  𝑅  and  𝑡  from SVD decomposition
+Eigen::JacobiSVD<Eigen::MatrixXd> svd(cov, Eigen::ComputeFullU | Eigen::ComputeFullV);
+auto R_found = svd.matrixU() * svd.matrixV().transpose();
+auto T_found = center_of_Q - R_found * center_of_P;
+{% endhighlight %}
+
+
+<h1 class="section-heading">Apply transformation and computer error</h1>
+
+<p>
+    After getting the new \(R\) and \(t\), we need to apply the transformation to the target points \(P\).
+    Using the following function Apply_transform(). The output of the function is a vector contain a list of 
+    corrected points. After that the Error is computed using linalg_norm function \(E={\sqrt {P^{'} - Q} }\). 
+    Finally, we repeat the same step for few time until the error reach to threshold. The function below is the \(ICP_SVD\) 
+    that used. The function take four inputs which is two for reference points and target points, the vector take the error 
+    at each iterations and the number of iterations.
+</p>
+
+{% highlight ruby %}
+vector<Eigen::Vector2d> ICP_svd(vector<Eigen::Vector2d> P, 
+                                vector<Eigen::Vector2d> Q, 
+                                vector<double>& error, 
+                                int iterations = 10)
+    {
+        // Step 1: computer center data and transform them 
+        Eigen::Vector2d center_of_Q = Center_data(Q);
+        vector<Eigen::Vector2d> Q_centered;
+        for (int i = 0; i < Q.size(); i++)
+        {
+            Q_centered.push_back(Q[i] - center_of_Q);
+        }
+        vector<Eigen::Vector2d> P_copy = P;
+        // Start the loop
+        for (int iter = 0; iter < iterations; iter++)
+        {
+            Plot_data(P_copy, Q);
+    
+            vector<Eigen::Vector2d> P_centered;
+            Eigen::Vector2d center_of_P = Center_data(P_copy);
+            for (int i = 0; i < P.size(); i++)
+            {
+                P_centered.push_back(P_copy[i] - center_of_P);
+            }
+    
+            // Step 2: Compute correspondences
+            auto correspondences = Get_correspondence_indices(P_centered, Q_centered);
+    
+            // Step 3: compute_cross_covariance
+            auto cov = compute_cross_covariance(P_centered, Q_centered, correspondences);
+    
+            // Step 4: Find  𝑅  and  𝑡  from SVD decomposition
+            Eigen::JacobiSVD<Eigen::MatrixXd> svd(cov, Eigen::ComputeFullU | Eigen::ComputeFullV);
+            auto R_found = svd.matrixU() * svd.matrixV().transpose();
+            auto T_found = center_of_Q - R_found * center_of_P;
+    
+            // Step 5: Apply transformation and computer error
+            P_copy = Apply_transform(P_copy, R_found, T_found);
+            double _error = Compute_Square_difference(P_copy, Q);
+            error.push_back(_error);
+            cout << "Squared diff: (P_corrected - Q) = " << _error << endl;
+        }
+        Plot_data(P_copy, Q, 400);
+        return P_copy;
+    }
+{% endhighlight %}
+
+<p>
+    The figures below shows the output if ICP_SVD algorithms and the error. 
+    As can be seen the algorithm took 7 iteration to drop the error to zero.
+</p>
+
+<img src="{{site.baseurl}}/assets/icp/icp_svd.gif">
+<img src="{{site.baseurl}}/assets/icp/CPI_SVD_ERROR.jpg">
+
+<p>
+    For the full code check this link <a href=” ”> Guthub_code </a>
+</p>
+<h1 class="section-heading">Refrences</h1>
+<p>
+    This work is based on the work of  <a href=”https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb”> Igor Bongoslavskyi </a>, 
+    <a href=”https://github.com/thegyro/Project4-Scan-Matching”> Srinath Rajagopalan </a>
+    <a href=”https://pcl.readthedocs.io/projects/tutorials/en/latest/interactive_icp.html”> Link_1 </a>
+     and the explination of <a href= "https://www.youtube.com/channel/UCi1TC2fLRvgBQNe-T4dp8Eg" > Cyrill Stachniss </a>
+</p>
+<p>M. Greenspan and M. Yurick, "Approximate k-d tree search for efficient ICP," 
+    Fourth International Conference on 3-D Digital Imaging and Modeling, 2003. 3DIM 2003. 
+    Proceedings., 2003, pp. 442-448, doi: 10.1109/IM.2003.1240280.</p>
