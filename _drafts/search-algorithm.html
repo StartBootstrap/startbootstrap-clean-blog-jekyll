@@ -1,0 +1,301 @@
+---
+layout: post
+title: "Research Algorithm"
+subtitle: ""
+date: 2021-08-26 -0400
+background: '/img/posts/01.jpg'
+---
+<p>
+    In this post I am going to go through my implementation of different search algorithms 
+    for path finding based on Grid map. First, I will start with the global search 
+    algorithms such as breadth first and depth first. Then I will present the A* algorithms 
+    and how we can optimize the code. As usual I am going to use C++ to do the programming.
+</p>
+
+<p>
+    There are different type of graphs which shown in the image below. 
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\graphs.png">
+
+<p>
+    In this project I define the map as a 2D vector std::vector<std::vector<Node>>. 
+        The node is a class designed to have the required information such as X, Y position, 
+        state if clear or wall, parent position, 
+        and to check if it visited or not. Below is the code defining class.
+</p>
+
+{% highlight ruby %}
+class Node {
+    public:
+        int x, y;
+        State state;
+        bool visited;
+    
+        int parent_x;
+        int parent_y;
+    
+        int G;
+        int H;
+        int cost;
+    
+        Node(int _x, int _y, State _state, int px, int py, int g =0, int h =0) {
+            x = _x;
+            y = _y;
+            state = _state;
+            parent_x = px;
+            parent_y = py;
+            visited = false;
+            G = g;
+            H = h;
+            if (state == State::kObstecal)
+            {
+                cost = 255;
+            }
+            else
+            {
+                cost = 0;
+            }
+        }
+    };
+{% endhighlight %}
+
+<p>
+    So, let’s start talking about the search algorithms. The search algorithms is 
+    used to solve the problem of problem to find the shortest path between two point. 
+    There are two type of search algorithms which is uniformed search and guided algorithm.
+</p>
+<p>
+    Uniformed search algorithm has no other information despite the start position and the goal 
+position, where it searches all adjacent node until it finds the goal. There are two 
+approaches we will present in this work which is the breadth-first search and depth-first 
+algorithms.
+</p>
+<h2 class="section-heading">Breadth-first search</h2>
+<p>
+    The figure below explains how breadth-first search work by 
+    explore all the adjacent node before it moves to the child of the node.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\breadth-first.gif">
+
+<p>
+    Every time the algorithm opens new Node it checks if the goal has been reaching or not, 
+    the continue exploring the remaining. The figure below shows the algorithms steps.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\breadth-first algorithm.gif">
+
+<p>
+    And the code is shown below, where is it take three input and return string. 
+    The input is a 2D grid, start position and the goal position. 
+    I used queue to store the open node. The reason to use queue is that this data 
+    structure allowed for the first in last out FILO, which save the time in organize 
+    the data.
+</p>
+
+{% highlight ruby %}
+string BreadthFirst(vector < vector<Node>>& grid, int start[2], int goal[2]) {
+    // step 1: initialize nodeList and add the start node to the list
+    queue <Node> openList;
+    int x = start[0];
+    int y = start[1];
+    AddToOpenList(x, y, 0, 0, grid, openList);
+    // step 3: check if the list is empty
+    while (!openList.empty())
+    {
+        // step 5: dequeue node as currentnode and remove it from the list
+        Node currentNode = openList.front();
+        // remove the first element
+        openList.pop();
+
+        x = currentNode.x;
+        y = currentNode.y;
+        //cout << x << "," << y << "\n";
+        grid[x][y].visited = true;
+        grid[x][y].state = State::kVisited;
+
+        // step 6: check if the current node is the goal
+        if (x == goal[0] && y == goal[1])
+        {
+            RetracePath(start, goal, grid);
+            grid[start[0]][start[1]].state = State::kStart;
+            grid[goal[0]][goal[1]].state = State::kFinish;
+            return "Path found";
+            break;
+        }
+        // step 7: get the neighbors of the current node
+        ExpandNeighbor(currentNode, openList, grid);
+    }
+    return "No path Found";
+
+}
+{% endhighlight %}
+
+<p>
+    I wrote a functions to expand the neighbor of the current node where it check the four 
+    direction of the node which top, right, bottom and left. Note that this function made as 
+    a template so I can change the openList vector. 
+</p>
+
+
+{% highlight ruby %}
+// this function used to expand the neightbor of the cuurent Node
+template<class listTT>
+void ExpandNeighbor(Node currentNode, listTT& openList, vector<vector<Node>>& grid) {
+    int x = currentNode.x;
+    int y = currentNode.y;
+
+    for (auto neighbor : delta)
+    {
+        int x2 = x + neighbor[0];
+        int y2 = y + neighbor[1];
+        if (CheckValidCell(x2, y2, grid) == 1)
+        {
+            AddToOpenList(x2, y2, x, y, grid, openList);
+            grid[x2][y2].state = State::kVisited;
+        }
+    }
+}
+
+CheckValidCell is another function used to test if the node is accessible. 
+bool CheckValidCell(int x, int y, std::vector<std::vector<Node>>& grid) {
+    bool on_grid_x = (x >= 0 && x < grid.size());
+    bool on_grid_y = (y >= 0 && y < grid[0].size());
+    if (on_grid_x && on_grid_y) {
+        State nodeState = grid[x][y].state;
+        if (nodeState != State::kObstecal && grid[x][y].visited == false)
+        {
+            return grid[x][y].state == State::kEmpty;
+        }
+    }
+    return false;
+}
+{% endhighlight %}
+
+<p>
+    AddToOpenList is function designed 
+    to add the node into openList due to the complexity of node class.
+</p>
+{% highlight ruby %}
+template <class listT>
+void AddToOpenList(int x, int y, int p_x, int p_y, vector<vector<Node>>& grid, listT& openList) {
+    Node currentNode{ x, y, State::kClose, p_x, p_y };
+    openList.push(currentNode);
+    grid[x][y].parent_x = p_x;
+    grid[x][y].parent_y = p_y;
+    grid[x][y].state = State::kClose;
+}    
+{% endhighlight %}
+
+<p>
+    And finally, we have the function to trace the path from finish to start. 
+    Here we will see why we define the parent for each node. 
+    Every current node expands four new node where the current node will be the 
+    parent of these node.
+</p>
+
+{% highlight ruby %}
+vector<Node> RetracePath(int startNode[2], int goal[2], vector<vector<Node>>& grid)
+    {
+        vector<Node> path;
+        Node currentNode = grid[goal[0]][goal[1]];
+        int x = currentNode.x;
+        int y = currentNode.y;
+        while (x != startNode[0] || y != startNode[1])
+        {
+            path.push_back(currentNode);
+            grid[currentNode.x][currentNode.y].state = State::kPath;
+            currentNode = grid[currentNode.parent_x][currentNode.parent_y];
+            x = currentNode.x;
+            y = currentNode.y;
+        }
+    
+        reverse(path.begin(), path.end());
+        cout << "Path length: " << path.size() << "\n";
+        return path;
+    }
+    
+{% endhighlight %}
+<p>
+    The second uniformed search is the depth-first where it explores the depth of 
+    every node before it goes it its neighbor. The figure below shows the search of 
+    the depth first.
+</p>
+
+<h2 class="section-heading">Depth-first search</h2>
+<p>
+    The second uniformed search is the depth-first where it explores the depth of 
+    every node before it goes it its neighbor. The figure below shows the search of 
+    the depth first.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\depth First.gif">
+
+<p>
+    The figure below shows the steps of depth first algorithm which follow the same steps.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\depth First algorithm.gif">
+
+<p>
+    The below code shows the function of the depth first algorithms that has the same
+     input of breadth-first and the same output. But these algorithms use stack to store 
+     the open list. The reason to use stack because stack worked based on the first in first
+      out FIFO.
+</p>
+
+{% highlight ruby %}
+string DepthFirst(vector<vector<Node>>& grid, int start[2], int goal[2]) {
+    // step 1: initialize openList and add that start node
+    stack <Node> openList;
+    int x = start[0];
+    int y = start[1];
+    AddToOpenList(x, y, 0, 0, grid, openList);
+
+    // step 2: check iof open list is not empty
+    while (!openList.empty())
+    {
+        // step 3: get the currentNode from the stack 
+        Node currentNode = openList.top();
+        openList.pop();
+        x = currentNode.x;
+        y = currentNode.y;
+        //cout << x << "," << y << "\n";
+        // step 4: mark the node as visited
+        grid[x][y].visited = true;
+        grid[x][y].state = State::kVisited;
+        // step 5: check if the node is the goal
+        if (x == goal[0] && y == goal[1])
+        {
+            RetracePath(start, goal, grid);
+            grid[start[0]][start[1]].state = State::kStart;
+            grid[goal[0]][goal[1]].state = State::kFinish;
+            return "[INFO] path was found...";
+            break;
+        }
+
+        // step 6: check the neighbor of the node
+        ExpandNeighbor(currentNode, openList, grid);
+    }
+    return " [INFO] No path was found...";
+}
+{% endhighlight %}
+
+<p>
+    The output is show below of both the breadth-first and the depth-first. 
+    As can be seen that the number of nodes explored is shown in purple and 
+    the bath is shown in green and the yellow is the wall.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\output_breadth-depth.PNG">
+
+<p>
+    As can be seen in the output that the explore in both methods are different 
+    due to the nature of the explore way.
+</p>
+
+
+{% highlight ruby %}
+
+{% endhighlight %}
