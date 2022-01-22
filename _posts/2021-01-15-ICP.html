@@ -228,15 +228,47 @@ vector<Eigen::Vector2d> ICP_svd(vector<Eigen::Vector2d> P,
 
 <p>
     The figures below shows the output if ICP_SVD algorithms and the error. 
-    As can be seen the algorithm took 7 iteration to drop the error to zero.
+    As can be seen the algorithm took 7 iteration to drop the error to zero and match the two points sets.
 </p>
 
 <img src="{{site.baseurl}}/assets/icp/icp_svd.gif">
 <img src="{{site.baseurl}}/assets/icp/CPI_SVD_ERROR.jpg">
 
+
+<h1 class="section-heading">ICP based on nonlinear least square</h1>
+
+<p>
+    In this problem we are working to reduce the error of the sum square distance between two points.
+</p>
+
+$$E = \sum[R*p_i + t - q_i]$$
+
+<p>
+    \(E\) is the value should be minimise by updating \(R, t\). 
+    Keep note that \(P\) is the only one update and due to the present of \(R\) in 
+    the equation this function is non linear. 
+</p>
+
+<p>
+    The minimizing problem start with computing the corresponde point between both set. 
+    We assume the pose is descripe as follow \(\mathbf{x} = [x,y,\theta]^T\) where \(\theta\) 
+    place in the the rotation matrix \(R = \begin{pmatrix} cos(\theta) & -sin(\theta)\\\ sin(\theta) & cos(\theta)\end{pmatrix}\). 
+    
+</p>
+
+
+
+
+
+
+
 <p>
     For the full code check this link <a href=” ”> Guthub_code </a>
 </p>
+
+
+
+
 <h1 class="section-heading">Refrences</h1>
 <p>
     This work is based on the work of  <a href=”https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb”> Igor Bongoslavskyi </a>, 
