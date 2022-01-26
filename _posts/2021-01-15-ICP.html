@@ -241,13 +241,44 @@ vector<Eigen::Vector2d> ICP_svd(vector<Eigen::Vector2d> P,
 
 <p>
     The figures below shows the output if ICP_SVD algorithms and the error. 
-    As can be seen the algorithm took 7 iteration to drop the error to zero.
+    As can be seen the algorithm took 7 iteration to drop the error to zero and match the two points sets.
 </p>
 
 <img src="{{site.baseurl}}/assets/icp/icp_svd.gif">
 <img src="{{site.baseurl}}/assets/icp/CPI_SVD_ERROR.jpg">
 
+<<<<<<< HEAD
 <h1 class="section-heading">ICP non-linear Least Square</h1>
+=======
+
+<h1 class="section-heading">ICP based on nonlinear least square</h1>
+
+<p>
+    In this problem we are working to reduce the error of the sum square distance between two points.
+</p>
+
+$$E = \sum[R*p_i + t - q_i]$$
+
+<p>
+    \(E\) is the value should be minimise by updating \(R, t\). 
+    Keep note that \(P\) is the only one update and due to the present of \(R\) in 
+    the equation this function is non linear. 
+</p>
+
+<p>
+    The minimizing problem start with computing the corresponde point between both set. 
+    We assume the pose is descripe as follow \(\mathbf{x} = [x,y,\theta]^T\) where \(\theta\) 
+    place in the the rotation matrix \(R = \begin{pmatrix} cos(\theta) & -sin(\theta)\\\ sin(\theta) & cos(\theta)\end{pmatrix}\). 
+    
+</p>
+
+
+
+
+
+
+
+>>>>>>> a80dbd9cad14843781aa2b974825c92a6c6e5c31
 <p>
     As can be shown above we solve the problem of matching using SVD
      but there are other moethods that are more efficient. Instead solving the SVD 
@@ -474,6 +505,10 @@ vector<Eigen::Vector2d> ICP_least_squares(vector<Eigen::Vector2d> P,
 <p>
     For the full code check this link <a href=” ” target="_blank" rel="noopener noreferrer"> Guthub_code </a>
 </p>
+
+
+
+
 <h1 class="section-heading">Refrences</h1>
 <p>
     <a href=”github.com/thegyro/Project4-Scan-Matching” target="_blank" rel="noopener noreferrer"> Srinath Rajagopalan </a>   
