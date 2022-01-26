@@ -97,7 +97,7 @@ for (int i = 0; i < Q.size(); i++)
 <p>Now we need to compute the correspondences between the target points and reference points. At this point there many 
     algorithms we can use to do the matching such as search Tree and ANN. 
     Correspondences algorithms also known by the name of Registration algorithms. 
-    To measure the matched point I am going to use linalg_norm to calculate the normal vector. 
+    to measure the matched point I am going to use linalg_norm to calculate the normal vector. 
     The function is show below where the inpute is Vector2d and the output is the differencess.
 </p>
 
@@ -108,7 +108,7 @@ double linalg_norm(Eigen::Vector2d p) {
 {% endhighlight %}
 
 <p>
-    The correspondences algorithms consiste of two loops where the first loop is to go through the point in refrence point \(Q\),
+    The correspondences algorithms consiste of two loops where the firest loop is to go through the point in refrence point \(Q\),
     and the second loop to go through the targets points \(P\). Each point is measured using linalg_norm and compared it with the minimumvalue.
     Then the indexs of both the target points and the reference points stored in vector. The function is show below where two vectors is the input 
     and the output is a vector contain the matched indexes. 
@@ -260,54 +260,53 @@ $$
 
 <p>
     For the minimizing we update \(R, t\) which will be represent in a vector \(x=[x,y,\theta]^T\), 
-    where \(R=\begin{pmatrix}cos(\theta) & -sin(\theta))\\\ sin(\theta) & -cos(\theta))\end{pmatrix}\) 
-    and \(t = \begin{pmatrix} x \\\ y\end{pmatrix}\). 
-    We will keep update the target points \(p\) until overlap on the reference point \(Q\).
+    where \(R=\begin{pmatrix}cos(\theta) & -sin(\theta))\\\ sin(\theta) & -cos(\theta))\end{pmatrix}\). 
+    We will keep update them until the target points \(p\) overlap on the reference point \(Q\).
      Due to the present of \(R\) the problem become non-linear. 
 </p>
 
 <p>
     To solve this problem we will use Gauss Newton Method to minimise between the correspondeces points.
-     Therefore the error is the sum of the error between the correspondese points. 
-    Which is shown the equation below.
+    let \(h_i(x) = R_{\theta}p_i + t\). Therefore the error function become
 </p>
 $$
     e(x) = \sum_{i,j} e_{i,j}(x)
 $$
 <p>
-    Keep in mind that \(i,j\) refere to the correspondeces points between \(P\) and \(Q\) sets. 
+    keep in mind that \(i,j\) refere to the correspondeces points between \(P\) and \(Q\) sets. 
 </p>
+$$
+    e_{i,j}(x) = h_i(x) - q_j
+$$
 $$
     e_{i,j}(x) = R_{\theta}p_i + t - q_j
 $$
 
 <p>
-    Therefore, we need to minimize the error function \(E(x)\). 
-</p>
-
-
-$$
-    {min}_x \to {\sum_{i,j} ||R_{\theta}p_i + t - q_j||^2}
-$$
-
-<p>
-    let \(h_i(x) = R_{\theta}p_i + t\). The error function becom
+    Therefore
 </p>
 
 $$
-    {min}_x \to {\sum_{i,j} ||h(x) - q_j||^2}
+    x_{query} = {arg min}_x {E(x)}
+$$
+
+$$
+    x_{query} = {arg min}_x{\sum_{i,j} ||h_i(x) - q_j||^2}
 $$
 
 <p>
-    To compute the the local minimume value we will use Hessian matrix which is a square martix (n x n) of second-order partial derivative of a function 
-    <a href="https://machinelearningmastery.com/a-gentle-introduction-to-hessian-matrices/" target="_blank" rel="noopener noreferrer">see for more information </a>
+    Now solve the problem using Gauss Newton Method
 </p>
 $$ 
     H\Delta x = -E^{'} (x) 
 $$
+
+$$
+\Delta x = [\Delta x, \Delta, y, \Delta \theta]
+$$
+
 <p>
-    And \(\Delta x\ = [\Delta x, \Delta, y, \Delta \theta]\) which represent the small change in \(x\).
-    Therefore the error function become
+    \(H\) is Hessian \(E\) and \(E^{'}(x)\). 
 </p>
 
 $$
@@ -323,7 +322,7 @@ $$
 $$
 
 <p>
-    The code below shows a function create the jacobian using Eigen::MatrixXd that generate a matrix size (2x3).
+    The code below shows the computation of jacobian
 </p>
 
 
@@ -352,18 +351,15 @@ Eigen::Vector2d Error(Eigen::Vector3d x, Eigen::Vector2d p, Eigen::Vector2d q)
 
 <p>
     Now we can solve Hessian \(H = \begin{pmatrix} 0 & 0& 0\\\ 0 & 0& 0\\\ 0 & 0& 0 \end{pmatrix}\) 
-    and \(g =\begin{pmatrix} 0 \\\ 0 \\\ 0 \end{pmatrix}\). Therefore to solve the system we create a 
-    function call Prepare_system to compute Hessian matrix.
+    and \(g =\begin{pmatrix} 0 \\\ 0 \\\ 0 \end{pmatrix}\). THerefore to solve the system we create a 
+    Prepare_system functions to compute Hessian matrix.
 </p>
 
 <p>
-    The function Prepare_system take 7 inputs which are \(x\), Point set \(P\) and \() Q\), the correspondences indexs vectors,
-    H materix, g vector and the error chi. The last 3 variables updated and returned using pass by reference.
+    The function Prepare_system take 7 input which is \(x\) Point set \(P & Q\), the correspondences indexs,
+    H materix, g vector and the error chi. The last 3 variables updated and returned using pass by variable.
 </p>
-<p>
-    the function loop on all correspondence points to compute the Jacobian then update the H and g. Where \(H= J^T J\) and 
-    \(g=J^T e\). Note that the \(weight\) is used to elementate the outliear point that above the threshold.
-</p>
+
 {% highlight ruby %}
 void Prepare_system(Eigen::Vector3d x,
 	vector<Eigen::Vector2d> P,
@@ -387,8 +383,9 @@ void Prepare_system(Eigen::Vector3d x,
 }
 {% endhighlight %}
 
-<h1 class="section-heading">ICP non-linear Least Square</h1>
-<h2 class="subsection-heading">ICP non-linear Least Square</h2>
+<p>
+    Finally, we create the functions for the ICP methods as shown below.
+</p>
 
 <p>
     ICP based on non-linear least square has four steps whicg shown in the code below.
@@ -399,14 +396,13 @@ void Prepare_system(Eigen::Vector3d x,
 <p>
     We start processing the point by computing the correspondese point using the function define above.
     after we pass the data to Prepare_system function to compute Hessain matrix \(H\) and \(g\).
-    Using \(H\) and \(g\) we solve the equation using Eigen inbuild function 
-    <a href="eigen.tuxfamily.org/dox/classEigen_1_1BDCSVD.html" target="_blank" rel="noopener noreferrer">bdcSvd</a>.
+    Using \(H\) and \(g\) we solve the equation using Eigen function <a href=”https://eigen.tuxfamily.org/dox/classEigen_1_1BDCSVD.html”> bdcSvd </a>.
     the output of bdcSvd \(\delta x\) is the small motion computed between the both points group. 
 </p>
 <p>
     Using \(\delta x\) to update the overall \(x\) and then computer \(R\) and \(t\). 
     The target point then updated using the descibe function Apply_transform and the final 
-    translation and rotation is updated as well using \(R_{final} = R * R_{final}\) and \(T_{final} += t\).
+    translation and rotation is updated as well using \(R_{final} = R * R_{final}\) and \(T_final += t\).
 </p>
 
 <p>
@@ -471,21 +467,19 @@ vector<Eigen::Vector2d> ICP_least_squares(vector<Eigen::Vector2d> P,
 <img src="{{site.baseurl}}/assets/icp/ICP_LSQ_ERROR.jpg">
 
 
+
+
 <p>
-    For the full code check this link <a href=” ” target="_blank" rel="noopener noreferrer"> Guthub_code </a>
+    For the full code check this link <a href=” ”> Guthub_code </a>
 </p>
 <h1 class="section-heading">Refrences</h1>
 <p>
-    <a href=”github.com/thegyro/Project4-Scan-Matching” target="_blank" rel="noopener noreferrer"> Srinath Rajagopalan </a>   
+    <a href=”https://github.com/thegyro/Project4-Scan-Matching”> Srinath Rajagopalan </a>
+    <a href=”https://pcl.readthedocs.io/projects/tutorials/en/latest/interactive_icp.html”> Link_1 </a>
+     and the explination of <a href= "https://www.youtube.com/channel/UCi1TC2fLRvgBQNe-T4dp8Eg" > Cyrill Stachniss </a>
 </p>
 <p>
-    <a href=”https://pcl.readthedocs.io/projects/tutorials/en/latest/interactive_icp.html” target="_blank" rel="noopener noreferrer"> Link_1 </a>
-</p>
-<p>
-    and the explination of <a href= "www.youtube.com/channel/UCi1TC2fLRvgBQNe-T4dp8Eg" target="_blank" rel="noopener noreferrer"> Cyrill Stachniss </a>
-</p>
-<p>
-    <a href=”https://github.com/JyotiSunkara/ICP” target="_blank" rel="noopener noreferrer"></a> Jyoti Sunkara </a> 
+    <a href=”https://github.com/JyotiSunkara/ICP”> Jyoti Sunkara </a> 
 </p>
 <p>M. Greenspan and M. Yurick, "Approximate k-d tree search for efficient ICP," 
     Fourth International Conference on 3-D Digital Imaging and Modeling, 2003. 3DIM 2003. 
