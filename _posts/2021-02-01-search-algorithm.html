@@ -2,7 +2,7 @@
 layout: post
 title: "Research Algorithm"
 subtitle: ""
-date: 2021-08-26 -0400
+date: 2021-02-01 
 background: '/img/posts/01.jpg'
 ---
 <p>
@@ -16,7 +16,7 @@ background: '/img/posts/01.jpg'
     There are different type of graphs which shown in the image below. 
 </p>
 
-<img src="{{site.baseurl}}/img\posts\search algorithm\graphs.png">
+<img src="{{site.baseurl}}/img\posts\search algorithm\graphs.png" width='640' height='400'>
 
 <p>
     In this project I define the map as a 2D vector std::vector<std::vector<Node>>. 
@@ -71,7 +71,7 @@ position, where it searches all adjacent node until it finds the goal. There are
 approaches we will present in this work which is the breadth-first search and depth-first 
 algorithms.
 </p>
-<h2 class="section-heading">Breadth-first search</h2>
+<h2 class="subsection-heading">Breadth-first search</h2>
 <p>
     The figure below explains how breadth-first search work by 
     explore all the adjacent node before it moves to the child of the node.
@@ -223,7 +223,8 @@ vector<Node> RetracePath(int startNode[2], int goal[2], vector<vector<Node>>& gr
     the depth first.
 </p>
 
-<h2 class="section-heading">Depth-first search</h2>
+<h2 class="sybsection-heading">Depth-first search</h2>
+
 <p>
     The second uniformed search is the depth-first where it explores the depth of 
     every node before it goes it its neighbor. The figure below shows the search of 
@@ -292,10 +293,134 @@ string DepthFirst(vector<vector<Node>>& grid, int start[2], int goal[2]) {
 
 <p>
     As can be seen in the output that the explore in both methods are different 
-    due to the nature of the explore way.
+    due to the nature of the explore way. Both algorithms able to reach the path but the 
+    final path length is different also the number of node explore differe.
 </p>
 
+<h2 class="sybsection-heading">A star Algorithm</h2>
+<p>
+    Now we are going to use a heuristic function algorithm that use measure to chose the shortest path with minimum exploring nodes.
+    What we mean by heuristic function is that the algorithm use information such as the moving cost, 
+    and the distance from the current node to the goal then decided on which node move. The same step node based on 
+    the cost function. In this work we used the smallerst to largest.
+</p>
+
+<p>
+    Revisiting the Node class there are two variable that we did not used in the uniformed search which is 
+    H and G. Where H represent the distance between the node and the gaol and we measure it using euclidean distance.
+    And G is the move cost which is accomulated from the start node to the current node. 
+</p>
+<p>
+    We update the expandNeighbors function by adding the measurment of heuristic and compute the cost movement.
+</p>
 
 {% highlight ruby %}
-
+/**
+* Expand current nodes's neighbors and add them to the open list.
+*/
+void ExpandNeighbors(Node& currentNode,
+   std::priority_queue<Node, std::vector<Node>, CompareDis>& openList,
+   std::vector<std::vector<Node>>& grid, int goal[2])
+{
+   // Get current node's data.
+   int x = currentNode.x;
+   int y = currentNode.y;
+   int g = currentNode.G;
+   // Loop through current node's potential neighbors.
+   for (auto neighnor : delta)
+   {
+       // Check that the potential neighbor's x2 and y2 values are on the grid and not closed.
+       int x2 = x + neighnor[0];
+       int y2 = y + neighnor[1];
+       // Increment g value, compute h value, and add neighbor to open list.
+       if (CheckValidCell(x2, y2, grid) == 1 && grid[x2][y2].visited == false)
+       {
+           int cost = grid[x2][y2].cost;
+           int g2 = g + 1;
+           int h2 = Heuristic(x2, y2, goal[0], goal[1], cost);
+           AddToOpen(x2, y2, g2, h2, x, y, openList, grid);
+           grid[x2][y2].visited = true;
+       }
+   }
+}
 {% endhighlight %}
+
+<p>
+    the heuristic function is shown below.
+</p>
+
+{% highlight ruby %}
+int Heuristic(int x1, int y1, int x2, int y2, int cost = 0) 
+{
+    return std::sqrt(std::pow(x2 - x1,2) + std::pow(y2 - y1,2));
+}
+{% endhighlight %}
+
+<p>
+    The search algorithm is show below. 
+</p>
+
+<p>
+    We can check out the search algorithms function.
+</p>
+{% highlight ruby %}
+std::vector<Node> Search(std::vector<std::vector<Node>> &grid, int init[2], int goal[2]) {
+
+    std::priority_queue<Node, std::vector<Node>, CompareDis> openList;
+    std::vector<int> path;
+    int x = init[0];
+    int y = init[1];
+    int h = Heuristic(x, y, goal[0], goal[1]);
+    AddToOpen(x, y, 0, h, 0, 0, openList, grid);
+    int threshold = 0;
+    //while open vector is non empty {
+    while (!openList.empty()) {
+        //Get the x and y values from the current node,
+        auto currentNode = openList.top();
+        openList.pop();
+        x = currentNode.x;
+        y = currentNode.y;
+        grid[x][y].state = State::kVisited;
+
+        // Check if you've reached the goal. If so, return grid.
+        if (x == goal[0] && y == goal[1])
+        {
+            int _goal[2]{ x,y };
+            auto path = RetracePath(init, _goal, grid);
+
+            grid[init[0]][init[1]].state = State::kStart;
+            grid[goal[0]][goal[1]].state = State::kFinish;
+            std::cout << "Path found!\n";
+            // PrintPath(path);
+            return path;
+        }
+        // If we're not done, expand search to current node's neighbors.
+        ExpandNeighbors(currentNode, openList, grid, goal);
+    }
+    std::cout << " No path found!" << "\n";
+    return std::vector<Node>{};
+}
+{% endhighlight %}
+
+<p>
+    The reseault is shown in the figure below. 
+    Where the the exoplored node is smaller and the path is the shortest compare to the other two algoritms.
+</p>
+
+<img src="{{site.baseurl}}/img\posts\search algorithm\A-start output.PNG">
+
+<h2 class="sybsection-heading">Conclusion</h2>
+<p>
+    As can be seen there are two type of search algorithms which uninformed search and informed search.
+    In the uniformed search the expolation occur unguided which based on which node to explore first, 
+    while the informed search algorithm it used information and heuristic function. 
+</p>
+
+<p>
+    Overall, the step of applying the algorithms is same but using different type of data structures
+    simplified the implementation process.
+</p>
+
+<p>
+    you can get the full code here For the full code check this link <a href=https://github.com/ahmohamed1/Search-algorithms target="_blank" rel="noopener noreferrer"> Guthub_code </a>
+</p>
