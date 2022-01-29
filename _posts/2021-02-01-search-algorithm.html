@@ -158,14 +158,16 @@ void ExpandNeighbor(Node currentNode, listTT& openList, vector<vector<Node>>& gr
     }
 }
 {% endhighlight %}
+
 <p>
     CheckValidCell is another function used to test if the node is accessible. 
 </p>
+
 {% highlight ruby %}
 bool CheckValidCell(int x, int y, std::vector<std::vector<Node>>& grid) 
 {
     bool on_grid_x = (x >= 0 && x < grid.size());
-    bool on_grid_y = (y)>= 0 && y < grid[0].size());
+    bool on_grid_y = (y >= 0 && y < grid[0].size());
     if (on_grid_x && on_grid_y) 
     {
         State nodeState = grid[x][y].state;
