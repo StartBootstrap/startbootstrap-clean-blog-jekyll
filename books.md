@@ -241,7 +241,18 @@ The books which are marked with a ** are the ones that I am either currently rea
 224. **Island Dreams: Mapping an Obsession**, *Gavin Francis*, Canongate, 2020.
 225. **Eichmann and the Holocaust**, *Hannah Arendt*, Penguin Books, 2005.
 226. **Undercover: My Journey into the Darkness of Hindutva**, *Ashish Khetan*, Context, 2021.
-227. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+227. **Malevolent Republic: A Short History of the New India**, *K. S. Komireddi*, C. Hurst & Company, 2019.
+228. **It All Adds Up: The Story of People and Mathematics**, *Mickaël Launay (Translated by Stephen S. Wilson)*, William Collins, 2018.
+229. **Spike - The Virus vs The People: The Inside Story**, *Jeremy Farrar and Anjana Ahuja*, Profile Books, 2021.
+230. **Republic of Hindutva: How the Sangh Is Reshaping Indian Democracy**, *Badri Narayan*, Viking, 2021.
+231. **Gujarat Files: Anatomy of a Cover Up**, *Rana Ayyub*, 2016.
+232. **The Silent Coup: A History of India’s Deep State**, *Josy Joseph*, Context, 2021.
+233. **Vaxxers: The Inside Story of the Oxford AstraZeneca Vaccine and the Race Against the Virus**, *Sarah Gilbert and Catherine Green*, Hodder & Stroughton, 2021.
+234. **Whole Numbers and Half Truths: What Data Can and Cannot Tell Us About Modern India**, *Rukmini S.*, Context, 2021.
+235. **The Free Voice: On Democracy, Culture and the Nation**, *Ravish Kumar (Translated by Chitra Padmanabhan, Anurag Basnet and Ravi Singh)*, Speaking Tiger, 2019.
+236. **Thomas Kuhn and the Science Wars**, *Ziauddin Sardar*, Icon Books, 2000.
+237. **Covid by Numbers: Making Sense of the Pandemic with Data**, *David Spiegelhalter and Anthony Masters*, Pelican Books, 2021.
+238. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
