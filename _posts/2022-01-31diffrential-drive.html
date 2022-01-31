@@ -2,7 +2,7 @@
 layout: post
 title: "Differential Drive Arduino"
 subtitle: "Code the mathimatical model of differential drive robot"
-date: 2022-01-26
+date: 2022-01-31
 background: '/img/posts/01.jpg'
 ---
 
@@ -12,6 +12,8 @@ background: '/img/posts/01.jpg'
     the wheel which is call w and the wheel radios is \(R\). Each wheel has velocity which is \(v_l\) and \(v_r\) for the left and right wheel respectively.
     Using these information we can write the model equation for the velocity we get the following equations 
 </p>
+
+<div style="text-align: center"><img src="/img/posts/differential-drive/dynamic model.PNG"/></div>
 
 $$\dot x = \frac{R}2   (v_r + v_l)*cos{\theta}  -(1)$$
 $$\dot y = \frac{R}2   (v_r + v_l)*sin{\theta}  -(2)$$
@@ -43,6 +45,9 @@ Odometry
   movement which is \(D_l\, D_r and D_c\) for the movement of left wheel, right wheel and center of base respectively.
    The center distance is computed by taking the sum of left and right distance divided by two equations below   
 </p>
+
+<div style="text-align: center"><img src="/img/posts/differential-drive/odom.PNG"/></div>
+
 
 $$D_c = \frac{D_r + D_l} 2  -(12)$$
 <p>
