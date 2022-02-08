@@ -2,47 +2,70 @@
 layout: post
 title: "Kalman Filter"
 subtitle: "implementation of Kalman filter on differential drive model in c++"
-date: 2022-01-20
+date: 2022-02-05
 background: '/img/posts/01.jpg'
 ---
 
 <p>
     In the previous post I wrote a controller for differential drive mobile robot with Arduino. 
     The controller take two inputs \(v\) and \(w\), and generate three output which is the state of the robot \(x, y,\theta\). 
-    The output of the odometer was not an accurate one due to different factor which the most important one is the wheel slipping, 
+    The output of the odometer was not an accurate due to different factor which the most important one is the wheel slipping, 
     encoder resolutions and the measurement accuracy. 
     In this post I am going to write an extended Kalman filter to correct the odometer using other information such as LADAR reading, 
-    IMU or radar. Kalman filter is a well-known set of mathematical equations for discreate value. The advantage of Kalman filter is 
+    IMU or radar. 
+</p>
+
+<p>
+    Kalman filter is a well-known set of mathematical equations for discreate value. The advantage of Kalman filter is 
     that use only the previous state to predict the current state. 
     To summaries Kalman filter is a set of mathematical equations used to estimate the future state based on educated guess, 
     where it used in any environment has uncertain information.
 </p>
+
 <p>
-    To estimate the current state \(x_t\) using Kalman filter there are three input required which are controller\(u_t\), correction \(z_t\) and prevoiuse state \(x_{t-1}\). 
+    To estimate the current state \(x_t\) using Kalman filter there are three input required which are controller \(u_t\), correction \(z_t\) and prevoiuse state \(x_{t-1}\). 
 </p>
 
 
 <p>
-Starting with the model equations as shown below 
+Starting with the model equations as shown below which is an improved version of the old model.
+ The new model has two state which (1) \(D_l \neq D_r\) and the equation below shows the output 
 </p>
+
 $$ \begin{pmatrix}x^{‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = \begin{pmatrix}x \\\ y \\\  \theta \end{pmatrix} 
-+ \begin{pmatrix} (R + \frac w 2)(sin(\theta+\alpha) – sin(\theta) \\\ (R + \frac w 2)(-cos(\theta+\alpha) + cos(\theta)  \\\  \alpha \end{pmatrix}
++ \begin{pmatrix} (R + \frac w 2)(sin(\theta+\alpha) – sin(\theta) \\\ (R + \frac w 2)(-cos(\theta+\alpha) + cos(\theta)  \\\  \alpha \end{pmatrix} \tag{1} \label{1}
 $$ 
+
 <p>
-Where \(\alpha = \frac{D_r – D_l} w\) and \(R = \frac {D_l} {\alpha} \). \(D_l\) and \(D_r \) are the distance the robot moved for left and right wheel respectively. By close analysis of the above equations we know that there are two group \(x,u\) of variable which belong to state and controller. And these variables are belong to \(g = (x, u)\) function. Where \(x = (x,y,\theta)\) and \(u=(D_l , D_r)\).
+    and (2) where \(D_l = D_r\) and the model become as below which is matching what we descripe in the first post.
 </p>
-$$ \begin{pmatrix}x^ {‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = g(x,y,\theta, D_l , D_r) $$
+
+$$ \begin{pmatrix}x^{‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = \begin{pmatrix}x \\\ y \\\  \theta \end{pmatrix} 
++ \begin{pmatrix} D_r sin(\theta) \\\ D_l cos(\theta) \\\  0 \end{pmatrix} \tag{2}
+$$ 
+
+<p>
+    Note that the steps below is applied for both cases when \(D_l \neq D_r \) and \(D_l = D_r \).
+</p>
+
+<p>
+Where in \eqref{1} \(\alpha = \frac{D_r – D_l} w\) and \(R = \frac {D_l} {\alpha} \). \(D_l\) and \(D_r \) are the distance the robot
+ moved for left and right wheel respectively. By close analysis of the above equations we know that there are two group 
+ \(x,u\) of variable which belong to state and controller. And these variables are belong to \(g = (x, u)\) function. 
+ Where \(x = (x,y,\theta)\) and \(u=(D_l , D_r)\).
+</p>
+$$ \begin{pmatrix}x^ {‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = g(x,y,\theta, D_l , D_r) \tag{3} $$
 <p>
 The blow is the linear equation of Kalman filters where \(A_t, B_t\) are the factors of prediction and correction respectively. 
 </p>
 $$ x_t = A_t x_{t-1} + B_t u_t$$
-$$ \overhead \mu_t = A_t \mu_{t-1} + B_t u_t$$
+$$ \overline \mu_t = A_t \mu_{t-1} + B_t u_t$$
 $$ \sum = A_t \sum_{t-1} {A_t}^T + R_t$$
 <p>
 Because our problem is nonlinear due to the present of the rotation matrix we will take the Jacobian matrix of g which is the derivative of \(\frac {\delta g} {\delta state}\) where the state is \([x,y,\theta]^T\). Therefore \(G : \frac  {\delta g_1} {\delta x} ,  \frac  {\delta g_1} {\delta y}, \frac  {\delta g_1} {\delta \theta} \)
 </p>
-$$ x_t = g(x_{t-1}, u_t\) $$
-$$ \overhead \mu_t = g(mu_{t-1}, u_t\) $$
+$$ x_t = g(x_{t-1}, u_t) $$
+$$ \overline \mu_t = g(mu_{t-1}, u_t) $$
 $$
 G : \begin{pmatrix}\frac  {\delta g_1} {\delta x} &&   \frac  {\delta g_1} {\delta y}&&  \frac  {\delta g_1} {\delta \theta} \\\
  \frac  {\delta g_2} {\delta x} &&  \frac  {\delta g_2} {\delta y}&&  \frac  {\delta g_2} {\delta \theta} \\\ 
@@ -59,9 +82,10 @@ The below code is the coding of the G where the function take the state as input
 </p>
 <p>
 Next we need to compute controller where \(R_t = V_t \sum_{control} {V_t}^T\) where
- \(\sum_{control} = \begin{pmatrix} {\sigmoid_{D_l}}^2 && 0 \\\ 0 && {\sigmoid_{D_r}}^2 \end{pmatrix}
- \) is the covariance matrix (2x2), \(V_t  = \frac {\delta g} {\delta control\) which is (3x2) matrix.
-     Therefore \(V_t\) is shown below after taking the derivative of g in relate to the control value. Note that  \(\alpha = \frac{D_r – D_l} w\) and \(R = \frac D_l \alpha \) during taking the derivative.
+ \(\sum_{control} = \begin{pmatrix} {\sigma_{D_l}}^2 && 0 \\\ 0 && {\sigma_{D_r}}^2 \end{pmatrix} \) 
+ is the covariance matrix (2x2), and \(V_t  = \frac {\delta g} {\delta{control}} \) which is (3x2) matrix.
+     Therefore \(V_t\) is shown below after taking the derivative of g in relate to the control value. Note that  \(\alpha = \frac{D_r – D_l} w\) 
+     and \(R = \frac {D_l} {\alpha} \) during taking the derivative.
 </p>
 $$ V_t : \begin{pmatrix}  \frac{wr} {D_r – D_l}^2 (sin(theta^{‘}) - sin(theta)) - \frac {D_r + D_l}{2(D_r-D_l)}cos(theta^{‘})  &&   
  \frac{-wr} {D_r – D_l}^2 (sin(theta^{‘}) - sin(theta)) + \frac {D_r + D_l}{2(D_r-D_l)}cos(theta^{‘}) \\\  
@@ -70,7 +94,7 @@ $$ V_t : \begin{pmatrix}  \frac{wr} {D_r – D_l}^2 (sin(theta^{‘}) - sin(thet
    -\frac 1 w && \frac 1 w \end{pmatrix}
 $$
 <p>
-To sum up the prediction step we need to computer both covariance matrix value in state estimation and control correction (\(\sum_{state} \) and \( \sum_{control}\). 
+To sum up the prediction step we need to computer both covariance matrix value in state estimation and control correction \(\sum_{state} \) and \( \sum_{control}\). 
 </p>
 $$ {\mu_{D_l}}^2 = (\alpha_1 D_l)^2 + (\alpha_2 (D_L – D_R))^2$$
 $$ {\mu_{D_r}}^2 = (\alpha_1 D_r)^2 + (\alpha_2 (D_L – D_R))^2$$
