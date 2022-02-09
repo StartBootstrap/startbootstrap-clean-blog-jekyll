@@ -3,7 +3,7 @@ layout: post
 title: "Kalman Filter"
 subtitle: "implementation of Kalman filter on differential drive model in c++"
 date: 2022-02-05
-background: '/img/posts/01.jpg'
+background: '/img/posts/kalman-filter/2.PNG'
 ---
 
 <p>
@@ -49,12 +49,25 @@ $$
 </p>
 
 <p>
-Where in \eqref{1} \(\alpha = \frac{D_r – D_l} w\) and \(R = \frac {D_l} {\alpha} \). \(D_l\) and \(D_r \) are the distance the robot
- moved for left and right wheel respectively. By close analysis of the above equations we know that there are two group 
- \(x,u\) of variable which belong to state and controller. And these variables are belong to \(g = (x, u)\) function. 
+Where in \eqref{1} \(\alpha = \frac{D_r – D_l} w\) and \(R = \frac {D_l} {\alpha} \). \(D_l\) 
+and \(D_r \) are the distance the robot
+ moved for left and right wheel respectively. By close analysis of the above 
+ equations we know that there are two group 
+ \(x,u\) of variable which belong to state and controller. 
+ And these variables are belong to \(g = (x, u)\) function. 
  Where \(x = (x,y,\theta)\) and \(u=(D_l , D_r)\).
 </p>
 $$ \begin{pmatrix}x^ {‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = g(x,y,\theta, D_l , D_r) \tag{3} $$
+
+<p>
+    The function below is use to compute the g matrix where the inpute is the state and the output if G matrix 3x3.
+</p>
+
+{% highlight ruby %}
+Computer G
+{% endhighlight %}
+
+
 <p>
 The blow is the linear equation of Kalman filters where \(A_t, B_t\) are the factors of prediction and correction respectively. 
 </p>
@@ -99,4 +112,11 @@ To sum up the prediction step we need to computer both covariance matrix value i
 $$ {\mu_{D_l}}^2 = (\alpha_1 D_l)^2 + (\alpha_2 (D_L – D_R))^2$$
 $$ {\mu_{D_r}}^2 = (\alpha_1 D_r)^2 + (\alpha_2 (D_L – D_R))^2$$
 
+<p>
+    The code below shows the implementation of both functons, 
+    where 
+</p>
 
+{% highlight ruby %}
+predition code
+{% endhighlight %}
