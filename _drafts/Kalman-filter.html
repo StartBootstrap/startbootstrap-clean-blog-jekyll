@@ -7,19 +7,19 @@ background: '/img/posts/kalman-filter/2.PNG'
 ---
 
 <p>
-    In the previous post I wrote a controller for differential drive mobile robot with Arduino. 
-    The controller take two inputs \(v\) and \(w\), and generate three output which is the state of the robot \(x, y,\theta\). 
-    The output of the odometer was not an accurate due to different factor which the most important one is the wheel slipping, 
+    I wrote a controller for a differential drives mobile robot with Arduino in the previous post. 
+    The controller takes two inputs \(v\) and \(w\), and generate three output which is the state of the robot \(x, y,\theta\). 
+    The output of the odometer was not accurate due to different factors which the most important one is the wheel slipping, 
     encoder resolutions and the measurement accuracy. 
-    In this post I am going to write an extended Kalman filter to correct the odometer using other information such as LADAR reading, 
+    In this post, I am going to write an extended Kalman filter to correct the odometer using other information such as LADAR reading, 
     IMU or radar. 
 </p>
 
 <p>
-    Kalman filter is a well-known set of mathematical equations for discreate value. The advantage of Kalman filter is 
-    that use only the previous state to predict the current state. 
-    To summaries Kalman filter is a set of mathematical equations used to estimate the future state based on educated guess, 
-    where it used in any environment has uncertain information.
+    Kalman filter is a well-known set of mathematical equations for discrete values. 
+    The advantage of the Kalman filter is that use only the previous state to predict the current state. 
+    To summarise, the Kalman filter is a set of mathematical equations used to estimate the future state 
+    based on an educated guess, where the Kalman filter uses in any environment with uncertain information.
 </p>
 
 <p>
@@ -28,9 +28,10 @@ background: '/img/posts/kalman-filter/2.PNG'
 
 
 <p>
-Starting with the model equations as shown below which is an improved version of the old model.
- The new model has two state which (1) \(D_l \neq D_r\) and the equation below shows the output 
+Starting with the model equations as shown below, which is an improved version of the old model.
+ The new model has two states which (1) \(D_l \neq D_r\) and the equation below shows the output 
 </p>
+
 
 $$ \begin{pmatrix}x^{‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = \begin{pmatrix}x \\\ y \\\  \theta \end{pmatrix} 
 + \begin{pmatrix} (R + \frac w 2)(sin(\theta+\alpha) – sin(\theta) \\\ (R + \frac w 2)(-cos(\theta+\alpha) + cos(\theta)  \\\  \alpha \end{pmatrix} \tag{1} \label{1}
@@ -60,7 +61,7 @@ and \(D_r \) are the distance the robot
 $$ \begin{pmatrix}x^ {‘} \\\ y^{‘}  \\\  \theta^{‘} \end{pmatrix} = g(x,y,\theta, D_l , D_r) \tag{3} $$
 
 <p>
-    The function below is use to compute the g matrix where the inpute is the state and the output if G matrix 3x3.
+    The function below is used to compute the g matrix where the input is the state, and the output is G matrix 3x3.
 </p>
 
 {% highlight ruby %}
@@ -69,14 +70,17 @@ Computer G
 
 
 <p>
-The blow is the linear equation of Kalman filters where \(A_t, B_t\) are the factors of prediction and correction respectively. 
+    The blow is the linear equation of Kalman filters where \(A_t, B_t\) are the factors of prediction and correction, respectively. 
+
 </p>
 $$ x_t = A_t x_{t-1} + B_t u_t$$
 $$ \overline \mu_t = A_t \mu_{t-1} + B_t u_t$$
 $$ \sum = A_t \sum_{t-1} {A_t}^T + R_t$$
+
 <p>
 Because our problem is nonlinear due to the present of the rotation matrix we will take the Jacobian matrix of g which is the derivative of \(\frac {\delta g} {\delta state}\) where the state is \([x,y,\theta]^T\). Therefore \(G : \frac  {\delta g_1} {\delta x} ,  \frac  {\delta g_1} {\delta y}, \frac  {\delta g_1} {\delta \theta} \)
 </p>
+
 $$ x_t = g(x_{t-1}, u_t) $$
 $$ \overline \mu_t = g(mu_{t-1}, u_t) $$
 $$
@@ -84,9 +88,11 @@ G : \begin{pmatrix}\frac  {\delta g_1} {\delta x} &&   \frac  {\delta g_1} {\del
  \frac  {\delta g_2} {\delta x} &&  \frac  {\delta g_2} {\delta y}&&  \frac  {\delta g_2} {\delta \theta} \\\ 
  \frac  {\delta g_3} {\delta x}&& \frac  {\delta g_3} {\delta y}&&  \frac  {\delta g_3} {\delta \theta} \end{pmatrix}
 $$
+
 <p>
-After taking the derivative of the state we end up with the \(G\) matrix which show in below
+    After taking the derivative of the state, we end up with the \(G\) matrix, which show below
 </p>
+
 $$ G : \begin{pmatrix}  1 &&   0&&  (R + \frac w 2)(-cos(\theta+\alpha) - cos(\theta) \\\ 
 0&&  1 &&  (R + \frac w 2)(sin (\theta+\alpha) - sin(\theta)\\\ 0 && 0 && 1\end{pmatrix}
 $$
