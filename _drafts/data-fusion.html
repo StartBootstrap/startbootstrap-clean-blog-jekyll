@@ -58,7 +58,16 @@ background: '/img/posts/kalman-filter/1.PNG'
 
 <p>
     Now I am going to implement KF in Arduino to provide me with a more accurate data reading of 
-    IMU sensor (MUP-6050). We will correct one roll angle of the sensor.
+    IMU sensor (MUP-6050). We will correct one roll angle of the sensor using Kalman gain. 
+    Kalman gain uses to update the measure state in order to correct the new estimate state. 
+</p>
+$$
+  K = \frac {P*H} {H*P*H+R}
+$$
+<p>
+  where \(P\) is error covariance, \(H\) measure map scalar, \(Q\) initial estimation covariance, and 
+  \(R\) is noise coverance. The Kalman gain should be between 0 and 1, which refer to the stabiltity of the system, 
+  0 is stable estimate and 1 is unstable estimate.
 </p>
 <p>
     The class below is the Kalman filter algorithms for a singel input state. 
@@ -137,11 +146,11 @@ void setup() {
 {% endhighlight %}
 
 <p>
-    The figure below shows the raw data and the output of the Kalman filter. 
-    As can be seen that the estimated roll has a smooth curve.
+    The figure below shows the raw data (green) and the output of the Kalman filter (gray). 
+    As can be seen that the estimated roll has a smooth curve and less noize comparing to the measured roll angle.
 </p>
 
-
+<img src="{{site.baseurl}}/img/posts/Data fusion/kalman output.PNG">
 
 <p>
     The complete code is below
@@ -213,3 +222,41 @@ void setup() {
       delay(10);
     }
 {% endhighlight %}
+
+<p>
+  In this example I will use MPU6050 sensor that provide an acceleration data and gyroscop data. Using the acceleration data to compute 
+  the state \(x\) and the gyroscop data to correct the state. 
+  </p>
+
+  $$
+    \theta = \theta_0 + \dot \theta  t + \frac 1 2  \ddot \theta  t^2
+  $$
+  <p>
+  So the state will be \(\hat x = [\theta  { , } \dot \theta]^T \). where decribe the angle and the anguar velocity. 
+  These describe our best estimation (\(\mu)\). Now the covariance will be 
+  \( P_k = \begin{pmatrix} \Sigma_{\theta \theta} && \Sigma_{\theta \dot \theta} \\\ \Sigma_{\dot \theta \theta} && \Sigma_{\dot \theta \dot \theta}\end{pmatrix} \).
+</p>
+
+$$ 
+    A_k = \begin{pmatrix} 1 && \Delta T \\\ 0 && 1 \end{pmatrix}
+$$
+<p>
+  Therfore, the result of multiplication of \(x\) and \(A\) is a matrix (2x1) and shows below.
+</p>
+$$ 
+    A_k x = \begin{pmatrix} \theta + \Delta T \dot \theta \\\ \dot \theta \end{pmatrix}
+$$
+<p>
+  now on the control pat which is the angular acceleration where \(u=[\ddot \theta]\), and 
+  \(B = \begin{pmatrix} \frac 1 2 \Delta t^2 \\\ \Delta t \end{pmatrix} \) and 
+  the result of the multiplication between \(u\) and \(B\) is 
+</p>
+
+$$
+  Bx = \begin{pmatrix} \ddot \theta \frac 1 2 \Delta t^2 \\\ \ddot \theta \Delta t \end{pmatrix} 
+$$
+
+<p>
+  Now we are going to update the state station using actual measurments \(Y_k = CX_k + z_k\), where 
+  \(C=\begin{pmatrix} 1 && 0 \\\ 0 && 1 \end{pmatrix}\) and \(C=\begin{pmatrix} \theta \\\ \dot \theta \end{pmatrix}\)
+</p>
