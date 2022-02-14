@@ -24,6 +24,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+20. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *European Journal of Combinatorics*, accepted, 2022. ([pdf](/publ/papers/parity_Final.pdf))
+
 19. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *International Journal of Number Theory*, accepted, 2021. ([pdf](/publ/papers/PJM_MY.pdf))
 
 18. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Rocky Mountain Journal of Mathematics*, accepted, 2021. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
@@ -76,9 +78,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
-12. *Biases in Partitions and Restricted Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2021. ([pdf](/publ/papers/parity_2.pdf))
-
-11. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2021. ([pdf](/publ/papers/parity_Final.pdf))
+11. *Biases in Partitions and Restricted Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2021. ([pdf](/publ/papers/parity_2.pdf))
 
 10. *On the equation $\sigma(n)=\left(\frac{p}{p-1}\right)n$*, (with *Padma B. Borah*), preprint, 2020. ([pdf](/publ/papers/k_perfect_Numbers.pdf))
 
