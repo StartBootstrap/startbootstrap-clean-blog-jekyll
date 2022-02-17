@@ -10,10 +10,12 @@ background: '/img/posts/01.jpg'
 This work is based on the work of <a href=https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb/ target="_blank" rel="noopener noreferrer"> Igor Bongoslavskyi </a>.
 </p>
 
-<p>ICP is an algorithm used to compute the rotation and the transformation ( rotation \(R\) and translation \(t\) )
+<p>
+    ICP is an algorithm used to compute the rotation and the transformation ( rotation \(R\) and translation \(t\) )
      between two sets of points, which target points \(P = \{p_i\}\) and references points \(Q = \{q_i\}\), 
-    where it uses and minimizing the differences of the two group of points. For example, ICP use in 3D reconstruction point cloud, 
-    or in 2D to match between scanning (for robot localizations)</p>
+    where it uses and minimizes the differences of the two group of points. For example, ICP use in the 3D reconstruction point cloud 
+    or in 2D to match between scanning (for robot localizations)
+</p>
 
 <p>In this projects I wrote a ICP using C++ and Eigne template. I used cv-Plot to show a visualization presentation of the points. 
     <a href=”https://github.com/Profactor/cv-plot” target="_blank" rel="noopener noreferrer" >CV-Plot </a> is a library developed using purely opencv that can work in real time with easy integration.</p>
@@ -21,11 +23,11 @@ This work is based on the work of <a href=https://nbviewer.org/github/niosus/not
     <h2 class="section-heading">ICP algorithms</h2>
 
 <p> 
-    In this project I used different algorithms which: (1) ICP based on SVD (2) ICP based on nonlinear least square. 
+    In this project, I used different algorithms: (1) ICP based on SVD (2) ICP based on nonlinear least square. 
 </p>
 
 <p> 
-    First I will start with SVD_ICP algorithms where there are five steps to do the ICP which are.
+    First, I will start with SVD_ICP algorithms, where there are five steps to do the ICP which are.
 </p>
 
 <ul>
@@ -37,11 +39,12 @@ This work is based on the work of <a href=https://nbviewer.org/github/niosus/not
 </ul> 
 
 <p>
-    I will show the code and explain it for each steps. Before we start it is important to
-     define the data type will be used in programming. 
-    So starting by defineing the point I use Eigen template Vector2d to store the value of the point \((x,y)\). 
-    And I used std::vectore to store the list of the point. I used Eigen::MatrixXd to process the rotation matrix and translation. 
-    Note: using Eigen library we need to keep the definition of variable constant.</p>
+    I will show the code and explain it for each step. However, before we start, it is essential to define the data type used in programming. 
+    So starting by defining the point, I use Eigen template Vector2d to store the value of the point \((x,y)\). 
+    And I used std::vectore to store the list of the point. Finally, I used Eigen::MatrixXd to process the rotation matrix and translation. 
+    Note: We need to keep the definition of variable constant using the Eigen library.
+
+</p>
 
 
 <h3 class="section-heading">Computer center data and transform them </h3>
@@ -54,15 +57,16 @@ This work is based on the work of <a href=https://nbviewer.org/github/niosus/not
 </p>
 
 <p>
-    The data used to test this projects is hand made data \(Q\) then a transformation applied to create the targets set \(P\).
+    The data used to test this project is hand made data \(Q\), then a transformation is applied to create the targets set \(P\).
 </p>
 
 
 <img src="{{site.baseurl}}/assets/icp/Data.PNG">
 
 <p>
-    The function of computing the center of the points is shown below.
-     The inpute is a vector contain the list of points in Eigen::Vector2d format and the output is Eigen::Vector2d as well.
+    The function of computing the centre of the points is shown below.
+     The input is a vector containing the list of points in Eigen::Vector2d format, and the output is Eigen::Vector2d as well.
+
 </p>
 {% highlight ruby %}
 Eigen::Vector2d Center_data(vector<Eigen::Vector2d> P)
@@ -78,7 +82,9 @@ Eigen::Vector2d Center_data(vector<Eigen::Vector2d> P)
 }
 {% endhighlight %}
 
-<p>After computing the center of data or the mean, we reduce the coordinate of the points using the following code</p>
+<p>
+    After computing the centre of data or the mean, we reduce the coordinate of the points using the following code.
+</p>
 
 {% highlight ruby %}
 for (int i = 0; i < Q.size(); i++)
@@ -94,11 +100,11 @@ for (int i = 0; i < Q.size(); i++)
 <p>We can see how the target points \(P\) move to the center of refrence points \(Q\).</p>
 
 <h3 class="section-heading">Compute correspondences</h3>
-<p>Now we need to compute the correspondences between the target points and reference points. At this point there many 
-    algorithms we can use to do the matching such as search Tree and ANN. 
-    Correspondences algorithms also known by the name of Registration algorithms. 
-    To measure the matched point I am going to use linalg_norm to calculate the normal vector. 
-    The function is show below where the inpute is Vector2d and the output is the differencess.
+<p>
+    We need to compute the correspondences between the target and reference points. At this point, there are many algorithms we can use to do the matching, such as search Tree and ANN. 
+    The name also knows correspondences algorithms or Registration algorithms. 
+    To measure the matched point, I will use linalg_norm to calculate the normal vector. 
+    The function is shown below, where the input is Vector2d, and the output is the difference.
 </p>
 
 {% highlight ruby %}
@@ -108,10 +114,9 @@ double linalg_norm(Eigen::Vector2d p) {
 {% endhighlight %}
 
 <p>
-    The correspondences algorithms consiste of two loops where the first loop is to go through the point in refrence point \(Q\),
-    and the second loop to go through the targets points \(P\). Each point is measured using linalg_norm and compared it with the minimumvalue.
-    Then the indexs of both the target points and the reference points stored in vector. The function is show below where two vectors is the input 
-    and the output is a vector contain the matched indexes. 
+    The correspondence algorithms consist of two loops where the first loop is to go through the point in reference point \(Q\), and the second loop goes through the targets points \(P\). Each point is measured using linalg_norm and compared with the minimum value.
+    Then the index of both the target points and the reference points is stored in a vector. The function is shown below, where two vectors are the input 
+    and the output is a vector containing the matched indexes.
 </p>
 
 {% highlight ruby %}
@@ -144,7 +149,7 @@ vector<Eigen::Vector2d> Get_correspondence_indices(vector<Eigen::Vector2d> P, ve
 
 <p>
     The figure below shows the output of the correspondences process, where each point from the reference points \(Q\) is linked to the target points \(P\).
-    As can be seen the matching process is not a great one, but it do the work for a 2D and small points set.
+    As can be seen, the matching process is not a great one, but it does the work for a 2D and minor points set.
 </p>
 
 
@@ -166,10 +171,10 @@ $$ \approx \sum(q_i - \overline Q)(p_i - \overline P)^T) $$
 $$K = \begin{pmatrix}cov(p_{xi},q_{xj}) & cov(p_{xi},q_{yj})\\\ cov(p_{yi},q_{xj}) & cov(p_{yi},q_{yj})\end{pmatrix}$$
 
 <p>
-    After computing the covariance, we will compute \(R\) and \(t\) using Singular Value Decompositions SVD.
-    SVD of matrix is a factorization of the matrix. Where the output of SVD is three matrixs which \(S\), \(U\), and \(T_V\).
-    Therefore, \(R=UV^T\) and \(t=\mu_Q - R_{\mu_P}\). Using Eigen library we will compute the SVD of cov using Eigen::JacobiSVD, 
-    then we will compute the rotation and translation as shown in the below snap code.
+    After computing the covariance, we will add \(R\) and \(t\) using Singular Value Decompositions SVD.
+    SVD matrix is a factorization of the matrix. Where the output of SVD is three matrixes which \(S\), \(U\), and \(T_V\).
+    Therefore, \(R=UV^T\) and \(t=\mu_Q - R_{\mu_P}\). Using the Eigen library, we will compute the SVD of cov using Eigen::JacobiSVD; 
+    then, we compute the rotation and translation as shown in the below snap code.
 </p>
 
 {% highlight ruby %}
@@ -184,11 +189,10 @@ auto T_found = center_of_Q - R_found * center_of_P;
 
 <p>
     After getting the new \(R\) and \(t\), we need to apply the transformation to the target points \(P\).
-    Using the following function Apply_transform(). The output of the function is a vector contain a list of 
+    Using the following function Apply_transform(). The function's output is a vector containing a list of 
     corrected points. After that the Error is computed using linalg_norm function \(E={\sqrt {P^{'} - Q} }\). 
-    Finally, we repeat the same step for few time until the error reach to threshold. The function below is the ICP_SVD 
-    that used. The function take four inputs which is two for reference points and target points, the vector take the error 
-    at each iterations and the number of iterations.
+    Finally, we repeat the same step for few times until the error reaches the threshold. The function below is the ICP_SVD  used. The function takes four inputs: two for reference points and target points. The vector takes the error 
+    at each iteration and the number of iterations.
 </p>
 
 {% highlight ruby %}
@@ -240,8 +244,8 @@ vector<Eigen::Vector2d> ICP_svd(vector<Eigen::Vector2d> P,
 {% endhighlight %}
 
 <p>
-    The figures below shows the output if ICP_SVD algorithms and the error. 
-    As can be seen the algorithm took 7 iteration to drop the error to zero and match the two points sets.
+    The figures below show the output of ICP_SVD algorithms and the error. 
+    As can be seen, the algorithm took seven iterations to drop the error to zero and match the two points sets.
 </p>
 
 <img src="{{site.baseurl}}/assets/icp/icp_svd.gif">
@@ -251,7 +255,7 @@ vector<Eigen::Vector2d> ICP_svd(vector<Eigen::Vector2d> P,
 <h1 class="section-heading">ICP based on nonlinear least square</h1>
 
 <p>
-    In this problem we are working to reduce the error of the sum square distance between two points.
+    In this problem, we are working to reduce the error of the sum square distance between two points.
 </p>
 
 $$E = \sum[R*p_i + t - q_i]$$
@@ -263,23 +267,17 @@ $$E = \sum[R*p_i + t - q_i]$$
 </p>
 
 <p>
-    The minimizing problem start with computing the corresponde point between both set. 
+    The minimizing problem starts with computing the corresponding point between both sets. 
     We assume the pose is descripe as follow \(\mathbf{x} = [x,y,\theta]^T\) where \(\theta\) 
     place in the the rotation matrix \(R = \begin{pmatrix} cos(\theta) & -sin(\theta)\\\ sin(\theta) & cos(\theta)\end{pmatrix}\). 
-    
 </p>
 
 
 
-
-
-
-
->>>>>>> a80dbd9cad14843781aa2b974825c92a6c6e5c31
 <p>
-    As can be shown above we solve the problem of matching using SVD
-     but there are other moethods that are more efficient. Instead solving the SVD 
-     we try to minimise the error between the correspondeces points. 
+    As shown above, we solve the problem of matching using SVD
+     But other methods are more efficient. Instead of solving the SVD, 
+     we try to minimise the error between the corresponding points
 </p>
 
 $$
@@ -290,14 +288,13 @@ $$
     For the minimizing we update \(R, t\) which will be represent in a vector \(x=[x,y,\theta]^T\), 
     where \(R=\begin{pmatrix}cos(\theta) & -sin(\theta))\\\ sin(\theta) & -cos(\theta))\end{pmatrix}\) 
     and \(t = \begin{pmatrix} x \\\ y\end{pmatrix}\). 
-    We will keep update the target points \(p\) until overlap on the reference point \(Q\).
-     Due to the present of \(R\) the problem become non-linear. 
+    We will keep updating the target points \(p\) until they overlap on the reference point \(Q\).
+     Due to the presence of \(R\), the problem becomes non-linear. 
 </p>
 
 <p>
-    To solve this problem we will use Gauss Newton Method to minimise between the correspondeces points.
-     Therefore the error is the sum of the error between the correspondese points. 
-    Which is shown the equation below.
+    To solve this problem, we will use Gauss-Newton Method to minimise between the correspondence points.
+     Therefore the error is the sum of the error between the correspondence points, shown in the equation below.
 </p>
 $$
     e(x) = \sum_{i,j} e_{i,j}(x)
@@ -351,7 +348,7 @@ $$
 $$
 
 <p>
-    The code below shows a function create the jacobian using Eigen::MatrixXd that generate a matrix size (2x3).
+    The code below shows a function that creates the jacobian using Eigen::MatrixXd that generate a matrix size (2x3).
 </p>
 
 
@@ -385,12 +382,13 @@ Eigen::Vector2d Error(Eigen::Vector3d x, Eigen::Vector2d p, Eigen::Vector2d q)
 </p>
 
 <p>
-    The function Prepare_system take 7 inputs which are \(x\), Point set \(P\) and \() Q\), the correspondences indexs vectors,
-    H materix, g vector and the error chi. The last 3 variables updated and returned using pass by reference.
+    The function Prepare_system take seven inputs which are \(x\), 
+    Point set \(P\) and \() Q\), the correspondences index vectors, H matrix, 
+    g vector and the error chi. The last three variables were updated and returned using pass by reference.
 </p>
 <p>
-    the function loop on all correspondence points to compute the Jacobian then update the H and g. Where \(H= J^T J\) and 
-    \(g=J^T e\). Note that the \(weight\) is used to elementate the outliear point that above the threshold.
+    The function loop on all correspondence points to compute the Jacobian, then update the H and g. Where \(H= J^T J\) and 
+    \(g=J^T e\). Note that the \(weight\) eliminates the outlier point above the threshold.
 </p>
 {% highlight ruby %}
 void Prepare_system(Eigen::Vector3d x,
@@ -419,15 +417,15 @@ void Prepare_system(Eigen::Vector3d x,
 <h2 class="subsection-heading">ICP non-linear Least Square</h2>
 
 <p>
-    ICP based on non-linear least square has four steps whicg shown in the code below.
-    The first step is to initilize the for loop for the limited iteration. then 
-    we initilize the x vector that contant the translation and \(\theta\). Also,
+    ICP based on non-linear least-square has four steps which are shown in the code below.
+    The first step is to initialize the for loop for the limited iteration. 
+    Then we initialize the x vector that contains the translation and \(\theta\). Also,
     Hessian matrix \(H\) and \(g\) initilized with zeros.
 </p>
 <p>
-    We start processing the point by computing the correspondese point using the function define above.
-    after we pass the data to Prepare_system function to compute Hessain matrix \(H\) and \(g\).
-    Using \(H\) and \(g\) we solve the equation using Eigen inbuild function
+    We start processing the point by computing the corresponding point using the defined function.
+    Next, we pass the data to the Prepare_system function to compute Hessain matrix \(H\) and \(g\).
+    Using \(H\) and \(g\), we solve the equation using the Eigen inbuild function.
      <a href="eigen.tuxfamily.org/dox/classEigen_1_1BDCSVD.html/" target="_blank" rel="noopener noreferrer">bdcSvd </a>.
     the output of bdcSvd \(\delta x\) is the small motion computed between the both points group. 
 </p>
