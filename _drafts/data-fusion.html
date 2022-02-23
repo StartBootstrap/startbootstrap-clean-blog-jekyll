@@ -222,6 +222,12 @@ void setup() {
       delay(10);
     }
 {% endhighlight %}
+<p>
+
+
+</p>
+
+<h2 class="subsection-heading">Example 2 of KF with Arduino</h2>
 
 <p>
   In this example I will use MPU6050 sensor that provide an acceleration data and gyroscop data. Using the acceleration data to compute 
@@ -234,7 +240,8 @@ void setup() {
   <p>
   So the state will be \(\hat x = [\theta  { , } \dot \theta]^T \). where decribe the angle and the anguar velocity. 
   These describe our best estimation (\(\mu)\). Now the covariance will be 
-  \( P_k = \begin{pmatrix} \Sigma_{\theta \theta} && \Sigma_{\theta \dot \theta} \\\ \Sigma_{\dot \theta \theta} && \Sigma_{\dot \theta \dot \theta}\end{pmatrix} \).
+  \( P_k = \begin{pmatrix} \Sigma_{\theta \theta} && \Sigma_{\theta \dot \theta} \\\ \Sigma_{\dot \theta \theta} && \Sigma_{\dot \theta \dot \theta}\end{pmatrix} \). 
+  And our A matrix is shown below.
 </p>
 
 $$ 
@@ -259,4 +266,19 @@ $$
 <p>
   Now we are going to update the state station using actual measurments \(Y_k = CX_k + z_k\), where 
   \(C=\begin{pmatrix} 1 && 0 \\\ 0 && 1 \end{pmatrix}\) and \(C=\begin{pmatrix} \theta \\\ \dot \theta \end{pmatrix}\)
+</p>
+
+<p>
+  The below code is implemented in arduino using MPU6050 sensors and it is based on the work of 
+  <a href="http://blog.tkjelectronics.dk/2012/09/a-practical-approach-to-kalman-filter-and-how-to-implement-it/" target="_blank" rel="noopener noreferrer"></a> Lauszus </a>. 
+  Where I modified to be used in class form.
+</p>
+
+<p>
+  The full code shows below
+</p>
+
+
+<p>
+  The figure blow shows the output of the code as can be seen the estimation row angle is getting much better and smoother.
 </p>
