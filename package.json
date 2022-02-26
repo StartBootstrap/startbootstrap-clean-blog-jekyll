@@ -46,7 +46,6 @@
     "@commitlint/config-conventional": "^8.3.4",
     "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
-    "husky": "^4.2.1",
     "stylelint": "^13.0.0",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^19.0.0",

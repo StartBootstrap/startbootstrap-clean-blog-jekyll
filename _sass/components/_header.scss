@@ -1,5 +1,6 @@
 .header {
-  background: $header-background;
+  background-color: rgba(180,180,180, .15);  
+  backdrop-filter: blur(20px);
   a {
     font-weight: map-get($base, font-weight);
     text-decoration: none !important;
@@ -112,6 +113,7 @@
     content: "";
     @include split-line(bottom, 4px, transparent);
   }
+  font-size: 105%;
 }
 .navigation__item--active {
   a {

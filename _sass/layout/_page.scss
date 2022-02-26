@@ -163,3 +163,20 @@ html,
     padding-top: map-get($layout, header-height);
   }
 }
+
+/* customised font */
+h1,h2,h3,h4,h5.h6{
+  font-family: 'Helvetica Neue';
+}
+
+body{
+  font-family: 'Helvetica Neue';
+}
+
+title{
+  font-family: 'Helvetica Neue';
+}
+
+button{
+  font-family: 'Helvetica Neue';
+}
