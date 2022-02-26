@@ -252,7 +252,16 @@ The books which are marked with a ** are the ones that I am either currently rea
 235. **The Free Voice: On Democracy, Culture and the Nation**, *Ravish Kumar (Translated by Chitra Padmanabhan, Anurag Basnet and Ravi Singh)*, Speaking Tiger, 2019.
 236. **Thomas Kuhn and the Science Wars**, *Ziauddin Sardar*, Icon Books, 2000.
 237. **Covid by Numbers: Making Sense of the Pandemic with Data**, *David Spiegelhalter and Anthony Masters*, Pelican Books, 2021.
-238. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+238. **Eureka! The Birth of Science**, *Andrew Gregory*, Icon Books, 2017.
+239. **Exposed! Ouija, Firewalking, and Other Gibberish**, *Henri Boch (Translated by Bart K. Holland)*, The Johns Hopkins University Press, 2009.
+240. **Despite the State: Why India Lets Its People Down and How They Cope**, *M. Rajshekhar*, Context, 2021.
+241. **Hitler and India: The untold story of his hatred for the country and its people**, *Vaibhav Purandare*, Westland Non-Fiction, 2021.
+242. **A Feast of Vultures: The Hidden Business of Democracy in India**, *Josy Joseph*, HarperCollins, 2016.
+243. **Letter from Birmingham Jail**, *Martin Luther King Jr.*, Penguin Classics, 2018.
+244. **The Demolition and the Verdict: Ayodhya and the Project to Reconfigure India**, *Nilanjan Mukhopadhyay*, Speaking Tiger Books, 2021.
+245. **Mathematics: A Very Short Introduction**, *Timothy Gowers*, Oxford University Press, 2002.
+246. **Auschwitz: A History**, *Sybille Steinbacher (Translated by Shaun Whiteside)*, Penguin Books, 2005.
+247. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
