@@ -1,6 +1,32 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Portfolio
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  作品
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  作品
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       일하다
+      ko-KR   : *KO
+      fr      : &FR       Travailler
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR      
+      # @end locale config
+    url: /portfolio.html
+
+  - titles:
+      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
