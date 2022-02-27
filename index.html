@@ -5,35 +5,34 @@ layout: home
 
 
 <style>
+.centre_container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 h1,h2,h3,h4,h5,h6{
     text-align: center;
-    line-height: 200%;
 }
 .home_body{
     font-size: 20px;
-    text-align: center;
     line-height: 200%;
+    text-align: center;
 }
 </style>
 
 <html>
     <body>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div>
+        <div class="centre_container">
             <h1>Hi, I'm Tao!</h1>
-        </div>
-        <div class="home_body">
-            I'm a business analyst graduate based in London, UK. I'm a firm believer in usring data to 
-            address business issues and make the world a better place.
-        </div>
-        <div>
+            </br>
+            <p class="home_body">I'm a business analyst graduate based in London, UK. I'm a firm believer in using data to 
+            address business issues and make the world a better place.</p>
+            </br>
             <h3>Professional Experience</h3>
+            <p class="home_body"><b>Currently:</b> Looking for jobs</p>
+            <p class="home_body"><b>Previously: </b>Studied business analytics in University of Exeter</p>
         </div>
-        <div class="home_body"><b>Currently:</b> Looking for jobs</div>
-        <div class="home_body"><b>Previously: </b>Studied business analytics in University of Exeter</div>
     </body>
 </html>
