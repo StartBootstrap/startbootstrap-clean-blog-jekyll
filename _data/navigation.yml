@@ -49,7 +49,7 @@ header:
       fr-LU   : *FR
       tr      : &TR      
       # @end locale config
-    url: /portfolio.html
+    url: /i_Portfolio.html
 
   - titles:
       # @start locale config
@@ -75,7 +75,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       
       # @end locale config
-    url: /Blog.html
+    url: /i_Blog.html
 
   - titles:
       # @start locale config
@@ -101,4 +101,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /about.html
+    url: /i_About.html

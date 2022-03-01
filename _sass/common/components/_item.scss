@@ -33,6 +33,7 @@ a > .item__header, a.item__header, .item__header > a {
   color: $text-color-l;
 }
 
+
 .item__description {
   &, .article__content {
     font-size: map-get($base, font-size-sm);
@@ -98,3 +99,4 @@ a > .item__header, a.item__header, .item__header > a {
     list-style-type: none;
   }
 }
+
