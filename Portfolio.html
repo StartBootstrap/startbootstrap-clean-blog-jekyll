@@ -5,53 +5,40 @@ articles:
   data_source: site.sample_page
   type: grid
 ---
-<style>
-.container {
-  position: relative;
-  width: 50%;
-}
 
-.image {
-  display: block;
-  width: 300px;
-  height: 300px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 300px;
-  width: 300px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-</style>
-
-<div class="container">
-  <img src="assets/images/portfolio_1.2.png" alt="Avatar" class="image">
-  <div class="overlay">
-    <div class="text">New York City Bike Share</div>
+<html>
+  <div class="grid-container">
+    
+    <div class="grid grid--p-3">
+      <div class="cell cell--6">
+        <div class="card">
+          <div class="card__image">
+            <img class="image" src="assets/images/portfolio_1.1.png"/>
+          </div>
+          <div class="card__content">
+            <div class="card__header">
+              <h4>New York City Bike Share</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cell cell--6">
+        <div class="card">
+          <div class="card__image">
+            <img class="image" src="assets/images/portfolio_2.png"/>
+          </div>
+          <div class="card__content">
+            <div class="card__header">
+              <h4>Interactive Excel Dashboard</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>hello</h1>
   </div>
-</div>
+</html>
+
+
 
