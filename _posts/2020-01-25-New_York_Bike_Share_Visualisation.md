@@ -2,6 +2,8 @@
 layout: articles
 title: New York Bike Share Visualisation
 tags: Visualisation, Tableau, Radiual Bar Chart
+Aside:
+  toc: true
 article_header:
   type: overlay
   theme: dark
@@ -10,17 +12,9 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: assets/images/Portfolio_1.2.png
 ---
-
+<br />
 This visualisation is made by Tableau and data pre-processing is conducted by Pyhton.
 
-The origianl chart is shown below:
-<div class="card">
-  <div class="card__image">
-    <img height="1000px" src="/assets/images/Portfolio_1.1.png"/>
-  </div>
-</div>
+You can find the full version of this radial bar chart: [New York City Bike Share Visualisation](https://drive.google.com/file/d/1dup0Y8vBBjjESm3uLRt34pFWCJwk0eGX/view?usp=sharing)
 
-![test](/assets/images/Portfolio_1.1.png){:align=center height="1000px"}
-
-Data Source: [Kaggle|New York City Bike Share Dataset]("https://www.kaggle.com/akkithetechie/new-york-city-bike-share-dataset")
-
+Data Source: [Kaggle: New York Bike Share Dataset](https://www.kaggle.com/akkithetechie/new-york-city-bike-share-dataset)
