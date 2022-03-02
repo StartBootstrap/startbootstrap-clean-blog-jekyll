@@ -1,0 +1,63 @@
+/* start custom scss snippet */
+
+/* end custom scss snippet */
+
+/* for gradient text */
+/* for colour */
+.text-transparent {
+    color: transparent;
+}
+
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+}
+/* green */
+.from-lime-300 {
+    --tw-gradient-from: #bef264;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(190 242 100/0));
+}
+
+.to-emerald-400 {
+    --tw-gradient-to: #34d399;
+}
+
+/* blue*/
+.from-cyan-400 {
+    --tw-gradient-from: #22d3ee;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(34 211 238/0));
+}
+
+.to-blue-500 {
+    --tw-gradient-to: #3b82f6;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+/* red */
+.from-pink-500 {
+    --tw-gradient-from: #ec4899;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(236 72 153/0));
+}
+
+.to-orange-500 {
+    --tw-gradient-to: #f97316;
+}
+
+/* test size for gradient text*/
+.font-bold {
+    font-weight: 700;
+}
+
+/* end */
