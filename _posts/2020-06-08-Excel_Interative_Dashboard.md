@@ -17,7 +17,7 @@ The dashboard is built by Excel with features [Pivot Table](https://support.micr
 
 The funny parts of this dashboard is that you can get what you'd like to see by apply **filters** at the bottom. All charts will be changed as long as you **click specfic buttons**.
 
-The data is only include 2000 rows and it slow down my Excel when making changes, especially formats and layouts. For data with more rows/record, maybe [Python](https://www.python.org) or [R](https://www.r-project.org/about.html) is a better choice to build such a dashboard.
+The data only includes 2000 rows and it slow down my Excel when making changes, especially formats and layouts. For data with more rows/records, [Python](https://www.python.org) or [R](https://www.r-project.org/about.html) is probably a better choice to build such a dashboard.
 
 Here is Demo: [Watch on Youtube](https://youtu.be/CQERu2RfHHo)
 
