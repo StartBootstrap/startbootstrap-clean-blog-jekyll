@@ -1,7 +1,7 @@
 ---
 layout: articles
 title: Excel Interctive Dashboard
-tags: Visualisation, Excel, Dashboard
+tags: Visualisation Excel Dashboard
 article_header:
   type: overlay
   theme: dark

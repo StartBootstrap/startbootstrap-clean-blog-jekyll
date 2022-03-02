@@ -1,7 +1,7 @@
 ---
 layout: articles
 title: New York Bike Share Visualisation
-tags: Visualisation, Tableau, Radiual Bar Chart
+tags: Visualisation Tableau
 Aside:
   toc: true
 article_header:
