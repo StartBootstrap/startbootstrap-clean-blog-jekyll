@@ -2,8 +2,6 @@
 layout: articles
 title: New York Bike Share Visualisation
 tags: Visualisation Tableau
-Aside:
-  toc: true
 article_header:
   type: overlay
   theme: dark
@@ -18,3 +16,4 @@ This visualisation is made by Tableau and data pre-processing is conducted by Py
 You can find the full version of this radial bar chart: [New York City Bike Share Visualisation](https://drive.google.com/file/d/1dup0Y8vBBjjESm3uLRt34pFWCJwk0eGX/view?usp=sharing)
 
 Data Source: [Kaggle: New York Bike Share Dataset](https://www.kaggle.com/akkithetechie/new-york-city-bike-share-dataset)
+
