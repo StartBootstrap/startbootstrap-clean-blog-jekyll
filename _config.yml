@@ -1,4 +1,4 @@
-title:              Clean Blog
+title:              Snowman Code
 email:              fawzilinggo@gmail.com
 description:        Tentang Fawzi Linggo dan turunannya
 author:             Fawzi Linggo
@@ -6,11 +6,11 @@ baseurl:            ""
 url:                "https://fawzilinggo.github.io"
 
 # Social Profiles
-twitter_username:   FawziLinggo
-github_username:    
+twitter_username:   
+github_username:    FawziLinggo
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username:  FawziLinggo
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
