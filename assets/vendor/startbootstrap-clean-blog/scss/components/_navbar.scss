@@ -8,7 +8,16 @@
     .navbar-brand {
         font-weight: 800;
         color: $gray-800;
+		.logo-dark{
+		width: 10%;
+		display: none;
+		}
+		.logo-light{
+			width: 10%;
+		display: inline;
+		}
     }
+		
 
     .navbar-toggler {
         font-size: 12px;
@@ -74,7 +83,7 @@
         &.is-fixed {
             /* when the user scrolls down, we hide the header right above the viewport */
             position: fixed;
-            top: -67px;
+            top: -90px;
             -webkit-transition: -webkit-transform 0.2s;
             -moz-transition: -moz-transform 0.2s;
             transition: transform 0.2s;
@@ -88,6 +97,15 @@
                 &:hover {
                     color: $primary;
                 }
+			.logo-dark{
+				width: 10%;
+				display: inline;
+			}
+			.logo-light{
+			width: 10%;
+			display: none;
+			}
+    
             }
 
             .navbar-nav {
