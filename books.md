@@ -261,7 +261,13 @@ The books which are marked with a ** are the ones that I am either currently rea
 244. **The Demolition and the Verdict: Ayodhya and the Project to Reconfigure India**, *Nilanjan Mukhopadhyay*, Speaking Tiger Books, 2021.
 245. **Mathematics: A Very Short Introduction**, *Timothy Gowers*, Oxford University Press, 2002.
 246. **Auschwitz: A History**, *Sybille Steinbacher (Translated by Shaun Whiteside)*, Penguin Books, 2005.
-247. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+247. **Stopping the Next Pandemic: How Covid-19 Can Help Us Save Humanity**, *Debora MacKenzie*, The Bridge Street Press, 2021.
+248. **The Next Pandemic: On the Front Lines Against Humankind's Gravest Dangers**, *Ali S. Khan and William Patrick*, PublicAffairs, 2020.
+249. **The Plague Cycle: The Unending War Between Humanity and Infectious Disease**, *Charles Kenny*, Scribner, 2021.
+250. **The Rules of Contagion: Why Things Spread - and Why They Stop**, *Adam Kucharski*, Wellcome Collection, 2021.
+251. **The Seven Daughters of Eve: The Astonishing Story That Reveals How Each of Us Can Trace Our Genetic Ancestors**, *Bryan Sykes*, Corgi Books, 2002.
+252. **The Viral Storm: The Dawn of a New Pandemic Age**, *Nathan Wolfe*, Allen Lane, 2011.
+253. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
