@@ -6,27 +6,31 @@ date: 2022-02-10
 background: '/img/posts/kalman-filter/1.PNG'
 ---
 
+<p>
+  Data fusion is process used to combine mulitple sensor reading to get more accurate 
+  reading. For example, we have a robot move forward and backword. The robot use ladir 
+  to measure the obestical and estimate the distance. All sensor they have a noise in their reading 
+  and accuracy ( foe example, the ladir the robot use has a std of 2 cm therefore, if the robot read the distance 
+  20cm we can say the robot position fall between 18cm and 22cm). The noise in the sensor can be experse as gussain noise. 
+  Going back to our robot, if the ladir show the wall is 25cm away from the robot with std 5m as shown in the figure below the green curve.  
+</p>
+
+<img src="{{site.baseurl}}/img/posts/Data fusion/before combine edited.PNG">
 
 <p>
-    For example, we have a car move in one direction where it moves forward and backwards. 
-    So the state \(x\) is the position of the car, and the kinematics represent by the dynamic 
-    of the car where the kinematic compute the state of the car. 
-    Due to the noize in the sensor, we don't know exactly the car's position. 
-    Therefore, the start position is not known exactly where we have a distribution probability of the position, 
-    as shown in the figure below. Now, when the car starts moving, the probability will start to grow and evolve through the time 
-    . Therefore, the uncertainty is growing. The initial probability of the start position growing due to the
-    effect of the noisy kinematics of the car. 
+  We have other reading came from the odometry using encoder and it shows the robot position is at 7m with std 7m.
+  If we keep reading both sensor independently, the error in ladiar will stay same while the odometery will increase to the point 
+  that cannot be use as reliable. Therfore we use data fusion to combine both reading to get a more accurate reading value. The 
+  figure below shows the output of combining both reading. As can be seen that blue curve shows the position at 6m with a std 3m 
+  which is much better than each sensor works independently. 
 </p>
-<p>
-    Now we have information from the GPS that tells the car's position with a sure accuracy. 
-    (e.g. +/- 10m). This sensor provides as we a measured probability distribution. We can put both measurements into an updated probability distribution that gives us more accurate positions using this information. 
-    Using these updated methods to measure the position through time, the probability distribution will get smaller 
-    and smaller. 
-</p>
+
+<img src="{{site.baseurl}}/img/posts/Data fusion/after combine edited.PNG">
+
 
 <p>
     The process occurs at the top consisting of two steps which are (1) prediction step and (2) update step. 
-    In the first step, the dynamic of the car updates the current state \(x_t\) where the uncertainty grows while 
+    In the first step, the dynamic of the robot updates the current state \(x_t\) where the uncertainty grows while 
     the second step updates the current state \(x_t\) and reduces the uncertainty in the system. 
 </p>
 <p>
