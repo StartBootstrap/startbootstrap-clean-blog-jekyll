@@ -100,7 +100,8 @@ Historic Centre of Sighișoara (December 2018)
 
 **United Kingdom of Great Britain and Northern Ireland**
 
-Castles and Town Walls of King Edward in Gwynedd (July 2021)
+Castles and Town Walls of King Edward in Gwynedd (July 2021)  
+Old and New Towns of Edinburgh (April 2022)
 
 **Slovenia**
 
