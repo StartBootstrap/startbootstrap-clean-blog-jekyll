@@ -1,0 +1,37 @@
+.content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem 1rem 12rem;
+
+  @media screen {
+    min-height: 100vh;
+  }
+
+  @media screen and (min-width: $break-point-2) {
+    padding: 4rem 1rem 12rem;
+    margin-left: 19rem;
+    margin-right:3rem;
+  }
+
+  @media screen and (min-width: $break-point-3) {
+    max-width: 42rem;
+    margin-left: 21rem;
+  }
+
+  @media screen and (min-width: $break-point-4) {
+    float:left;
+    width:100%;
+    margin-left: 22rem;
+    margin-right:5rem;
+  }
+
+  @media screen and (min-width: $break-point-5) {
+    max-width: 44rem;
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+      margin-left: 25rem;
+      margin-right:8rem;
+  }
+}

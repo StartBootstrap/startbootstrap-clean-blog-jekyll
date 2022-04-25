@@ -1,0 +1,35 @@
+.sidebar-social {
+  margin-bottom: .5rem;
+
+  &::after {
+    @extend .clearfix
+  }
+
+  > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 -.25rem;
+
+    > li {
+      float: left;
+
+      > a {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        width: 3.1249rem;
+        height: 4rem;
+        padding: .5rem 0;
+
+        // &::after {
+        //   display: none;
+        // }
+      }
+    }
+
+    li + li {
+      margin-top: 0;
+    }
+  }
+}

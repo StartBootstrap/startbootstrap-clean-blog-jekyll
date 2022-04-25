@@ -1,0 +1,19 @@
+<h2 class="sr-only">Pagination</h2>
+<nav class="pagination heading" role="navigation">
+  <ul>
+    <li class="pagination-item older" >
+      {% if paginator.next_page %}
+        <a rel="next" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+      {% else %}
+        <span>Older</span>
+      {% endif %}
+    </li>
+    <li class="pagination-item newer" >
+      {% if paginator.previous_page %}
+        <a rel="prev" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
+      {% else %}
+        <span>Newer</span>
+      {% endif %}
+    </li>
+  </ul>
+</nav>

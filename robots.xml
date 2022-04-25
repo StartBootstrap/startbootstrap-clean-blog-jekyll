@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://theorydb.github.io/sitemap.xml

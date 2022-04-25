@@ -1,0 +1,16 @@
+@media screen {
+  .y-drawer-scrim {
+    z-index: 2;
+  }
+
+  .y-drawer-content {
+    width: 18rem;
+    left: -18rem;
+    z-index: 3;
+
+  }
+
+  // header, body::before {
+  //   backface-visibility: hidden;
+  // }
+}

@@ -1,0 +1,42 @@
+<div id="_yDrawer">
+  <div id="_sidebar" class="sidebar">
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <header class="sidebar-sticky" role="banner">
+      <br/>
+      <div class="sidebar-about">
+        <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {{ site.tagline | truncatewords:50 | markdownify }}
+      </div>
+
+      <br/>
+      <br/>
+      <nav class="sidebar-nav heading" role="navigation">
+        {% include nav.html %}
+      </nav>
+    <br/>
+
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+
+    <br/>
+      <div class="sidebar-box">
+        {% if author.picture %}
+          {% include srcset-img.html class="me" img=author.picture alt=author.name %}
+        {% endif %}
+      </div>
+      {{ site.description | truncatewords:50 | markdownify }}
+      {% assign author = site.data.authors.first[1] %}
+      {% if author.social %}
+        <div class="sidebar-social">
+          {% include social.html social=author.social %}
+        </div>
+      {% endif %}
+    </header>
+  </div>
+</div>

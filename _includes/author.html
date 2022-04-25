@@ -1,0 +1,13 @@
+<div class="author">
+  <{{ include.heading_tag | default:'h2' }} class="page-title hr">
+    {{ include.heading | default:include.author.name }}
+  </{{ include.heading_tag | default:'h2' }}>
+<div class="author-body">
+  {% if include.author.picture %}
+    {% include srcset-img.html class="me" img=include.author.picture alt=include.author.name %}
+  {% endif %}
+  <div class="author-body-description">
+    {{ include.author.about | markdownify }}
+  </div>
+</div>
+</div>

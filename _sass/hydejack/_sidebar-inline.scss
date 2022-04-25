@@ -1,0 +1,175 @@
+.sidebar {
+  color: rgba(255,255,255,.75);
+  text-align: left;
+
+  &::before {
+    /* make sidebar slightly darker to increase text readability (when using a background image) */
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    // /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#202020+0,202020+100&0+0,0.5+100 */
+    // background: -moz-linear-gradient(top, rgba(32,32,32,0) 0%, rgba(32,32,32,0.5) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00202020', endColorstr='#80202020',GradientType=0 ); /* IE6-9 */
+  }
+
+  /* Sidebar links */
+  a {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+
+    // &:hover, &:focus {
+    //   border-bottom-color: #fff;
+    // }
+  }
+}
+
+.right-side {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .ad-first{
+    text-align: center;
+  }
+
+
+  @media screen {
+    max-width: 38rem;
+    min-height: 100vh;
+
+    .ad-second{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: $break-point-2) {
+    margin-left: 20rem;
+    margin-right: 1rem;
+    padding: 4rem 1rem 12rem;
+
+    .ad-second{
+      text-align: center;
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: $break-point-3) {
+    margin-left: 22rem;
+    max-width: 42rem;
+  }
+
+  @media screen and (min-width: $break-point-4) {
+  width:162px;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding: 0rem;
+  margin-top: 10rem;
+  display: block;
+  float: left;
+  }
+
+  @media screen and (min-width: $break-point-5) {
+  width:300px;
+  margin-right:0rem;
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+  }
+}
+
+#_yDrawer {
+  position: relative;
+
+  @media screen {
+    min-height: 640px; // fallback
+    min-height: 100vh;
+  }
+
+  @media screen and (min-width: $break-point-2) {
+    width: 18rem; // duplicate!
+    margin-left: 0;
+  }
+
+
+}
+
+.sidebar-bg {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #202020 center / cover;
+}
+
+.sidebar-box {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-sticky {
+  position: relative;
+  z-index: 3;
+
+  @media screen {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+    height: 100%;
+   overflow: auto;
+    position: absolute;
+    padding: 3rem 0rem;
+    right: 2.5rem;
+    left:   2.5rem;
+  }
+}
+.sidebar-sticky::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
+
+/* About section */
+.sidebar-about > h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.sidebar-nav > ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: .5rem;
+  // border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+a.sidebar-nav-item {
+  width:100%;
+  font-weight: normal;
+  display: block;
+  line-height: 1.75;
+  padding: .25rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+a.sidebar-nav-subitem {
+  font-weight: normal;
+  display: block;
+  line-height: 1.75;
+  padding: .25rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+// @media print {
+//   .sidebar {
+//     page-break-inside: avoid;
+//   }
+//
+//   .sidebar-nav, .sidebar-social {
+//     display: none;
+//   }
+// }

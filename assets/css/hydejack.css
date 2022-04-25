@@ -1,0 +1,250 @@
+---
+---
+{% capture include_to_scssify %}{% include styles/style.scss %}{% endcapture %}
+{% include copyright-header.txt %}{{ include_to_scssify | scssify }}
+
+@media(max-width: 700px) {
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  line-height: 1.6;
+  padding-left: 3%;
+  padding-top: 0%;
+  padding-right: 3%;
+  padding-bottom: 6%;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+
+.only-mobile {
+  display:block;
+  width:98%;
+  height:300px;
+}
+
+}
+
+.markdown-body {
+    word-spacing: 1.8px;
+    letter-spacing: 0.1px;
+}
+
+@media(min-width: 700px) {
+  .only-mobile {
+    display:none;
+  }
+}
+
+.bottom-ad {
+  text-align: center;
+  width:100%;
+  height:300px;
+}
+
+.head-image{
+  max-height:300px;
+  display: flex;
+  justify-content: center;
+}
+
+.head-image img {
+    object-fit: contain;
+}
+
+.markdown-body p {
+  word-break: break-word;
+}
+
+.markdown-body a {
+  background: #FFF9C4;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  color: #E53A40;
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+
+.markdown-body ul,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.list-wrapper {
+  display: flex;
+}
+
+.list-body {
+  margin:4px;
+}
+
+.folder {
+  color:#eee;
+  width:30px;
+  height:30px;
+  position: absolute;
+  text-align: center;
+  cursor:pointer;
+  right:10px;
+}
+
+.folder:hover {
+  background: #000;
+  opacity: 0.1;
+}
+
+input[type="checkbox"]{
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"] ~ ul{
+  height: 0;
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ ul{
+  list-style: none;
+  height: 100%;
+  transform-origin: top;
+  transition: transform .2s ease-out;
+  transform: scaleY(1);
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

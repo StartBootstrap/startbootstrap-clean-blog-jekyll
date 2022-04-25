@@ -1,0 +1,41 @@
+{% assign post = include.post %}
+
+<aside class="related" role="complementary">
+  <h2 class="hr">Related Posts</h2>
+
+  <ul class="related-posts">
+    {% if site.use_lsi %}
+      {% for post in site.related_posts limit:3 %}
+        {% include post-list-item.html post=post %}
+      {% endfor %}
+    {% elsif post.categories.first %}
+      {% assign category_posts = site.categories[post.categories.first] %}
+      {% assign plusone = false %}
+      {% for post in category_posts limit:4 %}
+        {% if post.url == page.url %}
+          {% assign plusone = true %}
+          {% continue %}
+        {% endif %}
+        {% if forloop.index < 4 or plusone == true %}
+          {% include post-list-item.html post=post %}
+        {% endif %}
+      {% endfor %}
+    {% elsif post.tags.first %}
+      {% assign tag_posts = site.tags[post.tags.first] %}
+      {% assign plusone = false %}
+      {% for post in tag_posts limit:4 %}
+        {% if post.url == page.url %}
+          {% assign plusone = true %}
+          {% continue %}
+        {% endif %}
+        {% if forloop.index < 4 or plusone == true %}
+          {% include post-list-item.html post=post %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% for post in site.related_posts limit:3 %}
+        {% include post-list-item.html post=post %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+</aside>

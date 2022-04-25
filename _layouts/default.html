@@ -1,21 +1,34 @@
-<!DOCTYPE html>
+---
+layout: base
+---
 
-<html>
-
-{% include head.html %}
-
-<body>
-
-  {% include navbar.html %}
+<div class="page">
+  <h1 class="page-title">{{ page.title | default:"Home"}}</h1>
+  {% capture text %}
+Looks like you are using the `{{ page.layout }}` layout. This layout is not supported by Hydejack. Instead use `blog` or `list`. For more information see the [Hydejack Documentation](https://qwtel.com/hydejack/docs/latest/).
+  {% endcapture %}
+  {% include message.html text=text %}
+  <hr/>
 
   {{ content }}
 
-  {% include footer.html %}
+  <h2>Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.posts %}
+      {% include post-list-item.html post=post %}
+    {% endfor %}
+  </ul>
 
-  {% include scripts.html %}
-
-  {% include google-analytics.html %}
-
-</body>
-
-</html>
+  <h2>Pages</h2>
+  <ul class="related-posts">
+    {% for page in site.html_pages %}
+      {% if page.layout == 'page' %}
+        <li class="h4">
+          <a href="{{ page.url | relative_url }}" data-flip="title">
+            <span>{{ page.title }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

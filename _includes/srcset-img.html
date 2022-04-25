@@ -1,0 +1,23 @@
+{% if include.img.src or include.img.srcset %}
+  {% assign srcset = null %}
+
+  {% if include.img.srcset %}
+    {% capture srcset %}
+      {% for hash in include.img.srcset %}{{ hash[1]}} {{ hash[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}
+    {% endcapture %}
+  {% endif %}
+
+  <img
+    src="{{ include.img.src }}"
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    {% if include.alt %}alt="{{ include.alt }}"{% endif %}
+    {% if srcset %}srcset="{{ srcset | strip }}"{% endif %}
+    {% if include.sizes %}sizes="{{ include.sizes }}"{% endif %}
+  />
+{% else %}
+  <img
+    src="{{ include.img }}"
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    {% if include.alt %}alt="{{ include.alt }}"{% endif %}
+  />
+{% endif %}

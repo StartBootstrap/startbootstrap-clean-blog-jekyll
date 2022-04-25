@@ -1,0 +1,31 @@
+article {
+  .katex-display, div.MathJax_Preview {
+    /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @include pre();
+
+    backface-visibility: hidden;
+  }
+
+  div.MathJax_Preview {
+    font-family: $code-font-family;
+    font-size: .75em;
+    line-height: 1.45;
+    white-space: pre;
+    margin-bottom: 1rem;
+  }
+
+  span.MathJax_Preview {
+    font-family: $code-font-family;
+    padding: .25em .5em;
+    font-size: .85em;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+}
+
+.MathJax_Preview:empty {
+  display: none;
+  visibility: hidden;
+}

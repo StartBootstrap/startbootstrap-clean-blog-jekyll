@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+{% assign category = site.featured_categories | where: "slug", page.slug | first %}
+
+{% assign tag = site.featured_tags | where: "category", page.slug %}
+
+{% if page.title.size > 0 %}
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include message.html text=page.description %}
+  </header>
+  <hr class="sr-only"/>
+{% endif %}
+
+{% for t in tag %}
+{% assign posts = site.tags[t.slug] %}
+{% for post in posts limit:5 %}
+  {% assign currenttag = t.slug | tag: page.slug %}
+  {% if currenttag != tag %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="y{{post.date | date: "%Y"}}" class="hr">{{ currenttag }}</h2>
+    <ul class="related-posts">
+    {% assign tag = currenttag %}
+  {% endif %}
+  {% include post-list-item.html post=post format="%d %b" %}
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+{% endfor %}

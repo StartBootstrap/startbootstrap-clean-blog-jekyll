@@ -1,22 +1,142 @@
-<head>
+<!-- =============== -->
+<!-- META            -->
+<!-- =============== -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="naver-site-verification" content="22c5b4ef3bfda7fc6100671413989219de7a4ac8"/>
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:type" content="article">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>
-    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
-    {% else %}{{ site.title | escape }}{% endif %}
-  </title>
+{% for tag_slug in page.tags %}
+  {% unless tag.header-img %}
+    {% assign tag = site.featured_tags | where: "slug", tag_slug | first %}
+  {% endunless %}
+{% endfor %}
 
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+{% if page.header-img %}
+  <meta property="og:image" content="{{ site.url }}/assets/{{ page.header-img }}">
+  <br/>
+{% elsif tag.header-img %}
+  <meta property="og:image" content="{{ site.url }}/assets/{{ tag.header-img }}">
+  <br/>
+{% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/img/logo.png">
+{% endif %}
 
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="360" />
+{% capture title %}
+  {% if page.url == "/" %}
+    {{ site.title }} &middot; {{ site.tagline }}
+  {% elsif page.title.size > 0 %}
+    {{ page.title }} &middot; {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
 
-  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+{% unless page.redirect %}
+  <title>{{ title | strip }}</title>
+{% else %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  <title>Redirecting...</title>
+{% endunless %}
 
-  <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+{% if page.description.size > 0 %}
+  {% assign description = page.description | markdownify %}
+{% elsif page.excerpt.size > 0 %}
+  {% assign description = page.excerpt %}
+{% else %}
+  {% assign description = site.description | markdownify %}
+{% endif %}
+<meta name="description" content="{{ description | strip_html | truncatewords:50 }}">
+<meta property="og:description" content="{{ description | strip_html | truncatewords:50 }}">
 
-</head>
+{% if site.keywords or page.keywords %}
+  <meta name="keywords" content="{{ site.keywords | default: page.keywords | join:',' }}">
+{% endif %}
+
+<!-- tipuesearch -->
+<link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+{% if page.tipue_search_active %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+<script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+<script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+{% endif %}
+
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- =============== -->
+<!-- LINKS           -->
+<!-- =============== -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="{{ site.feed.path | default:'feed.xml' | absolute_url }}">
+
+{% if page.previous %}
+  <link rel="prev" href="{{ page.previous.url | absolute_url }}">
+{% endif %}
+
+{% if page.next %}
+  <link rel="next" href="{{ page.next.url | absolute_url }}">
+{% endif %}
+
+<link rel="apple-touch-icon" href="{{ 'apple-touch-icon.png' | absolute_url }}">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<!-- Place favicon.ico in the root directory -->
+
+<!-- =============== -->
+<!-- SCRIPTS         -->
+<!-- =============== -->
+<script>
+  {% include scripts/load-js-deferred.min.js %}
+  {% include scripts/loadCSS.min.js %}
+  {% include scripts/cssrelpreload.min.js %}
+  window.disablePushState = {{ site.disable_push_state | default:false}};
+  window.disableDrawer = {{ site.disable_drawer | default:false}};
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- =============== -->
+<!-- STYLES          -->
+<!-- =============== -->
+<!--[if gt IE 8]><!---->
+<style>
+  {% capture include_to_scssify %}
+  {% include styles/inline.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+</style>
+
+{% capture style_url %}{% link assets/css/hydejack.css %}?v=6.4.0{% endcapture %}
+<link rel="preload" href="{{ style_url | absolute_url }}" as="style" onload="this.rel='stylesheet'">
+
+{% include page-style.html %}
+
+<noscript>
+  <link rel="stylesheet" href="{{ style_url | absolute_url }}">
+  {% assign font = site.font | default:"'Sans-serif'" %}
+  {% assign font_heading = site.font_heading | default:"'E' %}
+  {% assign google_fonts = site.google_fonts | default:"Roboto+Slab:700|Noto+Serif:400,400i,700,700i" %}
+
+  {% unless site.no_google_fonts %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ google_fonts }}">
+    <style>
+      html { font-family: {{ font }} }
+      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading }} }
+    </style>
+  {% endunless %}
+
+  {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+  <link rel="stylesheet" href="{{ icons_url | absolute_url }}">
+</noscript>
+<!--<![endif]-->

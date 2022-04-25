@@ -1,0 +1,6 @@
+<span class="sr-only">Social:</span>
+<ul>
+  {% for link in include.social %}
+    {% include social-list-item.html platform=link.first username=link.last %}
+  {% endfor %}
+</ul>

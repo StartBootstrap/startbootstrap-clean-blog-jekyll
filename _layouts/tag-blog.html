@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+{% assign posts = site.tags[page.slug] | where: "categories", page.category %}
+
+{% for post in posts %}
+  {% include post.html post=post link_title=true excerpt=true %}
+{% endfor %}
+
+{% include pagination.html %}

@@ -1,0 +1,84 @@
+{% assign post = include.post %}
+
+<article id="post-{{ post.id | slice: 1,9999 }}" class="post{% if include.link_title %} mb6{% endif %}" role="article">
+  <header>
+    <h1 class="post-title">
+      {% if include.link_title %}<a href="{{ post.url | relative_url }}" data-flip="title">{% endif %}
+        {{ post.title }}
+      {% if include.link_title %}</a>{% endif %}
+    </h1>
+
+    <p class="post-date heading">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      {% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
+      {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
+    </p>
+
+    {% include message.html text=post.description %}
+  </header>
+  {% for tag_slug in post.tags %}
+    {% unless tag.header-img %}
+      {% assign tag = site.featured_tags | where: "slug", tag_slug | first %}
+    {% endunless %}
+  {% endfor %}
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {% unless include.excerpt %}
+    <div class="markdown-body">
+
+{% if post.header-img %}<div class="head-image"><img src="{{ site.url }}/{% if post.header-img %}assets/{{ post.header-img }}{% endif %}"/></div>
+<br/>{% elsif tag.header-img %}
+<div class="head-image"><img src="{{ site.url }}/assets/{{ tag.header-img }}"/></div>
+<br/>{% endif %}
+<style>
+.googleads { display:block; width:98%; height: 280px; }
+@media(min-width: 600px) { .googleads { display: none; } }
+</style>
+<ins class="adsbygoogle myAd1190"
+    data-ad-client="ca-pub-1200017190012992"
+></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br/>
+      {{ post.content }}
+      <br/>
+      <br/>
+      <!-- 블로그-하단-반응형 -->
+      <ins class="adsbygoogle"
+          style="display:block; width:100%; height:300px;"
+          data-ad-client="ca-pub-1200017190012992"
+          data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <script>
+
+    </script>
+  {% else %}
+    {{ post.excerpt }}
+    <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a></p>
+  {% endunless %}
+
+</article>
+{% unless include.link_title %}
+  <hr class="dingbat" />
+
+  <div class="share">
+      <h2>Share this post</h2>
+      <div class="share-body">
+        <a href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <span class="icon-twitter">
+            </span>
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <span class="icon-facebook">
+            </span>
+        </a>
+    </div>
+  </div>
+  <br/>
+{% endunless %}

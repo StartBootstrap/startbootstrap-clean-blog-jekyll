@@ -1,0 +1,22 @@
+{% assign platform = include.platform | downcase %}
+{% assign username = include.username %}
+{% assign icon = include.icon %}
+
+{% unless icon %}
+  {% assign icon = platform %}
+{% endunless %}
+
+{% assign = data_social = site.data.social[icon] %}
+
+{% if username contains "//" %}
+  {% assign url = username %}
+{% else %}
+  {% assign url = username | prepend:data_social.prepend | append:data_soical.append %}
+{% endif %}
+
+<li>
+  <a href="{{ url }}">
+    <span class="{{ data_social.icon  | default:'icon-link' }}" title="{{ data_social.name }}"></span>
+    <span class="sr-only">{{ data_social.name }}</span>
+  </a>
+</li>
