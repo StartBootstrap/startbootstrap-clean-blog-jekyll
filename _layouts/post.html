@@ -51,18 +51,6 @@ layout: default
               class="d-none d-md-inline">
               Post</span> &rarr;</a>
           {% endif %}
-
-          {% for post in site.related_posts limit:3 %}
-          <li>
-            <h3>
-              <a href="{{ post.url | relative_url }}">
-                {{ post.title }}
-                <small>{{ post.date | date_to_string }}</small>
-              </a>
-            </h3>
-          </li>
-          {% endfor %}
-
         </div>
 
       </div>
