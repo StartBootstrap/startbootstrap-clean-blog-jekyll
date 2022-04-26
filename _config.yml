@@ -1,25 +1,35 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              Lucas Bensaid
+email:              bensaid.lucas@gmail.com
+description:        Data science portfolio and blog
+author:             Lucas Bensaid
+baseurl:            ""
+url:                "https://lucasbens.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    lucasbens
+facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username:  lucas-bensaid-898ab8130
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+# paginate:           5
+# paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-paginate-multiple
+
+
+paginate_multiple:
+- paginate: 2
+  paginate_path: "/portfolio/page:num/"
+  sub_dir: "portfolio"
+- paginate: 2
+  paginate_path: "/blog/page:num/"
+  sub_dir: "blog"
