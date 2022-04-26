@@ -33,3 +33,6 @@ paginate_multiple:
 - paginate: 2
   paginate_path: "/blog/page:num/"
   sub_dir: "blog"
+
+
+highlighter: rouge
