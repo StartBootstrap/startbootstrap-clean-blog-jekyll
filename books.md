@@ -274,7 +274,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 257. **Seven Kinds of People You Find in Bookshops**, *Shaun Bythell*, Profile Books, 2020.
 258. **Confessions of a Bookseller**, *Shaun Bythell*, Profile Books, 2019.
 259. **Weird Things Customers Say in Bookshops**, *Jen Campbell (Illustrated by Greg McLeod and Myles McLeod)*, Constable, 2012.
-260. **The Business of Books**, *André Schiffrin*, Verso, 2001.
+260. **The Business of Books: How the International Conglomerates Took Over Publishing and Changed the Way We Read**, *André Schiffrin*, Verso, 2001.
 261. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
