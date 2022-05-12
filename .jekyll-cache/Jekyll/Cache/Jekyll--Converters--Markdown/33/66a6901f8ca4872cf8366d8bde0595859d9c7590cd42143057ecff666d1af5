@@ -1,4 +1,0 @@
-I"><p>Variational inference methods in Bayesian inference and machine learning are techniques which are involved in approximating intractable integrals. Most of the machine learning techniques involves finding the point estimates (Maximum likelihood estimation (MLE), Maximum a posteriori estimate (MAP)) of the latent variables, parameters which certainly do not account for any uncertainty. For taking account of uncertainty in point estimates, an entire posterior distribution over the latent variables and parameters is approximated.</p>
-
-<p>[image]!(/img/posts/2.png)</p>
-:ET
