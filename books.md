@@ -275,7 +275,15 @@ The books which are marked with a ** are the ones that I am either currently rea
 258. **Confessions of a Bookseller**, *Shaun Bythell*, Profile Books, 2019.
 259. **Weird Things Customers Say in Bookshops**, *Jen Campbell (Illustrated by Greg McLeod and Myles McLeod)*, Constable, 2012.
 260. **The Business of Books: How the International Conglomerates Took Over Publishing and Changed the Way We Read**, *André Schiffrin*, Verso, 2001.
-261. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+261. **More Weird Things Customers Say in Bookshops**, *Jen Campbell (Illustrated by Brothers McLeod)*, Constable, 2013.
+262. **Empire’s Garden: Assam and the Making of India**, *Jayeeta Sharma*, Duke University Press, 2011.
+263. **Shelf Respect: A Book Lover’s Defence**, *Annie Austen*, Sphere, 2019.
+264. **The Unknown Unknown: Bookshops and the Delight of Not Getting What You Wanted**, *Mark Forsyth*, Icon Books, 2014.
+265. **A Life with Books**, *Julian Barnes*, Jonathan Cape, 2012.
+266. **Change is the Only Constant: The Wisdom of Calculus in a Madcap World**, *Ben Orlin*, Black Dog & Leventhal, 2019.
+267. **Phantom Plague: How Tuberculosis Shaped History**, *Vidya Krishnan*, PublicAffairs, 2022.
+268. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
+269. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -352,6 +360,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 70. **The Bookman’s Promise: A Cliff Janeway Novel**, *John Dunning*, Scribner, 2004.
 71. **My Son the Fanatic**, *Hanif Kureishi*, Faber and Faber Limited, 2019.
 72. **Her Lockdown Story: Collection of Short Stories from Assam**, *Shreejata Gupta (Banamallika Choudhury Ed.)*, Women’s Leadership Training Centre & NEthing, 2021.
+73. **The Sign of the Book: A Cliff Janeway Bookman Novel**, *John Dunning*, Scribner, 2005.
 
 
 ## Graphic Books
@@ -374,6 +383,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 16. **Persepolis: The Story of a Childhood and The Story of a Return**, *Marjane Satrapi (Translated by Anjali Singh)*, Vintage, 2008.
 17. **Famous Cities of the World: Vienna**, *Alfred Cermak*, Spring Books, 1966.
 18. **Tamlin**, *Aven Wildsmith*, Knight Errant Press, 2021.
+19. **Sketches of Western Ukraine: August 2015**, *Simon Harchun*, Clio Editions, 2015.
 
 
 ## Poetry
@@ -391,4 +401,5 @@ The books which are marked with a ** are the ones that I am either currently rea
 3. **Insider Outsider: Belonging and Unbelonging in North-East India**, *Preeti Gill and Samrat (eds.)*, Amaryllis, 2018.
 4. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
 5. **Race**, *Toni Morrison*, Vintage, 2017.
-6. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
+6. **I'd Rather Be Reading: A Library of Art for Book Lovers**, *Guinevere de la Mare*, Chronicle Books, 2017.
+7. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
