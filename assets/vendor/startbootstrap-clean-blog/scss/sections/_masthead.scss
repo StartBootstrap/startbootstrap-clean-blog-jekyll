@@ -15,7 +15,7 @@ header.masthead {
         height: 100%;
         width: 100%;
         background-color: $gray-900;
-        opacity: .7;
+        opacity: .5;
     }
 
     .page-heading,
@@ -24,9 +24,9 @@ header.masthead {
         padding: 200px 0 150px;
         color: white;
 
-        @media only screen and (min-width: 768px) {
-            padding: 100px 0;
-        }
+        // @media only screen and (min-width: 768px) {
+        //     padding: 150px 0;
+        // }
     }
     
     .page-heading,
