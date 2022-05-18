@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     background: no-repeat center center;
     background-color: $gray-600;
     background-attachment: scroll;
@@ -28,6 +28,19 @@ header.masthead {
         //     padding: 150px 0;
         // }
     }
+
+
+
+    .modal {
+        position: relative;
+        top: 10px;
+        right: 100px;
+        bottom: 0;
+        left: 0;
+        z-index: 10040;
+        overflow: auto;
+        overflow-y: auto;
+     }
     
     .page-heading,
     .site-heading {
