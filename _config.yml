@@ -7,10 +7,9 @@ baseurl: "" #empty
 url: "https://ashkush.github.io"
 
 # Social Profiles
-twitter_username:
+
 github_username: "ashkush"
-facebook_username:
-instagram_username:
+medium_username: "ashkush"
 linkedin_username: "ashkush"
 
 # Add your google-analytics ID here to activate google analytics
