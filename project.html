@@ -2,39 +2,114 @@
 layout: page
 title: Projects
 description: This is what I do.
-background: '/img/project.jpeg'
+background: "/img/project.jpeg"
 ---
 
+<hr />
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card text-center" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="/img/these_presentation.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">M.Tech Thesis</h5>
+          <p class="card-text">
+            Classsifying Diabetic Retinopathy Images using induced deep region
+            of interest extraction
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary btn-sm"
+            data-toggle="modal"
+            data-target=".bd-example-modal-lg"
+          >
+            presentation
+          </button>
 
-<div class="card text-center" style="width: 18rem;">
-    <img class="card-img-top" src="/img/these_presentation.png" alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title">M.Tech Thesis</h5>
-        <p class="card-text">
-          Classsifying Diabetic Retinopathy Images using induced deep region of interest extraction
-        
-        </p>
-        <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target=".bd-example-modal-lg">
-          presentation
-        </button>
-
-        
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div
+            class="modal fade bd-example-modal-lg"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
             <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Work Presented at the conference</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                    </div>
-                <div class="modal-body">
-                    <img src="/img/these_presentation.png" width="1000px">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Work Presented at the conference
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
-              
+                <div class="modal-body">
+                  <img src="/img/these_presentation.png" width="1000px" />
+                </div>
+              </div>
             </div>
-          
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
+    <div class="col-lg-4">
+      <div class="card text-center" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="/img/distributed.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Distributed Bayesian Gaussian Mixture Model (Scikit-Learn
+            Implementation)
+          </h5>
+          <a
+            href="https://github.com/ashkush/Bayesian-Gaussian-Mixture-Model"
+            class="btn btn-primary"
+            target="_blank"
+            >Github Repo</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card text-center" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="/img/Variational_inference.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Variational Inference Gaussian Mixture Model
+          </h5>
+          <a
+            href="https://github.com/ashkush/Variational-inference-Gaussian-mixture-model"
+            class="btn btn-primary"
+            target="_blank"
+            >Github Repo</a
+          >
+          <a
+            href="https://ashkush.medium.com/variational-inference-gaussian-mixture-model-52595074247b"
+            class="btn btn-secondary"
+            target="_blank"
+            padding="10px"
+            >Medium Article</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
