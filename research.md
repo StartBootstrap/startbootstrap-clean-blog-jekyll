@@ -28,7 +28,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 20. *Refinement of some partition identities of Merca and Yee*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *International Journal of Number Theory*, accepted, 2021. ([pdf](/publ/papers/PJM_MY.pdf))
 
-19. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Rocky Mountain Journal of Mathematics*, accepted, 2021. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
+19. *Some New and Old Gibonacci Identities*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Rocky Mountain Journal of Mathematics*, 2022, 52 (2), 645-665. ([pdf](/publ/papers/Gibonacci_Pankaj.pdf))
 
 18. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *European Journal of Combinatorics*, 2022, 103, 103522, 19 pp. ([pdf](/publ/papers/parity_Final.pdf))
  
