@@ -282,8 +282,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 265. **A Life with Books**, *Julian Barnes*, Jonathan Cape, 2012.
 266. **Change is the Only Constant: The Wisdom of Calculus in a Madcap World**, *Ben Orlin*, Black Dog & Leventhal, 2019.
 267. **Phantom Plague: How Tuberculosis Shaped History**, *Vidya Krishnan*, PublicAffairs, 2022.
-268. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
-269. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+268. **Paris Match: Falling in (love) with the French**, *John von Sothen*, Profile Books, 2020.
+269. **I'd Rather Be Reading: The Delights and Dilemmas of the Reading Life**, *Anne Bogel*, Baker Books, 2018.
+270. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
+271. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -384,6 +386,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 17. **Famous Cities of the World: Vienna**, *Alfred Cermak*, Spring Books, 1966.
 18. **Tamlin**, *Aven Wildsmith*, Knight Errant Press, 2021.
 19. **Sketches of Western Ukraine: August 2015**, *Simon Harchun*, Clio Editions, 2015.
+20. **The Complete Maus**, *Art Spiegelman*, Penguin Books, 2003.
+21. **Erotic art of India**, *Philip Rawson*, Universe Books, 1977.
 
 
 ## Poetry
