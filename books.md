@@ -284,8 +284,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 267. **Phantom Plague: How Tuberculosis Shaped History**, *Vidya Krishnan*, PublicAffairs, 2022.
 268. **Paris Match: Falling in (love) with the French**, *John von Sothen*, Profile Books, 2020.
 269. **I'd Rather Be Reading: The Delights and Dilemmas of the Reading Life**, *Anne Bogel*, Baker Books, 2018.
-270. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
-271. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+270. **The Last Days of the Dinosaurs: An Asteroid, Extinction, and the Beginning of Our World**, *Riley Black*, The History Press, 2022.
+271. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
+272. **The Hare With Amber Eyes: A Hidden Inheritance**, *Edmund de Waal*, Chatto & Windus, 2010.
+273. **Browsings: A Year of Reading, Collecting and Living with Books**, *Michael Dirda*, Pegasus Books, 2016.
+274. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
@@ -406,4 +409,5 @@ The books which are marked with a ** are the ones that I am either currently rea
 4. **A Passion for Books: A Book Lover's Treasury of Stories, Essays, Homor, Lore and Lists on Collecting, Reading, Borrowing, Lending, Caring for, and Appreciating Books**, *Harold Rabinowitz and Bob Kaplan (eds.)*, Three Rivers Press, 1999.
 5. **Race**, *Toni Morrison*, Vintage, 2017.
 6. **I'd Rather Be Reading: A Library of Art for Book Lovers**, *Guinevere de la Mare*, Chronicle Books, 2017.
-7. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
+7. **Forgotten Bookmarks: A Bookseller's Collection of Odd Things Lost Between the Pages**, *Michael Popek*, Perigee, 2011.
+8. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
