@@ -288,7 +288,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 271. **Math with Bad Drawings: Illuminating the Ideas that Shape our Reality**, *Ben Orlin*, Black Dog & Leventhal, 2018.
 272. **The Hare With Amber Eyes: A Hidden Inheritance**, *Edmund de Waal*, Chatto & Windus, 2010.
 273. **Browsings: A Year of Reading, Collecting and Living with Books**, *Michael Dirda*, Pegasus Books, 2016.
-274. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+274. **The Pandemic Century: A History of Global Contagion from the Spanish Flu to Covid-19**, *Mark Honigsbaum*, WH Allen, 2020.
+275. **Is It Tomorrow Yet? Paradoxes of the Pandemic**, *Ivan Krastev*, Penguin Books, 2022.
+276. **Chronicles of a Cairo Bookseller**, *Nadia Wassef*, Corsair, 2021.
+277. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 
 
 ## Fiction
