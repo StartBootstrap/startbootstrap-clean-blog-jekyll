@@ -1,0 +1,2 @@
+I"ÿ<p>Pada tulisan kali ini akan dilakukan penginstalan kafka dengan multi cluster. Dengan VM yang disediakan akan dilakukan instalasi kafka 3 node dan 3 server Zookeeper dengan sistem operasi CentOS 7 dimana dapat diakses remote dengan menggunakan SSH.</p>
+:ET
