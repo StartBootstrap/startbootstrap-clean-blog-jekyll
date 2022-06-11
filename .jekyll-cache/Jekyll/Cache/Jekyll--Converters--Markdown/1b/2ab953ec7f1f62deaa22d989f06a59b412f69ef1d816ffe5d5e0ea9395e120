@@ -1,0 +1,4 @@
+I"n<h1 style="text-align: center;">بسم الله الرحمن الرحيم</h1>
+
+<p>Setelah sebelumnya melakukan perancangan arsitektur kafka, pada dokumentasi ini akan melakukan pembuatan langsung atau praktik dari arsitektur yang telah dibuat. Langkah awal adalah melakukan pembuatan topic dimana topicnya terdiri dari daftar_bank, debit, kredit dan transaksi. pertama kita melakukan pembuatan topic dengan nama <code class="language-plaintext highlighter-rouge">daftar_bank</code>, <code class="language-plaintext highlighter-rouge">kredit</code> dan <code class="language-plaintext highlighter-rouge">debit</code>.</p>
+:ET

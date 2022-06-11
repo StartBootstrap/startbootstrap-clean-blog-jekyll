@@ -1,0 +1,49 @@
+I"�<h1 style="text-align: center;">بسم الله الرحمن الرحيم</h1>
+
+<p>Setelah sebelumnya melakukan perancangan arsitektur kafka, pada dokumentasi ini akan melakukan pembuatan langsung atau praktik dari arsitektur yang telah dibuat. Langkah awal adalah melakukan pembuatan topic dimana topicnya terdiri dari daftar_bank, debit, kredit dan transaksi. pertama kita melakukan pembuatan topic dengan nama <code class="language-plaintext highlighter-rouge">daftar_bank</code>, <code class="language-plaintext highlighter-rouge">kredit</code> dan <code class="language-plaintext highlighter-rouge">debit</code>.</p>
+
+<p><img title="Pembuatan Topic" alt="" src="/img/posts/Juni/11_2/gambar1.png" /></p>
+
+<p>Selanjutnya adalah melakukan pembuatan program java, pembuatan program meliputi :</p>
+<ol>
+  <li>
+    <p><em>FileProducer</em>, untuk melakukan streaming dari file, yang akan mengirimkan pesan sesuai dengan topic dari jenis pesan yang telah ditentukan.</p>
+  </li>
+  <li>
+    <p><em>FileConsumer</em>, aplikasi consumer dengan java yang akan menerima pesan dari topic.</p>
+  </li>
+  <li>
+    <p><em>PostProducer</em>, adalah sebuah program yang akan mengirimkan pesan melaui HTTP Method Post ke topic transaksi</p>
+  </li>
+  <li>
+    <p><em>PostConsumer</em>, yang terakhir adalah melakukan pengelompokan message sesuai dengan type pesan yang dibawa.</p>
+  </li>
+</ol>
+
+<h2 id="1-penginstalan-dependensi-centos-7">1. Penginstalan Dependensi (CentOS 7)</h2>
+
+<p>Agar mempermudah membangun sebuah program maka dibutuhkan tools yang mendukung, tools yang dibutuhkan antara lain adalah Java Development Kit atau JDK dimana versi yang digunakan adalah JDK 18 dan Maven. Apache Maven adalah Java Build Tools yang menggunakan konsep Project Object Model (POM). POM tersebut berisi informasi dan konfigurasi yang digunakan Maven untuk membuat project.</p>
+
+<p><strong>1. Penginstalan JDK 18</strong></p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span>wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.rpm
+ <span class="nv">$ </span><span class="nb">sudo </span>rpm <span class="nt">-Uvh</span> jdk-18_linux-x64_bin.rpm 
+</code></pre></div></div>
+<p><strong>2. Konfigurasi JDK 18 Environment</strong></p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nv">$ </span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> | sudo tee /etc/profile.d/jdk18.sh
+		export JAVA_HOME=/usr/java/default
+		export PATH=</span><span class="se">\$</span><span class="sh">PATH:</span><span class="se">\$</span><span class="sh">JAVA_HOME/bin EOF
+  </span><span class="nv">$ </span><span class="sh">source /etc/profile.d/jdk18.sh
+  </span><span class="nv">$ </span><span class="sh">java -version
+</span></code></pre></div></div>
+<p><img title="Cek Versi Java" alt="" src="/img/posts/Juni/11_2/gambar2.png" /></p>
+
+<p><strong>3. Penginstalan Maven</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
+$ tar -zvf  apache-maven-3.8.5-bin.tar.gz
+</code></pre></div></div>
+<p><strong>4. Konfigurasi maven environment</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ vim ~/.bashrc
+	(Tambahkan Maven_HOME lalu exit)
+	$ source ~/.bashrc
+</code></pre></div></div>
+:ET
