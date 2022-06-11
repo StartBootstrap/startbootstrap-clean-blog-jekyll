@@ -4,6 +4,7 @@ title: "Instalasi Kafka Multi Broker"
 subtitle: "Menggunakan 3 Broker dan 3 zookeeper"
 background: "/img/posts/Instalasi Kafka/1.jpeg"
 ---
+<h1 style="text-align: center;">بسم الله الرحمن الرحيم</h1>
 
 Pada tulisan kali ini akan dilakukan penginstalan kafka dengan multi cluster. Dengan VM yang disediakan akan dilakukan instalasi kafka 3 node dan 3 server Zookeeper dengan sistem operasi CentOS 7 dimana dapat diakses remote dengan menggunakan SSH.
 
@@ -79,17 +80,15 @@ dalam pembuatan producer sederhana maka dilakukan dengan cara memanggil program 
 dalam pembuatan comsumer maka dilakukan dengan memanggil program kafka-console-consumer dikuti dengan  –topic yang menandakan pada topic mana (yang sudah dibuat).
 
 
-
-________________________________________________________________________________
 ### REFERESI
+[https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/](https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/)
 
-<a href="https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/">https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/</a>
 
-<a href="https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04</a>
+[https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04)
 
-<a href="https://www.vultr.com/docs/install-apache-kafka-on-centos-8">https://www.vultr.com/docs/install-apache-kafka-on-centos-8</a>
+[https://www.vultr.com/docs/install-apache-kafka-on-centos-8](https://www.vultr.com/docs/install-apache-kafka-on-centos-8)
 
-<a href="https://kafka.apache.org/intro">https://kafka.apache.org/intro</a>
+[https://kafka.apache.org/intro](https://kafka.apache.org/intro)
 
-<a href="https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html">https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html</a>
+[https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html](https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html)
 

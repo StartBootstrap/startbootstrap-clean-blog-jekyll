@@ -1,0 +1,8 @@
+I"<p>Saya berharap disini sudah melakukan instalasi mysql pada server / machine yang digunakan. Jika belum coba lihat dokumentasi <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7">berikut</a>  untuk melakukan instalasi mysql pada CentOS.</p>
+
+<h3 id="1-membuat-user--dengan-previlages">1. Membuat User  dengan previlages</h3>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql <span class="nt">-u</span> root <span class="nt">-p</span>
+</code></pre></div></div>
+<h3 id="referesi">REFERESI</h3>
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7">https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7</a></p>
+:ET

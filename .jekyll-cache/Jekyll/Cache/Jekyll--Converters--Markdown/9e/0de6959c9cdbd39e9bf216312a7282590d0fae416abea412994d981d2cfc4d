@@ -1,0 +1,14 @@
+I"}<p>Saya berharap disini sudah melakukan instalasi mysql pada server / machine yang digunakan. Jika belum coba lihat dokumentasi <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7">berikut</a>  untuk melakukan instalasi mysql pada CentOS.</p>
+
+<h3 id="1-membuat-user--dengan-previlages">1. Membuat User  dengan previlages</h3>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>mysql <span class="nt">-u</span> root <span class="nt">-p</span>
+    <span class="o">&gt;</span> CREATE USER <span class="s1">'fawzi'</span>@<span class="s1">'localhost'</span> IDENTIFIED BY <span class="s1">'P@ssw0rd'</span><span class="p">;</span>
+    <span class="o">&gt;</span> CREATE USER <span class="s1">'fawzi'</span>@<span class="s1">'%'</span> IDENTIFIED BY <span class="s1">'P@ssw0rd'</span><span class="p">;</span>
+    <span class="o">&gt;</span> GRANT ALL PRIVILEGES ON <span class="k">*</span>.<span class="k">*</span> TO <span class="s1">'fawzi'</span>@<span class="s1">'localhost'</span> WITH GRANT OPTION<span class="p">;</span>
+    <span class="o">&gt;</span> GRANT ALL PRIVILEGES ON <span class="k">*</span>.<span class="k">*</span> TO <span class="s1">'fawzi'</span>@<span class="s1">'%'</span> WITH GRANT OPTION<span class="p">;</span>
+    <span class="o">&gt;</span> flush privileges<span class="p">;</span>
+</code></pre></div></div>
+
+<h3 id="referesi">REFERESI</h3>
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7">https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7</a></p>
+:ET

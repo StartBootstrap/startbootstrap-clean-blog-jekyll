@@ -1,0 +1,85 @@
+I"�<h1 id="بِسْمِ-اللَّهِ-الرَّحْمَنِ-الرَّحِيم">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h1>
+
+<p>Pada tulisan kali ini akan dilakukan penginstalan kafka dengan multi cluster. Dengan VM yang disediakan akan dilakukan instalasi kafka 3 node dan 3 server Zookeeper dengan sistem operasi CentOS 7 dimana dapat diakses remote dengan menggunakan SSH.</p>
+
+<p><img title="Gambar 1. Desain Kafka" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar1.png" /></p>
+
+<p>hal yang pertama dibutuhkan adalah JDK 1.8 penginstalan (saya menggunakan CentOS):</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ sudo yum -y install java-1.8.0-openjdk</code></p>
+
+<p>selanjutnya mendownlowad binari Kafka menggunakan perintah wget.</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ wget https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz</code></p>
+
+<h3 id="1-konfigurasi-zookeeper-zookeeperproperties">1. Konfigurasi Zookeeper (zookeeper.properties)</h3>
+
+<p>setelah download maka selanjutnya melakukan pengkstrakan dan juga konfigurasi zookeper dan kafka. Konfigurasi zookeeper dilakukan dalam file zookeeper.properties</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ vim config/zookeeper.properties</code></p>
+
+<p><img title="Gambar 2. Konfigurasi zookeeper.properties" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar2.png" /></p>
+
+<p><em>ticktime</em> ini digunakan untuk mengatur lama dari <em>heartbeats</em>, dan batas waktu diatur 2000 ms (2 detik).  InitLimit adalah Peningkatan nilai ticktime jika data yang dikelola oleh ZooKeeper besar. SyncLimit untuk menyinkronkan dengan ZooKeeper. Server 1 – 3 merupakan server yang akan di jadikan sebagai zookeeper.
+Penulisan server yang digunakan adalah server.id=host:port:port dengan mengatribusikan id server ke setiap mesin dengan membuat file bernama myid, satu untuk setiap server, yang berada di direktori data server itu, seperti yang ditentukan oleh parameter file konfigurasi dataDir.</p>
+
+<p><img title="Gambar 3. dataDir pada zookeeper.properties" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar3.png" /></p>
+
+<p>directory <strong>dataDir</strong> dapat diubah sesuai yang diinginkan. Selanjutnya adalah pembuatan file myid yang menyatakan urutan server tersebut.</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ vim /tmp/zookeeper/myid</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">$ 1 			#sesuaikan dengan IP dan urutan server</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">$ :q</code></p>
+
+<h3 id="2-konfigurasi-kafka-serverproperties">2. Konfigurasi Kafka (server.properties)</h3>
+<p>Selanjutnya adalah melakukan konfigurasi pada server kafka pada server.properties.</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ vim config/server.properties</code></p>
+
+<p><img title="Gambar  4. Pengaturan broker.id" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar4.png" /></p>
+
+<p>digunakan untuk mennetukan id dari masing masing kafka broker adalah single kafka.</p>
+
+<p><img title="Gambar 5. Listeners pada server.properties" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar5.png" /></p>
+
+<p>listener digunakan untuk melakukan hubungan antar sesama client. Listener adalah binds dari advertised.lisetener. Listener yang digunakan adalah PLAINTEXT.</p>
+
+<p><img title="Gambar 6. zookeeper connect" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar6.png" /></p>
+
+<p>untuk melakukan koneksi pada zookeeper maka harus dilakukan inisialiasi IP dan port pada server.properties.</p>
+
+<h3 id="3-konfigurasi-kafka-serverproperties">3. Konfigurasi Kafka (server.properties)</h3>
+
+<p>• Create: Ini adalah perintah dasar untuk membuat topik Kafka baru.</p>
+
+<p>• Pertitions: Topik yang baru dibuat dapat dibagi dan disimpan dalam satu atau lebih Partisi untuk memungkinkan penskalaan dan penyeimbangan pesan atau beban yang seragam. Pada kali ini hanya membuat 1 partisi berarti tidak melakukan penskalaan pesan</p>
+
+<p>• Replication Factor: Faktor Replikasi menentukan jumlah salinan atau replika Topik di seluruh Cluster Kafka.  Ini dilakukan untuk mereplikasi topic untuk metorelir kesalahan (server mati).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bin/kafka-topics.sh –create –bootstrap-server 172.18.46.120:9092 172.18.46.121:9092 172.18.46.122:9092 –replication-factor 3 –partitions 1 –topic tes-topic
+</code></pre></div></div>
+
+<h3 id="4-pembuatan-producer--consumer">4. Pembuatan Producer &amp; Consumer</h3>
+
+<p><img title="Gambar 7 Pembuatan Producer" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar7.png" /></p>
+
+<p>dalam pembuatan producer sederhana maka dilakukan dengan cara memanggil program kafka-cosole-producer dikuti dengan perintah –topic yang menandakan pada topic mana (yang sudah dibuat) kita akan memproducer  pesan.</p>
+
+<p><img title="Gambar 8 Pembuatan Konsumer" alt="Alt text" src="/img/posts/Instalasi Kafka/gambar8.png" /></p>
+
+<p>dalam pembuatan comsumer maka dilakukan dengan memanggil program kafka-console-consumer dikuti dengan  –topic yang menandakan pada topic mana (yang sudah dibuat).</p>
+
+<h3 id="referesi">REFERESI</h3>
+<p><a href="https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/">https://www.learningjournal.guru/article/kafka/installing-multi-node-kafka-cluster/</a></p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04</a></p>
+
+<p><a href="https://www.vultr.com/docs/install-apache-kafka-on-centos-8">https://www.vultr.com/docs/install-apache-kafka-on-centos-8</a></p>
+
+<p><a href="https://kafka.apache.org/intro">https://kafka.apache.org/intro</a></p>
+
+<p><a href="https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html">https://zookeeper.apache.org/doc/r3.2.2/zookeeperAdmin.html</a></p>
+
+:ET
