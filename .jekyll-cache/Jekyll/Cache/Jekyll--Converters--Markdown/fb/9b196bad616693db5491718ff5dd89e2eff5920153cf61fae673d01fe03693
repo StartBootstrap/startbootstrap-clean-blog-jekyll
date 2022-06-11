@@ -1,0 +1,14 @@
+I"%<h1 style="text-align: center;">بسم الله الرحمن الرحيم</h1>
+
+<p>Pada postingan ini akan membahas, membuat arsitektur kafka. Pada kesempatan ini saya akan membuat arsitektur kafka sederhana dimana terdiri dari 3 buah broker, zookeeper dan akan dilakukan streaming pada sebuah file yang berisi JSON dan melakukan streaming data kedalam masih masih topic yang disesuakan dengan jenis pesan, hasil Pesan akan diterima oleh consumer menggunakan freamwork SpringBoot. Selanjutany juga akan menerima pesan URI dengan http method POST.</p>
+
+<h2 id="1-pembuatan-arsitektur-kafka">1. Pembuatan Arsitektur Kafka</h2>
+<ol>
+  <li><strong>Broker &amp; Zookeeper</strong>
+pada Kafka Cluster akan digunakan Dengan VM yang disediakan akan dilakukan instalasi kafka 3 node dan 3 server Zookeeper dengan sistem operasi CentOS 7 dengan masing IP 172.18.46.120 (Broker 1 &amp; zookeeper 1), 172.18.46.121 (Broker 2 &amp; zookeeper 2),  dan 172.18.46.122 (Broker 3 &amp; zookeeper 3)</li>
+  <li><strong>FileStream.txt</strong> 
+FileStream berupa file txt yang  setiap barisnya akan mengikrimkan (produce) pesan dari topic masing masing sesuai dengan type dari pesan secara langsung.</li>
+  <li><strong>APP</strong> 
+Batasan Dari APP hanya berupa consumer dengan SpringBoot untuk mengconsume pesan dari topic.</li>
+</ol>
+:ET

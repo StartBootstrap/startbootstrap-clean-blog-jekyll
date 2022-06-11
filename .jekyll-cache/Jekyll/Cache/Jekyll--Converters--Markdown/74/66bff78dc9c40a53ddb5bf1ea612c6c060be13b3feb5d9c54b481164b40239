@@ -1,0 +1,4 @@
+I"'<h1 style="text-align: center;">بسم الله الرحمن الرحيم</h1>
+
+<p>Pada postingan ini akan membahas, membuat arsitektur kafka. Pada kesempatan ini saya akan membuat arsitektur kafka sederhana dimana terdiri dari 3 buah broker, zookeeper dan akan dilakukan streaming pada sebuah file yang berisi JSON dan melakukan streaming data kedalam masih masih topic yang disesuakan dengan jenis pesan, hasil Pesan akan diterima oleh consumer menggunakan freamwork SpringBoot. Selanjutany juga akan menerima pesan URI dengan http method POST.</p>
+:ET
