@@ -291,7 +291,13 @@ The books which are marked with a ** are the ones that I am either currently rea
 274. **The Pandemic Century: A History of Global Contagion from the Spanish Flu to Covid-19**, *Mark Honigsbaum*, WH Allen, 2020.
 275. **Is It Tomorrow Yet? Paradoxes of the Pandemic**, *Ivan Krastev*, Penguin Books, 2022.
 276. **Chronicles of a Cairo Bookseller**, *Nadia Wassef*, Corsair, 2021.
-277. **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+277. **Reading and Writing: A Personal Account**, *V. S. Naipaul*, New York Review Books, 2000.
+278. **Beasts Before Us: The Untold Story of Mammal Origins and Evolution**, *Elsa Panciroli*, Bloomsbury Sigma, 2021.
+279. **Preventable: How a Pandemic Changed the World & How to Stop the Next One**, *Devi Sridhar*, Viking, 2022.
+280. **The Premonition: A Pandemic Story**, *Michael Lewis*, Allen Lane, 2021.
+281. **The Fifth Risk: Undoing Democracy**, *Michael Lewis*, Allen Lane, 2018.
+282. **The Secret Life of Books: Why They Mean More Than Words**, *Tom Mole*, Elliott & Thompson, 2020.
+283. **Boomerang: The Biggest Bust**, *Michael Lewis*, Penguin Books, 2012.
 
 
 ## Fiction
