@@ -80,6 +80,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+11. *Extensions of some results of Vladeta and Dhar*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/), preprint, 2022. ([pdf](/publ/papers/Partition_Vladeta.pdf))
+
 10. *Biases in Partitions and Restricted Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2021. ([pdf](/publ/papers/parity_2.pdf))
 
 9. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2020. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
