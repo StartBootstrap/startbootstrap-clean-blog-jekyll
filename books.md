@@ -298,6 +298,14 @@ The books which are marked with a ** are the ones that I am either currently rea
 281. **The Fifth Risk: Undoing Democracy**, *Michael Lewis*, Allen Lane, 2018.
 282. **The Secret Life of Books: Why They Mean More Than Words**, *Tom Mole*, Elliott & Thompson, 2020.
 283. **Boomerang: The Biggest Bust**, *Michael Lewis*, Penguin Books, 2012.
+284. **The Number Bias: How Numbers Lead and Mislead Us**, *Sanne Blauw (Translated by Suzanne Heukensfeldt Jansen)*, Sceptre, 2020.
+285. **The Book Collectors of Daraya: A band of Syrian rebels, their underground library, and the stories that carried them through a war**, *Delphine Minoui (Translated by Lara Vergnaud)*, Picador, 2021.
+286. **The Age Of Pandemics (1817-1920): How they shaped India and the World**, * Chinmay Tumbe*, HarperCollins Publishers, 2020.
+287. **Deadly Feasts: Tracking the Secrets of a Terrifying New Plague**, *Richard Rhodes*, Touchstone Books, 1998.
+288. **Emergency Chronicles: Indira Gandhi and Democracy's Turning Point**, *Gyan Prakash*, Princeton University Press, 2019.
+289. **Durbar**, *Tavleen Singh*, Hachette India, 2013.
+290. **India's Undeclared Emergency: Constitutionalism and the Politics of Resistance**, *Arvind Narrain*, Context, 2021.
+291. **India’s Broken Tryst**, *Tavleen Singh*, HarperCollins Publishers India, 2017.
 
 
 ## Fiction
