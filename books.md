@@ -300,7 +300,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 283. **Boomerang: The Biggest Bust**, *Michael Lewis*, Penguin Books, 2012.
 284. **The Number Bias: How Numbers Lead and Mislead Us**, *Sanne Blauw (Translated by Suzanne Heukensfeldt Jansen)*, Sceptre, 2020.
 285. **The Book Collectors of Daraya: A band of Syrian rebels, their underground library, and the stories that carried them through a war**, *Delphine Minoui (Translated by Lara Vergnaud)*, Picador, 2021.
-286. **The Age Of Pandemics (1817-1920): How they shaped India and the World**, * Chinmay Tumbe*, HarperCollins Publishers, 2020.
+286. **The Age Of Pandemics (1817-1920): How they shaped India and the World**, *Chinmay Tumbe*, HarperCollins Publishers, 2020.
 287. **Deadly Feasts: Tracking the Secrets of a Terrifying New Plague**, *Richard Rhodes*, Touchstone Books, 1998.
 288. **Emergency Chronicles: Indira Gandhi and Democracy's Turning Point**, *Gyan Prakash*, Princeton University Press, 2019.
 289. **Durbar**, *Tavleen Singh*, Hachette India, 2013.
