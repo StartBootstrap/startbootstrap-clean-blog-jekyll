@@ -80,6 +80,10 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Non Peer-Reviewed Papers
 
+13. *Proof of two conjectured congruences of Goswami and Jha*, preprint, 2022. ([pdf](/publ/papers/ProofsCong.pdf))
+
+12. *Conjectures on congruences of binomial coefficients modulo higher powers of a prime number*, preprint, 2022. ([pdf](/publ/papers/Conjecture.pdf))
+ 
 11. *Extensions of some results of Vladeta and Dhar*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2022. ([pdf](/publ/papers/Partition_Vladeta.pdf))
 
 10. *Biases in Non-Unitary Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2022. ([pdf](/publ/papers/bias-new.pdf))
