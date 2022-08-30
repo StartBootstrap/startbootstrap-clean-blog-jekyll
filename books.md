@@ -306,6 +306,13 @@ The books which are marked with a ** are the ones that I am either currently rea
 289. **Durbar**, *Tavleen Singh*, Hachette India, 2013.
 290. **India's Undeclared Emergency: Constitutionalism and the Politics of Resistance**, *Arvind Narrain*, Context, 2021.
 291. **India’s Broken Tryst**, *Tavleen Singh*, HarperCollins Publishers India, 2017.
+292. **Vajpayee: The Years That Changed India**, *Shakti Sinha*, Vintage, 2020.
+293. **Not Just an Accountant: The Diary of the Nation’s Conscience Keeper**, *Vinod Rai*, Rupa Publications, 2014.
+294. **Combinatorics: A Very Short Introduction**, *Robin Wilson*, Oxford University Press, 2016.
+295. **The Big Reverse: How Demonetization Knocked India Out**, *Meera Sanyal*, Harper Business, 2018.
+296. **The Perfect Predator: A Scientist's Race to Save Her Husband from a Deadly Superbug**, *Steffanie Strathdee and Thomas Patterson (with Teresa Barker)*, Hachette Books, 2019.
+297. **The Last Bookseller: A Life in the Rare Book Trade**, *Gary Goodman*, University of Minnesota Press, 2021.
+298. **Thieves of Book Row: New York's Most Notorious Rare Book Ring and the Man Who Stopped It**, *Travis McDade*, Oxford University Press, 2013.
 
 
 ## Fiction
