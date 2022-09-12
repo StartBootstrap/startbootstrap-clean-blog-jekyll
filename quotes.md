@@ -88,3 +88,16 @@ The biology group has about 50 members and 5000 mice, ...., this is the math bui
 Most companies do not use elliptic curves for cryptography because they do not know the difference between elliptic curves and an ellipse.
 
 ***Adolfo Quirós Gracián*** while explaining about elliptic curve cryptography at a summer school for PhD students of the University of Vienna, Techendorf, Austria, September 2018.
+
+Continued fraction need continued black boards.
+
+***Alan Sokal*** while lecturing at Hagenberg about his work with continued fractions, July 2019.
+
+Anthropological it is great to see if you can make fire with stones but I prefer a lighter.
+
+***Manuel Kauers*** on computer and hand calculations at a lecture in Johannes Kepler University, Linz in 2019.
+ 
+Definite is everything which is not indefinite.
+
+***Manuel Kauers*** when someone in the audience asked what he means by definite sum, Johannes Kepler University, Linz in 2019.
+
