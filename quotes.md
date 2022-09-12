@@ -89,11 +89,11 @@ Most companies do not use elliptic curves for cryptography because they do not k
 
 ***Adolfo Quirós Gracián*** while explaining about elliptic curve cryptography at a summer school for PhD students of the University of Vienna, Techendorf, Austria, September 2018.
 
-Continued fraction need continued black boards.
+Continued fractions need continued black boards.
 
 ***Alan Sokal*** while lecturing at Hagenberg about his work with continued fractions, July 2019.
 
-Anthropological it is great to see if you can make fire with stones but I prefer a lighter.
+Anthropologically it is great to see if you can make fire with stones but I prefer a lighter.
 
 ***Manuel Kauers*** on computer and hand calculations at a lecture in Johannes Kepler University, Linz in 2019.
  
