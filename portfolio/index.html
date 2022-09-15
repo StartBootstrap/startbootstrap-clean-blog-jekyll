@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Je t'aime
 background: '/img/bg-post.jpg'
 ---
 
@@ -21,7 +21,7 @@ background: '/img/bg-post.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    on {{ post.date | date: '%B %d, %Y' }}
   </p>
 </article>
 
@@ -44,5 +44,6 @@ background: '/img/bg-post.jpg'
   {% endif %}
 
 </div>
+
 
 {% endif %}
