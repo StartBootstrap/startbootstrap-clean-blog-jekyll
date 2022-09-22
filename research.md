@@ -24,7 +24,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
-22. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Journal of the Assam Academy of Mathematics*, accepted, 2022. ([pdf](/publ/papers/borah_mahanta_saikia.pdf))
+22. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Journal of the Assam Academy of Mathematics*, 2022, 12, 1-7. ([pdf](https://jaam.aamonline.org.in/ojs/index.php/j/article/view/57))
 
 21. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Séminaire Lotharingien de Combinatoire (Proceedings of the 34th Conference on Formal Power Series and Algebraic Combinatorics 2022 (Bangalore))*, accepted, 2022. ([pdf](/publ/papers/FPSAC2022.pdf))
 
