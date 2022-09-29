@@ -320,6 +320,9 @@ The books which are marked with a ** are the ones that I am either currently rea
 303. **A New Human: The Startling Discovery and Strange Story of the "Hobbits" of Flores, Indonesia**, *Mike Morwood and Penny van Oosterzee*, Smithsonian Books, 2007.
 304. **What's the Best You Can Do?: First-Hand Recollections of a Second-Hand Bookseller**, *Derek Rowlinson (Illustrated by Graham Kennedy)*, Books Ulster, 2020.
 305. **The Villa, the Lake, the Meeting: Wannsee and the Final Solution**, *Mark Roseman*, Allen Lane, 2002.
+306. ** **The Gifts of Reading: Essays on the Joys of Reading, Giving and Receiving Books**, *Robert Macfarlane (Inspired) and Jennie Orchard (Ed.)*, Weidenfeld & Nicolson, 2020.
+307. ** **Howards End Is on the Landing: A Year of Reading from Home**, *Susan Hill*, Profile Books, 2010.
+308. **A Gentle Madness: Bibliophiles, Bibliomanes, and the Eternal Passion for Books**, *Nicholas A. Basbanes*, Owl Books, 1999.
 
 
 ## Fiction
