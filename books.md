@@ -313,6 +313,13 @@ The books which are marked with a ** are the ones that I am either currently rea
 296. **The Perfect Predator: A Scientist's Race to Save Her Husband from a Deadly Superbug**, *Steffanie Strathdee and Thomas Patterson (with Teresa Barker)*, Hachette Books, 2019.
 297. **The Last Bookseller: A Life in the Rare Book Trade**, *Gary Goodman*, University of Minnesota Press, 2021.
 298. **Thieves of Book Row: New York's Most Notorious Rare Book Ring and the Man Who Stopped It**, *Travis McDade*, Oxford University Press, 2013.
+299. **The Escape Artist: The Man Who Broke Out of Auschwitz to Warn the World**, *Jonathan Freedland*, John Murray, 2022.
+300. **Remainders of the Day: More Diaries from The Bookshop, Wigtown**, *Shaun Bythell*, Profile Books, 2022.
+301. **The Yellow-Lighted Bookshop: A Memoir, a History**, *Lewis Buzbee*, Graywolf Press, 2006.
+302. **The Hitler Salute: On the Meaning of a Gesture**, *Tilman Allert (Translated by Jefferson Chase)*, Picador, 2009.
+303. **A New Human: The Startling Discovery and Strange Story of the "Hobbits" of Flores, Indonesia**, *Mike Morwood and Penny van Oosterzee*, Smithsonian Books, 2007.
+304. **What's the Best You Can Do?: First-Hand Recollections of a Second-Hand Bookseller**, *Derek Rowlinson (Illustrated by Graham Kennedy)*, Books Ulster, 2020.
+305. **The Villa, the Lake, the Meeting: Wannsee and the Final Solution**, *Mark Roseman*, Allen Lane, 2002.
 
 
 ## Fiction
