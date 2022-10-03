@@ -202,7 +202,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 185. **The Auschwitz Photographer: Based on the true story of Wilhelm Brasse prisoner 3444**, *Luca Crippa and Mauricio Onnis (Translated by Jennifer Higgins)*, Doubleday, 2021.
 186. **First Steps: How Walking Upright Made Us Human**, *Jeremy DeSilva*, William Collins, 2021.
 187. **Masters of the Planet: The Search for our Human Origins**, *Ian Tattersall*, Palgrave Macmillan, 2012.
-188. **The First Human: The Race to Discover Our Earliest Ancestors**, *Ann Gibbbons*, Doubleday, 2006.
+188. **The First Human: The Race to Discover Our Earliest Ancestors**, *Ann Gibbons*, Doubleday, 2006.
 189. **Ancient Bones: Unearthing the Astonishing New Story of How We Became Humans**, *Madelaine Böhme, Rüdiger Braun and Florian Breier (Translated by Jane Billinghurst)*, Greystone Books, 2020.
 190. **The Lost Café Schindler: One Family, Two Wars and the Search for Truth**, *Meriel Schindler*, Hodder & Stoughton, 2021.
 191. **The Twins of Auschwitz: The Inspiring True Story of a Young Girl Surviving Mengele’s Hell**, *Eva Mozes Kor and Lisa Rojany Buccieri*, Monoray, 2020.
