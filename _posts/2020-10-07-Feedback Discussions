@@ -1,8 +1,43 @@
-Good design is a renaissance attitude that combines technology, cognitive science, human need, and beauty to produce something that the world didn’t know it was missing.
+---
+layout: post
+title: "Feedback Discussions: Thank You For Your Inputs!"
+date: 2022-10-07 23:45:13 -0400
+background: '/img/posts/Prototype.jpg'
+---
 
-– Paola Antonelli
+<p>Good design is a renaissance attitude that combines technology, cognitive science, human need, and beauty to produce something that the world didn’t know it was missing.
+
+– Paola Antonelli</p>
+
+<p>
+  I am glad to inform you that the first stage of our PhD project is completed with two comprehensive literature reviews. This means that we find a valuable niche in academia where the scientific value of this research is highly appreciated. Now, we are moving towards the next prototype-testing stage.
+</p>
+
+<p>After reading this update, you will understand:</p>
+
+<ul>
+  <li>What do we know from the literature?</li>
+  <li>What is the prototype about?</li>
+  <li>What is the plan for prototype testing?</li>
+</ul>
+
+<h2 class="section-heading">1. What do we know from the literature?</h2>
+
+<p><b>First literature review</b></p>
+
+<p>
+  The first literature review discussed the current situation of applying Information & Communication Technologies (ICT) to support Circular Economy (CE) in the construction industry. We analysed seven types of ICT-based decision support tools developed to support complex CE-oriented tasks. The academia agreed that the research and development of ICT are important to the successful construction CE transition. However, little effort has been made to integrate relevant technologies into a comprehensive information system by considering the complex landscape of CE and the unique characteristics of the construction industry.
+</p>
+
+<p>
+  Therefore, we first summarized how these ICT-based tools support circular construction/demolition activities in different life cycle phases of a building asset. Then, we provided a conceptual reference architecture of the future information system, Circularity Information Platform (CIP), showing the potential interactions among different technologies in one digital environment. You might be familiar with Fig. 1. below if you read the research proposal.
+</p>
+
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/CIP_Revision.png">
+<span class="caption text-muted">Fig.1. Conceptual reference architecture of Circularity Information Platform.</span>
+
+<p>
+  Although seven types of technologies are often applied to support CE transition, we will only focus on Building Information Modelling (BIM), Geographical Information Systems (GIS), and Simulation and Modelling (SM) in the coming research because of the team’s expertise and time restriction. Click <b><a href="https://www.sciencedirect.com/science/article/pii/S0959652622009623/">here</a></b> to read the full-text version of the first literature review.
+</p>
 
 
-Design is where science and art break even.
-
-– Robin Mathew
