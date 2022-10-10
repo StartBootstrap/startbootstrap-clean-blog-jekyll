@@ -39,11 +39,11 @@ permalink: /links/
 [Ankush Goswami](https://sites.google.com/view/ankushgoswami/)  
 [Christian Krattenthaler](http://www.mat.univie.ac.at/~kratt/)  
 [Bibekananda Maji](https://sites.google.com/site/bibekiithri87/talks?authuser=0)  
+[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)  
 [Anupam Saikia](http://www.iitg.ernet.in/a.saikia/)  
 [Michael Schlosser](https://www.mat.univie.ac.at/~schlosse/)  
 [Florian Schreier-Aigner](https://homepage.univie.ac.at/florian.aigner/publications.html)  
-[Fernando Rodriguez Villegas](http://users.ictp.it/~villegas/)  
-[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)
+[Fernando Rodriguez Villegas](http://users.ictp.it/~villegas/)
 
 ## Blogs
 
