@@ -14,9 +14,6 @@ permalink: /links/
 [University of Vienna](http://www.univie.ac.at/)  
 [Tezpur University](http://www.tezu.ernet.in/)  
 [The Abdus Salam International Centre for Theoretical Physics](http://www.ictp.it/)  
-[Chennai Mathematical Institute](http://www.cmi.ac.in/)  
-[Harish-Chandra Research Institute](http://www.hri.res.in/)  
-[The Institute of Mathematical Sciences](http://www.imsc.res.in/)
 
 ## Mathematics
 
@@ -28,15 +25,23 @@ permalink: /links/
 
 ## People
 
+[Krishnaswami Alladi](http://krishnaswami-alladi.com)  
 [George E. Andrews](http://www.personal.psu.edu/gea1/)  
+[Arvind Ayyer](http://www.math.iisc.ernet.in/~arvind/index.html)  
 [Rupam Barman](https://www.iitg.ac.in/rupam/)  
 [Nayandeep Deka Baruah](http://www.tezu.ernet.in/dmaths/people/faculty-pages/ndb.html)  
+[Roger Behrend](https://www.cardiff.ac.uk/people/view/98633-behrend-roger)  
 [Bruce C. Berndt](http://www.math.uiuc.edu/~berndt/)  
+[Gaurav Bhatnagar](https://www.gbhatnagar.com/p/publications.html)  
 [Mihai Ciucu](http://pages.iu.edu/~mciucu/)  
+[Bishal Deb](https://bishaldeb.com)  
 [Ilse Fischer](https://www.mat.univie.ac.at/~ifischer/)  
+[Ankush Goswami](https://sites.google.com/view/ankushgoswami/)  
 [Christian Krattenthaler](http://www.mat.univie.ac.at/~kratt/)  
-[M. Ram Murty](http://www.mast.queensu.ca/~murty/)  
+[Bibekananda Maji](https://sites.google.com/site/bibekiithri87/talks?authuser=0)  
 [Anupam Saikia](http://www.iitg.ernet.in/a.saikia/)  
+[Michael Schlosser](https://www.mat.univie.ac.at/~schlosse/)  
+[Florian Schreier-Aigner](https://homepage.univie.ac.at/florian.aigner/publications.html)  
 [Fernando Rodriguez Villegas](http://users.ictp.it/~villegas/)  
 [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)
 
@@ -45,7 +50,6 @@ permalink: /links/
 [Khimpi Dutta](https://khimpidutta.com/)  
 [Terence Tao](http://terrytao.wordpress.com/)  
 [Tim Gowers](http://gowers.wordpress.com/)  
-[Great Bong](http://www.greatbong.net/)  
 [Onionesque Reality](http://onionesquereality.wordpress.com/)  
 [Tanya Khovanova](http://blog.tanyakhovanova.com/)  
 [The Aperiodical](http://aperiodical.com/)  
