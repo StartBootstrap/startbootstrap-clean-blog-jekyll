@@ -29,7 +29,7 @@ permalink: /links/
 [George E. Andrews](http://www.personal.psu.edu/gea1/)  
 [Arvind Ayyer](http://www.math.iisc.ernet.in/~arvind/index.html)  
 [Rupam Barman](https://www.iitg.ac.in/rupam/)  
-[Nayandeep Deka Baruah](http://www.tezu.ernet.in/dmaths/people/faculty-pages/ndb.html](https://scholar.google.co.in/citations?hl=en&user=2U1ewzYAAAAJ&view_op=list_works&sortby=pubdate)  
+[Nayandeep Deka Baruah](https://scholar.google.co.in/citations?hl=en&user=2U1ewzYAAAAJ&view_op=list_works&sortby=pubdate)  
 [Roger Behrend](https://www.cardiff.ac.uk/people/view/98633-behrend-roger)  
 [Bruce C. Berndt](http://www.math.uiuc.edu/~berndt/)  
 [Gaurav Bhatnagar](https://www.gbhatnagar.com/p/publications.html)  
