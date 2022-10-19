@@ -15,10 +15,8 @@ If you are interested in attending the seminar or giving a talk, please write to
 
 ## Next Talk
 
-to be announced
+**Sequences in Overpartitions** (*Ali Kemal Uncu, University of Bath, UK & Austrian Academy of Science, Austria*: 21 October 2022)
 
 ## Past Talks
 
-*Click on the title to view the slides (if they are available).*
-  
-to be added  
+1. **Arithmetic Properties of $t$-regular partitions** (*Ajit Singh, Indian Institute of Technology Guwahati, India*: 23 September 2022)  
