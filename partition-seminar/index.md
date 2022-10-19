@@ -15,9 +15,10 @@ If you are interested in attending the seminar or giving a talk, please write to
 
 The talks are not recorded, they are meant to be for informal discussions with the speaker(s) and everyone is encouraged to ask questions.
 
-## Next Talk
+## Upcoming Talks
 
-**Sequences in Overpartitions** (*Ali Kemal Uncu, University of Bath, UK & Austrian Academy of Science, Austria*: 21 October 2022)
+2. **Sequences in Overpartitions** (*Ali Kemal Uncu, University of Bath, UK & Austrian Academy of Science, Austria*: 21 October 2022)  
+1. **New relations of the mex with other partition statistics** (*Aritram Dhar, University of Florida, USA*: 28 October 2022)
 
 ## Past Talks
 
