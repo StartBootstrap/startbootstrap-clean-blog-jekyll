@@ -13,7 +13,7 @@ This is a research seminar initiated by me and some of my collaborators who are 
 
 If you are interested in attending the seminar or giving a talk, please write to me at **manjil@gonitsora.com** and I will add you to our mailing list.  
 
-The talks are not recorded, they are meant to be for informal discussions with the seminar and everyone is encouraged to ask questions.
+The talks are not recorded, they are meant to be for informal discussions with the speaker(s) and everyone is encouraged to ask questions.
 
 ## Next Talk
 
