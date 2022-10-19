@@ -21,5 +21,5 @@ The talks are not recorded, they are meant to be for informal discussions with t
 
 ## Past Talks
 
-1. **Arithmetic Properties of $t$-regular partitions** (*Ajit Singh, Indian Institute of Technology Guwahati, India*: 23 September 2022)  
-2. **Congruences for the coefficients of a pair of third and sixth order mock theta functions** (*Hirakjyoti Das, Tezpur University, India*: 02 August 2022)  
+2. **Arithmetic Properties of $t$-regular partitions** (*Ajit Singh, Indian Institute of Technology Guwahati, India*: 23 September 2022)  
+1. **Congruences for the coefficients of a pair of third and sixth order mock theta functions** (*Hirakjyoti Das, Tezpur University, India*: 02 August 2022)  
