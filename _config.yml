@@ -1,14 +1,14 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              Generative Modelling
+email:              satish.pas@gmail.com
+description:        A Blog for discussion on GM
+author:             Satish Kumar
+baseurl:            ""
+url:                "https://artinsat.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    Satishpas2
+facebook_username:  
 instagram_username:  
 linkedin_username:
 

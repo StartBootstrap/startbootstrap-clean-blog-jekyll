@@ -1,0 +1,38 @@
+name: PSL Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 6 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Update PSL
+        run: bundle exec rake update-list
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          title: PSL auto-update
+          commit-message: Updated list from source
+          reviewers: weppos
+          add-paths: |
+            data/list.txt
+
+      - name: Check Pull Request
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
