@@ -12,9 +12,9 @@ Some talks (arranged in reverse chronological order) that I have given.
 
 **Talk on Pseudoscience**, *InSCIgnis 2022, Tezpur University, India*, online, February 2022. ([video](https://www.youtube.com/watch?v=p6pmuD87MNE))
 
-**How Mathematics has helped shape civilization**, *15 Minit Xikhya, Assam, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=0f43tAl2HD8))
-
 **How to discover Rogers-Ramanujan Identities**, *National Mathematics Day, Tezpur University, India*, online, December 2021. ([video](https://www.youtube.com/watch?v=DwUerZhM26E))
+
+**How Mathematics has helped shape civilization**, *15 Minit Xikhya, Assam, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=0f43tAl2HD8))
 
 **Parity Biases in Partitions and Restricted Partitions**, *Mathematics Colloquium, Ashoka University, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=koeTEGUHZkI))
 
