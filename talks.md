@@ -10,7 +10,29 @@ Some mathematical talks (arranged in reverse chronological order) that I have gi
 
 >Not an exhaustive list!
 
-**Refined Enumeration of Alternating Sign Matrices**, *Vienna Discrete Mathematics Seminar, Technical University of Vienna, April*, April 2018. ([pdf](http://gonitsora.com/manjil/talks/ag-handout.pdf))
+**Talk on Pseudoscience**, *InSCIgnis 2022, Tezpur University, India*, online, February 2022. ([video](https://www.youtube.com/watch?v=p6pmuD87MNE))
+
+**15 Minit Xikhya**, *Assam, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=0f43tAl2HD8))
+
+**How to discover Rogers-Ramanujan Identities**, *National Mathematics Day, Tezpur University, India*, online, December 2021. ([video](https://www.youtube.com/watch?v=DwUerZhM26E))
+
+**Parity Biases in Partitions and Restricted Partitions**, *Mathematics Colloquium, Ashoka University, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=koeTEGUHZkI))
+
+**An Invitation to the Rogers-Ramanujan Identities**, *Berchmans Webinar Series in Mathematics, St. Berchmans College, Kerala, India*, online, August 2021. ([video](https://www.youtube.com/watch?v=c6s_jYjxH3k))
+
+**Combinatorial Reciprocity Theorems: Some Examples**, *Institute Seminar, Institute of Mathematics and Applications, Bhubaneswar, India*, online, July 2021. ([video](https://www.youtube.com/watch?v=bhCEMKvquak))
+
+**Refined enumeration of symmetry classes of Alternating Sign Matrices**, *Topics in Special Functions and Number Theory, online seminar, India*, November 2020. ([video](https://www.youtube.com/watch?v=sKNPj_lTDlk))
+
+**Refined Enumeration of Symmetry Classes of Alternating Sign Matrices**, *Combinatorics in Algebra, Topology and Graph Theory (CATGT) Webinar, India*, September 2020. ([pdf](/publ/talks/CATGT_Talk.pdf))
+
+**The Remarkable Sequence $1, 1, 2, 7, 42, 429, 7436, \cdots$**, *Gurucharan College, Silchar, India*, August 2020. ([video](https://www.youtube.com/watch?v=WGSGl5ydBZA))
+
+**Hard and Easy Instances of L-Tromino Tilings**, *International Conference on Mathematical Modelling in Applied Sciences (online), Dibrugarh University, India*, June 2020. ([pdf](/publ/talks/Dibru_Talk.pdf))
+
+**The Story of Alternating Sign Matrices ... so far**, *Mathematics Seminar, The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy*, July 2019. ([pdf](/publ/talks/ICTP_Talk.pdf))
+
+**Refined Enumeration of Alternating Sign Matrices**, *Vienna Discrete Mathematics Seminar, Technical University of Vienna, Austria*, April 2018. ([pdf](http://gonitsora.com/manjil/talks/ag-handout.pdf))
 
 **Refined Enumeration of Vertically Symmetric Alternating Sign Matrices**, *80th Séminaire Lotharingien de Combinatoire, Institut Camille Jordan - Bâtiment Braconnier, Université Claude Bernard Lyon 1, France*, March 2018. ([pdf](https://www.mat.univie.ac.at/~slc/wpapers/s80vortrag/saikia.pdf)) 
 
