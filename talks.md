@@ -34,8 +34,6 @@ Some talks (arranged in reverse chronological order) that I have given.
 
 **Refined Enumeration of Alternating Sign Matrices**, *Vienna Discrete Mathematics Seminar, Technical University of Vienna, Austria*, April 2018. ([pdf](http://gonitsora.com/manjil/talks/ag-handout.pdf))
 
-**Refined Enumeration of Vertically Symmetric Alternating Sign Matrices**, *80th Séminaire Lotharingien de Combinatoire, Institut Camille Jordan - Bâtiment Braconnier, Université Claude Bernard Lyon 1, France*, March 2018. ([pdf](https://www.mat.univie.ac.at/~slc/wpapers/s80vortrag/saikia.pdf)) 
-
 **Tiling Problems and Perfect Matchings**, *PhD Colloquium, Fakulty of Mathematics, University of Vienna, Austria*, March 2018. ([pdf](http://gonitsora.com/manjil/talks/VDS-PhD-talk.pdf))
 
 **The Remarkable Sequence $1, 2, 7, 42, 429, 7436, \cdots $**, *First Interdisciplinary Symposium of the Vienna Doctoral Schools, University of Vienna, Austria*, September 2017. ([pdf](http://gonitsora.com/manjil/talks/Interscience_Talk.pdf))
