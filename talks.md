@@ -6,7 +6,7 @@ mathjax: true
 background: '/img/talks.jpeg'
 permalink: /talks/
 ---
-Some mathematical talks (arranged in reverse chronological order) that I have given.
+Some talks (arranged in reverse chronological order) that I have given.
 
 >Not an exhaustive list!
 
