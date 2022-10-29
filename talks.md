@@ -12,7 +12,7 @@ Some mathematical talks (arranged in reverse chronological order) that I have gi
 
 **Talk on Pseudoscience**, *InSCIgnis 2022, Tezpur University, India*, online, February 2022. ([video](https://www.youtube.com/watch?v=p6pmuD87MNE))
 
-**15 Minit Xikhya**, *Assam, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=0f43tAl2HD8))
+**How Mathematics has helped shape civilization**, *15 Minit Xikhya, Assam, India*, online, November 2021. ([video](https://www.youtube.com/watch?v=0f43tAl2HD8))
 
 **How to discover Rogers-Ramanujan Identities**, *National Mathematics Day, Tezpur University, India*, online, December 2021. ([video](https://www.youtube.com/watch?v=DwUerZhM26E))
 
