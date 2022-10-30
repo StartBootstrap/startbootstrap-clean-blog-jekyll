@@ -323,6 +323,14 @@ The books which are marked with a ** are the ones that I am either currently rea
 306. ** **The Gifts of Reading: Essays on the Joys of Reading, Giving and Receiving Books**, *Robert Macfarlane (Inspired) and Jennie Orchard (Ed.)*, Weidenfeld & Nicolson, 2020.
 307. ** **Howards End Is on the Landing: A Year of Reading from Home**, *Susan Hill*, Profile Books, 2010.
 308. **A Gentle Madness: Bibliophiles, Bibliomanes, and the Eternal Passion for Books**, *Nicholas A. Basbanes*, Owl Books, 1999.
+309. **Editions and Impressions: Twenty Years on the Book Beat**, *Nicholas A. Basbanes*, Fine Books Press, 2007.
+310. **Last Ape Standing: The Seven-Million-Year Story of How and Why We Survived**, *Chip Walter*, Walker & Company, 2013.
+311. **Lone Survivors: How We Came to Be the Only Humans on Earth**, *Chris Stringer*, Times Books, 2012.
+312. **Once Upon a Tome: The Misadventures of a Rare Bookseller**, *Oliver Darkshire*, Bantam, 2022.
+313. **Beating Back the Devil: On the Front Lines with the Disease Detectives of the Epidemic Intelligence Service**, *Maryn McKenna*, Free Press, 2004.
+314. **Level 4: Virus Hunters of the CDC**, *Joseph B. McCormick and Susan Fisher-Hoch (with Leslie Alan Horvitz)*, Barnes & Noble Books, 1999.
+315. **Among the Gently Mad: Perspectives and Strategies for the Book Hunter in the Twenty-first Century**, *Nicholas A. Basbanes*, Owl Books, 2003.
+316. **The Two Cultures**, *C. P. Snow (with Introduction by Stefan Collini)*, Cambridge University Press, 1996.
 
 
 ## Fiction
@@ -433,6 +441,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 2. **Nonsense**, *Edward Lear*, Penguin Little Black Classics, 2016.
 3. **The World's Best Limericks**, *Richard Floethe (Illustrator)*, The Peter Pauper Press, 1951.
 4. **The Eve of St Agnes**, *John Keats*, Penguin Books, 2015.
+5. **The Beautiful Poetry of Donald Trump**, *Rob Sears*, Cannongate, 2017.
 
 
 ## Mixed
