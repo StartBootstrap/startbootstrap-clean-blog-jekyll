@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Discussion Hidden MArkov Model"
+title: "This is what I do"
 date: 2022-10-30 23:45:13 -0400
 background: '/img/posts/05.jpg'
 ---
