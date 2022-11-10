@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Stationarity in Python"
+subtitle: "Checking if the data is stationary using Python"
+date: 2020-01-26 23:45:13 -0400
+background: '/img/posts/01.jpg'
+---
+
+<h2 class="section-heading">What makes our data non-stationry?</h2>
+
+
+<p>There are a few options...</p>
+
+<p>Something something something something.</p>
+
+<h2 class="section-heading">Tests for unit root and stationarity</h2>
+<p>Something something something something.</p>
+
+<h2 class="section-heading">Python</h2>
+<p>Something something something something.</p>
