@@ -100,9 +100,10 @@ To test this series we run the following code:
     Alternative Hypothesis: The process contains a unit root.
     
 
-The tests show that the corresponding series is stationary.
+For the PP and ADF tests, we were able to reject the null hypothesis, whereas for the KPSS we were not able to do this. 
+However, since they have somewhat opposite hull hypotheses, the results show that the corresponding series is stationary.
 
-However, now we consider trending series:
+For trending series:
 
 ```python
 > x=np.arange(0, 10, 0.01)
@@ -163,4 +164,4 @@ However, now we consider trending series:
     Null Hypothesis: The process is weakly stationary.
     Alternative Hypothesis: The process contains a unit root.
     
-Here, since we did not allow for tending series, two of the tests show that the series are non-stationary.
+Here, since we did not allow for tending series, two of the test results illustrate that the series may be non-stationary.
