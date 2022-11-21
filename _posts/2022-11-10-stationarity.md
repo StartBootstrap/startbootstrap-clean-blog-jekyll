@@ -46,7 +46,7 @@ To test this series we run the following code:
 
 ```python
 > from arch.unitroot import PhillipsPerron
-> print(PhillipsPerron(y_1))
+> print(PhillipsPerron(y_1, trend='c'))
 ```
 
          Phillips-Perron Test (Z-tau)    
@@ -120,7 +120,7 @@ However, now we consider trending series:
 
 
 ```python
-> print(PhillipsPerron(y_2))
+> print(PhillipsPerron(y_2, trend='c'))
 > print("")
 > print(ADF(y_2, method = 'bic', trend='c'))
 > print("")
