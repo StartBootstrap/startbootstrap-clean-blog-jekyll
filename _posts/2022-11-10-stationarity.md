@@ -14,12 +14,13 @@ Before we jump into looking if our time series are stationary or not. Firsly, we
 
 What does stationary time series mean? It simply means that its joint probability distribution is time-invariant.
 In a regression model, the ordinary least squares (OLS) estimators are not consistent for non-stationary series and the standard statistical 
-tests are not valid. Additionally, many of statistical tests assume that the data is stationary.
+tests are not valid. Meanwhile, many of statistical tests assume that the data is stationary. Therefore, making it very important to consider 
+when doing some data analysis.
 
 
 ## Tests for unit root and stationarity in Python
 
-There are a lot of unit-root and stationarity tests available. However, here, I will focus on the most popular ones, i.e. Augmented Dickey-Fuller ('ADF') 
+There are a many unit-root and stationarity tests available. However, here, I will focus on the most popular ones, i.e. Augmented Dickey-Fuller ('ADF') 
 and Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phillips-Schmidt-Shin ('KPSS'). ADF and PP tests test a null hypothesis that the 
 process contains the unit root against the alternative that the process in weakly stationary. Whereas the KPSS test tests the null hypothesis of the process being 
 weakly stationary against the alternative that the process contains a unit root.
@@ -101,7 +102,7 @@ To test this series we run the following code:
     
 
 For the PP and ADF tests, we were able to reject the null hypothesis, whereas for the KPSS we were not able to do this. 
-However, since they have somewhat opposite hull hypotheses, the results show that the corresponding series is stationary.
+However, since they have somewhat opposite hull hypotheses, all three results point on the corresponding series being stationary.
 
 For trending series:
 
