@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img\\posts",
-    "\\_drafts",
+    "\\assets",
+    "\\assets\\vendor",
+    "\\assets\\vendor\\bootstrap",
+    "\\assets\\vendor\\bootstrap\\scss",
+    "\\img",
+    "\\posts",
     "\\_includes",
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_posts\\2022-11-10-stationarity.html",
+  "SelectedNode": "\\posts\\index.html",
   "PreviewInSolutionExplorer": false
 }
