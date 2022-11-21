@@ -21,7 +21,7 @@ tests are not valid. Additionally, many of statistical tests assume that the dat
 
 There are a lot of unit-root and stationarity tests available. However, here, I will focus on the most popular ones, i.e. Augmented Dickey-Fuller ('ADF') 
 and Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phillips-Schmidt-Shin ('KPSS'). ADF and PP tests test a null hypothesis that the 
-process contains the unit root against the alternative that the process in weakly stationary. Whereas the KPSS test test the null hypothesis of the process being 
+process contains the unit root against the alternative that the process in weakly stationary. Whereas the KPSS test tests the null hypothesis of the process being 
 weakly stationary against the alternative that the process contains a unit root.
 
 Firsly lets create time series:
