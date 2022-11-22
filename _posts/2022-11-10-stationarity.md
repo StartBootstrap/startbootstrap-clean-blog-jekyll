@@ -10,7 +10,7 @@ background: '/img/bg-post.jpg'
 
 ## Background
 
-Before we jump into looking if our time series are stationary or not. Firsly, we need to understand what it means and why it is important.
+Before we jump into looking if our time series are stationary or not. Firstly, we need to understand what it means and why it is important.
 
 What does stationary time series mean? It simply means that its joint probability distribution is time-invariant.
 In a regression model, the ordinary least squares (OLS) estimators are not consistent for non-stationary series and the standard statistical 
@@ -25,7 +25,7 @@ and Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phill
 process contains the unit root against the alternative that the process in weakly stationary. Whereas the KPSS test tests the null hypothesis of the process being 
 weakly stationary against the alternative that the process contains a unit root.
 
-Firsly lets create time series:
+To begin with, lets create time series:
 
 ```python
 > import numpy as np
