@@ -41,7 +41,6 @@ To begin with, let us create a time series:
 ```
 
     
-![png](/img/posts/stationarity/constant.png)
     
 
 To test this series we run the following code:
@@ -78,7 +77,7 @@ For trending series:
 
 
     
-![png](/img/posts/stationarity/trending.png)
+
     
 
 

@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\vendor",
-    "\\assets\\vendor\\bootstrap",
     "\\assets\\vendor\\bootstrap\\scss",
+    "\\assets\\vendor\\bootstrap\\scss\\vendor",
     "\\img",
-    "\\posts",
+    "\\img\\posts",
+    "\\img\\posts\\stationarity",
+    "\\_drafts",
     "\\_includes",
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\posts\\index.html",
+  "SelectedNode": "\\_layouts\\post.html",
   "PreviewInSolutionExplorer": false
 }
