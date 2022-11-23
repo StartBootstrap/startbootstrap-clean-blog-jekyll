@@ -24,7 +24,7 @@ layout: default
                 content=page.content %}
             </span>
             <span class="meta">
-                <a href="#">{% if page.edit %}(last edited on {{ page.edit | date: '%B %d, %Y' }}){% endif %}</a>
+                {% if page.edit %}(last edited on {{ page.edit | date: '%B %d, %Y' }}){% endif %}
             </span>
           </div>
         </div>
