@@ -18,7 +18,7 @@ tests are not valid. Meanwhile, many of statistical tests assume that the data i
 when doing some data analysis.
 
 
-## Tests for unit root and stationarity in Python
+## Testing for unit root in Python
 
 There are a many unit-root and stationarity tests available. However, here, I will focus on the most popular one unit root test, i.e. Augmented Dickey-Fuller ('ADF'). 
 However, you may wish to also try Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phillips-Schmidt-Shin ('KPSS'). ADF and PP tests test a null hypothesis that the 
