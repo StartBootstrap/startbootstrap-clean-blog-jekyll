@@ -4,7 +4,7 @@ title: "Stationarity in Python"
 subtitle: "tests and the reason behind"
 author:  Gabriela Filipkowska
 date: 2022-11-10 -0400
-edit: 2022-11-21
+edit: 2022-11-23
 background: '/img/bg-post.jpg'
 ---
 
@@ -20,17 +20,18 @@ when doing some data analysis.
 
 ## Tests for unit root and stationarity in Python
 
-There are a many unit-root and stationarity tests available. However, here, I will focus on the most popular ones, i.e. Augmented Dickey-Fuller ('ADF') 
-and Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phillips-Schmidt-Shin ('KPSS'). ADF and PP tests test a null hypothesis that the 
+There are a many unit-root and stationarity tests available. However, here, I will focus on the most popular one unit root test, i.e. Augmented Dickey-Fuller ('ADF'). 
+However, you may wish to also try Phillips-Perron ('PP'), and for checking the stationarity, Kwiatkowski-Phillips-Schmidt-Shin ('KPSS'). ADF and PP tests test a null hypothesis that the 
 process contains the unit root against the alternative that the process in weakly stationary. Whereas the KPSS test tests the null hypothesis of the process being 
-weakly stationary against the alternative that the process contains a unit root.
+weakly stationary against the alternative that the process contains a unit root. 
 
-To begin with, lets create time series:
+To begin with, let us create a time series:
 
 ```python
 > import numpy as np
 > import matplotlib.pyplot as plt
 
+> np.random.seed(seed=123)
 > mean, standard_dev = 0, 1
 > errors = np.random.normal(mean, standard_dev, 1000)
 > y_1 = []
@@ -44,25 +45,6 @@ To begin with, lets create time series:
     
 
 To test this series we run the following code:
-
-```python
-> from arch.unitroot import PhillipsPerron
-> print(PhillipsPerron(y_1, trend='c'))
-```
-
-         Phillips-Perron Test (Z-tau)    
-    =====================================
-    Test Statistic                -31.959
-    P-value                         0.000
-    Lags                               22
-    -------------------------------------
-    
-    Trend: Constant
-    Critical Values: -3.44 (1%), -2.86 (5%), -2.57 (10%)
-    Null Hypothesis: The process contains a unit root.
-    Alternative Hypothesis: The process is weakly stationary.
-    
-
 
 ```python
 > from arch.unitroot import ADF
@@ -82,27 +64,7 @@ To test this series we run the following code:
     Alternative Hypothesis: The process is weakly stationary.
     
 
-
-```python
-> from arch.unitroot import KPSS
-> print(KPSS(y_1, trend='c'))
-```
-
-        KPSS Stationarity Test Results   
-    =====================================
-    Test Statistic                  0.157
-    P-value                         0.369
-    Lags                                2
-    -------------------------------------
-    
-    Trend: Constant
-    Critical Values: 0.74 (1%), 0.46 (5%), 0.35 (10%)
-    Null Hypothesis: The process is weakly stationary.
-    Alternative Hypothesis: The process contains a unit root.
-    
-
-For the PP and ADF tests, we were able to reject the null hypothesis, whereas for the KPSS we were not able to do this. 
-However, since they have somewhat opposite hull hypotheses, all three results point on the corresponding series being stationary.
+Since the p-value is very small, there is enough statistical evidence to reject the null hypothesis that the process contains a unit root. Therefore, the results point on the corresponding series being weakly stationary.
 
 For trending series:
 
@@ -122,24 +84,9 @@ For trending series:
 
 
 ```python
-> print(PhillipsPerron(y_2, trend='c'))
-> print("")
 > print(ADF(y_2, method = 'bic', trend='c'))
-> print("")
-> print(KPSS(y_2, trend='c'))
 ```
 
-         Phillips-Perron Test (Z-tau)    
-    =====================================
-    Test Statistic                 -8.205
-    P-value                         0.000
-    Lags                               22
-    -------------------------------------
-    
-    Trend: Constant
-    Critical Values: -3.44 (1%), -2.86 (5%), -2.57 (10%)
-    Null Hypothesis: The process contains a unit root.
-    Alternative Hypothesis: The process is weakly stationary.
     
        Augmented Dickey-Fuller Results   
     =====================================
@@ -153,16 +100,26 @@ For trending series:
     Null Hypothesis: The process contains a unit root.
     Alternative Hypothesis: The process is weakly stationary.
     
-        KPSS Stationarity Test Results   
+    
+Here, since tending series were not taken into consideration, the test failed to reject the null hypothesis. This result indicates that the series may be non-stationary. This makes sense, 
+since only a constant component was allowed for, and these series cointains a linear trend, and so the mean is not time invariant. Let us fix this by including a constant and linear time trend.
+
+```python
+> print(ADF(y_2, method = 'bic', trend='ct'))
+```
+
+       Augmented Dickey-Fuller Results   
     =====================================
-    Test Statistic                  5.072
+    Test Statistic                -30.829
     P-value                         0.000
-    Lags                               19
+    Lags                                0
     -------------------------------------
     
-    Trend: Constant
-    Critical Values: 0.74 (1%), 0.46 (5%), 0.35 (10%)
-    Null Hypothesis: The process is weakly stationary.
-    Alternative Hypothesis: The process contains a unit root.
-    
-Here, since we did not allow for tending series, two of the test results illustrate that the series may be non-stationary.
+    Trend: Constant and Linear Time Trend
+    Critical Values: -3.97 (1%), -3.41 (5%), -3.13 (10%)
+    Null Hypothesis: The process contains a unit root.
+    Alternative Hypothesis: The process is weakly stationary.
+
+
+
+After taking away this linear trend the null hypothesis can indeed be rejected.
