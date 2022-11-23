@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img",
-    "\\img\\posts",
-    "\\img\\posts\\stationarity",
     "\\_drafts",
     "\\_includes",
-    "\\_layouts"
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_layouts\\post.html",
+  "SelectedNode": "\\_posts\\2022-11-10-stationarity.html",
   "PreviewInSolutionExplorer": false
 }
