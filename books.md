@@ -26,7 +26,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 9. **what if?: Serious Scientific Answers to Absurd Hypothetical Questions**, *Randall Munroe*, John Murray (Publishers), 2014. [(mini review)](http://www.bibliotheca.in/2015/03/what-if-mini-book-review.html)
 10. ** **“Most of the Good Stuff”: Memories of Richard Feynman**, *Laurie M. Brown (ed.) and John S. Rigden (ed.)*, American Institute of Physics, 1993.
 11. **The Art of Richard P. Feynman: Images of a Curious Character**, *Michelle Feynman (ed.)*, Routledge, 1995.
-12. ** **John von Neumann: Selected Letters**, *Miklos Redei (ed.)*, American Mathematical Society/London Mathematical Society, 2005.
+12. ** **John von Neumann: Selected [Letters](http://www.tezu.ernet.in/dmaths/)**, *Miklos Redei (ed.)*, American Mathematical Society/London Mathematical Society, 2005.
 13. **The Apprenticeship of a Mathematician**, *Andre Weil*, Brikhauser, 1992. [(mini review)](http://www.bibliotheca.in/2015/03/the-apprenticeship-of-mathematician-by.html)
 14. **Tuva or Bust!: Richard Feynman’s Last Journey**, *Ralph Leighton*, W. W. Norton and Company, 1991.
 15. **Bourbaki: A Secret Society of Mathematicians**, *Maurice Mashaal*, American Mathematical Society, 2006. [(review)](http://www.bibliotheca.in/2015/05/nicolas-bourbaki-secret-mathematician.html)
@@ -332,10 +332,10 @@ The books which are marked with a ** are the ones that I am either currently rea
 315. **Among the Gently Mad: Perspectives and Strategies for the Book Hunter in the Twenty-first Century**, *Nicholas A. Basbanes*, Owl Books, 2003.
 316. **The Two Cultures**, *C. P. Snow (with Introduction by Stefan Collini)*, Cambridge University Press, 1996.
 317. **The Billionaire Raj: A Journey Through India's New Gilded Age**, *James Crabtree*, One World, 2019.
-318. * **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+318. ** **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
 319. **On Leaders and Icons: From Jinnah to Modi**, *Kuldip Nayar*, Speaking Tiger, 2018.
 320. **In Praise of Good Bookstores**, *Jeff Deutsch*, Princeton University Press, 2022.
-321. * **In the Margins: On the Pleasures of Reading and Writing**, *Elena Ferrante (Translated by Ann Goldstein)*, Europa Editions, 2022.
+321. ** **In the Margins: On the Pleasures of Reading and Writing**, *Elena Ferrante (Translated by Ann Goldstein)*, Europa Editions, 2022.
 322. **Bottle of Lies : Ranbaxy and the Dark Side of Indian Pharma**, *Katherine Eban*, Juggernaut Books, 2022.
 
 
