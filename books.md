@@ -331,6 +331,12 @@ The books which are marked with a ** are the ones that I am either currently rea
 314. **Level 4: Virus Hunters of the CDC**, *Joseph B. McCormick and Susan Fisher-Hoch (with Leslie Alan Horvitz)*, Barnes & Noble Books, 1999.
 315. **Among the Gently Mad: Perspectives and Strategies for the Book Hunter in the Twenty-first Century**, *Nicholas A. Basbanes*, Owl Books, 2003.
 316. **The Two Cultures**, *C. P. Snow (with Introduction by Stefan Collini)*, Cambridge University Press, 1996.
+317. **The Billionaire Raj: A Journey Through India's New Gilded Age**, *James Crabtree*, One World, 2019.
+318. * **At Home with Books: How Booklovers Live with and Care for Their Libraries**, *Estelle Ellis, Caroline Seebohm and Christopher Simon Sykes*, Carol Southern Books, 1995.
+319. **On Leaders and Icons: From Jinnah to Modi**, *Kuldip Nayar*, Speaking Tiger, 2018.
+320. **In Praise of Good Bookstores**, *Jeff Deutsch*, Princeton University Press, 2022.
+321. * **In the Margins: On the Pleasures of Reading and Writing**, *Elena Ferrante (Translated by Ann Goldstein)*, Europa Editions, 2022.
+322. **Bottle of Lies : Ranbaxy and the Dark Side of Indian Pharma**, *Katherine Eban*, Juggernaut Books, 2022.
 
 
 ## Fiction
