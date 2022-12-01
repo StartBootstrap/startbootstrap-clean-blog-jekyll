@@ -10,6 +10,7 @@ permalink: /links/
 
 ## Institutions
 
+[IIIT Manipur](http://iiitmanipur.ac.in)  
 [Cardiff University](https://cardiff.ac.uk/)  
 [University of Vienna](http://www.univie.ac.at/)  
 [Tezpur University](http://www.tezu.ernet.in/)  
