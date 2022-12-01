@@ -1,6 +1,6 @@
-title:              Mark the Maven
+title:              Mark Brown
 email:              allenmarkbrown@gmail.com
-description:        Nutritional Chemistry
+description:        Nutritional Chemistry,         Software Programming,         Home Improvement Projects
 author:             Mark Brown
 baseurl:            ""
 url:                "https://bethanybeachbum.github.io"
@@ -23,3 +23,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
