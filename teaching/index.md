@@ -8,4 +8,4 @@ permalink: /teaching/
 
 # IIIT Manipur
 
-**[MA1011: Linear Algebra & Real Analysis](/teaching/IIIT/ma1011)**
+**[MA1011: Linear Algebra & Single Variable Calculus](/teaching/IIIT/ma1011)**
