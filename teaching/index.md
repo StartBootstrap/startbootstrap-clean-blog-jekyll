@@ -2,6 +2,7 @@
 layout: page
 title: Teaching
 description: My teaching portfolio.
+mathjax: true
 background: '/img/teaching.jpg'
 permalink: /teaching/
 ---
