@@ -10,6 +10,7 @@ permalink: /teaching/
 # IIIT Manipur
 
 **[MA1011: Linear Algebra & Single Variable Calculus](/teaching/IIIT/ma1011)** (Undergraduate, December 2022 - March 2023)
+**[MA305: Optimization Techniques](/teaching/IIIT/ma305)** (Undergraduate, January 2023 - April 2023)
 
 # Cardiff University
 
