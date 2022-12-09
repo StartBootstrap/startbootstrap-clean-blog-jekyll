@@ -24,6 +24,8 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
+23. *Some Missed Congruences modulo powers of $2$ for $t$-colored overpartitions*, *Boletín de la Sociedad Matemática Mexicana*, accepted, 2022. ([pdf](/publ/papers/NNcong.pdf))
+
 22. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Journal of the Assam Academy of Mathematics*, 2022, 12, 1-7. ([pdf](https://jaam.aamonline.org.in/ojs/index.php/j/article/view/57))
 
 21. *Parity Biases in Partitions and Restricted Partitions*, (with *Koustav Banerjee, Sreerupa Bhattacharjee, Manosij Ghosh Dastidar and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Séminaire Lotharingien de Combinatoire (Proceedings of the 34th Conference on Formal Power Series and Algebraic Combinatorics 2022 (Bangalore))*, 86B.21, 2022. ([pdf](/publ/papers/FPSAC2022.pdf))
@@ -81,8 +83,6 @@ Some of the papers here may not be the final version that appeared, if you want 
 1. *The Pursuit of Joy* (with *Pankaj Jyoti Mahanta*), LAP Lambert Academic Publishing, Germany, 2011. ([pdf](http://gonitsora.com/manjil/publ/books/the_pursuit_of_joy.pdf))
 
 ## Non Peer-Reviewed Papers
-
-12. *Some Missed Congruences modulo powers of $2$ for $t$-colored overpartitions*, preprint, 2022. ([pdf](/publ/papers/NNcong.pdf))
 
 11. *Conjectures on congruences of binomial coefficients modulo higher powers of a prime number*, preprint, 2022. ([pdf](/publ/papers/Conjecture.pdf))
  
