@@ -22,10 +22,6 @@
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Toe Stew Brr DataStory" href="/feed.xml">
 
-  <!-- Added by BDX -->
-  <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
-  <script src="plotly-2.16.1.min.js"></script>
-
 </head>
 
 
@@ -86,7 +82,7 @@
 
         <!-- Home Post List -->
         
-<!-- 
+
         <article class="post-preview">
           <a href="/2020/01/31/man-must-explore.html">
             <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
@@ -198,10 +194,9 @@
           </p>
         </article>
 
-        <hr> -->
+        <hr>
 
-      <!-- Div for 3d graph -->
-      <div id = "3d-graph" ></div>        
+        
 
         <!-- Pager -->
         <div class="clearfix">
@@ -262,46 +257,6 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-XXXXXXXXX-X');
-
-  d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
-    function unpack(rows, key) {
-      return rows.map(function(row)
-      { return row[key]; });}
-
-    var trace1 = {
-      x:unpack(rows, 'x1'), y: unpack(rows, 'y1'), z: unpack(rows, 'z1'),
-      mode: 'markers',
-      marker: {
-        size: 12,
-        line: {
-        color: 'rgba(217, 217, 217, 0.14)',
-        width: 0.5},
-        opacity: 0.8},
-      type: 'scatter3d'
-    };
-
-    var trace2 = {
-      x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
-      mode: 'markers',
-      marker: {
-        color: 'rgb(127, 127, 127)',
-        size: 12,
-        symbol: 'circle',
-        line: {
-        color: 'rgb(204, 204, 204)',
-        width: 1},
-        opacity: 0.8},
-      type: 'scatter3d'};
-
-    var data = [trace1, trace2];
-    var layout = {margin: {
-      l: 0,
-      r: 0,
-      b: 0,
-      t: 0
-      }};
-    Plotly.newPlot('3d-graph', data, layout);
-  });
 </script>
 
 
