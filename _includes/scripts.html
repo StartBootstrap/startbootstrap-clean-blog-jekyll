@@ -119,7 +119,16 @@
               opacity: 0.8},
             type: 'scatter3d'};
 
-          var data = [trace1, trace2];
+          var lines1 = {
+            x:unpack(rows, 'x1'), y: unpack(rows, 'y1'), z: unpack(rows, 'z1'),
+            mode: 'lines',
+            line: {
+              color: 'rgb(125, 125, 125)',
+              width: 1},
+            type: 'scatter3d'};
+
+          var data = [trace1, trace2, lines1];
+          
           var layout = {margin: {
             l: 0,
             r: 0,
@@ -129,9 +138,4 @@
             };
           Plotly.newPlot('3d-graph', data, layout);
         });
-
-        d3.select("#3d-graph")
-        .transition()
-        .duration(2000)
-        .attr("width", "400")
 </script>
