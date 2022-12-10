@@ -120,37 +120,18 @@
             type: 'scatter3d'};
 
           var data = [trace1, trace2];
-
-          var layout = {
-            margin: {
+          var layout = {margin: {
             l: 0,
             r: 0,
             b: 0,
             t: 0
-            },
-
-            updatemenus: [{
-              buttons: [
-                {method: 'animate', args: [['1']], label: '1'},
-                {method: 'animate', args: [['2']], label: '2'}
-              ]
-            }]
-          }
-
-          var frames = [
-            {name: '1', data: trace1},
-            {name: '2', data: trace2},
-          ];
-
-          Plotly.newPlot('3d-graph', trace1, layout).then(function() {
-            Plotly.addFrames('3d-graph', frames);
-          });
-       
-
-        // d3.select("#3d-graph")
-        // .transition()
-        // .duration(2000)
-        // .attr("width", "400")
-
+            }
+            };
+          Plotly.newPlot('3d-graph', data, layout);
         });
+
+        d3.select("#3d-graph")
+        .transition()
+        .duration(2000)
+        .attr("width", "400")
 </script>
