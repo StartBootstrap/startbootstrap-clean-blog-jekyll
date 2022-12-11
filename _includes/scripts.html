@@ -139,7 +139,34 @@
             b: 0,
             t: 0
             }
-            };
+            paper_bgcolor:'rgba(0,0,0,0)',
+            plot_bgcolor:'rgba(0,0,0,0)',
+            // Remove axis
+            xaxis: {
+              showbackground: false,
+              showgrid: false,
+              showline: false,
+              zeroline: false,
+              showticklabels: false,
+              ticks: ''
+            },
+            yaxis: {
+              showbackground: false,
+              showgrid: false,
+              showline: false,
+              zeroline: false,
+              showticklabels: false,
+              ticks: ''
+            },
+            zaxis: {
+              showbackground: false,
+              showgrid: false,
+              showline: false,
+              zeroline: false,
+              showticklabels: false,
+              ticks: ''
+            }
+          };
           Plotly.newPlot('3d-graph-1', data, layout);
         });
 </script>
@@ -193,7 +220,34 @@
     b: 0,
     t: 0
     }
-    };
+    paper_bgcolor:'rgba(0,0,0,0)',
+    plot_bgcolor:'rgba(0,0,0,0)',
+    // Remove axis
+    xaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    },
+    yaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    },
+    zaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    }
+  };
   Plotly.newPlot('3d-graph-2', data, layout);
 });
 </script>
@@ -236,7 +290,7 @@
     mode: 'lines',
     line: {
       color: 'rgb(255, 0, 0)',
-      width: 1},
+      width: 10},
     type: 'scatter3d'};
 
   var data = [trace1, trace2, lines];
@@ -248,8 +302,33 @@
     t: 0
     },
     paper_bgcolor:'rgba(0,0,0,0)',
-    plot_bgcolor:'rgba(0,0,0,0)'
-    };
+    plot_bgcolor:'rgba(0,0,0,0)',
+    // Remove axis
+    xaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    },
+    yaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    },
+    zaxis: {
+      showbackground: false,
+      showgrid: false,
+      showline: false,
+      zeroline: false,
+      showticklabels: false,
+      ticks: ''
+    }
+  };
   Plotly.newPlot('3d-graph-3', data, layout);
 });
 </script>
