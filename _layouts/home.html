@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<!-- Head for CSS -->
+<head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
@@ -60,7 +66,7 @@ layout: default
         <div id="3d-graph"></div>
 
         <!-- A Rectangle -->
-        <div data-aos="zoom-out">
+        <div data-aos="zoom-out" data-aos-duration="1000">
           <svg width="960px" height="400px">
               <rect
                 id="my_rect" x="10" y="200"
