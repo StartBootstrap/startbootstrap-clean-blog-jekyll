@@ -143,3 +143,16 @@ layout: default
       </div>
     </div>
   </div>
+
+  <!-- Scroll function-->
+<script>
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      if ($(document).scrollTop() < 150) {
+        $("image_test").addClass("show_graph");
+      } else {
+        $("image_test").removeClass("show_graph");
+      }
+    });
+  });
+  </script>
