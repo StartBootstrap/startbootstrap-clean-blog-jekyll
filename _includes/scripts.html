@@ -142,27 +142,29 @@
             paper_bgcolor:'rgba(0,0,0,0)',
             plot_bgcolor:'rgba(0,0,0,0)',
             // Remove axis
-            xaxis: {
-              showgrid: false,
-              zeroline: false,
-              showline: false,
-              showticklabels: false,
-              visible: false
+            scene:{
+              xaxis: {
+                showgrid: false,
+                zeroline: false,
+                showline: false,
+                showticklabels: false,
+                visible: false
+              },
+              yaxis: {
+                showgrid: false,
+                zeroline: false,
+                showline: false,
+                showticklabels: false,
+                visible: false
+              },
+              zaxis: {
+                showgrid: false,
+                showline: false,
+                showticklabels: false,
+                zeroline: false,
+                visible: false
+              }
             },
-            yaxis: {
-              showgrid: false,
-              zeroline: false,
-              showline: false,
-              showticklabels: false,
-              visible: false
-            },
-            zaxis: {
-              showgrid: false,
-              showline: false,
-              showticklabels: false,
-              zeroline: false,
-              visible: false
-            }
           };
           Plotly.newPlot('3d-graph-1', data, layout);
         });
@@ -220,27 +222,29 @@
     paper_bgcolor:'rgba(0,0,0,0)',
     plot_bgcolor:'rgba(0,0,0,0)',
     // Remove axis
-    xaxis: {
-      showgrid: false,
-      showline: false,
-      showticklabels: false,
-      zeroline: false,
-      visible: false
+    scene:{
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        showticklabels: false,
+        visible: false
+      },
+      yaxis: {
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        showticklabels: false,
+        visible: false
+      },
+      zaxis: {
+        showgrid: false,
+        showline: false,
+        showticklabels: false,
+        zeroline: false,
+        visible: false
+      }
     },
-    yaxis: {
-      showline: false,
-      showticklabels: false,
-      showgrid: false,
-      zeroline: false,
-      visible: false
-    },
-    zaxis: {
-      showline: false,
-      showticklabels: false,
-      showgrid: false,
-      zeroline: false,
-      visible: false
-    }
   };
   Plotly.newPlot('3d-graph-2', data, layout);
 });
@@ -298,26 +302,28 @@
     paper_bgcolor:'rgba(0,0,0,0)',
     plot_bgcolor:'rgba(0,0,0,0)',
     // Remove axis
-    xaxis: {
-      showgrid: false,
-      zeroline: false,
-      showline: false,
-      showticklabels: false,
-      visible: false
-    },
-    yaxis: {
-      showgrid: false,
-      zeroline: false,
-      showline: false,
-      showticklabels: false,
-      visible: false
-    },
-    zaxis: {
-      showgrid: false,
-      zeroline: false,
-      showline: false,
-      showticklabels: false,
-      visible: false
+    scene:{
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        showticklabels: false,
+        visible: false,
+      },
+      yaxis: {
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        showticklabels: false,
+        visible: false,
+      },
+      zaxis: {
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        showticklabels: false,
+        visible: false,
+      }
     }
   };
   Plotly.newPlot('3d-graph-3', data, layout);
