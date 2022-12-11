@@ -82,7 +82,7 @@ layout: default
         <!-- Text near an image -->
         <div class="row">
           <div class="col" >
-              <img src="https://www.w3schools.com/css/img_fjords.jpg" id="image_test" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="3000" style="vertical-align:middle">
+              <img src="https://www.w3schools.com/css/img_fjords.jpg" id="image_test" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="3000" style="vertical-align:middle;position:sticky">
           </div>
           <div class="col" data-aos="zoom-in" data-aos-duration="3000">
               this is text side you are able to modify easily
@@ -143,16 +143,3 @@ layout: default
       </div>
     </div>
   </div>
-
-  <!-- Scroll function-->
-<script>
-  $(document).ready(function() {
-    $(window).scroll(function() {
-      if ($(document).scrollTop() < 150) {
-        $("image_test").addClass("show_graph");
-      } else {
-        $("image_test").removeClass("show_graph");
-      }
-    });
-  });
-  </script>
