@@ -31,7 +31,7 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
 
         {{ content }}
 
@@ -77,8 +77,8 @@ layout: default
 
         <!-- Text near an image -->
         <div class="row">
-          <div class="col">
-              <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="3000">
+          <div class="col" >
+              <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="3000" style="vertical-align:middle">
           </div>
           <div class="col" data-aos="zoom-in" data-aos-duration="3000">
               this is text side you are able to modify easily
@@ -91,7 +91,7 @@ layout: default
           this is text side you are able to modify easily
         </div>
         <div class="col">
-          <div id="3d-graph"></div>
+          <div id="3d-graph" style="vertical-align:middle"></div>
         </div>
       </div>
 
@@ -100,6 +100,6 @@ layout: default
           <a class="btn btn-primary float-right" href="{{'/posts' | relative_url }}">View All Posts &rarr;</a>
         </div>
 
-      </div>
+      <!-- </div> -->
     </div>
   </div>
