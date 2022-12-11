@@ -204,11 +204,11 @@ var trace2 = {
 
 // Add a trace for the lines between the points
 var lines = {
-  x: [trace1.x[0], trace2.x[0]], y: [trace1.y[0], trace2.y[0]], z: [trace1.z[0], trace2.z[0]],
+  x: [trace1.x[0], trace2.x[0], ], y: [trace1.y[0], trace2.y[0]], z: [trace1.z[0], trace2.z[0]],
   mode: 'lines',
   line: {
     color: 'rgb(255, 0, 0)',
-    width: 1},
+    width: 20},
   type: 'scatter3d'};
 
 var data = [trace1, trace2, lines];
@@ -251,7 +251,7 @@ Plotly.newPlot('3d-graph-2', data, layout);
 });
 </script>
 
-<!-- PlotLy 3d Graph 2-->
+<!-- PlotLy 3d Graph 3-->
 <script>
   d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
   function unpack(rows, key) {
@@ -274,7 +274,7 @@ Plotly.newPlot('3d-graph-2', data, layout);
     x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
     mode: 'markers',
     marker: {
-      color: 'rgb(255, 0, 0)',
+      color: 'rgb(127, 127, 127)',
       size: 12,
       symbol: 'circle',
       line: {
@@ -289,7 +289,7 @@ Plotly.newPlot('3d-graph-2', data, layout);
     mode: 'lines',
     line: {
       color: 'rgb(255, 0, 0)',
-      width: 10},
+      width: 20},
     type: 'scatter3d'};
 
   var data = [trace1, trace2, lines];
@@ -329,6 +329,21 @@ Plotly.newPlot('3d-graph-2', data, layout);
   };
 Plotly.newPlot('3d-graph-3', data, layout);
 });
+</script>
+
+<!-- Animate Graph 2 -->
+<script>
+  Plotly.animate('3d-graph-2', {
+    data: [{x: [1, 2, 3], y: [1, 2, 3], z: [1, 2, 3]}],
+  }, {
+    transition: {
+      duration: 500,
+      easing: 'cubic-in-out'
+    },
+    frame: {
+      duration: 500
+    }
+  })
 </script>
 
 <!-- Animation On Scrolling (AOS) -->
