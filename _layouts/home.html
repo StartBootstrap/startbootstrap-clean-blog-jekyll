@@ -63,10 +63,10 @@ layout: default
         {% endfor %} -->
 
         <!-- 3D Graph Plot -->
-        <div id="3d-graph"></div>
+        
 
         <!-- A Rectangle -->
-        <div data-aos="zoom-out" data-aos-duration="1000">
+        <div data-aos="zoom-out" data-aos-duration="3000">
           <svg width="960px" height="400px">
               <rect
                 id="my_rect" x="10" y="200"
@@ -78,12 +78,21 @@ layout: default
         <!-- Text near an image -->
         <div class="row">
           <div class="col">
-              <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="1000">
+              <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Random Pic" width="400" data-aos="zoom-out" data-aos-duration="3000">
           </div>
-          <div class="col" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="col" data-aos="zoom-in" data-aos-duration="3000">
               this is text side you are able to modify easily
           </div>
       </div>
+
+      <!-- Now trying to put text and graph near another -->
+      <div class="row">
+        <div class="col" data-aos="zoom-in" data-aos-duration="3000">
+          this is text side you are able to modify easily
+        </div>
+        <div class="col">
+          <div id="3d-graph"></div>
+        </div>
 
         <!-- Pager -->
         <div class="clearfix">
