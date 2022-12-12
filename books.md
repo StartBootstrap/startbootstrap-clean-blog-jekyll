@@ -459,4 +459,4 @@ The books which are marked with a ** are the ones that I am either currently rea
 5. **Race**, *Toni Morrison*, Vintage, 2017.
 6. **I'd Rather Be Reading: A Library of Art for Book Lovers**, *Guinevere de la Mare*, Chronicle Books, 2017.
 7. **Forgotten Bookmarks: A Bookseller's Collection of Odd Things Lost Between the Pages**, *Michael Popek*, Perigee, 2011.
-8. **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
+8. ** **An Economist’s Miscellany: From the Groves of Academe to the Slopes of Raisina Hill**, *Kaushik Basu*, Oxford University Press, 2020.
