@@ -120,7 +120,7 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: hsl((360/max_labels)*(rows, 'labels'), 50, 100),
+      color: 'rgba((360/max_labels)*unpack(rows, "labels"), 50, 100)',
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
