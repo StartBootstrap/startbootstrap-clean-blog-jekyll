@@ -98,8 +98,6 @@
     { return row[key]; });}
 
   max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
-
-  var hue = (360/max_labels)*unpack(rows, 'labels');
   
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
@@ -108,12 +106,20 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: 'hsl(' + hue + ', 50%, 50%)',
+      color: [],
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
     type: 'scatter3d'
   };
+
+  var hue = [];
+
+  // Iterate over the hue vector and set the color of each marker
+  for (var i = 0; i < trace1.x.length; i++) {
+    hue[i] = unpack(rows, 'labels') * 360 / max_labels;
+    data[0].marker.color.push('hsl(' + hue[i] + ', 50%, 50%)');
+  }
 
   // var trace2 = {
   //   x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
