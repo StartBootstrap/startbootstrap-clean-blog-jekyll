@@ -109,12 +109,11 @@
         x: x,
         y: y,
         z: z,
-        text: data.map(function(row) { return row.label; }),
         mode: 'markers',
         type: 'scatter3d',
         marker: {
           size: 5,
-          color: colorMap[i] // Set the color based on the label
+          color:'rgba(217, 217, 217, 0.14)' // Set the color based on the label colorMap[i]
         }
       };
       traces.push(trace);
