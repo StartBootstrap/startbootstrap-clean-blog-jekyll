@@ -92,28 +92,24 @@
 
 <!-- PlotLy 3d Graph Real data -->
 <script>
-  d3.csv('dummy_csv.csv', function(err, rows){
-
-    function unpack(rows, key) {
-    return rows.map(function(row)
-    { return row[key]; });}
-
-    max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
-    var labels = unpack(rows, 'labels');
+  d3.csv('cluster_df_hugo.csv', function(err, rows){
     // Create a trace for each label
     var traces = [];
+    // Finds the number of different labels
+    var max_labels = d3.max(rows, function(row) { return row.labels; });
     for (var i = 1; i <= max_labels; i++) {
       // Select the data points with label i
-      var data = rows.filter(function(row) { return row.label == i; });
+      var data = rows.filter(function(row) { return row.labels == i; });
       // Convert the data to x, y, and z arrays
-      var x = data.map(function(row) { return row.x; });
-      var y = data.map(function(row) { return row.y; });
-      var z = data.map(function(row) { return row.z; });
+      var x = data.map(function(row) { return row.tsne_1_weighted_descriptions_embeddings; });
+      var y = data.map(function(row) { return row.tsne_2_weighted_descriptions_embeddings; });
+      var z = data.map(function(row) { return row.tsne_3_weighted_descriptions_embeddings; });
       // Create a trace for the data points
       var trace = {
         x: x,
         y: y,
         z: z,
+        text: data.map(function(row) { return row.label; }),
         mode: 'markers',
         type: 'scatter3d',
         marker: {
