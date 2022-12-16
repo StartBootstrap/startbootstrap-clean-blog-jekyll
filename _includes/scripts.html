@@ -111,7 +111,7 @@
   return colors
   }
 
-  var hsl = generateHslaColors(100, 50, 1.0, max_labels);
+  // var hsl = generateHslaColors(100, 50, 1.0, max_labels);
   
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
@@ -120,7 +120,7 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: hsl[5],
+      color: hsl((360/max_labels)*(rows, 'labels'), 50, 100),
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
