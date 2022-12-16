@@ -97,15 +97,19 @@
     return rows.map(function(row)
     { return row[key]; });}
 
+  max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
+
   var trace1 = {
-    x:unpack(rows, 'x'), y: unpack(rows, 'y'), z: unpack(rows, 'z'),
+    x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
     mode: 'markers',
     marker: {
       size: 12,
+      color: hsl((360/max_labels)*unpack(rows, 'labels'),100,50),
       line: {
       color: 'rgba(217, 217, 217, 0.14)',
       width: 0.5},
       opacity: 0.8},
+    hovertext: unpack(rows, 'Character name	title'),
     type: 'scatter3d'
   };
 
