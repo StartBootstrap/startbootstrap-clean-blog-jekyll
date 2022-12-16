@@ -93,69 +93,43 @@
 <!-- PlotLy 3d Graph Real data -->
 <script>
   d3.csv('dummy_csv.csv', function(err, rows){
-  function unpack(rows, key) {
+
+    function unpack(rows, key) {
     return rows.map(function(row)
     { return row[key]; });}
 
-  max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
-  var labels = unpack(rows, 'labels');
-
-  // Map labels to colors using an array
-  var colorArray = labels.map((label, i) => {
-    return Plotly.d3.scale.category10()(i);
-  });
-  
-  var trace1 = {
-    x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
-    mode: 'markers',
-    marker: {
-      size: 12,
-      // color: hsl[unpack(rows, 'labels')],
-      line: {
-      color: colorArray,
-      width: 0.5},
-      opacity: 0.8},
-    //hovertext: unpack(rows, 'Character name	title'),
-    type: 'scatter3d'
-  };
-
-  var hue = [];
-
-  // Iterate over the hue vector and set the color of each marker
-  for (var i = 0; i < trace1.x.length; i++) {
-    hue[i] = unpack(rows, 'labels') * 360 / max_labels;
-    trace1.marker.color.push('hsl(' + hue[i] + ', 50%, 50%)');
+    max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
+    var labels = unpack(rows, 'labels');
+    // Create a trace for each label
+    var traces = [];
+    for (var i = 1; i <= max_labels; i++) {
+      // Select the data points with label i
+      var data = rows.filter(function(row) { return row.label == i; });
+      // Convert the data to x, y, and z arrays
+      var x = data.map(function(row) { return row.x; });
+      var y = data.map(function(row) { return row.y; });
+      var z = data.map(function(row) { return row.z; });
+      // Create a trace for the data points
+      var trace = {
+        x: x,
+        y: y,
+        z: z,
+        mode: 'markers',
+        type: 'scatter3d',
+        marker: {
+          size: 5,
+          color: colorMap[i] // Set the color based on the label
+        }
+      };
+      traces.push(trace);
   }
-
-  // var trace2 = {
-  //   x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
-  //   mode: 'markers',
-  //   marker: {
-  //     color: 'rgb(127, 127, 127)',
-  //     size: 12,
-  //     symbol: 'circle',
-  //     line: {
-  //     color: 'rgb(204, 204, 204)',
-  //     width: 1},
-  //     opacity: 0.8},
-  //   type: 'scatter3d'};
-
-  // Add a trace for the lines between the points
-  // var lines = {
-  //   x: [trace1.x[0], trace2.x[0]], y: [trace1.y[0], trace2.y[0]], z: [trace1.z[0], trace2.z[0]],
-  //   mode: 'lines',
-  //   line: {
-  //     color: 'rgb(255, 0, 0)',
-  //     width: 1},
-  //   type: 'scatter3d'};
-
-  var data = [trace1];
-
-  var layout = {margin: {
-    l: 0,
-    r: 0,
-    b: 0,
-    t: 0
+  // Create the layout for the plot
+  var layout = {
+    margin: {
+      l: 0,
+      r: 0,
+      b: 0,
+      t: 0
     },
     paper_bgcolor:'rgba(0,0,0,0)',
     plot_bgcolor:'rgba(0,0,0,0)',
@@ -184,41 +158,43 @@
       }
     },
   };
-  Plotly.newPlot('3d-graph-1', data, layout);
+  // Plot the data
+  Plotly.newPlot('3d-graph-1', traces, layout);
 });
 </script>
 
 <!-- PlotLy 3d Graph 2-->
 <script>
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
-function unpack(rows, key) {
+
+  function unpack(rows, key) {
   return rows.map(function(row)
   { return row[key]; });}
 
-var trace1 = {
-  x:unpack(rows, 'x1'), y: unpack(rows, 'y1'), z: unpack(rows, 'z1'),
-  mode: 'markers',
-  marker: {
-    size: 12,
-    line: {
-    color: 'rgba(217, 217, 217, 0.14)',
-    width: 0.5},
-    opacity: 0.8},
-  type: 'scatter3d'
-};
+  var trace1 = {
+    x:unpack(rows, 'x1'), y: unpack(rows, 'y1'), z: unpack(rows, 'z1'),
+    mode: 'markers',
+    marker: {
+      size: 12,
+      line: {
+      color: 'rgba(217, 217, 217, 0.14)',
+      width: 0.5},
+      opacity: 0.8},
+    type: 'scatter3d'
+  };
 
-var trace2 = {
-  x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
-  mode: 'markers',
-  marker: {
-    color: 'rgb(127, 127, 127)',
-    size: 12,
-    symbol: 'circle',
-    line: {
-    color: 'rgb(255, 0, 0)',
-    width: 1},
-    opacity: 0.8},
-  type: 'scatter3d'};
+  var trace2 = {
+    x:unpack(rows, 'x2'), y: unpack(rows, 'y2'), z: unpack(rows, 'z2'),
+    mode: 'markers',
+    marker: {
+      color: 'rgb(127, 127, 127)',
+      size: 12,
+      symbol: 'circle',
+      line: {
+      color: 'rgb(255, 0, 0)',
+      width: 1},
+      opacity: 0.8},
+    type: 'scatter3d'};
 
 // Add a trace for the lines between the points
 var lines = {
