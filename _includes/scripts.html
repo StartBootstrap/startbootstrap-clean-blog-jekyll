@@ -112,7 +112,7 @@
   }
 
   var hsl = generateHslaColors(100, 50, 1.0, max_labels);
-
+  
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
     mode: 'markers',
@@ -120,7 +120,7 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: hsl[unpack(rows, 'labels')],
+      color: hsl[5],
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
@@ -201,7 +201,7 @@ var trace1 = {
   marker: {
     size: 12,
     line: {
-    color: hsl[5],
+    color: 'rgba(217, 217, 217, 0.14)',
     width: 0.5},
     opacity: 0.8},
   type: 'scatter3d'
