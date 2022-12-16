@@ -98,6 +98,12 @@
     { return row[key]; });}
 
   max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
+  var labels = unpack(rows, 'labels');
+
+  // Map labels to colors using an array
+  var colorArray = labels.map((label, i) => {
+    return Plotly.d3.scale.category10()(i);
+  });
   
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
@@ -106,7 +112,7 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: [],
+      color: colorArray,
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
@@ -118,7 +124,7 @@
   // Iterate over the hue vector and set the color of each marker
   for (var i = 0; i < trace1.x.length; i++) {
     hue[i] = unpack(rows, 'labels') * 360 / max_labels;
-    data[0].marker.color.push('hsl(' + hue[i] + ', 50%, 50%)');
+    trace1.marker.color.push('hsl(' + hue[i] + ', 50%, 50%)');
   }
 
   // var trace2 = {
