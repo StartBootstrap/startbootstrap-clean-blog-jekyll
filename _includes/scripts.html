@@ -112,6 +112,7 @@
   }
 
   var hsl = generateHslaColors(100, 50, 1.0, max_labels);
+
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
     mode: 'markers',
@@ -200,7 +201,7 @@ var trace1 = {
   marker: {
     size: 12,
     line: {
-    color: 'rgba(217, 217, 217, 0.14)',
+    color: hsl[5],
     width: 0.5},
     opacity: 0.8},
   type: 'scatter3d'
@@ -349,7 +350,7 @@ Plotly.newPlot('3d-graph-3', data, layout);
 </script>
 
 <!-- Animate Graph 2 -->
-<script>
+<!-- <script>
   Plotly.animate('3d-graph-2', {
     data: [{x: [1, 2, 3], y: [1, 2, 3], z: [1, 2, 3]}],
   }, {
@@ -361,7 +362,7 @@ Plotly.newPlot('3d-graph-3', data, layout);
       duration: 500
     }
   })
-</script>
+</script> -->
 
 <!-- Animation On Scrolling (AOS) -->
 <script>
