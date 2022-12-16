@@ -92,75 +92,54 @@
 
 <!-- PlotLy 3d Graph Real data -->
 <script>
-  d3.csv('cluster_df_hugo.csv', function(err, rows){
-    // Create a trace for each label
-    var traces = [];
-    // Unpack the data
-    function unpack(rows, key) {
-    return rows.map(function(row)
-    { return row[key]; });}
-    // Finds the number of different labels
-    labels = unpack(rows, 'labels')
-    var max_labels = Math.max.apply(null, labels);
-    for (var i = 1; i <= max_labels; i++) {
-      // Select the data points with label i
-      var data = rows.filter(function(row) { return row[labels] == i; });
-      // Convert the data to x, y, and z arrays
-      var x = data.map(function(row) { return row[tsne_1_weighted_descriptions_embeddings]; });
-      var y = data.map(function(row) { return row[tsne_2_weighted_descriptions_embeddings]; });
-      var z = data.map(function(row) { return row[tsne_3_weighted_descriptions_embeddings]; });
-      // Create a trace for the data points
-      var trace = {
-        x: x,
-        y: y,
-        z: z,
-        mode: 'markers',
-        type: 'scatter3d',
-        marker: {
-          size: 5,
-          color:'rgba(217, 217, 217, 0.14)' // Set the color based on the label colorMap[i]
-        }
-      };
-      traces.push(trace);
+
+  function getColor(label) {
+    // Create a color scale that assigns a unique color to each label
+    var colorScale = d3.scaleOrdinal()
+      .domain(data.map(function(d) { return d.label; }))
+      .range(d3.schemeCategory10);
+
+    // Map the label to a color using the color scale
+    var color = colorScale(label);
+    return color;
   }
-  // Create the layout for the plot
-  var layout = {
-    margin: {
-      l: 0,
-      r: 0,
-      b: 0,
-      t: 0
-    },
-    paper_bgcolor:'rgba(0,0,0,0)',
-    plot_bgcolor:'rgba(0,0,0,0)',
-    // Remove axis
-    scene:{
-      xaxis: {
-        showgrid: false,
-        zeroline: false,
-        showline: false,
-        showticklabels: false,
-        visible: false
+
+
+  d3.csv('data.csv').then(function(data) {
+  // data is an array of objects representing the rows in the csv file
+  // Group the data points by label and create a trace for each group
+  var traces = data.reduce(function(traces, datum) {
+  var labels = datum.labels;
+  if (!traces[labels]) {
+    traces[labels] = {
+      x: [],
+      y: [],
+      z: [],
+      mode: 'markers',
+      marker: {
+        color: getColor(labels),  // assign a color to each trace based on the label
       },
-      yaxis: {
-        showgrid: false,
-        zeroline: false,
-        showline: false,
-        showticklabels: false,
-        visible: false
-      },
-      zaxis: {
-        showgrid: false,
-        showline: false,
-        showticklabels: false,
-        zeroline: false,
-        visible: false
-      }
-    },
-  };
-  // Plot the data
-  Plotly.newPlot('3d-graph-1', traces, layout);
+      name: labels,
+    };
+  }
+  traces[labels].x.push(datum.x);
+  traces[labels].y.push(datum.y);
+  traces[labels].z.push(datum.z);
+  return traces;
+}, {});
+
+// Convert the object of traces into an array
+traces = Object.values(traces);
+Plotly.newPlot('3d-graph-1', traces, {
+  title: '3D Scatter Plot',
+  scene: {
+    xaxis: {title: 'X'},
+    yaxis: {title: 'Y'},
+    zaxis: {title: 'Z'},
+  },
 });
+
+  });
 </script>
 
 <!-- PlotLy 3d Graph 2-->
