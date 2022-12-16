@@ -99,19 +99,7 @@
 
   max_labels = Math.max.apply(Math, unpack(rows, 'labels'));
 
-  function generateHslaColors (saturation, lightness, alpha, amount) {
-  let colors = []
-  let huedelta = Math.trunc(360 / amount)
-
-  for (let i = 0; i < amount; i++) {
-    let hue = i * huedelta
-    colors.push(`hsla(${hue},${saturation}%,${lightness}%,${alpha})`)
-  }
-
-  return colors
-  }
-
-  // var hsl = generateHslaColors(100, 50, 1.0, max_labels);
+  var hue = (360/max_labels)*unpack(rows, 'labels');
   
   var trace1 = {
     x:unpack(rows, 'tsne_1_weighted_descriptions_embeddings'), y: unpack(rows, 'ytsne_2_weighted_descriptions_embeddings'), z: unpack(rows, 'tsne_1_weighted_descriptions_embeddings'),
@@ -120,7 +108,7 @@
       size: 12,
       // color: hsl[unpack(rows, 'labels')],
       line: {
-      color: 'rgba((360/max_labels)*unpack(rows, "labels"), 50, 100, 1)',
+      color: 'hsl(' + hue + ', 50%, 50%)',
       width: 0.5},
       opacity: 0.8},
     hovertext: unpack(rows, 'Character name	title'),
