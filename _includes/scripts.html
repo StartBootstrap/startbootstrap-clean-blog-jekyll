@@ -100,9 +100,9 @@ return rows.map(function(row)
 
 var labels = unpack(rows, 'labels');
 // Extract the x, y, and z values for the trace
-var all_x = unpack(Rows, 'tsne_1_weighted_descriptions_embeddings');
-var all_y = unpack(Rows, 'tsne_2_weighted_descriptions_embeddings');
-var all_z = unpack(Rows, 'tsne_3_weighted_descriptions_embeddings');
+var all_x = unpack(rows, 'tsne_1_weighted_descriptions_embeddings');
+var all_y = unpack(rows, 'tsne_2_weighted_descriptions_embeddings');
+var all_z = unpack(rows, 'tsne_3_weighted_descriptions_embeddings');
 var max_labels = Math.max.apply(Math, labels);
 
 // Loop on the labels
@@ -116,7 +116,7 @@ var traces = [];
 for(var i = 1; i <= max_labels; i++){
   // Filter the rows to get all rows with the current label
   var filteredRows = rows.filter(function(row) {
-    return parseInt(row['labels'], 10) == i;
+    return row['labels'] == i.toString();
   });
 
   // Extract the x, y, and z values for the trace
