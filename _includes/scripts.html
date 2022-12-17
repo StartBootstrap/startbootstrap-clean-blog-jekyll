@@ -98,13 +98,23 @@ function unpack(rows, key) {
 return rows.map(function(row)
 { return row[key]; });}
 
-const labels = unpack(rows, 'labels');
+
 // Extract the x, y, and z values for the trace
 const all_x = unpack(rows, 'tsne_1_weighted_descriptions_embeddings');
 const all_y = unpack(rows, 'tsne_2_weighted_descriptions_embeddings');
 const all_z = unpack(rows, 'tsne_3_weighted_descriptions_embeddings');
 const coordinates = [all_x, all_y, all_z];
-var max_labels = Math.max.apply(Math, labels);
+const labels = unpack(rows, 'labels');
+
+function getMaxLabel(labels) {
+  let maxLabel = 0;
+  labels.forEach(function(label) {
+    maxLabel = Math.max(maxLabel, parseInt(label, 10));
+  });
+  return maxLabel;
+}
+
+var max_labels = getMaxLabel(labels);
 
 // Loop on the labels
 var colors = [];
@@ -156,14 +166,14 @@ for(var i = 1; i <= max_labels; i++){
   });
 
   // Create a new trace object
-  var trace = {
-    x: x,
-    y: y,
-    z: z,
+  var trace_all = {
+    x: all_x,
+    y: all_y,
+    z: all_z,
     mode: 'markers',
     marker: {
       size: 12,
-      color: 'rgba(217, 217, 217, 0.14)',  // colors[i - 1],
+      color: colors[6],  // colors[i - 1],
       line: {
       color: 'rgba(217, 217, 217, 0.14)',
       width: 0.5},
