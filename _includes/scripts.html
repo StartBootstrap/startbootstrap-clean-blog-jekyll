@@ -100,11 +100,11 @@ return rows.map(function(row)
 
 
 // Extract the x, y, and z values for the trace
-const all_x = unpack(rows, 'tsne_1_weighted_descriptions_embeddings');
-const all_y = unpack(rows, 'tsne_2_weighted_descriptions_embeddings');
-const all_z = unpack(rows, 'tsne_3_weighted_descriptions_embeddings');
-const coordinates = [all_x, all_y, all_z];
-const labels = unpack(rows, 'labels');
+var all_x = unpack(rows, 'tsne_1_weighted_descriptions_embeddings');
+var all_y = unpack(rows, 'tsne_2_weighted_descriptions_embeddings');
+var all_z = unpack(rows, 'tsne_3_weighted_descriptions_embeddings');
+var coordinates = [all_x, all_y, all_z];
+var labels = unpack(rows, 'labels');
 
 function getMaxLabel(labels) {
   let maxLabel = 0;
