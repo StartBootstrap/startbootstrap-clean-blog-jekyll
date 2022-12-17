@@ -141,6 +141,24 @@ for(var i = 1; i <= max_labels; i++){
   traces.push(trace);
 }
 
+var trace_test = {
+  x: [0, 1, 2],
+  y: [0, 1, 2],
+  z: [0, 1, 2],
+  mode: 'markers',
+  marker: {
+    size: 12,
+    color: 'rgba(217, 217, 217, 0.14)',  // colors[i - 1],
+    line: {
+    color: 'rgba(217, 217, 217, 0.14)',
+    width: 0.5},
+    opacity: 0.8
+  },
+  type: 'scatter3d'
+};
+
+traces.push(trace_test);
+
 var layout = {
 margin: {
   l: 0,
