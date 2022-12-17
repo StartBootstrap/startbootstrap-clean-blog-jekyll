@@ -92,54 +92,93 @@
 
 <!-- PlotLy 3d Graph Real data -->
 <script>
+d3.csv('cluster_df_hugo.csv', function(err, rows){
 
-  function getColor(label) {
-    // Create a color scale that assigns a unique color to each label
-    var colorScale = d3.scaleOrdinal()
-      .domain(data.map(function(d) { return d.label; }))
-      .range(d3.schemeCategory10);
+function unpack(rows, key) {
+return rows.map(function(row)
+{ return row[key]; });}
 
-    // Map the label to a color using the color scale
-    var color = colorScale(label);
-    return color;
-  }
+var labels = unpack(rows, 'labels');
+var max_labels = Math.max.apply(Math, labels);
 
+// Loop on the labels
+var colors = [];
+for(var i = 1; i <= max_labels; i++){
+  colors.push('rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')');
+}
 
-  d3.csv('data.csv').then(function(data) {
-  // data is an array of objects representing the rows in the csv file
-  // Group the data points by label and create a trace for each group
-  var traces = data.reduce(function(traces, datum) {
-  var labels = datum.labels;
-  if (!traces[labels]) {
-    traces[labels] = {
-      x: [],
-      y: [],
-      z: [],
-      mode: 'markers',
-      marker: {
-        color: getColor(labels),  // assign a color to each trace based on the label
-      },
-      name: labels,
-    };
-  }
-  traces[labels].x.push(datum.x);
-  traces[labels].y.push(datum.y);
-  traces[labels].z.push(datum.z);
-  return traces;
-}, {});
+var traces = [];
 
-// Convert the object of traces into an array
-traces = Object.values(traces);
-Plotly.newPlot('3d-graph-1', traces, {
-  title: '3D Scatter Plot',
-  scene: {
-    xaxis: {title: 'X'},
-    yaxis: {title: 'Y'},
-    zaxis: {title: 'Z'},
-  },
-});
-
+for(var i = 1; i <= max_labels; i++){
+  // Filter the rows to get all rows with the current label
+  var filteredRows = rows.filter(function(row) {
+    return row['labels'] == i;
   });
+
+  // Extract the x, y, and z values for the trace
+  var x = unpack(filteredRows, 'tsne_1_weighted_descriptions_embeddings');
+  var y = unpack(filteredRows, 'tsne_2_weighted_descriptions_embeddings');
+  var z = unpack(filteredRows, 'tsne_3_weighted_descriptions_embeddings');
+
+  // Create a new trace object
+  var trace = {
+    x: x,
+    y: y,
+    z: z,
+    mode: 'markers',
+    marker: {
+      size: 12,
+      color: colors[i - 1],
+      line: {
+      color: 'rgba(217, 217, 217, 0.14)',
+      width: 0.5},
+      opacity: 0.8
+    },
+    type: 'scatter3d'
+  };
+
+  // Push the trace to the traces array
+  traces.push(trace);
+}
+
+var layout = {
+margin: {
+  l: 0,
+  r: 0,
+  b: 0,
+  t: 0
+},
+paper_bgcolor:'rgba(0,0,0,0)',
+plot_bgcolor:'rgba(0,0,0,0)',
+// Remove axis
+scene:{
+  xaxis: {
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    showticklabels: false,
+    visible: false
+  },
+  yaxis: {
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    showticklabels: false,
+    visible: false
+  },
+  zaxis: {
+    showgrid: false,
+    showline: false,
+    showticklabels: false,
+    zeroline: false,
+    visible: false
+  }
+}
+};
+
+// Use the traces array to plot the 3D scatter plot with Plotly
+Plotly.newPlot('3d-graph-1', traces, layout);
+});
 </script>
 
 <!-- PlotLy 3d Graph 2-->
