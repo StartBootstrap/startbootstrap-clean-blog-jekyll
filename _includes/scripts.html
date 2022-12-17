@@ -116,9 +116,9 @@ const coordinatesByLabel = {};
 
 labels.forEach((label, index) => {
   // Get the coordinates for the current label
-  const x = all_x[index];
-  const y = all_y[index];
-  const z = all_z[index];
+  const x = parseFloat(all_x[index]);
+  const y = parseFloat(all_y[index]);
+  const z = parseFloat(all_z[index]);
   const coordinates = [x, y, z];
 
   // If the label exists in the object, push the coordinates to the array for that label
