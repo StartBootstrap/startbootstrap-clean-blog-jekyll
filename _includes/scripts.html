@@ -192,6 +192,29 @@ var trace_test = {
   type: 'scatter3d'
 };
 
+// Filter the data for the label 1
+var filteredRows = rows.filter(function (row) {
+  return row.labels === '1';
+});
+
+
+var trace1 = {
+
+  x: unpack(filteredRows, 'tsne_1_weighted_descriptions_embeddings'),
+  y: unpack(filteredRows, 'tsne_2_weighted_descriptions_embeddings'),
+  z: unpack(filteredRows, 'tsne_3_weighted_descriptions_embeddings'),
+  mode: 'markers',
+  marker: {
+    size: 12,
+    color: colors[8],  // colors[i - 1],
+    line: {
+    color: 'rgba(217, 217, 217, 0.14)',
+    width: 0.5},
+    opacity: 0.8
+  },
+  type: 'scatter3d'
+};
+
 traces.push(trace_test);
 
 var layout = {
