@@ -166,10 +166,10 @@ for(var i = 1; i <= max_labels; i++){
   });
 
   // Create a new trace object
-  var trace_all = {
-    x: all_x,
-    y: all_y,
-    z: all_z,
+  var trace = {
+    x: x,
+    y: y,
+    z: z,
     mode: 'markers',
     marker: {
       size: 12,
@@ -183,7 +183,7 @@ for(var i = 1; i <= max_labels; i++){
   };
 
   // Push the trace to the traces array
-  traces.push(trace_all);
+  traces.push(trace);
 }
 
 var trace_test = {
@@ -202,17 +202,13 @@ var trace_test = {
   type: 'scatter3d'
 };
 
-// Filter the data for the label 1
-var filteredRows = rows.filter(function (row) {
-  return row.labels === '1';
-});
+traces.push(trace_test);
 
+var trace_all = {
 
-var trace1 = {
-
-  x: unpack(filteredRows, 'tsne_1_weighted_descriptions_embeddings'),
-  y: unpack(filteredRows, 'tsne_2_weighted_descriptions_embeddings'),
-  z: unpack(filteredRows, 'tsne_3_weighted_descriptions_embeddings'),
+  x: all_x,
+  y: all_y,
+  z: all_z,
   mode: 'markers',
   marker: {
     size: 12,
@@ -225,7 +221,7 @@ var trace1 = {
   type: 'scatter3d'
 };
 
-traces.push(trace_test);
+traces.push(trace_all);
 
 var layout = {
 margin: {
