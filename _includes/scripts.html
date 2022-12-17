@@ -99,6 +99,10 @@ return rows.map(function(row)
 { return row[key]; });}
 
 var labels = unpack(rows, 'labels');
+// Extract the x, y, and z values for the trace
+var all_x = unpack(Rows, 'tsne_1_weighted_descriptions_embeddings');
+var all_y = unpack(Rows, 'tsne_2_weighted_descriptions_embeddings');
+var all_z = unpack(Rows, 'tsne_3_weighted_descriptions_embeddings');
 var max_labels = Math.max.apply(Math, labels);
 
 // Loop on the labels
@@ -112,7 +116,7 @@ var traces = [];
 for(var i = 1; i <= max_labels; i++){
   // Filter the rows to get all rows with the current label
   var filteredRows = rows.filter(function(row) {
-    return row['labels'] == i;
+    return parseInt(row['labels'], 10) == i;
   });
 
   // Extract the x, y, and z values for the trace
@@ -148,7 +152,7 @@ var trace_test = {
   mode: 'markers',
   marker: {
     size: 12,
-    color: 'rgba(217, 217, 217, 0.14)',  // colors[i - 1],
+    color: colors[7],  // colors[i - 1],
     line: {
     color: 'rgba(217, 217, 217, 0.14)',
     width: 0.5},
