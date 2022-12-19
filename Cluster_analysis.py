@@ -8,16 +8,27 @@ import plotly.express as px
 import plotly.offline as offline
 import plotly.graph_objs as go
 
-def add_centroids(fig, centroids):
+
+def compute_centroids(df, column):
+    centroids = []
+    for i in range(df[column].max()+1):
+        centroids.append(df[df[column] == i][['X', 'Y', 'Z']].mean().values)
+    return centroids
+
+def add_centroids(fig, centroids, titles):
     # add centroids of each cluster
     for i in range(len(centroids)):
-        fig.add_trace(go.Scatter3d(x=[centroids[i][0]], y=[centroids[i][1]], z=[centroids[i][2]], mode='markers + text', marker=dict(size=10, color='white', line=dict(color='black', width=1)), text='Cluster {}'.format(i),
-                                hovertemplate=None, hoverinfo=None, hoverlabel=None, showlegend=False,
-                                textfont=dict(
-            family="sans serif",
+        # The centroid title should be displayed over the points, so that it is not hidden by the points
+        fig.add_trace(go.Scatter3d(x=[centroids[i][0]], y=[centroids[i][1]], z=[centroids[i][2]], mode='markers + text', marker=dict(size=10, color='white', line=dict(color='black', width=1)), text=titles[i-1],
+                                   hovertemplate=None, hoverinfo=None, hoverlabel=None, showlegend=False,
+                                   textfont=dict(
+            family="arial",
             size=22,
             color="white"
         )))
+             
+
+      
     return fig
 
 def set_layout(fig):
