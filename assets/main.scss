@@ -3,11 +3,3 @@
 ---
 
 @import "styles";
-
-[data-aos="fade-out"] {
-    opacity: 1;
-    transition-property: opacity;
-  }
-  [data-aos="fade-out"].aos-animate {
-    opacity: 0;
-  }
