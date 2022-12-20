@@ -1,0 +1,487 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DON'T CHANGE ANYTHING IN THIS FILE!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{template}[2003/01/30 Boaz's Style file for Lecture Notes]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Package lnotes - macros for writing lexture notes and homework
+% last updated March 2nd 2003
+%
+%Options:
+%full/proceed - full or proceedings version - set full variable
+%hylinks/nohylinks - use/don't use hyperlinks
+%draft/final - working draft (show author notes) or final version
+%titlepage/notitlepage - use/don't use a title page
+%
+%Options for Table of Contents, List of Figures, List of Tables:
+%usetoc/nousetoc , uselot/nouselot , uselof/nouselof
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{times}
+\RequirePackage{amsfonts,latexsym,amssymb,geometry}
+\RequirePackage{amsmath,amsthm,amstext,url}
+%\RequirePackage{fullpage}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,246mm},
+ left=20mm,
+ top=20mm,
+ }
+
+%%%%%%%%%%%%%%%%%%%%
+% General switches
+\def\full{1}
+\def\hylinks{0}
+\def\draft{0}
+\def\usetitlepage{0}
+\def\homework{0}
+
+\def\usetoc{0}
+\def\uselot{0}
+\def\uselof{0}
+
+\def\usegraphics{1}
+
+
+\DeclareOption{usetoc}{\def\usetoc{1}}
+\DeclareOption{nousetoc}{\def\usetoc{0}}
+\DeclareOption{uselot}{\def\uselot{1}}
+\DeclareOption{nouselot}{\def\uselot{0}}
+\DeclareOption{uselof}{\def\uselof{1}}
+\DeclareOption{nouselof}{\def\uselof{0}}
+
+\DeclareOption{usegraphics}{\def\usegraphics{1}}
+\DeclareOption{nousegraphics}{\def\usegraphics{0}}
+
+
+\DeclareOption{homework}{\def\homework{1}}
+
+
+
+\DeclareOption{full}{\def\full{1}}  % Full or proceedings version
+\DeclareOption{proceed}{\def\full{0}}
+
+\DeclareOption{hylinks}{\def\hylinks{1}} % 1  for links in pdf (hyperref package)
+\DeclareOption{nohylinks}{\def\hylinks{0}}
+
+\DeclareOption{draft}{\def\draft{1}} % 1 for working draft
+\DeclareOption{final}{\def\draft{0}}
+
+\DeclareOption{titlepage}{\def\usetitlepage{1}}  % 1 - use a separate page for title
+\DeclareOption{notitlepage}{\def\usetitlepage{0}}
+
+\ProcessOptions
+
+
+%\RequirePackage{ifpdf}
+
+
+
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+\else
+  \ifx\pdfoutput\relax
+  \else
+    \ifcase\pdfoutput
+    \else
+      \pdftrue
+    \fi
+  \fi
+\fi
+
+
+
+
+\ifnum\usegraphics=1 
+\usepackage{graphicx}
+\fi
+
+\ifnum\draft=1 % show authors' note if draft
+    \def\ShowAuthNotes{1}
+\else
+    \def\ShowAuthNotes{0}
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%
+% set up pdfLaTeX
+%\ifpdf
+% \ifnum\hylinks=0
+% \pdfpagewidth=\paperwidth
+% \pdfpageheight=\paperheight
+% \fi
+%\fi
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Spacing
+
+% positive
+\newcommand{\sspace}{1ex}
+\newcommand{\bspace}{1ex}
+
+% negative
+\ifnum\full=1
+  \def\nnspace{}
+\else
+  \def\nnspace{\vspace{-1ex}}
+\fi
+\newcommand{\newitem}{\nnspace\item}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theorems & Definitions
+
+\ifnum\homework=0
+\newtheorem{theorem}{Theorem}[section]
+\else
+\newtheorem{theorem}{Theorem}
+\fi
+
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{subclaim}{Claim}[theorem]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{observation}[theorem]{Observation}
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{construction}[theorem]{Construction}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{algorithm1}[theorem]{Algorithm}
+\newtheorem{protocol}[theorem]{Protocol}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{exercise}[theorem]{Exercise}
+
+
+\newenvironment{algorithm}[1][]{\begin{algorithm1}[#1]~\\
+    \vspace{-0.1cm}}{\end{algorithm1}}
+
+%\newcommand{\qed}{\begin{flushright}
+%\rule{.1in}{.1in} \end{flushright}  }
+
+
+%\newenvironment{proofsk}{\nopagebreak
+%\noindent{\bf Proof Sketch:}}{ \qed \par \medskip}
+
+\newenvironment{answer}{\nopagebreak
+\noindent{\bf Answer:}}{ \qed \par \medskip}
+
+\newcommand{\BBBtmp}{}
+
+
+\newcommand{\BBtmp}{}
+
+
+
+\newcounter{BBtmpC}
+
+\newenvironment{protocolf}[1]{\renewcommand{\BBtmp}{#1} \stepcounter{BBtmpC}
+\renewcommand{\BBBtmp}{l\arabic{BBtmpC}}
+ \begin{figure}[htbp]}
+{\begin{protocol} \label{BBtmpL:\BBBtmp}
+\BBtmp
+\end{protocol}
+\addcontentsline{lot}{table}{\ifnum\hylinks=1%
+Protocol~\ref*{BBtmpL:\BBBtmp}:\else
+Protocol~\ref{BBtmpL:\BBBtmp}:
+\fi \BBtmp} %\nnspace\nnspace \nnspace
+ \end{figure}
+}
+
+\newenvironment{protocolf1}[1]{\renewcommand{\BBtmp}{#1} \stepcounter{BBtmpC}
+\renewcommand{\BBBtmp}{l\arabic{BBtmpC}}
+\begin{figure}[htbp]}
+{\begin{protocol} \label{BBtmpL:\BBBtmp} \BBtmp
+\end{protocol}
+\addcontentsline{lot}{table}{Protocol~\ref{BBtmpL:\BBBtmp}:
+\BBtmp}
+\nnspace\nnspace \nnspace
+ \end{figure}  }
+
+\newcommand{\protStep}[3]{\begin{description} \vspace{-1.8ex} \newitem[#2 (#1):]  #3 \nnspace \end{description}\nnspace \nnspace }
+
+
+\newenvironment{algorithmf}[1]{\renewcommand{\BBtmp}{#1} \stepcounter{BBtmpC}
+\renewcommand{\BBBtmp}{l\arabic{BBtmpC}}
+ \begin{figure}[htbp]}
+{\begin{algorithm1} \label{BBtmpL:\BBBtmp}
+\BBtmp
+\end{algorithm1}
+\addcontentsline{lot}{table}{Algorithm~\ref{BBtmpL:\BBBtmp}:
+\BBtmp} %\nnspace\nnspace \nnspace
+ \end{figure}
+
+}
+
+
+\newenvironment{proofsk}{\begin{proof}[Proof Sketch:]}
+{\end{proof}}
+
+
+\newenvironment{smallproof}{\nopagebreak \begin{quote} %
+\begin{small} \noindent{\bf Proof:}}{ \qed \par %
+\end{small} \end{quote} \medskip}
+
+\newenvironment{note}{\nopagebreak \begin{quote} %
+\noindent{\bf Note:}}{%
+\end{quote} \medskip}
+
+\newenvironment{notes}{\nopagebreak \begin{quote} %
+\noindent{\bf Notes:} \par%
+\begin{itemize}}{%
+\end{itemize}\end{quote} \medskip}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% General Macros
+
+\newcommand{\eqdef}{\stackrel{def}{=}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\bits}{\{0,1\}}
+\newcommand{\inr}{\in_{\mbox{\tiny R}}}
+\newcommand{\getsr}{\gets_{\mbox{\tiny R}}}
+\newcommand{\st}{\mbox{ s.t. }}
+\newcommand{\etal}{{\it et al }}
+\newcommand{\into}{\rightarrow}
+
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\To}{\rightarrow}
+%\newcommand{\vec}[1]{\overline{\mathbf{#1}}}
+\newcommand{\e}{\epsilon}
+\newcommand{\ee}{\varepsilon}
+\newcommand{\ceil}[1]{{\lceil{#1}\rceil}}
+\newcommand{\floor}[1]{{\lfloor{#1}\rfloor}}
+\newcommand{\angles}[1]{\langle #1 \rangle}
+\newcommand{\Com}{{\sf Com}}
+\newcommand{\desc}{{\sf desc}}
+\newcommand{\norm}[2]{\|#1\|_{_#2}}
+\newcommand{\normone}[1]{\norm{#1}{1}}
+\newcommand{\normtwo}[1]{\norm{#1}{2}}
+\newcommand{\dprod}[2]{\langle #1, #2 \rangle}
+
+\newcommand{\poly}{{\rm poly}}
+\newcommand{\polylog}{{\rm polylog}}
+\newcommand{\GF}{\mathrm{GF}}
+\newcommand{\charfun}[1]{{\bf{1}}_{#1}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author's notes
+
+\ifnum\ShowAuthNotes=1
+\newcommand{\authnote}[2]{{ \bf [#1's Note: #2]}}
+\else
+\newcommand{\authnote}[2]{}
+\fi
+\newcommand{\Bnote}[1]{{\authnote{Boaz}{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Complexity classes
+
+\renewcommand{\P}{\mathbf{P}}
+\newcommand{\NP}{\mathbf{NP}}
+\newcommand{\NC}{\mathbf{NC}}
+\newcommand{\Ppoly}{\mathbf{P}/poly}
+\newcommand{\NEXP}{\mathbf{NEXP}}
+\newcommand{\EXP}{\mathbf{EXP}}
+\newcommand{\PCP}{\mathbf{PCP}}
+\newcommand{\Ntime}{\mathbf{Ntime}}
+\newcommand{\Dtime}{\mathbf{Dtime}}
+\newcommand{\BPP}{\mathbf{BPP}}
+\newcommand{\PromiseBPP}{\mathbf{PromiseBPP}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% refs macros - needed to use links in pdf
+
+
+
+\ifnum\hylinks=1
+
+
+
+%%%%%
+% For print, we might want to use
+% colorlinks
+% citecolor = black
+% filecolor = black
+% linkcolor = black
+% urlcolor  = black
+%
+% Also possible to use plainpages=false
+% to eliminate warnings of duplicate links
+
+\ifpdf
+\RequirePackage[pdftex,colorlinks,linkcolor=blue,filecolor = blue, citecolor = blue, urlcolor  = blue]{hyperref}
+\else
+\RequirePackage[colorlinks,linkcolor=blue,filecolor = blue, citecolor = blue, urlcolor  = blue]{hyperref}
+\fi
+
+\newcommand{\sectionref}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+\newcommand{\theoremref}[1]{\hyperref[#1]{Theorem~\ref*{#1}}}
+\newcommand{\definitionref}[1]{\hyperref[#1]{Definition~\ref*{#1}}}
+\newcommand{\figureref}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
+\newcommand{\lemmaref}[1]{\hyperref[#1]{Lemma~\ref*{#1}}}
+\newcommand{\claimref}[1]{\hyperref[#1]{Claim~\ref*{#1}}}
+\newcommand{\constructionref}[1]{\hyperref[#1]{Construction~\ref*{#1}}}
+\newcommand{\itemref}[1]{\hyperref[#1]{Item~\ref*{#1}}}
+\newcommand{\propertyref}[1]{\hyperref[#1]{Property~\ref*{#1}}}
+\newcommand{\protocolref}[1]{\hyperref[#1]{Protocol~\ref*{#1}}}
+\newcommand{\algorithmref}[1]{\hyperref[#1]{Algorithm~\ref*{#1}}}
+\newcommand{\exerciseref}[1]{\hyperref[#1]{Exercise~\ref*{#1}}}
+\newcommand{\exampleref}[1]{\hyperref[#1]{Example~\ref*{#1}}}
+
+
+\else
+
+\newcommand{\sectionref}[1]{Section~\ref{#1}}
+\newcommand{\theoremref}[1]{Theorem~\ref{#1}}
+\newcommand{\definitionref}[1]{Definition~\ref{#1}}
+\newcommand{\figureref}[1]{Figure~\ref{#1}}
+\newcommand{\lemmaref}[1]{Lemma~\ref{#1}}
+\newcommand{\claimref}[1]{Claim~\ref{#1}}
+\newcommand{\constructionref}[1]{Construction~\ref{#1}}
+\newcommand{\itemref}[1]{Item~\ref{#1}}
+\newcommand{\propertyref}[1]{Property~\ref{#1}}
+\newcommand{\protocolref}[1]{Protocol~\ref{#1}}
+\newcommand{\algorithmref}[1]{Algorithm~\ref{#1}}
+\newcommand{\exerciseref}[1]{Exercise~\ref{#1}}
+\newcommand{\exampleref}[1]{Example~\ref{#1}}
+
+
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MACROS Specific to lecture notes
+
+\newcommand{\makeheader}{
+\ifnum\homework=1
+\title{Mathematical Methods in Computer Science: \\ 
+         Exercise \exerciseNr}
+  \date{\today}
+  \maketitle
+\else
+
+
+\ifnum\solitude=1
+ \title{MA305 - Optimization Techniques\thanks{\
+         Lecture Notes for a course given by Dr. Manjil P. Saikia, IIIT Manipur, India.} \\
+         Lecture \lectureNr: \lecture}
+  \author{Notes taken by \scribe}
+  \date{\today}
+  \maketitle
+\else
+  %\LectureDetails{\lectureNr}{\lecture}{\scribe}
+   \chapter{Lecture \lectureNr: \lecture}
+   \begin{flushright}
+   {\large Notes taken by \scribe}
+   \end{flushright}
+\fi
+\fi
+}
+
+
+
+\newcommand{\LecNumber}{0}
+
+\newcommand{\BEGINDOC}{\ifnum\solitude=1\begin{document}\fi}
+\newcommand{\ENDDOC}{\ifnum\solitude=1 \bibliographystyle{alpha}
+\bibliography{lecture\lectureNr}\end{document}\fi}
+
+\newenvironment{summary}{\begin{quote}\textbf{Summary:} }{\end{quote}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\DOCkeywords}[1]{\ifnum\usetitlepage=1 \vfill \paragraph{Keywords:} #1 \fi}
+
+\newenvironment{DOCheader}{%
+\ifnum\usetitlepage=1
+\begin{titlepage}
+ \thispagestyle{empty} 
+\fi
+\maketitle
+\ifnum\draft=1 
+\begin{center}\begin{Large}\textsc{Working Draft}\end{Large}\end{center}
+\vspace{0.2cm}
+\fi
+} %%%% END
+{
+\ifnum\usetitlepage=1
+\end{titlepage}
+\ifnum\usetoc=1
+\newpage
+\ifnum\hylinks=1 \ifpdf \pdfbookmark[1]{Table of contents}{tabOfCont}
+\fi \fi
+\tableofcontents
+\fi
+
+\ifnum\uselof=1
+\listoffigures
+\fi
+\ifnum\uselot=1
+\listoftables
+\fi
+\newpage
+\fi
+}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AtBeginDocument{
+%\ifnum\draft=1 
+%\pagestyle{myheadings}
+%\markright{\textsc{Draft}}
+%\fi
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\AtEndDocument{
+\ifnum\usetitlepage=0
+
+\ifnum\usetoc=1
+\newpage
+\ifnum\hylinks=1 \ifpdf \pdfbookmark{Table of contents}{tabOfCont}
+\fi \fi
+\tableofcontents
+\fi
+
+\ifnum\uselof=1
+\listoffigures
+\fi
+\ifnum\uselot=1
+\listoftables
+\fi
+
+\fi
+}
