@@ -29,3 +29,5 @@ In July 2014 I gave a few talks at Darrang College, Tezpur on Number Theory. The
 In 2017, I made a few question papers for my sister who was about to appear for her high school leaving examination. These can be found [here](http://gonitsora.com/manjil/olympiads/aitu-1.pdf) and [here](http://gonitsora.com/manjil/olympiads/aitu-2.pdf).
 
 In 2018, I was invited to give a few lectures for aspirants of CMI and ISI entrance examinations. I made a problem sheet for them, which can be found [here](http://gonitsora.com/manjil/olympiads/inspire.pdf).
+
+In December 2022, I gave a problem solving session for JEE aspirants at IIIT Manipur. Some of the problems discussed can be found [here](/Downloads/iiit-jee.pdf).
