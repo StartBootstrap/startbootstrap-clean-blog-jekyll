@@ -38,7 +38,14 @@ def resize_revenue(fig, df):
                                3 * x / mean_box_office for x in df['Box office revenue']]
     return fig
 
-def add_button_romance(fig, df):
+
+def add_button_romance(fig):
+    number_trace = len(fig.data)
+    boolean_rom = [False if i < 2 else True for i in range(number_trace)]
+    boolean_non_rom = [False if i < 2 else True for i in range(number_trace)]
+    boolean_rom[0] = True
+    boolean_non_rom[1] = True
+    boolean_all = [True for i in range(number_trace)]
     fig.update_layout(
         updatemenus=[
             dict(
@@ -49,19 +56,20 @@ def add_button_romance(fig, df):
                 y=1.1,
                 buttons=list([
                     dict(  # Button for displaying all movies
-                        args=[{"visible": [True for i in range(len(fig.data))]}],
+                        args=[
+                            {"visible": boolean_all}],
                         label="All characters",
                         method="update"
                     ),
                     dict(  # Button for displaying romance movies, use the column 'romance'. romanc column contains boolean values
                         args=[
-                            {"visible": [True if x == True else False for x in df['romance']]}],
+                            {"visible": boolean_rom}],
                         label="Characters from romance movies",
                         method="update"
                     ),
                     dict(  # Button for displaying non-romance movies, use the column 'romance'. romanc column contains boolean values
                         args=[
-                            {"visible": [True if x == False else False for x in df['romance']]}],
+                            {"visible": boolean_non_rom}],
                         label="Characters from non-romance movies",
                         method="update"
                     )
@@ -71,7 +79,47 @@ def add_button_romance(fig, df):
     )
     return fig
 
-def set_layout(fig):
+
+
+def add_button_gender(fig):
+    """
+    Adds a button to the plotly figure to display either all points, men or women
+    """
+    number_trace = len(fig.data)
+    # Create boolean_male, boolean_female and boolean_unknown of length number_trace, with false for all elements
+    boolean_male = [False if i < 3 else True for i in range(number_trace)]
+    boolean_female = [False if i < 3 else True for i in range(number_trace)]
+    boolean_male[0] = True
+    boolean_female[1] = True
+    boolean_all = [True for i in range(number_trace)]
+
+    # Column 'Gender' contains either 'M', 'F' or 'Not Available'
+    fig.update_layout(
+        updatemenus=[
+            dict(
+                type="buttons",
+                direction="left",
+                # Buttons should appear above the plot
+                x=0.75,
+                y=1.1,
+                buttons=list([
+                    dict(args=[{"visible": boolean_all}],
+                         label="All",
+                         method="update"),
+                    dict(args=[{"visible": boolean_male}],
+                         label="Men",
+                         method="update"),
+                    dict(args=[{"visible": boolean_female}],
+                         label='Women',
+                         method="update")
+                ]),
+            )
+        ]
+    )
+    return fig
+
+
+def set_layout(fig, df, Hovertemplate):
     #Layout parameters
     fig.update_layout(
         hoverlabel=dict(
@@ -104,6 +152,9 @@ def set_layout(fig):
         plot_bgcolor='rgba(0,0,0,0)',
         coloraxis_showscale=False,
         showlegend=False,)
+    fig = resize_revenue(fig, df)
+    fig.data[0].hovertemplate = Hovertemplate
+    fig.update_layout(height=800, width=1500)
     # Determines how zoomed in it is
     fig.update_layout(scene_camera_eye=dict(x=0.4, y=0.4, z=0.4))
     return fig
