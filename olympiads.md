@@ -30,4 +30,4 @@ In 2017, I made a few question papers for my sister who was about to appear for 
 
 In 2018, I was invited to give a few lectures for aspirants of CMI and ISI entrance examinations. I made a problem sheet for them, which can be found [here](http://gonitsora.com/manjil/olympiads/inspire.pdf).
 
-In December 2022, I gave a problem solving session for JEE aspirants at IIIT Manipur. Some of the problems discussed can be found [here](/Downloads/iiit-jee.pdf).
+In December 2022, I gave a problem solving session for JEE aspirants at IIIT Manipur. Some of the problems discussed can be found [here](/downloads/iiit-jee.pdf).
