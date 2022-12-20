@@ -31,21 +31,49 @@ def add_centroids(fig, centroids, titles):
       
     return fig
 
-def set_layout(fig):
-    #Layout parameters
+def resize_revenue(fig, df):
+    mean_box_office = np.mean(
+        [x for x in df['Box office revenue'] if type(x) == float])
+    fig.data[0].marker.size = [5 if x == 'Not Available' else 5 +
+                               3 * x / mean_box_office for x in df['Box office revenue']]
+    return fig
+
+def add_button_romance(fig, df):
     fig.update_layout(
         updatemenus=[
             dict(
-                buttons=[
-                    dict(
-                        label="Decrease Opacity",
-                        method="update",
-                        args=[{"marker.size": [3 if x == 'M' else 5 for x in fig.data[0].customdata[4]]},
-                            {"title": "Decreased Opacity"}]
+                type="buttons",
+                direction="left",
+                # Buttons should appear above the plot
+                x=0.75,
+                y=1.1,
+                buttons=list([
+                    dict(  # Button for displaying all movies
+                        args=[{"visible": [True for i in range(len(fig.data))]}],
+                        label="All characters",
+                        method="update"
+                    ),
+                    dict(  # Button for displaying romance movies, use the column 'romance'. romanc column contains boolean values
+                        args=[
+                            {"visible": [True if x == True else False for x in df['romance']]}],
+                        label="Characters from romance movies",
+                        method="update"
+                    ),
+                    dict(  # Button for displaying non-romance movies, use the column 'romance'. romanc column contains boolean values
+                        args=[
+                            {"visible": [True if x == False else False for x in df['romance']]}],
+                        label="Characters from non-romance movies",
+                        method="update"
                     )
-                ]
+                ]),
             )
-        ],
+        ]
+    )
+    return fig
+
+def set_layout(fig):
+    #Layout parameters
+    fig.update_layout(
         hoverlabel=dict(
             bgcolor="white",
             font_size=16,
@@ -76,4 +104,6 @@ def set_layout(fig):
         plot_bgcolor='rgba(0,0,0,0)',
         coloraxis_showscale=False,
         showlegend=False,)
+    # Determines how zoomed in it is
+    fig.update_layout(scene_camera_eye=dict(x=0.4, y=0.4, z=0.4))
     return fig
