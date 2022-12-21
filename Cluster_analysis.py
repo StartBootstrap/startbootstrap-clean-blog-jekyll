@@ -15,20 +15,24 @@ def compute_centroids(df, column):
         centroids.append(df[df[column] == i][['X', 'Y', 'Z']].mean().values)
     return centroids
 
+def make_full_graph(df):
+    fig = px.scatter_3d(df, x='X', y='Y', z='Z', color='labels',
+                        color_continuous_scale=px.colors.cyclical.HSV, hover_name='Character name', hover_data={'Name': True,
+                                                                                                                'Release date': True, 'Actor name': True, 'Actor age at release': True, 'Gender': True, 'X': False,
+                                                                                                                'Y': False, 'Z': False, 'labels': False, 'title': True, 'filtered_descriptions': True, 'Genres': True, 'Box office revenue': True, 'partner': False})
+    return fig
+
 def add_centroids(fig, centroids, titles):
     # add centroids of each cluster
     for i in range(len(centroids)):
         # The centroid title should be displayed over the points, so that it is not hidden by the points
         fig.add_trace(go.Scatter3d(x=[centroids[i][0]], y=[centroids[i][1]], z=[centroids[i][2]], mode='markers + text', marker=dict(size=10, color='white', line=dict(color='black', width=1)), text=titles[i-1],
-                                   hovertemplate=None, hoverinfo=None, hoverlabel=None, showlegend=False,
+                                   hovertemplate=None, hoverinfo='none', hoverlabel=None, showlegend=False,
                                    textfont=dict(
             family="arial",
             size=22,
             color="white"
         )))
-             
-
-      
     return fig
 
 def resize_revenue(fig, df):
@@ -158,3 +162,20 @@ def set_layout(fig, df, Hovertemplate):
     # Determines how zoomed in it is
     fig.update_layout(scene_camera_eye=dict(x=0.4, y=0.4, z=0.4))
     return fig
+
+def split_by_date(df):
+    #copy df with NaN values replacing 'Not Available'
+    df2 = df.copy()
+    df2['Release date'] = df2['Release date'].replace('Not Available', 0)
+
+    #Partition df2 in 5 dfs, one for each time period with apply method
+    df_1 = df2[df2['Release date'].apply(lambda x: x < 1920)]
+    df_2 = df2[df2['Release date'].apply(lambda x: x >= 1920 and x < 1940)]
+    df_3 = df2[df2['Release date'].apply(lambda x: x >= 1940 and x < 1960)]
+    df_4 = df2[df2['Release date'].apply(lambda x: x >= 1960 and x < 1980)]
+    df_5 = df2[df2['Release date'].apply(lambda x: x >= 1980 and x < 2000)]
+    df_6 = df2[df2['Release date'].apply(lambda x: x >= 2000)]
+
+    # Make a list with the dataframes
+    df_list = [df_1, df_2, df_3, df_4, df_5, df_6]
+    return df_list
