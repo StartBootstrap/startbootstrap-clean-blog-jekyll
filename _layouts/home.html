@@ -17,6 +17,7 @@ layout: default
     align-self: auto;
     color: white;
   }
+
   .main_container {
     display: flex;
   }
@@ -28,6 +29,19 @@ layout: default
     /* padding: 20px; */
   }
 
+  .graph_container
+  {
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    align-self: flex-start;
+    padding: 0px;
+    margin: 0 0 0 0
+    /*margin: 0 0 10 10;*/
+  }
 
   .graph_genres
   {
@@ -115,7 +129,7 @@ layout: default
         <div class="row">
           <div class="container">
             <!-- Add the iframe element where you want the plot to appear -->
-            <iframe src="Plots/genre_distrib.html" data-aos="zoom-in " data-aos-offset="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"></iframe>
+            <iframe src="Plots/genre_distrib.html" data-aos="zoom-in " data-aos-offset="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom" height="900"></iframe>
           </div>
           <div class="text_container_graph" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             This graph contains an overview of the evolution of the different genre accross time. We can see that the proportion of romantic  movie really starts to increase in 1930 and then stay constant in terms of proportions. </div>
