@@ -26,12 +26,11 @@ def add_centroids(fig, centroids, titles):
     # add centroids of each cluster
     for i in range(len(centroids)):
         # The centroid title should be displayed over the points, so that it is not hidden by the points
-        fig.add_trace(go.Scatter3d(x=[centroids[i][0]], y=[centroids[i][1]], z=[centroids[i][2]], mode='markers + text', marker=dict(size=8, color='white', line=dict(color='black', width=1)), text=titles[i-1],
+        fig.add_trace(go.Scatter3d(x=[centroids[i][0]], y=[centroids[i][1]], z=[centroids[i][2]], mode='markers + text', marker=dict(size=8, color='white', line=dict(color='black', width=1)), text='<b>' + titles[i-1] + '</b>',
                                    hovertemplate=None, hoverinfo='none', hoverlabel=None, showlegend=False,
                                    textfont=dict(
             family="arial",
             size=22,
-            bold=True,
             color="white"
         )))
 
