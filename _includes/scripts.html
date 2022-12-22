@@ -85,5 +85,25 @@
     $('#name').focus(function () {
       $('#success').html('');
     });
+
+    // Function that takes as input an integer n and returns the disc structuring element of size (n x n)
+    function disc(n) {
+      var disc = [];
+      for (var i = 0; i < n; i++) {
+        disc.push([]);
+        for (var j = 0; j < n; j++) {
+          disc[i].push(0);
+        }
+      }
+      var center = Math.floor(n / 2);
+      for (var i = 0; i < n; i++) {
+        for (var j = 0; j < n; j++) {
+          if (Math.sqrt(Math.pow(i - center, 2) + Math.pow(j - center, 2)) <= center) {
+            disc[i][j] = 1;
+          }
+        }
+      }
+      return disc;
+    }
   </script>
 {% endif %}
