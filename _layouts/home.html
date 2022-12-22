@@ -249,11 +249,56 @@ layout: default
           </div>
         </div>
 
-        <img class="mySlides" src="Plots/.jpg">
-        <img class="mySlides" src="img_lights.jpg">
-        <img class="mySlides" src="img_mountains.jpg">
-        <img class="mySlides" src="img_forest.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_0.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_1.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_2.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_3.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_4.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_5.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_6.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_7.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_8.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_9.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_10.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_11.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_12.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_13.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_14.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_15.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_16.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_17.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_18.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_19.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_20.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_21.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_22.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_23.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_24.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_28.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_29.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_30.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_31.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_32.jpg">
+        <img class="mySlides" src="Plots/Wordcloud_label_33.jpg">
 
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        
+        <script type="text/javascript">
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex=x.length} ; for (i=0; i < x.length; i++) { x[i].style.display="none" ; }
+          x[slideIndex-1].style.display="block" ; }
+        </script>
 
         <div class="row">
           <div class="graph_container">
