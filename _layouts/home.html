@@ -8,6 +8,46 @@ layout: default
 </head>
 
 <style>
+    .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
   .overall_container {
     width: 100%;
     height: 100%;
@@ -88,7 +128,7 @@ layout: default
 
   .center {
     /*width: 90%; /* Set a fixed width for the div element */
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     margin: 0px 0;
@@ -164,6 +204,30 @@ layout: default
             sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt
             mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus.
             Curabitur eu amet
+          </div>
+        </div>
+
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img src="Data/titanic.jpg" alt="Paris" style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img src="Data/No romance.jpg" alt="Paris" style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+            </div>
           </div>
         </div>
 
