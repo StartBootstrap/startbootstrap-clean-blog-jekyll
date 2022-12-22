@@ -125,7 +125,7 @@ def add_button_gender(fig):
     return fig
 
 
-def set_layout(fig, df, Hovertemplate):
+def set_layout(fig, df, Hovertemplate, centroids, titles):
     #Layout parameters
     fig.update_layout(
         hoverlabel=dict(
@@ -159,6 +159,14 @@ def set_layout(fig, df, Hovertemplate):
         coloraxis_showscale=False,
         showlegend=False,)
     fig = resize_revenue(fig, df)
+    centroids_dict = {}
+    centroids_dict['X'] = [x[0] for x in centroids]
+    centroids_dict['Y'] = [y[1] for y in centroids]
+    centroids_dict['Z'] = [z[2] for z in centroids]
+    centroids_dict['title'] = titles
+    annotations = [dict(x=x, y=y, z=z, text=title, xanchor='center', yanchor='middle', showarrow=False, font=dict(size=10, color='black'), bgcolor="white",
+                        borderpad=1.5, opacity=0.7) for x, y, z, title in zip(centroids_dict['X'], centroids_dict['Y'], centroids_dict['Z'], centroids_dict['title'])]
+    fig.update_scenes(annotations=annotations)
     fig.data[0].hovertemplate = Hovertemplate
     fig.update_layout(height=800, width=1500)
     # Determines how zoomed in it is
