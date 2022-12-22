@@ -278,7 +278,8 @@ layout: default
 
         <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-
+        
+        <script type="text/javascript">
         var slideIndex = 1;
         showDivs(slideIndex);
         
@@ -292,7 +293,7 @@ layout: default
         if (n > x.length) {slideIndex = 1}
         if (n < 1) {slideIndex=x.length} ; for (i=0; i < x.length; i++) { x[i].style.display="none" ; }
           x[slideIndex-1].style.display="block" ; }
-
+        </script>
 
         <div class="row">
           <div class="graph_container">
