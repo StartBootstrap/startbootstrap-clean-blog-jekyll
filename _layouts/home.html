@@ -73,7 +73,30 @@ layout: default
     padding: 0px;
     /* padding: 20px; */
   }
+  	
+  .left_container{
+    width: 30%;
+    height: 100%;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    align-self: flex-start;
+    padding: 5px;
+    margin: 0 0 10 10
+  }
 
+  .right_container{
+    width: 70%;
+    height: 100%;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    align-self: flex-start;
+    padding: 5px;
+    margin: 0 0 10 10
+  }
   .graph_container
   {
     width: 100%;
@@ -249,6 +272,7 @@ layout: default
           </div>
         </div>
 
+        
         <img class="mySlides" src="img/wordcloud_label_0.jpg">
         <img class="mySlides" src="img/wordcloud_label_1.jpg">
         <img class="mySlides" src="img/wordcloud_label_2.jpg">
@@ -284,21 +308,28 @@ layout: default
         <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
         
-        <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-        
-        function plusDivs(n) {
-        showDivs(slideIndex += n);
-        }
-        
-        function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex=x.length} ; for (i=0; i < x.length; i++) { x[i].style.display="none" ; }
-          x[slideIndex-1].style.display="block" ; }
-        </script>
+        <div class="row">
+          <div class="left_container">
+            This is where the text will be
+          </div>
+          <div class="right_container">
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex=x.length} ; for (i=0; i < x.length; i++) { x[i].style.display="none" ; }
+              x[slideIndex-1].style.display="block" ; } </script>
+          </div>
+        </div>
+
 
         <div class="row">
           <div class="graph_container">
