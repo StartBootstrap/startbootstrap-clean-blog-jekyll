@@ -234,8 +234,6 @@ layout: default
             <!-- Add the iframe element where you want the plot to appear -->
             <iframe src="Plots/genre_distrib.html" data-aos="zoom-in " data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom" height="600"></iframe>
           </div>
-          <div class="text_container_graph" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="50" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
-            This graph contains an overview of the evolution of the different genre accross time. We can see that the proportion of romantic  movie really starts to increase in 1930 and then stay constant in terms of proportions. </div>
         </div>
         
         <div class="row">
@@ -248,6 +246,10 @@ layout: default
               summary corpus has classified 500 characters based on the TV Tropes clusters, which provides a first insight into the
               diversity of the dataset.&nbsp;</p>
             <p>What are the top 5 clusters for romance movies you think? How about action movies?</p>
+            <p>These tropes give a first glance at the different types of characters, but use only a small share of our data. To
+              obtain a more comprehensive view on all character archetypes, we should consider the whole dataset. Therefore, by
+              using a coreNLP pipeline in combination with DBScan clustering, we clustered all characters. So grab some popcorn, as
+              we dive into the clusters.</p>
           </div>
           <div class = "flip_container">
             <div class="flip-box">
