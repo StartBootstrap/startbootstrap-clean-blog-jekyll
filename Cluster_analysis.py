@@ -9,9 +9,14 @@ import plotly.offline as offline
 import plotly.graph_objs as go
 import seaborn as sns
 
-HOVER_TEMPLATE = "<b>%{hovertext}</b><br><br>" + "Movie: %{customdata[0]}<br>" + "Release date: %{customdata[1]}<br>" + "Actor name: %{customdata[2]}<br>" + "Actor age at release: %{customdata[3]}<br>" + "Gender: %{customdata[4]}<br>" + "Character archetype: %{customdata[6]}<br>" + "Description: %{customdata[7]}<br>" + "Genres: %{customdata[8]}<br>" + "Box office revenue: %{customdata[9]}<br>"
+HOVER_TEMPLATE = "<br><b>%{hovertext}</b><br><br>" + "Movie: %{customdata[0]}<br>" + "Release date: %{customdata[1]}<br>"  
+HOVER_TEMPLATE += "Actor name: %{customdata[2]}<br>" +  "Actor age at release: %{customdata[3]}<br>" 
+HOVER_TEMPLATE += "Gender: %{customdata[4]}<br>" + "Character archetype: %{customdata[6]}<br>" 
+HOVER_TEMPLATE += "Description: %{customdata[7]}<br>" + "Genres: %{customdata[8]}<br>" + "Box office revenue: %{customdata[9]}<br>" 
 TITLES = ['Decision-makers', 'Heroes & anti-heroes', 'Femme fatale', 'Cunning evil', 'Clumsy', 'Virtuous', 'Righteous warrior', 'Benevolent leader', 'Wise mentor', 'Captain', 'Ingenuous', 'Tycoon', 'Ruthless commander', 'Arrogant leader', 'Love interest', 'Reconciliator', 'Adventurous woman', 'Apprentice', 'Young lover', 'Logistician', 'Lawyer', 'Stubborn fool', 'Eccentric villain', 'Marksman', 'Goofy friend', 'Hardworking learner', 'Benevolent', 'Sophisticated psycopath', 'Nemesis', 'Corrupt', 'Good cop', 'Musician', 'Protector', 'Family-oriented']
 COLOR_SCALE = px.colors.cyclical.HSV
+COLOR_PALETTE = [[round(255*c) for c in color] for color in sns.color_palette("hls", len(TITLES))]
+
 def compute_centroids(df, column='labels'):
     ''' Make a dataframe with the centroids of each cluster'''
     # Compute centroid of each cluster
@@ -41,7 +46,8 @@ def set_scatter(df):
             'Name': True, 'Release date': True, 'Actor name': True, 
             'Actor age at release': True, 'Gender': True, 
             'X': False, 'Y': False, 'Z': False, 'labels': False, 'title': True, 
-            'filtered_descriptions': True, 'Genres': True, 'Box office revenue': True, 'partner': False}, 
+            'description': True, 'Genres': True, 'box_office': True, 
+            'partner': False}, 
         )
     fig.update_traces(marker=dict(line=dict(width=1, color='white')))
     box_office = [x for x in df['Box office revenue'] if type(x) == float]

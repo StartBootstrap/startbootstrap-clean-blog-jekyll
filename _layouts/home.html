@@ -24,6 +24,8 @@ layout: default
   width: 250px;
   height: 50px;
   border: 1px solid #f1f1f1;
+  text-align: center;
+  vertical-align: middle;
   perspective: 1000px;
 }
 
@@ -78,35 +80,68 @@ layout: default
   
   .right_container_boxes{
     width: 60%;
-    float: right;
-    position: static;
+    /* float: right; */
+    position: sticky;
     align-self: flex-end;
     padding: 5px;
-    margin-top: 7px;
+    top: 5px;
+    left: 0px;
+    right: 0px;
     /* margin: 0 0 10 10 */
   }
 
   .right_container_barchart{
-    width: 70%;
-    float: right;
-    position: sticky;
+    width: 60%;
+    /* float: right; */
+    position: sticky;   
+    /* top: 50; */
     align-self: flex-start;
     padding: 5px;
-    margin-top: 0px;
+    top: 5px;
+    left: 0px;
+    right: 0px;
     /* margin: 0 0 10 10 */
   }
 
   .right_container_wordcloud{
-    width: 70%;
-    float: right;
+    width: 60%;
+    /* float: right; */
     position: sticky;
+    /* top: 50; */
+    top: 5px;
+    left: 0px;
+    right: 0px;
     align-self: flex-start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding: 5px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     /* margin: 0 0 10 10 */
   }
 
+    .graph_container
+  {
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    align-self: flex-start;
+    padding: 5px;
+    margin: 0 0 10 10
+    /*margin: 0 0 10 10;*/
+  }
+
+    .text_container_graph
+  {
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    background-color: rgba(255, 255, 255, 0.8)
+  }
 
 
   .flip_container{
@@ -120,20 +155,6 @@ layout: default
     align-self: flex-start;
     padding: 5px;
     /* margin: 0 0 10 10 */
-  }
-
-  .graph_container
-  {
-    width: 100%;
-    height: 100%;
-    top: 10px;
-    left: 0px;
-    right: 0px;
-    position: sticky;
-    align-self: flex-start;
-    padding: 5px;
-    margin: 0 0 10 10
-    /*margin: 0 0 10 10;*/
   }
 
   .graph_genres
@@ -160,16 +181,7 @@ layout: default
     margin-left: 70px;
   }
 
-  .text_container_graph
-  {
-    font-size: 16px;
-    text-align: justify;
-    float: left;
-    width: 30%;
-    color: rgb(0, 0, 0);
-    margin-left: 70px;
-    background-color: rgba(255, 255, 255, 0.8)
-  }
+
 
   iframe {
     width: 100%;
@@ -273,7 +285,7 @@ layout: default
               using a coreNLP pipeline in combination with DBScan clustering, we clustered all characters. So grab some popcorn, as
               we dive into the clusters.</p>
           </div>
-          <div class = "right_container_boxes">
+          <div class = "right_container_boxes" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             <div class = "flip_container">
               <div class="flip-box">
                 <div class="flip-box-inner">
@@ -281,7 +293,7 @@ layout: default
                     <img src="img/titanic.jpg" alt="Paris" style="width:300px;height:200px">
                   </div>
                   <div class="flip-box-back">
-                    <h2>Top 5 romance tropes</h2>
+                    <h2>Top 5 Romance Tropes</h2>
                     <p>Crazy jealous guy<br>
                       Big man on campus<br>
                       Brainless beauty<br>
@@ -296,8 +308,12 @@ layout: default
                     <img src="img/rocky.jpg" alt="rocky" style="width:300px;height:200px">
                   </div>
                   <div class="flip-box-back">
-                    <h2>Paris</h2>
-                    <p>What an amazing city</p>
+                    <h2>Top 5 Action Tropes</h2>
+                    <p>Corrupt corporate executive<br>  
+                    Father to his men<br>       
+                    Master swordsman<br>           
+                    Psycho for hire<br>             
+                    Byronic hero</p>
                   </div>
                 </div>
               </div>
@@ -314,100 +330,53 @@ layout: default
           </div>
           <div class="text_container_graph" data-aos="zoom-in" data-aos-offset="0" data-aos-anchor-placement="top-bottom"
             data-aos-duration="50">
-            This will be the first cluster image that the reader sees. Opacity at 0.8. It should be wide now. It will give an
-            overview. It should be very opaque. Boop biep boop. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
-            adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue,
-            euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
-            erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in
-            risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent
-            blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas
-            adipiscing ante non diam sodales hendrerit.
-            Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla
-            sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae
-            ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis
-            metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non
-            mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam.
-            Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et
-            tristique ligula justo vitae magna.
-            Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac
-            euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec
-            felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt
-            tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem
-            varius purus. Curabitur eu ametiam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat
-            in, pretium a, enim. Pellentesque
-            congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
-            Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in
-            faucibus
-            orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-            Maecenas
-            adipiscing ante non diam sodales hendrerit.
-            Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla
-            sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae
-            ligula.
-            Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae
-            elit
-            lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis
-            vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris
-            ullamcorper
-            felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo
-            vitae magna.
-            Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac
-            euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec
-            felis
-            sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt
-            tincidunt
-            mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius
-            purus.
-            Curabitur eu amet
+          <h2>Character clustering</h2>
+          <p>Before we dive into the nitty-gritty details, take some time to explore the clusters! Can you find your favorite
+            movies? Your favorite characters?</p>
+          <p>All done playing? So how did we get these clusters. This process starts with processing all plot summaries, using the
+            coreNLP pipeline. INSERT TEXT MARGUERITE OR ANTOINE.&nbsp;</p>
+          <p>Once we obtained the descriptions for all characters, the hard work was done. We embedded the descriptions using <a
+              href="https://spacy.io/">spaCy</a>, and weighted them by category. The character titles and attributes gained more
+            weight, whereas the verbs were weighted less. We then first reduced the dimensionality of the embedding to 50
+            dimensions by applying principal component analysis. Next, the dimensionality is brought down to 3 by means of <a
+              href="https://towardsdatascience.com/what-why-and-how-of-t-sne-1f78d13e224d">t-SNE dimensionality reduction</a>.
+            Last, we applied DBSCAN clustering to obtain the clusters, which we labeled manually based on the descriptions of the
+            characters. Specifically, we looked at the ten characters that originated from movies with the highest box office
+            revenue in that cluster.</p>
+          <p>Let us already note one finding from these clusters. The first thing that strikes the eye is the big central cluster,
+            which consists of Heroes and anti-heroes. This is not so surprising, as a hero or anti-hero is usually the main
+            character of a movie. Naturally, many of the characters that were extracted from the plot summary are main characters.
+          </p>
           </div>
         </div>
 
 
         <div class="row">
           <div class="text_container_graph" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
-            This will be the first cluster image that the reader sees. Opacity at 0.8. It should be wide now. It will give an
-            overview. It should be very opaque. Boop biep boop. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
-            adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue,
-            euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
-            erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in
-            risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent
-            blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas
-            adipiscing ante non diam sodales hendrerit.
-            Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla
-            sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae
-            ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis
-            metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non
-            mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam.
-            Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et
-            tristique ligula justo vitae magna.
-            Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac
-            euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec
-            felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt
-            tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem
-            varius purus. Curabitur eu ametiam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat
-            in, pretium a, enim. Pellentesque
-            congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
-            Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in
-            faucibus
-            orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-            Maecenas
-            adipiscing ante non diam sodales hendrerit.
-            Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla
-            sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae
-            ligula.
-            Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae
-            elit
-            lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis
-            vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris
-            ullamcorper
-            felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo
-            vitae magna.
+            <h2>Cluster analysis</h2>
+            <p>We now analyze the clusters across two dimensions: time and the box office revenue. The graph on the right hand side
+              might seem daunting at first but no worries: let's run through it step by step.</p>
+            <p>For this figure we have selected the ten biggest clusters, one can toggle between clusters with the drop-down menu at
+              the top left corner. The graph then displays the percentage of characters that belong to the cluster for each time
+              period. If the bars increase across time for a cluster, this indicates that the cluster has become more prevalent in
+              movies during the last century. Additionally, the color of a bar chart indicates the percentage of revenue created by
+              the movies to which these characters belong.&nbsp;</p>
+            <p>We now move onto studying character archetypes. Humans are complex and diverse, and no two people are the same. Yet
+              we tend to find the same character types again and again in movies. Who does not know the heroic protagonist in action
+              movies, the funny sidekick in action comedy. <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/Characters">TV
+                Tropes</a> is a rich database that, among others, describes a multitude of character archetypes. The CMU movie
+              summary corpus has classified 500 characters based on the TV Tropes clusters, which provides a first insight into the
+              diversity of the dataset.&nbsp;</p>
+            <p>What are the top 5 clusters for romance movies you think? How about action movies?</p>
+            <p>These tropes give a first glance at the different types of characters, but use only a small share of our data. To
+              obtain a more comprehensive view on all character archetypes, we should consider the whole dataset. Therefore, by
+              using a coreNLP pipeline in combination with DBScan clustering, we clustered all characters. So grab some popcorn, as
+              we dive into the clusters.</p>
           </div>
           <div class="right_container_barchart">
-              <!-- Add the iframe element where you want the plot to appear -->
-              <iframe src="Plots/cluster.html" data-aos="zoom-in " data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom"></iframe>
+            <!-- Add the iframe element where you want the plot to appear -->
+            <iframe src="Plots/cluster.html" data-aos="zoom-in " data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true"
+              height="600" data-aos-anchor-placement="top-bottom"></iframe>
           </div>
         </div>
 
@@ -448,8 +417,7 @@ layout: default
             tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem
             varius purus. Curabitur eu amet
           </div>
-
-          <div class= "right_container_wordcloud">
+          <div class= "right_container_wordcloud" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             <img class="mySlides" src="img/wordcloud_label_0.jpg">
             <img class="mySlides" src="img/wordcloud_label_1.jpg">
             <img class="mySlides" src="img/wordcloud_label_2.jpg">
