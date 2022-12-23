@@ -42,6 +42,10 @@ layout: default
     transform-style: preserve-3d;
   }
 
+  .flip-box-text:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
@@ -191,10 +195,13 @@ layout: default
           <h2>Data</h2>
           <p>For this story, we will be using the <a href="http://www.cs.cmu.edu/~ark/personas/">CMU movie summary corpus.</a>
             What does this dataset entail?</p>
-          <p><a class="ex2"><h3>450,669 characters </h3> </a></p>
-          <h3 class="heading"><span class="counter">450,669 characters</span></h3>
-          <h3 class="heading"><span class="counter">81,741 movies</span></h3>
-          <h3 class="heading"><span class="counter">42,306 plot summaries</span></h3>
+          <center> <p><a class="ex2"><h4>450,669 characters </h4> </a></p></center>
+          <center>
+            <p><a class="ex2">
+                <h4>81,741 movies </h4>
+              </a></p>
+          </center>
+          <center> <p><a class="ex2"><h4>42,306 plot summaries </h4> </a></p></center>
           <p class="heading">Additionally, a there are 500 characters that are classified into one of 72 tv trope clusters.</p>
           <h2 class="heading">Genres</h2>
           <p>Let us start our journey by looking at different movie genres. Can you guess how many different genres there are?</p>
@@ -209,6 +216,7 @@ layout: default
               </div>
             </div>
           </div>
+
          </div>
 
         <div class="row">
