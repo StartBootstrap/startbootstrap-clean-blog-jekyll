@@ -17,6 +17,14 @@ layout: default
     display: flex;
     }
 
+    .flip-box-text {
+  background-color: transparent;
+  width: 300px;
+  height: 70px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
     .flip-box {
     background-color: transparent;
     width: 100%;
@@ -47,12 +55,12 @@ layout: default
   }
 
   .flip-box-front {
-    background-color: #bbb;
+    background-color: lightblue;
     color: black;
   }
 
   .flip-box-back {
-    background-color: dodgerblue;
+    background-color: darkblue;
     color: white;
     transform: rotateY(180deg);
   }
