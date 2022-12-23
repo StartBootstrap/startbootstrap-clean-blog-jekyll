@@ -88,8 +88,7 @@ layout: default
   .right_container_barchart{
     width: 60%;
     /* float: right; */
-    position: sticky;   
-    float: right;
+    position: fixed;   
     /* top: 50; */
     align-self: flex-start;
     padding: 5px;
@@ -342,11 +341,6 @@ layout: default
 
 
         <div class="row">
-          <div class="right_container_barchart">
-            <!-- Add the iframe element where you want the plot to appear -->
-            <iframe src="Plots/cluster.html" data-aos="zoom-in " data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true"
-              height="600" data-aos-anchor-placement="top-bottom"></iframe>
-          </div>
           <div class="text_container_graph" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             <h2>Cluster analysis</h2>
             <p>We now analyze the clusters across two dimensions: time and the box office revenue. The graph on the right hand side
@@ -367,6 +361,11 @@ layout: default
               obtain a more comprehensive view on all character archetypes, we should consider the whole dataset. Therefore, by
               using a coreNLP pipeline in combination with DBScan clustering, we clustered all characters. So grab some popcorn, as
               we dive into the clusters.</p>
+          </div>
+          <div class="right_container_barchart">
+            <!-- Add the iframe element where you want the plot to appear -->
+            <iframe src="Plots/cluster.html" data-aos="zoom-in " data-aos-offset="0" data-aos-duration="0" data-aos-mirror="true"
+              height="600" data-aos-anchor-placement="top-bottom"></iframe>
           </div>
         </div>
 
