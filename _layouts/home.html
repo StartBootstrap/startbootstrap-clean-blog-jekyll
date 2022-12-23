@@ -75,8 +75,10 @@ layout: default
   }
   	
   .left_container{
+    font-size: 16px;
     width: 30%;
     height: 100%;
+    float:left;
     top: 10px;
     left: 0px;
     right: 0px;
@@ -87,9 +89,12 @@ layout: default
   }
 
   .right_container{
+    font-size: 16px;
     width: 70%;
     height: 100%;
     top: 10px;
+    float:left;
+    margin-left: 30px;
     left: 0px;
     right: 0px;
     position: sticky;
@@ -236,11 +241,11 @@ layout: default
           </div>
         </div>
         </div class="row">
-          <div class="text_container_plain" style='float:left; width:30%'>
+          <div class="left_container" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             Put your content here...
           </div>
 
-          <div style='float:left; width:70%; margin-left:30px'>
+          <div class = "right_container">
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
@@ -318,7 +323,7 @@ layout: default
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
         
         <div class="row">
-          <div class="text_container_plain" style='float:left; width:30%'>
+          <div class="left_container" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             This is where the text will be
           </div>
           <div style='float:left; width:70%'>
