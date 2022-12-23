@@ -350,6 +350,17 @@ layout: default
               period. If the bars increase across time for a cluster, this indicates that the cluster has become more prevalent in
               movies during the last century. Additionally, the color of a bar chart indicates the percentage of revenue created by
               the movies to which these characters belong.&nbsp;</p>
+            <p>We now move onto studying character archetypes. Humans are complex and diverse, and no two people are the same. Yet
+              we tend to find the same character types again and again in movies. Who does not know the heroic protagonist in action
+              movies, the funny sidekick in action comedy. <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/Characters">TV
+                Tropes</a> is a rich database that, among others, describes a multitude of character archetypes. The CMU movie
+              summary corpus has classified 500 characters based on the TV Tropes clusters, which provides a first insight into the
+              diversity of the dataset.&nbsp;</p>
+            <p>What are the top 5 clusters for romance movies you think? How about action movies?</p>
+            <p>These tropes give a first glance at the different types of characters, but use only a small share of our data. To
+              obtain a more comprehensive view on all character archetypes, we should consider the whole dataset. Therefore, by
+              using a coreNLP pipeline in combination with DBScan clustering, we clustered all characters. So grab some popcorn, as
+              we dive into the clusters.</p>
           </div>
 
           <div class="right_container_barchart">
