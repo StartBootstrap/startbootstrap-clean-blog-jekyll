@@ -1,0 +1,139 @@
+---
+layout: post
+title: "New Year New Plan"
+date: 2022-12-22 00:00:13 -1000
+background: '/img/posts/Post4_NewYearNewPlan_Background.jpg'
+---
+
+<p>
+Hi, everyone! I am glad to share this update with you at the end of the year 2022.
+</p>
+
+<p>
+The major outcome of the past year is that we proposed the architecture of the online information platform, Circularity Information Platform. Our vision is one step clearer:
+</p>
+
+<p><b>
+“Create a digital collaborative space for Circular Economy in the built environment.”
+  </b>
+</p>
+
+<p>
+Standing on the basic structure of the platform, we expect multiple directions for future research. One of the most important directions is <b>waste-to-resource matchmaking </b>. In the upcoming phase of the PhD program, we will investigate this matchmaking function as a decision-support component for the platform.
+</p>
+
+<h2 class="section-heading">1. (De-)Construction Matchmaking: An Inclusive Approach to Circular Economy</h2>
+
+<p>
+Following the concept of urban mining, Demolition Waste (DW) can be a valuable resource for other projects. Various waste-to-resource interactions occur across heterogeneous projects, which may lead to the emergence of a broader circular ecosystem. The process of creating and sustaining such an interaction among multiple actors is also known as DW matchmaking. Theoretically, the reuse of building elements can reduce both new production and waste, and it is prioritised over recycling due to limited reprocessing consumption. However, recycling is inevitable in the built environment because of traditional construction methods and certain material characteristics. Therefore, DW matchmaking can be considered as an inclusive process to enhance End-of-Life DW management by exploring more circular pathways.
+</p>
+
+<p>
+Indeed, Reduce or Avoid should be first considered before Reuse or Recycle because of its prioritised hierarchy in the theoretical framework. However, given the current skyrocketing demand of the construction market and the rigid designs of most existing constructions, it would be wise to narrow down our research scope. Therefore, we decide to first lay down the fundamental digital infrastructure for closing-loop practices. With a healthy closed-loop foundation, we suggest future research on narrowing and slowing the loop. Therefore, we focus on closed-loop supply chain development, particularly, connecting forward and reverse supply chains, in the coming study. 
+</p>
+
+<h2 class="section-heading">2. Reverse Supply Chain Development: Key Actors and Their Interactions</h2>
+
+<p>
+The basic setup of actors and their interactions in a reverse supply chain is depicted in Fig. 1. First, the direct reuse process starts with the decision to dismantle EoL buildings. Through deconstruction, valuable materials and components salvaged by the demolition team might be directly reused in new construction without reprocessing nor transportation, e.g. on-site urban mining. However, it is challenging to ensure demand for direct reuse immediately upon dismantling due to unclear CE requirements for a new building and the underdeveloped market for secondary materials. In this regard, storage facilities, namely, <b>waste transfer stations</b>, are required to offer temporary storage and sorting services until suitable demand emerges or sufficient quantity is accumulated for economical deals. 
+</p>
+
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/Post4_ReverseSupplyChain.png">
+<span class="caption text-muted">Fig.1. Overview of a reverse supply chain in the built environment</span>
+
+<h2 class="section-heading">3. Investigate Circular Economy Ecosystems by Agent-Based Modelling</h2>
+
+<p>
+It is impossible to collect all the required data from potential users to test the matchmaking functionality during the development phase. We choose to apply simulation technologies to mimic the real implementation of the matchmaking system, and explore the suitable system configurations under potential scenarios (Fig. 2). Simply, we will model multiple key actors as <b>agents</b> interacting with each other for the purpose of the closing loop at a regional level.
+</p>
+
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/Post4_SimulationOverview.png" width="1000" height="800">
+<span class="caption text-muted">Fig.2. Simulation as a solution to resolve realistic problems</span>
+
+<p>
+The traditional analytical approaches might fall short to capture the complex, non-linear, and multifaceted nature of DW matchmaking. To reveal the underlying dynamics of DW matchmaking and ensure effective decision support system development, Agent-Based Modelling (ABM) could be a valuable solution. ABM is a powerful tool to explore complex systems and test potential measurements by mimicking individual behaviours and interactions in a digital environment. ABM has the distinguished capacity to represent complex interaction contexts and articulates the emergent principles among individual elements and aggregate patterns. Recently, agent-based decision support systems have received increasing attention in operational CE research.
+</p>
+
+<p>
+The research objectives are threefold: 
+</p>
+
+<ul>
+  <li>Develop an agent-based simulation model for DW matchmaking;</li>
+  <li>Apply such a model in the form of a decision support system to analyse the operational feasibility of DW matchmaking;</li>
+  <li>Suggest future research directions to integrate this model with an information system.</li>
+</ul>
+
+<p>
+Theoretically, this research reveals the underlying mechanism of how DW matchmaking can be achieved efficiently, and further contributes to a circular built environment. Besides, we provide a scientific guideline for CE-oriented ecosystem simulation by considering unique construction characteristics. Practically, the proposed model serve as a decision support tool for practitioners regarding CE business- and policy-making. Furthermore, it has the potential to be integrated as a plug-in analytical component into a Circularity Information Platform.
+</p>
+
+<h2 class="section-heading">4. First Step of Model Development: Conceptualisation</h2>
+
+Every construction is a unique and complex product. To capture the internal complexity of construction and demolition processes, we divide a building into three layers by referring to the <b><a href="https://ocw.tudelft.nl/course-lectures/3-1-3-building-layers/">theory of shearing layers</a></b>. This theory explains the evolution progress of a building by dividing it into site, structure, skin, services, space plan, and stuff with their corresponding life spans, respectively. For the sake of simplicity, we propose three overarching layers as follows:
+
+<ul>
+  <li>Layer I: Stuff;</li>
+  <li>Layer II: Services and space plan;</li>
+  <li>Layer III: Site, structure, and skin.</li>
+</ul>
+
+<p>
+The building layers are categorised in such a way that demolition and construction contractors need to plan their work in the opposite order (i.e. demolition: I, II, III, while construction: III, II, I) (Fig. 3). According to this setup, the temporal friction of DW matchmaking becomes explicit since what is available first from a demolition site could be the last item that is required by another construction manager. Furthermore, the geometrical dynamics of building materials are reflected on the spatial sequence of inner, middle, and external layers.
+</p>
+
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/Post4_ShearingLayers.png" width="1000" height="800>
+<span class="caption text-muted">Fig.3. Conceptualised shearing layers of demolition and construction projects</span>
+
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/Post4_Category.png">
+<span class="caption text-muted">Fig.4. Categories of key actors and their interactions in the model</span>
+
+<p>
+More detailed information of model development will be provided soon (Fig. 4).
+</p>
+
+<h2 class="section-heading">5. Case Study: Validate the Model via a Realistic Project</h2>
+
+<p>
+According to the Dutch government, the Twente region is one of the important areas contributing to the national competitiveness, accessibility, and liveability. Being a major city in the Twente, Enschede receives significant attention on its urban development in the next decade.                            
+</p>
+                           
+<img class="img-fluid" src="https://raw.githubusercontent.com/Yifei-Yu-UTwente/SCCE/master/img/posts/Post4_UrbanPlan.png">
+<span class="caption text-muted">Fig.5. Urban development plan in Enschede</span>                           
+
+<p>
+We summarise a few typical development projects based on the information provided by Gemeente Enschede (Fig. 5). The goal is to connect one or more projects from the urban development plan to our matchmaking model. We validate whether our model yields expected outcomes based on real-time and realistic data inputs. In other words, we ask: “How good our model represent the reality?” and “Can we implement our model to the real case and provide suitable decision support?” Now, we wait for the reply from Gemeente Enschede after I sent an invitation letter (Attached at the end of the page).                           
+</p>
+                                
+<p>
+More than this attempt, I welcome all of your suggestions for model validation!                                
+</p>
+                                
+<h2 class="section-heading">6. Enjoy Your Holidays!</h2>
+                           
+<p>                           
+Since this is the beginning of our next phase, I need to make details more clearer. However, I believe you have a general overview about the idea after reading this update until now. The manuscript of “Development of a Circularity Information Platform for the Built Environment” is under review. Your names will be added to the acknowledgement once we receives good news for publication.                            
+</p>                           
+                           
+<p> 
+During this programme, I cannot provide you with immediate economic returns or any applicable products you can use tomorrow. The whole process is full of trial and error, tests, experiments, and possibilities. Please do not feel hesitated or frustrated because you are doing one of the most meaningful things in the world: <b>Support a young man to learn and explore.</b>                                                      
+</p>                          
+                           
+<p>
+I prepare myself better through PhD so that I can benefit people better!                           
+</p>  
+
+<p>                           
+Thank you, everyone. Let’s take a well-deserved rest and see each other next year!
+</p>                           
+                           
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/download/w4krb/?direct%26mode=render"
+    width="100%"
+    scrolling="yes"
+    height="677px"
+    marginheight="0"
+    frameborder="0"
+    allowfullscreen
+    webkitallowfullscreen
+>                           
+                           
