@@ -86,6 +86,12 @@ layout: default
     /* margin: 0 0 10 10 */
   }
 
+  .row{
+    display: flex;
+    /* make possible to have one column scroll and the other fixed */
+    overflow: auto;
+  }
+
   .right_container_barchart{
     width: 60%;
     /* float: right; */
@@ -108,7 +114,6 @@ layout: default
     margin-top: 0px;
     /* margin: 0 0 10 10 */
   }
-
 
 
   .flip_container{
@@ -396,7 +401,7 @@ layout: default
             tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem
             varius purus. Curabitur eu amet
           </div>
-          <div class= "right_container_wordcloud">
+          <div class= "right_container_wordcloud" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-mirror="true" data-aos-anchor-placement="top-bottom">
             <img class="mySlides" src="img/wordcloud_label_0.jpg">
             <img class="mySlides" src="img/wordcloud_label_1.jpg">
             <img class="mySlides" src="img/wordcloud_label_2.jpg">
