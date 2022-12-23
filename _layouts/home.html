@@ -57,27 +57,6 @@ layout: default
     transform: rotateY(180deg);
   }
 
-  .overall_container {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color:rgb(255, 255, 255);
-    align-self: auto;
-    color: rgb(0, 0, 0);
-  }
-
-  .main_container {
-    display: flex;
-  }
-
-  .my_container {
-    display: flex;
-    grid-template-columns: 50% 50%;
-    padding: 0px;
-    /* padding: 20px; */
-  }
-
   .imgButton{
     text-align:center;
 }
@@ -165,15 +144,8 @@ layout: default
     display: block;
   }
 
-  .center {
-    /*width: 90%; /* Set a fixed width for the div element */
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-    background-color: white;
-    /* margin: 50px 0; */
-  }
+  a.ex2:hover, a.ex2:active {font-size: 150%;}
+
 </style>
 
 <!-- Page Header -->
@@ -211,6 +183,7 @@ layout: default
           <h2>Data</h2>
           <p>For this story, we will be using the <a href="http://www.cs.cmu.edu/~ark/personas/">CMU movie summary corpus.</a>
             What does this dataset entail?</p>
+          <p><a class="ex2"><h3>450,669 characters </h3> </a></p>
           <h3 class="heading"><span class="counter">450,669 characters</span></h3>
           <h3 class="heading"><span class="counter">81,741 movies</span></h3>
           <h3 class="heading"><span class="counter">42,306 plot summaries</span></h3>
