@@ -337,6 +337,12 @@ The books which are marked with a ** are the ones that I am either currently rea
 320. **In Praise of Good Bookstores**, *Jeff Deutsch*, Princeton University Press, 2022.
 321. ** **In the Margins: On the Pleasures of Reading and Writing**, *Elena Ferrante (Translated by Ann Goldstein)*, Europa Editions, 2022.
 322. **Bottle of Lies : Ranbaxy and the Dark Side of Indian Pharma**, *Katherine Eban*, Juggernaut Books, 2022.
+323. **Not Just a Civil Servant**, *Anil Swarup*, Unicorn Books, 2019.
+324. **Little Species, Big Mystery: The story of Homo floresiensis**, *Debbie Argue*, Melbourne University Press, 2022.
+325. **RSS: The Long and the Short of It**, *Devanura Mahadeva (Translated by S. R. Ramakrishna)*, Eka, 2022.
+326. **The Sea Close By**, *Albert Camus*, Penguin Classics, 2013.
+327. **The Missionary Position: Mother Teresa in Theory and Practice**, *Christopher Hitchens*, Atlantic Books, 2021.
+328. **How to Lie with Statistics**, *Darrell Huff*, Pelican Books, 1975.
 
 
 ## Fiction
@@ -414,6 +420,8 @@ The books which are marked with a ** are the ones that I am either currently rea
 71. **My Son the Fanatic**, *Hanif Kureishi*, Faber and Faber Limited, 2019.
 72. **Her Lockdown Story: Collection of Short Stories from Assam**, *Shreejata Gupta (Banamallika Choudhury Ed.)*, Women’s Leadership Training Centre & NEthing, 2021.
 73. **The Sign of the Book: A Cliff Janeway Bookman Novel**, *John Dunning*, Scribner, 2005.
+74. **The Dancing Village**, *Easterine Kire (Ilustrated by Akuo Miachieo)*, Barkweaver, 2015.
+75. **The Parrot and the Merchant**, *Ali Seidabadi (Translated by Azita Rassi)*, Puffin Books, 2019.
 
 
 ## Graphic Books
