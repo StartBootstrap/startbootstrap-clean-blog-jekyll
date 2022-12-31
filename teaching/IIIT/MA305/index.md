@@ -1,2 +1,4 @@
-
-Nothing here! Click on the menu items.
+---
+layout: forward
+target: https://manjilsaikia.in/teaching/IIIT/ma301
+---
