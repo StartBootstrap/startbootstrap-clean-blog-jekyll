@@ -24,7 +24,7 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Peer Reviewed Papers
 
-23. *Some Missed Congruences modulo powers of $2$ for $t$-colored overpartitions*, *Boletín de la Sociedad Matemática Mexicana*, accepted, 2022. ([pdf](/publ/papers/NNcong.pdf))
+23. *Some Missed Congruences modulo powers of $2$ for $t$-colored overpartitions*, *Boletín de la Sociedad Matemática Mexicana*, 2023, 29 (1), Article  15, 10 pp. ([pdf](/publ/papers/NNcong.pdf))
 
 22. *Representing Even Perfect and Near-Perfect Numbers as Sums of Cubes*, (with *Padma Bhushan Borah and [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), *Journal of the Assam Academy of Mathematics*, 2022, 12, 1-7. ([pdf](https://jaam.aamonline.org.in/ojs/index.php/j/article/view/57))
 
