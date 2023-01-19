@@ -46,7 +46,7 @@ permalink: /links/
 [Pankaj Jyoti Mahanta](http://pankajjyoti.com/)  
 [Anupam Saikia](http://www.iitg.ernet.in/a.saikia/)  
 [Michael Schlosser](https://www.mat.univie.ac.at/~schlosse/)  
-[Florian Schreier-Aigner](https://homepage.univie.ac.at/florian.aigner/publications.html)  
+[Florian Schreier-Aigner](https://homepage.univie.ac.at/florian.schreier-aigner/publications.html)  
 [James A. Sellers](https://www.d.umn.edu/~jsellers/)  
 [Fernando Rodriguez Villegas](http://users.ictp.it/~villegas/)
 
