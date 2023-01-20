@@ -11,7 +11,7 @@ permalink: /teaching/
 
 **[MA1012: Multivariable Calculus & Ordinary Differential Equations](/teaching/IIIT/ma1012)** (First Year Undergraduate, March 2023 - June 2023)
 
-**[MA301: Optimization Techniques](/teaching/IIIT/ma301)** (First Year Undergraduate, January 2023 - May 2023)
+**[MA301: Optimization Techniques](/teaching/IIIT/ma301)** (Third Year Undergraduate, January 2023 - May 2023)
 
 **[MA1011: Linear Algebra & Single Variable Calculus](/teaching/IIIT/ma1011)** (First Year Undergraduate, December 2022 - March 2023)
 
