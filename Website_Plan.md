@@ -1,5 +1,11 @@
 # Website Plan & Important Info
 
+## Startup
+*if nececcasry* 
+
+<code>bundle install</code>
+
+<code>bundle exec jekyll serve</code>
 ## Overall Steps
 1. **Create Basic Website w/Git functionality**
 2. **Add A Simple Sample Project**
