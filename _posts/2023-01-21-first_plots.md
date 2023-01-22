@@ -59,7 +59,4 @@ plt.show()
     
 
 
-
-```python
-
-```
+<iframe src="/img/posts/first_plots/plotly_test.html" height = "400px" width = "100%"></iframe>
