@@ -1,75 +1,40 @@
-<!-- Footer -->
 
-<hr>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ site.email | encode_email }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
+          <div class="col-xs-12 col-md-2 col-md-offset-1">
+            <p class="text-muted text-left "><a href="{{ site.url }}">{{ site.footer_text }}</a></p>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-md-offset-2">
+            <a class="section-jump" href="#top">
+              <i class="fa fa-angle-up fa-3x"></i>
             </a>
-          </li>
-          {% endif %}
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.linkedin_username %}
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.instagram_username %}
-          <li class="list-inline-item">
-            <a href="https://instagram.com/{{ site.instagram_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
+
+  </div><!-- .main.container -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/js/wow.min.js"></script>
+    <script src="{{ site.url }}/js/app.js"></script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', ' {{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    </body>
+</html>

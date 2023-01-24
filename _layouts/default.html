@@ -1,21 +1,13 @@
-<!DOCTYPE html>
+{% include header.html %}
 
-<html>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {% include post-content.html %}
+                </div>
+            </div>
+        </div>
+    </main>
 
-{% include head.html %}
-
-<body>
-
-  {% include navbar.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  {% include scripts.html %}
-
-  {% include google-analytics.html %}
-
-</body>
-
-</html>
+{% include footer.html %}

@@ -1,0 +1,54 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          {% if site.title != '' %}
+          <h1 class="text-center">{{site.title}}</h1>
+          {% endif %}
+
+          {% if site.description != '' or site.enable_contact == true %}
+          <p class="text-center">
+            {% if site.description != '' %}
+            {{site.description}}
+            {% endif %}
+
+            {% if site.enable_contact == true %}
+            {% include contact.html %}
+            {% include contact-modal.html %}
+            {% endif %}
+          </p>
+          {% endif %}
+
+          <div class="hero-buttons">
+
+            {% if site.twitter_username != '' %}
+              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            {% endif %}
+            {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif %}
+            {% if site.medium_username != '' %}
+              <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="section-jump text-center" href="#portfolio">
+        <i class="fa fa-angle-down fa-3x"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
