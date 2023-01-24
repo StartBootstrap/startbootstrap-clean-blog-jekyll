@@ -5,7 +5,10 @@ permalink: /Optimal_Pricing/
 ---
 ## Markdown
 
-Blog Posts
+TESTSTSETST
 
-test
-ste
+Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+
+[Link to another page](/index.html).
+
+There should be whitespace between paragraphs.
