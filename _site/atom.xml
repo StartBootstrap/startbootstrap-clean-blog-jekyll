@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hello. I&apos;m George Dau.</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2023-01-23T20:39:18-06:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>George Dau</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Optimal Pricing Model</title>
+   <link href="http://localhost:4000/development/design/2023/01/20/optimal_pricing.html"/>
+   <updated>2023-01-20T15:15:00-06:00</updated>
+   <id>http://localhost:4000/development/design/2023/01/20/optimal_pricing</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rescue Themes</title>
+   <link href="http://localhost:4000/development/design/2016/02/20/rescue-themes.html"/>
+   <updated>2016-02-20T09:56:00-06:00</updated>
+   <id>http://localhost:4000/development/design/2016/02/20/rescue-themes</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Weathercast</title>
+   <link href="http://localhost:4000/development/2016/02/20/weathercast.html"/>
+   <updated>2016-02-20T09:56:00-06:00</updated>
+   <id>http://localhost:4000/development/2016/02/20/weathercast</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bloc Jams Angular</title>
+   <link href="http://localhost:4000/development/2016/02/20/bloc-jams-angular.html"/>
+   <updated>2016-02-20T08:15:00-06:00</updated>
+   <id>http://localhost:4000/development/2016/02/20/bloc-jams-angular</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>

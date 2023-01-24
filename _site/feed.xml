@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello. I&apos;m George Dau.</title>
+    <description>I&apos;m an data analyst and aspiring data scientist from Dallas using data to drive buisness intelligence.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 23 Jan 2023 20:39:18 -0600</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2023 20:39:18 -0600</lastBuildDate>
+    <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>Optimal Pricing Model</title>
+        <description>
+</description>
+        <pubDate>Fri, 20 Jan 2023 15:15:00 -0600</pubDate>
+        <link>http://localhost:4000/development/design/2023/01/20/optimal_pricing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/design/2023/01/20/optimal_pricing.html</guid>
+        
+        <category>Python</category>
+        
+        <category>SQL</category>
+        
+        <category>Analytics</category>
+        
+        <category>Work</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Rescue Themes</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 09:56:00 -0600</pubDate>
+        <link>http://localhost:4000/development/design/2016/02/20/rescue-themes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/design/2016/02/20/rescue-themes.html</guid>
+        
+        <category>WordPress</category>
+        
+        <category>PHP</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Weathercast</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 09:56:00 -0600</pubDate>
+        <link>http://localhost:4000/development/2016/02/20/weathercast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2016/02/20/weathercast.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>API</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Bloc Jams Angular</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 08:15:00 -0600</pubDate>
+        <link>http://localhost:4000/development/2016/02/20/bloc-jams-angular.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2016/02/20/bloc-jams-angular.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>Sass</category>
+        
+        <category>Grunt</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

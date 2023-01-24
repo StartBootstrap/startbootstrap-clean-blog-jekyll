@@ -1,0 +1,60 @@
+/* Mixins */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin horizontal-align {
+  margin: 0 auto;
+  display: table;
+}
+
+@mixin grayscale($value) {
+  -webkit-filter: grayscale($value);
+  filter: grayscale($value);
+}
+
+@mixin transition($args...) { // color .2s ease-in-out
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin bp-large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (min-width: 992px) and (max-width: 1195px) {
+    @content;
+  }
+}
+
+@mixin bp-small {
+  @media only screen and (min-width: 770px) and (max-width: 990px) {
+    @content;
+  }
+}
+
+@mixin bp-xsmall {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+/* Functions */
+
+/* Slightly darken a color
+ @param {Color} $color - color to shade
+ @param {Number} $percentage - percentage of `$color` in returned color
+ @return {Color}
+*/
+@function darken($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
