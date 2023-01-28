@@ -343,6 +343,14 @@ The books which are marked with a ** are the ones that I am either currently rea
 326. **The Sea Close By**, *Albert Camus*, Penguin Classics, 2013.
 327. **The Missionary Position: Mother Teresa in Theory and Practice**, *Christopher Hitchens*, Atlantic Books, 2021.
 328. **How to Lie with Statistics**, *Darrell Huff*, Pelican Books, 1975.
+329. **Virus Hunter: Thirty Years of Battling Hot Viruses Around the World**, *C. J. Peters and Mark Olshaker*, Anchor Books, 1998.
+330. **Messiah Modi? A Tale of Great Expectations**, *Tavleen Singh*, HarperCollins Publishers India, 2020.
+331. **No Nation for Women: Reportage on Rape from India, the World’s Largest Democracy**, *Priyanka Dubey*, Simon & Schuster India, 2018.
+332. **Bhupen Hazarika: As I Knew Him**, *Kalpana Lajmi  with Sunanda Shyamal Mitra*, HarperCollins Publishers India, 2018.
+333. **Walking with Lions: Tales from a Diplomatic Past**, *K. Natwar Singh*, HarperCollins Publishers India, 2013.
+334. **The Fiction of Fact-finding: Modi & Godhra**, *Manoj Mitta*, HarperCollins Publishers India, 2014.
+335. **Chandni Chowk: The Mughal City of Old Delhi**, *Swapna Liddle*, Speaking Tiger, 2017.
+336. **Connaught Place and the Making of New Delhi**, *Swapna Liddle*, Speaking Tiger, 2018.
 
 
 ## Fiction
@@ -447,6 +455,7 @@ The books which are marked with a ** are the ones that I am either currently rea
 19. **Sketches of Western Ukraine: August 2015**, *Simon Harchun*, Clio Editions, 2015.
 20. **The Complete Maus**, *Art Spiegelman*, Penguin Books, 2003.
 21. **Erotic art of India**, *Philip Rawson*, Universe Books, 1977.
+22. **All Quiet in Vikaspuri**, *Sarnath Banerjee*, HarperCollins Publishers India, 2015.
 
 
 ## Poetry
