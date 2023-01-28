@@ -22,6 +22,14 @@ Some of the papers here may not be the final version that appeared, if you want 
  
 1. *A study of the crank function with special emphasis on Ramanujan’s Lost Notebook*, M.Sc Thesis, Tezpur University (Tezpur, India), 2014. (Supervisor: [Prof. Nayandeep Deka Baruah](http://www.tezu.ernet.in/dmaths/people/faculty-pages/ndb.html)) ([pdf](http://arxiv.org/pdf/1406.3299v1.pdf)).
 
+## Preprints
+
+3. *Conjectures on congruences of binomial coefficients modulo higher powers of a prime number*, preprint, 2022. ([pdf](/publ/papers/Conjecture.pdf))
+ 
+2. *Extensions of some results of Vladeta and Dhar*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2022. ([pdf](/publ/papers/Partition_Vladeta.pdf))
+
+1. *Biases in Non-Unitary Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2022. ([pdf](/publ/papers/bias-new.pdf))
+
 ## Peer Reviewed Papers
 
 23. *Some Missed Congruences modulo powers of $2$ for $t$-colored overpartitions*, *Boletín de la Sociedad Matemática Mexicana*, 2023, 29 (1), Article  15, 10 pp. ([pdf](/publ/papers/NNcong.pdf))
@@ -83,12 +91,6 @@ Some of the papers here may not be the final version that appeared, if you want 
 1. *The Pursuit of Joy* (with *Pankaj Jyoti Mahanta*), LAP Lambert Academic Publishing, Germany, 2011. ([pdf](http://gonitsora.com/manjil/publ/books/the_pursuit_of_joy.pdf))
 
 ## Non Peer-Reviewed Papers
-
-11. *Conjectures on congruences of binomial coefficients modulo higher powers of a prime number*, preprint, 2022. ([pdf](/publ/papers/Conjecture.pdf))
- 
-10. *Extensions of some results of Vladeta and Dhar*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2022. ([pdf](/publ/papers/Partition_Vladeta.pdf))
-
-9. *Biases in Non-Unitary Partitions*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/) and [Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/)*), preprint, 2022. ([pdf](/publ/papers/bias-new.pdf))
 
 8. *Almost Circular Balancing Numbers*, *Advances in Mathematical Sciences* (Z. Ahmed (ed.)), Empyreal Publishing House, 2019, 61 — 67. ([pdf](http://www.editedbook.in/pdf/dr-zakir-ahmed-edited.pdf#%5B%7B%22num%22%3A72%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C73.441%2C696.959%2Cnull%5D))
 
