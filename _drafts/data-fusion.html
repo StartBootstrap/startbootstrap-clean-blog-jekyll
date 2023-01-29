@@ -1,0 +1,288 @@
+---
+layout: post
+title: "Data Fusion"
+subtitle: "What is the data fusion and how does it work"
+date: 2022-02-10
+background: '/img/posts/kalman-filter/1.PNG'
+---
+
+<p>
+  Data fusion is process used to combine mulitple sensor reading to get more accurate 
+  reading. For example, we have a robot move forward and backword. The robot use ladir 
+  to measure the obestical and estimate the distance. All sensor they have a noise in their reading 
+  and accuracy ( foe example, the ladir the robot use has a std of 2 cm therefore, if the robot read the distance 
+  20cm we can say the robot position fall between 18cm and 22cm). The noise in the sensor can be experse as gussain noise. 
+  Going back to our robot, if the ladir show the wall is 25cm away from the robot with std 5m as shown in the figure below the green curve.  
+</p>
+
+<img src="{{site.baseurl}}/img/posts/Data fusion/before combine edited.PNG">
+
+<p>
+  We have other reading came from the odometry using encoder and it shows the robot position is at 7m with std 7m.
+  If we keep reading both sensor independently, the error in ladiar will stay same while the odometery will increase to the point 
+  that cannot be use as reliable. Therfore we use data fusion to combine both reading to get a more accurate reading value. The 
+  figure below shows the output of combining both reading. As can be seen that blue curve shows the position at 6m with a std 3m 
+  which is much better than each sensor works independently. 
+</p>
+
+<img src="{{site.baseurl}}/img/posts/Data fusion/after combine edited.PNG">
+
+
+<p>
+    The process occurs at the top consisting of two steps which are (1) prediction step and (2) update step. 
+    In the first step, the dynamic of the robot updates the current state \(x_t\) where the uncertainty grows while 
+    the second step updates the current state \(x_t\) and reduces the uncertainty in the system. 
+</p>
+<p>
+    The fusion process can be done by Bayes' Theorem using different probability distributions or we can use the Kalman filter.
+</p>
+<p>
+    The Kalman filter considers a robust mathematical model used in data fusion where it simplifies the problem. 
+    The Kalman filter solve linear systems \( \hat x = f(x | z_1, .... z_n )\), where \(\hat x\) is the estimated state, \(x\) 
+    is the uncertain state and \(z_1 , z_n \) is the noisy measured state. So the Kalman filter minimise the state using 
+    the noizy measurment to get as close as possible to the accurate state \(\hat x = min J\). Therefore, the problem convert 
+    to minimizing the error between the noizy state and the estimated state \(\overline x = x - \hat x \) , 
+    where  \(\overline x \) is the state estimation error. We have the state estimation Covariance \(P = [(x- \hat x)(x- \hat x)^T]\) 
+    and the cost function Jacobian \( J= [(x- \hat x)^T(x- \hat x)] = Tr(P) \). 
+    Therefore, we can minimise the cost function \(J\).
+</p>
+
+<p>
+    There are differently typed Kalman filters (KF) due to the computation efficiency. 
+    However, due to the Kalman filter process, only linear equations and Extended Kalman filter 
+    (EKF) was designed to work on a non-linear model by approximating the model to linearize the 
+    relationship and use a linear Covariance. 
+    Therefore, EKF works with models that can linearize.
+    Since some models cannot approximate a linear model, an Unscented Kalman Filter (UKF) 
+    developed to work with non-linear models to calculate the prediction and updated equations. 
+    The UKF linearize the uncertainty Covariance instead of linearizing the models' dynamics.
+</p>
+
+<h2 class="subsection-heading">An implementation of KF in arduino</h2>
+
+<p>
+    Now I am going to implement KF in Arduino to provide me with a more accurate data reading of 
+    IMU sensor (MUP-6050). We will correct one roll angle of the sensor using Kalman gain. 
+    Kalman gain uses to update the measure state in order to correct the new estimate state. 
+</p>
+$$
+  K = \frac {P*H} {H*P*H+R}
+$$
+<p>
+  where \(P\) is error covariance, \(H\) measure map scalar, \(Q\) initial estimation covariance, and 
+  \(R\) is noise coverance. The Kalman gain should be between 0 and 1, which refer to the stabiltity of the system, 
+  0 is stable estimate and 1 is unstable estimate.
+</p>
+<p>
+    The class below is the Kalman filter algorithms for a singel input state. 
+    The class define multiple virables which define in the function to compute the kalman gain. 
+    The update function is used to compute the updated kalman gain and the corrected state.
+</p>
+
+
+{% highlight ruby %}
+class Kalamn_filter
+{
+  public:
+    const float R = 20;   // noise coverance
+    const float H = 1.00;  // measure map scalar
+    float Q = 2;           // initial estimation covariance
+    float P = 0;           //error covariance
+    float x_hat = 0;       // updated state
+    float K = 0; //kalman gain;
+  float Update(int x)
+    {
+    
+    K = P*H/(H*P*H+R); // update kalman gain
+    x_hat = x_hat + K*(x-H*x_hat);
+
+    // update error covariance 
+    P= (1-K*H)*P+Q;
+
+    return x_hat;
+    }
+};
+};
+{% endhighlight %}
+
+<p>
+    The blow code is the setup and main function loop where we define the Serial and we initialize the sensor 
+    and the kalman filter class. In the main loop we get the data from the snesor and pass it to the update function 
+    to calculate the estimated state.
+</p>
+
+{% highlight ruby %}
+Kalamn_filter kalman_filter();
+void setup() {
+    // put your setup code here, to run once:
+      Serial.begin(9600);
+  
+    Serial.println("Initialize MPU6050");
+  
+    while(!mpu.begin(MPU6050_SCALE_2000DPS, MPU6050_RANGE_2G))
+    {
+      Serial.println("Could not find a valid MPU6050 sensor, check wiring!");
+      delay(500);
+    }
+  
+    // Initilize Kalman filter 
+  }
+  
+  void loop() {
+    // put your main code here, to run repeatedly:
+    // Read normalized values 
+    Vector normAccel = mpu.readNormalizeAccel();
+  
+    // Calculate Roll
+    int roll = (atan2(normAccel.YAxis, normAccel.ZAxis)*180.0)/M_PI;
+  
+    float roll_correct = kalman_filter(roll);
+    // Output
+    Serial.print(" Roll = ");
+    Serial.print(roll);
+    Serial.print(" Roll_correct = ");
+    Serial.print(roll_correct);
+    
+    Serial.println();
+    
+    delay(10);
+  }
+{% endhighlight %}
+
+<p>
+    The figure below shows the raw data (green) and the output of the Kalman filter (gray). 
+    As can be seen that the estimated roll has a smooth curve and less noize comparing to the measured roll angle.
+</p>
+
+<img src="{{site.baseurl}}/img/posts/Data fusion/kalman output.PNG">
+
+<p>
+    The complete code is below
+</p>
+
+
+
+{% highlight ruby %}
+#include <Wire.h>
+    #include <MPU6050.h> 
+    
+    MPU6050 mpu;
+    
+    class Kalamn_filter
+    {
+      public:
+        const float R = 20;   // noise coverance
+        const float H = 1.00;  // measure map scalar
+        float Q = 2;           // initial estimation covariance
+        float P = 0;           //error covariance
+        float x_hat = 0;       // updated state
+        float K = 0; //kalman gain;
+      float Update(int x)
+        {
+        
+        K = P*H/(H*P*H+R); // update kalman gain
+        x_hat = x_hat + K*(x-H*x_hat);
+    
+        // update error covariance 
+        P= (1-K*H)*P+Q;
+    
+        return x_hat;
+        }
+    };
+    
+    // Initilize Kalman filter 
+    Kalamn_filter kalman_filter;
+    
+    void setup() {
+      // put your setup code here, to run once:
+        Serial.begin(9600);
+    
+      Serial.println("Initialize MPU6050");
+    
+      while(!mpu.begin(MPU6050_SCALE_2000DPS, MPU6050_RANGE_2G))
+      {
+        Serial.println("Could not find a valid MPU6050 sensor, check wiring!");
+        delay(500);
+      }
+    
+    }
+    
+    void loop() {
+      // put your main code here, to run repeatedly:
+      // Read normalized values 
+      Vector normAccel = mpu.readNormalizeAccel();
+    
+      // Calculate Roll
+      int roll = (atan2(normAccel.YAxis, normAccel.ZAxis)*180.0)/M_PI;
+    
+      float roll_correct = kalman_filter.Update(roll);
+      // Output
+      Serial.print(" Roll = ");
+      Serial.print(roll);
+      Serial.print(" Roll_correct = ");
+      Serial.print(roll_correct);
+      Serial.println();
+      
+      delay(10);
+    }
+{% endhighlight %}
+<p>
+
+
+</p>
+
+<h2 class="subsection-heading">Example 2 of KF with Arduino</h2>
+
+<p>
+  In this example I will use MPU6050 sensor that provide an acceleration data and gyroscop data. Using the acceleration data to compute 
+  the state \(x\) and the gyroscop data to correct the state. 
+  </p>
+
+  $$
+    \theta = \theta_0 + \dot \theta  t + \frac 1 2  \ddot \theta  t^2
+  $$
+  <p>
+  So the state will be \(\hat x = [\theta  { , } \dot \theta]^T \). where decribe the angle and the anguar velocity. 
+  These describe our best estimation (\(\mu)\). Now the covariance will be 
+  \( P_k = \begin{pmatrix} \Sigma_{\theta \theta} && \Sigma_{\theta \dot \theta} \\\ \Sigma_{\dot \theta \theta} && \Sigma_{\dot \theta \dot \theta}\end{pmatrix} \). 
+  And our A matrix is shown below.
+</p>
+
+$$ 
+    A_k = \begin{pmatrix} 1 && \Delta T \\\ 0 && 1 \end{pmatrix}
+$$
+<p>
+  Therfore, the result of multiplication of \(x\) and \(A\) is a matrix (2x1) and shows below.
+</p>
+$$ 
+    A_k x = \begin{pmatrix} \theta + \Delta T \dot \theta \\\ \dot \theta \end{pmatrix}
+$$
+<p>
+  now on the control pat which is the angular acceleration where \(u=[\ddot \theta]\), and 
+  \(B = \begin{pmatrix} \frac 1 2 \Delta t^2 \\\ \Delta t \end{pmatrix} \) and 
+  the result of the multiplication between \(u\) and \(B\) is 
+</p>
+
+$$
+  Bx = \begin{pmatrix} \ddot \theta \frac 1 2 \Delta t^2 \\\ \ddot \theta \Delta t \end{pmatrix} 
+$$
+
+<p>
+  Now we are going to update the state station using actual measurments \(Y_k = CX_k + z_k\), where 
+  \(C=\begin{pmatrix} 1 && 0 \\\ 0 && 1 \end{pmatrix}\) and \(C=\begin{pmatrix} \theta \\\ \dot \theta \end{pmatrix}\)
+</p>
+
+<p>
+  The below code is implemented in arduino using MPU6050 sensors and it is based on the work of 
+  <a href="http://blog.tkjelectronics.dk/2012/09/a-practical-approach-to-kalman-filter-and-how-to-implement-it/" target="_blank" rel="noopener noreferrer"></a> Lauszus </a>. 
+  Where I modified to be used in class form.
+</p>
+
+<p>
+  The full code shows below
+</p>
+
+
+<p>
+  The figure blow shows the output of the code as can be seen the estimation row angle is getting much better and smoother.
+</p>
