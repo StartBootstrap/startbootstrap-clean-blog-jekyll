@@ -10,6 +10,8 @@ Some talks (arranged in reverse chronological order) that I have given.
 
 >Not an exhaustive list!
 
+**Partitions with fixed differences between largest and smallest parts with fixed multiplicity of the smallest part**, *COmbinatorial Number Theory And Connected Topics - II, India*, online, February 2023. ([slides](/publ/talks/contact2.pdf)) 
+
 **Talk on Pseudoscience**, *InSCIgnis 2022, Tezpur University, India*, online, February 2022. ([video](https://www.youtube.com/watch?v=p6pmuD87MNE))
 
 **How to discover Rogers-Ramanujan Identities**, *National Mathematics Day, Tezpur University, India*, online, December 2021. ([video](https://www.youtube.com/watch?v=DwUerZhM26E))
