@@ -24,6 +24,10 @@ Some of the papers here may not be the final version that appeared, if you want 
 
 ## Preprints
 
+5. *Ramanujan-type Congruences for Partition $k$-Tuples with $5$-Cores*, (with *[Abhishek Sarma](https://sites.google.com/view/abhishek-sarma/) and Pranjal Talukdar*), preprint, 2023. ([pdf](https://arxiv.org/pdf/2302.01750.pdf))
+
+4. *On $k$-Facile Perfect Numbers*, (with *Flora S. Jeba and Anirban Roy*), preprint, 2022. (available on request)
+
 3. *Conjectures on congruences of binomial coefficients modulo higher powers of a prime number*, preprint, 2022. ([pdf](/publ/papers/Conjecture.pdf))
  
 2. *Extensions of some results of Vladeta and Dhar*, (with *[Pankaj Jyoti Mahanta](http://pankajjyoti.com/)*), preprint, 2022. ([pdf](/publ/papers/Partition_Vladeta.pdf))
