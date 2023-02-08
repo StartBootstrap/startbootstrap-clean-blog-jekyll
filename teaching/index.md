@@ -13,7 +13,7 @@ permalink: /teaching/
 
 **[MA301: Optimization Techniques](/teaching/IIIT/ma301)** (Third Year Undergraduate, January 2023 - May 2023)
 
-**[MA1011: Linear Algebra & Single Variable Calculus](/teaching/IIIT/ma1011)** (First Year Undergraduate, December 2022 - March 2023)
+**[MA1011: Linear Algebra & Single Variable Calculus](/teaching/IIIT/ma1011)** (First Year Undergraduate, December 2022 - February 2023)
 
 # Cardiff University
 
