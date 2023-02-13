@@ -8,9 +8,11 @@ url:                "https://startbootstrap.github.io"
 # Social Profiles
 twitter_username:   SBootstrap
 github_username:    StartBootstrap
+gitlab_username:
 facebook_username:  StartBootstrap
 instagram_username:  
 linkedin_username:
+stackoverflow_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
