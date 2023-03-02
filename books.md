@@ -351,6 +351,13 @@ The books which are marked with a ** are the ones that I am either currently rea
 334. **The Fiction of Fact-finding: Modi & Godhra**, *Manoj Mitta*, HarperCollins Publishers India, 2014.
 335. **Chandni Chowk: The Mughal City of Old Delhi**, *Swapna Liddle*, Speaking Tiger, 2017.
 336. **Connaught Place and the Making of New Delhi**, *Swapna Liddle*, Speaking Tiger, 2018.
+337. **Jawaharlal Nehru: Civilizing a Savage World**, *Nayantara Sahgal*, Penguin Books, 2016.
+338. **The Population Myth: Islam, Family Planning and Politics in India**, *S. Y. Quraishi*, HarperCollins Publishers India, 2021.
+339. **Yours Sincerely**, *K. Natwar Singh*, Rupa & Co., 2010.
+340. **She Said: Breaking the Sexual Harassment Story That Helped Ignite a Movement**, *Jodi Kantor and Megan Twohey*, Bloomsbury Publishing, 2020.
+341. **Fear: Trump in the White House**, *Bob Woodward*, Simon & Schuster, 2019.
+342. **Missing in Action: Why You Should Care About Public Policy**, *Pranay Kotasthane and Raghu S. Jaitley*, Penguin Books, 2023.
+343. **Where India Goes: Abandoned Toilets, Stunted Development and the Costs of Caste**, *Diane Coffey and Dean Spears*, HarperCollins Publishers India, 2017.
 
 
 ## Fiction
