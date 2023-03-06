@@ -1,0 +1,21 @@
+#  The contact options.
+
+-
+  type: github
+  icon: 'fab fa-github'
+
+
+-
+  type: youtube
+  icon: 'fab fa-youtube'
+  url:  'https://www.youtube.com/@fawzilinggo'                  # Fill with your Youtube homepage
+
+-
+  type: saweria
+  icon: 'fas fa-donate'
+  url:  'https://saweria.co/snowmancode'                  # Fill with your Saweria homepage
+
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true
