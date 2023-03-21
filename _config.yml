@@ -18,7 +18,7 @@ linkedin_username:
 # Build settings
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Build settings
