@@ -16,10 +16,16 @@ linkedin_username:
 #google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+remote_theme: pages-themes/merlot@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+# Build settings
+#markdown:           kramdown
+#paginate:           5
+#paginate_path:      "/posts/page:num/"
+#plugins:
+#  - jekyll-feed
+#  - jekyll-paginate
   #- jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
