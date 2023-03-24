@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a05527d028f6b90d076aa3d13fd0d37a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/pa7_hm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/pa7_leaflet_hm.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.css"/>
+    
+            <script>
+                var TDHeatmap = L.TimeDimension.Layer.extend({
+
+            initialize: function(data, options) {
+                var heatmapCfg = {
+                    radius: 15,
+                    blur: 0.8,
+                    maxOpacity: 1.,
+                    scaleRadius: false,
+                    useLocalExtrema: false,
+                    latField: 'lat',
+                    lngField: 'lng',
+                    valueField: 'count',
+                    defaultWeight : 1,
+                };
+                heatmapCfg = $.extend({}, heatmapCfg, options.heatmapOptions || {});
+                var layer = new HeatmapOverlay(heatmapCfg);
+                L.TimeDimension.Layer.prototype.initialize.call(this, layer, options);
+                this._currentLoadedTime = 0;
+                this._currentTimeData = {
+                    data: []
+                    };
+                this.data= data;
+                this.defaultWeight = heatmapCfg.defaultWeight || 1;
+            },
+            onAdd: function(map) {
+                L.TimeDimension.Layer.prototype.onAdd.call(this, map);
+                map.addLayer(this._baseLayer);
+                if (this._timeDimension) {
+                    this._getDataForTime(this._timeDimension.getCurrentTime());
+                }
+            },
+            _onNewTimeLoading: function(ev) {
+                this._getDataForTime(ev.time);
+                return;
+            },
+            isReady: function(time) {
+                return (this._currentLoadedTime == time);
+            },
+            _update: function() {
+                this._baseLayer.setData(this._currentTimeData);
+                return true;
+            },
+            _getDataForTime: function(time) {
+                    delete this._currentTimeData.data;
+                    this._currentTimeData.data = [];
+                    var data = this.data[time-1];
+                    for (var i = 0; i < data.length; i++) {
+                        this._currentTimeData.data.push({
+                                lat: data[i][0],
+                                lng: data[i][1],
+                                count: data[i].length>2 ? data[i][2] : this.defaultWeight
+                            });
+                        }
+                    this._currentLoadedTime = time;
+                    if (this._timeDimension && time == this._timeDimension.getCurrentTime() && !this._timeDimension.isLoading()) {
+                        this._update();
+                    }
+                    this.fire('timeload', {
+                        time: time
+                    });
+                }
+        });
+
+        L.Control.TimeDimensionCustom = L.Control.TimeDimension.extend({
+            initialize: function(index, options) {
+                var playerOptions = {
+                    buffer: 1,
+                    minBufferReady: -1
+                    };
+                options.playerOptions = $.extend({}, playerOptions, options.playerOptions || {});
+                L.Control.TimeDimension.prototype.initialize.call(this, options);
+                this.index = index;
+                },
+            _getDisplayDateFormat: function(date){
+                return this.index[date.getTime()-1];
+                }
+            });
+            </script>
+                
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a05527d028f6b90d076aa3d13fd0d37a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a05527d028f6b90d076aa3d13fd0d37a = L.map(
+                "map_a05527d028f6b90d076aa3d13fd0d37a",
+                {
+                    center: [37.773972, -122.431297],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_51cc60b5b32355e8c75a4ecf627650fe = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a05527d028f6b90d076aa3d13fd0d37a);
+        
+    
+
+            var times = [1, 2, 3, 4, 5, 6, 7];
+
+            map_a05527d028f6b90d076aa3d13fd0d37a.timeDimension = L.timeDimension(
+                {times : times, currentTime: new Date(1)}
+            );
+
+            var heat_map_008b0d064eb6e4e62a12ad5743d07507Control = new L.Control.TimeDimensionCustom(['Tuesday 04. April 2017', 'Wednesday 05. April 2017', 'Thursday 06. April 2017', 'Friday 07. April 2017', 'Saturday 08. April 2017', 'Sunday 09. April 2017', 'Monday 10. April 2017'], {
+                autoPlay: false,
+                backwardButton: true,
+                displayDate: true,
+                forwardButton: true,
+                limitMinimumRange: 5,
+                limitSliders: true,
+                loopButton: true,
+                maxSpeed: 10,
+                minSpeed: 0.1,
+                playButton: true,
+                playReverseButton: true,
+                position: "bottomleft",
+                speedSlider: true,
+                speedStep: 0.1,
+                styleNS: "leaflet-control-timecontrol",
+                timeSlider: true,
+                timeSliderDrapUpdate: false,
+                timeSteps: 1
+                })
+                .addTo(map_a05527d028f6b90d076aa3d13fd0d37a);
+
+                var heat_map_008b0d064eb6e4e62a12ad5743d07507 = new TDHeatmap([[[37.75175927557971, -122.4128463925109, 1.0], [37.76995495034647, -122.44778307055876, 2.0], [37.774408250809294, -122.4138075001984, 1.0], [37.77737222781529, -122.44167909289752, 1.0], [37.77923906895383, -122.41508566641576, 3.0], [37.78096300274309, -122.46535264988074, 1.0], [37.78211984889314, -122.41566966144342, 2.0], [37.78564075266437, -122.41799927869069, 2.0], [37.78614939475943, -122.417273344939, 1.0]], [[37.71968749527175, -122.47632781512624, 1.0], [37.74409770090181, -122.39874867106272, 1.0], [37.76505012146682, -122.41967178029562, 4.0], [37.769059123171424, -122.45054585641228, 2.0], [37.77005271823719, -122.4461436720392, 1.0], [37.77871926278901, -122.41474383538244, 2.0], [37.78012428780563, -122.44589358121208, 1.0], [37.7816031438671, -122.4163519873519, 3.0], [37.78162581726953, -122.49344609795124, 3.0], [37.78211984889314, -122.41566966144342, 2.0], [37.78244651355924, -122.41634297762194, 1.0], [37.78258519684673, -122.41569492213362, 2.0], [37.782841984813125, -122.42166708607137, 2.0], [37.78491418595622, -122.41196579522853, 1.0], [37.78564075266437, -122.41799927869069, 2.0], [37.80622142699113, -122.42384881372992, 1.0]], [[37.7692156705894, -122.45270634032182, 1.0], [37.77281156257504, -122.41282664802354, 1.0], [37.77984702234908, -122.48741545955518, 1.0], [37.78331075399689, -122.41753069697998, 3.0], [37.79105457184075, -122.42071372835564, 1.0]], [[37.73401521807227, -122.39097173455052, 2.0], [37.752132345797975, -122.41929549311403, 1.0], [37.77829352012903, -122.41544875956173, 1.0], [37.779691013765785, -122.39158881697465, 1.0], [37.77983391835866, -122.41431222924004, 2.0], [37.78258519684673, -122.41569492213362, 2.0], [37.78316141093946, -122.41161507540772, 1.0]], [[37.73720939714234, -122.43810220675246, 2.0], [37.74923740301593, -122.41486276874411, 1.0], [37.77272340136536, -122.41041666403636, 3.0], [37.77871926278901, -122.41474383538244, 2.0], [37.7805345385278, -122.40816295385729, 1.0], [37.78106262664059, -122.39551983456272, 1.0], [37.78355278355109, -122.4176453338394, 2.0], [37.78528426843183, -122.40949986110704, 2.0], [37.79692792888832, -122.43631861387004, 1.0]], [[37.75536688285028, -122.41986096194678, 1.0], [37.76112599482547, -122.44006419665672, 1.0], [37.76321610691309, -122.41956159609413, 1.0], [37.766201429685886, -122.46650439711264, 2.0], [37.77599772097288, -122.42617020608616, 1.0], [37.77850451909179, -122.40561899802177, 1.0], [37.78211984889314, -122.41566966144342, 2.0]], [[37.75096787607588, -122.41283855401863, 1.0], [37.76463102210982, -122.40596079936404, 2.0], [37.77163611149088, -122.43458056145064, 1.0], [37.78046892684792, -122.41694856587593, 1.0], [37.79120626291011, -122.4444811543458, 1.0]]],
+                {heatmapOptions: {
+                        radius: 15,
+                        blur: 0.8,
+                        minOpacity: 0,
+                        maxOpacity: 0.6,
+                        scaleRadius: false,
+                        useLocalExtrema: false,
+                        defaultWeight: 1,
+                        
+                    }
+                })
+                .addTo(map_a05527d028f6b90d076aa3d13fd0d37a);
+
+        
+</script>
+</html>
