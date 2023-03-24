@@ -1,6 +1,8 @@
 // Styling for the post page
 .post-preview {
     >a {
+        margin: 10px 0;
+        padding: 0;
         color: $gray-900;
 
         &:focus,
