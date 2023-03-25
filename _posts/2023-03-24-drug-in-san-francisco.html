@@ -7,49 +7,14 @@ background: '/img/bmLsTc.jpg'
 ---
 <html>
 <head>
-	<title>Webpage with Text in Margins</title>
+	<title>Webpage with Minimal Margins</title>
 	<style>
 		body {
 			margin: 0;
-			padding: 0;
 		}
 		
 		.page {
-			position: relative;
-			padding: 50px;
-		}
-		
-		.page::before,
-		.page::after {
-			content: "Some text here";
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			color: #fff;
-			font-size: 24px;
-			font-weight: bold;
-			text-transform: uppercase;
-			text-align: center;
-			z-index: -1;
-		}
-		
-		.page::before {
-			left: 0;
-			transform: rotate(-90deg);
-			transform-origin: top left;
-			width: 50px;
-			background-color: #333;
-			height: 100%;
-		}
-		
-		.page::after {
-			right: 0;
-			transform: rotate(90deg);
-			transform-origin: top right;
-			width: 50px;
-			background-color: #333;
-			height: 100%;
+			padding: 20px;
 		}
 	</style>
 </head>
@@ -60,7 +25,6 @@ background: '/img/bmLsTc.jpg'
 	</div>
 </body>
 </html>
-
 
 
 <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
