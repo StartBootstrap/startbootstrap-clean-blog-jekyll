@@ -5,7 +5,47 @@ subtitle: "Drugs in San Francisco"
 date: 2020-01-31 10:45:13 -0400
 background: '/img/bmLsTc.jpg'
 ---
-
+<html>
+<head>
+	<title>3-Column Webpage Example</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.column {
+			flex-basis: 30%;
+			padding: 10px;
+			background-color: #f2f2f2;
+			margin-bottom: 20px;
+		}
+		
+		@media only screen and (max-width: 768px) {
+			.column {
+				flex-basis: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="column">
+			<h2>Column 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
+		</div>
+		<div class="column">
+			<h2>Column 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
+		</div>
+		<div class="column">
+			<h2>Column 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
+		</div>
+	</div>
+</body>
+</html>
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
