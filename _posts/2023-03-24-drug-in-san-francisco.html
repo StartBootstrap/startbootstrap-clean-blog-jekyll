@@ -7,67 +7,59 @@ background: '/img/bmLsTc.jpg'
 ---
 <html>
 <head>
-	<title>3-Column Webpage Example</title>
+	<title>Webpage with Text in Margins</title>
 	<style>
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
+		body {
+			margin: 0;
+			padding: 0;
 		}
 		
-		.column {
-			flex-basis: 30%;
-			padding: 10px;
-			background-color: #f2f2f2;
-			margin-bottom: 20px;
+		.page {
+			position: relative;
+			padding: 50px;
 		}
 		
-		@media only screen and (max-width: 768px) {
-			.column {
-				flex-basis: 100%;
-			}
+		.page::before,
+		.page::after {
+			content: "Some text here";
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			color: #fff;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			z-index: -1;
+		}
+		
+		.page::before {
+			left: 0;
+			transform: rotate(-90deg);
+			transform-origin: top left;
+			width: 50px;
+			background-color: #333;
+			height: 100%;
+		}
+		
+		.page::after {
+			right: 0;
+			transform: rotate(90deg);
+			transform-origin: top right;
+			width: 50px;
+			background-color: #333;
+			height: 100%;
 		}
 	</style>
 </head>
 <body>
-	<div class="container">
-		<div class="column">
-			<h2>Column 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
-		</div>
-		<div class="column">
-			<h2>Column 2</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
-		</div>
-		<div class="column">
-			<h2>Column 3</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non orci non lacus mollis vestibulum.</p>
-		</div>
+	<div class="page">
+		<h1>Welcome to my webpage!</h1>
+		<p>Here is some content...</p>
 	</div>
 </body>
 </html>
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-<div class="row">
-  <div class="col-md-3">
-    <p>A What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthChinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-  </div>
-  <div class="col-md-6">
-    <iframe src="/img/bokehchart.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="300px"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0"></iframe>  
-  </div>
-  <div class="col-md-3">
-    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earthWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-  </div>
-</div>
 
 
 
