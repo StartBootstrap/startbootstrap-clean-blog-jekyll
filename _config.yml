@@ -16,10 +16,12 @@ linkedin_username:
 #google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-remote_theme: pages-themes/merlot@v0.2.0
+# remote_theme: pages-themes/merlot@v0.2.0
+theme: minima
 plugins:
-  #- jekyll-feed
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  
+  #- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Build settings
 #markdown:           kramdown
