@@ -16,8 +16,42 @@ background: '/img/bmLsTc.jpg'
 
 <p>But before continuing, do you think drug related crime has risen or decreased over the years? What about the other categories? Please, interact with <em>Chart No.2</em> where you can see 2010 crime activity and click the following years.</p>
   
-<p>We can see from [figure 1] that there has been a strong decrease in the total number of drug-related crimes from 2010 to 2017. When comparing this to other crime categories such as assault, burglary, vandalism, and vehicle thefts, we can see that the decrease in drug-related crimes is going against the general trend. This comes from the fact that San Francisco’s strategy has been to focus on making it safer for drug-users and offering addiction treatment, and not to strike down hard on drug-users by arresting them. This has caused the number of drug arrests to more than halve from the year 2010 to 2017.
-  
+<p>We can see from [figure 1] that there has been a strong decrease in the total number of drug-related crimes from 2010 to 2017. When comparing this to other crime categories such as assault, burglary, vandalism, and vehicle thefts, we can see that the decrease in drug-related crimes is going against the general trend. This comes from the fact that San Francisco’s strategy has been to focus on making it safer for drug-users and offering addiction treatment, and not to strike down hard on drug-users by arresting them. This has caused the number of drug arrests to more than halve from the year 2010 to 2017.<\p>
+ 
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  .center-column {
+    width: 650px;
+  }
+</style>
+<div class="container">
+  <div class="column">
+    <p>We can see from [figure 1] that there has been a strong decrease in the total number of drug-related crimes from 2010 to 2017. When comparing this to other crime categories such as assault, burglary, vandalism, and vehicle thefts, we can see that the decrease in drug-related crimes is going against the general trend.</p>
+  </div>
+  <div class="column center-column">
+    <embed
+       type="text/html"
+       src="/img/bokehchart.html"
+       width="610"
+       height="400"
+       >
+    </embed>
+    <span class="caption text-muted">Fig No.3: Interactive chart with ocurrences of crime categories by year.</span>
+  </div>
+  <div class="column">
+    <p>This comes from the fact that San Francisco’s strategy has been to focus on making it safer for drug-users and offering addiction treatment, and not to strike down hard on drug-users by arresting them. This has caused the number of drug arrests to more than halve from the year 2010 to 2017.</p>
+  </div>
+</div>  
+
 <p>Police activity has reduced in terms of arrests and prosecution. However, we still have drug seizures or arrests. As you can see in the calendar plot, the fourth week of January 2016 has been quite active in terms of police force activity.</p>
 <p>Let's dig into it. We have also made a heatmap with the drug crimes in the San Francisco Area, where we can see some activity near the UN Plaza within that week. If you interact with the chart, and press "play" or "forward" you will visualize +40 arrests have been made <sup><a href="#fn1" id="ref1">[1]</a></sup>, and according to the lead case agent more arrests are to come.</p>
 
