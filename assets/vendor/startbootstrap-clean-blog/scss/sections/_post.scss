@@ -5,6 +5,9 @@
   padding-left: 1px; /* Adds a small left margin to the content */
   padding-right: 1px; /* Adds a small right margin to the content */
 }
+body {
+  text-align: justify;
+}
 .post-preview {
     >a {
         margin: 0 0;
