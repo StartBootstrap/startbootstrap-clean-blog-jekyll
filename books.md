@@ -358,6 +358,11 @@ The books which are marked with a ** are the ones that I am either currently rea
 341. **Fear: Trump in the White House**, *Bob Woodward*, Simon & Schuster, 2019.
 342. **Missing in Action: Why You Should Care About Public Policy**, *Pranay Kotasthane and Raghu S. Jaitley*, Penguin Books, 2023.
 343. **Where India Goes: Abandoned Toilets, Stunted Development and the Costs of Caste**, *Diane Coffey and Dean Spears*, HarperCollins Publishers India, 2017.
+344. **The Emergency: A Personal History**, *Coomi Kapoor*, Penguin Books, 2016.
+345. **Rage**, *Bob Woodward*, Simon & Schuster, 2020.
+346. **Patriots and Partisans**, *Ramachandra Guha*, Allen Lane, 2012.
+347. **The Book Beautiful: A Memoir of Collecting Rare and Fine Books**, *Pradeep Sebastian*, Hachette India, 2023.
+348. **Early Indians: The Story of Our Ancestors and Where We Came From**, *Tony Joseph*, Juggernaut Books, 2021.
 
 
 ## Fiction
