@@ -2,7 +2,7 @@
 #mainNav {
     position: absolute;
     border-bottom: 1px solid $gray-200;
-    background-color: white;
+    background-color: whitesmoke;
     font-family: $headings-font-family;
 
     .navbar-brand {
@@ -15,7 +15,7 @@
         font-weight: 800;
         padding: 13px;
         text-transform: uppercase;
-        color: $gray-800;
+        color: grey;
     }
 
     .navbar-nav {
@@ -25,6 +25,13 @@
                 font-weight: 800;
                 letter-spacing: 1px;
                 text-transform: uppercase;
+                display: block;
+                color: black;
+            }
+            > a:hover{
+                color: black;
+                background-color: gray;
+                border-radius: 10px;
             }
         }
     }

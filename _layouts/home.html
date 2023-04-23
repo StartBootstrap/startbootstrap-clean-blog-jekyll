@@ -3,19 +3,38 @@ layout: default
 ---
 
 <!-- Page Header -->
+
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header
+  class="masthead"
+  style="background-image: url('{{ page.background  }}')"
+>
   {% else %}
   <header class="masthead">
     {% endif %}
+
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
+            <img
+              src="/img/my_img.jpeg"
+              width="150px"
+              style="
+                border-radius: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            />
+            <h1 style="color: white">{{ site.title }}</h1>
+
             {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
+            <span class="subheading" style="color: white"
+              >{{ site.description }} | {{site.previous_companies}}</span
+            >
+
             {% endif %}
           </div>
         </div>
@@ -24,43 +43,226 @@ layout: default
   </header>
 
   <div class="container">
+    
+    <h4 class="display-5" style="position: absolute; opacity: .1; font-size: 100px; padding-top: 70px;">About Me</h4>
+    <h4 class="display-4" style="position: relative;padding-top: 80px; padding-bottom: 40px; font-size: 70px">
+      A little about me,</h4>
+    
+    
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-6">
+        <p style="color: grey">Hello, I'm Ashutosh!</p>
+        <p style="color: grey; text-align: justify;">
+          Currenlty working as a Senior Data Scientist at HDFC Life with Data
+          Labs (Predictive Modelling team). Majority of my work includes
+          generating actionable business insights through applied machine
+          learning, which involves collecting data from various sources,
+          cleaning, pre-processing, outlier detection, feature engineering, ML
+          algorithm selection, hyper parameter tuning, algorithm training,
+          validation and model deployment for the end users.
+        </p>
+        <p style="color: grey; text-align: justify;">
+          Previously, I had worked with Flytxt as a Data Scientist, where I
+          developed machine learning solution for clients (Telecom Companies)
+          with the application of Applied machine learning and Big data
+          fundamentals (Apache-Spark, HDFS, Distributed Computing).
+        </p>
+        <p style="color: grey; text-align: justify;">
+          Regarding my education background, I did Masters in Technology in
+          <a href="https://www.ieor.iitb.ac.in/"
+            >Industrial Engineering and Operations Research (IEOR)</a
+          >, IIT Bombay, where my research work was on
+          <a href="https://ieeexplore.ieee.org/abstract/document/8965695"
+            >Classifying Retinal Images using Deep learning</a
+          >
+          (Computer Vision), which was also published in a
+          <a href="http://www.cisp-bmei.cn/"
+            >Image and signal processsing conference.</a
+          >
 
-        {{ content }}
-
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
-
+          My areas of interest lies in Classical and Bayesian machine learning
+          techniques, Causal Inference, Explainable AI and Deep learning.
+        </p>
       </div>
+      <div class="col-lg-6 wrap align-content-center">
+        <div class="row mt-5 flex-column">
+          <div class="col">
+            <h2 class="display-4 ml-1 pl-1 mb-4">My Skills</h2>
+            <div class="col">
+              <div class="progress-wrap">
+                <h4>Machine Learning</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>Python</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>AWS Sagemaker</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>Deep Learning</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>Computer Vision</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>Natural Language Processing</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+
+            <div class="col pt-4">
+              <div class="progress-wrap">
+                <h4>Excel Reporting</h4>
+                <div class="progress progress-style">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </div>
-  </div>
+  </div>					
+
+	<div class="container">
+		<h1 class="display-5 " style="position: absolute;z-index: -1;opacity: .1 ;font-size: 100px; color: black;">Tech Stack</h1>
+		<h1 class="display-4" style="position: relativel; padding-top: 30px;">Tech I'm familiar with</h1>	
+      
+				<div class="row pt-3" >
+					<div class="col-lg-3 mt-4 mt-md-0 ">
+						<div class="icon-box" style="height: 50px;">
+							<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="25px" >
+              Python
+						</div>
+            
+					</div>
+					
+					<div class="col-lg-3 mt-4 mt-md-0 justify-content-center">
+						<div class="icon-box">
+							<img class="tech-icon" src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="25px">
+							PyTorch
+						</div>
+					</div>
+
+          <div class="col-lg-3 mt-4 mt-md-0" >
+						<div class="icon-box">
+							<img class="tech-icon" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="25px">
+							Tensorflow
+						</div>
+					</div>
+					
+          <div class="col-lg-3 mt-4 mt-md-0">
+						<div class="icon-box">
+							<img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40px">
+							Scikit-Learn
+						</div>
+					</div>
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="50px">
+              Apache-Spark
+            </div>
+          </div>
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="80px">
+              Pandas
+            </div>
+          </div>
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" width="30px">
+              Git
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="30px">
+              HTML
+            </div>
+          </div>
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="25px">
+              CSS
+            </div>
+          </div>
+
+          
+          
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/AWS_Simple_Icons_AWS_Cloud.svg" width="25px">
+              AWS Sagemaker
+            </div>
+          </div>
+
+          
+          
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Docker_logo.svg" width="50px">
+              Docker
+            </div>
+          </div>
+
+          <div class="col-lg-3 ">
+            <div class="icon-box" style="height: 50px;">
+              <img class="tech-icon" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" width="50px">
+              Flask
+            </div>
+          </div>
+
+
+        
+	
+		</section>
+	</div>
+</header>
+
