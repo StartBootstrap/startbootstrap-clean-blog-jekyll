@@ -1,15 +1,15 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              BlogMate
+email:              mirzabeyliler@gmail.com
+description:        Blog sayfama hoş geldiniz! Blogumda kendi fikirlerimi, hobilerimi yazıya dökücem.Umarım beğenirsiniz...
+author:             Yusif Mirzəbəyli
+baseurl:            ""
+url:                "https://blogmate.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   nearfight0
+github_username:    nearfight0
+facebook_username: 
+instagram_username:  _https.yusif
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
