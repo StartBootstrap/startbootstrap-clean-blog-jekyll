@@ -24,9 +24,9 @@ plugins:
   #- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Build settings
-#markdown:           kramdown
-#paginate:           5
-#paginate_path:      "/posts/page:num/"
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 #plugins:
 #  - jekyll-feed
 #  - jekyll-paginate
