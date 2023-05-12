@@ -1,7 +1,7 @@
 ---
 classes: wide
 layout: post
-title: "Analysis of shooting incidents in New York City and the impact these have in the social development of the city"
+title: "Analysis of shooting incidents in New York City and their social development impact"
 subtitle: "Shooting in NYC"
 date: 2023-05-10 10:45:13 -0400
 background: '/img/bmLsTc.jpg'
@@ -29,7 +29,7 @@ background: '/img/bmLsTc.jpg'
 
 <p>New York City is among the major metropolitan areas in the world, with a population above 8 million, not only known for its iconics landmarks, cultural richness and diversity but also for its high cost of living and criminality.</p>
   This study provides an in-depth analysis of the trends, patterns, and correlation with some indicators that might be associated with gun violence and specifically, shooting incidents,
-  which have been a persistent problem in the city. The research is based on extensive data collection from INSERT SOURCE-URL and statistical and visual analysis learned trhough the Social Data Analysis and Visualization course,
+  which have been a persistent problem in the city. The research is based on extensive data collection from this <a href="https://opendata.cityofnewyork.us/">source</a>, together with statistical and visual analysis learned trhough the Social Data Analysis and Visualization course,
   which reveal important insights into the nature and extent of gun incidents in the city. The findings of the study have important implications for those who seek to address this pressing public safety issue.
 <p>The city of New York has implemented various strategies and initiatives to combat gun violence. 
   Here are some of the ways that the city representatives have tried to fight against gun violence:</p>
@@ -66,7 +66,8 @@ background: '/img/bmLsTc.jpg'
     <span class="caption text-muted">Figure 4: Number of ocurrences by location type.</span>
   </div>
   <div style="float: left; width: 28%;">
-    <p><br><br>Only after we investigated a bit more, we discovered that most of the shootings were located in housing alocations. Primarily, public housing, but also private and other premises.</p>
+    <p><br><br>Only 
+      we investigated a bit more, we discovered that most of the shootings were located in housing alocations. Primarily, public housing, but also private and other premises.</p>
   </div>
 </div>
 
@@ -77,11 +78,11 @@ background: '/img/bmLsTc.jpg'
 <h2 class="section-heading">Impact on school attendance</h2>
 <p> The first thing that came to our minds is that gun violence and shootings could have a significant impact on school attendance. When incidents occur in the vicinity of schools or within the community, parents may be hesitant to send their children to school out of concern for their safety. In some cases, schools may be closed or placed on lockdown as a precautionary measure, further disrupting students' attendance and academic progress.
 
-Additionally, students who are exposed to or directly affected by gun violence may experience trauma, anxiety, and fear, which can affect their ability to attend school and concentrate on their studies. https://nypost.com/2023/02/18/nyc-school-related-violence-surges-deaths-increase/ 
+Additionally, students who are exposed to or directly affected by gun violence may experience trauma, anxiety, and fear, which can affect their ability to attend school and concentrate on their studies.<sup><a href="#fn3" id="ref1">[1]</a></sup>.</p> 
 
 <div style="overflow: hidden;">
     <div style="float: left; width: 20%;">
-    <p><br><br>Figure 4 shows the correlation between school attendant and number of shootings. Logically, all weekend and other non-school days have been excluded in the analysis.
+    <p><br><br>We have created a variable -z-score- which allows us to identify when the attendance for a certain school was extraordinarily affected (the lower, the more unusual the attendance drop). Figure 4 shows the correlation between z-score and number of shootings. Logically, all weekend and other non-school days have been excluded in the analysis.
 Figure 5 represents the impact on attendance in the exact day the shooting incidents took place, the one on the right, the impact of these incidents the day after they ocurred.</p>
   </div>
   <div style="float: left; width: 40%;">
@@ -95,7 +96,8 @@ Figure 5 represents the impact on attendance in the exact day the shooting incid
 </div>
 
 
-Overall, the city representatives have taken a multi-faceted approach to combatting gun violence in New York City, addressing the issue from various angles to create a comprehensive strategy. <sup><a href="#fn3" id="ref1">[1]</a></sup>.</p>
+Although we acknoledge there are many factors that contribuite the school attendance (weather, strikes, or others), we can see that the lowest z-score values occur when the distance from the shooting to the nearest school is also the lowest. In our analysis, this makes sense as parents could be scared from a possible shooting.
+Overall, the city representatives have taken a multi-faceted approach to combatting gun violence in New York City, addressing the issue from various angles to create a comprehensive strategy. 
 
 
 <h2 class="section-heading">Impact on Investment and Construction Development</h2>
@@ -105,7 +107,7 @@ Overall, the city representatives have taken a multi-faceted approach to combatt
 
 <div style="overflow: hidden;">
     <div style="float: left; width: 25%;">
-    <p><br><br>We made a grid in the latitudes and longitude of 1x1 kiliometer to analyze the truth of it. Figure # on the right shows the correlation between an Index of Investment in construction versus the number of shootings that ocurred within 1 square kilometer of the location in the borough.</p>
+    <p><br><br>We made a grid in the latitudes and longitude of 1x1 kiliometer to analyze the truth of it. Figure # on the right shows the correlation between total construction investment in the 1sqkm cell grid versus the number of shootings that ocurred within the same cell.</p>
   </div>
   <div style="float: left; width: 50%;">
     <img src="/img/Const.vsIQ.jpg" style="width: 100%;">
@@ -195,7 +197,7 @@ https://nypost.com/2023/02/18/nyc-school-related-violence-surges-deaths-increase
 
 <h3 class="section-heading">Sources</h3>
 <ol>
-  <li id="fn1">"Syringe Access Services - San Francisco AIDS Foundation." San Francisco AIDS Foundation. November 8, 2022. Accessed March 27, 2023. <a href="https://www.sfaf.org/programs/syringe-access-services/#:~:text=Our%20syringe%20access%20services%20program,of%20people%20who%20use%20drugs.">[source]</a></li>
+  <li id="fn1">"NYC school-related violence surges, deaths increase." New York Post. February 18, 2023. Accessed April 12, 2023. <a href="https://nypost.com/2023/02/18/nyc-school-related-violence-surges-deaths-increase/ ">[source]</a></li>
   <li id="fn2">"48 arrests made in large drug bust in San Francisco." ABC7 San Francisco. January 27, 2016. Accessed March 27, 2023. <a href="https://abc7news.com/san-francisco-drug-bust-dea-dealers/1175140/">[source]</a></li>
   <li id="fn3">"San Francisco’s “Progressive” Drug Policies Kill Hundreds Annually." Hoover Institution. Accessed March 27, 2023. <a href="https://www.hoover.org/research/san-franciscos-progressive-drug-policies-kill-hundreds-annually">[source]</a></li>
   https://nypost.com/2023/02/18/nyc-school-related-violence-surges-deaths-increase/
