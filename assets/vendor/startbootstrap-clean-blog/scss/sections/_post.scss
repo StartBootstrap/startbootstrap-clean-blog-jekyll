@@ -1,6 +1,17 @@
 // Styling for the post page
+.container {
+  max-width: 4000px; /* Change this value to adjust the maximum width of the content */
+  margin: 0 auto; /* This centers the container horizontally */
+  padding-left: 0; /* Adds a small left margin to the content */
+  padding-right: 0; /* Adds a small right margin to the content */
+}
+body {
+  text-align: justify;
+}
 .post-preview {
     >a {
+        margin: 0 0;
+        padding: 0;
         color: $gray-900;
 
         &:focus,
@@ -47,3 +58,8 @@
         }
     }
 }
+
+
+
+
+

@@ -1,0 +1,167 @@
+---
+classes: wide
+layout: post
+title: "Analysis of shooting incidents in New York City and their social development impact"
+subtitle: "Shooting in NYC"
+date: 2023-05-10 10:45:13 -0400
+background: '/img/bmLsTc.jpg'
+---
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .column {
+    flex: 1;
+    padding: 0px;
+  }
+  .center-column {
+    width: 650px;
+    padding: 10px;
+  }
+  .center-column2 {
+    width: 500px;
+  }
+</style>
+
+<p>New York City is among the major metropolitan areas in the world, with a population above 8 million, not only known for its iconics landmarks, cultural richness and diversity but also for its high cost of living and criminality.</p>
+  This study provides an in-depth analysis of the trends, patterns, and correlation with some indicators that might be associated with gun violence and specifically, shooting incidents,
+  which have been a persistent problem in the city. The research is based on extensive data collection from <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a>, together with statistical and visual analysis learned trhough the Social Data Analysis and Visualization course,
+  which reveal important insights into the nature and extent of gun incidents in the city. The findings of the study have important implications for those who seek to address this pressing public safety issue.
+<p>The city of New York has implemented various strategies and initiatives to combat gun violence. 
+  Here are some of the ways that the city representatives have tried to fight against gun violence:</p>
+<ul>
+  <li>Gun Control Laws: New York City has some of the strictest gun control laws in the country. The city has implemented measures such as background checks, limits on gun purchases, and requirements for gun owners to register their firearms. These measures aim to prevent criminals and individuals with a history of violence or mental illness from obtaining firearms.<sup><a href="#fn1" id="ref1">[1]</a></sup></li>
+  <li>Policing Strategies: The New York City Police Department (NYPD) has implemented various policing strategies to reduce gun violence, such as increasing police presence in high-crime areas, using data-driven approaches to identify and target gun violence hotspots, and conducting gun buyback programs.<sup><a href="#fn2" id="ref2">[2]</a></sup></li>
+  <li>Community Outreach: City representatives have also focused on community outreach programs to address the root causes of gun violence, such as poverty, lack of education, and unemployment. These programs aim to provide opportunities for at-risk youth and promote positive behaviors.<sup><a href="#f3" id="refn3">[3]</a></sup></li>
+  <li>Partnerships: The city has also formed partnerships with community organizations, faith-based groups, and businesses to work together in addressing gun violence. These partnerships help to raise awareness, provide resources, and create a network of support for individuals affected by gun violence.<sup><a href="#fn4" id="ref4">[4]</a></sup></li>
+</ul>
+<h2 class="section-heading">Have these measure been effective enough over the years? <br><br></h2>
+
+
+<div style="overflow: hidden;">
+  <div style="float: left; width: 25%;">
+    <p>According to our studies, in the period from 2006 to 2019 there was a remarkable decrease in shootings as it can be seen in <em>Figure 1</em>, with a clear negative trend. Although, data starts from 2006, this decrease of incidents follows a much longer historical trend, from their highest peaks during the 80s and 90s; mainly due to the big efforts of the City to contain the situation. On the other hand, the proportion of fatalities has been overall constant, with an average of 20%.</p>
+  </div>
+  <div style="float: left; width: 50%;">
+    <img src="/img/fatal vs non-fatal.jpg" style="width: 100%;">
+    <span class="caption text-muted">Figure 1: Number of incidents by year.</span>
+  </div>
+    <div style="float: left; width: 25%;">
+    <p>Only after we investigated a bit more, we discovered that most of the shootings were located in housing alocations. Primarily, public housing, but also private and other premises. This plays a big role as shooting in public places, such as commercial buildings, food venues, or others, tend to have a wider impact on terrifying the society.</p>
+  </div>
+</div>
+
+
+<div style="overflow: hidden;">
+  <div style="float: left; width: 25%;">
+    <p>However, it can be seen that during the last 3 years, things have gone backwards in the Big Apple, as more shootings have been recorded; as an example, 2020 has duplicated its shootings comparing to its previous year. We found this unexpected, as this was the year were most people were at home in lockdown.</p>
+  </div>
+  <div style="float: left; width: 50%;">
+    <img src="/img/location description.jpg" style="width: 100%;">
+    <span class="caption text-muted">Figure 2: Number of ocurrences by location type.</span>
+  </div>
+  <div style="float: left; width: 25%;">
+    <p>With this analysis we wanted to escape the obvious about more general categories, such as gender, age, race, etcetera, and we aim to find "hidden" or not so visible consequences of these types of incidents.</p>
+  </div>
+</div>
+
+<p>In order to analyse the consequences of these crimes, we looked at what were the most relevant socioeconomical associated to shootings. To this end, we made an extensive exploration on the data source page to look for possible aspects. Consequently, we have picked a few topics which could be associated to shooting incidents in our opinion.</p>
+<p>Firstly, we observed what is the impact on school attendance. Then, we analysed the role that shooting incidents play in the construction investments. Lastly, we also considered the impact on bike usage, although this time, we couldn’t find any association between them, as you can see in the <a href="https://github.com/pauloog/SocialData/blob/9d12cd6a175005ee73ced4e15c8bb25da3fa75ac/Final%20Project/Explainer%20Notebook.ipynb">explanatory notebook</a>. </p>
+
+
+
+
+<h2 class="section-heading">Impact on school attendance</h2>
+<p> The first thing that came to our minds is that gun violence and shootings could have a significant impact on school attendance. When incidents occur in the vicinity of schools or within the community, parents may be hesitant to send their children to school out of concern for their safety. In some cases, schools may be closed or placed on lockdown as a precautionary measure, further disrupting students' attendance and academic progress.
+
+Additionally, students who are exposed to or directly affected by gun violence may experience trauma, anxiety, and fear, which can affect their ability to attend school and concentrate on their studies.<sup><a href="#fn5" id="ref1">[5]</a></sup></p> 
+
+<div style="overflow: hidden;">
+    <div style="float: left; width: 20%;">
+    <p><br>We have created a variable -z-score- which allows us to identify when the attendance for a certain school was extraordinarily affected (the lower, the more unusual the attendance drop). Figure 3 shows the correlation between z-score and number of shootings in the same day as the shooting, while <em>Figure 4</em>, the attendance impact on the next working day. Logically, all weekend and other non-school days have been excluded in the analysis.</p>
+  </div>
+  <div style="float: left; width: 40%;">
+    <img src="/img/sameday sch zscore.jpg" style="width: 100%;">
+    <span class="caption text-muted">Figure 3: Dispersion chart of shooting location vs school attendance on the same day.</span>
+  </div>
+  <div style="float: left; width: 40%;">
+    <img src="/img/nextday sch zscore.jpg" style="width: 100%;">
+    <span class="caption text-muted">Figure 4: Dispersion chart of shooting location vs school attendance on the next day.</span>
+  </div>
+</div>
+
+
+Although we acknowledge there are many factors that affect school attendance (weather, strikes, or others), we can see that the lowest z-score values occur when the distance from the shooting to the nearest school is also the lowest. In our analysis, this makes sense as parents could be scared from a possible shooting.
+Overall, the city representatives have taken a multi-faceted approach to combatting gun violence in New York City, addressing the issue from various angles to create a comprehensive strategy. 
+
+
+<h2 class="section-heading">Impact on Investment and Construction Development</h2>
+
+
+<p>There was a trend in Social Media in 2021 where people were making videos of them shooting in the air to keep real state prices and rent costs in the lower side. If you don't believe it, google the following: <a href="https://www.youtube.com/watch?v=5cDBQ7XNHt0&ab_channel=DrKillaMilla/">How to keep housing prices low in my neighborhood</a>. Jokes aside, we found this to be very intriguing to investigate, and proceeded to do so.</p>
+
+<div style="overflow: hidden;">
+    <div style="float: left; width: 25%;">
+    <p><br>Construction development information was provided by the following <a href="https://data.cityofnewyork.us/Housing-Development/DOB-Job-Application-Filings/ic3t-wcy2">dataset </a>where it is possible to access all job construction applications within NYC. We made a grid in the latitudes and longitude of 1x1 kiliometer to analyze the truth of it. Figure 5 on the right shows the correlation between total construction investment in the 1sqkm cell grid versus the number of shootings that ocurred within the same cell.</p>
+  </div>
+  <div style="float: left; width: 50%;">
+    <img src="/img/Const.vsIQ.jpg" style="width: 100%;">
+    <span class="caption text-muted">Figure 5: Dispersion chart of number of shooting incident vs investment index within the same 1 square kilometer area in borough.</span>
+  </div>
+  <div style="float: left; width: 25%;">
+    <p><br>Some level of correlation can be noticed. Specially in some areas of the boroughs of Bronx and Brooklyn, were many incidents occur, the level of investment in construcion is relatively low. On the other hand, the grid cells with the most investment correspond to the grid where less indicent occur. These cells are mostly located in the Manhattan borough. Which again, from our point of view makes sense, since it corresponds to the most wealthy borough in New York City.</p>
+  </div>
+</div>
+
+<p>To support this, we have located all these areas in a map of New York City, showing in Figure 6. The heat map shows the degree of investment there is in the area, red being the lowest, green being the highest investment areas. Again we can confirm that most areas in the Bronx and Brookling are the most impacted. Also, the heat map visible in Figure 7 is showing year by year (press play to see the change over the years) the amount of incidents. The increase in the shooting incidents from 2019 and 2020 is also visible within the heatmap.</p>
+
+<div style="overflow: hidden;">
+    <div style="float: left; width: 50%;">
+      <embed
+       type="text/html"
+       src="/img/construction_heatmap.html"
+       width= "600" 
+       height= "450"
+       >
+      <span class="caption text-muted">Figure 6: Total investment by square kilometer Heatmap.</span>
+    </embed>
+  </div>
+  <div style="float: left; width: 50%;">
+     <embed
+       type="text/html"
+       src="/img/my_map copy.html"
+       width= "600" 
+       height= "450"
+       >
+     <span class="caption text-muted">Figure 7: Total incident by year Heatmap.</span>
+    </embed>
+  </div>
+</div>
+</p>Even though there is correlation between the number of incidents and investment in the Bronx and Brooklyn, there are probably many more factors that take place. Proof of this is the borough of Staten Island, where no significant number of shootings have occurred, but the level of investment is overall low compared to the rest of the city. </p>
+
+
+
+
+<h2 class="section-heading">Conclussion and further discussion</h2>
+<p>In conclusion, we can be certain that there is some level of correlation between the shootings and the analyzed factors. However, we acknowledge that it is a very complex topic and affected by a lot of variables.  
+
+Having said that, The City Administration should address the shooting issue with the respective seriousness. This report tries to provide an overview of the current situation and how it affects society as a whole. 
+
+Other things that could have been analyzed as well are the use of public transportation, unemployment, or other social indicators, but couldn't be achieved for technical reasons.</p>
+
+</p>If you are interested in more details about the development of this project, please refer to the <a href="https://github.com/pauloog/SocialData/blob/9d12cd6a175005ee73ced4e15c8bb25da3fa75ac/Final%20Project/Explainer%20Notebook.ipynb">explanatory notebook.</a></p>
+
+
+<h3 class="section-heading">Sources</h3>
+<ol>
+  <li id="fn1">New York State Office of the Attorney General. (n.d.). Gun safety. <a href=https://ag.ny.gov/gun-safety>[source]</a></li>
+  <li id="fn2">New York City Police Department. (n.d.). Neighborhood coordination officers. <a href=https://www.nyc.gov/site/nypd/bureaus/patrol/neighborhood-coordination-officers.page>[source]</a></li>
+  <li id="fn3">Wolf, C. (2021, August 4). New York City debuts Advance Peace, a gun violence prevention program aimed at high-risk individuals. The Trace. <a href=https://www.thetrace.org/2021/08/new-york-advance-peace-gun-violence-prevention-program/>[source]</a></li>
+  <li id="fn4">New York City Mayor's Office to Prevent Gun Violence. (n.d.). Peace NYC. <a href=https://www.nyc.gov/site/peacenyc/index.page>[source]</a></li>
+  <li id="fn5">"NYC school-related violence surges, deaths increase." New York Post. February 18, 2023. Accessed April 12, 2023. <a href="https://nypost.com/2023/02/18/nyc-school-related-violence-surges-deaths-increase/ ">[source]</a></li>
+  <li id="fn6"><a href="https://github.com/pauloog/SocialData/blob/9d12cd6a175005ee73ced4e15c8bb25da3fa75ac/Final%20Project/Explainer%20Notebook.ipynb">Link to explanatory notebook</a></li>
+  </ol>
