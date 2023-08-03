@@ -12,9 +12,10 @@ background: '/img/posts/05.jpg'
     development. Proficient in writing code in various languages.
     And having extensive experience in developing customized Deep
     learning/Machine Learning architectures from scratch with good
-    mathematical understanding.
-    My goal is simple "A complete understanding of how the brain works".
-    This passion led me to explore many fields like Learning theory, Bayesian inspired algorithms,Reinforcement Learning,Causal Inference, psychology,psychoanalysis,Neuroscience,Spoken language Understanding and EEG recording Analysis.</p>
+    mathematical understanding.</p>
+    
+<p>My goal is simple "A complete understanding of how the brain works".
+    This passion led me to explore many fields like Learning theory, Bayesian inspired algorithms,Reinforcement Learning,Causal Inference,psychology,psychoanalysis,Neuroscience,Spoken language Understanding and EEG recording Analysis.</p>
 
 <p> Currently I'm open to PhD/Research position </p>    
 
@@ -22,6 +23,13 @@ background: '/img/posts/05.jpg'
 
 
 <object data="/pdfs/Satish_resume1.pdf" width="1000" height="1000" type="application/pdf"></object>
+
+
+
+[_Github Link_](https://github.com/Satishpas2)
+
+
+[_Linkedin Link_](https://www.linkedin.com/in/satish-kumar-571034109/)
 
 
 <p>Feel free to contact me on <p>

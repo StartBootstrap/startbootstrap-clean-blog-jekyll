@@ -84,9 +84,4 @@ We will now discuss how to learn the parameters of such models, if all the varia
 
 ## V.I. Learn to see steps of modelling as probability definitions
 
-**bold**
-
-_italics_
-
-[Link Text](https://mademistakes.com/mastering-jekyll/how-to-link)
 
