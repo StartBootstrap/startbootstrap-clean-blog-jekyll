@@ -8,21 +8,11 @@ background: '/img/posts/05.jpg'
 
 "Intelligence is the ability to adapt to change " subtitle: "Stephen Hawking" 
 
-
-
-
-
-<img src="/img/directed-model-exp.png" alt="Directed-model-example">
-
-
-## Parameterizing Conditional Distributions with Neural Networks
-
-
-## V.I. Learn to see steps of modelling as probability definitions
-
-**bold**
-
-_italics_
-
-[Link Text](https://mademistakes.com/mastering-jekyll/how-to-link)
-
+<p>"Chance gives rise to thoughts,
+and chance removes them.
+              -Pascal (1670)"</p>
+              
+              
+<p>"The essence of the present theory is that no probability, direct, prior, or
+posterior, is simply a frequency.
+                                           -H. Jeffreys (1939)"</p>
