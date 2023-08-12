@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My AI Journey"
-date: 2022-10-30 23:45:13 -0400
+date: 2022-08-12 13:45:13 -0400
 background: '/img/posts/05.jpg'
 ---
 
