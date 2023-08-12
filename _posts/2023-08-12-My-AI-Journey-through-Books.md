@@ -7,23 +7,7 @@ background: '/img/posts/05.jpg'
 
 
 ## Books read by me
-1. The Master Algorithm
-
 1. [_The Master Algorithm_](https://www.amazon.in/Master-Algorithm-Ultimate-Learning-Machine/dp/0465065708)
 2. How to create brain
-
-
-
-
-
-
-
-
-
-
-<img src="/img/directed-model-exp.png" alt="Directed-model-example">
-
-
-
 
 
