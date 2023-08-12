@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My AI Journey"
+title: "My AI Journey through Books"
 date: 2022-08-12 13:45:13 -0400
 background: '/img/posts/05.jpg'
 ---
