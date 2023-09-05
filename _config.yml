@@ -1,9 +1,9 @@
-title:              Clean Blog
+title:              DevOps and the Modern IT Team
 email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
+description:        A Blog About Group 5 & Description of Each Person
 author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            "/P2G5-clean-blog-jekyll"
+url:                "https://lt-leos.github.io"
 
 # Social Profiles
 twitter_username:   SBootstrap
