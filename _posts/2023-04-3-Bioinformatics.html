@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Bioinformatics: high-throughput methods"
+subtitle: "High-throughput pharmacological screening consists of testing large collections of chemical compounds or natural products to identify biologically active molecules."
+date: 2023-04-3 10:45:13 -0400
+background: '/img/posts/07.avif'
+---
+
+<h2 class="section-heading">Executive Summary</h2>
+<h2>Abstract</h2>
+    <p>Dengue is an acute febrile illness caused by the Dengue virus (DENV), with a high number of cases worldwide. There is no available treatment that directly affects the virus or the viral cycle. The objective of this study was to identify a compound derived from natural products that interacts with the NS5 protein of the dengue virus through virtual screening and evaluate its in vitro antiviral effect on DENV-2.</p>
+
+    <h3>Methods</h3>
+    <p>
+        <strong>Molecular Docking:</strong> Molecular docking was performed on NS5 using AutoDock Vina software to identify potential compounds that could interact with the NS5 protein.
+    </p>
+    <p>
+        <strong>Selection of Compounds:</strong> Compounds with physicochemical and pharmacological properties of interest were selected based on the results of molecular docking.
+    </p>
+    <p>
+        <strong>Antiviral Effect Evaluation:</strong> The preliminary antiviral effect was evaluated through several methods:
+    </p>
+    <ul>
+        <li>
+            <strong>NS1 Protein Expression:</strong> The effect on viral replication was assessed by measuring the expression of the NS1 protein.
+        </li>
+        <li>
+            <strong>NS5 Production:</strong> The effect on viral genome replication and/or translation was determined by measuring NS5 production using DENV-2 Huh-7 replicon through ELISA.
+        </li>
+        <li>
+            <strong>Viral RNA Quantification:</strong> Viral RNA quantification was performed using RT-qPCR to assess the impact on viral genome replication.
+        </li>
+    </ul>
+
+    <h3>Results</h3>
+    <p>The in silico strategy proved effective in finding a compound (M78) with an indole-like structure.</p>
+    <p>
+        <strong>Antiviral Effect:</strong> Treatment with M78 at 50 µM reduced the expression of the NS5 protein by 70% and decreased viral RNA by 1.7 times, suggesting that M78 is involved in the replication and/or translation of the viral genome.
+    </p>
+</ul>
+<h2 class="section-heading">Bioinformatics: In Silico Assays</h2>
+<img class="img-fluid" src="https://www.mdpi.com/viruses/viruses-15-01563/article_deploy/html/images/viruses-15-01563-g002.png" alt="Demo Image">
+    <h2>Virtual Screening of Natural Compound Derivatives on DENV NS5 Protein</h2>
+    <p>As part of my data science experience, I conducted virtual screening of natural compound derivatives on the DENV NS5 protein. The objective of this study was to identify compounds that could interact with the NS5 protein, a key component of the Dengue virus. This research utilized cutting-edge in silico techniques to identify potential antiviral compounds.</p>
+
+    <p>The virtual screening involved:</p>
+    <ul>
+        <li>Obtaining the structures of NS5 proteins from the four DENV serotypes.</li>
+        <li>Selecting cavities for interaction, such as the substrate binding site and RNA tunnel.</li>
+        <li>Re-docking ligands SAH and 68E to obtain binding energy values.</li>
+        <li>Performing eight virtual screenings, two for each serotype.</li>
+        <li>Utilizing a library of 190,090 natural compound derivatives available on the DrugDiscovery@TACC web portal.</li>
+        <li>Employing AutoDock Vina 1.1 software for virtual screening calculations.</li>
+    </ul>
+
+    <h2>Selection of Compounds by Interaction on NS5 of DENV</h2>
+    <p>After the virtual screening, the selection of compounds was a crucial step. Compounds were chosen based on their ability to bind to NS5 in all four serotypes of the Dengue virus. The selection process involved the following criteria:</p>
+
+    <ul>
+        <li>Assessing aqueous solubility using the SwissADME web server.</li>
+        <li>Checking compliance with Lipinski's rules to evaluate drug-likeness.</li>
+        <li>Predicting possible toxicological risks using the ProTox-II web server.</li>
+        <li>3D visualization of protein-ligand complexes using the Chimera v1.13.1 program.</li>
+    </ul>
+    <p>This experience showcases the use of advanced in silico tools and computational methods to identify potential antiviral compounds, emphasizing the importance of data science in drug discovery and research.</p>
+
+<p>For more details, refer to the complete analysis and code in this repository.</p> 
+<a href="https://www.mdpi.com/1999-4915/15/7/1563" target="_blank" class="btn btn-primary">Open in MPDI</a>
+
+<p>Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
