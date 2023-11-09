@@ -14,3 +14,8 @@ image: "/img/people/감자.jpg"
 - **PhD** in Aerospace Engineering, KAIST, ongoing
 - **MS** in Aerospace Engineering, KAIST, 2021
 - **BS** in Aerospace Engineering, Sejong University, 2018
+
+## Research Interests
+
+- Decision Making
+- Artificial Intelligence
