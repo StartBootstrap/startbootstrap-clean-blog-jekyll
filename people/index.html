@@ -30,9 +30,8 @@ background: '/img/lics_homecoming.jpeg'
         </div>
     </div>
     {% endfor %}
-
-    <h2 class="mb-5">PhD Students</h2>
     {% assign people = site.people | where: "position", "PhD Student" | sort: 'admission' %}
+    <h2 class="mb-5">PhD Students <span>({{ people | size }})</span></h2>
     {% for person in people %}
     <div class="row mb-5 mx-2">
         <div class="col-md-2">
@@ -51,8 +50,8 @@ background: '/img/lics_homecoming.jpeg'
     </div>
     {% endfor %}
 
-    <h2 class="mb-5">MS Students</h2>
     {% assign people = site.people | where: "position", "MS Student" | sort: 'admission' %}
+    <h2 class="mb-5">MS Students <span>({{ people | size }})</span></h2>
     {% for person in people %}
     <div class="row mb-5 mx-2">
         <div class="col-md-2">
@@ -71,8 +70,8 @@ background: '/img/lics_homecoming.jpeg'
     </div>
     {% endfor %}
 
-    <h2 class="mb-5">Part-time Students</h2>
     {% assign people = site.people | where: "position", "PhD Student (part-time)" | sort: 'admission' %}
+    <h2 class="mb-5">Part-time Students <span>({{ people | size }})</span></h2>
     {% for person in people %}
     <div class="row mb-5 mx-2">
         <div class="col-md-2">
