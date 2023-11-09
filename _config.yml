@@ -1,9 +1,9 @@
 title:              Laboratory for information and Control Systems
-email:              hanlic@kaist.ac.kr
+email:
 description:        정보 및 시스템 제어 연구실
 author:             LiCS
-baseurl:            "/lics"
-url:                "https://damanikjosh.github.io"
+baseurl:            ""
+url:                "https://lics.kaist.ac.kr"
 
 # Social Profiles
 twitter_username:
