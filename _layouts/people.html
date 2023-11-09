@@ -11,10 +11,15 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="post-heading">
-                    <h1>{{ page.name }} <span class="text-muted">{{ page.korean }}</span></h1>
-                    <h2 class="subheading">{{ page.position }}</h2>
-                    <span><i class="fa fa-envelope"></i> {{ page.email }}</span>
+                <div class="post-heading row pb-5">
+                    <div class="col-9">
+                        <h1>{{ page.name }} <span class="text-muted">{{ page.korean }}</span></h1>
+                        <h2 class="subheading">{{ page.position }}</h2>
+                        <span><i class="fa fa-envelope"></i> {{ page.email }}</span>
+                    </div>
+                    <div class="col-3">
+                        <img src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" alt="{{ page.name }}">
+                    </div>
                 </div>
             </div>
         </div>
