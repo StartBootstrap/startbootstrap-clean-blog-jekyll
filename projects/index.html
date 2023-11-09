@@ -1,0 +1,24 @@
+---
+layout: page
+title: Projects
+background: '/img/bg-post.jpg'
+---
+
+{% assign projects = site.projects | sort: 'title' %}
+{% for project in projects %}
+<article class="post-preview">
+    <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h2 class="post-title">{{ project.title }}</h2>
+        <h3 class="post-subtitle">{{ project.subtitle }}</h3>
+        <!--    {% if post.subtitle %}-->
+        <!--    <h3 class="post-subtitle">{{ post.subtitle }}</h3>-->
+        <!--    {% else %}-->
+        <!--    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>-->
+        <!--    {% endif %}-->
+    </a>
+    {% for keyword in project.keywords %}
+    <span class="badge badge-primary">{{ keyword }}</span>
+    {% endfor %}
+</article>
+
+{% endfor %}
