@@ -1,0 +1,75 @@
+---
+layout: page
+title: People
+description: Meet our team
+background: '/img/bg-about.jpg'
+---
+
+<!--# Filter by position "Professor"-->
+
+
+
+<div class="container">
+    <h2 class="mb-5">Professor</h2>
+    {% assign people = site.people | where: "position", "Professor" %}
+    {% for person in people %}
+    <div class="row mb-5 mx-2">
+        <div class="col-md-3">
+            <div class="d-none d-md-block">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{{ person.image | prepend: site.baseurl | replace: '//', '/' }}", alt="">
+            </div>
+            <!--            <img class="img-fluid rounded mb-3 mb-md-0" src="{{ "/img/4lics.png" | relative_url }}" alt="">-->
+        </div>
+        <div class="col-md-9">
+            <a href="{{ person.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h3>{{ person.name }} {% if person.korean %}<span class="text-muted">{{ person.korean }}</span> {% endif %}</h3>
+            </a>
+
+
+            <p class="mt-1">{{ person.position }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <h2 class="mb-5">PhD Students</h2>
+    {% assign people = site.people | where: "position", "PhD Student" | sort: 'admission' %}
+    {% for person in people %}
+    <div class="row mb-5 mx-2">
+        <div class="col-md-3">
+            <div class="d-none d-md-block">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{{ person.image | prepend: site.baseurl | replace: '//', '/' }}", alt="">
+            </div>
+            <!--            <img class="img-fluid rounded mb-3 mb-md-0" src="{{ "/img/4lics.png" | relative_url }}" alt="">-->
+        </div>
+        <div class="col-md-9">
+            <a href="{{ person.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h3>{{ person.name }} {% if person.korean %}<span class="text-muted">{{ person.korean }}</span> {% endif %}</h3>
+            </a>
+
+            <p class="mt-1">{{ person.position }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <h2 class="mb-5">MS Students</h2>
+    {% assign people = site.people | where: "position", "MS Student" | sort: 'admission' %}
+    {% for person in people %}
+    <div class="row mb-5 mx-2">
+        <div class="col-md-3">
+            <div class="d-none d-md-block">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{{ person.image | prepend: site.baseurl | replace: '//', '/' }}", alt="">
+            </div>
+            <!--            <img class="img-fluid rounded mb-3 mb-md-0" src="{{ "/img/4lics.png" | relative_url }}" alt="">-->
+        </div>
+        <div class="col-md-9">
+            <a href="{{ person.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h3>{{ person.name }} {% if person.korean %}<span class="text-muted">{{ person.korean }}</span> {% endif %}</h3>
+            </a>
+
+            <p class="mt-1">{{ person.position }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- /.row -->
+</div>
