@@ -13,9 +13,9 @@ image: "/img/people/yunseooh_edited.png"
 
 - **PhD** in Aerospace Engineering, KAIST, ongoing
 - **MS** in Aerospace Engineering, KAIST, 2023
-- **BS** in Aerospace Engineering, KAIST, 2021
+- **BS** in Mechanical Engineering, Yonsei, 2021
 
 ## Research Interests
 
 - Multi-agent systems
-- Real-time control
+- Tactical Swarm UAV 
