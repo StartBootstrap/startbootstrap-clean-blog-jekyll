@@ -11,7 +11,7 @@ image: "/img/people/minjo.jpg"
 ## Education
 
 - **MS** in Aerospace Engineering, KAIST, ongoing
-- **BS** in Mechanical Engineering, KAIST, 2023
+- **BS** in Mechanical Engineering, Korea Aerospace University, 2023
 
 ## Research Interests
 
