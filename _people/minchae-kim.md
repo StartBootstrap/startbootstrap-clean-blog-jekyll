@@ -11,7 +11,7 @@ image: "/img/people/minchae.jpg"
 ## Education
 
 - **MS** in Aerospace Engineering, KAIST, ongoing
-- **BS** in Aerospace Engineering, KAIST, 2023
+- **BS** in Aerospace Engineering, Inha, 2023
 
 ## Research Interests
 
