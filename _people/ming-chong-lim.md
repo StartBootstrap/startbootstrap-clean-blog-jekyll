@@ -7,3 +7,14 @@ admission: 201808   # YYYYMM
 position: "PhD Student"
 image: '/img/people/mingchong.jpg'
 ---
+
+## Education
+
+- **PhD** in Aerospace Engineering, KAIST, ongoing
+- **MS** in Aerospace Engineering, KAIST, 2018
+- **BS** NTU, 2015
+
+## Research Interests
+
+- Multi-agent systems
+- Machine learning

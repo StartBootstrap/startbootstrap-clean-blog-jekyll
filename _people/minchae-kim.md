@@ -7,3 +7,14 @@ admission: 202302   # YYYYMM
 position: "MS Student"
 image: "/img/people/minchae.jpg"
 ---
+
+## Education
+
+- **MS** in Aerospace Engineering, KAIST, ongoing
+- **BS** in Aerospace Engineering, KAIST, 2023
+
+## Research Interests
+
+- Missile guidance and control
+- Machine learning
+- Multi-agent systems
