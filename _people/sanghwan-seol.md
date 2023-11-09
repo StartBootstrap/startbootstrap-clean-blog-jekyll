@@ -6,7 +6,7 @@ email: "shseol [at] lics.kaist.ac.kr"
 admission: 202002
 position: "PhD Student (part-time)"
 # ![changkyo.png](..%2Fimg%2Fpeople%2Fchangkyo.png)
-image:
+image: "/img/people/설상환.jpg"
 ---
 
 ## Education
