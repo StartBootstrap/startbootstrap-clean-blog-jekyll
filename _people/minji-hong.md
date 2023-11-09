@@ -1,8 +1,9 @@
 ---
 layout: people
-name: "Min-Ji Hong"
+name: "Minji Hong"
 korean: "홍민지"
-admission: 202208   # YYYYMM
+email: "mjhong [at] lics.kaist.ac.kr"
+admission: 202203   # YYYYMM
 position: "MS Student"
 image: '/img/people/minji.png'
 ---
