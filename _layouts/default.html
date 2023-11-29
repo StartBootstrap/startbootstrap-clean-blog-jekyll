@@ -14,7 +14,9 @@
 
   {% include scripts.html %}
 
-  {% include google-analytics.html %}
+  {% unless site.disable_tracking %}
+    {% include google-analytics.html %}
+  {% endunless %}
 
 </body>
 
