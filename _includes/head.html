@@ -10,6 +10,16 @@
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <meta property="og:description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.remote_url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{{page.title | normalize_whitespace | truncate: 50 | escape}}">
+
+  {% if page.background && page.background != blank %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.background }}"/>
+  {% endif %}
+
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -19,4 +29,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  {% if site.layouts contains 'overrides.styles' %}
+    {% include overrides.styles.html %}
+  {% endif %}
 </head>
