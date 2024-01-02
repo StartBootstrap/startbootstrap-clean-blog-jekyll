@@ -11,7 +11,7 @@ image: "/img/people/myeonghwa.jpg"
 
 ## Education
 
-- **MS** in Aerospace Engineering, KAIST, ongoing
+- **MS** in Aerospace Engineering, KAIST, 2024
 - **BS** in Mechanical Engineering, R.O.K. Naval Academy, 2012
 
 ## Research Interests
