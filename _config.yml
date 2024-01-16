@@ -1,14 +1,14 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              hungvu
+email:              hi@hungvu.org
+description:        hungvu's blog
+author:             hungvu
 baseurl:            "/"
 url:                "https://hungvu946.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   #
+github_username:    #
+facebook_username:  hungvu.ecom
 instagram_username:  
 linkedin_username:
 
