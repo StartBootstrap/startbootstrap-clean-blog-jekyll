@@ -17,5 +17,5 @@ image: "/img/people/sungjun-kim.jpg"
 
 ## Research Interests
 
-- Space situational awareness
-- Task allocation / scheduling
+- Satellite scheduling
+- Astrodynamics
