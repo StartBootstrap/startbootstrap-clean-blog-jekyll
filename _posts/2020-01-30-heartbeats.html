@@ -5,6 +5,74 @@ date: 2020-01-30 23:45:13 -0400
 background: '/img/posts/05.jpg'
 ---
 
+<script>
+    // define the callAPI function that takes house features as parameters
+    var callAPI = (bedrooms,bathrooms,sqft_living,waterfront,view,grade,sqft_living15)=>{
+        // instantiate a headers object
+        var myHeaders = new Headers();
+        // add content type header to object
+        myHeaders.append("Content-Type", "application/json");
+        let bedrooms_val = +bedrooms;
+        let bathrooms_val = +bathrooms;
+        let sqft_living_val = +sqft_living;
+        let waterfront_val = +waterfront;
+        let view_val = +view;
+        let grade_val = +grade;
+        let sqft_living15_val = +sqft_living15;
+        // using built in JSON utility package turn object to string and store in a variable
+        var raw = JSON.stringify({"bedrooms":bedrooms_val,"bathrooms":bathrooms_val,"sqft_living":sqft_living_val,"waterfront":waterfront_val,"view":view_val,"grade":grade_val,"sqft_living15":sqft_living15_val});
+        // create a JSON object with parameters for API call and store in a variable
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+        console.log("Headers:", myHeaders);
+        console.log("Content-Type:", myHeaders.get("Content-Type"));
+        
+        //Make the API call for regression model inference
+        fetch("https://av5ea7yq90.execute-api.us-east-1.amazonaws.com/Prod/calculate_price/", requestOptions)
+        .then(response => response.json())  // Parse the first level of JSON
+        .then(data => {
+            // The 'data' key contains a JSON string, so parse it to get the actual object
+            const prediction = JSON.parse(data.prediction);
+            // Select the predictionResult element and update its content
+            document.getElementById('predictionResult').innerText = 'Prediction: ' + prediction;
+        })
+        .catch(error => console.log('error', error));
+    }
+</script>
+
+<div class="featform">
+    <h2>Home Price</h2>
+    <p>Enter the features of your home.</p>
+
+    <form>
+        <label>Bedrooms :</label>
+        <input type="number" id="bedrooms_form">
+        <label>Bathrooms :</label>
+        <input type="number" id="bathrooms_form">
+        <label>Square Feet Living Space :</label>
+        <input type="number" id="sqft_living_form">
+        <label>Waterfront Access :</label>
+        <input type="number" id="waterfront_form">
+        <label>Scenic Views :</label>
+        <input type="number" id="view_form">
+        <label>Construction Grade :</label>
+        <input type="number" id="grade_form">
+        <label>Square Feet Living Space of 15 Neighbors (Avg) :</label>
+        <input type="number" id="sqft_living15_form">
+        <!-- set button onClick method to call function we defined passing input values as parameters -->
+        <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)">Call API</button>
+    </form>
+</div>
+
+<!-- Container to display the prediction -->
+<div id="predictionResult" style="border: 1px solid black; padding: 10px; width: 300px; margin: 20px;">
+    Prediction will be shown here.
+</div>
+
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
