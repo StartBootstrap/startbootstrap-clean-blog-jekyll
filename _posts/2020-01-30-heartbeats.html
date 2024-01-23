@@ -44,29 +44,38 @@ background: '/img/posts/05.jpg'
     }
 </script>
 
-<div class="featform">
+<div class="featform" style="margin: 20px;">
     <h2>Home Price</h2>
     <p>Enter the features of your home.</p>
 
     <form>
-        <label>Bedrooms :</label>
-        <input type="number" id="bedrooms_form">
-        <label>Bathrooms :</label>
-        <input type="number" id="bathrooms_form">
-        <label>Square Feet Living Space :</label>
-        <input type="number" id="sqft_living_form">
-        <label>Waterfront Access :</label>
-        <input type="number" id="waterfront_form">
-        <label>Scenic Views :</label>
-        <input type="number" id="view_form">
-        <label>Construction Grade :</label>
-        <input type="number" id="grade_form">
-        <label>Square Feet Living Space of 15 Neighbors (Avg) :</label>
-        <input type="number" id="sqft_living15_form">
+        <label style="display: inline-block; margin-right: 10px;">Bedrooms :</label>
+        <input type="number" id="bedrooms_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100" step="1"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Bathrooms :</label>
+        <input type="number" id="bathrooms_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100" step="0.25"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Square Feet Living Space :</label>
+        <input type="number" id="sqft_living_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100000" step="1"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Waterfront Access (No: 0, Yes: 1) :</label>
+        <input type="number" id="waterfront_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="1" step="1"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Scenic Views (None: 0, Exceptional: 4) :</label>
+        <input type="number" id="view_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="4" step="1"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Construction Grade :</label>
+        <input type="number" id="grade_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="13" step="1"><br>
+
+        <label style="display: inline-block; margin-right: 10px;">Square Feet Living Space of 15 Neighbors (Avg) :</label>
+        <input type="number" id="sqft_living15_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100000" step="1"><br>
+
         <!-- set button onClick method to call function we defined passing input values as parameters -->
-        <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)">Call API</button>
+        <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 20px;">Call API</button>
     </form>
 </div>
+
+<!-- 1 Cabin, 2 Substandard, 3 Poor, 4 Low, 5 Fair, 6 Low Average, 7 Average, 8 Good, 9 Better, 10 Very Good, 11 Excellent, 12 Luxury, 13 Mansion -->
 
 <!-- Container to display the prediction -->
 <div id="predictionResult" style="border: 1px solid black; padding: 10px; width: 300px; margin: 20px;">
