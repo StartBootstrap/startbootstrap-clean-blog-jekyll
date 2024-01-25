@@ -38,8 +38,16 @@ background: '/img/posts/House-Price.jpg'
         .then(data => {
             // The 'data' key contains a JSON string, so parse it to get the actual object
             const prediction = JSON.parse(data.prediction);
+
+            // Format the prediction as a currency
+        const formattedPrediction = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            maximumFractionDigits: 0  // No decimal places
+        }).format(prediction);
+
             // Select the predictionResult element and update its content
-            document.getElementById('predictionResult').innerText = 'Prediction: ' + prediction;
+            document.getElementById('predictionResult').innerText = 'Prediction: ' + formattedPrediction;
         })
         .catch(error => console.log('error', error));
     }
@@ -47,71 +55,66 @@ background: '/img/posts/House-Price.jpg'
 
 <div class="featform" style="margin: 20px;">
     <h2>Home Price</h2>
-    <p>Enter the features of your home.</p>
+    <p>Let's start with the fun part, enter the attributes of your home and call the API to get a predicition. If you're unsure of a value leave it blank and the model will impute the value based on the training dataset, but note that this will impact the precision of your estimate. Scroll below for more information on building this out.</p>
 
     <form>
-        <label style="display: inline-block; margin-right: 10px;">Bedrooms :</label>
-        <input type="number" id="bedrooms_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100" step="1"><br>
+        <input type="number" id="bedrooms_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="100" step="1">
+        <label for="bedrooms_form" style="display: inline-block;">: Bedrooms</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Bathrooms :</label>
-        <input type="number" id="bathrooms_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100" step="0.25"><br>
+        <input type="number" id="bathrooms_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="100" step="0.25">
+        <label for="bathrooms_form" style="display: inline-block;">: Bathrooms</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Square Feet Living Space :</label>
-        <input type="number" id="sqft_living_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100000" step="1"><br>
+        <input type="number" id="sqft_living_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="100000" step="1">
+        <label for="sqft_living_form" style="display: inline-block;">: Square Feet Living Space</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Waterfront Access (No: 0, Yes: 1) :</label>
-        <input type="number" id="waterfront_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="1" step="1"><br>
+        <input type="number" id="waterfront_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="1" step="1">
+        <label for="waterfront_form" style="display: inline-block;">: Waterfront Access (No: 0, Yes: 1)</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Scenic Views (None: 0, Exceptional: 4) :</label>
-        <input type="number" id="view_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="4" step="1"><br>
+        <input type="number" id="view_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="4" step="1">
+        <label for="view_form" style="display: inline-block;">: Scenic Views (None: 0, Exceptional: 4)</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Construction Grade :</label>
-        <input type="number" id="grade_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="13" step="1"><br>
+        <input type="number" id="grade_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="13" step="1">
+        <label for="grade_form" style="display: inline-block;">: Construction Grade</label><br>
 
-        <label style="display: inline-block; margin-right: 10px;">Square Feet Living Space of 15 Neighbors (Avg) :</label>
-        <input type="number" id="sqft_living15_form" style="display: inline-block; margin-bottom: 10px;" min="0" max="100000" step="1"><br>
+        <input type="number" id="sqft_living15_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="100000" step="1">
+        <label for="sqft_living15_form" style="display: inline-block;">: Square Feet Living Space of 15 Neighbors (Avg)</label><br>
 
         <!-- set button onClick method to call function we defined passing input values as parameters -->
-        <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 20px;">Call API</button>
+        <!-- <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 20px;">Call ML Model API</button> -->
     </form>
 </div>
 
 <!-- 1 Cabin, 2 Substandard, 3 Poor, 4 Low, 5 Fair, 6 Low Average, 7 Average, 8 Good, 9 Better, 10 Very Good, 11 Excellent, 12 Luxury, 13 Mansion -->
 
+<div style="margin: 20px;">
+    <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 10px;">Call ML Model API</button>
+    <span style="margin-left: 10px; font-size: 0.6em;">API call < 5 seconds</span>
+</div>
+
+
 <!-- Container to display the prediction -->
-<div id="predictionResult" style="border: 1px solid black; padding: 10px; width: 300px; margin: 20px;">
+<div id="predictionResult" style="border: 1px solid black; padding: 10px; width: 350px; margin: 20px;">
     Prediction will be shown here.
 </div>
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<p>Text.</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<h2 class="section-heading">Header</h2>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>Text.</p>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<!-- <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
 
-<h2 class="section-heading">The Final Frontier</h2>
+<p>Text.</p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<h2 class="section-heading">Header</h2>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+<p>Text</p>
 
 <img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+<span class="caption text-muted">Image desc.</span>
 
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+<p>Text.</p>
 
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
+<!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p> -->
