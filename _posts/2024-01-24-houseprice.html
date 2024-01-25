@@ -97,9 +97,32 @@ background: '/img/posts/House-Price.jpg'
     Prediction will be shown here.
 </div>
 
-<p>Text.</p>
+<h2 class="section-heading">Building a Production Machine Learning System</h2>
 
-<h2 class="section-heading">Header</h2>
+<blockquote class="blockquote">Before you even begin...</blockquote>
+
+<p>The first rule of handling a problem is not to start with machine learning (ML). There may be easier, cheaper solutions that acheive similar results. At the very least, one should consider building the structure for a simple system and then adding in ML later, with more data.</p>
+
+<p>Obtaining optimal data is one of the biggest challenges with any analytics project. I used the <a href="https://www.kaggle.com/datasets/harlfoxem/housesalesprediction">King County House Dataset</a> for this, but there are no "datasets" in the real world. Just messy, unstructured, incomplete, biased data. There is an element of data engineering to every ML system.</p>
+
+<p>Even with a tidy dataset for this illustrative project, there are still many enhancements that could be made. There is so much more that goes into the system than just the model. The point of this exercise for me was to develop the skills to build a ML system, not just a model, and this isn't a startup business for me.</p>
+
+<p>With that, let's dive into the process.</p>
+
+<blockquote class="blockquote">Exploratory Data Analysis</blockquote>
+
+<p>We need to know what we have in the data we're working with. We can examine the columns, display the data distribution, identify null values, and review the correlation matrix. This helps us decide which type of model to use and which attributes have the most impact on the price of the house. It also helps us make a plan for how our model features may need to be transformed or encoded to work best in the model.</p>
+
+<p>Let's take a look at an overview of the steps involved in a training pipeline.</p>
+
+<img class="img-fluid" src="/img/posts/training.png" alt="Demo Image">
+<span class="caption text-muted">Overview of the training pipeline</span>
+
+<blockquote class="blockquote">Preprocessing</blockquote>
+
+<p>We'll use a preprocessing pipeline to split and transformation the data. The splits are necessary for the training and evaluation, and the transformers will be used later after we train and deploy our model, asvwe will need to apply the same transformation to incoming data when serving predicitions.</p>
+
+
 
 <p>Text.</p>
 
@@ -112,8 +135,6 @@ background: '/img/posts/House-Price.jpg'
 
 <p>Text</p>
 
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">Image desc.</span>
 
 <p>Text.</p>
 
