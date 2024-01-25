@@ -97,7 +97,7 @@ background: '/img/posts/House-Price.jpg'
     Prediction will be shown here.
 </div>
 
-<h2 class="section-heading">Building a Production Machine Learning System</h2>
+<h2 class="section-heading">Building a Production Machine Learning System - Draft version, still working to flesh this out further!</h2>
 
 <blockquote class="blockquote">Before you even begin...</blockquote>
 
@@ -107,9 +107,9 @@ background: '/img/posts/House-Price.jpg'
 
 <p>Even with a tidy dataset for this illustrative project, there are still many enhancements that could be made. There is so much more that goes into the system than just the model. The point of this exercise for me was to develop the skills to build a ML system, not just a model, and this isn't a startup business for me.</p>
 
-<p>With that, let's dive into the process.</p>
+<p>With that, let's dive into the process. I used AWS Cloud Services, specifically, Amazon Sagemaker for this project.</p>
 
-<blockquote class="blockquote">Exploratory Data Analysis</blockquote>
+<h2 class="section-heading">Exploratory Data Analysis</h2>
 
 <p>We need to know what we have in the data we're working with. We can examine the columns, display the data distribution, identify null values, and review the correlation matrix. This helps us decide which type of model to use and which attributes have the most impact on the price of the house. It also helps us make a plan for how our model features may need to be transformed or encoded to work best in the model.</p>
 
@@ -118,24 +118,29 @@ background: '/img/posts/House-Price.jpg'
 <img class="img-fluid" src="/img/posts/training.png" alt="Demo Image">
 <span class="caption text-muted">Overview of the training pipeline</span>
 
-<blockquote class="blockquote">Preprocessing</blockquote>
+<h2 class="section-heading">Preprocessing</h2>
 
-<p>We'll use a preprocessing pipeline to split and transformation the data. The splits are necessary for the training and evaluation, and the transformers will be used later after we train and deploy our model, asvwe will need to apply the same transformation to incoming data when serving predicitions.</p>
+<p>I used a preprocessing pipeline to split and transformation the data. The splits are necessary for the training and evaluation, and the transformers will be used later after we train and deploy our model, as we will need to apply the same transformation to incoming data when serving predicitions.</p>
 
 
+<p>Under the hood I used a Scikit-Learn Pipeline for the transformations, and a Processing Step with an SKLearnProcessor to execute a preprocessing script.</p>
 
-<p>Text.</p>
+<h2 class="section-heading">Training</h2>
 
+<p>Next comes the training step. This is an iterative process that involves lots of tweaks, data exploration, and going back to adjust the prepocessing. Much more could be written, but for the sake of brevity, a TensorFlow Keras Sequential Neural Network estimator was used to traing a regression model on a subset of attributes, and added as a Training Step to the pipeline.</p>
+
+<h2 class="section-heading">Evaluation and Version</h2>
 
 <!-- <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
 
-<p>Text.</p>
+<p>The model was evaluated on the test data set, and a deployment condition added as a pipeline step. This way, only models that perform adequately on data not seen during training can be registered. If the model meets the condition, the version is incremented and the model is registered with Amazon Sagemaker.</p>
 
-<h2 class="section-heading">Header</h2>
+<h2 class="section-heading">Deployment and Serving</h2>
 
-<p>Text</p>
+<p>Deployment involves pre and post processing and an endpoint.</p>
 
+<h2 class="section-heading">Model Monitoring</h2>
 
-<p>Text.</p>
+<p>Every model is a hero on day one, but it is important to monitor performance to catch drift. It is important to compare the production data through endpoint traffic with the baseline data used to train the model for data drift. Additionally, the model performance can be monitored by comparing the endpoint predictions with some form of ground truth. This process involves labelling of some kind, but is critical to ensure the model performs well over time and can be retrained as needed. </p>
 
 <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p> -->
