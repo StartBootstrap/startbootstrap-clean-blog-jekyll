@@ -659,7 +659,7 @@
                   }, 1); // doesn't need a long timeout, just long enough for the event bubble to burst
                 }
               },
-              failure: function() {
+              error: function() {
                 validator.lastValid = true;
                 validator.message = "ajax call failed";
                 validator.lastFinished = true;

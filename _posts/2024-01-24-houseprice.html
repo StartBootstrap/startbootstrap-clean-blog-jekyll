@@ -6,9 +6,45 @@ date: 2024-01-24 10:00:00 -0500
 background: '/img/posts/House-Price.jpg'
 ---
 
+<html>
+<head>
+    <title>ML Page</title>
+    <style>
+        /* Basic styling for the image */
+        .tooltip-image {
+            width: 15px;
+            height: auto;
+            cursor: pointer;
+            display: inline-block; /* Ensure this is inline or inline-block */
+        }
+
+        /* Style for the tooltip */
+        .tooltip-custom {
+            visibility: hidden;
+            width: 300px;
+            background-color: rgba(77, 77, 77);
+            color: #fff;
+            text-align: left;
+            padding: 5px;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            font-size: 11px;
+        }
+
+        /* Show the tooltip when hovering */
+        .tooltip-image:hover + .tooltip-custom {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+
 <script>
     // define the callAPI function that takes house features as parameters
     var callAPI = (bedrooms,bathrooms,sqft_living,waterfront,view,grade,sqft_living15)=>{
+        // Set predictionResult to "processing"
+        document.getElementById('predictionResult').innerHTML = 'Processing...';
         // instantiate a headers object
         var myHeaders = new Headers();
         // add content type header to object
@@ -49,7 +85,12 @@ background: '/img/posts/House-Price.jpg'
             // Select the predictionResult element and update its content
             document.getElementById('predictionResult').innerText = 'Prediction: ' + formattedPrediction;
         })
-        .catch(error => console.log('error', error));
+        // .catch(error => console.log('error', error));
+        .catch((error) => {
+            // Handle any errors
+            console.log('error', error)
+            document.getElementById('predictionResult').innerHTML = 'Try again, the API may have timed out.';
+        });
     }
 </script>
 
@@ -73,22 +114,39 @@ background: '/img/posts/House-Price.jpg'
         <input type="number" id="view_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="4" step="1">
         <label for="view_form" style="display: inline-block;">: Scenic Views (None: 0, Exceptional: 4)</label><br>
 
-        <input type="number" id="grade_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="13" step="1">
-        <label for="grade_form" style="display: inline-block;">: Construction Grade</label><br>
+        <!-- <input type="number" id="grade_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="13" step="1">
+        <label for="grade_form" id="grade_form_label" style="display: inline-block;">: Construction Grade <img src="/img/help.jpg" alt="Help Icon" class="tooltip-image"></label><br> -->
 
+        <input type="number" id="grade_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="13" step="1">
+        <label for="grade_form" style="display: inline-block;">: Construction Grade 
+            <img src="/img/help.jpg" alt="Help Icon" class="tooltip-image">
+            <span class="tooltip-custom">Construction grade indicates the type of build and quality of materials used during construction. Refer to the values below.<br>1 Cabin<br>2 Substandard<br>3 Poor<br>4 Low<br>5 Fair<br>6 Low Average<br>7 Average<br>8 Good<br>9 Better<br>10 Very Good<br>11 Excellent<br>12 Luxury<br>13 Mansion</span>
+        </label><br>
+        
         <input type="number" id="sqft_living15_form" style="display: inline-block; margin-right: 10px; margin-bottom: 10px; width: 120px;" min="0" max="100000" step="1">
-        <label for="sqft_living15_form" style="display: inline-block;">: Square Feet Living Space of 15 Neighbors (Avg)</label><br>
+        <label for="sqft_living15_form" style="display: inline-block;">: Square Feet Living Space - 15 Neighbor Avg
+            <img src="/img/help.jpg" alt="Help Icon" class="tooltip-image">
+            <span class="tooltip-custom">This represents the average square feet of living space in the nearest 15 neighboring houses.</span>
+        </label><br>
 
         <!-- set button onClick method to call function we defined passing input values as parameters -->
         <!-- <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 20px;">Call ML Model API</button> -->
     </form>
 </div>
 
-<!-- 1 Cabin, 2 Substandard, 3 Poor, 4 Low, 5 Fair, 6 Low Average, 7 Average, 8 Good, 9 Better, 10 Very Good, 11 Excellent, 12 Luxury, 13 Mansion -->
+<!-- <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    Hover over me
+  </button> -->
+
+<!-- <img src="/img/help.jpg" alt="Help Icon" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Construction grade indicates the type of build and quality of materials used during construction.<br> It can range"> -->
+
+
+  <!-- 1 Cabin, 2 Substandard, 3 Poor, 4 Low, 5 Fair, 6 Low Average, 7 Average, 8 Good, 9 Better, 10 Very Good, 11 Excellent, 12 Luxury, 13 Mansion -->
 
 <div style="margin: 20px;">
     <button type="button" onclick="callAPI(document.getElementById('bedrooms_form').value,document.getElementById('bathrooms_form').value,document.getElementById('sqft_living_form').value,document.getElementById('waterfront_form').value,document.getElementById('view_form').value,document.getElementById('grade_form').value,document.getElementById('sqft_living15_form').value)" style="margin-top: 10px;">Call ML Model API</button>
-    <span style="margin-left: 10px; font-size: 0.6em;">API call < 5 seconds</span>
+    <!-- <span style="margin-left: 10px; font-size: 0.6em;">API call < 5 seconds</span> -->
+    <span style="margin-left: 10px; font-size: 0.6em;"></span>
 </div>
 
 
@@ -96,6 +154,9 @@ background: '/img/posts/House-Price.jpg'
 <div id="predictionResult" style="border: 1px solid black; padding: 10px; width: 350px; margin: 20px;">
     Prediction will be shown here.
 </div>
+
+<br>
+<p>Before you use this information to list your home for sale... read about the project below. There are many factors that influence the value of a home and not all were considered in this illustrative example of an ML system.</p>
 
 <h2 class="section-heading">Building a Production Machine Learning System - Draft version, still working to flesh this out further!</h2>
 
@@ -144,3 +205,6 @@ background: '/img/posts/House-Price.jpg'
 <p>Every model is a hero on day one, but it is important to monitor performance to catch drift. It is important to compare the production data through endpoint traffic with the baseline data used to train the model for data drift. Additionally, the model performance can be monitored by comparing the endpoint predictions with some form of ground truth. This process involves labelling of some kind, but is critical to ensure the model performs well over time and can be retrained as needed. </p>
 
 <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p> -->
+
+</body>
+</html>
