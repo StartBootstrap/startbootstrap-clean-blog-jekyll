@@ -1,7 +1,7 @@
 ---
 layout: people
 name: "Daekhyeok Kwon"
-korean: "Daehyeok Kwon"
+korean: "권대혁"
 email: "dhkwon [at] lics.kaist.ac.kr"
 admission: 202403
 position: "MS Student"
