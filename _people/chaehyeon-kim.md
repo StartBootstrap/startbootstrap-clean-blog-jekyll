@@ -12,7 +12,7 @@ image: "/img/people/chaeyeon.png"
 ## Education
 
 - **PhD** in Aerospace Engineering, KAIST, ongoing
-- **MS** in Aerospace Engineering, KAIST, ongoing
+- **MS** in Aerospace Engineering, KAIST, 2023
 - **BS** in Mechanical Engineering, Chungbuk National University, 2022
 
 ## Research Interests
