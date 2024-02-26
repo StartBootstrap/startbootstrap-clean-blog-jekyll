@@ -5,7 +5,7 @@ korean: "노대경"
 email: "dgroh2000 [at] kaist.ac.kr"
 admission: 202208   # YYYYMM
 position: "MS Student"
-image: ""
+image: "/img/people/daegyeong.jpeg"
 ---
 
 ## Education
