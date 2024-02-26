@@ -11,10 +11,10 @@ image: "/img/people/minchae.jpg"
 ## Education
 
 - **MS** in Aerospace Engineering, KAIST, ongoing
-- **BS** in Aerospace Engineering, Inha, 2023
+- **BS** in Aerospace Engineering, Inha University, 2023
 
 ## Research Interests
 
-- Missile guidance and control
-- Machine learning
-- Multi-agent systems
+- Non-cooperative Spacecraft
+- Decision-making
+- Spacecraft Dynamics & Control
