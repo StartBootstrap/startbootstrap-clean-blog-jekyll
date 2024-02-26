@@ -5,7 +5,7 @@ korean: "이하늘"
 email: "sky.lee [at] kaist.ac.kr"
 admission: 202403
 position: "PhD Student"
-image: ""
+image: "/img/people/haneul.jpeg"
 ---
 
 ## Education
