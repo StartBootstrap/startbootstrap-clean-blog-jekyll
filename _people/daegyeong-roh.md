@@ -3,7 +3,7 @@ layout: people
 name: "Daegyeong Roh"
 korean: "노대경"
 email: "dgroh2000 [at] kaist.ac.kr"
-admission: 202208   # YYYYMM
+admission: 202403   # YYYYMM
 position: "MS Student"
 image: "/img/people/daegyeong.jpeg"
 ---
