@@ -5,7 +5,7 @@ korean: "한동우"
 email: "dongwoo.han [at] kaist.ac.kr"
 admission: 202403
 position: "MS Student"
-image: ""
+image: "/img/people/dongwoo.jpeg"
 ---
 
 ## Education
