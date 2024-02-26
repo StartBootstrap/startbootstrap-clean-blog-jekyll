@@ -10,7 +10,7 @@ image: '/img/people/joshua.jpg'
 
 ## Education
 
-- **PhD** in Aerospace Engineering, KAIST, ongoing
+- **PhD** in Aerospace Engineering, KAIST, ongoing.
 - **MS** in Aerospace Engineering, KAIST, 2021
 - **BS** in Engineering Physics, Institut Teknologi Bandung, 2018
 
