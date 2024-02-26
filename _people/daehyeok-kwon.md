@@ -5,7 +5,7 @@ korean: "권대혁"
 email: "dhkwon [at] lics.kaist.ac.kr"
 admission: 202403
 position: "MS Student"
-image: ""
+image: "/img/people/daehyeok.jpeg"
 ---
 
 ## Education
