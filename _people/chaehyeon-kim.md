@@ -3,7 +3,7 @@ layout: people
 name: "Chaehyeon Kim"
 korean: "김채현"
 email: "chkim [at] lics.kaist.ac.kr"
-admission: 202203   # YYYYMM
+admission: 202403   # YYYYMM
 position: "PhD Student"
 # ![chaeyeon.png](..%2Fimg%2Fpeople%2Fchaeyeon.png)
 image: "/img/people/chaeyeon.png"
