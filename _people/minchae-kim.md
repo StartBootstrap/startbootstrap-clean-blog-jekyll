@@ -17,4 +17,4 @@ image: "/img/people/minchae.jpg"
 
 - Non-cooperative Spacecraft
 - Decision-making
-- Spacecraft Dynamics & Control
+- Spacecraft Autonomous Control
