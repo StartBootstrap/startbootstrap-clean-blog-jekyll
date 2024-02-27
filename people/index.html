@@ -91,7 +91,7 @@ background: '/img/lics_homecoming.jpeg'
     {% endfor %}
 
     {% assign people = site.people | where: "position", "Post Members" | sort: 'admission' %}
-    <h2 class="mb-5">Part-time Students <span>({{ people | size }})</span></h2>
+    <h2 class="mb-5">Post Members <span>({{ people | size }})</span></h2>
     {% for person in people %}
     <div class="row mb-5 mx-2">
         <div class="col-md-2">
