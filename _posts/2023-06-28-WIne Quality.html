@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Wine Quality Predictor"
+subtitle: "Exploring wine quality through analysis and prediction"
+date: 2023-06-28 23:45:13 -0400
+background: '/img/posts/03.jpg'
+---
+
+<p>This project aims to apply Machine Learning techniques to develop predictive models that can predict the quality of wine based on its physicochemical attributes. To achieve this, visualization and exploratory analysis techniques will be explored to understand the distribution of the attributes and their impact on prediction. Additionally, the crucial role of data preprocessing and transformation in the modeling phase will be highlighted.</p>
+
+<h2 class="section-heading">Description of Dataset</h2>
+
+<p><strong>Source:</strong> This dataset was created by P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. The "Wine Quality" dataset is available in the UCI Machine Learning Repository.</p>
+
+<p>The "Wine Quality" dataset is commonly used in classification and regression problems to predict wine quality. It was collected to evaluate the quality of white and red wines based on physicochemical attributes. The inputs were gathered through physicochemical tests, and the output is based on sensory data obtained from evaluations conducted by wine experts. Each expert rated the wine quality on a scale from 0 (very poor) to 10 (excellent).</p>
+
+<p> <strong> Attribute Description:</strong>The "Wine Quality" dataset consists of instances of white and red wines, with a total of 11 numerical attributes. These attributes include characteristics such as acidity, sugar levels, sulfates, and alcohol content. The wine quality is represented by a categorical target variable. </p>
+
+<blockquote class="blockquote">Input Attributes (x):</blockquote>
+<ul>
+    <li>Fixed acidity (Acidez fija): g/dm³ (float)</li>
+    <li>Volatile acidity (Acidez volátil): g/dm³ (float)</li>
+    <li>Citric acid (Ácido cítrico): g/dm³ (float)</li>
+    <li>Residual sugar (Azúcar residual): g/dm³ (float)</li>
+    <li>Chlorides (Cloruros): g/dm³ (float)</li>
+    <li>Free sulfur dioxide (Dióxido de azufre libre): mg/dm³ (float)</li>
+    <li>Total sulfur dioxide (Dióxido de azufre total): mg/dm³ (float)</li>
+    <li>Density (Densidad): g/cm³ (float)</li>
+    <li>pH: (float)</li>
+    <li>Sulphates (Sulfatos): g/dm³ (float)</li>
+    <li>Alcohol (Alcohol): % vol (float)</li>
+</ul>
+  
+<blockquote class="blockquote">Output Attributes(y):</blockquote>
+<ul> 
+    <li>Wine Quality: It is evaluated on a discrete scale of 0 to 10, where a higher value indicates better quality</li>
+</ul>
+<h2 class="section-heading">Exploratory Data Analysis</h2>
+<img class="img-fluid" src="https://images.unsplash.com/photo-1542903660-eedba2cda473?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Demo Image">
+<P>Before diving into the predictive modeling, an initial step is to perform an Exploratory Data Analysis (EDA). For this purpose, you can load the dataset into your working environment, such as Python with Pandas, and execute the following tasks:</P>
+
+        <p>This repository contains the results of a comprehensive analysis of a white wine dataset provided by the reference researchers. The analysis involved three key stages: data preprocessing, modeling and evaluation, and performance improvement strategies.</p>
+    
+        <p> <strong> Data Preprocessing</strong></p>
+        <p>In the data preprocessing phase, we applied essential techniques, such as feature scaling using StandardScaler. This ensured that all features contributed equally to the modeling process, thus avoiding the dominance of certain attributes over others.</p>
+    
+        <p> <strong> Modeling</strong></p>
+        <p>In the modeling stage, we deliberately selected four specific algorithms: Decision Tree, Random Forest, SVM, and K-NN. The choice of these algorithms was based on their demonstrated ability to address classification problems in complex datasets. It is important to note that, although some algorithms were shared with the reference study, the methodologies differed in aspects such as hyperparameter tuning and how class imbalance was addressed.</p>
+        
+        <p> <strong> Evaluation</strong></p>
+        <p>The reference study provided results that served as a starting point for model evaluation. It was observed that, despite achieving acceptable levels of accuracy, class imbalance affected the model's ability to generalize to minority classes. This finding was crucial in determining the need to implement an oversampling strategy.</p>
+    
+        <p> <strong> Performance Improvement</strong></p>
+        <p>The oversampling strategy was the key element in significantly improving the model's performance. By increasing the number of instances in the minority classes, the class distribution was balanced, allowing the model to learn more effectively from all classes. This resulted in a noticeable increase in accuracy on the test set, reaching an impressive 92%.</p>
+        
+        <p> <strong> Conclusion</strong></p>
+        <p>While both methodologies shared the use of some common algorithms, they differed in their approach to addressing class imbalance and the specific model configurations. This distinction is fundamental and highlights the importance of adapting methodologies to the unique characteristics of each dataset and problem.</p>
+    
+        <p>For more details, refer to the complete analysis and code in this repository.</p> 
+        <a href="https://colab.research.google.com/drive/1CpCsCjCLkUBLazwJL5NQSS70D6kBgIbr?usp=sharing" target="_blank" class="btn btn-primary">Open in Google Colab</a>
+      
+<p>Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>

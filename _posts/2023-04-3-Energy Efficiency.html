@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Energy Efficiency in Residential Buildings"
+subtitle: "Exploring the Relationship Between Building Design and Energy Efficiency"
+date: 2023-04-3 10:45:13 -0400
+background: '/img/posts/06.jpg'
+---
+
+<h2 class="section-heading">Executive Summary</h2>
+
+<p>This project focuses on the analysis and optimization of energy efficiency in residential buildings using the mentioned dataset. The physical and design characteristics of buildings will be explored to understand their impact on heating load. For this purpose, models will be developed to predict the required heating load based on specific building characteristics. Additionally, the aim is to identify key attributes that influence the energy efficiency of buildings and provide practical recommendations for optimizing the design and energy management of residential buildings.</p>
+
+<h2 class="section-heading">Description of Dataset</h2>
+
+<p><strong>Source:</strong> This dataset was created by Angeliki Xifara and Athanasios Tsanas from the University of Sheffield, United Kingdom.</p>
+
+<p>The "Energy Efficiency" dataset is available in the UCI Machine Learning Repository. The "Energy Efficiency" dataset is commonly used in regression problems to predict energy efficiency in buildings.</p>
+
+<p> <strong> Attribute Description:</strong> The "Energy Efficiency" dataset, which was collected to evaluate the energy performance of buildings, consists of 768 instances (m). Each building is represented by eight input attributes (independent variables) related to its design and geometry, and two output attributes (dependent variables).</p>
+
+<blockquote class="blockquote">Input Attributes (x):</blockquote>
+
+<ul>
+    <li>Relative Compactness: Relative compactness of the building</li>
+    <li>Surface Area: Total surface area of the building </li>
+    <li>Wall Area: Wall area of the building </li>
+    <li>Roof Area: Roof area of the building </li>
+    <li>Overall Height: Overall height of the building </li>
+    <li>Orientation: Orientation of the building </li>
+    <li>Glazing Area: Relative glazing area</li>
+    <li>Glazing Area Distribution: Distribution of glazing area </li>
+  </ul>
+<blockquote class="blockquote">Output Attributes(y):</blockquote>
+<ul> 
+    <li>Heating Load: Heating load of the building</li>
+    <li>Cooling Load: Cooling load of the building</li>
+</ul>
+<h2 class="section-heading">Exploratory Data Analysis</h2>
+<img class="img-fluid" src="https://images.unsplash.com/photo-1542903660-eedba2cda473?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Demo Image">
+
+<p><strong>Methodology and Modeling</strong> </p>
+<p>A methodology consisting of two phases was implemented: modeling and evaluation. During the modeling phase, several regression models were trained, including Linear Regression, Theil-Sen Regressor, Random Forest Regressor, Support Vector Regressor (SVR), and Decision Tree Regressor. These models were trained independently to predict both heating load and cooling load.</p>
+
+<p><strong>Modeling Results</strong> </p>
+<p>In the modeling phase, notable trends in model performance for both variables were observed:</p>
+
+<ul>
+    <li>For heating load prediction, the Random Forest Regressor model exhibited outstanding performance, with a Mean Squared Error (MSE) close to zero and an R-squared (R2) almost equal to 1. This indicates a nearly perfect fit to the training data, although overfitting is a possibility. The Linear Regression, Theil-Sen Regressor, and SVR models also showed good performance, though slightly behind the Random Forest model.</li>
+    <li>Regarding cooling load prediction, similar patterns were observed. The Random Forest Regressor model excelled with very low MSE and an R2 close to 1. The other models also demonstrated good performance, but not as remarkable as the Random Forest model.</li>
+</ul>
+
+<p><strong>Evaluation Results</strong> </p>
+<p>In the evaluation phase, the trends observed in the modeling phase were confirmed:</p>
+
+<ul>
+    <li>For heating load prediction, the Random Forest Regressor model continued to exhibit exceptional performance, with low MSE and high R2. The Decision Tree Regressor model also showed good performance in the evaluation phase.</li>
+    <li>For cooling load prediction, a similar pattern was observed, with the Random Forest Regressor model remaining the leader, followed by the Decision Tree Regressor model.</li>
+</ul>
+
+<p><strong>Conclusions and Recommendations</strong> </p>
+<p>Based on the results obtained, it can be concluded that the Random Forest Regressor model is the most promising for this specific dataset. However, it is important to remember that results may vary in different datasets, so cross-validation is recommended, and model hyperparameters should be adjusted for more robust results.</p>
+
+<p>Furthermore, it is suggested to explore other feature engineering techniques and consider the inclusion of more predictor variables to further enhance model performance. This project provides a solid foundation for energy load prediction in heating and cooling systems and can be scaled and adapted for future applications in energy efficiency in buildings.</p>
+<p>For more details, refer to the complete analysis and code in this repository.</p> 
+<a href="https://colab.research.google.com/drive/13w65VKoAwXElyx8wDCGCiW2DDPr-ZcjI?usp=sharing" target="_blank" class="btn btn-primary">Open in Google Colab</a>
+
+<p>Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
