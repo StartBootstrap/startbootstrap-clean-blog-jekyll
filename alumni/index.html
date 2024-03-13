@@ -1,0 +1,33 @@
+---
+layout: page
+title: Alumni
+description: Meet our alumni
+background: '/img/lics_homecoming.jpeg'
+---
+
+<!--# Filter by position "Professor"-->
+
+
+
+<div class="container">
+    <h2 class="mb-5">Alumni <span>({{ site.alumni | size }})</span></h2>
+    {% for person in site.alumni %}
+    <div class="row mb-5 mx-2">
+        <div class="col-md-2">
+            <div class="d-none d-md-block">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{{ person.image | prepend: site.baseurl | replace: '//', '/' }}", alt="">
+            </div>
+            <!--            <img class="img-fluid rounded mb-3 mb-md-0" src="{{ "/img/4lics.png" | relative_url }}" alt="">-->
+        </div>
+        <div class="col-md-10">
+            <a href="{{ person.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h3>{{ person.name }} {% if person.korean %}<span class="text-muted">{{ person.korean }}</span> {% endif %}</h3>
+            </a>
+
+            <p class="mt-1">{{ person.position }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- /.row -->
+</div>
