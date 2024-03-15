@@ -1,14 +1,14 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              Laboratory for information and Control Systems
+email:
+description:        정보 및 시스템 제어 연구실
+author:             LiCS
+baseurl:            ""
+url:                "https://lics.kaist.ac.kr"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:
+facebook_username:
 instagram_username:  
 linkedin_username:
 
@@ -23,3 +23,14 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path/
+  alumni:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/

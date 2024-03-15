@@ -1,0 +1,50 @@
+#research-card {
+  a:hover,
+  a:focus {
+    text-decoration:none;
+  }
+
+  .box-header {
+    background: #dedede;
+    border-radius: 10px;
+    //border-radius: 10px;
+    padding: 30px 0px;
+  }
+
+  .box-header .fa {
+    color: #FFF;
+  }
+
+  .box-header-purple {
+    background: linear-gradient(45deg, #f2935b, #6f49c0);
+  }
+
+  .box-header-light-blue {
+    background: linear-gradient(45deg, #cae1f3, #55aded);
+  }
+
+  .box-header-dark-blue {
+    background: linear-gradient(45deg, #95a2c1, #3b579d);
+  }
+
+  .box-header-green {
+    background: linear-gradient(45deg, #b8e986, #3b9d9d);
+  }
+
+  .box-bottom {
+    background: #FFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0px 30px;
+  }
+
+  .box-text {
+    padding: 10px 0px;
+  }
+
+  .box-title {
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

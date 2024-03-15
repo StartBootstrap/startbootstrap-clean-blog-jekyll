@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="post-heading row pb-5">
+                    <div class="col-9">
+                        <h1>{{ page.name }} <span class="text-muted">{{ page.korean }}</span></h1>
+                        <h2 class="subheading">{{ page.position }}</h2>
+                        <span><i class="fa fa-envelope"></i> {{ page.email }}</span>
+                    </div>
+                    <div class="col-3">
+                        <img src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" alt="{{ page.name }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto mb-5">
+
+            {{ content }}
+
+        </div>
+    </div>
+</div>
