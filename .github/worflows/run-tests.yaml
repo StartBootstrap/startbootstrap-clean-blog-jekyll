@@ -1,0 +1,12 @@
+name: Test Jekyll Build
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Jekyll Deploy Test
+        uses: PaulRosenthal/Jekyll-Deploy-Test-Action@v2            
