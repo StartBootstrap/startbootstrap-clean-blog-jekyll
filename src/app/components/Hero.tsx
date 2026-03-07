@@ -2,7 +2,19 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 flex flex-col items-center justify-center text-center px-4">
+    <section className="relative pt-32 pb-20 flex flex-col items-center justify-center text-center px-4 min-h-[85vh] overflow-hidden">
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-[-2]">
+        <Image
+          src="/img/bg-index.jpg"
+          alt="Home Background"
+          fill
+          className="object-cover object-center translate-y-[10%]"
+          priority
+        />
+      </div>
+      <div className="absolute inset-0 bg-slate-900/80 backdrop-blur-[2px] z-[-1]"></div>
+
       {/* Dynamic abstract background effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse"></div>
 
