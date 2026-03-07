@@ -1,8 +1,12 @@
-import { MapPin, CheckCircle2 } from "lucide-react";
+"use client";
+
+import { useState } from "react";
+import { Terminal } from "lucide-react";
 
 export default function Experience() {
   const experiences = [
     {
+      id: "tata-digital",
       company: "Tata Digital (Tata Neu)",
       role: "Data Scientist - II",
       duration: "June 2024 \u2013 Present",
@@ -17,6 +21,7 @@ export default function Experience() {
       ]
     },
     {
+      id: "hdfc-life",
       company: "HDFC Life Insurance",
       role: "Senior Data Scientist",
       duration: "Sep 2021 \u2013 June 2024",
@@ -28,6 +33,7 @@ export default function Experience() {
       ]
     },
     {
+      id: "flytxt",
       company: "Flytxt",
       role: "Data Scientist",
       duration: "July 2019 \u2013 Sep 2021",
@@ -40,11 +46,15 @@ export default function Experience() {
     }
   ];
 
+  const [activeId, setActiveId] = useState(experiences[0].id);
+
+  const activeExp = experiences.find(e => e.id === activeId)!;
+
   return (
     <section id="experience" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 max-w-5xl">
         <div className="relative mb-16 text-center">
-          <h2 className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[6rem] font-bold text-slate-800 opacity-50 whitespace-nowrap z-0 select-none">
+          <h2 className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[6rem] font-bold text-slate-800 opacity-50 whitespace-nowrap z-0 select-none pointer-events-none">
             Experience
           </h2>
           <h3 className="relative text-4xl md:text-5xl font-heading font-bold text-white z-10 pt-4">
@@ -52,36 +62,96 @@ export default function Experience() {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {experiences.map((exp, index) => (
-            <div key={index} className="glass-card flex flex-col p-6 md:p-8 relative overflow-hidden group hover:border-slate-500 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(59,130,246,0.15)]">
-              <div className="absolute top-0 left-0 w-full h-1 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-              
-              <div className="flex flex-col mb-6 pb-6 border-b border-slate-700/50 flex-none">
-                <h4 className="text-2xl font-bold text-white mb-2 font-heading">{exp.company}</h4>
-                <p className="text-primary font-medium text-lg leading-tight mb-4">{exp.role}</p>
-                
-                <div className="flex flex-col gap-2">
-                  <span className="text-slate-300 font-medium bg-slate-800/80 px-3 py-1.5 rounded-lg text-xs font-mono border border-slate-700 w-fit">{exp.duration}</span>
-                  <span className="text-slate-400 text-sm flex items-center gap-1.5 mt-1">
-                    <MapPin size={14} className="text-slate-500 flex-shrink-0" />
-                    {exp.location}
-                  </span>
-                </div>
+        {/* Terminal Window Design */}
+        <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-slate-700/50 bg-[#0f111a] font-mono hover:border-slate-600 transition-colors duration-500">
+          
+          {/* Terminal Header */}
+          <div className="bg-[#1a1c23] px-4 py-3 flex items-center gap-2 border-b border-slate-700/50 relative">
+            <div className="flex gap-2">
+              <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
+              <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+              <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
+            </div>
+            <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2 text-slate-400 text-sm font-medium">
+              <Terminal size={14} className="text-slate-500" />
+              <span>bash - ashutosh@portfolio ~</span>
+            </div>
+          </div>
+
+          {/* Terminal Body */}
+          <div className="flex flex-col md:flex-row min-h-[450px]">
+            
+            {/* Sidebar / File List */}
+            <div className="md:w-[35%] lg:w-1/3 border-b md:border-b-0 md:border-r border-slate-800/80 p-4 md:p-6 bg-[#0f111a]">
+              <div className="text-slate-400 mb-6 flex items-center gap-2 text-sm md:text-base">
+                <span className="text-green-400">➜</span>
+                <span className="text-blue-400 hidden lg:inline">~/experience</span>
+                <span className="text-blue-400 lg:hidden">~</span>
+                <span className="text-slate-300">ls -1</span>
               </div>
               
-              <ul className="space-y-4 flex-1">
-                {exp.details.map((detail, idx) => (
-                  <li key={idx} className="flex gap-3 text-slate-300 leading-relaxed text-sm md:text-base group/item">
-                    <span className="text-slate-600 group-hover/item:text-primary mt-1 flex-shrink-0 transition-colors">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                    </span>
-                    <span className="group-hover/item:text-slate-200 transition-colors">{detail}</span>
+              <ul className="space-y-2">
+                {experiences.map((exp) => (
+                  <li key={exp.id}>
+                    <button
+                      onClick={() => setActiveId(exp.id)}
+                      className={`w-full text-left px-3 py-2.5 rounded transition-all duration-200 group flex items-baseline gap-2 text-sm md:text-base
+                        ${activeId === exp.id 
+                          ? 'bg-slate-800/80 text-emerald-400 font-semibold' 
+                          : 'text-slate-400 hover:bg-slate-800/40 hover:text-slate-200'}
+                      `}
+                    >
+                      <span className={`text-xs opacity-50 group-hover:opacity-100 transition-opacity ${activeId === exp.id ? 'text-emerald-400 opacity-100' : ''}`}>
+                        &gt;
+                      </span>
+                      {exp.id}.md
+                    </button>
                   </li>
                 ))}
               </ul>
             </div>
-          ))}
+
+            {/* Main Content Area */}
+            <div className="md:w-[65%] lg:w-2/3 p-4 md:p-6 bg-[#0a0c10] overflow-y-auto max-h-[500px] md:max-h-[600px] scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-transparent">
+              <div className="text-slate-400 mb-6 flex items-center gap-2 text-sm md:text-base">
+                <span className="text-green-400">➜</span>
+                <span className="text-blue-400 hidden lg:inline">~/experience</span>
+                <span className="text-blue-400 lg:hidden">~</span>
+                <span className="text-slate-300">cat <span className="text-emerald-300">{activeExp.id}.md</span></span>
+              </div>
+
+              {/* Added key based on ID to force re-animation when switching tabs */}
+              <div key={activeExp.id} className="animate-in fade-in slide-in-from-bottom-2 duration-300">
+                <h4 className="text-2xl font-bold text-slate-100 mb-2 font-sans tracking-tight">{activeExp.role}</h4>
+                <div className="flex items-center gap-2 text-primary mb-4 text-sm md:text-base font-sans">
+                  <span className="text-emerald-400 font-mono">@</span>
+                  <span className="font-semibold text-lg">{activeExp.company}</span>
+                </div>
+                
+                <div className="text-slate-500 text-sm mb-6 flex flex-wrap gap-x-6 gap-y-2 font-sans border-b border-slate-800 pb-4">
+                  <span><span className="text-slate-600 font-mono text-xs uppercase tracking-wider">Date </span> <br className="md:hidden"/> {activeExp.duration}</span>
+                  <span><span className="text-slate-600 font-mono text-xs uppercase tracking-wider">Loc </span> <br className="md:hidden"/> {activeExp.location}</span>
+                </div>
+
+                <div className="text-slate-300 leading-relaxed font-sans space-y-4 text-sm md:text-base">
+                  {activeExp.details.map((detail, idx) => (
+                    <div key={idx} className="flex gap-3 group">
+                      <span className="text-slate-600 select-none group-hover:text-primary transition-colors">-</span>
+                      <p className="group-hover:text-slate-200 transition-colors">{detail}</p>
+                    </div>
+                  ))}
+                </div>
+                
+                {/* Blinking cursor at the end */}
+                <div className="mt-8 flex items-center gap-2 text-sm md:text-base">
+                  <span className="text-green-400">➜</span>
+                  <span className="text-blue-400 hidden lg:inline">~/experience</span>
+                  <span className="text-blue-400 lg:hidden">~</span>
+                  <span className="w-2.5 h-5 bg-slate-400/80 animate-pulse inline-block align-middle ml-1"></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
