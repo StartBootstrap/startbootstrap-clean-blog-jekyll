@@ -52,43 +52,34 @@ export default function Experience() {
           </h3>
         </div>
 
-        <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 md:before:ml-[50%] before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-700 before:to-transparent">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+            <div key={index} className="glass-card flex flex-col p-6 md:p-8 relative overflow-hidden group hover:border-slate-500 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(59,130,246,0.15)]">
+              <div className="absolute top-0 left-0 w-full h-1 bg-primary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               
-              {/* Timeline dot */}
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-slate-900 bg-slate-700 group-hover:bg-primary group-hover:border-primary/30 text-slate-300 group-hover:text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors duration-300 ml-0 md:ml-0 md:absolute md:left-1/2 shadow-lg shadow-black/50">
-                <CheckCircle2 size={18} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-
-              {/* Card */}
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 md:p-8 relative overflow-hidden group-hover:border-slate-500 transition-colors duration-300">
-                <div className="absolute top-0 left-0 w-1 h-full bg-primary transform origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-500"></div>
+              <div className="flex flex-col mb-6 pb-6 border-b border-slate-700/50 flex-none">
+                <h4 className="text-2xl font-bold text-white mb-2 font-heading">{exp.company}</h4>
+                <p className="text-primary font-medium text-lg leading-tight mb-4">{exp.role}</p>
                 
-                <div className="flex flex-col mb-4">
-                  <h4 className="text-2xl font-bold text-white mb-1 font-heading">{exp.company}</h4>
-                  <p className="text-primary font-medium text-lg leading-tight mb-3">{exp.role}</p>
-                  
-                  <div className="flex flex-wrap items-center gap-3">
-                    <span className="text-slate-300 font-medium bg-slate-800/80 px-3 py-1 rounded-full text-xs font-mono border border-slate-700 shadow-sm">{exp.duration}</span>
-                    <span className="text-slate-400 text-sm flex items-center gap-1">
-                      <MapPin size={14} className="text-slate-500" />
-                      {exp.location}
-                    </span>
-                  </div>
+                <div className="flex flex-col gap-2">
+                  <span className="text-slate-300 font-medium bg-slate-800/80 px-3 py-1.5 rounded-lg text-xs font-mono border border-slate-700 w-fit">{exp.duration}</span>
+                  <span className="text-slate-400 text-sm flex items-center gap-1.5 mt-1">
+                    <MapPin size={14} className="text-slate-500 flex-shrink-0" />
+                    {exp.location}
+                  </span>
                 </div>
-                
-                <ul className="space-y-3 mt-6">
-                  {exp.details.map((detail, idx) => (
-                    <li key={idx} className="flex gap-3 text-slate-300 leading-relaxed text-sm md:text-base group/item">
-                      <span className="text-slate-600 group-hover/item:text-primary mt-1 flex-shrink-0 transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                      </span>
-                      <span className="group-hover/item:text-slate-200 transition-colors">{detail}</span>
-                    </li>
-                  ))}
-                </ul>
               </div>
+              
+              <ul className="space-y-4 flex-1">
+                {exp.details.map((detail, idx) => (
+                  <li key={idx} className="flex gap-3 text-slate-300 leading-relaxed text-sm md:text-base group/item">
+                    <span className="text-slate-600 group-hover/item:text-primary mt-1 flex-shrink-0 transition-colors">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span className="group-hover/item:text-slate-200 transition-colors">{detail}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
