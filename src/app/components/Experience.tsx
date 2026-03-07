@@ -8,6 +8,7 @@ export default function Experience() {
     {
       id: "tata-digital",
       company: "Tata Digital (Tata Neu)",
+      website: "https://www.tatadigital.com/",
       role: "Data Scientist - II",
       duration: "June 2024 \u2013 Present",
       location: "Bengaluru, India",
@@ -23,6 +24,7 @@ export default function Experience() {
     {
       id: "hdfc-life",
       company: "HDFC Life Insurance",
+      website: "https://www.hdfclife.com/",
       role: "Senior Data Scientist",
       duration: "Sep 2021 \u2013 June 2024",
       location: "Bengaluru, India",
@@ -35,6 +37,7 @@ export default function Experience() {
     {
       id: "flytxt",
       company: "Flytxt",
+      website: "https://www.flytxt.com/",
       role: "Data Scientist",
       duration: "July 2019 \u2013 Sep 2021",
       location: "Mumbai, India",
@@ -125,7 +128,14 @@ export default function Experience() {
                 <h4 className="text-2xl font-bold text-slate-100 mb-2 font-sans tracking-tight">{activeExp.role}</h4>
                 <div className="flex items-center gap-2 text-primary mb-4 text-sm md:text-base font-sans">
                   <span className="text-emerald-400 font-mono">@</span>
-                  <span className="font-semibold text-lg">{activeExp.company}</span>
+                  <a 
+                    href={activeExp.website} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="font-semibold text-lg hover:underline decoration-primary/50 underline-offset-4 transition-all"
+                  >
+                    {activeExp.company}
+                  </a>
                 </div>
                 
                 <div className="text-slate-500 text-sm mb-6 flex flex-wrap gap-x-6 gap-y-2 font-sans border-b border-slate-800 pb-4">
