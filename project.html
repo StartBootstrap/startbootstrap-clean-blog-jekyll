@@ -5,29 +5,29 @@ description: This is what I do.
 background: "/img/project.jpeg"
 ---
 
-<hr />
-<div class="container">
-  <div class="row">
-    <div class="col-lg-4">
-      <div class="card text-center" style="width: 18rem">
+<div class="container mt-5 mb-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100 text-center">
         <img
           class="card-img-top"
           src="/img/these_presentation.png"
-          alt="Card image cap"
+          alt="Diabetic Retinopathy Classification"
+          style="object-fit: cover; height: 200px;"
         />
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">M.Tech Thesis</h5>
-          <p class="card-text">
-            Classsifying Diabetic Retinopathy Images using induced deep region
-            of interest extraction
+          <p class="card-text mb-4">
+            Classifying Diabetic Retinopathy Images using induced deep region
+            of interest extraction.
           </p>
           <button
             type="button"
-            class="btn btn-primary btn-sm"
+            class="btn btn-primary mt-auto mx-auto"
             data-toggle="modal"
             data-target=".bd-example-modal-lg"
           >
-            presentation
+            <i class="fas fa-desktop mr-2"></i> Presentation
           </button>
 
           <div
@@ -38,22 +38,22 @@ background: "/img/project.jpeg"
             aria-hidden="true"
           >
             <div class="modal-dialog modal-xl" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">
-                    Work Presented at the conference
+              <div class="modal-content text-left" style="background-color: var(--card-bg); border-color: var(--border-color);">
+                <div class="modal-header border-bottom-0">
+                  <h5 class="modal-title text-light" id="exampleModalLongTitle">
+                    Work Presented at the Conference
                   </h5>
                   <button
                     type="button"
-                    class="close"
+                    class="close text-light"
                     data-dismiss="modal"
                     aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
-                  <img src="/img/these_presentation.png" width="1000px" />
+                <div class="modal-body text-center">
+                  <img src="/img/these_presentation.png" class="img-fluid rounded" alt="Presentation Slide" />
                 </div>
               </div>
             </div>
@@ -62,52 +62,63 @@ background: "/img/project.jpeg"
       </div>
     </div>
 
-    <div class="col-lg-4">
-      <div class="card text-center" style="width: 18rem">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100 text-center">
         <img
           class="card-img-top"
           src="/img/distributed.png"
-          alt="Card image cap"
+          alt="Distributed Bayesian GMM"
+          style="object-fit: cover; height: 200px;"
         />
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">
-            Distributed Bayesian Gaussian Mixture Model (Scikit-Learn
-            Implementation)
+            Distributed Bayesian Gaussian Mixture Model
           </h5>
+          <p class="card-text mb-4 text-muted border-bottom pb-3">
+             Custom Scikit-Learn implementation of distributed GMM.
+          </p>
           <a
             href="https://github.com/ashkush/Bayesian-Gaussian-Mixture-Model"
-            class="btn btn-primary"
+            class="btn btn-primary mt-auto mx-auto"
             target="_blank"
-            >Github Repo</a
+            rel="noopener noreferrer"
+            ><i class="fab fa-github mr-2"></i> GitHub Repo</a
           >
         </div>
       </div>
     </div>
 
-    <div class="col-lg-4">
-      <div class="card text-center" style="width: 18rem">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100 text-center">
         <img
           class="card-img-top"
           src="/img/Variational_inference.png"
-          alt="Card image cap"
+          alt="Variational Inference GMM"
+          style="object-fit: contain; height: 200px; padding: 1rem; background: #fff;"
         />
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">
             Variational Inference Gaussian Mixture Model
           </h5>
-          <a
-            href="https://github.com/ashkush/Variational-inference-Gaussian-mixture-model"
-            class="btn btn-primary"
-            target="_blank"
-            >Github Repo</a
-          >
-          <a
-            href="https://ashkush.medium.com/variational-inference-gaussian-mixture-model-52595074247b"
-            class="btn btn-secondary"
-            target="_blank"
-            padding="10px"
-            >Medium Article</a
-          >
+          <p class="card-text mb-4 text-muted border-bottom pb-3">
+             In-depth study and implementation of VI applied to GMMs.
+          </p>
+          <div class="mt-auto d-flex justify-content-center flex-wrap" style="gap: 10px;">
+            <a
+              href="https://github.com/ashkush/Variational-inference-Gaussian-mixture-model"
+              class="btn btn-primary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              href="https://ashkush.medium.com/variational-inference-gaussian-mixture-model-52595074247b"
+              class="btn btn-secondary btn-sm bg-dark text-white border-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-medium"></i> Article</a
+            >
+          </div>
         </div>
       </div>
     </div>
