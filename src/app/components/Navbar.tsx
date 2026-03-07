@@ -37,7 +37,7 @@ export default function Navbar() {
           href="/"
           className="text-2xl font-heading font-bold tracking-tight text-white hover:text-primary transition-colors"
         >
-          Ashutosh.
+          Personal Portfolio
         </Link>
 
         {/* Desktop Menu */}
