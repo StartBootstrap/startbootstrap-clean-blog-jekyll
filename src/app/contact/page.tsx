@@ -1,12 +1,42 @@
 "use client";
 
+import { useState } from "react";
 import Navbar from "../components/Navbar";
 
 export default function Contact() {
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Normally integrate with form processing here
-    alert("Form submission simulated.");
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/akushwaha9808@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setSubmitStatus("success");
+        (e.target as HTMLFormElement).reset();
+      } else {
+        setSubmitStatus("error");
+      }
+    } catch (error) {
+      console.error(error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -34,6 +64,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   placeholder="Enter your name"
                   required
                   className="w-full bg-slate-800/50 border border-slate-700 border-b-2 border-b-slate-600 rounded-lg px-4 py-3.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-b-primary focus:bg-slate-800 focus:ring-0 transition-all font-medium"
@@ -45,6 +76,7 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   placeholder="Enter your email"
                   required
                   className="w-full bg-slate-800/50 border border-slate-700 border-b-2 border-b-slate-600 rounded-lg px-4 py-3.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-b-primary focus:bg-slate-800 focus:ring-0 transition-all font-medium"
@@ -56,6 +88,7 @@ export default function Contact() {
                 <input
                   type="tel"
                   id="phone"
+                  name="phone"
                   placeholder="Enter your phone number"
                   required
                   className="w-full bg-slate-800/50 border border-slate-700 border-b-2 border-b-slate-600 rounded-lg px-4 py-3.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-b-primary focus:bg-slate-800 focus:ring-0 transition-all font-medium"
@@ -66,6 +99,7 @@ export default function Contact() {
                 <label htmlFor="message" className="text-sm font-medium text-slate-400 ml-1">Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={5}
                   placeholder="Enter your message"
                   required
@@ -73,12 +107,25 @@ export default function Contact() {
                 ></textarea>
               </div>
 
+              {submitStatus === "success" && (
+                <div className="p-4 bg-green-500/20 border border-green-500/50 text-green-400 rounded-lg text-center font-medium">
+                  Thanks for reaching out! I'll get back to you soon.
+                </div>
+              )}
+              
+              {submitStatus === "error" && (
+                <div className="p-4 bg-red-500/20 border border-red-500/50 text-red-400 rounded-lg text-center font-medium">
+                  Oops, something went wrong. Please try again or email me directly.
+                </div>
+              )}
+
               <div className="pt-4 text-center">
                 <button
                   type="submit"
-                  className="btn-primary w-full md:w-auto md:px-12 py-4 text-lg shadow-lg shadow-primary/25"
+                  disabled={isSubmitting}
+                  className="btn-primary w-full md:w-auto md:px-12 py-4 text-lg shadow-lg shadow-primary/25 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </button>
               </div>
             </form>
