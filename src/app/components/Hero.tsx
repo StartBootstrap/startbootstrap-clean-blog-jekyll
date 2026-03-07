@@ -36,7 +36,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl md:text-2xl text-slate-300 font-medium max-w-2xl">
-        Data Scientist | IIT Bombay | Predictive Modelling
+        Data Scientist | M.Tech | IIT Bombay | 6.5+ Years Exp
       </p>
 
       <div className="mt-8 flex gap-4">

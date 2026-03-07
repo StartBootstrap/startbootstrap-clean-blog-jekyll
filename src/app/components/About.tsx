@@ -15,22 +15,18 @@ export default function About() {
           <div className="space-y-6 text-slate-300 text-lg leading-relaxed">
             <p className="text-xl font-medium text-white">Hello, I'm Ashutosh!</p>
             <p>
-              Currently working as a Senior Data Scientist at HDFC Life with Data
-              Labs (Predictive Modelling team). Majority of my work includes
-              generating actionable business insights through applied machine
-              learning, which involves collecting data from various sources,
-              cleaning, pre-processing, outlier detection, feature engineering, ML
-              algorithm selection, hyper parameter tuning, algorithm training,
-              validation and model deployment for the end users.
+              Data Scientist with 6.5+ years of experience building large-scale ML
+              systems across fintech and ecommerce. Specialized in Uplift/propensity
+              modeling, risk & fraud detection, and personalization/ranking.
             </p>
             <p>
-              Previously, I had worked with Flytxt as a Data Scientist, where I
-              developed machine learning solutions for clients (Telecom Companies)
-              with the application of Applied Machine Learning and Big Data
-              fundamentals (Apache Spark, HDFS, Distributed Computing).
+              I have a proven track record of taking models from EDA to production
+              with measurable business impact (CTR, GMV, conversion). I possess a
+              strong background in distributed systems, MLOps, and
+              experimentation-driven development.
             </p>
             <p>
-              Regarding my education background, I did my Masters in Technology in{" "}
+              Regarding my education background, I did my <strong>Masters in Technology</strong> in{" "}
               <a
                 href="https://www.ieor.iitb.ac.in/"
                 target="_blank"
@@ -39,46 +35,31 @@ export default function About() {
               >
                 Industrial Engineering and Operations Research (IEOR)
               </a>
-              , IIT Bombay, where my research work was on{" "}
-              <a
-                href="https://ieeexplore.ieee.org/abstract/document/8965695"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary hover:text-primary-hover underline decoration-primary/30 underline-offset-4"
-              >
-                Classifying Retinal Images using Deep learning
-              </a>{" "}
-              (Computer Vision), which was also published in an{" "}
-              <a
-                href="http://www.cisp-bmei.cn/"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary hover:text-primary-hover underline decoration-primary/30 underline-offset-4"
-              >
-                Image and signal processing conference.
-              </a>
-            </p>
-            <p className="font-medium text-slate-200 border-l-4 border-primary pl-4 py-1">
-              My areas of interest lie in Classical and Bayesian machine learning
-              techniques, Causal Inference, Explainable AI and Deep learning.
+              , at the prestigious <strong>Indian Institute of Technology (IIT) Bombay</strong>.
             </p>
           </div>
 
           <div className="md:mt-0 mt-8">
             <h3 className="text-3xl font-heading font-bold mb-8 text-white">
-              My Skills
+              Technical Skills
             </h3>
             <div className="flex flex-wrap gap-3">
               {[
-                "Machine Learning",
                 "Python",
-                "AWS SageMaker",
-                "Deep Learning",
-                "Computer Vision",
-                "Natural Language Processing",
-                "Excel Reporting",
-                "Data Engineering",
-                "Predictive Modeling",
+                "SQL",
+                "PySpark",
+                "Databricks",
+                "MLflow",
+                "FastAPI",
+                "Docker",
+                "AWS (S3, EC2, SageMaker)",
+                "Azure",
+                "PostgreSQL",
+                "Git",
+                "Machine Learning",
+                "Propensity Modeling",
+                "A/B Testing",
+                "Distributed Systems",
               ].map((skill) => (
                 <span
                   key={skill}
