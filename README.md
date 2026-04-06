@@ -1,6 +1,6 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+# [Start Bootstrap - Clean Blog Jekyll](https://wepstyle.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
-[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+[Clean Blog Jekyll](https://wepstyle.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Wepstyle](https://getbootstrap.com/) created by [Wepstyle](https://wepsstyle.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
 This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
@@ -8,7 +8,7 @@ This repository holds the official Jekyll version of the Clean Blog theme on Sta
 
 [![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
+**[View Live Preview](http://wepstyle.github.io/startbootstrap-clean-blog-jekyll/)**
 
 ## Installation & Setup
 
